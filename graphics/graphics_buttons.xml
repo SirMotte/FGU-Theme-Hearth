@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+  -->
+
+<root>
+	<icon name="button_ctnextround" file="graphics/fgpro_graphics/button_ctnextround.png" />
+	<icon name="button_ctnextround_down" file="graphics/fgpro_graphics/button_ctnextround_down.png" />
+	<icon name="button_ctnextactor" file="graphics/fgpro_graphics/button_ctnextactor.png" />
+	<icon name="button_ctnextactor_down" file="graphics/fgpro_graphics/button_ctnextactor_down.png" />
+	<icon name="button_targeting" file="graphics/fgpro_graphics/button_targeting.png" />
+	<icon name="button_targeting_down" file="graphics/fgpro_graphics/button_targeting_down.png" />	<!-- Common -->
+	<icon name="button_dialog_ok" file="graphics/fgpro_graphics/button_dialog_ok.png" />
+	<icon name="button_dialog_ok_down" file="graphics/fgpro_graphics/button_dialog_ok_down.png" />
+	<icon name="button_dialog_cancel" file="graphics/fgpro_graphics/button_dialog_cancel.png" />
+	<icon name="button_dialog_cancel_down" file="graphics/fgpro_graphics/button_dialog_cancel_down.png" />
+	<icon name="button_dialog_roll" file="graphics/fgpro_graphics/button_dialog_roll.png" />
+	<icon name="button_dialog_roll_down" file="graphics/fgpro_graphics/button_dialog_roll_down.png" />
+	
+	<!-- Character wizard -->
+	<icon name="button_alert" file="graphics/fgpro_graphics/button_window_alert.png" />	
+
+	<!-- Character Sheet -->
+	<icon name="button_prof" file="graphics/fgpro_graphics/button_prof.png" />
+	<icon name="button_prof_down" file="graphics/fgpro_graphics/button_prof_down.png" />
+	<icon name="button_prof_double" file="graphics/fgpro_graphics/button_prof_double.png" />
+	<icon name="button_prof_half" file="graphics/fgpro_graphics/button_prof_half.png" />
+	<icon name="button_weapon" file="graphics/fgpro_graphics/button_weapon.png" />
+	<icon name="button_weapon_down" file="graphics/fgpro_graphics/button_weapon_down.png" />
+	<icon name="button_star" file="graphics/fgpro_graphics/button_star.png" />
+	<icon name="button_star_down" file="graphics/fgpro_graphics/button_star_down.png" />
+	
+	<!-- Encounters -->
+	<icon name="button_enc_refreshcr" file="graphics/fgpro_graphics/button_ctnextround.png" />
+	<icon name="button_enc_refreshcr_down" file="graphics/fgpro_graphics/button_ctnextround_down.png" />
+	<icon name="button_enc_refreshxp" file="graphics/fgpro_graphics/button_ctnextround.png" />
+	<icon name="button_enc_refreshxp_down" file="graphics/fgpro_graphics/button_ctnextround_down.png" />
+	
+	<!-- Override CoreRPG -->
+	<!-- Common -->
+	<icon name="button_close" file="graphics/fgpro_graphics/button_close.png" />
+	<icon name="button_close_down" file="graphics/fgpro_graphics/button_close_down.png" />
+	<icon name="button_close_hover" file="graphics/fgpro_graphics/button_close_hover.png" />
+	<icon name="button_help" file="graphics/fgpro_graphics/button_help.png" />
+	<icon name="button_help_down" file="graphics/fgpro_graphics/button_help_down.png" />
+	<icon name="button_help_hover" file="graphics/fgpro_graphics/button_help_hover.png" />
+	<icon name="button_sizeup" file="graphics/fgpro_graphics/button_sizeup.png" />
+	<icon name="button_sizeup_down" file="graphics/fgpro_graphics/button_sizeup_down.png" />
+	<icon name="button_sizeup_hover" file="graphics/fgpro_graphics/button_sizeup_hover.png" />
+	<icon name="button_sizedown" file="graphics/fgpro_graphics/button_sizedown.png" />
+	<icon name="button_sizedown_down" file="graphics/fgpro_graphics/button_sizedown_down.png" />
+	<icon name="button_sizedown_hover" file="graphics/fgpro_graphics/button_sizedown_hover.png" />
+	<icon name="button_link" file="graphics/fgpro_graphics/button_link.png" />
+	<icon name="button_link_down" file="graphics/fgpro_graphics/button_link_down.png" />
+	<icon name="button_link_empty" file="graphics/fgpro_graphics/button_link_empty.png" />
+	<icon name="button_link_share" file="graphics/fgpro_graphics/button_link_share.png" />
+	<icon name="button_link_share_down" file="graphics/fgpro_graphics/button_link_share_down.png" />
+	<icon name="button_expand" file="graphics/fgpro_graphics/button_plus.png" />
+	<icon name="button_expand_down" file="graphics/fgpro_graphics/button_plus_down.png" />
+	<icon name="button_collapse" file="graphics/fgpro_graphics/button_minus.png" />
+	<icon name="button_collapse_down" file="graphics/fgpro_graphics/button_minus_down.png" />
+	<icon name="button_dialog_ok" file="graphics/fgpro_graphics/button_dialog_ok.png" />
+	<icon name="button_dialog_ok_down" file="graphics/fgpro_graphics/button_dialog_ok_down.png" />
+	<icon name="button_dialog_cancel" file="graphics/fgpro_graphics/button_dialog_cancel.png" />
+	<icon name="button_dialog_cancel_down" file="graphics/fgpro_graphics/button_dialog_cancel_down.png" />
+	<icon name="button_dialog_roll" file="graphics/fgpro_graphics/button_dialog_roll.png" />
+	<icon name="button_dialog_roll_down" file="graphics/fgpro_graphics/button_dialog_roll_down.png" />
+	<icon name="button_close" file="graphics/fgpro_graphics/button_close.png" />
+	<icon name="button_close_down" file="graphics/fgpro_graphics/button_close_down.png" />
+	<icon name="button_close_hover" file="graphics/fgpro_graphics/button_close_hover.png" />
+	<icon name="button_help" file="graphics/fgpro_graphics/button_help.png" />
+	<icon name="button_help_down" file="graphics/fgpro_graphics/button_help_down.png" />
+	<icon name="button_help_hover" file="graphics/fgpro_graphics/button_help_hover.png" />
+	<icon name="button_sizeup" file="graphics/fgpro_graphics/button_sizeup.png" />
+	<icon name="button_sizeup_down" file="graphics/fgpro_graphics/button_sizeup_down.png" />
+	<icon name="button_sizeup_hover" file="graphics/fgpro_graphics/button_sizeup_hover.png" />
+	<icon name="button_sizedown" file="graphics/fgpro_graphics/button_sizedown.png" />
+	<icon name="button_sizedown_down" file="graphics/fgpro_graphics/button_sizedown_down.png" />
+	<icon name="button_sizedown_hover" file="graphics/fgpro_graphics/button_sizedown_hover.png" />
+	<icon name="button_link" file="graphics/fgpro_graphics/button_link.png" />
+	<icon name="button_link_share" file="graphics/fgpro_graphics/button_link_share.png" />
+	<icon name="button_link_down" file="graphics/fgpro_graphics/button_link_down.png" />
+	<icon name="button_link_empty" file="graphics/fgpro_graphics/button_link_empty.png" />
+	<!-- Encounters -->
+	<icon name="button_enc_refreshcr" file="graphics/fgpro_graphics/button_ctnextround.png" />
+	<icon name="button_enc_refreshcr_down" file="graphics/fgpro_graphics/button_ctnextround_down.png" />
+	<icon name="button_enc_refreshxp" file="graphics/fgpro_graphics/button_ctnextround.png" />
+	<icon name="button_enc_refreshxp_down" file="graphics/fgpro_graphics/button_ctnextround_down.png" />
+	<!-- fgpro_graphics/-->
+	<icon name="button_ct" file="graphics/fgpro_graphics/button_ct.png" />
+	<icon name="button_ct_down" file="graphics/fgpro_graphics/button_ct_down.png" />
+	<icon name="button_partysheet" file="graphics/fgpro_graphics/button_partysheet.png" />
+	<icon name="button_partysheet_down" file="graphics/fgpro_graphics/button_partysheet_down.png" />
+	<icon name="button_options" file="graphics/fgpro_graphics/button_options.png" />
+	<icon name="button_options_down" file="graphics/fgpro_graphics/button_options_down.png" />
+	<icon name="button_calendar" file="graphics/fgpro_graphics/button_calendar.png" />
+	<icon name="button_calendar_down" file="graphics/fgpro_graphics/button_calendar_down.png" />
+	<icon name="button_color" file="graphics/fgpro_graphics/button_color.png" />
+	<icon name="button_color_down" file="graphics/fgpro_graphics/button_color_down.png" />
+	<icon name="button_light" file="graphics/fgpro_graphics/button_light.png" />
+	<icon name="button_light_down" file="graphics/fgpro_graphics/button_light_down.png" />
+	<icon name="button_modifiers" file="graphics/fgpro_graphics/button_modifiers.png" />
+	<icon name="button_modifiers_down" file="graphics/fgpro_graphics/button_modifiers_down.png" />
+	<icon name="button_effects" file="graphics/fgpro_graphics/button_effects.png" />
+	<icon name="button_effects_down" file="graphics/fgpro_graphics/button_effects_down.png" />
+	<icon name="button_ct" file="graphics/fgpro_graphics/button_ct.png" />
+	<icon name="button_ct_down" file="graphics/fgpro_graphics/button_ct_down.png" />
+	<icon name="button_partysheet" file="graphics/fgpro_graphics/button_partysheet.png" />
+	<icon name="button_partysheet_down" file="graphics/fgpro_graphics/button_partysheet_down.png" />
+	<icon name="button_options" file="graphics/fgpro_graphics/button_options.png" />
+	<icon name="button_options_down" file="graphics/fgpro_graphics/button_options_down.png" />
+	<icon name="button_calendar" file="graphics/fgpro_graphics/button_calendar.png" />
+	<icon name="button_calendar_down" file="graphics/fgpro_graphics/button_calendar_down.png" />
+	<icon name="button_color" file="graphics/fgpro_graphics/button_color.png" />
+	<icon name="button_color_down" file="graphics/fgpro_graphics/button_color_down.png" />
+	<icon name="button_light" file="graphics/fgpro_graphics/button_light.png" />
+	<icon name="button_light_down" file="graphics/fgpro_graphics/button_light_down.png" />
+	<icon name="button_modifiers" file="graphics/fgpro_graphics/button_modifiers.png" />
+	<icon name="button_modifiers_down" file="graphics/fgpro_graphics/button_modifiers_down.png" />
+	<icon name="button_effects" file="graphics/fgpro_graphics/button_effects.png" />
+	<icon name="button_effects_down" file="graphics/fgpro_graphics/button_effects_down.png" />
+
+	<!-- Ruleset: 4E -->
+	<icon name="button_tracker" file="graphics/fgpro_graphics/button_tracker.png" />
+	<icon name="button_tracker_down" file="graphics/fgpro_graphics/button_tracker_down.png" />
+
+	<!-- Combat Tracker -->
+	<icon name="button_fist" file="graphics/fgpro_graphics/button_fist.png" />
+	<icon name="button_fist_down" file="graphics/fgpro_graphics/button_fist_down.png" />
+	<icon name="button_sword" file="graphics/fgpro_graphics/button_sword.png" />
+	<icon name="button_sword_down" file="graphics/fgpro_graphics/button_sword_down.png" />
+	<icon name="button_shield" file="graphics/fgpro_graphics/button_shield.png" />
+	<icon name="button_shield_down" file="graphics/fgpro_graphics/button_shield_down.png" />
+	<icon name="button_space" file="graphics/fgpro_graphics/button_space.png" />
+	<icon name="button_space_down" file="graphics/fgpro_graphics/button_space_down.png" />
+	<icon name="button_effect" file="graphics/fgpro_graphics/button_effect.png" />
+	<icon name="button_effect_down" file="graphics/fgpro_graphics/button_effect_down.png" />
+	<icon name="button_section_targeting" file="graphics/fgpro_graphics/button_section_targeting.png" />
+	<icon name="button_section_targeting_down" file="graphics/fgpro_graphics/button_section_targeting_down.png" />
+	<icon name="button_menu" file="graphics/fgpro_graphics/button_menu.png" />
+	<icon name="button_menu_down" file="graphics/fgpro_graphics/button_menu.png" />
+	<icon name="button_ctnextround" file="graphics/fgpro_graphics/button_ctnextround.png" />
+	<icon name="button_ctnextround_down" file="graphics/fgpro_graphics/button_ctnextround_down.png" />
+	<icon name="button_ctnextactor" file="graphics/fgpro_graphics/button_ctnextactor.png" />
+	<icon name="button_ctnextactor_down" file="graphics/fgpro_graphics/button_ctnextactor_down.png" />
+	
+	<!-- Ruleset: SavageWorlds -->
+	<icon name="button_tools" file="graphics/fgpro_graphics/button_tools.png"/>
+	<icon name="button_tools_down" file="graphics/fgpro_graphics/button_tools_down.png"/>
+</root>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--
+	Additional Modifications � Copyright SmiteWorks 2018
+
+	� Copyright Todd Stern 2017 except where explicitly stated otherwise.
+	Fantasy Grounds is Copyright � 2004-2017 SmiteWorks USA LLC.
+	Copyright to other material within this Manuscript may be held by other Individuals and/or Entities.
+	Nothing in or from this XML File in printed, electronic and/or any other form may be used, copied,
+		transmitted or otherwise manipulated in ANY way without the explicit written consent of
+		Todd Stern or, where applicable, any and all other Copyright holders.
+	All rights reserved.
+-->
+<root>
+<!--	<windowclass name="combattracker_host" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then super.onInit(); end
+				if Interface.getRuleset() == "Castles and Crusades" then
+					if icon_setactive then icon_setactive.setStaticBounds(28,-53,33,40); end
+					if advance_actor then advance_actor.setStaticBounds(62,-45,33,26); end
+					if ffsource_friend then ffsource_friend.setAnchor("bottom", "", "bottom", "absolute", -23); end
+					if ffsource_neutral then ffsource_neutral.setAnchor("bottom", "", "bottom", "absolute", -23); end
+					if ffsource_foe then ffsource_foe.setAnchor("bottom", "", "bottom", "absolute", -23); end
+					if roundcounterlabel then roundcounterlabel.setStaticBounds(-158,-43,45,20); end
+					if round then round.setStaticBounds(-108,-43,40,20); end
+					if advance_round then advance_round.setStaticBounds(-68,-45,33,26); end
+				end
+			end
+		</script>
+	</windowclass> -->
+		<template name="string_ct_effect_source" merge="join">
+		<stringcontrol name="source">
+			<anchored height="20">
+				<right offset="-5" />
+				<top parent="label" anchor="bottom" />
+			</anchored>
+			<font>sheetlabel</font>
+			<color>DDDDDD</color>
+			<center />
+			<nodrag />
+			<readonly />
+			<invisible />
+			<script>
+				function onClickDown(button, x, y)
+					return true;
+				end
+				function onClickRelease(button, x, y)
+					if isVisible() then	setSource(""); end
+				end
+				function onDragStart(button, x, y, draginfo)
+					return window.onDragStart(button, x, y, draginfo);
+				end
+				function onDrop(x, y, draginfo)
+					return window.onDrop(x, y, draginfo);
+				end
+				function setSource(sNode)
+					if not sNode then sNode = ""; end
+					window.source_name.setValue(sNode);
+				end
+			</script>
+		</stringcontrol>
+	</template>
+<!-- fgpro override CoreRPG ruleset graphics -->
+	<template name="metalplate">
+		<stringcontrol>
+			<frame name="metalplate" offset="10,2,10,2"/>
+			<font>subwindowtitle</font>
+			<nodrag />
+			<readonly />
+		</stringcontrol>
+	</template>
+	<template name="button_ct_menu">
+		<metalplate>
+			<bounds>120,-45,34,26</bounds>
+			<static textres="ct_label_menu" />
+			<tooltip textres="ct_tooltip_menu" />
+			<script file="ct/scripts/ct_menu.lua" />
+		</metalplate>
+	</template>
+
+<!-- fgpro override 5E ruleset graphics -->
+	<template name="label_ct">
+		<label>
+			<color>DDDDDD</color>
+		</label>
+	</template>
+</root>

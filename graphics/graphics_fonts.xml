@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+  	Additional Modifications � Copyright SmiteWorks 2018
+
+	� Copyright Todd Stern 2017 except where explicitly stated otherwise.
+	Fantasy Grounds is Copyright � 2004-2017 SmiteWorks USA LLC.
+	Copyright to other material within this Manuscript may be held by other Individuals and/or Entities.
+	Nothing in or from this XML File in printed, electronic and/or any other form may be used, copied,
+		transmitted or otherwise manipulated in ANY way without the explicit written consent of
+		Todd Stern or, where applicable, any and all other Copyright holders.
+	All rights reserved.
+-->
+
+<root>
+	<!-- Note: FGF tags processed first for FG Classic, and TTF tags processed first for FGU -->
+	<!-- Text Highlight -->
+	<textsettings>
+		<selectioncolor>0C0C0C</selectioncolor>
+	</textsettings>
+		<!-- Sidebar -->
+	<font name="button_sidebar_dockitem">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#EBDDBA" />
+	</font>
+			<!-- Default fonts - REQUIRED -->
+	<font name="defaultstringcontrol">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="defaultnumbercontrol">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<!-- Distance font - REQUIRED -->
+	<font name="distancelabel">
+		<fgffile name="graphics/fonts/diemod.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
+		<color value="#DDDDDD" />
+	</font>
+	
+	<!-- Dice fonts - REQUIRED -->
+	<font name="diceexpr" version="&gt;=4">
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="diemod">
+		<fgffile name="graphics/fonts/diemod.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="30" />
+		<color value="#EBDDBA" />
+	</font>
+	<font name="dieresult">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	
+	<!-- Drag fonts - REQUIRED -->
+	<font name="draglabel">
+		<fgffile name="graphics/fonts/draglabel.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="42" />
+		<color value="#DDDDDD" />
+	</font>
+
+	<!-- Chat fonts - REQUIRED -->
+	<font name="chatfont">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="emotefont">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#FF8C8C" />
+	</font>
+	<font name="narratorfont">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="16" />
+		<color value="#F5E4A1" />
+	</font>
+	<font name="systemfont">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#FF90FF" />
+	</font>
+	<font name="msgfont">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#FF90FF" />
+	</font>
+	<font name="oocfont">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#77CE77" />
+	</font>
+	
+	<!-- Chat fonts -->
+	<font name="chatnpcfont">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#B4B4F0" />
+	</font>
+	<font name="chatgmfont">
+		<fgffile name="graphics/fonts/bolditalic-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
+		<color value="#B4B4F0" />
+	</font>
+	<font name="whisperfont">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#44CDC5" />
+	</font>
+
+	<!-- Radial menus and character list -->
+	<font name="mini_name">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="mini_name_selected">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<!-- Identity list -->
+	<font name="idactivefont">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="idinactivefont">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<!-- Hot keys -->
+	<font name="hotkey">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />		
+	</font>
+
+	<!-- Modifier stack -->
+	<font name="modcollector">
+		<fgffile name="graphics/fonts/diemod.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="modcollectorlabel">
+		<fgffile name="graphics/fonts/modcollectorlabel.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
+		<color value="#DDDDDD" />
+	</font>
+	<!-- Windows -->
+<font name="windowtitle">
+		<fgffile name="graphics/fonts/bold-11.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="20" />
+		<color value="#EBDDBA" />
+	</font>
+		<font name="subwindowtitle">
+		<fgffile name="graphics/fonts/title-regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
+		<color value="#EBDDBA" />
+	</font>
+	<font name="subwindowsmalltitle">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#EBDDBA" />
+	</font>
+	<font name="subwindowsmalltitle_disabled">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#EBDDBA" />
+	</font>
+	<!-- Formatted text fields -->
+	<font name="reference-r">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="reference-i">
+		<fgffile name="graphics/fonts/italic-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="reference-b">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="reference-bi">
+		<fgffile name="graphics/fonts/bolditalic-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-BoldItalic.ttf" name="Roboto Bold Italic" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="reference-b-large">
+		<fgffile name="graphics/fonts/bold-11.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+		<color value="#DDDDDD" />
+	</font>
+	
+	<!-- Standard text fields -->
+	<font name="sheetlabel">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#EBDDBA" />
+	</font>
+	<font name="sheettext">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+
+	<!-- Number fields -->
+	<font name="sheetnumber">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+
+	<!-- Character selection -->
+	<font name="charselecttitle">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="charselectbody">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#EBDDBA" />
+	</font>
+
+	<!-- Options -->
+	<font name="optionset">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#EBDDBA" />
+	</font>
+	<font name="optiontitle">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="optionbody">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	
+	<!-- Tables -->
+	<font name="tablerange">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="tableheader">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="tabledata">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	
+	<!-- Calendar -->
+	<font name="calendarday">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="calendarday-b">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto Regular" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="calendarday-bi">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="calendarbold">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="calendarselecttitle">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#EBDDBA" />
+	</font>
+	<font name="calendarselectbody">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="calendarmessage">
+		<fgffile name="graphics/fonts/italic-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+
+	<!-- Characters -->
+	<font name="sheetlabelinline">
+		<fgffile name="graphics/fonts/regular-8.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="sheetlabelmini">
+		<fgffile name="graphics/fonts/regular-8.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
+		<color value="#DDDDDD" />
+	</font>
+	
+	<!-- Reference -->
+	<font name="reference-header">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#EBDDBA" />
+	</font>
+	<font name="reference-section">
+		<fgffile name="graphics/fonts/title-regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#EBDDBA" />
+	</font>
+	<font name="reference-chapter">
+		<fgffile name="graphics/fonts/title-regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#F2AB76" />
+	</font>
+	<font name="reference-groupdesc">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#EBDDBA" />
+	</font>
+	<font name="reference-groupsubdesc">
+		<fgffile name="graphics/fonts/italic-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="reference-page-header">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="26" />
+		<color value="#EBDDBA" />
+	</font>
+	<!-- Asset View (FGU) -->
+	<font name="tokenbagasset_grid" version="&gt;=4">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="tokenbagasset_list" version="&gt;=4">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="assetview-path-active" version="&gt;=4">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="assetview-path-inactive" version="&gt;=4">
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="assetview_empty" version="&gt;=4">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>	
+	<!-- Misc -->
+	<font name="list-empty">
+		<fgffile name="graphics/fonts/italic-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="button-white">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="button-white-large">
+		<fgffile name="graphics/fonts/regular-11.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
+		<color value="#DDDDDD" />
+	</font>
+		<!-- Characters - Color Change-->
+	<font name="sheetlabelinline">
+		<fgffile name="graphics/fonts/regular-8.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
+		<color value="#DDDDDD" />
+	</font>
+	<!-- Misc -->
+	<font name="list-empty-ct">
+		<fgffile name="graphics/fonts/italic-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="list-empty-ps">
+		<fgffile name="graphics/fonts/italic-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="reference-subtitle">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+		<font name="reference-title">
+		<fgffile name="graphics/fonts/bold-14.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
+		<color value="#EBDDBA" />
+	</font>
+	<font name="reference-h">
+		<fgffile name="graphics/fonts/bold-14.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
+		<color value="#EBDDBA" />
+	</font>
+	<!-- Modifier Stack -->
+	<font name="modcollector">
+		<fgffile name="graphics/fonts/diemod.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
+		<color value="#EBDDBA" />
+	</font>
+	<font name="modcollectorlabel">
+		<fgffile name="graphics/fonts/modcollectorlabel.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
+		<color value="#EBDDBA" />
+		</font>	
+	<!-- Windows -->
+	<font name="windowtitle"> 
+		<fgffile name="graphics/fonts/title-regular-12.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+		<color value="#EBDDBA" />
+	</font>	
+	<!-- Assets -->
+	<font name="tokenbagasset_grid" version="&gt;=4" merge="join">
+		<color value="#DDDDDD" />
+	</font>
+	<font name="tokenbagasset_list" version="&gt;=4" merge="join">
+		<color value="#DDDDDD" />
+	</font>
+	<!-- Languages -->
+	<font name="Dwarven">
+		<ttf file="graphics/fonts/Dwarven.ttf" name="D&amp;D Dwarvish Bold" size="30" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="Elven">
+		<ttf file="graphics/fonts/Elven.ttf" name="D&amp;DElven" size="30" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="Infernal">
+		<ttf file="graphics/fonts/Infernal.ttf" name="D&amp;D Abyssal Barazhad" size="30" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="Celestial">
+		<ttf file="graphics/fonts/Celestial.ttf" name="Supernal" size="30" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="Draconic">
+		<ttf file="graphics/fonts/Draconic.ttf" name="Draconic 4" size="30" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="Primordial">
+		<ttf file="graphics/fonts/Primordial.ttf" name="Primordial" size="30" />
+		<color value="#DDDDDD" />
+	</font>
+</root>
