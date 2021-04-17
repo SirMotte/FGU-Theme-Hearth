@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	<windowclass name="combattracker_host">
+		<frame>ctbox</frame>
+		<placement>
+			<size width="650" height="500" />
+		</placement>
+		<sizelimits>
+			<minimum width="650" height="400" />
+			<dynamic />
+		</sizelimits>
+		<softclose />
+		<nodelete />
+		<sheetdata>
+			<windowtitlebar name="title">
+				<resource>ct_window_title</resource>
+			</windowtitlebar>
+			<anchor_title_ctbox name="contentanchor" />
+
+			<anchor_ctbox_host_header />
+			<frame_ctbox_host_header_visibility />
+			<buttoncontrol name="button_global_visibility">
+				<anchored to="header_vis" position="insidetopleft" offset="-5,2" width="22" height="22" />
+				<state icon="visibilityoff" tooltipres="ct_tooltip_shownpcallon" />
+				<state icon="visibilityon" tooltipres="ct_tooltip_shownpcalloff" />
+				<script>
+					function onValueChanged()
+						window.list.toggleVisibility();
+					end
+				</script>
+			</buttoncontrol>
+			<frame_ctbox_host_header_labels />
+			<label_ct name="label_name">
+				<anchored to="header_labels" position="insidetopleft" offset="5,3">
+					<right offset="-175" />
+				</anchored>
+				<static textres="ct_label_name" />
+				<center />
+			</label_ct>
+			<label_ct name="label_init">
+				<anchored to="header_labels" position="insidetopright" offset="140,3" width="30" />
+				<static textres="init" />
+				<center />
+			</label_ct>
+			<label_ct name="label_hp">
+				<anchored to="header_labels" position="insidetopright" offset="95,3" width="30" />
+				<static textres="hp" />
+				<tooltip textres="hitpoints" />
+				<center />
+			</label_ct>
+			<label_ct name="label_temp">
+				<anchored to="header_labels" position="insidetopright" offset="55,3" width="30" />
+				<static textres="ct_label_hptemp" />
+				<tooltip textres="ct_tooltip_hptemp" />
+				<center />
+			</label_ct>
+			<label_ct name="label_wounds">
+				<anchored to="header_labels" position="insidetopright" offset="15,3" width="30" />
+				<static textres="ct_label_wounds" />
+				<tooltip textres="ct_tooltip_wounds" />
+				<center />
+			</label_ct>
+			<frame_ctbox_host_header_toggles />
+			<buttoncontrol name="button_global_targeting">
+				<anchored to="header_toggles" position="insidetopleft" offset="7,-3" width="35" height="32" />
+				<state icon="button_section_targeting" />
+				<state icon="button_section_targeting_down" />
+				<script>
+					function onValueChanged()
+						window.list.toggleTargeting();
+					end
+				</script>
+			</buttoncontrol>
+			<buttoncontrol name="button_global_attribute">
+				<anchored to="header_toggles" position="insidetopleft" offset="32,-3" width="35" height="32" />
+				<state icon="button_fist" />
+				<state icon="button_fist_down" />
+				<script>
+					function onValueChanged()
+						window.list.toggleAttributes();
+					end
+				</script>
+			</buttoncontrol>
+			<buttoncontrol name="button_global_active">
+				<anchored to="header_toggles" position="insidetopleft" offset="57,-3" width="35" height="32" />
+				<state icon="button_sword" />
+				<state icon="button_sword_down" />
+				<script>
+					function onValueChanged()
+						window.list.toggleActive();
+					end
+				</script>
+			</buttoncontrol>
+			<buttoncontrol name="button_global_spacing">
+				<anchored to="header_toggles" position="insidetopleft" offset="84,-3" width="35" height="32" />
+				<state icon="button_space" />
+				<state icon="button_space_down" />
+				<script>
+					function onValueChanged()
+						window.list.toggleSpacing();
+					end
+				</script>
+			</buttoncontrol>
+			<buttoncontrol name="button_global_effects">
+				<anchored to="header_toggles" position="insidetopleft" offset="115,-3" width="35" height="32" />
+				<state icon="button_effect" />
+				<state icon="button_effect_down" />
+				<script>
+					function onValueChanged()
+						window.list.toggleEffects();
+					end
+				</script>
+			</buttoncontrol>
+				
+			<list_ctbox_host />
+			<scrollbar_list />
+			
+			<button_ct_setactive />
+			<button_ct_nextactor />
+
+			<button_ct_faction_friend />
+			<button_ct_faction_neutral />
+			<button_ct_faction_foe />
+		
+			<button_ct_menu />
+
+			<label_ct_host_rounds />
+			<number_ct_host_rounds />
+			<button_ct_nextround />
+			
+			<resize_ctbox />
+			<helper_ct />
+			<close_ctbox />
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="ct_entry">
+		<margins control="0,0,0,5" />
+		<frame>ctentrybox</frame>
+		<sizelimits>
+			<minimum height="50" />
+		</sizelimits>
+		<script file="ct/scripts/ct_entry.lua" />
+		<sheetdata>
+			<hs name="tokenrefid" />
+			<hs name="tokenrefnode" />
+			<hs name="status" />
+			
+			<hsx name="senses" />
+			<hsx name="type" />
+			<hsx name="size" />
+			<hsx name="alignment" />
+			<hnx name="deathsavesuccess" />
+			<hnx name="deathsavefail">
+				<script>
+					function update() window.onHealthChanged(); end
+				</script>
+			</hnx>
+
+			<spacer_ctentry_active_top name="active_spacer_top" />
+			
+			<button_ctentry_active name="active" />
+			<token_ctentry name="token" />
+			<button_ctentry_tokenvis name="tokenvis" />
+			<button_ctentry_isidentified name="isidentified" />
+			
+			<anchor_ctentry_right name="rightanchor" />
+			<button_ctentry_idelete name="idelete" />
+			<link_ctentry name="link">
+				<anchored merge="replace" to="rightanchor" width="35" height="35">
+					<top relation="relative" offset="-8" />
+					<right anchor="left" relation="relative" offset="-8" />
+				</anchored>
+			</link_ctentry>
+
+			<button_ctentry_activateeffects name="activateeffects">
+				<anchored merge="replace" to="rightanchor" width="35" height="32">
+					<top relation="relative" />
+					<right anchor="left" relation="relative" offset="0" />
+				</anchored>
+			</button_ctentry_activateeffects>
+			<button_ctentry_activatespacing name="activatespacing">
+				<anchored merge="replace" to="rightanchor" width="35" height="32">
+					<top relation="relative" offset="2"/>
+					<right anchor="left" relation="relative" offset="3"/>
+				</anchored>
+			</button_ctentry_activatespacing>
+			<button_ctentry_activateactive name="activateactive">
+				<anchored merge="replace" to="rightanchor" width="35" height="32">
+					<top relation="relative" />
+					<right anchor="left" relation="relative" offset="10"/>
+				</anchored>
+			</button_ctentry_activateactive>
+			<button_ctentry_activateattributes name="activateattributes" />
+			<button_ctentry_activatetargeting name="activatetargeting">
+				<anchored merge="replace" to="rightanchor" width="35" height="32">
+					<top relation="relative"/>
+					<right anchor="left" relation="relative" offset="10" />
+				</anchored>
+			</button_ctentry_activatetargeting>
+			<button_ctentry_friendfoe name="friendfoe">
+				<anchored merge="replace" to="rightanchor" width="35" height="32">
+					<top relation="relative"/>
+					<right anchor="left" relation="relative" offset="2" />
+				</anchored>
+			</button_ctentry_friendfoe>
+
+			<number_ct_crosslink name="wounds">
+				<anchored to="rightanchor" width="30" height="20">
+					<top />
+					<right anchor="left" relation="relative" offset="-10" />
+				</anchored>
+				<min value="0" />
+				<hideonvalue value="0" />
+				<tabtarget prev="hptemp" next="strength" />
+				<script>
+					function handleDrop(draginfo)
+						if draginfo.getType() == "number" then
+							local node = window.getDatabaseNode();
+							local rActor = ActorManager.resolveActor(node);
+							ActionDamage.applyDamage(nil, rActor, CombatManager.isCTHidden(node), draginfo.getDescription(), draginfo.getNumberData());
+						end
+					end
+
+					function update()
+						window.onHealthChanged();
+					end
+				</script>
+			</number_ct_crosslink>
+			<number_ct_crosslink name="hptemp">
+				<anchored to="rightanchor" width="30" height="20">
+					<top />
+					<right anchor="left" relation="relative" offset="-10" />
+				</anchored>
+				<color>5C9DFF</color>
+				<hideonvalue value="0" />
+				<tabtarget prev="hptotal" next="wounds" />
+				<script>
+					function handleDrop(draginfo)
+						if draginfo.getNumberData() &gt; 0 then
+							setValue(draginfo.getNumberData());
+						else
+							setValue(getValue() + draginfo.getNumberData());
+						end
+					end
+
+					function update()
+						window.onHealthChanged();
+					end
+				</script>
+			</number_ct_crosslink>
+			<number_ct_crosslink name="hptotal">
+				<anchored to="rightanchor" width="30" height="20">
+					<top />
+					<right anchor="left" relation="relative" offset="-10" />
+				</anchored>
+				<tabtarget prev="initresult" next="hptemp" />
+				<script>
+					function update()
+						window.onHealthChanged();
+					end
+				</script>
+			</number_ct_crosslink>
+			<number_ctentry_initresult name="initresult">
+				<anchored><right offset="-15" /></anchored>
+			</number_ctentry_initresult>
+
+			<string_ctname name="name" />
+			<string_ctname_nonid name="nonid_name" />
+
+			<!-- Targeting subsection -->
+			<icon_ctsection_targeting name="targetingicon" />
+			<sub_ctsection_targeting name="sub_targeting" />
+			<frame_ctsection_targeting name="frame_targeting" />
+
+			<!-- Attributes subsection -->
+			<icon_ctsection name="attributesicon">
+				<icon>button_fist_down</icon>
+			</icon_ctsection>
+
+			<number_ct_ability name="strength" source="abilities.strength.score">
+				<anchored >
+					<top parent="active_spacer_top" anchor="bottom" relation="relative" offset="12" />
+					<left parent="attributesicon" anchor="right" offset="40" />
+				</anchored>
+				<target>strength</target>
+			</number_ct_ability>
+			<label name="strength_label">
+				<anchored to="strength" position="lefthigh" offset="7,0" />
+				<static textres="str" />
+			</label>
+			<number_ct_ability name="dexterity" source="abilities.dexterity.score">
+				<anchored to="strength" position="righthigh" offset="40,0" />
+				<target>dexterity</target>
+			</number_ct_ability>
+			<label name="dexterity_label">
+				<anchored to="dexterity" position="lefthigh" offset="7,0" />
+				<static textres="dex" />
+			</label>
+			<number_ct_ability name="constitution" source="abilities.constitution.score">
+				<anchored to="dexterity" position="righthigh" offset="40,0" />
+				<target>constitution</target>
+			</number_ct_ability>
+			<label name="constitution_label">
+				<anchored to="constitution" position="lefthigh" offset="7,0" />
+				<static textres="con" />
+			</label>
+			<number_ct_ability name="intelligence" source="abilities.intelligence.score">
+				<anchored to="constitution" position="righthigh" offset="40,0" />
+				<target>intelligence</target>
+			</number_ct_ability>
+			<label name="intelligence_label">
+				<anchored to="intelligence" position="lefthigh" offset="7,0" />
+				<static textres="int" />
+			</label>
+			<number_ct_ability name="wisdom" source="abilities.wisdom.score">
+				<anchored to="intelligence" position="righthigh" offset="40,0" />
+				<target>wisdom</target>
+			</number_ct_ability>
+			<label name="wisdom_label">
+				<anchored to="wisdom" position="lefthigh" offset="7,0" />
+				<static textres="wis" />
+			</label>
+			<number_ct_ability name="charisma" source="abilities.charisma.score">
+				<anchored to="wisdom" position="righthigh" offset="40,0" />
+				<target>charisma</target>
+			</number_ct_ability>
+			<label name="charisma_label">
+				<anchored to="charisma" position="lefthigh" offset="7,0" />
+				<static textres="cha" />
+			</label>
+			
+			<genericcontrol name="spacer_attribute">
+				<anchored height="0">
+					<top parent="active_spacer_top" anchor="bottom" relation="relative" offset="5" />
+					<left parent="attributesicon" anchor="right" offset="55" />
+					<right offset="-17" />
+				</anchored>
+				<disabled />
+			</genericcontrol>
+			
+			<frame_ctsub name="frame_attributes">
+				<anchored>
+					<top parent="attributesicon" offset="-4"/>
+					<bottom parent="strength" offset="10" />
+				</anchored>
+			</frame_ctsub>
+
+			<!-- Offense subsection -->
+			<icon_ctsection name="activeicon">
+				<icon>button_sword_down</icon>
+			</icon_ctsection>
+
+			<buttonfield name="reaction">
+				<anchored to="activeicon" position="righthigh" offset="55,5" width="12" height="20" />
+				<state icon="button_checkoff" tooltipres="ct_tooltip_reactionoff" />
+				<state icon="button_checkon" tooltipres="ct_tooltip_reactionon" />
+			</buttonfield>
+			<label name="reaction_label">
+				<anchored to="reaction" position="lefthigh" offset="5,0"/>
+				<static textres="ct_label_reaction" />
+			</label>
+			<number_ct_init name="init">
+				<anchored to="activeicon" position="righthigh" offset="110,5" />
+			</number_ct_init>
+			<label name="initlabel">
+				<anchored to="init" position="lefthigh" offset="10,0"/>
+				<static textres="init" />
+			</label>
+			<number_ct name="ac">
+				<anchored to="init" position="righthigh" offset="40,0" />
+				<description textres="armorclass" />
+			</number_ct>
+			<label name="aclabel">
+				<anchored to="ac" position="lefthigh" offset="10,0"/>
+				<static textres="ac" />
+			</label>
+			<string_ct name="speed">
+				<anchored to="ac" position="righthigh" offset="45,0" height="20">
+					<right parent="" offset="-17" />
+				</anchored>
+			</string_ct>
+			<label name="speedlabel">
+				<anchored to="speed" position="lefthigh" offset="5,0"/>
+				<static textres="ct_label_speed" />
+			</label>
+
+			<genericcontrol name="spacer_action">
+				<anchored height="0">
+					<top parent="active_spacer_top" anchor="bottom" relation="relative" offset="32" />
+					<left parent="activeicon" anchor="right" offset="75" />
+					<right offset="-17" />
+				</anchored>
+				<disabled />
+			</genericcontrol>
+			
+			<list_ct_actions name="traits">
+				<datasource>.traits</datasource>
+			</list_ct_actions>
+			<label_ct_actions name="traits_label">
+				<anchored to="traits" />
+				<static textres="ct_label_traits" />
+			</label_ct_actions>
+
+			<list_ct_actions name="actions">
+				<datasource>.actions</datasource>
+			</list_ct_actions>
+			<label_ct_actions name="actions_label">
+				<anchored to="actions" />
+				<static textres="ct_label_actions" />
+			</label_ct_actions>
+			<button_ct_actions_emptyadd name="actions_emptyadd">
+				<anchored to="actions" />
+				<target>actions</target>
+			</button_ct_actions_emptyadd>
+
+			<list_ct_actions name="reactions">
+				<datasource>.reactions</datasource>
+			</list_ct_actions>
+			<label_ct_actions name="reactions_label">
+				<anchored to="reactions" />
+				<static textres="ct_label_reactions" />
+			</label_ct_actions>
+			
+			<list_ct_actions name="legendaryactions">
+				<datasource>.legendaryactions</datasource>
+			</list_ct_actions>
+			<label_ct_actions name="legendaryactions_label">
+				<anchored to="legendaryactions" />
+				<static textres="ct_label_legendaryactions" />
+			</label_ct_actions>
+			
+			<list_ct_actions name="lairactions">
+				<datasource>.lairactions</datasource>
+			</list_ct_actions>
+			<label_ct_actions name="lairactions_label">
+				<anchored to="lairactions" />
+				<static textres="ct_label_lairactions" />
+			</label_ct_actions>
+			
+			<list_ct_actions name="innatespells">
+				<datasource>.innatespells</datasource>
+			</list_ct_actions>
+			<label_ct_actions name="innatespells_label">
+				<anchored to="innatespells" />
+				<static textres="ct_label_innatespells" />
+			</label_ct_actions>
+			
+			<subwindow name="spellslots">
+				<anchored height="24">
+					<top parent="active_spacer_top" anchor="bottom" relation="relative" offset="3" />
+					<left parent="activeicon" anchor="right" offset="75" />
+					<right offset="-17" />
+				</anchored>
+				<class>npc_spellslots</class>
+			</subwindow>
+			<list_ct_actions name="spells">
+				<datasource>.spells</datasource>
+			</list_ct_actions>
+			<label_ct_actions name="spells_label">
+				<anchored to="spellslots" />
+				<static textres="ct_label_spells" />
+			</label_ct_actions>
+			
+			<genericcontrol name="spacer_action2">
+				<anchored height="0">
+					<top parent="active_spacer_top" anchor="bottom" relation="relative" offset="3" />
+					<left parent="activeicon" anchor="right" offset="75" />
+					<right offset="-17" />
+				</anchored>
+				<disabled />
+			</genericcontrol>
+			
+			<frame_ctsub name="frame_active">
+				<anchored>
+					<top parent="activeicon" offset="-4"/>
+					<bottom parent="spacer_action2" offset="8" />
+				</anchored>
+			</frame_ctsub>
+
+			<!-- Space subsection -->
+			<icon_ctsection_spacing name="spacingicon" />
+			<number_ctentry_space name="space">
+				<default>5</default>
+			</number_ctentry_space>
+			<label_ctentry_space name="spacelabel" />
+			<number_ctentry_reach name="reach">
+				<default>5</default>
+			</number_ctentry_reach>
+			<label_ctentry_reach name="reachlabel" />
+			<genericcontrol name="spacer_space">
+				<anchored height="0">
+					<top parent="active_spacer_top" anchor="bottom" relation="relative" offset="2" />
+					<left parent="activeicon" anchor="right" offset="75" />
+					<right offset="-17" />
+				</anchored>
+				<disabled />
+			</genericcontrol>
+			<frame_ctsection_spacing name="frame_spacing">
+				<anchored>
+					<top parent="spacingicon" offset="-4"/>
+					<bottom parent="spacer_space" offset="8"/>
+				</anchored>
+			</frame_ctsection_spacing>
+
+			<!-- Effect subsection -->
+			<icon_ctsection_effect name="effecticon" />
+			<list_ctsection_effect name="effects" />
+			<button_ctsection_effect_iadd name="effects_iadd" />
+			<frame_ctsection_effect name="frame_effects" />
+
+			<!-- Quick labels -->
+			<string_ctentry_targets name="target_summary" />
+			<string_ctentry_effects name="effect_summary" />
+
+			<spacer_ctentry_middle name="spacer" />
+			<spacer_ctentry_active_bottom name="active_spacer_bottom" />
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="ct_power">
+		<margins control="0,0,0,2" />
+		<sheetdata>
+			<linkcontrol name="shortcut">
+				<anchored position="insidetopleft" offset="5,2" width="20" height="20" />
+				<class>ct_power_detail</class>
+			</linkcontrol>
+			<string_textlistitem name="value">
+				<anchored position="insidetopleft" offset="30,2">
+					<right />
+				</anchored>
+				<multilinespacing>20</multilinespacing>
+				<lineoffset default="on">1</lineoffset>
+				<nohighlight />
+				<actorpath>....</actorpath>
+				<script file="ct/scripts/ct_power.lua" />
+			</string_textlistitem>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="ct_power_detail">
+		<frame>recordsheet</frame>
+		<placement>
+			<size width="300" height="300" />
+		</placement>
+		<sizelimits>
+			<dynamic />
+		</sizelimits>
+		<sheetdata>
+			<stringfield name="name">
+				<anchored position="insidetop" offset="-10,10" />
+				<frame name="headergray" offset="5,5,5,5" />
+				<font>sheetlabel</font>
+				<multilinespacing>20</multilinespacing>
+				<readonly />
+			</stringfield>
+			
+			<basicstring name="desc">
+				<anchored>
+					<top parent="name" anchor="bottom" offset="7" />
+					<left offset="15" />
+					<right offset="-20" />
+					<bottom offset="-25" />
+				</anchored>
+				<multilinespacing>20</multilinespacing>
+				<readonly />
+			</basicstring>
+			<scrollbar>
+				<anchored to="desc" />
+				<target>desc</target>
+			</scrollbar>
+			
+			<resize_recordsheet />
+			<close_recordsheet />
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="ct_effect" merge="join">
+		<sheetdata>
+			<button_ct_effect_apply name="apply" insertbefore="rightanchor" />
+		</sheetdata>
+	</windowclass>
+</root>

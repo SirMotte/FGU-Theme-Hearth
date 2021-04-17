@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--
+	Additional Modifications © Copyright SmiteWorks 2018
+
+	© Copyright Todd Stern 2017 except where explicitly stated otherwise.
+	Fantasy Grounds is Copyright © 2004-2017 SmiteWorks USA LLC.
+	Copyright to other material within this Manuscript may be held by other Individuals and/or Entities.
+	Nothing in or from this XML File in printed, electronic and/or any other form may be used, copied,
+		transmitted or otherwise manipulated in ANY way without the explicit written consent of
+		Todd Stern or, where applicable, any and all other Copyright holders.
+	All rights reserved.
+-->
+<root>
+<!-- fgpro override CoreRPG & 5E ruleset graphics -->
+	
+	<!-- Effects -->
+	<template name="label_effects_conditions">
+		<label name="label_conditions">
+			<anchored to="contentanchor" width="170" height="20">
+				<top anchor="bottom"/>
+				<left />
+			</anchored>
+			<static textres="effect_label_conditions" />
+			<color>40431E</color>
+			<center />
+		</label>
+	</template>
+
+	<template name="label_effects_custom">
+		<label name="label_custom">
+			<anchored to="contentanchor" height="20">
+				<top anchor="bottom" />
+				<left offset="195" />
+				<right offset="-10" />
+			</anchored>
+			<static textres="effect_label_custom" />
+			<color>40431E</color>
+			<center />
+		</label>
+	</template>
+
+	<!-- Assets -->
+	<windowclass name="tokenbag" version="&gt;=4" merge="join">
+		<placement>
+			<size width="495" height="585" />
+		</placement>
+		<sizelimits>
+			<dynamic />
+			<minimum width="390" height="455" />
+		</sizelimits>
+	</windowclass>
+</root>

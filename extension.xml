@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--
+	Additional Modifications � Copyright SmiteWorks 2018
+	- Updated to v2.3 on 1/23 by Moon Wizard
+	
+	� Copyright Todd Stern 2017 except where explicitly stated otherwise.
+	Fantasy Grounds is Copyright � 2004-2017 SmiteWorks USA LLC.
+	Copyright to other material within this Manuscript may be held by other Individuals and/or Entities.
+	Nothing in or from this XML File in printed, electronic and/or any other form may be used, copied,
+		transmitted or otherwise manipulated in ANY way without the explicit written consent of
+		Todd Stern or, where applicable, any and all other Copyright holders.
+	All rights reserved.
+	
+	Thanks to Dulux-Oz for fixing and greatly simplifying this extension.
+	I'm continually impressed with the community support for this software. 
+	If you wish to use this as the basis of your own theme, all I ask is that you make it available free of charge
+	(Pay What You Want is acceptable).
+	
+	- Thanks ll00ll00ll00ll (aka Todd Stern)
+
+	Sir Mottes Magnificent Darkness Theme collection is build upon Moon Wizards Simple Grey Theme.
+	All copyright lies with their respective owners. Do not sell or otherwise monetize this extnesion in any way.
+-->
+
+<root version="3.2">
+	<announcement text="Theme Loaded: SirMotte's Magnificent Darkness\rVersion Alpha_2.0_Old_Geezer - Hearth Edition" font="emotefont" icon="footface"/>
+	
+	<properties>
+		<name>Theme: Hearth</name>
+		<author>Sir Motte</author>
+		<description>Dark, warm and reduced userinterface for FGU and DnD 5E</description>	
+		<loadorder>110</loadorder>
+		<!--While many rulesets should work for the most part, only 5E is currently supported-->
+          <ruleset>
+			<name>CoreRPG</name>
+		</ruleset>
+		<ruleset>
+			<name>2E</name>
+		</ruleset>
+		<ruleset>
+			<name>3.5E</name>
+		</ruleset>
+		<ruleset>
+			<name>4E</name>
+		</ruleset>
+		<ruleset>
+			<name>5E</name>
+		</ruleset>
+		<ruleset>
+			<name>PFRPG</name>
+		</ruleset>
+		<ruleset>
+			<name>SFRPG</name>
+		</ruleset>
+		<ruleset>
+			<name>Castles and Crusades</name>
+		</ruleset>
+		<ruleset>
+			<name>CallOfCthulhu</name>
+		</ruleset>
+		<ruleset>
+			<name>CallOfCthulhu7E</name>
+		</ruleset>
+		<ruleset>
+			<name>d20 Modern</name>
+		</ruleset>
+		<ruleset>
+			<name>Fate Core</name>
+		</ruleset>
+		<ruleset>
+			<name>Cypher System</name>
+		</ruleset>
+		<ruleset>
+			<name>Numenera</name>
+		</ruleset>
+		<ruleset>
+			<name>The Strange</name>
+		</ruleset>
+		<ruleset>
+			<name>13th_Age</name>
+		</ruleset>
+		<ruleset>
+			<name>SavageWorlds</name>
+		</ruleset>
+		<ruleset>
+			<name>SWD</name>
+		</ruleset>
+		<ruleset>
+			<name>Mutants and Masterminds 3rd</name>
+		</ruleset>
+		<ruleset>
+			<name>Basic Roleplaying</name>
+		</ruleset>	
+	</properties>
+	<base>
+		<!--Graphics definitions-->
+		<icon name="footface" file="SirMotte_footface.png" />
+		<includefile source="graphics/graphics_buttons.xml" />
+		<includefile source="graphics/graphics_fonts.xml" />
+		<includefile source="graphics/graphics_frames.xml" />
+		<includefile source="graphics/graphics_icons.xml" />
+		<includefile source="graphics/graphics_tabs.xml" />
+		<!--Color Character Sheet Temporary HP-->
+		<includefile source="graphics/record_char_main.xml"/>
+		<!--Colors Wounds CT and Charsheet-->
+		<script name="manager_color_2" file="scripts/manager_color_2.lua" />
+		<!--Colors CT Temp HP-->
+		<!--<includefile source="ct/ct_host.xml" /> -->
+		<!--calendar day and caption colors-->
+<!--	<script name="calendar_day" file="scripts/calendar_day.lua" />
+		<script name="calendar_log" file="scripts/calendar_log.lua" />		-->
+		<!--Additional-->
+		<includefile source="common/template_windows.xml" />
+	<!--
+		<includefile source="ps/template_ps.xml" />
+	-->
+	
+		<includefile source="ct/template_ct.xml" />
+	
+		<!--Colors for Modifiers and Effects Window Headers-->
+	<!--
+		<includefile source="utility/template_utility.xml" />
+		<includefile source="utility/utility_modifiers.xml" />
+	-->			
+	</base>
+</root>
