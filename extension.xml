@@ -23,7 +23,7 @@
 -->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: SirMotte's Magnificent Darkness\rVersion Alpha_2.0_Old_Geezer - Hearth Edition" font="emotefont" icon="footface"/>
+	<announcement text="Theme Loaded: SirMotte's Magnificent Darkness\rVersion Alpha_2.0_Hotfix01- Hearth Edition" font="emotefont" icon="footface"/>
 	
 	<properties>
 		<name>Theme: Hearth</name>
