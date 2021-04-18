@@ -8,26 +8,26 @@
 <root>
 	<!-- Tab frames and helper icons -->
 	<framedef name="tabs">
-		<bitmap file="graphics/fgpro_graphics/tabs.png" />
+		<bitmap file="graphics/pngs/tabs.png" />
 		<topleft rect="0,0,18,73" />
 		<left rect="0,73,18,335" />
 		<bottomleft rect="0,408,18,86" />
 	</framedef>
 	<!-- Vertical tab names -->
-	<icon name="tab_inventory" file="graphics/fgpro_graphics/tab_inventory.png" />
-	<icon name="tab_main" file="graphics/fgpro_graphics/tab_main.png" />
-	<icon name="tab_notes" file="graphics/fgpro_graphics/tab_notes.png" />
-	<icon name="tab_order" file="graphics/fgpro_graphics/tab_order.png" />
+	<icon name="tab_inventory" file="graphics/pngs/tab_inventory.png" />
+	<icon name="tab_main" file="graphics/pngs/tab_main.png" />
+	<icon name="tab_notes" file="graphics/pngs/tab_notes.png" />
+	<icon name="tab_order" file="graphics/pngs/tab_order.png" />
 	
-	<icon name="tab_actions" file="graphics/fgpro_graphics/tab_actions.png" />
-	<icon name="tab_abilities" file="graphics/fgpro_graphics/tab_abilities.png" />
-	<icon name="tab_combat" file="graphics/fgpro_graphics/tab_combat.png" />
-	<icon name="tab_other" file="graphics/fgpro_graphics/tab_other.png" />
-	<icon name="tab_powers" file="graphics/fgpro_graphics/tab_powers.png" />
-	<icon name="tab_skills" file="graphics/fgpro_graphics/tab_skills.png" />
-	<icon name="tab_spells" file="graphics/fgpro_graphics/tab_spells.png" />
-	<icon name="tab_xp" file="graphics/fgpro_graphics/tab_xp.png" />
-	<icon name="tab_log" file="graphics/fgpro_graphics/tab_log.png" />
+	<icon name="tab_actions" file="graphics/pngs/tab_actions.png" />
+	<icon name="tab_abilities" file="graphics/pngs/tab_abilities.png" />
+	<icon name="tab_combat" file="graphics/pngs/tab_combat.png" />
+	<icon name="tab_other" file="graphics/pngs/tab_other.png" />
+	<icon name="tab_powers" file="graphics/pngs/tab_powers.png" />
+	<icon name="tab_skills" file="graphics/pngs/tab_skills.png" />
+	<icon name="tab_spells" file="graphics/pngs/tab_spells.png" />
+	<icon name="tab_xp" file="graphics/pngs/tab_xp.png" />
+	<icon name="tab_log" file="graphics/pngs/tab_log.png" />
 	
 	<!-- Horizontal tab font -->
 	<font name="tabfont">
