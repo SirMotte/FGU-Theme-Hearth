@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- Source: ???/???.xml -->
+	<windowclass name="encounter_header" merge="join">
+		<sheetdata>
+			<stringfield name="name">
+				<color merge="delete" />
+				<selectioncolor merge="delete" />
+			</stringfield>
+		</sheetdata>
+	</windowclass>
+	<windowclass name="note_header" merge="join">
+		<sheetdata>
+			<stringfield name="name">
+				<color merge="delete" />
+				<selectioncolor merge="delete" />
+			</stringfield>
+		</sheetdata>
+	</windowclass>
+</root>
