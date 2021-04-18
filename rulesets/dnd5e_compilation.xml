@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- Source: 5E campaign/record_char_mainl.xml -->
+	<windowclass name="charsheet_classes" merge="join">
+		<sheetdata>
+			<basicnumber name="expneeded">
+				<script>
+					function onHover(oncontrol)
+						if oncontrol then
+							local draginfo = Input.getDragData();
+							if draginfo and draginfo.isType("number") and draginfo.getNumberData() &lt; getValue() then
+								setColor("FF6161");
+							end
+						else
+							setColor(nil);
+						end
+					end
+				</script>
+			</basicnumber>
+			<list_text name="classes">
+				<child><backcolor>1A40301E</backcolor></child>
+			</list_text>
+		</sheetdata>
+	</windowclass>
+	<windowclass name="charsheet_hd" merge="join">
+		<sheetdata>
+			<numbercontrol name="hdcurrent">
+				<color>DDDDDD</color>
+			</numbercontrol>
+		</sheetdata>
+	</windowclass>
+	<windowclass name="charsheet_main" merge="join">
+		<sheetdata>
+			<basicnumber name="temphp">
+				<color>5C9DFF</color>
+			</basicnumber>
+		</sheetdata>
+	</windowclass>
+
+	<!-- Source: 5E ct/ct_host.xml -->
+	<windowclass name="ct_entry" merge="join">
+		<sheetdata>
+			<number_ct_crosslink name="hptemp">
+				<color>5C9DFF</color>
+			</number_ct_crosslink>
+		</sheetdata>
+	</windowclass>
+</root>
