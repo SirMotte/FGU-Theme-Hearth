@@ -103,7 +103,7 @@
 	<font name="chatnpcfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#B4B4F0" />
+		<color value="#7DC4F7" />
 	</font>
 	<font name="chatgmfont">
 		<fgffile name="graphics/fonts/bolditalic-10.fgf" />
