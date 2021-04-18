@@ -31,7 +31,7 @@
 		<description>Dark, warm and reduced userinterface for FGU and DnD 5E</description>	
 		<loadorder>110</loadorder>
 		<!--While many rulesets should work for the most part, only 5E is currently supported-->
-          <ruleset>
+		<ruleset>
 			<name>CoreRPG</name>
 		</ruleset>
 		<ruleset>
@@ -100,29 +100,14 @@
 		<includefile source="graphics/graphics_frames.xml" />
 		<includefile source="graphics/graphics_icons.xml" />
 		<includefile source="graphics/graphics_tabs.xml" />
-		<!--Color Character Sheet Temporary HP-->
-		<!-- <includefile source="graphics/record_char_main.xml"/> -->
-		<!--Colors Wounds CT and Charsheet-->
+	
 		<script name="manager_color_2" file="scripts/manager_color_2.lua" />
-		<!--Colors CT Temp HP-->
-		<!--<includefile source="ct/ct_host.xml" /> -->
-		<!--calendar day and caption colors-->
-		<!--Additional-->
-		<includefile source="common/template_windows.xml" />
-	<!--
-		<includefile source="ps/template_ps.xml" />
-	-->
-	
-		<!-- <includefile source="ct/template_ct.xml" /> -->
 
+		<includefile source="rulesets/coc7e_compilation.xml" />
 		<includefile source="rulesets/corerpg_compilation.xml" />
+		<includefile source="rulesets/dnd4e_compilation.xml" />
 		<includefile source="rulesets/dnd5e_compilation.xml" />
-	
-		<!--Colors for Modifiers and Effects Window Headers-->
-	<!--
-		<includefile source="utility/template_utility.xml" />
-		<includefile source="utility/utility_modifiers.xml" />
-	-->			
+		<includefile source="rulesets/savageworlds_compilation.xml" />
 
 	</base>
 </root>

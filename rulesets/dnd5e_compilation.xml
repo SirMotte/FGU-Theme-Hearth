@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- Source: 5E campaign/record_char_mainl.xml -->
+	<!-- Source: campaign/record_char_main.xml -->
 	<windowclass name="charsheet_classes" merge="join">
 		<sheetdata>
 			<basicnumber name="expneeded">
@@ -36,8 +36,18 @@
 			</basicnumber>
 		</sheetdata>
 	</windowclass>
+	
+	<!-- Source: common/template_windows.xml -->
+	<template name="close_charsheethelper">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>	
 
-	<!-- Source: 5E ct/ct_host.xml -->
+	<!-- Source: ct/ct_host.xml -->
 	<windowclass name="ct_entry" merge="join">
 		<sheetdata>
 			<number_ct_crosslink name="hptemp">
