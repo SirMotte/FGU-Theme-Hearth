@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- Source: CoreRPG common/template_records.xml -->
+	<!-- Source: campaign/template_campaign.xml -->
+	<template name="button_imagewindow_sizeup">
+		<button_window_sizeup>
+			<anchored position="insidetopright" offset="60,24" />
+		</button_window_sizeup>
+	</template>
+
+	<!-- Source: common/template_records.xml -->
+	<template name="anchor_record_image_header_right">
+		<genericcontrol name="rightanchor">
+			<anchored height="0" width="0">
+				<top offset="5" />
+				<right offset="-50" />
+			</anchored>
+		</genericcontrol>
+	</template>
 	<template name="frame_record_content">
 		<genericcontrol name="contentframe">
 			<anchored>
@@ -63,7 +78,7 @@
 		</subwindow>
 	</template>
 
-	<!-- Source: CoreRPG common/template_windows.xml -->
+	<!-- Source: common/template_windows.xml -->
 	<template name="button_window_sizedown">
 		<button_window_sizedown_base>
 			<anchored height="16" width="16" />
@@ -111,6 +126,68 @@
 			<anchored>
 				<top offset="14" />
 				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_ctbox">
+		<close>
+			<anchored>
+				<top offset="13" />
+				<right offset="-4" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_imagebox">
+		<close>
+			<anchored>
+				<top offset="24" />
+				<right offset="-28" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_imagepanel">
+		<close>
+			<anchored position="insidetopright" offset="1,1" />
+			<invisible />
+		</close>
+	</template>
+	<template name="close_partysheet">
+		<close>
+			<anchored>
+				<top offset="13" />
+				<right offset="-15" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_recordsheet">
+		<close>
+			<anchored>
+				<top offset="7" />
+				<right offset="-4" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_referencelist">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_referencepage">
+		<close>
+			<anchored>
+				<top offset="7" />
+				<right offset="-4" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_storybox">
+		<close>
+			<anchored>
+				<top offset="6" />
+				<right offset="-6" />
 			</anchored>
 		</close>
 	</template>
@@ -170,6 +247,44 @@
 			</anchored>
 		</help>
 	</template>
+	<template name="help_ctbox">
+		<help>
+			<anchored>
+				<top offset="13" />
+				<right offset="-20" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_imagebox">
+		<help>
+			<anchored>
+				<top offset="24" />
+				<right offset="-44" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_imagepanel">
+		<help>
+			<anchored position="insidetopright" offset="17,1" />
+			<invisible />
+		</help>
+	</template>
+	<template name="help_partysheet">
+		<help>
+			<anchored>
+				<top offset="13" />
+				<right offset="-31" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_referencelist">
+		<help>
+			<anchored>
+				<top offset="14" />
+				<right offset="-28" />
+			</anchored>
+		</help>
+	</template>
 	<template name="help_tokenbag">
 		<help>
 			<anchored>
@@ -214,6 +329,14 @@
 			<fastinit />
 		</subwindow>
 	</template>
+	<template name="tabs_partysheet">
+		<buttongroup_tabs name="tabs">
+			<anchored width="20" height="92">
+				<top offset="50" />
+				<right offset="-8" />
+			</anchored>
+		</buttongroup_tabs>
+	</template>
 	<template name="windowtitlebar">
 		<genericcontrol>
 			<bounds>0,0,-1,40</bounds>
@@ -229,7 +352,7 @@
 		</genericcontrol>
 	</template>
 
-	<!-- Source: CoreRPG ct/ct_host.xml-->
+	<!-- Source: ct/ct_host.xml-->
 	<windowclass name="ct_effect" merge="join">
 		<sheetdata>
 			<string_ct_effect_source name="source">
@@ -241,14 +364,14 @@
 		</sheetdata>
 	</windowclass>
 
-	<!-- Source: CoreRPG ct/template_ct.xml -->
+	<!-- Source: ct/template_ct.xml -->
 	<template name="label_ct">
 		<label>
 			<color>DDDDDD</color>
 		</label>
 	</template>
 
-	<!-- Source: CoreRPG desktop/desktop_classes.xml -->
+	<!-- Source: desktop/desktop_classes.xml -->
 	<windowclass name="dicetower" merge="join">
 		<sizelimits>
 			<minimum width="100" height="90" />
@@ -260,10 +383,30 @@
 		</sheetdata>
 	</windowclass>
 
-	<!-- Source: CoreRPG desktop/desktop_panels.xml -->
+	<!-- Source: desktop/desktop_panels.xml -->
 	<panel name="dicetower" modes="host,client" merge="join">
 		<anchored height="100" width="100" />
 	</panel>
+	
+	<!-- Source: desktop/template_desktop.xml -->
+	<template name="button_imagebackpanel_sizedown">
+		<button_window_sizedown>
+			<anchored position="insidetopright" offset="48,1" />
+			<invisible />
+		</button_window_sizedown>
+	</template>
+	<template name="button_imagebackpanel_sizeup">
+		<button_window_sizeup>
+			<anchored position="insidetopright" offset="32,1" />
+			<invisible />
+		</button_window_sizeup>
+	</template>
+	<template name="button_imagefullpanel_sizedown">
+		<button_window_sizedown>
+			<anchored position="insidetopright" offset="32,1" />
+			<invisible />
+		</button_window_sizedown>
+	</template>
 	
 	<!-- Source: CoreRPG ref/template_ref.xml -->
 	<template name="anchor_reftitle">
@@ -301,7 +444,7 @@
 	</template>
 
 	<!-- CALENDAR -->
-	<!-- Source: CoreRPG utility/utility_calendar.xml -->
+	<!-- Source: utility/utility_calendar.xml -->
 	<windowclass name="calendar_day" merge="join">
 		<script>
 			local fSetState;

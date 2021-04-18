@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- Source: ???/???.xml -->
+	<template name="close_npcsheet">
+		<close>
+			<anchored>
+				<top offset="7" />
+				<right offset="-4" />
+			</anchored>
+		</close>
+	</template>
+	<template name="tabs_npcsheet">
+		<buttongroup_tabs name="tabs">
+			<anchored width="25" height="92">
+				<top offset="50" />
+				<right offset="9" />
+			</anchored>
+		</buttongroup_tabs>
+	</template>
+</root>
