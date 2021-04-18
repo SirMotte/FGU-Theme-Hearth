@@ -97,6 +97,21 @@ function setState(bCurrDay, bSelDay, bHoliday, nodeEvent)
 			<delaykeyupdate />
 		</basicstring>
 	</template>
+	<template name="string_record_name_image">
+		<string_record_name>
+			<anchored height="25" merge="merge" />
+			<multilinespacing merge="delete" />
+		</string_record_name>
+	</template>
+	<template name="string_record_name_ref">
+		<string_record_name>
+			<anchored merge="merge">
+				<right parent="" anchor="right" relation="absolute" offset="-25" />
+			</anchored>
+			<nodrag />
+			<readonly />
+		</string_record_name>
+	</template>
 	<template name="sub_note_header">
 		<subwindow>
 			<anchored>
@@ -110,6 +125,144 @@ function setState(bCurrDay, bSelDay, bHoliday, nodeEvent)
 	</template>
 
 	<!-- Source: CoreRPG common/template_windows.xml -->
+	<template name="button_window_sizedown">
+		<button_window_sizedown_base>
+			<anchored height="16" width="16" />
+		</button_window_sizedown_base>
+	</template>
+	<template name="button_window_sizeup">
+		<button_window_sizeup_base>
+			<anchored height="16" width="16" />
+		</button_window_sizeup_base>
+	</template>
+	<template name="close">
+		<close_base>
+			<anchored height="16" width="16">
+				<top />
+				<right />
+			</anchored>
+		</close_base>
+	</template>
+	<template name="close_calendar">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_campaignlist">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-4" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_charselect">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_charsheet">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_tokenbag">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_utilitybox">
+		<close>
+			<anchored>
+				<top offset="13" />
+				<right offset="-9" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_utilitybox2">
+		<close>
+			<anchored>
+				<top offset="8" />
+				<right offset="-9" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_utilitybox3">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+	<template name="help">
+		<help_base>
+			<anchored height="16" width="16">
+				<top />
+				<right offset="-16" />
+			</anchored>
+		</help_base>
+	</template>
+	<template name="help_calendar">
+		<help>
+			<anchored>
+				<top offset="14" />
+				<right offset="-28" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_charselect">
+		<help>
+			<anchored>
+				<top offset="14" />
+				<right offset="-28" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_tokenbag">
+		<help>
+			<anchored>
+				<top offset="14" />
+				<right offset="-28" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_utilitybox">
+		<help>
+			<anchored>
+				<top offset="13" />
+				<right offset="-25" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_utilitybox2">
+		<help>
+			<anchored>
+				<top offset="8" />
+				<right offset="-25" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_utilitybox3">
+		<help>
+			<anchored>
+				<top offset="14" />
+				<right offset="-28" />
+			</anchored>
+		</help>
+	</template>
 	<template name="sub_record_header">
 		<subwindow>
 			<anchored>
