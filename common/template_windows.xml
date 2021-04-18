@@ -402,7 +402,6 @@
 		</buttongroup_tabs>
 	</template>
 
-	<!-- Recordsheet -->
 	<!-- Character Sheet / Skills -->
 	<template name="close_recordsheet">
 		<close>
@@ -466,7 +465,6 @@
 		</close>
 	</template>
 
-	<!-- Storybox -->
 	<!-- Story / any box that appears -->
 	<template name="close_storybox">
 		<close>

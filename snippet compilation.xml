@@ -1,0 +1,141 @@
+>>calendar_day.lua<<
+function setState(bCurrDay, bSelDay, bHoliday, nodeEvent)
+	if bCurrDay then
+		setBackColor("DDDDDD");
+		label_day.setColor("EBDDBA");
+	else
+		setBackColor();
+		if bHoliday then
+			label_day.setColor("C33B00");
+		else
+			label_day.setColor("DDDDDD");
+		end
+	end
+
+>>calendar_log.lua<<
+		if bCampaignMonth then
+			v.label_period.setColor("EBDDBA");
+		else
+			v.label_period.setColor("DDDDDD");
+		end
+
+>>record_char_main.xml<<
+	<basicnumber name="temphp" source="hp.temporary">
+				<anchored to="hp" position="righthigh" offset="15,0" width="40" height="30" />
+				<font>reference-b-large</font>
+				<color>5C9DFF</color>
+				<description textres="temphp" />
+				<hideonvalue>0</hideonvalue>
+
+                <numbercontrol name="hdcurrent">
+				<bounds>0,0,30,30</bounds>
+				<color>DDDDDD</color>
+				<disabled />
+			</numbercontrol>
+
+<!--Unsure what this does-->
+            <basicnumber name="expneeded">
+				<anchored to="exptitle" height="20" width="70">
+					<top anchor="bottom" offset="10" />
+					<left anchor="center" offset="15" />
+				</anchored>
+				<description textres="char_tooltip_xpneeded" />
+				<script>
+					function onHover(oncontrol)
+						if oncontrol then
+							local draginfo = Input.getDragData();
+							if draginfo and draginfo.isType("number") and draginfo.getNumberData() &lt; getValue() then
+								setColor("FF6161");
+							end
+						else
+							setColor(nil);
+						end
+					end
+					
+					function onDrop(x, y, draginfo)
+						if draginfo.isType("number") and draginfo.getNumberData() &gt; getValue() then
+							setValue(draginfo.getNumberData());
+						end
+
+						return true;
+					end
+				</script>
+			</basicnumber>
+
+<!--Unsure what this does-->
+            <list_text name="classes">
+				<anchored to="contentanchor">
+					<top parent="hdusedtitle" anchor="bottom" relation="relative" offset="3" />
+					<left offset="5" />
+					<right offset="-10" />
+					<bottom parent="" offset="-30" />
+				</anchored>
+				<child></child>
+				<child><backcolor>1A40301E</backcolor></child>
+				<datasource>.classes</datasource>
+				<class>charsheet_class</class>
+			</list_text>
+
+
+>>ct_host<<
+<number_ct_crosslink name="hptemp">
+				<anchored to="rightanchor" width="30" height="20">
+					<top />
+					<right anchor="left" relation="relative" offset="-10" />
+				</anchored>
+				<color>5C9DFF</color>
+				<hideonvalue value="0" />
+				<tabtarget prev="hptotal" next="wounds" />
+				<script>
+					function handleDrop(draginfo)
+						if draginfo.getNumberData() &gt; 0 then
+							setValue(draginfo.getNumberData());
+						else
+							setValue(getValue() + draginfo.getNumberData());
+						end
+					end
+
+					function update()
+						window.onHealthChanged();
+					end
+				</script>
+			</number_ct_crosslink>
+>>Template_ct<<
+    <template name="string_ct_effect_source" merge="join">
+		<stringcontrol name="source">
+			<anchored height="20">
+				<right offset="-5" />
+				<top parent="label" anchor="bottom" />
+			</anchored>
+			<font>sheetlabel</font>
+			<color>DDDDDD</color>
+			<center />
+			<nodrag />
+			<readonly />
+			<invisible />
+			<script>
+				function onClickDown(button, x, y)
+					return true;
+				end
+				function onClickRelease(button, x, y)
+					if isVisible() then	setSource(""); end
+				end
+				function onDragStart(button, x, y, draginfo)
+					return window.onDragStart(button, x, y, draginfo);
+				end
+				function onDrop(x, y, draginfo)
+					return window.onDrop(x, y, draginfo);
+				end
+				function setSource(sNode)
+					if not sNode then sNode = ""; end
+					window.source_name.setValue(sNode);
+				end
+			</script>
+		</stringcontrol>
+	</template>
+
+    	<template name="label_ct">
+		<label>
+			<color>DDDDDD</color>
+		</label>
+	</template>
