@@ -621,7 +621,7 @@
 			</diefield>
 			<numbercontrol name="hdcurrent">
 				<bounds>0,0,30,30</bounds>
-				<color>FFFFFF</color>
+				<color>DDDDDD</color>
 				<disabled />
 			</numbercontrol>
 		</sheetdata>
@@ -695,7 +695,7 @@
 						if oncontrol then
 							local draginfo = Input.getDragData();
 							if draginfo and draginfo.isType("number") and draginfo.getNumberData() &lt; getValue() then
-								setColor("BB0000");
+								setColor("FF6161");
 							end
 						else
 							setColor(nil);

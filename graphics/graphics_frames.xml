@@ -15,48 +15,48 @@
 
 	<!-- Sidebar -->
 	<framedef name="button_sidebar_dockitem">
-		<bitmap file="graphics/fgpro_graphics/button_sidebar.png" />
+		<bitmap file="graphics/pngs/button_sidebar.png" />
 		<offset>8,8,8,8</offset>
 	</framedef>
 	<framedef name="button_sidebar_dockitem_down">
-		<bitmap file="graphics/fgpro_graphics/button_sidebar_down.png" />
+		<bitmap file="graphics/pngs/button_sidebar_down.png" />
 		<offset>8,8,8,8</offset>
 	</framedef>
 <!-- Headers -->
 	<framedef name="headerref">
-		<bitmap file="graphics/fgpro_graphics/headerref.png" />
+		<bitmap file="graphics/pngs/headerref.png" />
 		<middle rect="0,0,128,128" />
 	</framedef>
 	
 <!-- Manual Roll -->
 	<framedef name="manualroll_entry">
-		<bitmap file="graphics/fgpro_graphics/manualroll_entry.png" />
+		<bitmap file="graphics/pngs/manualroll_entry.png" />
 		<offset>95,95,95,95</offset>
 	</framedef>
 
 <!-- Characters -->
 	<framedef name="acicon">
-		<bitmap file="graphics/fgpro_graphics/acicon.png" />
+		<bitmap file="graphics/pngs/acicon.png" />
 		<topleft rect="0,0,35,39" />
 	</framedef>
 	<framedef name="charsheet">
-		<bitmap file="graphics/fgpro_graphics/charsheet.png" />
+		<bitmap file="graphics/pngs/charsheet.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,5,10,13</insideoffset>
 	</framedef>
 	<framedef name="charsheethelper">
-		<bitmap file="graphics/fgpro_graphics/charsheet.png" />
+		<bitmap file="graphics/pngs/charsheet.png" />
 		<offset>50,50,45,45</offset>
 		<insideoffset>0,5,10,13</insideoffset>
 	</framedef>
 	<framedef name="fieldfocus">
-		<bitmap file="graphics/fgpro_graphics/fieldfocus.png" />
+		<bitmap file="graphics/pngs/fieldfocus.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
 	
 <!-- Controls -->
 	<framedef name="metalplate">
-		<bitmap file="graphics/fgpro_graphics/leathertag.png" />		
+		<bitmap file="graphics/pngs/leathertag.png" />		
 		<topleft rect="0,0,11,10" />
 		<top rect="11,0,177,10" />
 		<topright rect="188,0,12,10" />
@@ -68,19 +68,19 @@
 		<bottomright rect="188,40,12,10" />	
 	</framedef>
 	<framedef name="abilityscore">
-		<bitmap file="graphics/fgpro_graphics/abilityscore.png" />
+		<bitmap file="graphics/pngs/abilityscore.png" />
 		<offset>7,7,7,7</offset>
 	</framedef>
 
 <!-- Die Cup (Local mode) -->
 	<framedef name="collector">
-		<bitmap file="graphics/fgpro_graphics/collector.png" />
+		<bitmap file="graphics/pngs/collector.png" />
 		<offset>7,7,3,3</offset>
 	</framedef>
 	
 <!-- Utility -->
 	<framedef name="durationadjustment">
-		<bitmap file="graphics/fgpro_graphics/durationadjustment.png" />
+		<bitmap file="graphics/pngs/durationadjustment.png" />
 		<topleft rect="0,0,12,12" />
 		<top rect="12,0,200,12" />
 		<topright rect="212,0,12,12" />
@@ -95,151 +95,151 @@
 
 <!-- Roll/Point Modes (Local mode) -->
 	<framedef name="localchatbox">
-		<bitmap file="graphics/fgpro_graphics/chatbox.png" />
+		<bitmap file="graphics/pngs/chatbox.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,7,3</insideoffset>
 	</framedef>
 	<framedef name="localrollbox">
-		<bitmap file="graphics/fgpro_graphics/chatbox.png" />
+		<bitmap file="graphics/pngs/chatbox.png" />
 		<offset>44,44,44,44</offset>
 		<insideoffset>0,0,7,3</insideoffset>
 	</framedef>
 	
 <!-- Buttons -->
 	<framedef name="buttonup">
-		<bitmap file="graphics/fgpro_graphics/buttonup.png" />
+		<bitmap file="graphics/pngs/buttonup.png" />
 		<offset>8,8,8,8</offset>
 	</framedef>
 	<framedef name="buttondown">
-		<bitmap file="graphics/fgpro_graphics/buttondown.png" />
+		<bitmap file="graphics/pngs/buttondown.png" />
 		<offset>8,8,8,8</offset>
 	</framedef>
 	<framedef name="buttondisabled">
-		<bitmap file="graphics/fgpro_graphics/buttondisabled.png" />
+		<bitmap file="graphics/pngs/buttondisabled.png" />
 		<offset>8,8,8,8</offset>
 	</framedef>
 
 <!-- Calendar -->
 	<framedef name="calendar">
-		<bitmap file="graphics/fgpro_graphics/utilitybox3.png" />
+		<bitmap file="graphics/pngs/utilitybox3.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,18,16</insideoffset>
 	</framedef>
 	<framedef name="calendarselectentry">
-		<bitmap file="graphics/fgpro_graphics/fieldlight.png" />
+		<bitmap file="graphics/pngs/fieldlight.png" />
 		<offset>12,12,12,12</offset>
     </framedef>
 	<framedef name="calendarmonthentry">
-		<bitmap file="graphics/fgpro_graphics/fielddark.png" />
+		<bitmap file="graphics/pngs/fielddark.png" />
 		<offset>12,12,12,12</offset>
     </framedef>
 	
 <!-- Character selection -->	
 	<framedef name="charselect">
-		<bitmap file="graphics/fgpro_graphics/utilitybox3.png" />
+		<bitmap file="graphics/pngs/utilitybox3.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,18,16</insideoffset>
 	</framedef>
 	<framedef name="charselectentry">
-		<bitmap file="graphics/fgpro_graphics/fieldlight.png" />
+		<bitmap file="graphics/pngs/fieldlight.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
 	
 <!-- Modules -->
 	<framedef name="moduleselectentry">
-		<bitmap file="graphics/fgpro_graphics/fieldlight.png" />
+		<bitmap file="graphics/pngs/fieldlight.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
 
 <!-- Chat window -->
 	<framedef name="chatbox">
-		<bitmap file="graphics/fgpro_graphics/chatbox.png" />
+		<bitmap file="graphics/pngs/chatbox.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,0,0</insideoffset>
 	</framedef>
 	<framedef name="chatentry">
-		<bitmap file="graphics/fgpro_graphics/chatentry.png" />
+		<bitmap file="graphics/pngs/chatentry.png" />
 		<offset>1,1,1,1</offset>
 	</framedef>
 	<framedef name="chatboxhilight">
-		<bitmap file="graphics/fgpro_graphics/chatboxhilight.png" />
+		<bitmap file="graphics/pngs/chatboxhilight.png" />
 		<offset>12,12,16,50</offset>
 	</framedef>
 	<framedef name="chatframe_chat">
-		<bitmap file="graphics/fgpro_graphics/chatframe_chat.png" />
+		<bitmap file="graphics/pngs/chatframe_chat.png" />
 		<offset>17,17,7,7</offset>
 	</framedef>
 	<framedef name="chatframe_story">
-		<bitmap file="graphics/fgpro_graphics/chatframe_story.png" />
+		<bitmap file="graphics/pngs/chatframe_story.png" />
 		<offset>18,18,17,17</offset>
 	</framedef>
 	<framedef name="diebox">
-		<bitmap file="graphics/fgpro_graphics/diebox.png" />
+		<bitmap file="graphics/pngs/diebox.png" />
 		<offset>16,16,16,16</offset>
 	</framedef>
 
 <!-- Combat tracker -->
 	<framedef name="ctbox">
-		<bitmap file="graphics/fgpro_graphics/ctbox.png" />
+		<bitmap file="graphics/pngs/ctbox.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,14,16</insideoffset>
 	</framedef>
 	<framedef name="ctentrybox">
-		<bitmap file="graphics/fgpro_graphics/ctentrybox.png" />
+		<bitmap file="graphics/pngs/ctentrybox.png" />
 		<offset>37,16,14,17</offset>
 	</framedef>
 	<framedef name="ctentrybox_active">
-		<bitmap file="graphics/fgpro_graphics/ctentrybox_active.png" />
+		<bitmap file="graphics/pngs/ctentrybox_active.png" />
 		<offset>37,16,14,17</offset>
 	</framedef>
 	<framedef name="ctentrybox_friend">
-		<bitmap file="graphics/fgpro_graphics/ctentrybox_friend.png" />
+		<bitmap file="graphics/pngs/ctentrybox_friend.png" />
 		<offset>37,16,14,17</offset>
 	</framedef>
 	<framedef name="ctentrybox_friend_active">
-		<bitmap file="graphics/fgpro_graphics/ctentrybox_friend_active.png" />
+		<bitmap file="graphics/pngs/ctentrybox_friend_active.png" />
 		<offset>37,16,14,17</offset>
 	</framedef>
 	<framedef name="ctentrybox_neutral">
-		<bitmap file="graphics/fgpro_graphics/ctentrybox_neutral.png" />
+		<bitmap file="graphics/pngs/ctentrybox_neutral.png" />
 		<offset>37,16,14,17</offset>
 	</framedef>
 	<framedef name="ctentrybox_neutral_active">
-		<bitmap file="graphics/fgpro_graphics/ctentrybox_neutral_active.png" />
+		<bitmap file="graphics/pngs/ctentrybox_neutral_active.png" />
 		<offset>37,16,14,17</offset>
 	</framedef>
 	<framedef name="ctentrybox_foe">
-		<bitmap file="graphics/fgpro_graphics/ctentrybox_foe.png" />
+		<bitmap file="graphics/pngs/ctentrybox_foe.png" />
 		<offset>37,16,14,17</offset>
 	</framedef>
 	<framedef name="ctentrybox_foe_active">
-		<bitmap file="graphics/fgpro_graphics/ctentrybox_foe_active.png" />
+		<bitmap file="graphics/pngs/ctentrybox_foe_active.png" />
 		<offset>37,16,14,17</offset>
 	</framedef>
 	<framedef name="ct_groupbox">
-		<bitmap file="graphics/fgpro_graphics/groupbox.png" />
+		<bitmap file="graphics/pngs/groupbox.png" />
 		<offset>18,18,17,17</offset>
 	</framedef>
 		<framedef name="cteffect">
-		<bitmap file="graphics/fgpro_graphics/cteffect.png" />
+		<bitmap file="graphics/pngs/cteffect.png" />
 		<offset>5,5,5,5</offset>
 	</framedef>
 
 <!-- Control frames -->
 	<framedef name="groupbox">
-		<bitmap file="graphics/fgpro_graphics/groupbox.png" />
+		<bitmap file="graphics/pngs/groupbox.png" />
 		<offset>18,18,17,17</offset>
 	</framedef>
 	<framedef name="fieldlight">
-		<bitmap file="graphics/fgpro_graphics/fieldlight.png" />
+		<bitmap file="graphics/pngs/fieldlight.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
 	<framedef name="fielddark">
-		<bitmap file="graphics/fgpro_graphics/fielddark.png" />
+		<bitmap file="graphics/pngs/fielddark.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
 	<framedef name="fielddice">
-		<bitmap file="graphics/fgpro_graphics/fielddice.png" />
+		<bitmap file="graphics/pngs/fielddice.png" />
 		<topleft rect="0,0,12,12" />
 		<top rect="12,0,200,12" />
 		<topright rect="212,0,12,12" />
@@ -252,17 +252,17 @@
 		<decal rect="175,212,49,16" />
 	</framedef>
 	<framedef name="tempmodsmall">
-		<bitmap file="graphics/fgpro_graphics/tempmodsmall.png" />
+		<bitmap file="graphics/pngs/tempmodsmall.png" />
 		<offset>12,12,11,12</offset>
 	</framedef>
 	<framedef name="tempmodmini">
-		<bitmap file="graphics/fgpro_graphics/tempmodmini.png" />
+		<bitmap file="graphics/pngs/tempmodmini.png" />
 		<offset>7,7,9,9</offset>
 	</framedef>
 
 <!-- Desktop background -->
 	<framedef name="desktop">
-		<bitmap file="graphics/fgpro_graphics/desktop.png" />
+		<bitmap file="graphics/pngs/desktop.png" />
 		<topleft rect="0,0,15,15" />
 		<top rect="15,0,475,15" />
 		<left rect="0,15,15,480" />
@@ -271,7 +271,7 @@
 		<bottom rect="15,500,475,15" />
 	</framedef>
 	<framedef name="shortcuts">
-		<bitmap file="graphics/fgpro_graphics/desktop.png" />
+		<bitmap file="graphics/pngs/desktop.png" />
 		<topleft rect="500,0,15,15" />
 		<left rect="500,15,15,500" />
 		<middle rect="515,0,50,100" />
@@ -281,149 +281,149 @@
 
 <!-- Dice Tower -->
 	<framedef name="dicetower_normal">
-		<bitmap file="graphics/fgpro_graphics/dicetower_normal.png" />
+		<bitmap file="graphics/pngs/dicetower_normal.png" />
 		<middle>0,0,100,100</middle>
 	</framedef>
 	<framedef name="dicetower_drop">
-		<bitmap file="graphics/fgpro_graphics/dicetower_drop.png" />
+		<bitmap file="graphics/pngs/dicetower_drop.png" />
 		<middle>0,0,100,100</middle>
 	</framedef>
 
 <!-- Headers -->
 	<framedef name="headergray">
-		<bitmap file="graphics/fgpro_graphics/headergray.png" />
+		<bitmap file="graphics/pngs/headergray.png" />
 		<middle rect="0,0,128,128" />
 	</framedef>
 	<framedef name="headerref">
-		<bitmap file="graphics/fgpro_graphics/headerref.png" />
+		<bitmap file="graphics/pngs/headerref.png" />
 		<middle rect="0,0,128,128" />
 	</framedef>
 
 <!-- Hot key bar -->	
 	<framedef name="hotkeybox">
-		<bitmap file="graphics/fgpro_graphics/hotkeybox.png" />
+		<bitmap file="graphics/pngs/hotkeybox.png" />
 		<offset>21,34,24,21</offset>
 	</framedef>
 	<framedef name="hotkeytitlebox">
-		<bitmap file="graphics/fgpro_graphics/hotkeytitlebox.png" />
+		<bitmap file="graphics/pngs/hotkeytitlebox.png" />
 		<offset>0,0,4,5</offset>
 	</framedef>
 
 <!-- Identity List -->
 	<framedef name="id_active">
-		<bitmap file="graphics/fgpro_graphics/id_active.png" />
+		<bitmap file="graphics/pngs/id_active.png" />
 		<offset>7,0,7,0</offset>
 	</framedef>
 	<framedef name="id_inactive">
-		<bitmap file="graphics/fgpro_graphics/id_inactive.png" />
+		<bitmap file="graphics/pngs/id_inactive.png" />
 		<offset>7,0,7,0</offset>
 	</framedef>
 
 <!-- Images -->
 	<framedef name="imagebox">
-		<bitmap file="graphics/fgpro_graphics/imagebox.png" />
+		<bitmap file="graphics/pngs/imagebox.png" />
 		<offset>150,135,150,150</offset>
 		<insideoffset>0,0,20,22</insideoffset>
 	</framedef>
 	<framedef name="imagebox_header">
-		<bitmap file="graphics/fgpro_graphics/imagebox_header.png" />
+		<bitmap file="graphics/pngs/imagebox_header.png" />
 		<offset>0,0,0,0</offset>
 	</framedef>
 
 <!-- Lists -->
 	<framedef name="rowshade">
-		<bitmap file="graphics/fgpro_graphics/rowshade.png" />
+		<bitmap file="graphics/pngs/rowshade.png" />
 		<middle rect="0,0,200,100" />
 	</framedef>
 		<framedef name="search">
-		<bitmap file="graphics/fgpro_graphics/search.png" />
+		<bitmap file="graphics/pngs/search.png" />
 		<offset>17,5,1,5</offset>
 		<topleft rect="0,0,17,30" />
 	</framedef>
 	<framedef name="search_active">
-		<bitmap file="graphics/fgpro_graphics/search_active.png" />
+		<bitmap file="graphics/pngs/search_active.png" />
 		<offset>17,5,1,5</offset>
 		<topleft rect="0,0,17,30" />
 	</framedef>
 	
 <!-- Misc frames -->
 	<framedef name="mini_name">
-		<bitmap file="graphics/fgpro_graphics/mini_name.png" />
+		<bitmap file="graphics/pngs/mini_name.png" />
 		<offset>7,7,7,7</offset>
 	</framedef>
 	
 <!-- Modifier Stack -->
 	<framedef name="modstackfocus">
-		<bitmap file="graphics/fgpro_graphics/modstackfocus.png" />
+		<bitmap file="graphics/pngs/modstackfocus.png" />
 		<offset>9,9,9,9</offset>
 	</framedef>
 
 <!-- Other Campaign Records -->
 	<framedef name="recordsheet">
-		<bitmap file="graphics/fgpro_graphics/recordsheet.png" />
+		<bitmap file="graphics/pngs/recordsheet.png" />
 		<offset>11,12,17,18</offset>
 		<insideoffset>0,0,4,5</insideoffset>
 	</framedef>
 
 	<!-- CallofCthulhu7E specific -->
 	<framedef name="npcsheet">
-		<bitmap file="graphics/fgpro_graphics/recordsheet.png" />
+		<bitmap file="graphics/pngs/recordsheet.png" />
 		<offset>11,12,17,18</offset>
 		<insideoffset>0,0,4,5</insideoffset>
 	</framedef>
 	
 <!-- Party Sheet -->
 	<framedef name="partysheet">
-		<bitmap file="graphics/fgpro_graphics/partysheet.png" />
+		<bitmap file="graphics/pngs/partysheet.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,14,14</insideoffset>
 	</framedef>
 	<framedef name="partysheetentry">
-		<bitmap file="graphics/fgpro_graphics/fieldlight.png" />
+		<bitmap file="graphics/pngs/fieldlight.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
 
 	<!-- Reference -->
 	<framedef name="reference-section">
-		<bitmap file="graphics/fgpro_graphics/reference-section.png" />
+		<bitmap file="graphics/pngs/reference-section.png" />
 		<offset>1,1,1,1</offset>
 	</framedef>
 	<framedef name="reference-chapter">
-		<bitmap file="graphics/fgpro_graphics/reference-chapter.png" />
+		<bitmap file="graphics/pngs/reference-chapter.png" />
 		<offset>1,1,1,1</offset>
 	</framedef>
 	
 	<!-- Reference Blocks -->
 	<framedef name="referenceblock-sidebar">
-		<bitmap file="graphics/fgpro_graphics/refblock_sidebar.png" />
+		<bitmap file="graphics/pngs/refblock_sidebar.png" />
 		<offset>100,50,100,50</offset>
 	</framedef>
 	<framedef name="referenceblock-text1">
-		<bitmap file="graphics/fgpro_graphics/refblock_text1.png" />
+		<bitmap file="graphics/pngs/refblock_text1.png" />
 		<offset>50,60,50,60</offset>
 	</framedef>
 	<framedef name="referenceblock-text2">
-		<bitmap file="graphics/fgpro_graphics/refblock_text2.png" />
+		<bitmap file="graphics/pngs/refblock_text2.png" />
 		<offset>50,60,50,60</offset>
 	</framedef>
 	<framedef name="referenceblock-text3">
-		<bitmap file="graphics/fgpro_graphics/refblock_text3.png" />
+		<bitmap file="graphics/pngs/refblock_text3.png" />
 		<offset>50,60,50,60</offset>
 	</framedef>
 	<framedef name="referenceblock-text4">
-		<bitmap file="graphics/fgpro_graphics/refblock_text4.png" />
+		<bitmap file="graphics/pngs/refblock_text4.png" />
 		<offset>50,60,50,60</offset>
 	</framedef>
 	<framedef name="referenceblock-text5">
-		<bitmap file="graphics/fgpro_graphics/refblock_text5.png" />
+		<bitmap file="graphics/pngs/refblock_text5.png" />
 		<offset>100,50,100,50</offset>
 	</framedef>
 	<framedef name="referenceblock-book">
-		<bitmap file="graphics/fgpro_graphics/refblock_book.png" />
+		<bitmap file="graphics/pngs/refblock_book.png" />
 		<offset>60,53,70,47</offset>
 	</framedef>
 	<framedef name="referenceblock-page">
-		<bitmap file="graphics/fgpro_graphics/refblock_page.png" />
+		<bitmap file="graphics/pngs/refblock_page.png" />
 		<topleft rect="0,0,25,50" />
 		<top rect="25,0,250,50" />
 		<topright rect="275,0,50,50" />
@@ -435,96 +435,96 @@
 		<bottomright rect="275,100,50,50" />
 	</framedef>
 	<framedef name="referenceblock-picture">
-		<bitmap file="graphics/fgpro_graphics/refblock_picture.png" />
+		<bitmap file="graphics/pngs/refblock_picture.png" />
 		<offset>32,30,32,30</offset>
 	</framedef>
 	<framedef name="referenceblock-pink">
-		<bitmap file="graphics/fgpro_graphics/refblock_pink.png" />
+		<bitmap file="graphics/pngs/refblock_pink.png" />
 		<offset>100,30,100,30</offset>
 	</framedef>
 	<framedef name="referenceblock-blue">
-		<bitmap file="graphics/fgpro_graphics/refblock_blue.png" />
+		<bitmap file="graphics/pngs/refblock_blue.png" />
 		<offset>100,30,100,30</offset>
 	</framedef>
 	<framedef name="referenceblock-brown">
-		<bitmap file="graphics/fgpro_graphics/refblock_brown.png" />
+		<bitmap file="graphics/pngs/refblock_brown.png" />
 		<offset>100,30,100,30</offset>
 	</framedef>
 	<framedef name="referenceblock-green">
-		<bitmap file="graphics/fgpro_graphics/refblock_green.png" />
+		<bitmap file="graphics/pngs/refblock_green.png" />
 		<offset>100,30,100,30</offset>
 	</framedef>
 	<framedef name="referenceblock-yellow">
-		<bitmap file="graphics/fgpro_graphics/refblock_yellow.png" />
+		<bitmap file="graphics/pngs/refblock_yellow.png" />
 		<offset>100,30,100,30</offset>
 	</framedef>
 
 <!-- Scrollbar -->
 	<framedef name="scrollbar_base">
-		<bitmap file="graphics/fgpro_graphics/scrollbar.png" />
+		<bitmap file="graphics/pngs/scrollbar.png" />
 		<top rect="0,0,20,14" />
 		<middle rect="22,0,20,62" />
 		<bottom rect="0,48,20,14" />
 	</framedef>
 	<framedef name="scrollbutton_normal">
-		<bitmap file="graphics/fgpro_graphics/scrollbutton_normal.png" />
+		<bitmap file="graphics/pngs/scrollbutton_normal.png" />
 		<top rect="0,0,20,16" />
 		<middle rect="0,16,20,8" />
 		<bottom rect="0,24,20,16" />
 	</framedef>
 <!--Dropdown-->
 	<framedef name="combobox_list">
-		<bitmap file="graphics/fgpro_graphics/combobox_list.png"/>
+		<bitmap file="graphics/pngs/combobox_list.png"/>
 		<offset>1,1,1,1</offset>
 	</framedef>
 	<framedef name="combobox_scrollbar">
-		<bitmap file="graphics/fgpro_graphics/combobox_scrollbar.png"/>
+		<bitmap file="graphics/pngs/combobox_scrollbar.png"/>
 		<offset>1,1,1,1</offset>
 	</framedef>	
 
 <!-- Story and Notes -->
 	<framedef name="storybox">
-		<bitmap file="graphics/fgpro_graphics/storybox.png" />
+		<bitmap file="graphics/pngs/storybox.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,6,5</insideoffset>
 	</framedef>
 	
 <!-- Token Bag -->
 	<framedef name="tokenbag">
-		<bitmap file="graphics/fgpro_graphics/utilitybox3.png" />
+		<bitmap file="graphics/pngs/utilitybox3.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,18,16</insideoffset>
 	</framedef>
 	
 <!-- Tooltips -->
 	<framedef name="tooltipbox">
-		<bitmap file="graphics/fgpro_graphics/tooltipbox.png" />
+		<bitmap file="graphics/pngs/tooltipbox.png" />
 		<offset>6,4,9,7</offset>
 	</framedef>
 	
 <!-- Utility Windows -->
 	<framedef name="referencelist">
-		<bitmap file="graphics/fgpro_graphics/utilitybox3.png" />
+		<bitmap file="graphics/pngs/utilitybox3.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,4,5</insideoffset>
 	</framedef>
 	<framedef name="utilitybox">
-		<bitmap file="graphics/fgpro_graphics/utilitybox.png" />
+		<bitmap file="graphics/pngs/utilitybox.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,6,9</insideoffset>
 	</framedef>
 	<framedef name="utilitybox2">
-		<bitmap file="graphics/fgpro_graphics/utilitybox2.png" />
+		<bitmap file="graphics/pngs/utilitybox2.png" />
 		<offset>95,100,100,110</offset>
 		<insideoffset>0,0,7,8</insideoffset>
 	</framedef>
 	<framedef name="utilitybox3">
-		<bitmap file="graphics/fgpro_graphics/utilitybox3.png" />
+		<bitmap file="graphics/pngs/utilitybox3.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,18,16</insideoffset>
 	</framedef>
 	<framedef name="campaignlist_tables">
-		<bitmap file="graphics/fgpro_graphics/utilitybox3.png" />
+		<bitmap file="graphics/pngs/utilitybox3.png" />
 		<topleft rect="0,0,74,75" />
 		<top rect="74,0,504,75" />
 		<topright rect="578,0,77,75" />
@@ -537,7 +537,7 @@
 		<insideoffset>0,0,18,28</insideoffset>
 	</framedef>
 	<framedef name="campaignlistwithtabs">
-		<bitmap file="graphics/fgpro_graphics/scrollbox.png" />
+		<bitmap file="graphics/pngs/scrollbox.png" />
 		<topleft rect="0,0,190,66" />
 		<top rect="190,0,190,66" />
 		<topright rect="379,0,190,66" />
@@ -550,18 +550,18 @@
 		<insideoffset>0,0,9,10</insideoffset>
 	</framedef>
 	<framedef name="referencepage">
-		<bitmap file="graphics/fgpro_graphics/recordsheet.png" />
+		<bitmap file="graphics/pngs/recordsheet.png" />
 		<offset>11,11,17,18</offset>
 		<insideoffset>0,0,4,5</insideoffset>
 	</framedef>
 
 	<!-- Windows -->
 	<framedef name="windowtitle">
-		<bitmap file="graphics/fgpro_graphics/windowtitle.png" />
+		<bitmap file="graphics/pngs/windowtitle.png" />
 		<offset>56,11,54,20</offset>
 	</framedef>
 	<framedef name="tabs">
-		<bitmap file="graphics/fgpro_graphics/tabs.png" />
+		<bitmap file="graphics/pngs/tabs.png" />
 		<topleft rect="0,0,18,73" />
 		<left rect="0,73,18,335" />
 		<bottomleft rect="0,408,18,86" />
@@ -569,7 +569,7 @@
 
 	<!-- Assets -->
 	<framedef name="tokenbagasset">
-		<bitmap file="graphics/fgpro_graphics/fielddark.png" />
+		<bitmap file="graphics/pngs/fielddark.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
 </root>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!--
-	Additional Modifications © Copyright SmiteWorks 2018
+	Additional Modifications ï¿½ Copyright SmiteWorks 2018
 
-	© Copyright Todd Stern 2017 except where explicitly stated otherwise.
-	Fantasy Grounds is Copyright © 2004-2017 SmiteWorks USA LLC.
+	ï¿½ Copyright Todd Stern 2017 except where explicitly stated otherwise.
+	Fantasy Grounds is Copyright ï¿½ 2004-2017 SmiteWorks USA LLC.
 	Copyright to other material within this Manuscript may be held by other Individuals and/or Entities.
 	Nothing in or from this XML File in printed, electronic and/or any other form may be used, copied,
 		transmitted or otherwise manipulated in ANY way without the explicit written consent of
@@ -15,8 +15,8 @@
 		<script>
 			function onInit()
 				if super and super.onInit then super.onInit(); end
-				if label_attack then label_attack.setColor("000000"); end
-				if label_damage then label_damage.setColor("000000"); end
+				if label_attack then label_attack.setColor("DDDDDD"); end
+				if label_damage then label_damage.setColor("DDDDDD"); end
 			end
 		</script>
 	</windowclass>
