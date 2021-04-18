@@ -495,6 +495,12 @@
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,18,16</insideoffset>
 	</framedef>
+
+<!--Token-->
+	<framedef name="tokennumber">
+		<bitmap file="graphics/pngs/tokennumber.png" />
+		<offset>6,6,6,6</offset>
+	</framedef>
 	
 <!-- Tooltips -->
 	<framedef name="tooltipbox">
