@@ -101,7 +101,7 @@
 		<includefile source="graphics/graphics_icons.xml" />
 		<includefile source="graphics/graphics_tabs.xml" />
 		<!--Color Character Sheet Temporary HP-->
-		<includefile source="graphics/record_char_main.xml"/>
+		<!-- <includefile source="graphics/record_char_main.xml"/> -->
 		<!--Colors Wounds CT and Charsheet-->
 		<script name="manager_color_2" file="scripts/manager_color_2.lua" />
 		<!--Colors CT Temp HP-->
@@ -113,7 +113,9 @@
 		<includefile source="ps/template_ps.xml" />
 	-->
 	
-		<includefile source="ct/template_ct.xml" />
+		<!-- <includefile source="ct/template_ct.xml" /> -->
+
+		<includefile source="snippet_compilation.xml" />
 	
 		<!--Colors for Modifiers and Effects Window Headers-->
 	<!--
