@@ -462,14 +462,14 @@
 			function updatedSetState(bCurrDay, bSelDay, bHoliday, nodeEvent)
 				fSetState(bCurrDay, bSelDay, bHoliday, nodeEvent);
 				if bCurrDay then
-					setBackColor("1e1e1e");
-					label_day.setColor("d6dcdc");
+					setBackColor("473C33");
+					label_day.setColor("EBDDBA");
 				else
 					setBackColor();
 					if bHoliday then
-						label_day.setColor("4ec9b0");
+						label_day.setColor("FF6161");
 					else
-						label_day.setColor("d6dcdc");
+						label_day.setColor("DDDDDD");
 					end
 				end
 			end
@@ -501,9 +501,9 @@
 					end
 
 					if bCampaignMonth then
-						v.label_period.setColor("569cd6");
+						v.label_period.setColor("EBDDBA");
 					else
-						v.label_period.setColor("d6dcdc");
+						v.label_period.setColor("EBDDBA");
 					end
 				end
 			end
@@ -511,22 +511,22 @@
 		</script>
 		<sheetdata>
 			<stringcontrol name="viewdate" merge="join">
-				<color>569cd6</color>
+				<color>EBDDBA</color>
 			</stringcontrol>
 			<basicnumber name="currentyear" merge="join">
-				<color>569cd6</color>
+				<color>EBDDBA</color>
 			</basicnumber>
 			<basicstring name="currentepoch" merge="join">
-				<color>569cd6</color>
+				<color>EBDDBA</color>
 			</basicstring>
 			<label name="currenthour" merge="join">
-				<color>569cd6</color>
+				<color>EBDDBA</color>
 			</label>
 			<label name="currentminute" merge="join">
-				<color>569cd6</color>
+				<color>EBDDBA</color>
 			</label>
 			<label name="currentphase" merge="join">
-				<color>569cd6</color>
+				<color>EBDDBA</color>
 			</label>
 		</sheetdata>
 	</windowclass>
