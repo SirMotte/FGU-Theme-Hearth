@@ -73,6 +73,7 @@
 	<icon name="indicator_stop" file="graphics/pngs/indicator_stop.png" />
 	<icon name="indicator_prompt" file="graphics/pngs/indicator_prompt.png" />
 	<icon name="gmdieicon" file="graphics/pngs/gmdie_icon.png" />
+	<icon name="indicator_whisper" file="graphics/pngs/indicator_whisper.png" />
 	<!-- Combat Tracker -->
 		<!-- Combat tracker -->
 	<icon name="turn_flag" file="graphics/pngs/turn_flag.png" />
