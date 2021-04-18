@@ -356,10 +356,10 @@
 	<windowclass name="ct_effect" merge="join">
 		<sheetdata>
 			<string_ct_effect_source name="source">
-				<color>7ADDDDDD</color>
+				<color>DDDDDD</color>
 			</string_ct_effect_source>
 			<string_ct_effect_targets name="target_summary">
-				<color>7ADDDDDD</color>
+				<color>DDDDDD</color>
 			</string_ct_effect_targets>
 		</sheetdata>
 	</windowclass>
