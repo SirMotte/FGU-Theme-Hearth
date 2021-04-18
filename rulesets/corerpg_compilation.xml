@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- Source: campaign/template_campaign.xml -->
+	<template name="button_imagewindow_sizeup">
+		<button_window_sizeup>
+			<anchored position="insidetopright" offset="60,24" />
+		</button_window_sizeup>
+	</template>
+
+	<!-- Source: common/template_records.xml -->
+	<template name="anchor_record_image_header_right">
+		<genericcontrol name="rightanchor">
+			<anchored height="0" width="0">
+				<top offset="5" />
+				<right offset="-50" />
+			</anchored>
+		</genericcontrol>
+	</template>
+	<template name="frame_record_content">
+		<genericcontrol name="contentframe">
+			<anchored>
+				<top parent="header" anchor="bottom" offset="7" />
+				<left offset="15" />
+				<right offset="-20" />
+				<bottom offset="-20" />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
+	<template name="frame_record_content_tabbed">
+		<genericcontrol name="contentframe">
+			<anchored>
+				<top parent="header" anchor="bottom" offset="7" />
+				<left offset="15" />
+				<right offset="-30" />
+				<bottom offset="-20" />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
+	<template name="string_record_name">
+		<basicstring>
+			<anchored>
+				<top offset="2"/>
+				<left offset="40" />
+				<right parent="rightanchor" anchor="left" relation="relative" offset="-5" />
+			</anchored>
+			<font>reference-title</font>
+			<multilinespacing>25</multilinespacing>
+			<nodrag />
+			<delaykeyupdate />
+		</basicstring>
+	</template>
+	<template name="string_record_name_image">
+		<string_record_name>
+			<anchored height="25" merge="merge" />
+			<multilinespacing merge="delete" />
+		</string_record_name>
+	</template>
+	<template name="string_record_name_ref">
+		<string_record_name>
+			<anchored merge="merge">
+				<right parent="" anchor="right" relation="absolute" offset="-25" />
+			</anchored>
+			<nodrag />
+			<readonly />
+		</string_record_name>
+	</template>
+	<template name="sub_note_header">
+		<subwindow>
+			<anchored>
+				<top offset="3" />
+				<left offset="15" />
+				<right offset="-25" />
+			</anchored>
+			<activate />
+			<fastinit />
+		</subwindow>
+	</template>
+
+	<!-- Source: common/template_windows.xml -->
+	<template name="button_window_sizedown">
+		<button_window_sizedown_base>
+			<anchored height="16" width="16" />
+		</button_window_sizedown_base>
+	</template>
+	<template name="button_window_sizeup">
+		<button_window_sizeup_base>
+			<anchored height="16" width="16" />
+		</button_window_sizeup_base>
+	</template>
+	<template name="close">
+		<close_base>
+			<anchored height="16" width="16">
+				<top />
+				<right />
+			</anchored>
+		</close_base>
+	</template>
+	<template name="close_calendar">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_campaignlist">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-4" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_charselect">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_charsheet">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_ctbox">
+		<close>
+			<anchored>
+				<top offset="13" />
+				<right offset="-4" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_imagebox">
+		<close>
+			<anchored>
+				<top offset="24" />
+				<right offset="-28" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_imagepanel">
+		<close>
+			<anchored position="insidetopright" offset="1,1" />
+			<invisible />
+		</close>
+	</template>
+	<template name="close_partysheet">
+		<close>
+			<anchored>
+				<top offset="13" />
+				<right offset="-15" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_recordsheet">
+		<close>
+			<anchored>
+				<top offset="7" />
+				<right offset="-4" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_referencelist">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_referencepage">
+		<close>
+			<anchored>
+				<top offset="7" />
+				<right offset="-4" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_storybox">
+		<close>
+			<anchored>
+				<top offset="6" />
+				<right offset="-6" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_tokenbag">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_utilitybox">
+		<close>
+			<anchored>
+				<top offset="13" />
+				<right offset="-9" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_utilitybox2">
+		<close>
+			<anchored>
+				<top offset="8" />
+				<right offset="-9" />
+			</anchored>
+		</close>
+	</template>
+	<template name="close_utilitybox3">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+	<template name="help">
+		<help_base>
+			<anchored height="16" width="16">
+				<top />
+				<right offset="-16" />
+			</anchored>
+		</help_base>
+	</template>
+	<template name="help_calendar">
+		<help>
+			<anchored>
+				<top offset="14" />
+				<right offset="-28" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_charselect">
+		<help>
+			<anchored>
+				<top offset="14" />
+				<right offset="-28" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_ctbox">
+		<help>
+			<anchored>
+				<top offset="13" />
+				<right offset="-20" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_imagebox">
+		<help>
+			<anchored>
+				<top offset="24" />
+				<right offset="-44" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_imagepanel">
+		<help>
+			<anchored position="insidetopright" offset="17,1" />
+			<invisible />
+		</help>
+	</template>
+	<template name="help_partysheet">
+		<help>
+			<anchored>
+				<top offset="13" />
+				<right offset="-31" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_referencelist">
+		<help>
+			<anchored>
+				<top offset="14" />
+				<right offset="-28" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_tokenbag">
+		<help>
+			<anchored>
+				<top offset="14" />
+				<right offset="-28" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_utilitybox">
+		<help>
+			<anchored>
+				<top offset="13" />
+				<right offset="-25" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_utilitybox2">
+		<help>
+			<anchored>
+				<top offset="8" />
+				<right offset="-25" />
+			</anchored>
+		</help>
+	</template>
+	<template name="help_utilitybox3">
+		<help>
+			<anchored>
+				<top offset="14" />
+				<right offset="-28" />
+			</anchored>
+		</help>
+	</template>
+	<template name="sub_record_header">
+		<subwindow>
+			<anchored>
+				<top offset="10" />
+				<left offset="10" />
+				<right offset="-25" />
+			</anchored>
+			<frame name="headergray" offset="5,5,20,5" />
+			<activate />
+			<fastinit />
+		</subwindow>
+	</template>
+	<template name="tabs_partysheet">
+		<buttongroup_tabs name="tabs">
+			<anchored width="20" height="92">
+				<top offset="50" />
+				<right offset="-8" />
+			</anchored>
+		</buttongroup_tabs>
+	</template>
+	<template name="windowtitlebar">
+		<genericcontrol>
+			<bounds>0,0,-1,40</bounds>
+			<frame name="windowtitle" offset="30,0,30,0" />
+			<font>windowtitle</font>
+			<parameters>
+				<windowmargin>60</windowmargin>
+				<controly>0</controly>
+				<controlheight>44</controlheight>
+				<minwidth>100</minwidth>
+			</parameters>
+			<script file="common/scripts/windowtitlebar.lua" />
+		</genericcontrol>
+	</template>
+
+	<!-- Source: ct/ct_host.xml-->
+	<windowclass name="ct_effect" merge="join">
+		<sheetdata>
+			<string_ct_effect_source name="source">
+				<color>7ADDDDDD</color>
+			</string_ct_effect_source>
+			<string_ct_effect_targets name="target_summary">
+				<color>7ADDDDDD</color>
+			</string_ct_effect_targets>
+		</sheetdata>
+	</windowclass>
+
+	<!-- Source: ct/template_ct.xml -->
+	<template name="label_ct">
+		<label>
+			<color>DDDDDD</color>
+		</label>
+	</template>
+
+	<!-- Source: desktop/desktop_classes.xml -->
+	<windowclass name="dicetower" merge="join">
+		<sizelimits>
+			<minimum width="100" height="90" />
+		</sizelimits>
+		<sheetdata>
+			<genericcontrol name="base">
+				<bounds>0,0,100,90</bounds>
+			</genericcontrol>
+		</sheetdata>
+	</windowclass>
+
+	<!-- Source: desktop/desktop_panels.xml -->
+	<panel name="dicetower" modes="host,client" merge="join">
+		<anchored height="100" width="100" />
+	</panel>
+	
+	<!-- Source: desktop/template_desktop.xml -->
+	<template name="button_imagebackpanel_sizedown">
+		<button_window_sizedown>
+			<anchored position="insidetopright" offset="48,1" />
+			<invisible />
+		</button_window_sizedown>
+	</template>
+	<template name="button_imagebackpanel_sizeup">
+		<button_window_sizeup>
+			<anchored position="insidetopright" offset="32,1" />
+			<invisible />
+		</button_window_sizeup>
+	</template>
+	<template name="button_imagefullpanel_sizedown">
+		<button_window_sizedown>
+			<anchored position="insidetopright" offset="32,1" />
+			<invisible />
+		</button_window_sizedown>
+	</template>
+	
+	<!-- Source: CoreRPG ref/template_ref.xml -->
+	<template name="anchor_reftitle">
+		<genericcontrol>
+			<anchored height="0">
+				<top parent="reftitle" anchor="bottom" offset="3" />
+				<left parent="" anchor="left" offset="35" />
+				<right parent="" anchor="right" offset="-50" />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
+	<template name="frame_ref_content">
+		<genericcontrol name="contentframe">
+			<anchored>
+				<top parent="header" anchor="bottom" offset="15" />
+				<left offset="15" />
+				<right offset="-25" />
+				<bottom offset="-15" />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
+	<template name="sub_ref_header">
+		<subwindow>
+			<anchored>
+				<top offset="10" />
+				<left offset="10" />
+				<right offset="-25" />
+			</anchored>
+			<frame name="headergray" offset="6,3,6,3" />
+			<activate />
+			<fastinit />
+		</subwindow>
+	</template>
+
+	<!-- CALENDAR -->
+	<!-- Source: utility/utility_calendar.xml -->
+	<windowclass name="calendar_day" merge="join">
+		<script>
+			local fSetState;
+			function onInit()
+				fSetState = super.setState;
+				super.setState = updatedSetState;
+				if super.onInit then
+					super.onInit();
+				end
+			end
+			function onClose()
+				super.setState = fSetState;
+			end
+
+			function updatedSetState(bCurrDay, bSelDay, bHoliday, nodeEvent)
+				fSetState(bCurrDay, bSelDay, bHoliday, nodeEvent);
+				if bCurrDay then
+					setBackColor("1e1e1e");
+					label_day.setColor("d6dcdc");
+				else
+					setBackColor();
+					if bHoliday then
+						label_day.setColor("4ec9b0");
+					else
+						label_day.setColor("d6dcdc");
+					end
+				end
+			end
+		</script>
+	</windowclass>
+	<windowclass name="calendar_main" merge="join">
+		<script>
+			local fUpdateDisplay;
+			function onInit()
+				fUpdateDisplay = super.updateDisplay;
+				super.updateDisplay = updateDisplay2;
+				
+				if super.onInit then
+					super.onInit();
+				end
+			end
+			function onClose()
+				super.updateDisplay = fUpdateDisplay
+			end
+
+			function updateDisplay2()
+				fUpdateDisplay();
+				local nCampaignMonth = currentmonth.getValue();
+				for _,v in pairs(list.getWindows()) do
+					local nMonth = v.month.getValue();
+					local bCampaignMonth = false;
+					if nMonth == nCampaignMonth then
+						bCampaignMonth = true;
+					end
+
+					if bCampaignMonth then
+						v.label_period.setColor("569cd6");
+					else
+						v.label_period.setColor("d6dcdc");
+					end
+				end
+			end
+
+		</script>
+		<sheetdata>
+			<stringcontrol name="viewdate" merge="join">
+				<color>569cd6</color>
+			</stringcontrol>
+			<basicnumber name="currentyear" merge="join">
+				<color>569cd6</color>
+			</basicnumber>
+			<basicstring name="currentepoch" merge="join">
+				<color>569cd6</color>
+			</basicstring>
+			<label name="currenthour" merge="join">
+				<color>569cd6</color>
+			</label>
+			<label name="currentminute" merge="join">
+				<color>569cd6</color>
+			</label>
+			<label name="currentphase" merge="join">
+				<color>569cd6</color>
+			</label>
+		</sheetdata>
+	</windowclass>
+</root>

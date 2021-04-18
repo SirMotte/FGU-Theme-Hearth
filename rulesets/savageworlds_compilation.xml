@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- Source: ???/???.xml -->
+	<template name="charsheet_sheet">
+		<subwindow>
+			<bounds>0,0,-22,-5</bounds>
+		</subwindow>
+	</template>
+</root>
