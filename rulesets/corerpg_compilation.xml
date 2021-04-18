@@ -1,66 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-
-<!-- TODO calendar -->
-<!-- >>calendar_day.lua<<
-function setState(bCurrDay, bSelDay, bHoliday, nodeEvent)
-	if bCurrDay then
-		setBackColor("DDDDDD");
-		label_day.setColor("EBDDBA");
-	else
-		setBackColor();
-		if bHoliday then
-			label_day.setColor("C33B00");
-		else
-			label_day.setColor("DDDDDD");
-		end
-	end
-
->>calendar_log.lua<<
-		if bCampaignMonth then
-			v.label_period.setColor("EBDDBA");
-		else
-			v.label_period.setColor("DDDDDD");
-		end -->
-
-
-	<!-- Source: 5E campaign/record_char_mainl.xml -->
-	<windowclass name="charsheet_classes" merge="join">
-		<sheetdata>
-			<basicnumber name="expneeded">
-				<script>
-					function onHover(oncontrol)
-						if oncontrol then
-							local draginfo = Input.getDragData();
-							if draginfo and draginfo.isType("number") and draginfo.getNumberData() &lt; getValue() then
-								setColor("FF6161");
-							end
-						else
-							setColor(nil);
-						end
-					end
-				</script>
-			</basicnumber>
-			<list_text name="classes">
-				<child><backcolor>1A40301E</backcolor></child>
-			</list_text>
-		</sheetdata>
-	</windowclass>
-	<windowclass name="charsheet_hd" merge="join">
-		<sheetdata>
-			<numbercontrol name="hdcurrent">
-				<color>DDDDDD</color>
-			</numbercontrol>
-		</sheetdata>
-	</windowclass>
-	<windowclass name="charsheet_main" merge="join">
-		<sheetdata>
-			<basicnumber name="temphp">
-				<color>5C9DFF</color>
-			</basicnumber>
-		</sheetdata>
-	</windowclass>
-
 	<!-- Source: CoreRPG common/template_records.xml -->
 	<template name="frame_record_content">
 		<genericcontrol name="contentframe">
@@ -289,15 +228,6 @@ function setState(bCurrDay, bSelDay, bHoliday, nodeEvent)
 			<script file="common/scripts/windowtitlebar.lua" />
 		</genericcontrol>
 	</template>
-
-	<!-- Source: 5E ct/ct_host.xml -->
-	<windowclass name="ct_entry" merge="join">
-		<sheetdata>
-			<number_ct_crosslink name="hptemp">
-				<color>5C9DFF</color>
-			</number_ct_crosslink>
-		</sheetdata>
-	</windowclass>
 
 	<!-- Source: CoreRPG ct/ct_host.xml-->
 	<windowclass name="ct_effect" merge="join">
