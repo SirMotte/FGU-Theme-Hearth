@@ -123,8 +123,5 @@
 		<includefile source="utility/utility_modifiers.xml" />
 	-->			
 
-
-		<!-- CALENDAR -->
-		<includefile source="utility/utility_calendar.xml" />
 	</base>
 </root>
