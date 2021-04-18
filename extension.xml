@@ -25,12 +25,13 @@
 -->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: SirMotte's Magnificent Darkness\rVersion Alpha_2.0_Hotfix01- Hearth Edition" font="emotefont" icon="footface"/>
+	<announcement text="Theme Loaded: SirMotte's Magnificent Darkness\rVersion Alpha_2.1.0 - Rolling Sledge\rHearth Edition" font="emotefont" icon="footface"/>
 	
 	<properties>
 		<name>Theme: Hearth</name>
 		<author>Sir Motte</author>
-		<description>Dark, warm and reduced userinterface for FGU and DnD 5E</description>	
+		<version>2.1.0</version> 
+		<description>Dark, warm and reduced user interface for FGU and DnD 5E</description>	
 		<loadorder>110</loadorder>
 		<!--While many rulesets should work for the most part, only 5E is currently supported-->
 		<ruleset>

@@ -18,7 +18,7 @@
 	<!-- Note: FGF tags processed first for FG Classic, and TTF tags processed first for FGU -->
 	<!-- Text Highlight -->
 	<textsettings>
-		<selectioncolor>0C0C0C</selectioncolor>
+		<selectioncolor>000000</selectioncolor>
 	</textsettings>
 		<!-- Sidebar -->
 	<font name="button_sidebar_dockitem">
@@ -227,12 +227,12 @@
 	<font name="charselecttitle">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#EBDDBA" />
 	</font>
 	<font name="charselectbody">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#DDDDDD" />
 	</font>
 
 	<!-- Options -->
