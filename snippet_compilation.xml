@@ -25,28 +25,11 @@ function setState(bCurrDay, bSelDay, bHoliday, nodeEvent)
 
 
 	<!-- Source: 5E campaign/record_char_mainl.xml -->
-	<windowclass name="charsheet_main" merge="join">
-		<sheetdata>
-			<basicnumber name="temphp" source="hp.temporary">
-				<color>5C9DFF</color>
-			</basicnumber>
-		</sheetdata>
-	</windowclass>
-	<windowclass name="charsheet_hd" merge="join">
-		<sheetdata>
-			<numbercontrol name="hdcurrent">
-				<color>DDDDDD</color>
-			</numbercontrol>
-		</sheetdata>
-	</windowclass>
 	<windowclass name="charsheet_classes" merge="join">
 		<sheetdata>
 			<basicnumber name="expneeded">
 				<script>
 					function onHover(oncontrol)
-						if super and super.onHover then
-							Debug.chat("neat");
-						end
 						if oncontrol then
 							local draginfo = Input.getDragData();
 							if draginfo and draginfo.isType("number") and draginfo.getNumberData() &lt; getValue() then
@@ -56,26 +39,103 @@ function setState(bCurrDay, bSelDay, bHoliday, nodeEvent)
 							setColor(nil);
 						end
 					end
-					
-					function onDrop(x, y, draginfo)
-						if draginfo.isType("number") and draginfo.getNumberData() &gt; getValue() then
-							setValue(draginfo.getNumberData());
-						end
-
-						return true;
-					end
 				</script>
 			</basicnumber>
-		</sheetdata>
-	</windowclass>
-	<windowclass name="charsheet_classes" merge="join">
-		<sheetdata>
 			<list_text name="classes">
 				<child><backcolor>1A40301E</backcolor></child>
 			</list_text>
 		</sheetdata>
 	</windowclass>
+	<windowclass name="charsheet_hd" merge="join">
+		<sheetdata>
+			<numbercontrol name="hdcurrent">
+				<color>DDDDDD</color>
+			</numbercontrol>
+		</sheetdata>
+	</windowclass>
+	<windowclass name="charsheet_main" merge="join">
+		<sheetdata>
+			<basicnumber name="temphp" source="hp.temporary">
+				<color>5C9DFF</color>
+			</basicnumber>
+		</sheetdata>
+	</windowclass>
 
+	<!-- Source: CoreRPG common/template_records.xml -->
+	<template name="frame_record_content">
+		<genericcontrol name="contentframe">
+			<anchored>
+				<top parent="header" anchor="bottom" offset="7" />
+				<left offset="15" />
+				<right offset="-20" />
+				<bottom offset="-20" />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
+	<template name="frame_record_content_tabbed">
+		<genericcontrol name="contentframe">
+			<anchored>
+				<top parent="header" anchor="bottom" offset="7" />
+				<left offset="15" />
+				<right offset="-30" />
+				<bottom offset="-20" />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
+	<template name="string_record_name">
+		<basicstring>
+			<anchored>
+				<top offset="2"/>
+				<left offset="40" />
+				<right parent="rightanchor" anchor="left" relation="relative" offset="-5" />
+			</anchored>
+			<font>reference-title</font>
+			<multilinespacing>25</multilinespacing>
+			<nodrag />
+			<delaykeyupdate />
+		</basicstring>
+	</template>
+	<template name="sub_note_header">
+		<subwindow>
+			<anchored>
+				<top offset="3" />
+				<left offset="15" />
+				<right offset="-25" />
+			</anchored>
+			<activate />
+			<fastinit />
+		</subwindow>
+	</template>
+
+	<!-- Source: CoreRPG common/template_windows.xml -->
+	<template name="sub_record_header">
+		<subwindow>
+			<anchored>
+				<top offset="10" />
+				<left offset="10" />
+				<right offset="-25" />
+			</anchored>
+			<frame name="headergray" offset="5,5,20,5" />
+			<activate />
+			<fastinit />
+		</subwindow>
+	</template>
+	<template name="windowtitlebar">
+		<genericcontrol>
+			<bounds>0,0,-1,40</bounds>
+			<frame name="windowtitle" offset="30,0,30,0" />
+			<font>windowtitle</font>
+			<parameters>
+				<windowmargin>60</windowmargin>
+				<controly>0</controly>
+				<controlheight>44</controlheight>
+				<minwidth>100</minwidth>
+			</parameters>
+			<script file="common/scripts/windowtitlebar.lua" />
+		</genericcontrol>
+	</template>
 
 	<!-- Source: 5E ct/ct_host.xml -->
 	<windowclass name="ct_entry" merge="join">
@@ -87,6 +147,11 @@ function setState(bCurrDay, bSelDay, bHoliday, nodeEvent)
 	</windowclass>
 
 	<!-- Source: CoreRPG ct/template_ct.xml -->
+	<template name="label_ct">
+		<label>
+			<color>DDDDDD</color>
+		</label>
+	</template>
 	<template name="string_ct_effect_source" merge="join">
 		<stringcontrol name="source">
 			<anchored height="20">
@@ -119,9 +184,56 @@ function setState(bCurrDay, bSelDay, bHoliday, nodeEvent)
 			</script>
 		</stringcontrol>
 	</template>
-	<template name="label_ct">
-		<label>
-			<color>DDDDDD</color>
-		</label>
+
+	<!-- Source: CoreRPG desktop/desktop_classes.xml -->
+	<windowclass name="dicetower" merge="join">
+		<sizelimits>
+			<minimum width="100" height="90" />
+		</sizelimits>
+		<sheetdata>
+			<genericcontrol name="base">
+				<bounds>0,0,100,90</bounds>
+			</genericcontrol>
+		</sheetdata>
+	</windowclass>
+
+	<!-- Source: CoreRPG desktop/desktop_panels.xml -->
+	<panel name="dicetower" modes="host,client" merge="join">
+		<anchored height="100" width="100" />
+	</panel>
+	
+	<!-- Source: CoreRPG ref/template_ref.xml -->
+	<template name="anchor_reftitle">
+		<genericcontrol>
+			<anchored height="0">
+				<top parent="reftitle" anchor="bottom" offset="3" />
+				<left parent="" anchor="left" offset="35" />
+				<right parent="" anchor="right" offset="-50" />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
+	<template name="frame_ref_content">
+		<genericcontrol name="contentframe">
+			<anchored>
+				<top parent="header" anchor="bottom" offset="15" />
+				<left offset="15" />
+				<right offset="-25" />
+				<bottom offset="-15" />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
+	<template name="sub_ref_header">
+		<subwindow>
+			<anchored>
+				<top offset="10" />
+				<left offset="10" />
+				<right offset="-25" />
+			</anchored>
+			<frame name="headergray" offset="6,3,6,3" />
+			<activate />
+			<fastinit />
+		</subwindow>
 	</template>
 </root>
