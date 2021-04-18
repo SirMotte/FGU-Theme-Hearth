@@ -107,8 +107,6 @@
 		<!--Colors CT Temp HP-->
 		<!--<includefile source="ct/ct_host.xml" /> -->
 		<!--calendar day and caption colors-->
-<!--	<script name="calendar_day" file="scripts/calendar_day.lua" />
-		<script name="calendar_log" file="scripts/calendar_log.lua" />		-->
 		<!--Additional-->
 		<includefile source="common/template_windows.xml" />
 	<!--
@@ -122,5 +120,9 @@
 		<includefile source="utility/template_utility.xml" />
 		<includefile source="utility/utility_modifiers.xml" />
 	-->			
+
+
+		<!-- CALENDAR -->
+		<includefile source="utility/utility_calendar.xml" />
 	</base>
 </root>
