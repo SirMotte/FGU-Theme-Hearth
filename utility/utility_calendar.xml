@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+    <windowclass name="calendar_day" merge="join">
+        <script>
+            local fSetState;
+            function onInit()
+                fSetState = super.setState;
+                super.setState = updatedSetState;
+                if super.onInit then
+                    super.onInit();
+                end
+            end
+            function onClose()
+                super.setState = fSetState;
+            end
+
+            function updatedSetState(bCurrDay, bSelDay, bHoliday, nodeEvent)
+                fSetState(bCurrDay, bSelDay, bHoliday, nodeEvent);
+                if bCurrDay then
+                    setBackColor("1e1e1e");
+                    label_day.setColor("d6dcdc");
+                else
+                    setBackColor();
+                    if bHoliday then
+                        label_day.setColor("4ec9b0");
+                    else
+                        label_day.setColor("d6dcdc");
+                    end
+                end
+            end
+        </script>
+    </windowclass>
+
+    <windowclass name="calendar_main" merge="join">
+        <script>
+            local fUpdateDisplay;
+            function onInit()
+                fUpdateDisplay = super.updateDisplay;
+                super.updateDisplay = updateDisplay2;
+                
+                if super.onInit then
+                    super.onInit();
+                end
+            end
+            function onClose()
+                super.updateDisplay = fUpdateDisplay
+            end
+
+            function updateDisplay2()
+                fUpdateDisplay();
+                local nCampaignMonth = currentmonth.getValue();
+                for _,v in pairs(list.getWindows()) do
+                    local nMonth = v.month.getValue();
+                    local bCampaignMonth = false;
+                    if nMonth == nCampaignMonth then
+                        bCampaignMonth = true;
+                    end
+
+                    if bCampaignMonth then
+                        v.label_period.setColor("569cd6");
+                    else
+                        v.label_period.setColor("d6dcdc");
+                    end
+                end
+            end
+
+        </script>
+        <sheetdata>
+            <stringcontrol name="viewdate" merge="join">
+                <color>569cd6</color>
+            </stringcontrol>
+            <basicnumber name="currentyear" merge="join">
+				<color>569cd6</color>
+			</basicnumber>
+            <basicstring name="currentepoch" merge="join">
+				<color>569cd6</color>
+			</basicstring>
+            <label name="currenthour" merge="join">
+                <color>569cd6</color>
+            </label>
+            <label name="currentminute" merge="join">
+                <color>569cd6</color>
+            </label>
+            <label name="currentphase" merge="join">
+                <color>569cd6</color>
+            </label>
+        </sheetdata>
+    </windowclass>
+</root>
