@@ -15,7 +15,6 @@
 <root>
 <!--Author: Damned-->
 <!--Ext: Player Agency-->
-
 <!--Frames-->
 <framedef name="chatframe_spell">
  	<bitmap file="graphics/extensions/damned/player_agency/chatframe_spell.png" /> 
@@ -46,16 +45,17 @@
 <!--Chat--> 
 <icon name="button_chat" file="graphics/extensions/damned/sharing_is_caring/chat.png" />
 
-<!--Author:-->
+<!--Author: Zygmunt Molotch-->
+<!--Ext: Combat Timer-->
 <!--Frames-->
 <framedef name="timer_background">
-  <bitmap file="graphics/frames/TimerFrame.png" /> 
+  <bitmap file="graphics/extensions/other/combat_timer/TimerFrame.png" /> 
   <middle rect="0,0,100,25" /> 
 </framedef>
 <!--Font-->
 <font name="FreeUniversal-Regular">
-		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12"/>
-		<color value="#DDDDDD"/>
+	<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12"/>
+	<color value="#DDDDDD"/>
 </font>
 <!--Buttons-->  
 <icon name="button_timerstart" file="graphics/extensions/other/combat_timer/button_timerstart2.png" /> 
