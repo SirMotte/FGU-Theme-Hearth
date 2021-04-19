@@ -1,0 +1,10 @@
+Update to Beta_2.1.1_Playful_Quagmire
+
+- changed font color of collapsed actions tabs
+- Smaller Drag font
+
+
+Extension Support:
+- Constitutional Amendmends by MeAndUnique
+
+
