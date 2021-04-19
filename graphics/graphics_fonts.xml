@@ -141,7 +141,7 @@
 	<!-- Hot keys -->
 	<font name="hotkey">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
-		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="16" />
 		<color value="#DDDDDD" />
 		<shadow offset="1,1" color="000000" />		
 	</font>
