@@ -36,6 +36,7 @@
   <icon name="chat_place" file="graphics/extensions/damned/player_agency/chat_place.png" /> 
   <icon name="chat_religion" file="graphics/extensions/damned/player_agency/chat_religion.png" /> 
   <icon name="chat_group" file="graphics/extensions/damned/player_agency/chat_group.png" />
+
 <!--Ext: Sharing is Caring-->
 <!--Frames-->
 <framedef name="chatframe_spell">
@@ -63,5 +64,30 @@
 <icon name="button_settings2" file="graphics/extensions/other/combat_timer/button_settings2.png" /> 
 <icon name="button_timerrunning" file="graphics/extensions/other/combat_timer/button_timerrunning.png" /> 
 
+<!--Author: Silent Ruin-->
+<!--Ext: Polymorphism-->
+<!--Icon--> 
+<icon name="polymorphism_icon" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_icon.png" /> 
+<!--Ext: Map Parcel-->
+<!--Icon-->
+<icon name="mapparcel_icon" file="graphics/extensions/silent_ruin/map_parcel/mapparcel_icon.png" />
+<!--Ext: Combat Groups-->
+<!--Icons-->
+<icon name="combatgroups_icon" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon.png" /> 
+<icon name="combatgroups_icon_down" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon_down.png" /> 
+<!--Ext: Generic Actions-->
+<!--Icon-->
+ <icon name="generic_actions_icon" file="graphics/extensions/silent_ruin/generic_actions/generic_actions_icon.png" /> 
+
+<!--Author: xxx-->
+<!--Ext: xxx-->
+
+<!--Author: xxx-->
+<!--Ext: xxx-->
+
+<!--Author: xxx-->
+<!--Ext: xxx-->
+<!--Author: xxx-->
+<!--Ext: xxx-->
 
 </root>
