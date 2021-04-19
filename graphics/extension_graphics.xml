@@ -13,7 +13,9 @@
 	All rights reserved.
 -->
 <root>
-<!--Damned - Player Agency-->
+<!--Author: Damned-->
+<!--Ext: Player Agency-->
+
 <!--Frames-->
 <framedef name="chatframe_spell">
  	<bitmap file="graphics/extensions/damned/player_agency/chatframe_spell.png" /> 
@@ -28,7 +30,6 @@
 	<bitmap file="graphics/extensions/damned/player_agency/chatframe_world.png" /> 
 	<offset>35,50,30,30</offset> 
 </framedef>
-<!--extensions/damned/player_agency-->
 <!--Chat--> 
   <icon name="button_chat" file="graphics/extensions/damned/player_agency/chat.png" /> 
   <icon name="button_pcedit" file="graphics/extensions/damned/player_agency/edit.png" /> 
@@ -36,4 +37,14 @@
   <icon name="chat_place" file="graphics/extensions/damned/player_agency/chat_place.png" /> 
   <icon name="chat_religion" file="graphics/extensions/damned/player_agency/chat_religion.png" /> 
   <icon name="chat_group" file="graphics/extensions/damned/player_agency/chat_group.png" />
+<!--Ext: Sharing is Caring-->
+<!--Frames-->
+<framedef name="chatframe_spell">
+  <bitmap file="graphics/frames/chatframe_spell.png" /> 
+  <offset>40,40,40,40</offset> 
+</framedef>
+<!--Chat--> 
+<icon name="button_chat" file="graphics/icons/chat.png" />
+
+
 </root>
