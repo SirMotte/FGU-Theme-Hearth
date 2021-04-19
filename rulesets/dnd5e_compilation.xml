@@ -32,7 +32,7 @@
 	<windowclass name="charsheet_main" merge="join">
 		<sheetdata>
 			<basicnumber name="temphp">
-				<color>5C9DFF</color>
+				<color>69B7FF</color>
 			</basicnumber>
 		</sheetdata>
 	</windowclass>
@@ -51,7 +51,7 @@
 	<windowclass name="ct_entry" merge="join">
 		<sheetdata>
 			<number_ct_crosslink name="hptemp">
-				<color>5C9DFF</color>
+				<color>69B7FF</color>
 			</number_ct_crosslink>
 		</sheetdata>
 	</windowclass>
