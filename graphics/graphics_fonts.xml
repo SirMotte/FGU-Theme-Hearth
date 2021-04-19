@@ -175,7 +175,7 @@
 	<font name="subwindowsmalltitle_disabled">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#FF6161" />
 	</font>
 	<!-- Formatted text fields -->
 	<font name="reference-r">
