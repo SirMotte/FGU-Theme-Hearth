@@ -40,11 +40,11 @@
 <!--Ext: Sharing is Caring-->
 <!--Frames-->
 <framedef name="chatframe_spell">
-  <bitmap file="graphics/frames/chatframe_spell.png" /> 
+  <bitmap file="graphics/extensions/damned/sharing_is_caring/chatframe_spell.png" /> 
   <offset>40,40,40,40</offset> 
 </framedef>
 <!--Chat--> 
-<icon name="button_chat" file="graphics/icons/chat.png" />
+<icon name="button_chat" file="graphics/extensions/damned/sharing_is_caring/chat.png" />
 
 
 </root>
