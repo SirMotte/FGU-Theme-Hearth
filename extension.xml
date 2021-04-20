@@ -115,8 +115,5 @@
 
 		<!--Extension Graphics definitions-->
 		<includefile source="graphics/extension_graphics.xml" />
-
-		<!-- Extension Control definitions -->
-		<includefile source="extensions/ca_compilation.xml" />
 	</base>
 </root>
