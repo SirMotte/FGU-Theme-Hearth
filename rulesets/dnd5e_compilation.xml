@@ -33,7 +33,9 @@
 	<windowclass name="charsheet_main" merge="join">
 		<script>
 			function onInit()
-				super.onInit();
+				if super and super.onInit then
+					super.onInit();
+				end
 				if temphp then
 					temphp.setColor("69B7FF");
 				end
@@ -56,7 +58,9 @@
 	<windowclass name="ct_entry" merge="join">
 		<script>
 			function onInit()
-				super.onInit();
+				if super and super.onInit then
+					super.onInit();
+				end
 				if hptemp then
 					hptemp.setColor("69B7FF");
 				end

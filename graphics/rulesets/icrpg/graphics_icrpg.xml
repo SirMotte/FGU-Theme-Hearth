@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+    <!-- Sidebar -->
+	<font name="button_sidebar">
+		<ttf file="graphics/rulesets/icrpg/nusaliver.ttf" name="nusaliver" size="14" />
+		<color value="#EBDDBA" />
+	</font>
+    <icon name="button_damagetypes" file="graphics/rulesets/icrpg//button_damagetypes.png" />
+	<icon name="button_damagetypes_down" file="graphics/rulesets/icrpg/button_damagetypes_down.png" />
+
+    <!-- Char sheet -->
+    <font name="charstatlabel">
+		<ttf file="graphics/rulesets/icrpg/nusaliver.ttf" name="nusaliver" size="15"/>
+		<color value="EBDDBA" />
+	</font>
+    <font name="charstattotal">
+		<ttf file="graphics/fonts/nusaliver.ttf" name="nusaliver" size="28"/>
+		<color value="DDDDDD" />
+	</font>
+
+    <!-- CT -->
+    <icon name="button_chunk" file="graphics/rulesets/icrpg/button_chunk.png" />
+	<icon name="button_chunk_down" file="graphics/rulesets/icrpg/button_chunk_down.png" />
+
+    <!-- PC/NPC Sheet General -->
+    <framedef name="dying">
+		<bitmap file="graphics/rulesets/icrpg/dying.png" />
+		<offset>1,1,1,1</offset>
+	</framedef> 
+	<framedef name="armor">
+		<bitmap file="graphics/rulesets/icrpg/shield.png" />
+		<offset>1,1,1,1</offset>
+	</framedef> 
+	<framedef name="hearts">
+		<bitmap file="graphics/rulesets/icrpg/hearts.png" />
+		<offset>1,1,1,1</offset>
+	</framedef> 
+	<framedef name="hearts_repeating">
+		<bitmap file="graphics/rulesets/icrpg/heart_repeating.png" />
+		<offset>1,1,1,1</offset>
+	</framedef>
+
+    <icon name="herocoin_off" file="graphics/rulesets/icrpg/herocoin_off.png" />
+	<icon name="herocoin_on" file="graphics/rulesets/icrpg/herocoin_on.png" />
+    <icon name="button_heart" file="graphics/rulesets/icrpg/button_heart.png" />
+	<icon name="button_heart_down" file="graphics/rulesets/icrpg/button_heart_down.png" />
+
+    <!-- PC Action Tab -->
+    <framedef name="charsheet_header">
+		<bitmap file="graphics/pngs/leathertag.png" />		
+		<topleft rect="0,0,11,10" />
+		<top rect="11,0,177,10" />
+		<topright rect="188,0,12,10" />
+		<left rect="0,10,11,30" />
+		<middle rect="11,10,177,30" />
+		<right rect="188,10,12,30" />
+		<bottomleft rect="0,40,11,10" />
+		<bottom rect="11,40,177,10" />
+		<bottomright rect="188,40,12,10" />	
+	</framedef> 
+
+    <icon name="button_action_attempt" file="graphics/pngs/button_action_attack.png" />
+	<icon name="button_action_attempt_down" file="graphics/pngs/button_action_attack_down.png" />
+	<icon name="button_action_effort" file="graphics/pngs/button_action_damage.png" />
+	<icon name="button_action_effort_down" file="graphics/pngs/button_action_damage_down.png" />
+</root>
