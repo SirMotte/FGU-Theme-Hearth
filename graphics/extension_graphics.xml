@@ -53,7 +53,7 @@
   		<bitmap file="graphics/extensions/other/combat_timer/TimerFrame.png" /> 
   		<middle rect="0,0,100,25" /> 
 	</framedef>
-<!--Buttons-->  
+<!--extensions/silent_ruin/death_indicator-->  
 	<icon name="button_timerstart" file="graphics/extensions/other/combat_timer/button_timerstart2.png" /> 
 	<icon name="button_settings" file="graphics/extensions/other/combat_timer/button_settings.png" /> 
 	<icon name="button_settings2" file="graphics/extensions/other/combat_timer/button_settings2.png" /> 
@@ -86,9 +86,9 @@
   <icon name="icon_death_indicator" file="graphics/extensions/silent_ruin/death_indicator/icon.png" /> 
   <icon name="icon_death_indicator_token" file="graphics/extensions/silent_ruin/death_indicator/death_indicator.png" /> 
 <!--Define the link / shield icons for important NPCs in the combat tracker--> 
-  <icon name="button_shield" file="graphics/buttons/button_shield.png" /> 
-  <icon name="button_shield_down" file="graphics/buttons/button_shield_down.png" /> 
-  <icon name="button_shield_empty" file="graphics/buttons/button_shield_empty.png" /> 
+  <icon name="button_shield" file="graphics/extensions/silent_ruin/death_indicator/button_shield.png" /> 
+  <icon name="button_shield_down" file="graphics/extensions/silent_ruin/death_indicator/button_shield_down.png" /> 
+  <icon name="button_shield_empty" file="graphics/extensions/silent_ruin/death_indicator/button_shield_empty.png" /> 
 <!--Define the icons for the blood splat images
   <icon name="blood_01" file="graphics/extensions/silent_ruin/death_indicator/blood_01.png" /> 
   <icon name="blood_02" file="graphics/extensions/silent_ruin/death_indicator/blood_02.png" /> 
