@@ -7,5 +7,8 @@ Update to Beta_2.2.0_Sloshing_Brains
 
 Extension Support:
 - Constitutional Amendmends by MeAndUnique
+- Equipped Effects by Silent Ruin
+- Assistant GM by Silent Ruin
+- Generic Actions by Silent Ruin
 
 
