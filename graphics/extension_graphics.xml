@@ -81,6 +81,23 @@
 
 <!--Author: xxx-->
 <!--Ext: xxx-->
+<!--Author: MeAndUnique-->
+<!--Ext: Constitutional Amendments-->
+	<!-- Source: campain/record_char_main.xml -->
+	<windowclass name="charsheet_main" merge="join">
+		<script>
+			function onInit()
+				super.onInit();
+				if adjhp then
+					adjhp.setColor("D592FF");
+				end
+			end
+		</script>
+		<!-- <sheetdata>
+			<basicsmartnumber name="adjhp">
+				<color>D592FF</color>
+			</basicsmartnumber>
+		</sheetdata> -->
 
 <!--Author: xxx-->
 <!--Ext: xxx-->
