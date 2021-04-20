@@ -94,6 +94,9 @@
 		<ruleset>
 			<name>Basic Roleplaying</name>
 		</ruleset>	
+		<ruleset>
+			<name>ICRPG</name>
+		</ruleset>
 	</properties>
 	<base>
 		<!--Graphics definitions-->
