@@ -44,4 +44,12 @@ function onInit()
 	ColorManager.COLOR_TOKEN_HEALTH_GRADIENT_TOP = { r = 0, g = 192, b = 0 };
 	ColorManager.COLOR_TOKEN_HEALTH_GRADIENT_MID = { r = 255, g = 192, b = 0 };
 	ColorManager.COLOR_TOKEN_HEALTH_GRADIENT_BOTTOM = { r = 255, g = 0, b = 0 };
+
+	Interface.onHotkeyDrop = onHotkeyDrop;
+end
+
+function onHotkeyDrop(dragdata)
+	if (dragdata.getDescription() or "") ~= "" then
+		dragdata.setIcon("empty");
 	end
+end
