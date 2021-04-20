@@ -93,11 +93,7 @@
 				end
 			end
 		</script>
-		<!-- <sheetdata>
-			<basicsmartnumber name="adjhp">
-				<color>D592FF</color>
-			</basicsmartnumber>
-		</sheetdata> -->
+	</windowclass>
 
 <!--Author: xxx-->
 <!--Ext: xxx-->
