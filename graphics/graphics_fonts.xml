@@ -20,13 +20,13 @@
 	<textsettings>
 		<selectioncolor>000000</selectioncolor>
 	</textsettings>
-		<!-- Sidebar -->
+	<!-- Sidebar -->
 	<font name="button_sidebar_dockitem">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#EBDDBA" />
 	</font>
-			<!-- Default fonts - REQUIRED -->
+	<!-- Default fonts - REQUIRED -->
 	<font name="defaultstringcontrol">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
@@ -63,7 +63,7 @@
 	<!-- Drag fonts - REQUIRED -->
 	<font name="draglabel">
 		<fgffile name="graphics/fonts/draglabel.fgf" />
-		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="42" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
 		<color value="#DDDDDD" />
 	</font>
 
@@ -141,8 +141,9 @@
 	<!-- Hot keys -->
 	<font name="hotkey">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
-		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />		
+		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="16" />
+		<color value="#DDDDDD" />
+		<shadow offset="1,1" color="000000" />		
 	</font>
 
 	<!-- Modifier stack -->
@@ -175,7 +176,7 @@
 	<font name="subwindowsmalltitle_disabled">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#FF6161" />
+		<color value="#F2AB76" />
 	</font>
 	<!-- Formatted text fields -->
 	<font name="reference-r">
