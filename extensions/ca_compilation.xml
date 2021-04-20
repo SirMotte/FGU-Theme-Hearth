@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- Source: campain/record_char_main.xml -->
+	<windowclass name="charsheet_main" merge="join">
+		<sheetdata>
+			<basicsmartnumber name="adjhp">
+				<color>D592FF</color>
+			</basicsmartnumber>
+		</sheetdata>
+	</windowclass>
+</root>
