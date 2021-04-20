@@ -87,7 +87,9 @@
 	<windowclass name="charsheet_main" merge="join">
 		<script>
 			function onInit()
-				super.onInit();
+				if super and super.onInit then
+					super.onInit();
+				end
 				if adjhp then
 					adjhp.setColor("D592FF");
 				end
