@@ -29,12 +29,16 @@
 			</numbercontrol>
 		</sheetdata>
 	</windowclass>
+	<!-- Re-color is moved to script instead of xml to support rulesets that don't use the temphp box -->
 	<windowclass name="charsheet_main" merge="join">
-		<sheetdata>
-			<basicnumber name="temphp">
-				<color>69B7FF</color>
-			</basicnumber>
-		</sheetdata>
+		<script>
+			function onInit()
+				super.onInit();
+				if temphp then
+					temphp.setColor("69B7FF");
+				end
+			end
+		</script>
 	</windowclass>
 	
 	<!-- Source: common/template_windows.xml -->
@@ -48,11 +52,15 @@
 	</template>	
 
 	<!-- Source: ct/ct_host.xml -->
+	<!-- Re-color is moved to script instead of xml to support rulesets that don't use the temphp box -->
 	<windowclass name="ct_entry" merge="join">
-		<sheetdata>
-			<number_ct_crosslink name="hptemp">
-				<color>69B7FF</color>
-			</number_ct_crosslink>
-		</sheetdata>
+		<script>
+			function onInit()
+				super.onInit();
+				if hptemp then
+					hptemp.setColor("69B7FF");
+				end
+			end
+		</script>
 	</windowclass>
 </root>
