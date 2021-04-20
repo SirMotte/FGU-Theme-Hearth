@@ -356,4 +356,7 @@
 	<icon name="roll_damage" file="graphics/pngs/roll_damage.png" />
 	<icon name="roll_heal" file="graphics/pngs/roll_heal.png" />
 	<icon name="roll_effect" file="graphics/pngs/roll_effect.png" />
+
+	<!-- Hotkeys -->
+	<icon name="empty" file="graphics/pngs/empty.png" />
 </root>
