@@ -106,6 +106,9 @@
 		<includefile source="graphics/graphics_frames.xml" />
 		<includefile source="graphics/graphics_icons.xml" />
 		<includefile source="graphics/graphics_tabs.xml" />
+
+		<!-- Ruleset Graphics -->
+		<includefile source="graphics/rulesets/icrpg/graphics_icrpg.xml" />
 	
 		<script name="manager_color_2" file="scripts/manager_color_2.lua" />
 
@@ -115,6 +118,7 @@
 		<includefile source="rulesets/dnd4e_compilation.xml" />
 		<includefile source="rulesets/dnd5e_compilation.xml" />
 		<includefile source="rulesets/savageworlds_compilation.xml" />
+		<includefile source="rulesets/icrpg_compilation.xml" />
 
 		<!--Extension Graphics definitions-->
 		<includefile source="graphics/extension_graphics.xml" />
