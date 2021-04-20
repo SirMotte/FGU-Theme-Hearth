@@ -79,8 +79,16 @@
 <!--Icon-->
  <icon name="generic_actions_icon" file="graphics/extensions/silent_ruin/generic_actions/generic_actions_icon.png" /> 
 
-<!--Author: xxx-->
-<!--Ext: xxx-->
+<!--Author: MeAndUnique-->
+<!--Ext: Constitutional Amendments-->
+	<!-- Source: campain/record_char_main.xml -->
+	<windowclass name="charsheet_main" merge="join">
+		<sheetdata>
+			<basicsmartnumber name="adjhp">
+				<color>D592FF</color>
+			</basicsmartnumber>
+		</sheetdata>
+	</windowclass>
 
 <!--Author: xxx-->
 <!--Ext: xxx-->
