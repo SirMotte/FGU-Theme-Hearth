@@ -14,6 +14,13 @@
     <icon name="button_damagetypes" file="graphics/rulesets/icrpg//button_damagetypes.png" />
 	<icon name="button_damagetypes_down" file="graphics/rulesets/icrpg/button_damagetypes_down.png" />
 
+	<!-- Action Icons -->
+	<icon name="action_attempt" file="graphics/rulesets/icrpg/roll_attempt.png" />
+	<icon name="action_effort" file="graphics/pngs/roll_damage.png" />
+	<icon name="action_healing" file="graphics/pngs/roll_heal.png" />
+	<icon name="action_timer" file="graphics/rulesets/icrpg/roll_timer.png" />
+	<icon name="action_dying" file="graphics/rulesets/icrpg/roll_dying.png" />
+
     <!-- Char sheet -->
     <font name="charstatlabel">
 		<ttf file="graphics/rulesets/icrpg/nusaliver.ttf" name="nusaliver" size="15"/>
@@ -69,4 +76,12 @@
 	<icon name="button_action_attempt_down" file="graphics/pngs/button_action_attack_down.png" />
 	<icon name="button_action_effort" file="graphics/pngs/button_action_damage.png" />
 	<icon name="button_action_effort_down" file="graphics/pngs/button_action_damage_down.png" />
+
+	<!-- Altered State -->
+	<icon name="button_char_inv_enhancement" file="graphics/rulesets/icrpg/button_inv_enhancement.png" />
+    <icon name="action_rage" file="graphics/rulesets/icrpg/roll_rage.png" />
+    <icon name="action_surge" file="graphics/rulesets/icrpg/roll_surge.png" />
+
+	<!-- Armor Soak -->
+	<icon name="soak" file="graphics/rulesets/icrpg/roll_soak.png" />
 </root>
