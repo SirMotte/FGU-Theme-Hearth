@@ -103,16 +103,20 @@
 <!--Stable Condition-->
   <icon name="stable_01" file="graphics/extensions/silent_ruin/death_indicator/stable_01.png" /> 
 
-
 <!--Author: MeAndUnique-->
 <!--Ext: Constitutional Amendments-->
-	<!-- Source: campain/record_char_main.xml -->
+<!-- Source: campain/record_char_main.xml -->
 	<windowclass name="charsheet_main" merge="join">
-		<sheetdata>
-			<basicsmartnumber name="adjhp">
-				<color>D592FF</color>
-			</basicsmartnumber>
-		</sheetdata>
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if adjhp then
+					adjhp.setColor("D592FF");
+				end
+			end
+		</script>
 	</windowclass>
 
 <!--Author: xxx-->
