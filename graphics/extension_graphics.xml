@@ -38,7 +38,7 @@
 	<icon name="chat_group" file="graphics/extensions/damned/player_agency/chat_group.png" />
 
 <!--Ext: Sharing is Caring-->
-<!--Frames-->
+<!--Frame-->
 	<framedef name="chatframe_spell">
 		<bitmap file="graphics/extensions/damned/sharing_is_caring/chatframe_spell.png" /> 
   		<offset>40,40,40,40</offset> 
@@ -48,12 +48,12 @@
 
 <!--Author: Zygmunt Molotch-->
 <!--Ext: Combat Timer-->
-<!--Frames-->
+<!--Frame-->
 	<framedef name="timer_background">
   		<bitmap file="graphics/extensions/other/combat_timer/TimerFrame.png" /> 
   		<middle rect="0,0,100,25" /> 
 	</framedef>
-<!--extensions/silent_ruin/death_indicator-->  
+<!--Icons-->  
 	<icon name="button_timerstart" file="graphics/extensions/other/combat_timer/button_timerstart2.png" /> 
 	<icon name="button_settings" file="graphics/extensions/other/combat_timer/button_settings.png" /> 
 	<icon name="button_settings2" file="graphics/extensions/other/combat_timer/button_settings2.png" /> 
