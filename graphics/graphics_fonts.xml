@@ -18,7 +18,7 @@
 	<!-- Note: FGF tags processed first for FG Classic, and TTF tags processed first for FGU -->
 	<!-- Text Highlight -->
 	<textsettings>
-		<selectioncolor>000000</selectioncolor>
+		<selectioncolor>501515</selectioncolor>
 	</textsettings>
 	<!-- Sidebar -->
 	<font name="button_sidebar_dockitem">
@@ -63,7 +63,7 @@
 	<!-- Drag fonts - REQUIRED -->
 	<font name="draglabel">
 		<fgffile name="graphics/fonts/draglabel.fgf" />
-		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
+		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="14" />
 		<color value="#DDDDDD" />
 	</font>
 
@@ -142,8 +142,7 @@
 	<font name="hotkey">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="16" />
-		<color value="#DDDDDD" />
-		<shadow offset="1,1" color="000000" />		
+		<color value="#DDDDDD" />		
 	</font>
 
 	<!-- Modifier stack -->
