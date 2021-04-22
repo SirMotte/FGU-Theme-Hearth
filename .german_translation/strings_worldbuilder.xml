@@ -13,7 +13,7 @@
 	<string name="ref_label_briefdesc">Beschreibung</string>
 	<string name="ref_label_briefgmdesc">SL Notizen</string>
 	<string name="ref_label_briefpcdesc">SC Notizen</string>
-	<string name="ref_label_inplace">Örtlichkeit</string>
+	<string name="ref_label_inplace">Ã–rtlichkeit</string>
 	<string name="ref_label_npcs">Wichtige NSC</string>
 	<string name="ref_label_demographics">Demographie</string>
 	<string name="ref_label_purpose">Zweck</string>
@@ -25,13 +25,13 @@
 	<string name="ref_label_obligations">Verpflichtungen</string>
 	<string name="ref_label_history">Geschichte</string>
 	<string name="ref_label_religion">Religion</string>
-	<string name="ref_label_leader">Anführer</string>
+	<string name="ref_label_leader">AnfÃ¼hrer</string>
 	<string name="ref_label_places">Sonstige Orte</string>
 	<string name="ref_label_world">Weltenbauer</string>
 	<string name="ref_label_groups">Gruppen</string>
 	<string name="ref_label_images">Bilder</string>
 	<string name="ref_label_deity">Gottheit</string>
-	<string name="ref_label_adherents">Anhänger</string>
+	<string name="ref_label_adherents">AnhÃ¤nger</string>
 	<string name="ref_label_goals">Ziele</string>
 	<string name="ref_label_funding">Finanzen</string>
 	<string name="ref_label_hq">Sitz</string>
@@ -52,7 +52,7 @@
 	<string name="ref_label_cluetype">Hinweis</string>
 	<string name="ref_label_theorytype">Theory</string>
 	<string name="ref_label_briefdesc">Beschreibung</string>
-	<string name="ref_label_inplace">Örtlichkeit</string>
+	<string name="ref_label_inplace">Ã–rtlichkeit</string>
 	<string name="ref_label_links">Links</string>
 	<string name="ref_label_briefpcdisc">Diskussionen</string>
 	<string name="ref_label_status">Status</string>

@@ -8,28 +8,28 @@
 <root>
 	<string name="ct_window_title">SCHLACHTENHELFER</string>
 	
-	<string name="ct_emptylist">SC oder NPC hier einfügen.</string>
+	<string name="ct_emptylist">SC oder NPC hier einfÃ¼gen.</string>
 	
 	<string name="ct_label_name">Name</string>
 	<string name="ct_label_init">Reihenfolge</string>
 	<string name="ct_label_round">Runde</string>
 	<string name="ct_label_targets">Ziele:</string>
 	<string name="ct_label_effects">Effekte:</string>
-	<string name="ct_label_size">Größe</string>
+	<string name="ct_label_size">GrÃ¶ÃŸe</string>
 	<string name="ct_label_reach">Reichw.</string>
 	<string name="ct_label_effectappliedby">Verursacher:</string>
 	<string name="ct_label_effecttargets">Ziele:</string>
-	<string name="ct_label_menu">Menü</string>
+	<string name="ct_label_menu">MenÃ¼</string>
 
 	<string name="ct_tooltip_endturn">Zug beenden</string>
-	<string name="ct_tooltip_nextactor">Nächster Akteur</string>
-	<string name="ct_tooltip_nextround">Nächste Runde</string>
+	<string name="ct_tooltip_nextactor">NÃ¤chster Akteur</string>
+	<string name="ct_tooltip_nextround">NÃ¤chste Runde</string>
 	<string name="ct_tooltip_factionempty">Fraktion</string>
 	<string name="ct_tooltip_factionfriend">Freundlich</string>
 	<string name="ct_tooltip_factionneutral">Neutral</string>
 	<string name="ct_tooltip_factionfoe">Feindlich</string>
-	<string name="ct_tooltip_menu">Schlachtenhelfer Menü öffnen.</string>
-	<string name="ct_tooltip_effectadd">Effekt hinzufügen</string>
+	<string name="ct_tooltip_menu">Schlachtenhelfer MenÃ¼ Ã¶ffnen.</string>
+	<string name="ct_tooltip_effectadd">Effekt hinzufÃ¼gen</string>
 	<string name="ct_tooltip_effectdelete">Effekt entfernen</string>
 	<string name="ct_tooltip_effectdragtarget">Auf neues Ziel ziehen</string>
 	<string name="ct_tooltip_shownpcallon">Alle NSC aufdecken</string>
@@ -44,25 +44,25 @@
 	<string name="ct_tooltip_dragtarget">Auf neues Ziel ziehen</string>
 	<string name="ct_tooltip_effecton">Aktiv</string>
 	<string name="ct_tooltip_effectoff">Inaktiv</string>
-	<string name="ct_tooltip_effectskip">Eine Nutzung überspringen</string>
-	<string name="ct_tooltip_cleartarget">Ziele abwählen</string>
+	<string name="ct_tooltip_effectskip">Eine Nutzung Ã¼berspringen</string>
+	<string name="ct_tooltip_cleartarget">Ziele abwï¿½hlen</string>
 
-	<string name="ct_menu_round5">5 überspringen</string>
-	<string name="ct_menu_round10">10 überspringen</string>
-	<string name="ct_menu_round15">15 überspringen</string>
-	<string name="ct_menu_round20">20 überspringen</string>
-	<string name="ct_menu_effectadd">Effekt hinzufügen</string>
+	<string name="ct_menu_round5">5 Ã¼berspringen</string>
+	<string name="ct_menu_round10">10 Ã¼berspringen</string>
+	<string name="ct_menu_round15">15 Ã¼berspringen</string>
+	<string name="ct_menu_round20">20 Ã¼berspringen</string>
+	<string name="ct_menu_effectadd">Effekt hinzufÃ¼gen</string>
 	<string name="ct_menu_effectdelete">Effekt entfernen</string>
 	<string name="ct_menu_initmenu">Reihenfolge</string>
-	<string name="ct_menu_initreset">Reihenfolge zurücksetzen</string>
+	<string name="ct_menu_initreset">Reihenfolge zurÃ¼cksetzen</string>
 	<string name="ct_menu_itemdelete">Von Helfer entfernen</string>
 	<string name="ct_menu_itemdeletenonfriendly">Alle nicht-freundlichen entfernen</string>
 	<string name="ct_menu_itemdeletefoe">Nur Feinde entfernen</string>
 	<string name="ct_menu_effectdeleteall">Alle Effekte entfernen</string>
 	<string name="ct_menu_effectdeleteexpiring">Alle auslaufenden Effekte entfernen</string>
 	<string name="ct_menu_targeting">Zielen</string>
-	<string name="ct_menu_targetingfriend">Alle Verbündeten anvisieren</string>
-	<string name="ct_menu_targetingnonfriend">Alle nicht Verbündeten anvisieren</string>
+	<string name="ct_menu_targetingfriend">Alle VerbÃ¼ndeten anvisieren</string>
+	<string name="ct_menu_targetingnonfriend">Alle nicht VerbÃ¼ndeten anvisieren</string>
 	
 	<string name="ct_error_effectdroptargetnotinct">[ERROR] Effect dropped on target which is not listed in the combat tracker.</string>
 	<string name="ct_error_effectdecodefail">[ERROR] Unable to decode effect details.</string>
@@ -77,7 +77,7 @@
 	<string name="ct_error_openotherlinkedtokenwithoutaccess">[ERROR] Unable to open linked actor record, because your user does not have access.</string>
 	
 	<string name="ct_tooltip_effectdur">Dauer</string>
-	<string name="ct_tooltip_effectinit">Änderung ab Initiative von</string>
+	<string name="ct_tooltip_effectinit">Ã„nderung ab Initiative von</string>
 
 	<string name="combat_tag_round">Runde</string>
 	<string name="combat_tag_turn">Zug</string>

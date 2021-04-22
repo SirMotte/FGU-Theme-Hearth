@@ -4,7 +4,7 @@
 	<announcement text="Sir Mottes deutsche Uebersetzung geladen" font="emotefont" icon="footface"/>
 	
 	<properties>
-		<name>DnD 5E Deutsch</name>
+		<name>5E - Sir Motte - Deutsch</name>
 		<author>Sir Motte</author>
 		<version>0.1</version> 
 		<description>Deutsche Uebersetzung der meisten UI Elemente</description>	

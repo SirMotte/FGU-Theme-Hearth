@@ -7,10 +7,10 @@
 
 <root>
 	<!-- Setup Wizard -->
-	<string name="setup_window_title">Campaign Setup</string>
-	<string name="setup_button_next">Next &gt;&gt;</string>
-	<string name="setup_button_prev">&lt;&lt; Prev</string>
-	<string name="setup_button_finish">Finish</string>
+	<string name="setup_window_title">Kampagne einrichten</string>
+	<string name="setup_button_next">Weiter &gt;&gt;</string>
+	<string name="setup_button_prev">&lt;&lt; Zur√ºck</string>
+	<string name="setup_button_finish">Fertig</string>
 	<string name="setup_label_showonload">Show on load?</string>
 	<string name="setup_header_help">User Manual</string>
 	<string name="setup_text_help">Get started learning the FG campaign interface using these links.</string>
@@ -42,18 +42,18 @@
 	<string name="pointerselection_text">Click first circle to set user color (dice, pointers)\nClick second circle to toggle die text color.</string>
 	
 	<!-- Calendar -->
-	<string name="calendar_window_title">Calendar</string>
-	<string name="calendar_msg_empty">Calendar not selected for this campaign.</string>
-	<string name="calendar_msg_activate">Activate calendar module to set a calendar for this campaign.</string>
-	<string name="calendar_label_date">Date</string>
-	<string name="calendar_label_year">Year</string>
+	<string name="calendar_window_title">Kalender</string>
+	<string name="calendar_msg_empty">Kein Kalender ausgew√§hlt.</string>
+	<string name="calendar_msg_activate">Kalendermodul aktivieren um diesen einzurichten.</string>
+	<string name="calendar_label_date">Datum</string>
+	<string name="calendar_label_year">YeJahrar</string>
 	<string name="calendar_label_epoch">Era</string>
-	<string name="calendar_label_month">Month</string>
-	<string name="calendar_button_modules">Modules</string>
-	<string name="calendar_button_logview">View Log Entry</string>
-	<string name="calendar_button_logadd">Add Log Entry</string>
-	<string name="calendar_button_logviewall">All Logs</string>
-	<string name="calendar_menu_reset">Reset Calendar</string>
+	<string name="calendar_label_month">Monat</string>
+	<string name="calendar_button_modules">Module</string>
+	<string name="calendar_button_logview">Logbuch</string>
+	<string name="calendar_button_logadd">Lochbucheintrag</string>
+	<string name="calendar_button_logviewall">Alle Eintr√§ge</string>
+	<string name="calendar_menu_reset">Kalender zur√ºcksetzen</string>
 	<string name="calendar_menu_resetconfirm">Confirm Reset</string>
 	<string name="calendar_menu_eventdelete">Delete Event</string>
 	<string name="calendar_menu_eventdeleteconfirm">Confirm Delete</string>
@@ -64,23 +64,23 @@
 	<!-- Calendar log -->
 	<string name="calendar_loglist_title">Logs</string>
 	<string name="calendar_logentry_emptyname">&#171; New Log Entry &#187;</string>
-	<string name="calendar_logentry_gmheader">GM</string>
-	<string name="calendar_logentry_pcheader">PLAYER</string>
+	<string name="calendar_logentry_gmheader">SL</string>
+	<string name="calendar_logentry_pcheader">SPIELER</string>
 	
 	<!-- Dialog - Select -->
 	<string name="dialog_select_title">Choose</string>
 	
 	<!-- Effects -->
-	<string name="effects_tag">EFFECTS</string>
-	<string name="effects_def_tag">DEF EFFECTS</string>
+	<string name="effects_tag">EFFEKTE</string>
+	<string name="effects_def_tag">VTDG EFFEKTE</string>
 	
 	<string name="effect_label_conditions">Conditions</string>
 	<string name="effect_label_custom">Custom</string>
 
 	<string name="effect_label_durunitrnd">RND</string>
 	<string name="effect_label_durunitmin">MIN</string>
-	<string name="effect_label_durunithr">HR</string>
-	<string name="effect_label_durunitday">DAY</string>
+	<string name="effect_label_durunithr">STD</string>
+	<string name="effect_label_durunitday">TAG</string>
 
 	<string name="effect_tooltip_applyone">One Action</string>
 	<string name="effect_tooltip_applyroll">One Roll</string>
@@ -120,18 +120,18 @@
 	<string name="export_tooltip_file_invalid">File name contains invalid characters</string>
 	
 	<!-- Library -->
-	<string name="library_window_title">Library</string>
-	<string name="library_button_modules">Modules</string>
+	<string name="library_window_title">Bibliothek</string>
+	<string name="library_button_modules">Module</string>
 	<string name="library_empty_types">No library data types registered. Something went wrong, check your extensions.</string>
 	<string name="library_empty_books">Click on the Modules button below to add modules to your campaign.</string>
 
 	<!-- Fixed master index string resources -->
-	<string name="library_recordtype_filter_yes">Yes</string>
-	<string name="library_recordtype_filter_no">No</string>
-	<string name="library_recordtype_filter_empty">(Empty)</string>
+	<string name="library_recordtype_filter_yes">Ja</string>
+	<string name="library_recordtype_filter_no">Nein</string>
+	<string name="library_recordtype_filter_empty">(Leer)</string>
 
 	<!-- Common record type string resources -->
-	<string name="library_recordtype_label_effect">Effecte</string>
+	<string name="library_recordtype_label_effect">Effekte</string>
 	<string name="library_recordtype_label_modifier">Modifikatoren</string>
 	<string name="library_recordtype_label_charsheet">Charaktere</string>
 	<string name="library_recordtype_label_story">Handlung</string>
@@ -189,10 +189,10 @@
 	<string name="library_recordtype_label_class">Klassen</string>
 	<string name="library_recordtype_label_feat">Talente</string>
 	<string name="library_recordtype_label_itemtemplate">Gegenstandsvorlage</string>
-	<string name="library_recordtype_label_power">Kr‰fte</string>
+	<string name="library_recordtype_label_power">Kr√§fte</string>
 	<string name="library_recordtype_label_race">Rassen</string>
-	<string name="library_recordtype_label_skill">F‰higkeiten</string>
-	<string name="library_recordtype_label_specialability">Sonderf‰higkeiten</string>
+	<string name="library_recordtype_label_skill">F√§higkeiten</string>
+	<string name="library_recordtype_label_specialability">Sonderf√§higkeiten</string>
 	<string name="library_recordtype_label_spell">Zauber</string>
 	<string name="library_recordtype_label_talent">Talente</string>
 
@@ -202,8 +202,8 @@
 	<string name="library_recordtype_single_itemtemplate">Gegenstandsvorlage</string>
 	<string name="library_recordtype_single_power">Kraft</string>
 	<string name="library_recordtype_single_race">Rasse</string>
-	<string name="library_recordtype_single_skill">F‰hikeit</string>
-	<string name="library_recordtype_single_specialability">Sonderf‰higkeit</string>
+	<string name="library_recordtype_single_skill">F√§higkeit</string>
+	<string name="library_recordtype_single_specialability">Sonderf√§higkeit</string>
 	<string name="library_recordtype_single_spell">Zauber</string>
 	<string name="library_recordtype_single_talent">Talent</string>
 
@@ -213,8 +213,8 @@
 	<string name="library_recordtype_empty_itemtemplate">&#171; Neue Gegenstandsvorlage &#187;</string>
 	<string name="library_recordtype_empty_power">&#171; Neue Kraft &#187;</string>
 	<string name="library_recordtype_empty_race">&#171; Neue Rasse &#187;</string>
-	<string name="library_recordtype_empty_skill">&#171; Neue F‰higkeit &#187;</string>
-	<string name="library_recordtype_empty_specialability">&#171; Neue Sonderf‰higkeit &#187;</string>
+	<string name="library_recordtype_empty_skill">&#171; Neue F√§higkeit &#187;</string>
+	<string name="library_recordtype_empty_specialability">&#171; Neue Sonderf√§higkeit &#187;</string>
 	<string name="library_recordtype_empty_spell">&#171; Neuer Zauber &#187;</string>
 	<string name="library_recordtype_empty_talent">&#171; Neues Talent &#187;</string>
 
@@ -225,10 +225,10 @@
 	<string name="masterindex_label_filter_sharedonly_all">Alle</string>
 	<string name="masterindex_label_filter_sharedonly_shared">Geteilt</string>
 	<string name="masterindex_tooltip_filter_sharedonly">Nach Teilungsart filtern</string>
-	<string name="masterindex_button_category_editon">Ordner ‰ndern</string>
+	<string name="masterindex_button_category_editon">Ordner √§ndern</string>
 	<string name="masterindex_button_category_editoff">Ordnerbearbeitung beenden</string>
-	<string name="masterindex_button_category_add">Kategorie hinzuf¸gen</string>
-	<string name="masterindex_button_category_delete">Kategorie lˆschen</string>
+	<string name="masterindex_button_category_add">Kategorie hinzuf√ºgen</string>
+	<string name="masterindex_button_category_delete">Kategorie l√∂schen</string>
 	<string name="masterindex_suffix_duplicate">(Kopie)</string>
 	
 	<!-- Modules -->
@@ -337,7 +337,7 @@
 	
 	<!-- Options - Misc -->
 	<string name="option_label_languages">Sprachen</string>
-	<string name="option_label_currencies">W‰hrungen</string>
+	<string name="option_label_currencies">W√§hrungen</string>
 	<string name="option_label_sidebar">Seitenleiste</string>
 	<string name="option_label_setup">Einrichten</string>
 	<string name="option_label_motd">NEUIGKEITEN</string>
@@ -350,7 +350,7 @@
 	<string name="language_window_title">Sprachen</string>
 	
 	<!-- Currencies -->
-	<string name="currency_window_title">W‰hrungen</string>
+	<string name="currency_window_title">W√§hrungen</string>
 	
 	<!-- Sidebar -->
 	<string name="sidebar_window_title">Seitenleiste</string>
@@ -375,13 +375,13 @@
 	<string name="asset_preview_import">Bildeintrag erstellen</string>
 	<string name="asset_preview_decal">Als Hintergrund einrichten</string>
 	<string name="tokenbag_window_title">Token</string>
-	<string name="tokenbag_zoomin">Vergrˆﬂern</string>
+	<string name="tokenbag_zoomin">Vergr√∂√üern</string>
 	<string name="tokenbag_zoomout">Verkleinern</string>
 	<string name="tokenbag_button_host">SL</string>
 	<string name="tokenbag_button_shared">Geteilt</string>
 	<string name="tokenbag_button_modules">Module</string>
 	<string name="assetview_button_filter_token">Token</string>
-	<string name="assetview_button_filter_portrait">Portr‰ts</string>
+	<string name="assetview_button_filter_portrait">Portr√§ts</string>
 	<string name="assetview_button_filter_image">Bilder</string>
 	<string name="assetview_button_filter_all">Alle</string>
 	<string name="assetview_path_filter">Filter</string>

@@ -7,8 +7,11 @@ Update to Beta_2.2.0_Sloshing_Brains
 
 Extension Support:
 - Constitutional Amendmends by MeAndUnique
-- Equipped Effects by Silent Ruin
-- Assistant GM by Silent Ruin
+- Equipped Effects by SilentRuin
+- Assistant GM by SilentRuin
 - Generic Actions by Silent Ruin
+- Combat Highlighter by DaddyOgreman / Ogremandude
+- Death Indicator Ex by SilentRuin
+- Attunement Tracker by DMSanctum
 
 

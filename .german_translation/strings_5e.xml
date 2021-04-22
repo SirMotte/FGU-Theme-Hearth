@@ -21,7 +21,7 @@
 	<string name="int">INT</string>
 	<string name="wis">WSH</string>
 	<string name="cha">CHA</string>
-	<string name="strength">Stärke</string>
+	<string name="strength">StÃ¤rke</string>
 	<string name="constitution">Konstitution</string>
 	<string name="dexterity">Geschicklichkeit</string>
 	<string name="intelligence">Intelligenz</string>
@@ -33,21 +33,21 @@
 	<string name="xp">EP</string>
 	<string name="cr">SG</string>
 	<string name="hd">LW</string>
-	<string name="hitdice">Lebenswürfel</string>
+	<string name="hitdice">LebenswÃ¼rfel</string>
 	<string name="hp">LP</string>
 	<string name="hitpoints">Lebenspunkte</string>
-	<string name="temphp">Temporäre LP</string>
+	<string name="temphp">TemporÃ¤re LP</string>
 	<string name="ac">RK</string>
-	<string name="armorclass">Rüstungsklasse</string>
+	<string name="armorclass">RÃ¼stungsklasse</string>
 	<string name="init">INI</string>
 	<string name="initiative">Initiative</string>
 	<string name="melee">Nahkampf</string>
 	<string name="ranged">Fernkampf</string>
 	<string name="dc">SG</string>
-	<string name="armor">Rüstung</string>
+	<string name="armor">RÃ¼stung</string>
 	<string name="weapon">Waffe</string>
 	<string name="tool">Werkzeug</string>
-	<string name="skill">Fähigkeit</string>
+	<string name="skill">FÃ¤higkeit</string>
 	<string name="savingthrow">Rettungswurf</string>
 	<string name="racial">Rassen</string>
 	<string name="subracial">Volk</string>
@@ -60,14 +60,14 @@
 	<string name="message_restshort">Kurz rasten.</string>
 	<string name="message_restlong">Lange rasten.</string>
 	<string name="menu_init">Initiative</string>
-	<string name="menu_initall">Jede Initiative erwürfeln</string>
-	<string name="menu_initnpc">NSC Initiative erwürfeln</string>
-	<string name="menu_initpc">SC Initiative erwürfeln</string>
-	<string name="menu_initclear">Initiative zurücksetzen</string>
+	<string name="menu_initall">Jede Initiative erwÃ¼rfeln</string>
+	<string name="menu_initnpc">NSC Initiative erwÃ¼rfeln</string>
+	<string name="menu_initpc">SC Initiative erwÃ¼rfeln</string>
+	<string name="menu_initclear">Initiative zurÃ¼cksetzen</string>
 	
 	<string name="item_button_templates">Vorlagen</string>
 	<string name="item_button_weapons">Waffen</string>
-	<string name="item_button_armor">Rüstung</string>
+	<string name="item_button_armor">RÃ¼stung</string>
 	<string name="npc_button_letter">Alphabetisch</string>
 	<string name="npc_button_cr">Nach SG</string>
 	<string name="npc_button_type">Nach Typ</string>
@@ -79,8 +79,8 @@
 	<string name="help_tool_options">https://fantasygroundsunity.atlassian.net/wiki/spaces/FGCP/pages/996642014/</string>
 
 	<!-- Rolls -->
-	<string name="roll_msg_armor_nonprof">[RÜSTUNG OHNE KENNTNIS]</string>
-	<string name="roll_msg_armor_disstealth">[RÜSTUNG HEIMLICHKEITSNACHTEIL]</string>
+	<string name="roll_msg_armor_nonprof">[RÃœSTUNG OHNE KENNTNIS]</string>
+	<string name="roll_msg_armor_disstealth">[RÃœSTUNG HEIMLICHKEITSNACHTEIL]</string>
 
 	<!-- Options -->
 	<string name="option_label_RMMT">Target: Remove on miss</string>
@@ -149,19 +149,19 @@
 	<string name="ct_label_traits">Eigenschaften</string>
 	<string name="ct_label_actions">Aktionen</string>
 	<string name="ct_label_reactions">Reaktionen</string>
-	<string name="ct_label_legendaryactions">Legendäres</string>
-	<string name="ct_label_lairactions">Umwelteinflüsse</string>
+	<string name="ct_label_legendaryactions">LegendÃ¤res</string>
+	<string name="ct_label_lairactions">UmgebungseinflÃ¼sse</string>
 	<string name="ct_label_innatespells">Eigenzauber</string>
 	<string name="ct_label_spells">Zauber</string>
 
-	<string name="ct_tooltip_hptemp">Temporäre Lebenspunkte</string>
+	<string name="ct_tooltip_hptemp">TemporÃ¤re Lebenspunkte</string>
 	<string name="ct_tooltip_wounds">Verwundung</string>
 	<string name="ct_tooltip_attribute">Eigenschaften</string>
 	<string name="ct_tooltip_offense">Offensiv</string>
 	<string name="ct_tooltip_defense">Defensiv</string>
 	<string name="ct_tooltip_reactionon">Reaktion genutzt</string>
 	<string name="ct_tooltip_reactionoff">Reaktion ungenutzt</string>
-	<string name="ct_tooltip_size">Größe</string>
+	<string name="ct_tooltip_size">GrÃ¶ÃŸe</string>
 	<string name="ct_tooltip_reach">Reichweite</string>
 	
 	<string name="ct_message_rest">Gruppe macht eine kurze Rast.</string>
@@ -175,7 +175,7 @@
 	<string name="ps_label_name">Name</string>
 	<string name="ps_label_race">Rasse</string>
 	<string name="ps_label_classlevel">Klasse &amp; Stufe</string>
-	<string name="ps_label_abilities">Fähigkeiten</string>
+	<string name="ps_label_abilities">FÃ¤higkeiten</string>
 	<string name="ps_label_ac">RK</string>
 	<string name="ps_label_defenses">Verteidigung</string>
 	<string name="ps_label_perc">Wahrnemung</string>
@@ -183,9 +183,9 @@
 
 	<string name="ps_label_groupcheck">Attribut</string>
 	<string name="ps_label_groupsave">RTW</string>
-	<string name="ps_label_groupskill">Fähigkeit</string>
+	<string name="ps_label_groupskill">FÃ¤higkeit</string>
 	<string name="ps_label_groupatk">Angriff</string>
-	<string name="ps_default_groupability">Stärke</string>
+	<string name="ps_default_groupability">StÃ¤rke</string>
 	<string name="ps_message_groupatk">Gruppenangriff</string>
 
 	<string name="ps_tooltip_showrollon">Resultat anzeigen</string>
@@ -206,7 +206,7 @@
 
 	<!-- Modifiers -->
 	<string name="modifier_label_init">INI</string>
-	<string name="modifier_label_initsurprise">Überraschung</string>
+	<string name="modifier_label_initsurprise">Ãœberraschung</string>
 	<string name="modifier_label_check">Wurf</string>
 	<string name="modifier_label_checkmin10">Min 10</string>
 	<string name="modifier_label_attack">Angriff</string>
@@ -255,24 +255,24 @@
 	<string name="char_label_deathsave_succ">E</string>
 	<string name="char_label_deathsave_fail">F</string>
 
-	<string name="char_label_hd">LEBENSWÜRFEL</string>
+	<string name="char_label_hd">LebenswÃ¼rfel</string>
 	<string name="char_label_hdused">GENUTZT</string>
-	<string name="char_tooltip_hdused">Lebenswürfel genutzt</string>
+	<string name="char_tooltip_hdused">LebenswÃ¼rfel genutzt</string>
 	
-	<string name="char_button_powers">KRÄFTE</string>	
-	<string name="char_tooltip_powers">Kräfte öffnen</string>	
-	<string name="char_button_skills">Fähigkeiten</string>
-	<string name="char_tooltip_skills">Fähigkeiten öffnen</string>	
+	<string name="char_button_powers">KRÃ„FTE</string>	
+	<string name="char_tooltip_powers">KrÃ¤fte Ã¶ffnen</string>	
+	<string name="char_button_skills">FÃ¤higkeiten</string>
+	<string name="char_tooltip_skills">FÃ¤higkeiten Ã¼ffnen</string>	
 	<string name="char_button_abilities">FERTIGKEITEN</string>
-	<string name="char_tooltip_abilities">Fertigkeiten öffnen</string>	
-	<string name="char_button_inventory">AUSRÜSTUNG</string>
-	<string name="char_tooltip_inventory">Ausrüstung öffnen</string>	
+	<string name="char_tooltip_abilities">Fertigkeiten Ã¼ffnen</string>	
+	<string name="char_button_inventory">AUSRÃœSTUNG</string>
+	<string name="char_tooltip_inventory">AusRÃœSTUNG Ã¶ffnen</string>	
 	<string name="char_button_notes">NOTIZEN</string>
-	<string name="char_tooltip_notes">Notizen öffnen</string>
+	<string name="char_tooltip_notes">Notizen Ã¶ffnen</string>
 	<string name="char_button_actions">AKTIONEN</string>
-	<string name="char_tooltip_actions">Aktionen öffnen</string>
+	<string name="char_tooltip_actions">Aktionen Ã¶ffnen</string>
 		
-	<string name="char_label_addprof_armor">Rüstung</string>
+	<string name="char_label_addprof_armor">RÃœSTUNG</string>
 	<string name="char_label_addprof_weapon">Waffe</string>
 	<string name="char_label_addprof_tool">Werkzeug</string>
 	
@@ -298,8 +298,8 @@
 	<string name="char_label_caster">Magiebegabt</string>
 	<string name="char_tooltip_caster">Caster Level Multiplier and Type</string>
 	<string name="char_tooltip_casterpactmagic">Off = Spellcasting / On = Pact Magic</string>
-	<string name="char_label_totallevel">TOTAL LEVEL</string>
-	<string name="char_label_nextlevel">NEXT LEVEL</string>
+	<string name="char_label_totallevel">GES. STUFE</string>
+	<string name="char_label_nextlevel">NÃ„CHSTE STUFE</string>
 	
 	<string name="char_combatcalc_title">COMBAT CALC</string>
 	<string name="char_label_initdetail">Ini:</string>
@@ -329,23 +329,23 @@
 	
 	<!-- Characters - Skills -->
 	<string name="char_skills_title">FERTIGKEITEN</string>
-	<string name="char_label_skills">FÄHIGKEITEN</string>
+	<string name="char_label_skills">FÃ„HIGKEITEN</string>
 	<string name="char_label_skilltotal">WERT</string>
 	<string name="char_label_skillmisc">MOD</string>
 	<string name="char_label_skillstat">ATR</string>
 	<string name="char_label_skillname">NAME</string>
-	<string name="char_skills_tooltip_edit">Fähigkeiten ändern</string>
+	<string name="char_skills_tooltip_edit">FÃ¤higkeiten Ã¤ndern</string>
 	
 	<!-- Character - Abilities -->
 	<string name="char_abilities_title">FERTIGKEITEN</string>
-	<string name="char_abilities_label_checks">WÜRFE</string>
+	<string name="char_abilities_label_checks">WÃ¼RFE</string>
 	<string name="char_abilities_label_feats">TALENTE</string>
 	<string name="char_abilities_label_features">KLASSENEIGENSCHAFTEN</string>
 	<string name="char_abilities_label_abilities">FERTIGKEITEN</string>
 	<string name="char_abilities_label_traits">EIGENHEITEN</string>
 	<string name="char_abilities_label_proficiencies">KENNTNISSE</string>
 	<string name="char_abilities_label_languages">SPRACHEN</string>
-	<string name="char_abilities_tooltip_edit">Fertigkeiten ändern</string>
+	<string name="char_abilities_tooltip_edit">Fertigkeiten Ã¤ndern</string>
 	
 	<string name="char_abilities_message_classadd">One level of class '%s' added to '%s'.</string>
 	<string name="char_abilities_message_raceadd">Race '%s' added to '%s'.</string>
@@ -370,8 +370,8 @@
 	<string name="char_abilities_message_basespeedadj">Base speed adjusment %+d applied to '%s'.</string>
 	
 	<!-- Character - Inventory -->
-	<string name="char_inventory_title">AUSRÜSTUNG</string>
-	<string name="char_label_inventory">AUSRÜSTUNG</string>
+	<string name="char_inventory_title">AUSRÃœSTUNG</string>
+	<string name="char_label_inventory">AUSRÃœSTUNG</string>
 	<string name="char_label_itemname">NAME</string>
 	<string name="char_label_itemlocation">ORT</string>
 	<string name="char_label_itemweight">KG</string>
@@ -382,15 +382,15 @@
 	<string name="char_label_encheavy">Stark</string>
 	<string name="char_label_encmax">Maximal</string>
 	<string name="char_label_encdrag">Kraft</string>
-	<string name="char_inventory_tooltip_edit">Inventar ändern</string>
+	<string name="char_inventory_tooltip_edit">Inventar Ã¤ndern</string>
 	
 	<!-- Character - Notes -->
 	<string name="char_notes_title">NOTIZEN</string>
-	<string name="char_label_notes_traits">PERSÖNLICHKEITSMERKMALE</string>
+	<string name="char_label_notes_traits">PERSÃ–NLICHKEITSMERKMALE</string>
 	<string name="char_label_notes_ideals">IDEALE</string>
 	<string name="char_label_notes_bonds">VERPFLICHTUNGEN</string>
-	<string name="char_label_notes_flaws">SCHWÄCHEN</string>
-	<string name="char_label_size">GRÖßE</string>
+	<string name="char_label_notes_flaws">SCHWÃ„CHEN</string>
+	<string name="char_label_size">GRÃ–ÃŸE</string>
 	<string name="char_label_alignment">GESINNUNG</string>
 	<string name="char_label_deity">GOTTHEIT</string>
 	<string name="char_label_appearance">AUSSEHEN</string>
@@ -429,8 +429,8 @@
 	<string name="char_tooltip_weapontyperanged">Fernkampf</string>
 	<string name="char_tooltip_weapontypethrown">Wurf</string>
     <string name="char_tooltip_weaponhand1">Haupthand</string>
-    <string name="char_tooltip_weaponhand2">Zweihändig</string>
-    <string name="char_tooltip_weaponhandoff">Führhand</string>
+    <string name="char_tooltip_weaponhand2">ZweihÃ¤ndig</string>
+    <string name="char_tooltip_weaponhandoff">FÃ¼hrhand</string>
 	<string name="char_label_weaponatkdetail">Angriff:</string>
 	<string name="char_label_weapondmgdetail">Schaden:</string>
 	<string name="char_label_weapondmgtype">Art:</string>
@@ -440,21 +440,21 @@
 	
 	<string name="char_weaponmeta_title">Waffenfeinheiten</string>
 	<string name="char_label_critrange">Krit. bei:</string>
-	<string name="char_label_critdicebonus">Krit. Würfel:</string>
+	<string name="char_label_critdicebonus">Krit. WÃ¼rfel:</string>
 	<string name="char_label_critmelee">Nahkampf</string>
 	<string name="char_label_critranged">Fernkampf</string>
 	<string name="char_label_fightingstyle2weapon">Zweihandwaffenstil</string>
 	
 	<string name="char_message_atkwithnoammo">[ANGRIFF OHNE MUNITION]</string>
 		
-	<string name="char_label_powers">KRÄFTE</string>
-	<string name="power_label_spellslots">ZAUBERPLÄTZE</string>
+	<string name="char_label_powers">KRÃ„FTE</string>
+	<string name="power_label_spellslots">ZAUBERPLÃ„TZE</string>
 	<string name="power_label_spellcastingslots">Zauberwirken</string>
 	<string name="power_label_pactmagicslots">Paktmagie</string>
 	
-	<string name="char_tooltip_actionedit">Waffen und Krädte ändern</string>
-	<string name="char_tooltip_actionaddpower">Kraft hinzufügen</string>
-	<string name="char_tooltip_actionaddweapon">Waffe hinzufügen</string>
+	<string name="char_tooltip_actionedit">Waffen und KrÃ¤fte Ã¤ndern</string>
+	<string name="char_tooltip_actionaddpower">Kraft hinzufÃ¼gen</string>
+	<string name="char_tooltip_actionaddweapon">Waffe hinzufÃ¼gen</string>
 	
 	<!-- Pregens -->
 	<string name="pregen_label_race">Rasse</string>
@@ -464,9 +464,9 @@
 
 	<!-- Backgrounds -->
 	<string name="background_header_features">Besonderheiten</string>
-	<string name="background_label_equipment">Ausrüstung</string>
+	<string name="background_label_equipment">AusRÃœSTUNG</string>
 	<string name="background_label_languages">Sprachen</string>
-	<string name="background_label_skills">Fähigkeiten</string>
+	<string name="background_label_skills">FÃ¤higkeiten</string>
 	<string name="background_label_tools">Werkzeuge</string>
 
 	<!-- Classes -->
@@ -475,10 +475,10 @@
 	<string name="class_value_bard">Barde</string>
 	<string name="class_value_cleric">Cleriker</string>
 	<string name="class_value_druid">Druide</string>
-	<string name="class_value_fighter">Kämpfer</string>
-	<string name="class_value_monk">Mönch</string>
+	<string name="class_value_fighter">KÃ¤mpfer</string>
+	<string name="class_value_monk">MÃ¶nch</string>
 	<string name="class_value_paladin">Paladin</string>
-	<string name="class_value_ranger">Waldläufer</string>
+	<string name="class_value_ranger">WaldlÃ¤ufer</string>
 	<string name="class_value_rogue">Schurke</string>
 	<string name="class_value_sorcerer">Zauberer</string>
 	<string name="class_value_warlock">Hexer</string>
@@ -489,7 +489,7 @@
 	<string name="class_short_cleric">Cle</string>
 	<string name="class_short_druid">Drd</string>
 	<string name="class_short_fighter">KMP</string>
-	<string name="class_short_monk">Mön</string>
+	<string name="class_short_monk">MÃ¶n</string>
 	<string name="class_short_paladin">Pal</string>
 	<string name="class_short_ranger">Wlf</string>
 	<string name="class_short_rogue">Ske</string>
@@ -498,12 +498,12 @@
 	<string name="class_short_wizard">Mag</string>
 
 	<string name="class_label_hitdice">LW pro Stufe</string>
-	<string name="classprof_label_armor">Rüstung</string>
-	<string name="classprof_value_armor">Rüstung</string>
-	<string name="classprof_label_savingthrows">Rettungswürfe</string>
-	<string name="classprof_value_savingthrows">Rettungswürfe</string>
-	<string name="classprof_label_skills">Fähigkeiten</string>
-	<string name="classprof_value_skills">Fähigkeiten</string>
+	<string name="classprof_label_armor">RÃœSTUNG</string>
+	<string name="classprof_value_armor">RÃœSTUNG</string>
+	<string name="classprof_label_savingthrows">RettungswÃ¼rfe</string>
+	<string name="classprof_value_savingthrows">RettungswÃ¼rfe</string>
+	<string name="classprof_label_skills">FÃ¤higkeiten</string>
+	<string name="classprof_value_skills">FÃ¤higkeiten</string>
 	<string name="classprof_label_tools">Werkzeuge</string>
 	<string name="classprof_value_tools">Werkzeuge</string>
 	<string name="classprof_label_weapons">Waffen</string>
@@ -521,7 +521,7 @@
 	<string name="race_header_traits">EIGENHEITEN</string>
 
 	<!-- Skills -->
-	<string name="skill_label_ability">Fähigkeiten</string>
+	<string name="skill_label_ability">FÃ¤higkeiten</string>
 	<string name="skill_value_acrobatics">Acrobatics</string>
 	<string name="skill_value_animalhandling">Animalhandling</string>
 	<string name="skill_value_arcana">Arcana</string>
@@ -546,23 +546,23 @@
 	<string name="npc_label_speed">Bewegungsreichweite</string>
 	<string name="npc_label_senses">Sinne</string>
 	<string name="npc_label_abilities">Fertigkeiten</string>
-	<string name="npc_label_skills">Fähigkeiten</string>
+	<string name="npc_label_skills">FÃ¤higkeiten</string>
 	<string name="npc_label_challenge">Schwierigkeit</string>
 	<string name="npc_label_alignment">Gesinnung</string>
 	<string name="npc_label_languages">Sprachen</string>
-	<string name="npc_label_savingthrows">Rettungswürfe</string>
+	<string name="npc_label_savingthrows">RettungswÃ¼rfe</string>
 	<string name="npc_label_damagevulnerabilities">Verwundbarkeiten</string>
 	<string name="npc_tooltip_damagevulnerabilities">Schadensempfindlichkeiten</string>
 	<string name="npc_label_damageresistances">Resistenzen</string>
 	<string name="npc_tooltip_damageresistances">Schadensresistenzen</string>
-	<string name="npc_label_damageimmunities">Immunitäten</string>
-	<string name="npc_tooltip_damageimmunities">Schadensimmunitäten</string>
-	<string name="npc_label_conditionimmunities">Zustandsimmunitäten</string>
-	<string name="npc_tooltip_conditionimmunities">Zustandsimmunität</string>
+	<string name="npc_label_damageimmunities">ImmunitÃ¤ten</string>
+	<string name="npc_tooltip_damageimmunities">SchadensimmunitÃ¤ten</string>
+	<string name="npc_label_conditionimmunities">ZustandsimmunitÃ¤ten</string>
+	<string name="npc_tooltip_conditionimmunities">ZustandsimmunitÃ¤t</string>
 	<string name="npc_header_traits">MERKMALE</string>
 	<string name="npc_header_actions">AKTIONEN</string>
 	<string name="npc_header_reactions">REAKTIONEN</string>
-	<string name="npc_header_legendaryactions">LEGENDÄRE AKTIONEN</string>
+	<string name="npc_header_legendaryactions">LEGENDÃ„RE AKTIONEN</string>
 	<string name="npc_header_lairactions">UMGEBUNGSAKTIONEN</string>
 	<string name="npc_header_innatespells">ANGEBORENE ZAUBER</string>
 	<string name="npc_header_spells">ZAUBER</string>
@@ -575,7 +575,7 @@
 	<string name="npc_grouped_label_cr">SG</string>
 	<string name="npc_grouped_tooltip_cr">Schwierigkeitsgrad</string>
 
-	<string name="npc_tooltip_spellslot">Doppelkick um einen Platz zu nutzen, oder Klick zum ändern.</string>
+	<string name="npc_tooltip_spellslot">Doppelkick um einen Platz zu nutzen, oder Klick zum ï¿½ndern.</string>
 	<string name="npc_label_spellslot1">S1</string>
 	<string name="npc_label_spellslot2">S2</string>
 	<string name="npc_label_spellslot3">S3</string>
@@ -614,11 +614,11 @@
 	<string name="item_label_properties">Eigenschaften</string>
 	<string name="item_label_bonus">Bonus</string>
 	<string name="item_label_aura">Aura</string>
-	<string name="item_label_carryingcapacity">Tragekapazität</string>
-	<string name="item_label_strength">Stärke</string>
+	<string name="item_label_carryingcapacity">Tragekapazitï¿½t</string>
+	<string name="item_label_strength">StÃ¤rke</string>
 	<string name="item_label_stealth">Heimlichkeit</string>
 
-	<string name="item_grouped_title_armor">Rüstung</string>
+	<string name="item_grouped_title_armor">RÃœSTUNG</string>
 	<string name="item_grouped_title_weapons">Waffen</string>
 	<string name="item_grouped_title_vehicledrawn">Tack, Harness, And Drawn Vehicles</string>
 	<string name="item_grouped_title_vehiclemount">Mounts And Other Animals</string>
@@ -628,21 +628,21 @@
 	<string name="item_grouped_label_weight">KG</string>
 	<string name="item_grouped_tooltip_weight">Gewicht</string>
 	<string name="item_grouped_label_ac">RK</string>
-	<string name="item_grouped_tooltip_ac">Rüstungsklasse</string>
+	<string name="item_grouped_tooltip_ac">RÃœSTUNGsklasse</string>
 	<string name="item_grouped_label_dexbonus">GSK</string>
 	<string name="item_grouped_tooltip_dexbonus">Geschicklichkeitsanpassung</string>
 	<string name="item_grouped_label_strength">STK</string>
-	<string name="item_grouped_tooltip_strength">Benötigte Stärke</string>
+	<string name="item_grouped_tooltip_strength">BenÃ¶tigte StÃ¤rke</string>
 	<string name="item_grouped_label_stealth">Heimlichkeit</string>
 	<string name="item_grouped_tooltip_stealth">Heimlichkeitsanpassung</string>
 	<string name="item_grouped_label_damage">Schaden</string>
 	<string name="item_grouped_label_properties">Eigenschaften</string>
 	<string name="item_grouped_label_speed">BWRW</string>
 	<string name="item_grouped_label_carryingcapacity">Tragkraft</string>
-	<string name="item_grouped_tooltip_carryingcapacity">Tragekapazität</string>
+	<string name="item_grouped_tooltip_carryingcapacity">TragekapazitÃ¤t</string>
 	
 	<!-- Powers -->
-	<string name="power_label_useperiod_daily">Tägl.</string>
+	<string name="power_label_useperiod_daily">TÃ¤gl.</string>
 	<string name="power_label_useperiod_enc">Rast</string>
 	<string name="power_label_useperiod_once">1x</string>
 	<string name="power_tooltip_grouptypeability">Fertigkeiten</string>
@@ -735,11 +735,11 @@
 	<string name="ref_label_listproperties">Eigenschaften</string>
 	<string name="ref_label_listac">RK</string>
 	<string name="ref_label_listdex">GSK</string>
-	<string name="ref_label_liststrength">Stärke</string>
+	<string name="ref_label_liststrength">StÃ¤rke</string>
 	<string name="ref_label_liststealth">Heimlichkeit</string>
 	<string name="ref_label_listprereq">Voraussetzungen</string>
 	<string name="ref_label_listdesc">Beschreibung</string>
-	<string name="ref_label_listcarryingcapacity">Tragekapazität</string>
+	<string name="ref_label_listcarryingcapacity">TragekapazitÃ¤t</string>
 	<string name="ref_label_listspeed">BWRW</string>
 
 	<string name="ref_label_source">Quelle</string>
@@ -785,7 +785,7 @@
 	<string name="weapon_label_atkbonus">Bonus</string>
 	<string name="weapon_label_atkprof">Kntn</string>
 	<string name="weapon_header_damage">SCHADEN</string>
-	<string name="weapon_label_dmgdice">Würfel</string>
+	<string name="weapon_label_dmgdice">WÃ¼rfel</string>
 	<string name="weapon_label_dmgstat">Mult x Stat</string>
 	<string name="weapon_label_dmgbonus">Bonus</string>
 	<string name="weapon_label_dmgtype">Art</string>

@@ -10,45 +10,45 @@
 	<string name="hp">LP</string>
 
 	<!-- General -->
-	<string name="visibilityon">Visible to All</string>
-	<string name="visibilityoff">Visible to GM</string>
-	<string name="list_menu_createitem">Create Item</string>
-	<string name="list_menu_deleteitem">Delete Item</string>
-	<string name="list_menu_deleteconfirm">Confirm Delete</string>
+	<string name="visibilityon">Sichtbar: Alle</string>
+	<string name="visibilityoff">Sichtbar: SL</string>
+	<string name="list_menu_createitem">Eintrag hinzufügen</string>
+	<string name="list_menu_deleteitem">Eintrag löschen</string>
+	<string name="list_menu_deleteconfirm">löschen bestätigen</string>
 
-	<string name="label_page_info">Page %d of %d</string>
+	<string name="label_page_info">Seite %d von %d</string>
 	<string name="tooltip_page_top">Up To Index</string>
-	<string name="tooltip_page_start">First Page</string>
-	<string name="tooltip_page_prev">Previous Page</string>
-	<string name="tooltip_page_next">Next Page</string>
-	<string name="tooltip_page_end">Last Page</string>
+	<string name="tooltip_page_start">Erste Seite</string>
+	<string name="tooltip_page_prev">Vorherige Seite</string>
+	<string name="tooltip_page_next">Nächste Seite</string>
+	<string name="tooltip_page_end">Letzte Seite</string>
 	
 	<!-- Game Settings -->
-	<string name="lighting_none">None</string>
-	<string name="lighting_torch">Torch</string>
-	<string name="lighting_lantern">Lantern</string>
-	<string name="lighting_candle">Candle</string>
-	<string name="ambient_lighting_none">None</string>
+	<string name="lighting_none">-</string>
+	<string name="lighting_torch">Fackel</string>
+	<string name="lighting_lantern">Laterne</string>
+	<string name="lighting_candle">Kerze</string>
+	<string name="ambient_lighting_none">-</string>
 	<string name="ambient_lighting_dawn">Morgen</string>
 	<string name="ambient_lighting_sunlight">Sonnenlicht</string>
 	<string name="ambient_lighting_dusk">Morgengrauen</string>
 	<string name="ambient_lighting_moonlight">Mondlicht</string>
-	<string name="vision_none">Keine</string>
+	<string name="vision_none">-</string>
 	<string name="vision_darkvision">Dunkelsicht</string>
-	<string name="vision_blindsight">Blindgesp�r</string>
+	<string name="vision_blindsight">Blindgespür</string>
 	<string name="vision_truesight">Klarsicht</string>
 	<string name="vision_infravision">Infrarot</string>
 	<string name="vision_nightvision">Nachtsicht</string>
 
 	<!-- Templates -->
-	<string name="counter_menu_clear">Clear</string>
-	<string name="listlink_menu_editon">Edit</string>
-	<string name="listlink_menu_editoff">Stop Editing</string>
+	<string name="counter_menu_clear">leeren</string>
+	<string name="listlink_menu_editon">Bearbeiten</string>
+	<string name="listlink_menu_editoff">Bearbeiten beenden</string>
 	
-	<string name="button_folder">Folder</string>
-	<string name="button_refresh">Refresh</string>
-	<string name="button_folder_refresh_tooltip">Refresh Folder Assets</string>
-	<string name="button_import_image_files">Import Files</string>
+	<string name="button_folder">Ordner</string>
+	<string name="button_refresh">Erneuern</string>
+	<string name="button_folder_refresh_tooltip">Ordner Erneuern</string>
+	<string name="button_import_image_files">Datei importieren</string>
 	<string name="button_import_image_assets">Create From Campaign Assets</string>
 	<string name="button_store">Store</string>
 	<string name="button_store_tooltip">Store purchases require update and restart of Fantasy Grounds</string>
@@ -58,32 +58,32 @@
 	<string name="button_dialog_cancel">Cancel</string>
 
 	<!-- Desktop -->
-	<string name="charlist_emptyname">- Unnamed -</string>
-	<string name="charlist_menu_ring">Ring Bell</string>
-	<string name="charlist_menu_kick">Kick</string>
-	<string name="charlist_menu_kickconfirm">Kick Confirm</string>
-	<string name="charlist_menu_afk">Toggle AFK</string>
-	<string name="charlist_menu_release">Release</string>
-	<string name="charlist_menu_whisper">Whisper</string>
-	<string name="charlist_message_afkon">User has gone AFK.</string>
-	<string name="charlist_message_afkoff">User is back.</string>
-	<string name="modstack_label_modifier">Modifier</string>
-	<string name="modstack_label_adjusting">Adjusting</string>
-	<string name="modstack_tooltip_targeting_on">Use current targets for chat window rolls</string>
-	<string name="modstack_tooltip_targeting_off">Do not use current targets for chat window rolls</string>
-	<string name="dicetower_tooltip">Dice Tower</string>
-	<string name="dicetower_tag">TOWER</string>
-	<string name="dicetower_menu_whisper">Whisper to GM</string>
+	<string name="charlist_emptyname">- Unbenannt -</string>
+	<string name="charlist_menu_ring">Klingeln</string>
+	<string name="charlist_menu_kick">Rausschmeißen</string>
+	<string name="charlist_menu_kickconfirm">Rausschmeißen bestätigen</string>
+	<string name="charlist_menu_afk">AFK ein/aus</string>
+	<string name="charlist_menu_release">Freigeben</string>
+	<string name="charlist_menu_whisper">Flüstern</string>
+	<string name="charlist_message_afkon">Spieler is AFK.</string>
+	<string name="charlist_message_afkoff">Spieler ist wieder da.</string>
+	<string name="modstack_label_modifier">Modifikator</string>
+	<string name="modstack_label_adjusting">Anpassen</string>
+	<string name="modstack_tooltip_targeting_on">Derzeitiges Ziel für Chat Würfe nutzen</string>
+	<string name="modstack_tooltip_targeting_off">Derzeitiges Ziel für Chat Würfe nutzen</string>
+	<string name="dicetower_tooltip">Würfelturm</string>
+	<string name="dicetower_tag">TURM</string>
+	<string name="dicetower_menu_whisper">SL anflüstern</string>
 	
 	<string name="sidebar_tooltip_ct">Schlachtenhelfer</string>
 	<string name="sidebar_tooltip_ps">Gruppenverwaltung</string>
 	<string name="sidebar_tooltip_calendar">Kalender</string>
 	<string name="sidebar_tooltip_lighting">Beleuchtung</string>
-	<string name="sidebar_tooltip_colors">W�rfelfarben</string>
+	<string name="sidebar_tooltip_colors">Würfelfarben</string>
 	<string name="sidebar_tooltip_modifiers">Modifikatoren</string>
 	<string name="sidebar_tooltip_effects">Effekte</string>
 	<string name="sidebar_tooltip_options">Optionen</string>
-	<string name="sidebar_tooltip_manualroll">Manuelle W�rfelw�rfe</string>
+	<string name="sidebar_tooltip_manualroll">Manuelle Würfelwürfe</string>
 	<string name="sidebar_tooltip_library">Bibliothek</string>
 	<string name="sidebar_tooltip_token">Token</string>
 	<string name="sidebar_tooltip_assets">Materialien</string>
@@ -135,10 +135,10 @@
 	<string name="tag_chathandlelang_unknown">[Unknown]</string>
 	
 	<!-- Calendar -->
-	<string name="message_calendartime">The time is</string>
-	<string name="message_calendardate">The date is</string>
+	<string name="message_calendartime">Zeit:</string>
+	<string name="message_calendardate">Datum:</string>
 	<string name="message_calendardaysuffix0">te</string>
-	<string name="message_calendardaysuffix1">st</string>
+	<string name="message_calendardaysuffix1">ste</string>
 	<string name="message_calendardaysuffix2">te</string>
 	<string name="message_calendardaysuffix3">te</string>
 	<string name="message_calendardaysuffix4">te</string>
