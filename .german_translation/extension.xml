@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <root version="3.2">
 	<announcement text="Sir Mottes deutsche Uebersetzung geladen" font="emotefont" icon="footface"/>
@@ -7,7 +7,7 @@
 		<name>5E - Sir Motte - Deutsch</name>
 		<author>Sir Motte</author>
 		<version>0.1</version> 
-		<description>Deutsche Uebersetzung der meisten UI Elemente</description>	
+		<description>Deutsche Übersetzung der meisten UI Elemente</description>	
 		<loadorder>200</loadorder>
 		<ruleset>
 			<name>CoreRPG</name>
