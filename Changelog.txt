@@ -1,8 +1,9 @@
-Update to Beta_2.2.0_Sloshing_Brains
+Update to Beta_2.2.1_Sloshing_Brains
 
 - got rid of the pesky link icons (but for the dice one) in the hotkey bar !woot! - sponsored by MeAndUnique
 - changed font color of collapsed actions tabs
 - Smaller Drag font
+- Minor icon changes and adjustments
 
 
 Extension Support:
