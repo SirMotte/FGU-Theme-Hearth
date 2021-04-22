@@ -25,7 +25,7 @@
 -->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: SirMotte's Magnificent Darkness\rVersion Alpha_2.2.1 - Sloshing Brains\rHearth Edition" font="emotefont" icon="footface"/>
+	<announcement text="Theme Loaded: SirMotte's Magnificent Darkness\rVersion Beta_2.2.1 - Sloshing Brains\rHearth Edition" font="emotefont" icon="footface"/>
 	
 	<properties>
 		<name>Theme: Hearth</name>
