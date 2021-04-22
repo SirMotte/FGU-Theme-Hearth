@@ -113,12 +113,30 @@
   				<bitmap file="graphics/extensions/daddy_orgeman/combat_highlighter/ctentrybox_inactive.png" /> 
   				<offset>37,16,14,17</offset> 
   			</framedef>
+
 <!--Author: dmsanctum-->
 	<!--Ext: Attunement Tracker-->
 		<!--Icon-->
 			<icon name="no_attunement" file="graphics/extensions/dmsanctum/attunement_tracker/no_attunement.png" /> 
 
-
+<!--Author: Houndy-->
+	<!--Ext: RFIA - Roll for Initiative Addon-->
+		<!--Icons-->
+			<icon name="RFI_RollNotDone" file="graphics/extensions/houndy/RFIA/rfi_roll_not_done.png" /> 
+  			<icon name="RFI_RollDone" file="graphics/extensions/houndy/RFIA/rfi_roll_done.png" /> 
+  			<icon name="RFI_PcSelected" file="graphics/extensions/houndy/RFIA/rfi_pc_selected.png" /> 
+  			<icon name="RFI_PcUnselected" file="graphics/extensions/houndy/RFIA/rfi_pc_unselected.png" /> 
+  			<icon name="RFI_PcHover" file="graphics/extensions/houndy/RFIA/rfi_pc_hover.png" /> 
+  			<icon name="RFIA_DefaultButtonUp" file="graphics/extensions/houndy/RFIA/rfia_default_button_up.png" /> 
+  			<icon name="RFIA_DefaultButtonDown" file="graphics/extensions/houndy/RFIA/rfia_default_button_down.png" /> 
+  			<icon name="RFI_Adv" file="graphics/extensions/houndy/RFIA/rfi_adv_icon.png" /> 
+  			<icon name="RFI_Dis" file="graphics/extensions/houndy/RFIA/rfi_dis_icon.png" /> 
+  			<icon name="RFI_Hidden" file="graphics/extensions/houndy/RFIA/rfi_hidden_icon.png" /> 
+		<!--Frame-->	
+			<framedef name="buttonhover">
+  				<bitmap file="graphics/extensions/houndy/RFIA/buttonhover.png" /> 
+  				<offset>11,16,15,16</offset> 
+  			</framedef>
 
 <!--Author: MeAndUnique-->
 	<!--Ext: Constitutional Amendments-->

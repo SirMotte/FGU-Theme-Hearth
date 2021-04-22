@@ -7,25 +7,25 @@
 
 <root>
 	<!-- General -->
-	<string name="ft_empty">Click to enter text</string>
-	<string name="menu_revert">Revert Changes</string>
-	<string name="tooltip_public">Public</string>
-	<string name="tooltip_shared">Shared with:</string>
-	<string name="button_add">Add Item</string>
-	<string name="button_editon">Edit List</string>
-	<string name="button_editoff">Stop Editing List</string>
-	<string name="button_delete">Delete Item</string>
-	<string name="button_deleteconfirm">Confirm Delete Item</string>
-	<string name="tooltip_readonly">Read Only</string>
-	<string name="tooltip_modified">Modified</string>
-	<string name="tooltip_lock">Locked</string>
-	<string name="tooltip_unlock">Unlocked</string>
-	<string name="tooltip_id">Item Identified</string>
-	<string name="tooltip_nonid">Item Not Identified</string>
-	<string name="tooltip_expand">Expand All</string>
-	<string name="tooltip_collapse">Collapse All</string>
+	<string name="ft_empty">Text hinzufÃ¼gen</string>
+	<string name="menu_revert">Ã„nderungen RÃ¼ckgÃ¤ngig</string>
+	<string name="tooltip_public">Publik</string>
+	<string name="tooltip_shared">Geteilt mit:</string>
+	<string name="button_add">Gegenstand hinzufÃ¼gen</string>
+	<string name="button_editon">Editieren</string>
+	<string name="button_editoff">Editieren Ende</string>
+	<string name="button_delete">Eintrag lÃ¶schen</string>
+	<string name="button_deleteconfirm">BestÃ¤tigen: Eintrag lÃ¶schen</string>
+	<string name="tooltip_readonly">SchreibgeschÃ¼tzt</string>
+	<string name="tooltip_modified">GeÃ¤ndert</string>
+	<string name="tooltip_lock">Gesperrt</string>
+	<string name="tooltip_unlock">Entsperrt</string>
+	<string name="tooltip_id">Identifiziert</string>
+	<string name="tooltip_nonid">Nicht identifieziert</string>
+	<string name="tooltip_expand">Alle erweitern</string>
+	<string name="tooltip_collapse">Alle schlieÃŸen</string>
 	<string name="tooltip_toolbar">Toggle Toolbar</string>
-	<string name="tooltip_resetpos">Reset Position</string>
+	<string name="tooltip_resetpos">Position zurÃ¼cksetzen</string>
 	
 	<!-- Characters -->
 	<string name="portrait_button_folder">Ordner</string>
@@ -47,35 +47,35 @@
 	<string name="char_label_race">Rasse</string>
 	<string name="char_label_gender">GESCHLECHT</string>
 	<string name="char_label_age">ALTER</string>
-	<string name="char_label_height">GRÖßE</string>
+	<string name="char_label_height">GRÃ–ÃŸE</string>
 	<string name="char_label_weight">GEWICHT</string>
-	<string name="char_tooltip_portrait">Porträt</string>
+	<string name="char_tooltip_portrait">PortrÃ¤t</string>
 	<string name="char_tooltip_token">Token</string>
 	<string name="char_tooltip_speak">Als SC sprechen</string>
 	<string name="char_tooltip_activate">Als aktiven SC aktivieren</string>
 	<string name="char_label_itemweight">KG</string>
 	<string name="char_tooltip_itemweight">Gewicht in KG</string>
-	<string name="char_tooltip_itemcarried">Mitgeführt / Ausgerüstet</string>
-	<string name="char_tooltip_inv_none">Nicht mitgeführt</string>
-	<string name="char_tooltip_inv_carried">Mitgeführt</string>
-	<string name="char_tooltip_inv_equipped">Ausgerüstet</string>
-	<string name="char_label_attributes">Attribute / Fähigkeiten</string>
+	<string name="char_tooltip_itemcarried">MitgefÃ¼hrt / AusgerÃ¼stet</string>
+	<string name="char_tooltip_inv_none">Nicht mitgefÃ¼hrt</string>
+	<string name="char_tooltip_inv_carried">MitgefÃ¼hrt</string>
+	<string name="char_tooltip_inv_equipped">AusgerÃ¼stet</string>
+	<string name="char_label_attributes">Attribute / FÃ¤higkeiten</string>
 	<string name="char_label_abilities">Fertigkeiten</string>
 	<string name="char_label_itemlocation">Ort</string>
 	<string name="char_label_itemname">Name</string>
 	<string name="char_label_totalweight">Gesamtgewicht</string>
-	<string name="char_label_money">Währung</string>
+	<string name="char_label_money">WÃ¤hrung</string>
 	<string name="char_label_appearance">Erscheinungsbild</string>
 	<string name="char_label_languages">Sprachen</string>
 	<string name="char_label_notes">Notizen</string>
-	<string name="char_menu_delete">Charakter löschen</string>
+	<string name="char_menu_delete">Charakter lÃ¶schen</string>
 	<string name="char_menu_ownerclear">Besitzer entfernen</string>
-	<string name="char_menu_ownergm">Besitzen (as %s)</string>
+	<string name="char_menu_ownergm">Besitzer (as %s)</string>
 
 	<!-- Pregenerated Characters -->
 	<string name="pregencharselect_window_title">Vorgefertigte Charaktere</string>
-	<string name="pregenchar_tooltip_add">Vorgefertigte Charactere hinzufügen</string>
-	<string name="pregenchar_message_add">Vorgefertigte Charactere zur Kampagne hinzufügen.</string>
+	<string name="pregenchar_tooltip_add">Vorgefertigte Charactere hinzufÃ¼gen</string>
+	<string name="pregenchar_message_add">Vorgefertigte Charactere zur Kampagne hinzufÃ¼gen.</string>
 
 	<!-- Stories -->
 	<string name="story_button_templates">Vorlagen</string>
@@ -83,7 +83,7 @@
 	<string name="story_ft_templatehelp">Enter formatted text as normal, use [TABLENAME] tags to specify table rolls, and click Generate to make a new story entry.</string>
 
 	<!-- Images -->
-	<string name="image_emptylist">Bilder hier einfügen um sie der Kampagne hinzuzufügen.</string>
+	<string name="image_emptylist">Bilder hier einfÃ¼gen um sie der Kampagne hinzuzufÃ¼gen.</string>
 	<string name="image_tooltip_listadd">Add Drawing</string>
 	<string name="image_message_nocopy">Image records can not be copied. Add new images in the campaign list by using the folder button, or dropping a file on the list.</string>
 	<string name="image_message_exists">Image record with same name already exists.</string>
