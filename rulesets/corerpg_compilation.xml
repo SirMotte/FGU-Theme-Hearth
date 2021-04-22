@@ -367,7 +367,7 @@
 	<!-- Source: ct/template_ct.xml -->
 	<template name="label_ct">
 		<label>
-			<color>DDDDDD</color>
+			<color>EBDDBA</color>
 		</label>
 	</template>
 
