@@ -113,6 +113,11 @@
   				<bitmap file="graphics/extensions/daddy_orgeman/combat_highlighter/ctentrybox_inactive.png" /> 
   				<offset>37,16,14,17</offset> 
   			</framedef>
+<!--Author: dmsanctum-->
+	<!--Ext: Attunement Tracker-->
+		<!--Icon-->
+			<icon name="no_attunement" file="graphics/extensions/dmsanctum/attunement_tracker/no_attunement.png" /> 
+
 
 
 <!--Author: MeAndUnique-->
