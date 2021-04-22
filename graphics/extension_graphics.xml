@@ -125,7 +125,6 @@
 			<icon name="RFI_RollNotDone" file="graphics/extensions/houndy/RFIA/rfi_roll_not_done.png" /> 
   			<icon name="RFI_RollDone" file="graphics/extensions/houndy/RFIA/rfi_roll_done.png" /> 
   			<icon name="RFI_PcSelected" file="graphics/extensions/houndy/RFIA/rfi_pc_selected.png" /> 
-  			<icon name="RFI_PcUnselected" file="graphics/extensions/houndy/RFIA/rfi_pc_unselected.png" /> 
   			<icon name="RFI_PcHover" file="graphics/extensions/houndy/RFIA/rfi_pc_hover.png" /> 
   			<icon name="RFIA_DefaultButtonUp" file="graphics/extensions/houndy/RFIA/rfia_default_button_up.png" /> 
   			<icon name="RFIA_DefaultButtonDown" file="graphics/extensions/houndy/RFIA/rfia_default_button_down.png" /> 
