@@ -1,17 +1,4 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<!-- 
-  Please see the license.html file included with this distribution for 
-  attribution and copyright information.
-  	Additional Modifications � Copyright SmiteWorks 2018
-
-	� Copyright Todd Stern 2017 except where explicitly stated zygmunt_molotchwise.
-	Fantasy Grounds is Copyright � 2004-2017 SmiteWorks USA LLC.
-	Copyright to zygmunt_molotch material within this Manuscript may be held by zygmunt_molotch Individuals and/or Entities.
-	Nothing in or from this XML File in printed, electronic and/or any zygmunt_molotch form may be used, copied,
-	transmitted or zygmunt_molotchwise manipulated in ANY way without the explicit written consent of
-	Todd Stern or, where applicable, any and all zygmunt_molotch Copyright holders.
-	All rights reserved.
--->
 <root>
 <!--Author: Damned-->
 	<!--Ext: Player Agency-->
@@ -137,8 +124,6 @@
   				<offset>11,16,15,16</offset> 
   			</framedef>
 
-<!--Author: MeAndUnique-->
-<!--Ext: Constitutional Amendments-->
 <!--Author: MeAndUnique-->
 	<!--Ext: Constitutional Amendments-->
 		<!-- Source: campain/record_char_main.xml -->
