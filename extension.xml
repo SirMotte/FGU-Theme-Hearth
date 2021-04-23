@@ -1,28 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<!--
-	Additional Modifications � Copyright SmiteWorks 2018
-	- Updated to v2.3 on 1/23 by Moon Wizard
-	
-	� Copyright Todd Stern 2017 except where explicitly stated otherwise.
-	Fantasy Grounds is Copyright � 2004-2017 SmiteWorks USA LLC.
-	Copyright to other material within this Manuscript may be held by other Individuals and/or Entities.
-	Nothing in or from this XML File in printed, electronic and/or any other form may be used, copied,
-		transmitted or otherwise manipulated in ANY way without the explicit written consent of
-		Todd Stern or, where applicable, any and all other Copyright holders.
-	All rights reserved.
-	
-	Thanks to Dulux-Oz for fixing and greatly simplifying this extension.
-	I'm continually impressed with the community support for this software. 
-	If you wish to use this as the basis of your own theme, all I ask is that you make it available free of charge
-	(Pay What You Want is acceptable).
-	
-	- Thanks ll00ll00ll00ll (aka Todd Stern)
-
-	Sir Mottes Magnificent Darkness Theme collection is build upon Moon Wizards Simple Grey Theme.
-	All copyright lies with their respective owners. Do not sell or otherwise monetize this extension in any way.
-
-	Special Thanks to MeAndUnique and Saagael for the enormous amount of help with xml and lua stuff <3!
--->
+<!--Special Thanks to MeAndUnique and Saagael for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
 	<announcement text="Theme Loaded: SirMotte's Magnificent Darkness\rVersion Beta_2.2.1 - Sloshing Brains\rHearth Edition" font="emotefont" icon="footface"/>
