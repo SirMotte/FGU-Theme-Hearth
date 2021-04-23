@@ -11,7 +11,7 @@
 		<ttf file="graphics/rulesets/icrpg/nusaliver.ttf" name="nusaliver" size="14" />
 		<color value="#EBDDBA" />
 	</font>
-    <icon name="button_damagetypes" file="graphics/rulesets/icrpg//button_damagetypes.png" />
+    <icon name="button_damagetypes" file="graphics/rulesets/icrpg/button_damagetypes.png" />
 	<icon name="button_damagetypes_down" file="graphics/rulesets/icrpg/button_damagetypes_down.png" />
 
 	<!-- Action Icons -->
