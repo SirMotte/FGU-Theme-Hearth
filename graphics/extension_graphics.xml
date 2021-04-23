@@ -140,9 +140,130 @@
 				</script>
 			</windowclass>
 
-<!--Author: xxx-->
-<!--Ext: xxx-->
+<!--Author: pr6i6est (Troy Monteith) and bmos-->
+<!--Ext: Clock Adjuster-->
+<windowclass name="chattime" merge="join">
+	<frame>recordsheet</frame>
+		<size width="260" height="110" />
+		<noclose />
+		<sheetdata>
+			<label name="currenthour">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</label>
+			<label name="timesep">
+				<color>EBDDBA</color>
+			</label>
+			<label name="currentminute">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</label>
+			<label name="currentphase">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</label>
+			<label name="currentday">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</label>
+			<label name="currentmonth">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</label>
+			<label name="currentyear">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</label>
+			<basicnumber name="addhour" source="addhour">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</basicnumber>
+			<label name="timesep2">	
+				<color>EBDDBA</color>
+			</label>
+			<basicnumber name="addminute" source="addminute">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</basicnumber>
+			<basicnumber name="addday" source="addday">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</basicnumber>
+			<basicnumber name="addmonth" source="addmonth">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</basicnumber>
+			<basicnumber name="addyear" source="addyear">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</basicnumber>
+			<basicnumber name="shortrest">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</basicnumber>
+			<basicnumber name="longrest">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</basicnumber>
+			<stringu name="name">
+				<anchored height="20">
+					<top offset="2" />
+					<right parent="rightanchor" anchor="left" relation="relative" offset="-10" />
+					<left offset="10" />
+				</anchored>
+				<color>EBDDBA</color>
+				<tabtarget next="nonid_name" prev="count" />
+			</stringu>
+	</sheetdata>					
+</windowclass>
 
+<windowclass name="travelmanager" merge="join">
+	<sheetdata>
+			<label name="traveledlabel">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>				
+			</label>
+			<label name="totallabel">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</label>
+			<label name="remaininglabel">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</label>
+			<label name="travelspeedlabel">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</label>
+			<label name="travelbylabel">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</label>
+			<buttoncontrol name="destinationmeasurement">
+				<color>EBDDBA</color>
+			</buttoncontrol>
+			<buttoncontrol name="unitofmeasurement">
+				<color>EBDDBA</color>
+			</buttoncontrol>
+			<buttoncontrol name="perlimit">+
+				<color>EBDDBA</color>
+			</buttoncontrol>
+			<buttoncontrol name="traveltime">
+				<color>EBDDBA</color>
+			</buttoncontrol>
+			<label name="travellabel">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</label>
+			<label name="encounterchance_label">
+				<font>calendarbold</font>
+				<color>EBDDBA</color>
+			</label>
+			<buttoncontrol name="repeattimebutton" source=".repeattime">
+				<color>EBDDBA</color>
+			</buttoncontrol>
+	</sheetdata>
+</windowclass>
 <!--Author: xxx-->
 <!--Ext: xxx-->
 

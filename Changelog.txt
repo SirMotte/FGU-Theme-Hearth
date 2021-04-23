@@ -1,18 +1,14 @@
-Update to Beta_2.2.1_Sloshing_Brains
+Update to Beta_2.2.2_Beleaguered_Mudpile
 
-- got rid of the pesky link icons (but for the dice one) in the hotkey bar !woot! - sponsored by MeAndUnique
-- changed font color of collapsed actions tabs
-- Smaller Drag font
-- Minor icon changes and adjustments
+- Changed Turn Marker to be easier to see and understand, now fits nicely next to round portraits (not so much square ones)
 
 
-Extension Support:
-- Constitutional Amendmends by MeAndUnique
-- Equipped Effects by SilentRuin
-- Assistant GM by SilentRuin
-- Generic Actions by Silent Ruin
-- Combat Highlighter by DaddyOgreman / Ogremandude
-- Death Indicator Ex by SilentRuin
-- Attunement Tracker by DMSanctum
+Extension changes:
+- RFIA by Houndy - changed buttonhover graphic to not be larger than the normal frame.
+
+
+Added Extension Support:
+- Clock Adjuster by Troy Monteith and bmos
+
 
 
