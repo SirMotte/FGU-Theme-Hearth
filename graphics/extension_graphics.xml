@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
+
 <root>
 <!--Author: Damned-->
 	<!--Ext: Player Agency-->
@@ -140,8 +141,39 @@
 				</script>
 			</windowclass>
 
+<!--Author: Mad Nomad-->
+	<!--Ext: Character Sheet Tweaks-->
+		<!--Icons-->
+  			<icon name="advdie" file="graphics\extensions\mad_nomad\character_sheet_effects_display/advdie.png" /> 
+  			<icon name="disdie" file="graphics\extensions\mad_nomad\character_sheet_effects_display/disdie.png" /> 
+  			<icon name="update" file="graphics\extensions\mad_nomad\character_sheet_effects_display/updateMNM.png" /> 
+  			<icon name="effectremove" file="graphics\extensions\mad_nomad\character_sheet_effects_display/effectremoveMNM.png" /> 
+  			<icon name="effectremovedown" file="graphics\extensions\mad_nomad\character_sheet_effects_display/effectremovedownMNM.png" /> 
+			<icon name="plus_sign" file="graphics\extensions\mad_nomad\character_sheet_effects_display/plus_sign.png" /> 
+  			<icon name="minus_sign" file="graphics\extensions\mad_nomad\character_sheet_effects_display/minus_sign.png" /> 
+  			<icon name="map" file="graphics\extensions\mad_nomad\character_sheet_effects_display/map.png" /> 
+  			<icon name="tab_journal" file="graphics\extensions\mad_nomad\character_sheet_effects_display/tab_journal.png" /> 
+  			<icon name="tab_origin" file="graphics\extensions\mad_nomad\character_sheet_effects_display/tab_origin.png" />
+		<!--Frames-->	  
+			<framedef name="fielddarkborderless">
+  				<bitmap file="graphics\extensions\mad_nomad\character_sheet_effects_display/fielddarkborderless.png" /> 
+ 			 	<offset>10,10,10,10</offset> 
+  			</framedef>
+ 			<framedef name="fieldred">
+  				<bitmap file="graphics\extensions\mad_nomad\character_sheet_effects_display/fieldred.png" /> 
+  				<offset>10,10,10,10</offset> 
+  			</framedef>
+ 			<framedef name="fieldgreen">
+  			<bitmap file="graphics\extensions\mad_nomad\character_sheet_effects_display/fieldgreen.png" /> 
+  				<offset>10,10,10,10</offset> 
+  			</framedef>
+			
+
+
+
 <!--Author: pr6i6est (Troy Monteith) and bmos-->
-<!--Ext: Clock Adjuster-->
+	<!--Ext: Clock Adjuster-->
+<!--
 <windowclass name="chattime" merge="join">
 	<frame>recordsheet</frame>
 		<size width="260" height="110" />
@@ -216,7 +248,6 @@
 			</stringu>
 	</sheetdata>					
 </windowclass>
-
 <windowclass name="travelmanager" merge="join">
 	<sheetdata>
 			<label name="traveledlabel">
@@ -264,10 +295,12 @@
 			</buttoncontrol>
 	</sheetdata>
 </windowclass>
-<!--Author: xxx-->
-<!--Ext: xxx-->
+-->
 
 <!--Author: xxx-->
-<!--Ext: xxx-->
+	<!--Ext: xxx-->
+
+<!--Author: xxx-->
+	<!--Ext: xxx-->
 
 </root>
