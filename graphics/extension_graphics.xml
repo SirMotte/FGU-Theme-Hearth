@@ -126,7 +126,7 @@
   			</framedef>
 
 <!--Author: Mad Nomad-->
-	<!--Ext: Character Sheet Tweaks/Journal/Effects Display-->
+	<!--Ext: Character Sheet Tweaks/Journal/Effects/Coin Manager Display-->
 		<!--Icons-->
   			<icon name="advdie" file="graphics/extensions/mad_nomad/character_sheet_compilation/advdie.png" /> 
   			<icon name="disdie" file="graphics/extensions/mad_nomad/character_sheet_compilation/disdie.png" /> 
@@ -138,6 +138,10 @@
   			<icon name="map" file="graphics/extensions/mad_nomad/character_sheet_compilation/map.png" /> 
   			<icon name="tab_journal" file="graphics/extensions/mad_nomad/character_sheet_compilation/tab_journal.png" /> 
   			<icon name="tab_origin" file="graphics/extensions/mad_nomad/character_sheet_compilation/tab_origin.png" />
+			<icon name="add_coins" file="graphics/extensions/mad_nomad/character_sheet_compilation/add_coins.png" /> 
+  			<icon name="spend_coins" file="graphics/extensions/mad_nomad/character_sheet_compilation/spend_coins.png" /> 
+  			<icon name="transaction" file="graphics/extensions/mad_nomad/character_sheet_compilation/transaction.png" /> 
+  			<icon name="broke" file="graphics/extensions/mad_nomad/character_sheet_compilation/broke.png" /> 
 		<!--Frames-->	  
 			<framedef name="fielddarkborderless">
   				<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fielddarkborderless.png" /> 
@@ -167,6 +171,14 @@
 					end
 				</script>
 			</windowclass>
+
+<!--Author: pr6i6est (Troy Monteith)-->
+	<!--Ext: NPC Random Treasure Drops-->
+<icon name="conditions_tab" file="graphics/extensions/troy_monteith/npc_random_treasure_drops/conditions_tab.png" />
+	<!--Ext: Automatic Record Links-->
+<icon name="linktab" file="graphics/extensions/troy_monteith/automatic_record_links/links_tab.png" /> 
+
+
 
 
 <!--Author: pr6i6est (Troy Monteith) and bmos-->

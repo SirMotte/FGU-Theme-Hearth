@@ -2,18 +2,27 @@ Update to Beta_2.3.0_Beleaguered_Mudpile
 [*] Bumped loadorder to 1500 to make sure stuff from authors that set this agressively high like mad nomad is properly overridden.
 [*] Changed Turn Marker to be easier to see and understand, now fits nicely next to round portraits (not so much square ones)
 [*] Changed dicetower Chat Icon
-[*] Small Icon changes to better fit each others style (evolved over time to be more rounded an compact)
+[*] Small Icon changes to better fit each others style (evolved over time to be more rounded and compact)
+[*] Added armorcheck icon in inventory section
+[*] Changed open/close, minimize/maximize and help color on hover to be in line with theme.
+[*] Changed die graphics (test, unsure if this works)
+[*] Changed whisper chat speech bubble
 
 Extension changes:
 [*] RFIA by Houndy - changed buttonhover graphic to not be larger than the normal roll frame.
 
 
 Added Extension Support:
-[*] Clock Adjuster by Troy Monteith and bmos (halted, waiting for update)
 [*] Mad Nomads Character Sheet Tweaks
 [*] Mad Nomads Character Sheet Effects Display
 [*] Mad Nomads Character Sheet Journal
-[*] 
+[*] Mad Nomads Coin Manager
+[*] NPC Random Treasure Drops by pr6i6est (Troy Monteith)
+[*] Automatic Record Link by pr6i6est (Troy Monteith)
 
 
 
+
+
+Notice:
+If you want old links in the hotkeybar to only be letters, you have to relink them again.

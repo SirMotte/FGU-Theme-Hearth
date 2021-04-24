@@ -42,7 +42,7 @@
 	</font>
 	<font name="dieresult">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
-		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="16" />
 		<color value="#DDDDDD" />
 	</font>
 	
