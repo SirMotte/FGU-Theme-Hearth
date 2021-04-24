@@ -163,6 +163,10 @@
 		<bitmap file="graphics/pngs/chatframe_story.png" />
 		<offset>18,18,17,17</offset>
 	</framedef>
+	<framedef name="chatframe_whisper">
+		<bitmap file="graphics/pngs/chatframe_whisper.png" />
+		<offset>17,17,7,7</offset>
+	</framedef>	
 	<framedef name="diebox">
 		<bitmap file="graphics/pngs/diebox.png" />
 		<offset>16,16,16,16</offset>

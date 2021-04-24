@@ -2,7 +2,44 @@
 
 <root>
 <!-- fgpro override CoreRPG & 5E ruleset graphics -->
+	<!--Die-->
+	<icon name="d4icon" file="graphics/pngs/d4_icon.png" />
+	<icon name="d6icon" file="graphics/pngs/d6_icon.png" />
+	<icon name="d8icon" file="graphics/pngs/d8_icon.png" />
+	<icon name="d10icon" file="graphics/pngs/d10_icon.png" />
+	<icon name="d12icon" file="graphics/pngs/d12_icon.png" />
+	<icon name="d20icon" file="graphics/pngs/d20_icon.png" />
+
+	<icon name="d4ricon" file="graphics/pngs/d4_ricon.png" />
+	<icon name="d6ricon" file="graphics/pngs/d6_ricon.png" />
+	<icon name="d8ricon" file="graphics/pngs/d8_ricon.png" />
+	<icon name="d10ricon" file="graphics/pngs/d10_ricon.png" />
+	<icon name="d12ricon" file="graphics/pngs/d12_ricon.png" />
+	<icon name="d20ricon" file="graphics/pngs/d20_ricon.png" />
+
+	<icon name="d4gicon" file="graphics/pngs/d4_gicon.png" />
+	<icon name="d6gicon" file="graphics/pngs/d6_gicon.png" />
+	<icon name="d8gicon" file="graphics/pngs/d8_gicon.png" />
+	<icon name="d10gicon" file="graphics/pngs/d10_gicon.png" />
+	<icon name="d12gicon" file="graphics/pngs/d12_gicon.png" />
+	<icon name="d20gicon" file="graphics/pngs/d20_gicon.png" />
+
+	<icon name="d4bicon" file="graphics/pngs/d4_bicon.png" />
+	<icon name="d6bicon" file="graphics/pngs/d6_bicon.png" />
+	<icon name="d8bicon" file="graphics/pngs/d8_bicon.png" />
+	<icon name="d10bicon" file="graphics/pngs/d10_bicon.png" />
+	<icon name="d12bicon" file="graphics/pngs/d12_bicon.png" />
+	<icon name="d20bicon" file="graphics/pngs/d20_bicon.png" />
+
+	<icon name="d4picon" file="graphics/pngs/d4_picon.png" />
+	<icon name="d6picon" file="graphics/pngs/d6_picon.png" />
+	<icon name="d8picon" file="graphics/pngs/d8_picon.png" />
+	<icon name="d10picon" file="graphics/pngs/d10_picon.png" />
+	<icon name="d12picon" file="graphics/pngs/d12_picon.png" />
+	<icon name="d20picon" file="graphics/pngs/d20_picon.png" />
+
 	<!-- Buttons -->
+
 	<icon name="button_action_attack" file="graphics/pngs/button_action_attack.png" />
 	<icon name="button_action_attack_down" file="graphics/pngs/button_action_attack_down.png" />
 	<icon name="button_action_damage" file="graphics/pngs/button_action_damage.png" />
@@ -53,6 +90,7 @@
 	<icon name="minimized_charpowers" file="graphics/pngs/minimized_charpowers.png" />
 	<icon name="minimized_charequipment" file="graphics/pngs/minimized_charequipment.png" />
 	<icon name="minimized_charnotes" file="graphics/pngs/minimized_charnotes.png" />
+	<icon name="char_armorcheck" file="graphics/pngs/char_armorcheck.png" />
 	<!-- Chat window -->
 	<icon name="chat_speak" file="graphics/pngs/chat_speak.png" />
 	<icon name="chat_story" file="graphics/pngs/chat_story.png" />
@@ -197,10 +235,10 @@
 	<icon name="button_page_end" file="graphics/pngs/arrow_sm_last.png" />
 	<icon name="button_page_top" file="graphics/pngs/arrow_sm_up.png" />
 	
-	<!-- Dice tower -->
-	<icon name="dicetower_icon" file="graphics/pngs/dicetower_icon.png" />
-	<icon name="dicetower_drop" file="graphics/pngs/dicetower_drop.png" />
-	<icon name="dicetower_normal" file="graphics/pngs/dicetower_normal.png" />
+	<!-- pngs tower -->
+	<icon name="pngstower_icon" file="graphics/pngs/dicetower_icon.png" />
+	<icon name="pngstower_drop" file="graphics/pngs/dicetower_drop.png" />
+	<icon name="pngstower_normal" file="graphics/pngs/dicetower_normal.png" />
 	<!-- Dragging -->
 	<icon name="action_attack" file="graphics/pngs/action_attack.png" />
 	<icon name="action_damage" file="graphics/pngs/action_damage.png" />
