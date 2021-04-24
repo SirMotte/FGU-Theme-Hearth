@@ -125,6 +125,33 @@
   				<offset>11,16,15,16</offset> 
   			</framedef>
 
+<!--Author: Mad Nomad-->
+	<!--Ext: Character Sheet Tweaks/Journal/Effects Display-->
+		<!--Icons-->
+  			<icon name="advdie" file="graphics/extensions/mad_nomad/character_sheet_compilation/advdie.png" /> 
+  			<icon name="disdie" file="graphics/extensions/mad_nomad/character_sheet_compilation/disdie.png" /> 
+  			<icon name="update" file="graphics/extensions/mad_nomad/character_sheet_compilation/updateMNM.png" /> 
+  			<icon name="effectremove" file="graphics/extensions/mad_nomad/character_sheet_compilation/effectremoveMNM.png" /> 
+  			<icon name="effectremovedown" file="graphics/extensions/mad_nomad/character_sheet_compilation/effectremovedownMNM.png" /> 
+			<icon name="plus_sign" file="graphics/extensions/mad_nomad/character_sheet_compilation/plus_sign.png" /> 
+  			<icon name="minus_sign" file="graphics/extensions/mad_nomad/character_sheet_compilation/minus_sign.png" /> 
+  			<icon name="map" file="graphics/extensions/mad_nomad/character_sheet_compilation/map.png" /> 
+  			<icon name="tab_journal" file="graphics/extensions/mad_nomad/character_sheet_compilation/tab_journal.png" /> 
+  			<icon name="tab_origin" file="graphics/extensions/mad_nomad/character_sheet_compilation/tab_origin.png" />
+		<!--Frames-->	  
+			<framedef name="fielddarkborderless">
+  				<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fielddarkborderless.png" /> 
+ 			 	<offset>10,10,10,10</offset> 
+  			</framedef>
+ 			<framedef name="fieldred">
+  				<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fieldred.png" /> 
+  				<offset>10,10,10,10</offset> 
+  			</framedef>
+ 			<framedef name="fieldgreen">
+  			<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fieldgreen.png" /> 
+  				<offset>10,10,10,10</offset> 
+  			</framedef>			  
+
 <!--Author: MeAndUnique-->
 	<!--Ext: Constitutional Amendments-->
 		<!-- Source: campain/record_char_main.xml -->
@@ -140,35 +167,6 @@
 					end
 				</script>
 			</windowclass>
-
-<!--Author: Mad Nomad-->
-	<!--Ext: Character Sheet Tweaks-->
-		<!--Icons-->
-  			<icon name="advdie" file="graphics\extensions\mad_nomad\character_sheet_effects_display/advdie.png" /> 
-  			<icon name="disdie" file="graphics\extensions\mad_nomad\character_sheet_effects_display/disdie.png" /> 
-  			<icon name="update" file="graphics\extensions\mad_nomad\character_sheet_effects_display/updateMNM.png" /> 
-  			<icon name="effectremove" file="graphics\extensions\mad_nomad\character_sheet_effects_display/effectremoveMNM.png" /> 
-  			<icon name="effectremovedown" file="graphics\extensions\mad_nomad\character_sheet_effects_display/effectremovedownMNM.png" /> 
-			<icon name="plus_sign" file="graphics\extensions\mad_nomad\character_sheet_effects_display/plus_sign.png" /> 
-  			<icon name="minus_sign" file="graphics\extensions\mad_nomad\character_sheet_effects_display/minus_sign.png" /> 
-  			<icon name="map" file="graphics\extensions\mad_nomad\character_sheet_effects_display/map.png" /> 
-  			<icon name="tab_journal" file="graphics\extensions\mad_nomad\character_sheet_effects_display/tab_journal.png" /> 
-  			<icon name="tab_origin" file="graphics\extensions\mad_nomad\character_sheet_effects_display/tab_origin.png" />
-		<!--Frames-->	  
-			<framedef name="fielddarkborderless">
-  				<bitmap file="graphics\extensions\mad_nomad\character_sheet_effects_display/fielddarkborderless.png" /> 
- 			 	<offset>10,10,10,10</offset> 
-  			</framedef>
- 			<framedef name="fieldred">
-  				<bitmap file="graphics\extensions\mad_nomad\character_sheet_effects_display/fieldred.png" /> 
-  				<offset>10,10,10,10</offset> 
-  			</framedef>
- 			<framedef name="fieldgreen">
-  			<bitmap file="graphics\extensions\mad_nomad\character_sheet_effects_display/fieldgreen.png" /> 
-  				<offset>10,10,10,10</offset> 
-  			</framedef>
-			
-
 
 
 <!--Author: pr6i6est (Troy Monteith) and bmos-->

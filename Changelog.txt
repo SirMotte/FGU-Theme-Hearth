@@ -1,14 +1,19 @@
-Update to Beta_2.2.2_Beleaguered_Mudpile
-
-- Changed Turn Marker to be easier to see and understand, now fits nicely next to round portraits (not so much square ones)
-
+Update to Beta_2.3.0_Beleaguered_Mudpile
+[*] Bumped loadorder to 1500 to make sure stuff from authors that set this agressively high like mad nomad is properly overridden.
+[*] Changed Turn Marker to be easier to see and understand, now fits nicely next to round portraits (not so much square ones)
+[*] Changed dicetower Chat Icon
+[*] Small Icon changes to better fit each others style (evolved over time to be more rounded an compact)
 
 Extension changes:
-- RFIA by Houndy - changed buttonhover graphic to not be larger than the normal frame.
+[*] RFIA by Houndy - changed buttonhover graphic to not be larger than the normal roll frame.
 
 
 Added Extension Support:
-- Clock Adjuster by Troy Monteith and bmos
+[*] Clock Adjuster by Troy Monteith and bmos (halted, waiting for update)
+[*] Mad Nomads Character Sheet Tweaks
+[*] Mad Nomads Character Sheet Effects Display
+[*] Mad Nomads Character Sheet Journal
+[*] 
 
 
 
