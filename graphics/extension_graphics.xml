@@ -46,6 +46,21 @@
 			<icon name="button_settings" file="graphics/extensions/zygmunt_molotch/combat_timer/button_settings.png" /> 
 			<icon name="button_settings2" file="graphics/extensions/zygmunt_molotch/combat_timer/button_settings2.png" /> 
 			<icon name="button_timerrunning" file="graphics/extensions/zygmunt_molotch/combat_timer/button_timerrunning.png" /> 
+		<!-- Font Adjustments -->
+			<windowclass name="ct_combat_timer_host" merge="join">
+				<sheetdata>
+					<simplestring name="timer">
+						<color>EBDDBA</color>
+					</simplestring>
+				</sheetdata>
+			</windowclass>
+			<windowclass name="ct_combat_timer_client">
+				<sheetdata>
+					<simplestring name="timer">
+						<color>EBDDBA</color>
+					</simplestring>
+				</sheetdata>
+			</windowclass>
 
 <!--Author: Silent Ruin-->
 	<!--Ext: Polymorphism-->
@@ -183,129 +198,129 @@
 
 <!--Author: pr6i6est (Troy Monteith) and bmos-->
 	<!--Ext: Clock Adjuster-->
-<!--
 <windowclass name="chattime" merge="join">
-	<frame>recordsheet</frame>
-		<size width="260" height="110" />
-		<noclose />
-		<sheetdata>
-			<label name="currenthour">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</label>
-			<label name="timesep">
-				<color>EBDDBA</color>
-			</label>
-			<label name="currentminute">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</label>
-			<label name="currentphase">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</label>
-			<label name="currentday">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</label>
-			<label name="currentmonth">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</label>
-			<label name="currentyear">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</label>
-			<basicnumber name="addhour" source="addhour">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</basicnumber>
-			<label name="timesep2">	
-				<color>EBDDBA</color>
-			</label>
-			<basicnumber name="addminute" source="addminute">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</basicnumber>
-			<basicnumber name="addday" source="addday">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</basicnumber>
-			<basicnumber name="addmonth" source="addmonth">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</basicnumber>
-			<basicnumber name="addyear" source="addyear">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</basicnumber>
-			<basicnumber name="shortrest">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</basicnumber>
-			<basicnumber name="longrest">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</basicnumber>
-			<stringu name="name">
-				<anchored height="20">
-					<top offset="2" />
-					<right parent="rightanchor" anchor="left" relation="relative" offset="-10" />
-					<left offset="10" />
-				</anchored>
-				<color>EBDDBA</color>
-				<tabtarget next="nonid_name" prev="count" />
-			</stringu>
+	<sheetdata>
+		<label name="currenthour">
+			<color>EBDDBA</color>
+		</label>
+		<label name="timesep">
+			<color>EBDDBA</color>
+		</label>
+		<label name="currentminute">
+			<color>EBDDBA</color>
+		</label>
+		<label name="currentphase">
+			<color>EBDDBA</color>
+		</label>
+		<label name="currentday">
+			<color>EBDDBA</color>
+		</label>
+		<label name="currentmonth">
+			<color>EBDDBA</color>
+		</label>
+		<label name="currentyear">
+			<color>EBDDBA</color>
+		</label>
+		<basicnumber name="addhour">
+			<color>EBDDBA</color>
+		</basicnumber>
+		<label name="timesep2">	
+			<color>EBDDBA</color>
+		</label>
+		<basicnumber name="addminute">
+			<color>EBDDBA</color>
+		</basicnumber>
+		<basicnumber name="addday">
+			<color>EBDDBA</color>
+		</basicnumber>
+		<basicnumber name="addmonth">
+			<color>EBDDBA</color>
+		</basicnumber>
+		<basicnumber name="addyear">
+			<color>EBDDBA</color>
+		</basicnumber>
+		<basicnumber name="shortrest">
+			<color>EBDDBA</color>
+		</basicnumber>
+		<basicnumber name="longrest">
+			<color>EBDDBA</color>
+		</basicnumber>
 	</sheetdata>					
 </windowclass>
 <windowclass name="travelmanager" merge="join">
 	<sheetdata>
-			<label name="traveledlabel">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>				
-			</label>
-			<label name="totallabel">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</label>
-			<label name="remaininglabel">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</label>
-			<label name="travelspeedlabel">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</label>
-			<label name="travelbylabel">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</label>
-			<buttoncontrol name="destinationmeasurement">
-				<color>EBDDBA</color>
-			</buttoncontrol>
-			<buttoncontrol name="unitofmeasurement">
-				<color>EBDDBA</color>
-			</buttoncontrol>
-			<buttoncontrol name="perlimit">+
-				<color>EBDDBA</color>
-			</buttoncontrol>
-			<buttoncontrol name="traveltime">
-				<color>EBDDBA</color>
-			</buttoncontrol>
-			<label name="travellabel">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</label>
-			<label name="encounterchance_label">
-				<font>calendarbold</font>
-				<color>EBDDBA</color>
-			</label>
-			<buttoncontrol name="repeattimebutton" source=".repeattime">
-				<color>EBDDBA</color>
-			</buttoncontrol>
+		<label name="traveledlabel">
+			<color>EBDDBA</color>				
+		</label>
+		<label name="totallabel">
+			<color>EBDDBA</color>
+		</label>
+		<label name="remaininglabel">
+			<color>EBDDBA</color>
+		</label>
+		<label name="travelspeedlabel">
+			<color>EBDDBA</color>
+		</label>
+		<label name="travelbylabel">
+			<color>EBDDBA</color>
+		</label>
+		<buttoncontrol name="destinationmeasurement">
+			<color>EBDDBA</color>
+		</buttoncontrol>
+		<buttoncontrol name="unitofmeasurement">
+			<color>EBDDBA</color>
+		</buttoncontrol>
+		<buttoncontrol name="perlimit">
+			<color>EBDDBA</color>
+		</buttoncontrol>
+		<buttoncontrol name="traveltime">
+			<color>EBDDBA</color>
+		</buttoncontrol>
+		<label name="travellabel">
+			<color>EBDDBA</color>
+		</label>
+		<label name="encounterchance_label">
+			<color>EBDDBA</color>
+		</label>
 	</sheetdata>
 </windowclass>
--->
+<windowclass name="list_timedevent" merge="join">
+	<sheetdata>
+		<stringu name="name">
+			<color>EBDDBA</color>
+		</stringu>
+	</sheetdata>
+</windowclass>
+<windowclass name="list_timedreminder" merge="join">
+	<sheetdata>
+		<buttoncontrol name="repeattimebutton">
+			<color>EBDDBA</color>
+		</buttoncontrol>
+		<stringu name="name">
+			<color>EBDDBA</color>
+		</stringu>
+	</sheetdata>
+</windowclass>
+<windowclass name="timedreminder" merge="join">
+	<sheetdata>
+		<buttoncontrol name="repeattimebutton">
+			<color>EBDDBA</color>
+		</buttoncontrol>
+	</sheetdata>
+</windowclass>
+
+
+<!--Author: GKEnialb-->
+	<!--Ext: Token Height Indicators-->
+	<font name="height_medium">
+		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="15" />
+		<color value="#DDDDDD" />
+	</font>
+	
+	<font name="height_large">
+		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="20" />
+		<color value="#DDDDDD" />
+	</font>
 
 <!--Author: xxx-->
 	<!--Ext: xxx-->
