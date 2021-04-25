@@ -307,8 +307,17 @@
 </windowclass>
 -->
 
-<!--Author: xxx-->
-	<!--Ext: xxx-->
+<!--Author: GKEnialb-->
+	<!--Ext: Token Height Indicators-->
+	<font name="height_medium">
+		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="15" />
+		<color value="#DDDDDD" />
+	</font>
+	
+	<font name="height_large">
+		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="20" />
+		<color value="#DDDDDD" />
+	</font>
 
 <!--Author: xxx-->
 	<!--Ext: xxx-->
