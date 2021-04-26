@@ -50,14 +50,14 @@
 			<windowclass name="ct_combat_timer_host" merge="join">
 				<sheetdata>
 					<simplestring name="timer">
-						<color>EBDDBA</color>
+						<color>DDDDDD</color>
 					</simplestring>
 				</sheetdata>
 			</windowclass>
 			<windowclass name="ct_combat_timer_client">
 				<sheetdata>
 					<simplestring name="timer">
-						<color>EBDDBA</color>
+						<color>DDDDDD</color>
 					</simplestring>
 				</sheetdata>
 			</windowclass>
