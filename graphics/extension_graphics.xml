@@ -169,7 +169,52 @@
  			<framedef name="fieldgreen">
   			<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fieldgreen.png" /> 
   				<offset>10,10,10,10</offset> 
-  			</framedef>			  
+  			</framedef>	
+	<!--Ext: Combat Stats-->		  		  
+		<!--Frames-->
+			<template name="number_ps_stat_lower">
+            <basicnumber>
+            <frame></frame>
+            <anchored to="portraitbase" width="50" height="20">
+                    <top offset="20" />
+                    <left parent="portraitbase" anchor="right" relation="relative" offset="5" />
+            </anchored>
+            <readonly />
+            <hideonvalue > 0 </hideonvalue>
+            <color>69B7FF</color>
+            <nodrag />
+            <nolinkwidget />
+            <script>
+                    function onValueChanged()
+                        node=getDatabaseNode();
+                        stat=getName();
+                        value=getValue();
+                        MNMStats.editStatFromPS(node,stat,value);
+                    end
+            </script>
+            </basicnumber>
+    </template>
+
+    <template name="string_ps_stat_lower">
+            <stringfield>
+            <anchored to="portraitbase" width="150" height="20">
+                    <top offset="20" />
+                    <left parent="portraitbase" anchor="right" relation="relative" offset="5" />
+            </anchored>
+            <color>69B7FF</color>
+            <readonly />
+            <nodrag />
+            <script>
+                    function onValueChanged()
+                        node=getDatabaseNode();
+                        stat=getName();
+                        value=getValue();
+                        MNMStats.editStatFromPS(node,stat,value);
+                    end
+            </script>
+            </stringfield>
+    </template>
+
 
 <!--Author: MeAndUnique-->
 	<!--Ext: Constitutional Amendments-->
@@ -192,8 +237,6 @@
 		<icon name="conditions_tab" file="graphics/extensions/troy_monteith/npc_random_treasure_drops/conditions_tab.png" />
 	<!--Ext: Automatic Record Links-->
 		<icon name="linktab" file="graphics/extensions/troy_monteith/automatic_record_links/links_tab.png" /> 
-
-
 
 
 <!--Author: pr6i6est (Troy Monteith) and bmos-->
