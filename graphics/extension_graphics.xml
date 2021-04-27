@@ -189,9 +189,9 @@
 
 <!--Author: pr6i6est (Troy Monteith)-->
 	<!--Ext: NPC Random Treasure Drops-->
-<icon name="conditions_tab" file="graphics/extensions/troy_monteith/npc_random_treasure_drops/conditions_tab.png" />
+		<icon name="conditions_tab" file="graphics/extensions/troy_monteith/npc_random_treasure_drops/conditions_tab.png" />
 	<!--Ext: Automatic Record Links-->
-<icon name="linktab" file="graphics/extensions/troy_monteith/automatic_record_links/links_tab.png" /> 
+		<icon name="linktab" file="graphics/extensions/troy_monteith/automatic_record_links/links_tab.png" /> 
 
 
 
