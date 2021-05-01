@@ -274,6 +274,7 @@
 	<icon name="button_zoomer" file="graphics/pngs/button_zoomer.png" />
 	<icon name="button_zoomer_down" file="graphics/pngs/button_zoomer_down.png" />
 	<!-- Character Sheet -->
+	<icon name="token_empty" file="graphics/pngs/token_empty.png" />
 	<icon name="char_encumbrance" file="graphics/pngs/char_encumbrance.png" />
 	<icon name="char_inv_carried_header" file="graphics/pngs/char_inv_carried_header.png" />
 	<icon name="button_char_inv_none" file="graphics/pngs/button_inv_none.png" />

@@ -452,4 +452,123 @@
 		<ttf file="graphics/fonts/Primordial.ttf" name="Primordial" size="30" />
 		<color value="#DDDDDD" />
 	</font>
+
+<!--Author: Mattekure-->
+	<!--Ext: Extended Language Fonts-->
+	<font name="AncientThorass">
+      <ttf file="graphics/fonts/AncientThorass.ttf" name="Ancient Thorass" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Angerthas">
+      <ttf file="graphics/fonts/Angerthas.ttf" name="Angerthas" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="AngerthasMoria">
+      <ttf file="graphics/fonts/AngerthasMoria.ttf" name="Angerthas Moria" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Aqua">
+      <ttf file="graphics/fonts/Aqua.ttf" name="DS_Aqua-1" size="30" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="BethLuisFearn">
+      <ttf file="graphics/fonts/Beth-Luis-Fearn.ttf" name="Beth-Luis-Fearn" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Cirnaja">
+      <ttf file="graphics/fonts/Cirnaja.ttf" name="Cirnaja Calligraphy" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="DeadSpace">
+      <ttf file="graphics/fonts/DeadSpace.ttf" name="DeadSpace" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Dethek">
+      <ttf file="graphics/fonts/Dethek.ttf" name="Dethek" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="DethekStone">
+      <ttf file="graphics/fonts/DethekStone.ttf" name="Dethek Stone" size="28" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Edhiron">
+      <ttf file="graphics/fonts/Edhiron.ttf" name="Edhiron Asdh�riel v. 1.2" size="30" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Espruar">
+      <ttf file="graphics/fonts/Espruar.ttf" name="Espruar" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Greek">
+      <ttf file="graphics/fonts/Greek.ttf" name="Greek Old Face" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Hetarosia">
+      <ttf file="graphics/fonts/Hetarosia.ttf" name="hetarosia" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="HyrrokkinRunic">
+      <ttf file="graphics/fonts/HyrrokkinRunic.ttf" name="Hyrrokkin Runic" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Khazuldum">
+      <ttf file="graphics/fonts/Khazuldum.ttf" name="DS_Kha'zuldum" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="KhuzdulErebor">
+      <ttf file="graphics/fonts/KhuzdulErebor.ttf" name="KhuzdulErebor" size="20" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Nasilnese">
+      <ttf file="graphics/fonts/Nasilnese.ttf" name="DS_Nasilnese" size="36" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="NorseCode">
+      <ttf file="graphics/fonts/NorseCode.ttf" name="Norse Code" size="30" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="OldeEspruar">
+      <ttf file="graphics/fonts/OldeEspruar.otf" name="Olde Espruar" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="ScrapbookChinese">
+      <ttf file="graphics/fonts/ScrapbookChinese.ttf" name="Scrapbook Chinese" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Sequoyah">
+      <ttf file="graphics/fonts/Sequoyah.ttf" name="Sequoyah" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Siddiqua">
+      <ttf file="graphics/fonts/Siddiqua.ttf" name="Siddiqua" size="28" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Sinenya">
+      <ttf file="graphics/fonts/Sinenya.ttf" name="DS_Sinenya" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Tengwar3">
+      <ttf file="graphics/fonts/Tengwar3.ttf" name="Tengwar 03" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+     <font name="Tengwar5">
+      <ttf file="graphics/fonts/Tengwar5.ttf" name="Tengwar 05" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="TengwarAnnatar">
+      <ttf file="graphics/fonts/TengwarAnnatar.ttf" name="Tengwar Annatar" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="TheNileSong">
+      <ttf file="graphics/fonts/TheNileSong.ttf" name="The Nile Song" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Thorass">
+      <ttf file="graphics/fonts/Thorass.ttf" name="Thorass" size="24" />
+      <color value="#DDDDDD" />
+    </font>
+    <font name="Valmaric">
+      <ttf file="graphics/fonts/Valmaric.ttf" name="Valmaric Eldamar" size="24" />
+      <color value="#DDDDDD" />
+    </font>
 </root>
