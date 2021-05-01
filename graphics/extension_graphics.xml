@@ -173,47 +173,47 @@
 	<!--Ext: Combat Stats-->		  		  
 		<!--Frames-->
 			<template name="number_ps_stat_lower">
-            <basicnumber>
-            <frame></frame>
-            <anchored to="portraitbase" width="50" height="20">
-                    <top offset="20" />
-                    <left parent="portraitbase" anchor="right" relation="relative" offset="5" />
-            </anchored>
-            <readonly />
-            <hideonvalue > 0 </hideonvalue>
-            <color>69B7FF</color>
-            <nodrag />
-            <nolinkwidget />
-            <script>
-                    function onValueChanged()
-                        node=getDatabaseNode();
-                        stat=getName();
-                        value=getValue();
-                        MNMStats.editStatFromPS(node,stat,value);
-                    end
-            </script>
-            </basicnumber>
-    </template>
+           		<basicnumber>
+           			<frame></frame>
+            		<anchored to="portraitbase" width="50" height="20">
+                    	<top offset="20" />
+                    	<left parent="portraitbase" anchor="right" relation="relative" offset="5" />
+            		</anchored>
+            		<readonly />
+            		<hideonvalue > 0 </hideonvalue>
+            		<color>69B7FF</color>
+            		<nodrag />
+            		<nolinkwidget />
+            			<script>
+                    	function onValueChanged()
+                        	node=getDatabaseNode();
+                       		stat=getName();
+                        	value=getValue();
+                        	MNMStats.editStatFromPS(node,stat,value);
+                    	end
+            			</script>
+            	</basicnumber>
+    		</template>
 
-    <template name="string_ps_stat_lower">
-            <stringfield>
-            <anchored to="portraitbase" width="150" height="20">
-                    <top offset="20" />
-                    <left parent="portraitbase" anchor="right" relation="relative" offset="5" />
-            </anchored>
-            <color>69B7FF</color>
-            <readonly />
-            <nodrag />
-            <script>
-                    function onValueChanged()
-                        node=getDatabaseNode();
-                        stat=getName();
-                        value=getValue();
-                        MNMStats.editStatFromPS(node,stat,value);
-                    end
-            </script>
-            </stringfield>
-    </template>
+    		<template name="string_ps_stat_lower">
+            		<stringfield>
+            		<anchored to="portraitbase" width="150" height="20">
+                    		<top offset="20" />
+                    		<left parent="portraitbase" anchor="right" relation="relative" offset="5" />
+            		</anchored>
+            		<color>69B7FF</color>
+            		<readonly />
+            		<nodrag />
+            		<script>
+                   		function onValueChanged()
+                       		node=getDatabaseNode();
+                        		stat=getName();
+                        		value=getValue();
+                        		MNMStats.editStatFromPS(node,stat,value);
+                    		end
+            		</script>
+            		</stringfield>
+    		</template>
 
 
 <!--Author: MeAndUnique-->
@@ -241,117 +241,21 @@
 
 <!--Author: pr6i6est (Troy Monteith) and bmos-->
 	<!--Ext: Clock Adjuster-->
-<windowclass name="chattime" merge="join">
-	<sheetdata>
-		<label name="currenthour">
-			<color>EBDDBA</color>
-		</label>
-		<label name="timesep">
-			<color>EBDDBA</color>
-		</label>
-		<label name="currentminute">
-			<color>EBDDBA</color>
-		</label>
-		<label name="currentphase">
-			<color>EBDDBA</color>
-		</label>
-		<label name="currentday">
-			<color>EBDDBA</color>
-		</label>
-		<label name="currentmonth">
-			<color>EBDDBA</color>
-		</label>
-		<label name="currentyear">
-			<color>EBDDBA</color>
-		</label>
-		<basicnumber name="addhour">
-			<color>EBDDBA</color>
-		</basicnumber>
-		<label name="timesep2">	
-			<color>EBDDBA</color>
-		</label>
-		<basicnumber name="addminute">
-			<color>EBDDBA</color>
-		</basicnumber>
-		<basicnumber name="addday">
-			<color>EBDDBA</color>
-		</basicnumber>
-		<basicnumber name="addmonth">
-			<color>EBDDBA</color>
-		</basicnumber>
-		<basicnumber name="addyear">
-			<color>EBDDBA</color>
-		</basicnumber>
-		<basicnumber name="shortrest">
-			<color>EBDDBA</color>
-		</basicnumber>
-		<basicnumber name="longrest">
-			<color>EBDDBA</color>
-		</basicnumber>
-	</sheetdata>					
-</windowclass>
-<windowclass name="travelmanager" merge="join">
-	<sheetdata>
-		<label name="traveledlabel">
-			<color>EBDDBA</color>				
-		</label>
-		<label name="totallabel">
-			<color>EBDDBA</color>
-		</label>
-		<label name="remaininglabel">
-			<color>EBDDBA</color>
-		</label>
-		<label name="travelspeedlabel">
-			<color>EBDDBA</color>
-		</label>
-		<label name="travelbylabel">
-			<color>EBDDBA</color>
-		</label>
-		<buttoncontrol name="destinationmeasurement">
-			<color>EBDDBA</color>
-		</buttoncontrol>
-		<buttoncontrol name="unitofmeasurement">
-			<color>EBDDBA</color>
-		</buttoncontrol>
-		<buttoncontrol name="perlimit">
-			<color>EBDDBA</color>
-		</buttoncontrol>
-		<buttoncontrol name="traveltime">
-			<color>EBDDBA</color>
-		</buttoncontrol>
-		<label name="travellabel">
-			<color>EBDDBA</color>
-		</label>
-		<label name="encounterchance_label">
-			<color>EBDDBA</color>
-		</label>
-	</sheetdata>
-</windowclass>
-<windowclass name="list_timedevent" merge="join">
-	<sheetdata>
-		<stringu name="name">
-			<color>EBDDBA</color>
-		</stringu>
-	</sheetdata>
-</windowclass>
-<windowclass name="list_timedreminder" merge="join">
-	<sheetdata>
-		<buttoncontrol name="repeattimebutton">
-			<color>EBDDBA</color>
-		</buttoncontrol>
-		<stringu name="name">
-			<color>EBDDBA</color>
-		</stringu>
-	</sheetdata>
-</windowclass>
-<windowclass name="timedreminder" merge="join">
-	<sheetdata>
-		<buttoncontrol name="repeattimebutton">
-			<color>EBDDBA</color>
-		</buttoncontrol>
-	</sheetdata>
-</windowclass>
-
+		<!--Icons-->
+  			<icon name="6AM_Dark" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_6am_dark_sunrise.png" /> 
+  			<icon name="6AM_Dark_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_6am_dark_sunrise_down.png" /> 
+  			<icon name="12PM_Dark" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_12pm_dark.png" /> 
+  			<icon name="12PM_Dark_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_12pm_dark_down.png" /> 
+  			<icon name="6PM_Dark" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_06pm_dark.png" /> 
+  			<icon name="6PM_Dark_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_06pm_dark_down.png" /> 
+  			<icon name="12AM_Dark" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_24_24_00_dark.png" /> 
+  			<icon name="12AM_Dark_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_24_24_00_dark_down.png" /> 
+  			<icon name="add_logentry" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_AddEntry_dark.png" /> 
+  			<icon name="add_logentry_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_AddEntry_dark_down.png" /> 
+  			<icon name="atob_button" file="graphics/extensions/troy_monteith/clock_adjuster/Button_Travel_02_dark.png" /> 
+  			<icon name="atob_button_down" file="graphics/extensions/troy_monteith/clock_adjuster/Button_Travel_02_dark_down.png" /> 
+  			<icon name="reminder_button" file="graphics/extensions/troy_monteith/clock_adjuster/reminder.png" /> 
+  			<icon name="reminder_button_down" file="graphics/extensions/troy_monteith/clock_adjuster/reminder_down.png" /> 
 
 <!--Author: GKEnialb-->
 	<!--Ext: Token Height Indicators-->
@@ -365,8 +269,19 @@
 		<color value="#DDDDDD" />
 	</font>
 
-<!--Author: xxx-->
-	<!--Ext: xxx-->
+<!--Author: Diablo Bob-->
+	<!--Ext: Portals Revamped-->
+		<!--Icons-->
+			<icon name="button_teleport_yes" file="graphics/extensions/diablobob/portals/button_teleport_yes.png" />
+			<icon name="button_teleport_yes_down" file="graphics/extensions/diablobob/portals/button_teleport_yes_down.png" />
+			<icon name="button_teleport_no" file="graphics/extensions/diablobob/portals/button_teleport_no.png" />
+			<icon name="button_teleport_no_down" file="graphics/extensions/diablobob/portals/button_teleport_no_down.png" />
+		<!--Frame-->
+			<framedef name="teleport_prompt">
+				<bitmap file="graphics/extensions/diablobob/portals/teleport_prompt.png" />
+				<offset>50,50,45,45</offset>
+				<insideoffset>0,5,12,14</insideoffset>
+			</framedef>
 
 <!--Author: xxx-->
 	<!--Ext: xxx-->
