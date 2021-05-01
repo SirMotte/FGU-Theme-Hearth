@@ -8,7 +8,7 @@ Next batch of supported extensions added and minor tweaks and fixes.
 [*] Increased Link Icons size
 [*] Changed some icons for chat dice
 [*] Darkened Character Sheet Tabs for better readability.
-[*] Fixed Dice Tower Frame - bounding box was huge, resulting in overlapping areas when placed near other windows or the hotkey bar.
+[*] Fixed Dice Tower Frame - bounding box was huge, resulting in overlapping areas when placed near other windows or the hotkey bar. (thanks to WeezelD on Discord for pointing this out.)
 [*]
 [/LIST]
 
@@ -18,8 +18,8 @@ Added Extension Support:
 [*] Mad Nomad's Party Combat Stats
 [*] Portals Revamped by DiabloBob
 [*] Clock Adjuster by pr6i6est (Troy Monteith) and bmos (Icons only)
-The much requested Clock Adjuster will receive an update soon to make it compatible with any theme.
-You can grab an already adjusted version by MeAndUnique in its Forums Thread!
+[B]The much requested Clock Adjuster will receive an update soon to make it compatible with any theme.
+You can grab an already adjusted version by MeAndUnique in its Forums Thread![/B]
 [/LIST]
 
 Supported Extension changes:
@@ -27,8 +27,3 @@ Supported Extension changes:
 [*] Fixed Combat timer font color (thanks to Saagael)
 [*] Clock Adjuster - Icons changed - Please read the extension information!
 [/LIST]
-
-Extension Information:
-
-The much requested Clock Adjuster will receive an update soon to make it compatible with any theme.
-You can grab an already adjusted version by MeAndUnique in its Forums Thread.
