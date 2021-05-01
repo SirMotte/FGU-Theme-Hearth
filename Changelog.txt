@@ -1,4 +1,28 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to vBeta_2.x.x_Sweaty_Hilt[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to vBeta_2.4.1_Sweaty_Hilts[/B][/COLOR][/SIZE]
+
+[B]Changelog:[/B]
+
+[LIST]
+[*] Changed Ranged Weapon Icon and Sword in Actions Tab
+[*] Changed dice Icons for Chat and Actions Tab
+[*] 
+[*] 
+[*] 
+[*] 
+[/LIST]
+
+
+
+
+
+Supported Extension changes:
+
+[LIST]
+[*] Clock Adjuster sunrise / 6am icon changed slightly to be clearer.
+[*] Changed Death Indicator Token Placeholder to be more grim and work better with Mad Nomads Character Sheet Tweaks. Thought the tiny eye sockets looked funny...they don't.
+
+
+
 
 
 
@@ -36,8 +60,3 @@ Supported Extension changes:
 
 [LIST]
 [*] Fixed Combat timer font color (thanks to Saagael)
-
-Extension Information:
-
-The much requested Clock Adjuster will receive an update soon to make it compatible with any theme.
-You can grab an already adjusted version by MeAndUnique in its Forums Thread.
