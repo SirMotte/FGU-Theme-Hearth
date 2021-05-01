@@ -1,13 +1,4 @@
-<<<<<<< Updated upstream
-Update to Beta_2.3.1_Fragrant_Undead
-
-Added Extension Support:
-[*] Token Height Indication v3.0 by GKEnialb (Courtesy of Saagael)
-[*] 
-
-Supported Extension changes:
-=======
-
+[SIZE=4][COLOR="#FF0000"][B]Update to vBeta_2.x.x_Sweaty_Hilt[/B][/COLOR][/SIZE]
 
 
 
@@ -44,7 +35,6 @@ You can grab an already adjusted version by MeAndUnique in its Forums Thread![/B
 Supported Extension changes:
 
 [LIST]
->>>>>>> Stashed changes
 [*] Fixed Combat timer font color (thanks to Saagael)
 
 Extension Information:
