@@ -214,7 +214,18 @@
             		</script>
             		</stringfield>
     		</template>
-
+	<!--Ext: Enhanced Encounter Window-->
+		<!--Buttons-->
+			<icon name="addcombat" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addcombat.png" /> 
+  			<icon name="addtomap" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addtomap.png" /> 
+  			<icon name="addparty" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addparty.png" /> 
+  			<icon name="awardxp" file="graphics/extensions/mad_nomad/enhanced_encounter_window/awardxp.png" /> 
+  			<icon name="addcombatdown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addcombatdown.png" /> 
+  			<icon name="addtomapdown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addtomapdown.png" /> 
+  			<icon name="addpartydown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addpartydown.png" /> 
+  			<icon name="awardxpdown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/awardxpdown.png" /> 
+  			<icon name="shareall" file="graphics/extensions/mad_nomad/enhanced_encounter_window/shareMNM.png" /> 
+  			<icon name="sharealldown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/shareMNMdown.png" /> 
 
 <!--Author: MeAndUnique-->
 	<!--Ext: Constitutional Amendments-->
@@ -283,7 +294,9 @@
 				<insideoffset>0,5,12,14</insideoffset>
 			</framedef>
 
-<!--Author: xxx-->
-	<!--Ext: xxx-->
+
+
+
+	
 
 </root>
