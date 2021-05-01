@@ -4,7 +4,18 @@
 
 [LIST]
 [*] Changed Ranged Weapon Icon and Sword in Actions Tab
-[*] Changed dice Icons for Chat and Actions Tab
+[*] Changed dice Icons for Chat and Actions Tab (again)
+[*] 
+[*] 
+[*] 
+[*] 
+[/LIST]
+
+[B]Added Extension Support:[/B]
+
+[LIST]
+[*]
+[*]
 [*] 
 [*] 
 [*] 
@@ -12,51 +23,8 @@
 [/LIST]
 
 
-
-
-
-Supported Extension changes:
+[B]Supported Extension changes:[/B]
 
 [LIST]
 [*] Clock Adjuster sunrise / 6am icon changed slightly to be clearer.
 [*] Changed Death Indicator Token Placeholder to be more grim and work better with Mad Nomads Character Sheet Tweaks. Thought the tiny eye sockets looked funny...they don't.
-
-
-
-
-
-
-[SIZE=4][COLOR="#FF0000"][B]Update to vBeta_2.4.0_Fragrant_Dungeon[/B][/COLOR][/SIZE]
-
-[B]Move to Github for Release Distribution and Dev-Branch availability.[/B]
-Next batch of supported extensions added and minor tweaks and fixes.
-
-
-[B]Changelog:[/B]
-
-[LIST]
-[*] Increased Link Icons size
-[*] Changed some icons for chat dice
-[*] Changed Effects Icons Contrasts
-[*] Darkened Character Sheet Tabs for better readability.
-[*] Fixed Dice Tower Frame - bounding box was huge, resulting in overlapping areas when placed near other windows or the hotkey bar. (thanks to WeezelD on Discord for pointing this out.)
-[*] Changed Pin color to be in Line with theme, hopefully this also helps with visibility.
-[/LIST]
-
-Added Extension Support:
-
-[LIST]
-[*] Token Height Indication by GKEnialb (Fix brought to you by Saagael <3)
-[*] Mad Nomad's Party Combat Stats
-[*] Mad Nomad's Enhanced Encounter Window
-[*] Portals Revamped by DiabloBob
-[*] Extended Language Fonts by Mattekure
-[*] Clock Adjuster by pr6i6est (Troy Monteith) and bmos (Icons only)
-[B]The much requested Clock Adjuster will receive an update soon to make it compatible with any theme.
-You can grab an already adjusted version by MeAndUnique in its Forums Thread![/B]
-[/LIST]
-
-Supported Extension changes:
-
-[LIST]
-[*] Fixed Combat timer font color (thanks to Saagael)
