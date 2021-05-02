@@ -345,6 +345,14 @@
 		<bitmap file="graphics/pngs/mini_name.png" />
 		<offset>7,7,7,7</offset>
 	</framedef>
+		<framedef name="separatorline">
+		<bitmap file="graphics/pngs/textline.png" />
+		<middle rect="1,14,98,3" />
+	</framedef>
+	<framedef name="border">
+		<bitmap file="graphics/pngs/border.png" />
+		<offset>1,1,1,1</offset>
+	</framedef>
 	
 <!-- Modifier Stack -->
 	<framedef name="modstackfocus">
