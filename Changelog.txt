@@ -3,7 +3,7 @@
 [B]Changelog:[/B]
 
 [LIST]
-[*] Changed Ranged Weapon Icon and Sword in Actions Tab
+[*] Changed Ranged Weapon and Melee Icon in Actions Tab
 [*] Changed dice Icons for Chat and Actions Tab (again)
 [*] 
 [*] 
@@ -14,7 +14,7 @@
 [B]Added Extension Support:[/B]
 
 [LIST]
-[*]
+[*] Local Dice Tower by Thomas Delaplain (Minty23185Fresh
 [*]
 [*] 
 [*] 

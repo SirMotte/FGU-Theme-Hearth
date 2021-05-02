@@ -247,7 +247,7 @@
 	<font name="tableheader">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#EBDDBA" />
 	</font>
 	<font name="tabledata">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
@@ -296,7 +296,7 @@
 	<font name="sheetlabelinline">
 		<fgffile name="graphics/fonts/regular-8.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
-		<color value="#DDDDDD" />
+		<color value="#878787" />
 	</font>
 	<font name="sheetlabelmini">
 		<fgffile name="graphics/fonts/regular-8.fgf" />

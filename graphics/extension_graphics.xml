@@ -297,8 +297,8 @@
 <!--Author: Thomas Delaplain (Minty23185Fresh)-->
 	<!--Ext: Local Dice Tower-->
  		<!--Icons--> 
-  			<icon name="dicetower_icon_CoreRPG" file="graphics/pngs/dicetower_icon_CoreRPG.png" /> 
-  			<icon name="dicetower_icon_5E" file="LDT/graphics/pngs/dicetower_icon_5E.png" /> 
+  			<icon name="dicetower_icon_CoreRPG" file="graphics\extensions\thomas_delaplain\local_dice_tower\dicetower_icon_CoreRPG.png" /> 
+  			<icon name="dicetower_icon_5E" file="graphics\extensions\thomas_delaplain\local_dice_tower\dicetower_icon_5E.png" /> 
 
 
 	
