@@ -227,7 +227,19 @@
 	<icon name="button_details" file="graphics/pngs/button_details.png" />
 	<icon name="button_details_down" file="graphics/pngs/button_details_down.png" />
 
-	
+		<!-- Buttons -->
+	<icon name="button_toggle_visible" file="graphics/pngs/button_toggle_visible.png" />
+	<icon name="button_toggle_gm" file="graphics/pngs/button_toggle_gm.png" />
+	<icon name="button_toggle_on" file="graphics/pngs/button_toggle_on.png" />
+	<icon name="button_toggle_off" file="graphics/pngs/button_toggle_off.png" />
+	<icon name="button_toggle_skip" file="graphics/pngs/button_toggle_skip.png" />
+	<icon name="button_toggle_all" file="graphics/pngs/button_toggle_all.png" />
+	<icon name="button_toggle_action" file="graphics/pngs/button_toggle_action.png" />
+	<icon name="button_toggle_roll" file="graphics/pngs/button_toggle_roll.png" />
+	<icon name="button_toggle_single" file="graphics/pngs/button_toggle_single.png" />
+	<icon name="button_toggle_trgt" file="graphics/pngs/button_toggle_trgt.png" />
+	<icon name="button_toggle_self" file="graphics/pngs/button_toggle_self.png" />
+
 	<!-- Master index -->
 	<icon name="button_page_start" file="graphics/pngs/arrow_sm_first.png" />
 	<icon name="button_page_prev" file="graphics/pngs/arrow_sm_left.png" />
@@ -244,6 +256,7 @@
 	<icon name="action_damage" file="graphics/pngs/action_damage.png" />
 	<icon name="action_heal" file="graphics/pngs/action_heal.png" />
 	<icon name="action_effect" file="graphics/pngs/action_effect.png" />
+	<icon name="action_option" file="graphics/pngs/action_option.png" />
 	<!-- Library / Modules -->
 	<icon name="module_loaded" file="graphics/pngs/module_loaded.png" />
 	<icon name="module_unloaded" file="graphics/pngs/module_unloaded.png" />
