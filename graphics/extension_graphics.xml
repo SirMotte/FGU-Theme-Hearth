@@ -294,7 +294,11 @@
 				<insideoffset>0,5,12,14</insideoffset>
 			</framedef>
 
-
+<!--Author: Thomas Delaplain (Minty23185Fresh)-->
+	<!--Ext: Local Dice Tower-->
+ 		<!--Icons--> 
+  			<icon name="dicetower_icon_CoreRPG" file="graphics/pngs/dicetower_icon_CoreRPG.png" /> 
+  			<icon name="dicetower_icon_5E" file="LDT/graphics/pngs/dicetower_icon_5E.png" /> 
 
 
 	
