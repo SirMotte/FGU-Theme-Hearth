@@ -71,8 +71,8 @@
 			<icon name="mapparcel_icon" file="graphics/extensions/silent_ruin/map_parcel/mapparcel_icon.png" />
 	<!--Ext: Combat Groups-->
 		<!--Icons-->
-		<icon name="combatgroups_icon" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon.png" /> 
-		<icon name="combatgroups_icon_down" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon_down.png" /> 
+			<icon name="combatgroups_icon" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon.png" /> 
+			<icon name="combatgroups_icon_down" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon_down.png" /> 
 	<!--Ext: Generic Actions-->
 		<!--Icon-->
 			<icon name="generic_actions_icon" file="graphics/extensions/silent_ruin/generic_actions/generic_actions_icon.png" /> 
@@ -297,8 +297,8 @@
 <!--Author: Thomas Delaplain (Minty23185Fresh)-->
 	<!--Ext: Local Dice Tower-->
  		<!--Icons--> 
-  			<icon name="dicetower_icon_CoreRPG" file="graphics\extensions\thomas_delaplain\local_dice_tower\dicetower_icon_CoreRPG.png" /> 
-  			<icon name="dicetower_icon_5E" file="graphics\extensions\thomas_delaplain\local_dice_tower\dicetower_icon_5E.png" /> 
+  			<icon name="dicetower_icon_CoreRPG" file="graphics/extensions/thomas_delaplain/local_dice_tower/dicetower_icon_CoreRPG.png" /> 
+  			<icon name="dicetower_icon_5E" file="graphics/extensions/thomas_delaplain/local_dice_tower/dicetower_icon_5E.png" /> 
 
 
 	
