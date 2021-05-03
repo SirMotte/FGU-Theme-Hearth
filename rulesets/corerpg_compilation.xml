@@ -41,14 +41,14 @@
 	<template name="imagedata_record_step">
 		<imagedatacontrol>
 			<invisible />
-			<color>69B7FF</color>
+			<color>DDDDDD</color>
 			<backcolor>232323</backcolor>
 		</imagedatacontrol>
 	</template>
 	<template name="imagepaneldata_record_step">
 		<imagedatacontrol>
 			<invisible />
-			<color>69B7FF</color>
+			<color>DDDDDD</color>
 			<backcolor>232323</backcolor>
 		</imagedatacontrol>
 	</template>
