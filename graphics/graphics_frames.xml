@@ -323,6 +323,28 @@
 		<bitmap file="graphics/pngs/imagebox_header.png" />
 		<offset>0,0,0,0</offset>
 	</framedef>
+	<framedef name="imagepanel">
+		<bitmap file="graphics/pngs/imagepanel.png" />
+		<offset>16,16,16,16</offset>
+	</framedef>
+
+	<framedef name="toolbar_30">
+		<bitmap file="graphics/pngs/toolbar_30.png"/>
+		<topleft rect="0,0,4,3" />
+		<top rect="4,0,32,3" />
+		<topright rect="62,0,4,3" />
+		<left rect="0,3,4,28" />
+		<middle rect="4,3,32,28" />
+		<right rect="62,3,4,28" />
+		<bottomleft rect="0,31,4,3" />
+		<bottom rect="4,31,32,3" />
+		<bottomright rect="62,31,4,3" />
+	</framedef>
+	
+	<framedef name="toolbar_back">
+		<bitmap file="graphics/pngs/toolbar_back.png"/>
+		<middle rect="0,0,128,128" />
+	</framedef>
 
 <!-- Lists -->
 	<framedef name="rowshade">
@@ -574,6 +596,18 @@
 		<left rect="0,73,18,335" />
 		<bottomleft rect="0,408,18,86" />
 	</framedef>
+	
+	
+	<!--
+	<template name="imagedata_record_step">
+		<imagdatacontrol>
+			<invisible/>
+			<color>DDDDDD</color>
+			<backcolor>232323</backcolor>
+		</imagdatacontrol>
+	</template>
+-->
+
 
 	<!-- Assets -->
 	<framedef name="tokenbagasset">
