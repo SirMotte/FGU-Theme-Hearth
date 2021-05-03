@@ -83,6 +83,7 @@
 		<includefile source="graphics/graphics_frames.xml" />
 		<includefile source="graphics/graphics_icons.xml" />
 		<includefile source="graphics/graphics_tabs.xml" />
+		<includefile source="graphics/graphics_radial.xml" />
 
 		<!-- Ruleset Graphics -->
 		<includefile source="graphics/rulesets/icrpg/graphics_icrpg.xml" />

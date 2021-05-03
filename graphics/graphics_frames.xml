@@ -597,18 +597,6 @@
 		<bottomleft rect="0,408,18,86" />
 	</framedef>
 	
-	
-	<!--
-	<template name="imagedata_record_step">
-		<imagdatacontrol>
-			<invisible/>
-			<color>DDDDDD</color>
-			<backcolor>232323</backcolor>
-		</imagdatacontrol>
-	</template>
--->
-
-
 	<!-- Assets -->
 	<framedef name="tokenbagasset">
 		<bitmap file="graphics/pngs/fielddark.png" />

@@ -45,6 +45,13 @@
 			<backcolor>232323</backcolor>
 		</imagedatacontrol>
 	</template>
+	<template name="imagepaneldata_record_step">
+		<imagedatacontrol>
+			<invisible />
+			<color>69B7FF</color>
+			<backcolor>232323</backcolor>
+		</imagedatacontrol>
+	</template>
 	<template name="string_record_name">
 		<basicstring>
 			<anchored>
