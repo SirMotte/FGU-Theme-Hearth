@@ -27,5 +27,6 @@
 [LIST]
 [*] Clock Adjuster sunrise / 6am icon changed slightly to be clearer.
 [*] Changed Death Indicator Token Placeholder to be more grim and work better with Mad Nomads Character Sheet Tweaks.
+[*] Added missing Font Definition for empty token bag of Death Indicator
 [*] Changed Map Parcel and Polymorphism Token Placeholder to be in line with overall Theme
-[*]
+[*] 
