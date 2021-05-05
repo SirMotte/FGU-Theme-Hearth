@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+<windowclass name="npc_combat" merge="join">
+		<sheetdata>
+
+			<!-- Add the death important npc label -->
+
+			<stringcontrol name="npc_importantdeath_label">
+				<anchored to="actext" position="right" offset="-85,0" width="70" />
+				<font>sheetlabelmini</font>
+				<nodrag />
+				<static textres="str_importantdeath_npc" />
+			</stringcontrol>
+
+			<!-- Add the death important npc checks -->
+
+			<buttongroup_counter name="npc_importantdeath_check">
+				<anchored to="npc_importantdeath_label" position="righthigh" offset="3,0" />
+				<values>
+					<maximum>1</maximum>
+				</values>
+				<sourcefields>
+					<current>important_npc</current>
+				</sourcefields>
+			</buttongroup_counter>
+
+			<!-- Add the death indicator token control -->
+
+			<token_death_indicator name="death_indicator_token">
+				<anchored to="npc_importantdeath_label" position="belowleft" offset="-40,0" width="45" height="45" />
+			</token_death_indicator>
+		
+			<!-- Add the death save label -->
+
+			<stringcontrol name="npc_deathsave_label">
+				<anchored to="npc_importantdeath_label" position="belowleft" offset="10,3" width="65" />
+				<font>sheetlabelmini</font>
+				<nodrag />
+				<static textres="char_label_deathsave" />
+				<center />
+			</stringcontrol>
+
+			<!-- Add the death save roll control -->
+
+			<button_roll name="npc_deathsave_roll">
+				<anchored to="npc_deathsave_label" position="belowleft" offset="0,3" />
+				<script>					
+					function action(draginfo)
+						local rActor = ActorManager.resolveActor(window.getDatabaseNode());
+						ActionSave.performDeathRoll(draginfo, rActor);
+						return true;
+					end
+
+					function onDragStart(button, x, y, draginfo)
+						return action(draginfo);
+					end
+
+					function onButtonPress()
+						return action();
+					end
+				</script>
+			</button_roll>
+
+			<!-- Add the death save success button group -->
+
+			<buttongroup_counter name="npc_deathsavesuccess">
+				<anchored to="npc_deathsave_label" position="belowleft" offset="35,2" />
+				<allowsinglespacing />
+				<sourcefields>
+					<current>deathsavesuccess</current>
+				</sourcefields>
+				<values>
+					<maximum>3</maximum>
+				</values>
+			</buttongroup_counter>
+
+			<!-- Add the death save success label -->
+
+			<stringcontrol name="npc_deathsavesuccess_label">
+				<anchored to="npc_deathsavesuccess" position="lefthigh" offset="4,-2" />
+				<font>sheetlabelmini</font>
+				<nodrag />
+				<static textres="char_label_deathsave_succ" />
+			</stringcontrol>
+
+			<!-- Add the death save fail button group -->
+
+			<buttongroup_counter name="npc_deathsavefail">
+				<anchored to="npc_deathsavesuccess" position="belowright" offset="0,2" />
+				<allowsinglespacing />
+				<sourcefields>
+					<current>deathsavefail</current>
+				</sourcefields>
+				<values>
+					<maximum>3</maximum>
+				</values>
+			</buttongroup_counter>
+
+			<!-- Add the death save fail label -->
+
+			<stringcontrol name="npc_deathsavefail_label">
+				<anchored to="npc_deathsavefail" position="lefthigh" offset="5,-2" />
+				<font>sheetlabelmini</font>
+				<nodrag />
+				<static textres="char_label_deathsave_fail" />
+			</stringcontrol>
+			
+		</sheetdata>
+	</windowclass>
+</root>

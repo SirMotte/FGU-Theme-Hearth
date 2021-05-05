@@ -91,7 +91,13 @@
 		<!--Define the link / shield icons for important NPCs in the combat tracker--> 
   			<icon name="button_shield" file="graphics/extensions/silent_ruin/death_indicator/button_shield.png" /> 
   			<icon name="button_shield_down" file="graphics/extensions/silent_ruin/death_indicator/button_shield_down.png" /> 
-  			<icon name="button_shield_empty" file="graphics/extensions/silent_ruin/death_indicator/button_shield_empty.png" /> 
+  			<icon name="button_shield_empty" file="graphics/extensions/silent_ruin/death_indicator/button_shield_empty.png" />
+		<!--Font--> 
+			<font name="tokenbag_empty_font">
+				<fgffile name="graphics/fonts/italic-10.fgf" />
+				<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="15" />
+				<color value="#DDDDDD" />
+			</font>
 		<!--Define the icons for the blood splat images
   			<icon name="blood_01" file="graphics/extensions/silent_ruin/death_indicator/blood_01.png" /> 
   			<icon name="blood_02" file="graphics/extensions/silent_ruin/death_indicator/blood_02.png" /> 
