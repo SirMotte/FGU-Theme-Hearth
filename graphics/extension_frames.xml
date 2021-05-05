@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-<windowclass name="npc_combat" merge="join">
+	
+	<!-- Add the 5E death save controls to the npc_combat window -->
+
+	<windowclass name="npc_combat" merge="join">
 		<sheetdata>
 
 			<!-- Add the death important npc label -->
@@ -108,4 +111,49 @@
 			
 		</sheetdata>
 	</windowclass>
+	
+	
+	<!-- Replace the NPC header window -->
+	
+	<windowclass name="npc_header" merge="merge">
+		<margins control="0,0,0,2" />
+		<script file="campaign/scripts/npc_header.lua" />
+		<sheetdata>
+		
+			<!-- Delete the token field control -->
+
+			<tokenfield name="token" merge="delete"/>
+			
+			<!-- Add a non-bound token control -->
+
+			<tokencontrol name="token" insertbefore="isidentified">
+				<anchored to="rightanchor" width="25" height="25">
+					<top offset="-2" />
+					<right parent="rightanchor" anchor="left" relation="relative" offset="-3" />
+				</anchored>
+				<empty>token_empty</empty>
+				<script>
+					function onInit()
+						if Session.IsHost then
+							registerMenuItem(Interface.getString("menu_reset_token"), "delete", 6);
+						end
+					end
+					
+					function onMenuSelection(selection, subselection)
+						window.onTokenMenuSelection(selection, subselection);
+					end
+					
+					function onDrop(x, y, dragInfo)
+						window.onDrop(x, y, dragInfo);
+					end
+					
+					function onDoubleClick(x, y)
+						CombatManager.openMap(window.getDatabaseNode());
+					end
+				</script>
+			</tokencontrol>
+			
+		</sheetdata>
+	</windowclass>
+	
 </root>
