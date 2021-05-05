@@ -595,11 +595,12 @@
 		<topleft rect="0,0,18,73" />
 		<left rect="0,73,18,335" />
 		<bottomleft rect="0,408,18,86" />
-	</framedef>
-	
+	</framedef>	
 	<!-- Assets -->
 	<framedef name="tokenbagasset">
 		<bitmap file="graphics/pngs/fielddark.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
+	<!--Death Indicator-->
+
 </root>

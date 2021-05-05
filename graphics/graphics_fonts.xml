@@ -304,6 +304,7 @@
 		<color value="#DDDDDD" />
 	</font>
 	
+	
 	<!-- Reference -->
 	<font name="reference-header">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
@@ -571,4 +572,6 @@
       <ttf file="graphics/fonts/Valmaric.ttf" name="Valmaric Eldamar" size="24" />
       <color value="#DDDDDD" />
     </font>
+
+	
 </root>
