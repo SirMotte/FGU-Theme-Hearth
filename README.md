@@ -1,7 +1,7 @@
 # FGU-Theme-Hearth
 Fantasy Grounds Unity Theme
 
-Download it here:
+Download:
 https://github.com/SirMotte/FGU-Theme-Hearth/releases
 
 Fantasy Grounds Forums Page:
