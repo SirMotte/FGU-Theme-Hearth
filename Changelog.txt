@@ -10,6 +10,7 @@
 [*] Adjusted CT Toggle Buttons to be in Line with the theme.
 [*] Remade image header Icons
 [*] remade context menu and icons (rightklick)
+[*] Changed Target icon to be better to understand
 [/LIST]
 
 [B]Added Extension Support:[/B]
