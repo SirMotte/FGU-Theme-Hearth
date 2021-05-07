@@ -601,6 +601,4 @@
 		<bitmap file="graphics/pngs/fielddark.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
-	<!--Death Indicator-->
-
 </root>

@@ -2,12 +2,12 @@
 <!--Special Thanks to MeAndUnique and Saagael for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: SirMotte's Magnificent Darkness\rVersion Beta 2.5.0 - Sweaty Hilts\rHearth Edition" font="emotefont" icon="footface"/>
+	<announcement text="Theme Loaded: SirMotte's Magnificent Darkness\rVersion Beta 2.5 - Sweaty Hilts\rHearth Edition" font="emotefont" icon="footface"/>
 	
 	<properties>
 		<name>Theme: Hearth</name>
 		<author>Sir Motte</author>
-		<version>2.5.0</version> 
+		<version>2.5</version> 
 		<description>Dark, warm and reduced user interface for FGU and DnD 5E</description>	
 		<loadorder>1500</loadorder>
 		<!--While many rulesets should work for the most part, only 5E is currently supported-->
