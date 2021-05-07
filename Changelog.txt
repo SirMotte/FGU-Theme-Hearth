@@ -1,14 +1,15 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to vBeta_2.4.1_Sweaty_Hilts[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to vBeta_2.5_Sweaty_Hilts[/B][/COLOR][/SIZE]
 
 [B]Changelog:[/B]
 
 [LIST]
+[*] Dropped third digit in versioning, as I won't need it and to make it Mad Nomads Third Party Updater conform.
 [*] Minor changes to icons
 [*] Changed Ranged Weapon and Melee Icon in Actions Tab
 [*] Changed dice Icons for Chat and Actions Tab (again)
 [*] Adjusted CT Toggle Buttons to be in Line with the theme.
-[*] 
-[*] 
+[*] Remade image header Icons
+[*] remade context menu and icons (rightklick)
 [/LIST]
 
 [B]Added Extension Support:[/B]
@@ -29,4 +30,4 @@
 [*] Changed Death Indicator Token Placeholder to be more grim and work better with Mad Nomads Character Sheet Tweaks.
 [*] Added missing Font Definition for empty token bag of Death Indicator
 [*] Changed Map Parcel and Polymorphism Token Placeholder to be in line with overall Theme
-[*] 
+[*] Removed Combat Timer support, as the extension itself does not work anymore and my chages generate warnings in the console.

@@ -36,17 +36,17 @@
 
 <!--Author: Zygmunt Molotch-->
 	<!--Ext: Combat Timer-->
-		<!--Frame-->
+		<!--Frame
 			<framedef name="timer_background">
   				<bitmap file="graphics/extensions/zygmunt_molotch/combat_timer/TimerFrame.png" /> 
   				<middle rect="0,0,100,25" /> 
-			</framedef>
-		<!--Icons-->  
+			</framedef>-->
+		<!--Icons 
 			<icon name="button_timerstart" file="graphics/extensions/zygmunt_molotch/combat_timer/button_timerstart2.png" /> 
 			<icon name="button_settings" file="graphics/extensions/zygmunt_molotch/combat_timer/button_settings.png" /> 
 			<icon name="button_settings2" file="graphics/extensions/zygmunt_molotch/combat_timer/button_settings2.png" /> 
-			<icon name="button_timerrunning" file="graphics/extensions/zygmunt_molotch/combat_timer/button_timerrunning.png" /> 
-		<!-- Font Adjustments -->
+			<icon name="button_timerrunning" file="graphics/extensions/zygmunt_molotch/combat_timer/button_timerrunning.png" /> --> 
+		<!-- Font Adjustments 
 			<windowclass name="ct_combat_timer_host" merge="join">
 				<sheetdata>
 					<simplestring name="timer">
@@ -60,8 +60,8 @@
 						<color>DDDDDD</color>
 					</simplestring>
 				</sheetdata>
-			</windowclass>
-
+			</windowclass> 
+-->
 <!--Author: Silent Ruin-->
 	<!--Ext: Polymorphism-->
 		<!--Icon--> 
