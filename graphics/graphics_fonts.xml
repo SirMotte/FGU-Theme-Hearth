@@ -176,17 +176,17 @@
 	</font>
 	<font name="reference-b">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
-		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="16" />
 		<color value="#DDDDDD" />
 	</font>
 	<font name="reference-bi">
 		<fgffile name="graphics/fonts/bolditalic-10.fgf" />
-		<ttf file="graphics/fonts/Roboto-BoldItalic.ttf" name="Roboto Bold Italic" size="16" />
+		<ttf file="graphics/fonts/Roboto-BlackItalic.ttf" name="Roboto Black Italic" size="16" />
 		<color value="#DDDDDD" />
 	</font>
 	<font name="reference-b-large">
 		<fgffile name="graphics/fonts/bold-11.fgf" />
-		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="18" />
 		<color value="#DDDDDD" />
 	</font>
 	
