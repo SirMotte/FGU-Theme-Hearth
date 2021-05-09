@@ -67,4 +67,16 @@
 			end
 		</script>
 	</windowclass>
+	<windowclass name="client_ct_entry" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if hptemp then
+					hptemp.setColor("69B7FF");
+				end
+			end
+		</script>
+	</windowclass>
 </root>
