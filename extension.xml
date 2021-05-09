@@ -76,6 +76,7 @@
 		</ruleset>
 	</properties>
 	<base>
+	
 		<!--Graphics definitions-->
 		<icon name="footface" file="SirMotte_footface.png" />
 		<includefile source="graphics/graphics_buttons.xml" />
