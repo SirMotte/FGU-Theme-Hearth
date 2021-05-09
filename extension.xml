@@ -100,6 +100,6 @@
 
 		<!--Extension Graphics definitions-->
 		<includefile source="graphics/extension_graphics.xml" />
-		<includefile source="graphics/extension_frames.xml" />
+		<!--<includefile source="graphics/extension_frames.xml" />-->
 	</base>
 </root>
