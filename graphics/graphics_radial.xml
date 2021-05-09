@@ -15,7 +15,8 @@
 	<icon name="insert" file="graphics/pngs/icon_insert.png" />
 	<icon name="edit" file="graphics/pngs/icon_edit_on.png" />
 	<icon name="stopedit" file="graphics/pngs/icon_edit_off.png" />
-	<icon name="delete" file="graphics/pngs/icon_delete.png" />
+	<icon name="delete" file="graphics/pngs/icon_category_delete.png" /> 
+	<!--<icon name="delete" file="graphics/pngs/icon_delete.png" /> -->
 	<icon name="erase" file="graphics/pngs/icon_erase.png" />
 	<icon name="unshare" file="graphics/pngs/icon_unshare.png" />
 	<icon name="portrait" file="graphics/pngs/icon_portrait.png" />
