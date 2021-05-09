@@ -4,20 +4,19 @@
 
 [LIST]
 [*] Dropped third digit in versioning, as I won't need it and to make it Mad Nomads Third Party Updater conform.
-[*] Changes to icons here and there, some replaced.
+[*] Changes to icons here and there, some replaced for a more coherent look and feel.
 [*] Changed Ranged Weapon and Melee Icon in Actions Tab
 [*] Adjusted Downstate colors for some buttons.
-[*] Adjusted CT Toggle Buttons to be in Line with the theme.
 [*] Remade image frame header Icons
 [*] Remade context menu and its icons (rightklick)
-[*] Changed Target icon to be better to understand
+
 [/LIST]
 
 [B]Added Extension Support:[/B]
 
 [LIST]
 [*] Local Dice Tower by Thomas Delaplain (Minty23185Fresh)
-[*]
+[*] 5E - Coin Converter by Mattekure
 [*] 
 [*] 
 [*] 
