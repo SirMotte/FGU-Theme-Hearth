@@ -38,7 +38,7 @@
 			<disabled />
 		</genericcontrol>
 	</template>
-	<template name="imagedata_record_step">
+	<!--<template name="imagedata_record_step">
 		<imagedatacontrol>
 			<invisible />
 			<color>EBDDBA</color>
@@ -51,7 +51,7 @@
 			<color>EBDDBA</color>
 			<backcolor>232323</backcolor>
 		</imagedatacontrol>
-	</template>
+	</template>-->
 	<template name="string_record_name">
 		<basicstring>
 			<anchored>
