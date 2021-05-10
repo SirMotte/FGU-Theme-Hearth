@@ -1,22 +1,22 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to vBeta_2.5_Sweaty_Hilts[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to vBeta_2.52_Sweaty_Hilts + Patch[/B][/COLOR][/SIZE]
 
 [B]Changelog:[/B]
 
 [LIST]
-[*] Dropped third digit in versioning, as I won't need it and to make it Mad Nomads Third Party Updater conform.
-[*] Changes to icons here and there, some replaced for a more coherent look and feel.
-[*] Changed Ranged Weapon and Melee Icon in Actions Tab
-[*] Adjusted Downstate colors for some buttons.
-[*] Remade image frame header Icons
-[*] Remade context menu and its icons (rightklick)
+[*] More reworked radial menu icons added
+[*] 
+[*] 
+[*] 
+[*] 
+[*] 
 
 [/LIST]
 
 [B]Added Extension Support:[/B]
 
 [LIST]
-[*] Local Dice Tower by Thomas Delaplain (Minty23185Fresh)
-[*] 5E - Coin Converter by Mattekure
+[*] Sign Language Fonts by Mattekure
+[*] Mad Nomad's 3rd Party Updater (both the extension itself is now supported with my custom buttons and updates are available through it too)
 [*] 
 [*] 
 [*] 
@@ -26,7 +26,7 @@
 [B]Supported Extension changes:[/B]
 
 [LIST]
-[*] Clock Adjuster sunrise and midnight icon changed slightly to be clearer.
-[*] Added missing Font Definition for empty token bag of Death Indicator
-[*] Changed Map Parcel and Polymorphism Token Placeholder to be in line with overall Theme
-[*] Removed Combat Timer support, as the extension itself does not work anymore and my chages generate warnings in the console. (will come back if someone steps up and fixes it)
+[*] 
+[*] 
+[*] 
+[*] 
