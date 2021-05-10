@@ -572,6 +572,19 @@
       <ttf file="graphics/fonts/Valmaric.ttf" name="Valmaric Eldamar" size="24" />
       <color value="#DDDDDD" />
     </font>
-
+<!--Author: Mattekure-->	
+	<!--Ext: Sign Language Fonts-->
+		<font name="Gallaudet">
+			<ttf file="graphics/fonts/GALLAUDET.ttf" name="Gallaudet" size="48" />
+			<color value="#DDDDDD" />
+		</font>
+		<font name="Handtalk">
+			<ttf file="graphics/fonts/handtalk.ttf" name="Handtalk" size="36" />
+			<color value="#DDDDDD" />
+		</font>
+		<font name="HandSign">
+			<ttf file="graphics/fonts/HANDSIGN.TTF" name="HandSign" size="36" />
+			<color value="#DDDDDD" />
+		</font>
 	
 </root>
