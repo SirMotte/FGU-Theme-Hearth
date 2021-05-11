@@ -5,8 +5,8 @@
 [LIST]
 [*] More reworked radial menu icons added
 [*] Added brighter 1px rim to frames for better visibility if stacked on top of each other
-[*] 
-[*] 
+[*] Adjusted Image Window Icons
+[*] Adjusted some CT Icons
 [*] 
 [*] 
 
