@@ -544,7 +544,7 @@
 			</label>
 		</sheetdata>
 	</windowclass>
-
+	
 	<!-- Source: Campaign/record_image.xml -->
 	<!-- Modify the radial menu to add a distinction between the share group and shared icon -->
 	<!-- This whole thing is super cludgy, since I can't find any place in CoreRPG that defines menu option 7,5 on images, which is the unshare options -->
