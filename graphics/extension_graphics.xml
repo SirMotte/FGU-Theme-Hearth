@@ -309,26 +309,32 @@
 <!--Author: mattekure-->
 	<!--Ext: 5E - Coin Converter-->
  		<!--Buttons--> 
-			<icon name="button_p2g" file="graphics\extensions\mattekure\5e_coin_converter\button_p2g.png" />
-			<icon name="button_p2e" file="graphics\extensions\mattekure\5e_coin_converter\button_p2e.png" />
-			<icon name="button_p2s" file="graphics\extensions\mattekure\5e_coin_converter\button_p2s.png" />
-			<icon name="button_p2c" file="graphics\extensions\mattekure\5e_coin_converter\button_p2c.png" />
-			<icon name="button_g2p" file="graphics\extensions\mattekure\5e_coin_converter\button_g2p.png" />
-			<icon name="button_g2e" file="graphics\extensions\mattekure\5e_coin_converter\button_g2e.png" />
-			<icon name="button_g2s" file="graphics\extensions\mattekure\5e_coin_converter\button_g2s.png" />
-			<icon name="button_g2c" file="graphics\extensions\mattekure\5e_coin_converter\button_g2c.png" />
-			<icon name="button_e2p" file="graphics\extensions\mattekure\5e_coin_converter\button_e2p.png" />
-			<icon name="button_e2g" file="graphics\extensions\mattekure\5e_coin_converter\button_e2g.png" />
-			<icon name="button_e2s" file="graphics\extensions\mattekure\5e_coin_converter\button_e2s.png" />
-			<icon name="button_e2c" file="graphics\extensions\mattekure\5e_coin_converter\button_e2c.png" />
-			<icon name="button_s2p" file="graphics\extensions\mattekure\5e_coin_converter\button_s2p.png" />
-			<icon name="button_s2g" file="graphics\extensions\mattekure\5e_coin_converter\button_s2g.png" />
-			<icon name="button_s2e" file="graphics\extensions\mattekure\5e_coin_converter\button_s2e.png" />
-			<icon name="button_s2c" file="graphics\extensions\mattekure\5e_coin_converter\button_s2c.png" />
-			<icon name="button_c2p" file="graphics\extensions\mattekure\5e_coin_converter\button_c2p.png" />
-			<icon name="button_c2g" file="graphics\extensions\mattekure\5e_coin_converter\button_c2g.png" />
-			<icon name="button_c2e" file="graphics\extensions\mattekure\5e_coin_converter\button_c2e.png" />
-			<icon name="button_c2s" file="graphics\extensions\mattekure\5e_coin_converter\button_c2s.png" />
+			<icon name="button_p2g" file="graphics/extensions/mattekure/5e_coin_converter/button_p2g.png" />
+			<icon name="button_p2e" file="graphics/extensions/mattekure/5e_coin_converter/button_p2e.png" />
+			<icon name="button_p2s" file="graphics/extensions/mattekure/5e_coin_converter/button_p2s.png" />
+			<icon name="button_p2c" file="graphics/extensions/mattekure/5e_coin_converter/button_p2c.png" />
+			<icon name="button_g2p" file="graphics/extensions/mattekure/5e_coin_converter/button_g2p.png" />
+			<icon name="button_g2e" file="graphics/extensions/mattekure/5e_coin_converter/button_g2e.png" />
+			<icon name="button_g2s" file="graphics/extensions/mattekure/5e_coin_converter/button_g2s.png" />
+			<icon name="button_g2c" file="graphics/extensions/mattekure/5e_coin_converter/button_g2c.png" />
+			<icon name="button_e2p" file="graphics/extensions/mattekure/5e_coin_converter/button_e2p.png" />
+			<icon name="button_e2g" file="graphics/extensions/mattekure/5e_coin_converter/button_e2g.png" />
+			<icon name="button_e2s" file="graphics/extensions/mattekure/5e_coin_converter/button_e2s.png" />
+			<icon name="button_e2c" file="graphics/extensions/mattekure/5e_coin_converter/button_e2c.png" />
+			<icon name="button_s2p" file="graphics/extensions/mattekure/5e_coin_converter/button_s2p.png" />
+			<icon name="button_s2g" file="graphics/extensions/mattekure/5e_coin_converter/button_s2g.png" />
+			<icon name="button_s2e" file="graphics/extensions/mattekure/5e_coin_converter/button_s2e.png" />
+			<icon name="button_s2c" file="graphics/extensions/mattekure/5e_coin_converter/button_s2c.png" />
+			<icon name="button_c2p" file="graphics/extensions/mattekure/5e_coin_converter/button_c2p.png" />
+			<icon name="button_c2g" file="graphics/extensions/mattekure/5e_coin_converter/button_c2g.png" />
+			<icon name="button_c2e" file="graphics/extensions/mattekure/5e_coin_converter/button_c2e.png" />
+			<icon name="button_c2s" file="graphics/extensions/mattekure/5e_coin_converter/button_c2s.png" />
+<!--Author: Celestian-->
+	<!--Ext: Audio Overseer-->
+ 		<!--Buttons--> 
+			<icon name="link_audio" file="graphics/extensions/celestian/audio_overseer/link_audio.png" />
+  			<icon name="link_audio_down" file="graphics/extensions/celestian/audio_overseer/link_audio_down.png" />
+  			<icon name="footer_blank" file="graphics/extensions/celestian/audio_overseer/footer_blank.png" />
 
 
 	
