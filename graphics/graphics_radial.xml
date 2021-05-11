@@ -4,8 +4,20 @@
   Please see the license.html file included with this distribution for 
   attribution and copyright information.
 -->
+	<!--Radial Menu color hue. Supports argb hex values-->
+	<root>
+    	<menusettings>
+        	<radial>
+            	<hubicon>menuhub</hubicon>
+            	<backicon>menuback</backicon>
+            	<background>menubackground</background>
+            	<hubcolor>FFFFFF</hubcolor>
+            	<backgroundcolor>FFFFFF</backgroundcolor>
+            	<iconcolor>FFFFFF</iconcolor>
+        	</radial>
+    	</menusettings>
 
-<root>
+
 	<!-- Basic Menu - REQUIRED -->
 	<icon name="menubackground" file="graphics/pngs/menubackground.png" />
 	<icon name="menuhub" file="graphics/pngs/menuhub.png" />
