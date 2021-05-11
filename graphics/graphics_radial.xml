@@ -81,6 +81,7 @@
 	<icon name="minimize" file="graphics/pngs/icon_window_size_minimize.png" />
 	<icon name="restore" file="graphics/pngs/icon_window_size_restore.png" />
 	<icon name="windowsizereset" file="graphics/pngs/icon_window_size_reset.png" />
+	<icon name="windowsharegroup" file="graphics/pngs/icon_window_share_group.png" />
 	<icon name="windowshare" file="graphics/pngs/icon_window_share.png" />
 	<icon name="windowunshare" file="graphics/pngs/icon_window_unshare.png" />
 	<icon name="windowdelete" file="graphics/pngs/icon_window_delete.png" />

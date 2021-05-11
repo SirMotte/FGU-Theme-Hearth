@@ -544,4 +544,38 @@
 			</label>
 		</sheetdata>
 	</windowclass>
+
+	<!-- Source: Campaign/record_image.xml -->
+	<!-- Modify the radial menu to add a distinction between the share group and shared icon -->
+	<!-- This whole thing is super cludgy, since I can't find any place in CoreRPG that defines menu option 7,5 on images, which is the unshare options -->
+	<!-- Yet it's still there and works. Probably hardcoded and buried. -->
+	<windowclass name="imagewindow" merge="join" version="&gt;=4">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit()
+				end
+				registerMenuItem(Interface.getString("windowshare"), "windowsharegroup", 7);
+				registerMenuItem(Interface.getString("windowshare"), "windowshare", 7, 7);
+				registerMenuItem(Interface.getString("windowunshare"), "windowunshare", 7, 5);
+			end
+
+			function onMenuSelection(item, subitem)
+				if super and super.onMenuSelection then
+					super.onMenuSelection(item, subitem)
+				end
+				if item == 7 then
+					if subitem == 5 then
+						if not Session.IsHost then return; end
+						local node = getDatabaseNode()
+						if node.isPublic() then
+							node.setPublic(false);
+						else
+							node.removeAllHolders(true);
+						end
+					end
+				end
+			end
+		</script>
+	</windowclass>
 </root>
