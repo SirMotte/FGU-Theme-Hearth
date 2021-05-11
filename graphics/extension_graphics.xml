@@ -334,7 +334,7 @@
  		<!--Buttons--> 
 			<icon name="link_audio" file="graphics/extensions/celestian/audio_overseer/link_audio.png" />
   			<icon name="link_audio_down" file="graphics/extensions/celestian/audio_overseer/link_audio_down.png" />
-  			<icon name="footer_blank" file="graphics/extensions/celestian/audio_overseer/footer_blank.png" />
+  			<!--<icon name="footer_blank" file="graphics/extensions/celestian/audio_overseer/footer_blank.png" />-->
 
 
 	
