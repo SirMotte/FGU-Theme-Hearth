@@ -1,4 +1,4 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to vBeta_2.52_Sweaty_Hilts + Patch[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to vBeta_2.6_[/B][/COLOR][/SIZE]
 
 [B]Changelog:[/B]
 
@@ -17,7 +17,7 @@
 [LIST]
 [*] Sign Language Fonts by Mattekure
 [*] Mad Nomad's 3rd Party Updater (both the extension itself is now supported with my custom buttons and updates are available through it too)
-[*] 
+[*] Audio Overseer by Celestian
 [*] 
 [*] 
 [*] 
