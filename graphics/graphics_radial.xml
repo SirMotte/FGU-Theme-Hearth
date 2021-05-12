@@ -227,4 +227,8 @@
 	<icon name="radial_sword" file="graphics/pngs/icon_plus.png" />
 	<icon name="radial_sword" file="graphics/pngs/icon_effect.png" />
 
+	<!-- 5e Rest menu -->
+	<icon name="restmenu" file="graphics/pngs/icon_token_visiblity_on.png" />
+		<icon name="rest_short" file="graphics/pngs/icon_image_layer_pointer_cone.png" />
+		<icon name="rest_long" file="graphics/pngs/icon_image_layer_pointer_circle.png" />
 </root>

@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
+	<!-- Source: campaign/record_char.xml -->
+	<windowclass name="charsheet" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if Session.IsHost then
+					if User.getRulesetName() == "5E" then
+						registerMenuItem(Interface.getString("menu_rest"), "restmenu", 7);
+						registerMenuItem(Interface.getString("menu_restshort"), "rest_short", 7, 8);
+						registerMenuItem(Interface.getString("menu_restlong"), "rest_long", 7, 6);
+					end
+
+					if StringManager.contains(Extension.getExtensions(), "ExtendedRest") then
+						registerMenuItem(Interface.getString("menu_restextended"), "rest_extended", 8, 2);
+					end
+				end
+			end
+		</script>
+	</windowclass>
+
 	<!-- Source: campaign/record_char_main.xml -->
 	<windowclass name="charsheet_classes" merge="join">
 		<sheetdata>
@@ -78,5 +100,31 @@
 				end
 			end
 		</script>
+	</windowclass>
+
+	<!-- Source: ct/ct_host.xml -->
+	<windowclass name="combattracker_host" merge="join">
+		<sheetdata>
+			<button_ct_menu merge="join">
+				<script>
+					function onInit()
+						if super and super.onInit then
+							super.onInit();
+						end
+						if Session.IsHost then
+							if User.getRulesetName() == "5E" then
+								registerMenuItem(Interface.getString("menu_rest"), "restmenu", 8);
+								registerMenuItem(Interface.getString("menu_restshort"), "rest_short", 8, 8);
+								registerMenuItem(Interface.getString("menu_restlong"), "rest_long", 8, 6);
+							end
+
+							if StringManager.contains(Extension.getExtensions(), "ExtendedRest") then
+								registerMenuItem(Interface.getString("menu_restextended"), "rest_extended", 8, 2);
+							end
+						end
+					end
+				</script>
+			</button_ct_menu>
+		</sheetdata>
 	</windowclass>
 </root>
