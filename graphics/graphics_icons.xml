@@ -380,6 +380,11 @@
 	<icon name="toolbar_on" file="graphics/pngs/toolbar_on.png" />
 	<icon name="toolbar_off" file="graphics/pngs/toolbar_off.png" />
 
+<!-- Headers -->
+	<icon name="button_header_locked_on" file="graphics/pngs/button_header_locked_on.png" />
+	<icon name="button_header_locked_off" file="graphics/pngs/button_header_locked_off.png" />
+	<icon name="button_header_reset" file="graphics/pngs/button_header_reset.png" />
+
 	<!-- Toolbar -->
 	<!-- Assume 24x24 for toolbar_30 icons -->
     <icon name="tool_zoomtofit_30" file="graphics/pngs/tool_zoomtofit_30.png" />

@@ -83,7 +83,7 @@
 	<icon name="button_enc_refreshcr_down" file="graphics/pngs/button_ctnextround_down.png" />
 	<icon name="button_enc_refreshxp" file="graphics/pngs/button_ctnextround.png" />
 	<icon name="button_enc_refreshxp_down" file="graphics/pngs/button_ctnextround_down.png" />
-	<!-- pngs/-->
+	<!-- Buttons-->
 	<icon name="button_ct" file="graphics/pngs/button_ct.png" />
 	<icon name="button_ct_down" file="graphics/pngs/button_ct_down.png" />
 	<icon name="button_partysheet" file="graphics/pngs/button_partysheet.png" />

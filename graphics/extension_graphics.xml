@@ -250,7 +250,7 @@
 			</windowclass>
 	<!-- Ext: Extended Rest -->
 		<!-- Icons -->
-			<icon name="rest_extended" file="graphics/extensions/meandunique/extended_rest/extended_rest.png" />
+			<icon name="rest_extended" file="graphics/extensions/meandunique/extended_rest/icon_rest_extended.png" />
 
 <!--Author: pr6i6est (Troy Monteith)-->
 	<!--Ext: NPC Random Treasure Drops-->
