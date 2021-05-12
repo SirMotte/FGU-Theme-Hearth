@@ -24,7 +24,7 @@
 [B]Supported Extension changes:[/B]
 
 [LIST]
-[*] 
+[*] Reinstated Combat Timer Extension. I wasn't able to reproduce the issue anymore. Not sure what was going wrong.
 [*] 
 [*] 
 [*] 
