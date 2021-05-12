@@ -8,9 +8,7 @@
 [*] Adjusted Image Window Icons
 [*] Adjusted some CT Icons
 [*] Added additional Icon to the share menu making it 3 tiered instead of 2. BIG THANKS TO SAAGAEL!
-[*] 
-
-[/LIST]
+[*] Added additional Icon to the rest menu making it 3 tiered instead of 2 and making icons unique. BIG THANKS TO SAAGAEL!
 
 [B]Added Extension Support:[/B]
 
