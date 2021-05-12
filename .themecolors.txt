@@ -17,3 +17,5 @@ Yellow: #F3D876
 Green: #77CE77
 Orange: #F2AB76
 Blue: #69B7FF
+Lavender/Purple: #C6A8F8
+Turquoise: #8CFFFF
