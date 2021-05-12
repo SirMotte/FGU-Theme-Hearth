@@ -4,8 +4,9 @@
   Please see the license.html file included with this distribution for 
   attribution and copyright information.
 -->
-	<!--Radial Menu color hue. Supports argb hex values-->
-	<root>
+<root>
+	<!--Radial Menu color hue. Supports argb hex values -->
+	
     	<menusettings>
         	<radial>
             	<hubicon>menuhub</hubicon>
@@ -225,4 +226,5 @@
 	<icon name="radial_sword" file="graphics/pngs/icon_damage.png" />
 	<icon name="radial_sword" file="graphics/pngs/icon_plus.png" />
 	<icon name="radial_sword" file="graphics/pngs/icon_effect.png" />
+
 </root>
