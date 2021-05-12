@@ -332,6 +332,7 @@
 			<icon name="button_c2g" file="graphics/extensions/mattekure/5e_coin_converter/button_c2g.png" />
 			<icon name="button_c2e" file="graphics/extensions/mattekure/5e_coin_converter/button_c2e.png" />
 			<icon name="button_c2s" file="graphics/extensions/mattekure/5e_coin_converter/button_c2s.png" />
+
 <!--Author: Celestian-->
 	<!--Ext: Audio Overseer-->
  		<!--Buttons--> 
@@ -339,7 +340,18 @@
   			<icon name="link_audio_down" file="graphics/extensions/celestian/audio_overseer/link_audio_down.png" />
   			<!--<icon name="footer_blank" file="graphics/extensions/celestian/audio_overseer/footer_blank.png" />-->
 
-
-	
+<!--Author: Stv-->
+	<!--Ext: Legendary Assistant-->
+ 		<!--Buttons--> 
+			<icon name="button_legendary" file="graphics/extensions/stv/legendary_assistant/legendary.png" />
+			<icon name="button_legendary_down" file="graphics/extensions/stv/legendary_assistant/legendary_down.png" />
+			<icon name="altbutton_legendary" file="graphics/extensions/stv/legendary_assistant/legendary.png" />
+			<icon name="altbutton_legendary_down" file="graphics/extensions/stv/legendary_assistant/legendary_down.png" />
+			<icon name="legendary_button_effects" file ="graphics/extensions/stv/legendary_assistant/legendary_button_effects.png" />
+			<icon name="legendary_button_effects_down" file ="graphics/extensions/stv/legendary_assistant/legendary_button_effects_down.png" />
+			<icon name="altlegendary_button_effects" file ="graphics/extensions/stv/legendary_assistant/legendary_button_effects.png" />
+			<icon name="altlegendary_button_effects_down" file ="graphics/extensions/stv/legendary_assistant/legendary_button_effects_down.png" />
+			<icon name="legendary_search" file ="graphics/extensions/stv/legendary_assistant/ct_search.png" />
+			<icon name="legendary_search_down" file ="graphics/extensions/stv/legendary_assistant/ct_search_down.png" />
 
 </root>
