@@ -248,6 +248,9 @@
 					end
 				</script>
 			</windowclass>
+	<!-- Ext: Extended Rest -->
+		<!-- Icons -->
+			<icon name="rest_extended" file="graphics/pngs/icon_image_layer_pointer_square.png" />
 
 <!--Author: pr6i6est (Troy Monteith)-->
 	<!--Ext: NPC Random Treasure Drops-->
