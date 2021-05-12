@@ -7,8 +7,8 @@
 [*] Added brighter 1px rim to frames for better visibility if stacked on top of each other
 [*] Adjusted Image Window Icons
 [*] Adjusted some CT Icons
-[*] Added additional Icon to the share menu making it 3 tiered instead of 2. BIG THANKS TO SAAGAEL!
-[*] Added additional Icon to the rest menu making it 3 tiered instead of 2 and making icons unique. BIG THANKS TO SAAGAEL!
+[*] Added additional Icon to the share menu making it 3 tiered instead of two-tiered, allowing for unique icons. BIG THANKS TO SAAGAEL!
+[*] Added additional Icon to the rest menu making it 3 tiered instead of two-tiered, allowing for unique icons. BIG THANKS TO SAAGAEL!
 
 [B]Added Extension Support:[/B]
 
@@ -16,7 +16,7 @@
 [*] Sign Language Fonts by Mattekure
 [*] Mad Nomad's 3rd Party Updater (both the extension itself is now supported with my custom buttons and updates are available through it too)
 [*] Audio Overseer by Celestian
-[*] 
+[*] Extended Rest by MeAndUnique
 [*] 
 [*] 
 [/LIST]
@@ -24,7 +24,7 @@
 [B]Supported Extension changes:[/B]
 
 [LIST]
-[*] Reinstated Combat Timer Extension. I wasn't able to reproduce the issue anymore. Not sure what was going wrong.
-[*] 
-[*] 
+[*] Reinstated Combat Timer Extension. the error was caused by my theme - Solved!
+[*] Changed Map Parcel Chest Icon again - Was overly complicated and didn't look nice.
+[*] Changed some clock adjuster Icons to be in line with theme
 [*] 
