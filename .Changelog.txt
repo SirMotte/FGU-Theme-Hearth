@@ -7,7 +7,7 @@
 [*] Added brighter 1px rim to frames for better visibility if stacked on top of each other
 [*] Adjusted Image Window Icons
 [*] Adjusted some CT Icons
-[*] 
+[*] Added additional Icon to the share menu making it 3 tiered instead of 2. BIG THANKS TO SAAGAEL!
 [*] 
 
 [/LIST]
