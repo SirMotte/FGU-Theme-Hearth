@@ -19,3 +19,7 @@ Orange: #F2AB76
 Blue: #69B7FF
 Lavender/Purple: #C6A8F8
 Turquoise: #8CFFFF
+
+
+Trivia:
+Frame Border: 2px Black #000000 + 1px Header Background: #473C33

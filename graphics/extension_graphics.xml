@@ -36,17 +36,17 @@
 
 <!--Author: Zygmunt Molotch-->
 	<!--Ext: Combat Timer-->
-		<!--Frame
+		<!--Frame-->
 			<framedef name="timer_background">
   				<bitmap file="graphics/extensions/zygmunt_molotch/combat_timer/TimerFrame.png" /> 
   				<middle rect="0,0,100,25" /> 
 			</framedef>-->
-		<!--Icons 
+		<!--Icons --> 
 			<icon name="button_timerstart" file="graphics/extensions/zygmunt_molotch/combat_timer/button_timerstart2.png" /> 
 			<icon name="button_settings" file="graphics/extensions/zygmunt_molotch/combat_timer/button_settings.png" /> 
 			<icon name="button_settings2" file="graphics/extensions/zygmunt_molotch/combat_timer/button_settings2.png" /> 
-			<icon name="button_timerrunning" file="graphics/extensions/zygmunt_molotch/combat_timer/button_timerrunning.png" /> --> 
-		<!-- Font Adjustments 
+			<icon name="button_timerrunning" file="graphics/extensions/zygmunt_molotch/combat_timer/button_timerrunning.png" /> 
+		<!-- Font Adjustments --> 
 			<windowclass name="ct_combat_timer_host" merge="join">
 				<sheetdata>
 					<simplestring name="timer">
@@ -61,7 +61,7 @@
 					</simplestring>
 				</sheetdata>
 			</windowclass> 
--->
+
 <!--Author: Silent Ruin-->
 	<!--Ext: Polymorphism-->
 		<!--Icon--> 
@@ -250,13 +250,13 @@
 			</windowclass>
 	<!-- Ext: Extended Rest -->
 		<!-- Icons -->
-			<icon name="rest_extended" file="graphics/pngs/icon_image_layer_pointer_square.png" />
+			<icon name="rest_extended" file="graphics/extensions/meandunique/extended_rest/extended_rest.png" />
 
 <!--Author: pr6i6est (Troy Monteith)-->
 	<!--Ext: NPC Random Treasure Drops-->
-		<icon name="conditions_tab" file="graphics/extensions/troy_monteith/npc_random_treasure_drops/conditions_tab.png" />
+			<icon name="conditions_tab" file="graphics/extensions/troy_monteith/npc_random_treasure_drops/conditions_tab.png" />
 	<!--Ext: Automatic Record Links-->
-		<icon name="linktab" file="graphics/extensions/troy_monteith/automatic_record_links/links_tab.png" /> 
+			<icon name="linktab" file="graphics/extensions/troy_monteith/automatic_record_links/links_tab.png" /> 
 
 
 <!--Author: pr6i6est (Troy Monteith) and bmos-->
