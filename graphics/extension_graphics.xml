@@ -54,7 +54,7 @@
 					</simplestring>
 				</sheetdata>
 			</windowclass>
-			<windowclass name="ct_combat_timer_client">
+			<windowclass name="ct_combat_timer_client" merge="join">
 				<sheetdata>
 					<simplestring name="timer">
 						<color>DDDDDD</color>
