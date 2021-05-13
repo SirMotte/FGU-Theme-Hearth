@@ -24,7 +24,6 @@
 			<icon name="chat_place" file="graphics/extensions/damned/player_agency/chat_place.png" /> 
 			<icon name="chat_religion" file="graphics/extensions/damned/player_agency/chat_religion.png" /> 
 			<icon name="chat_group" file="graphics/extensions/damned/player_agency/chat_group.png" />
-
 	<!--Ext: Sharing is Caring-->
 		<!--Frame-->
 			<framedef name="chatframe_spell">
@@ -33,6 +32,12 @@
 			</framedef>
 			<!--Chat--> 
 				<icon name="button_chat" file="graphics/extensions/damned/sharing_is_caring/chat.png" />
+	<!--Ext: Halt!-->
+		<!--Icons-->
+			<icon name="button_stop" file="graphics/extensions/damned/halt/stop.png" /> 
+			<icon name="button_slow" file="graphics/extensions/damned/halt/slow.png" /> 
+			<icon name="stop_sign" file="graphics/extensions/damned/halt/stop_sign.png" /> 
+			<icon name="slow_sign" file="graphics/extensions/damned/halt/slow_sign.png" /> 
 
 <!--Author: Zygmunt Molotch-->
 	<!--Ext: Combat Timer-->
@@ -382,4 +387,10 @@
 					<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary_neutral.png" />
 					<offset>87,16,14,17</offset>
 				</framedef>
+
+<!--Author: Sean A. Veira-->
+	<!--Ext: Coin Flip-->
+ 		<!--Icons--> 
+				<icon name="coinheadsicon" file="graphics\extensions\sean_veira\coin_flip\coin_heads_icon.png" />
+    			<icon name="cointailsicon" file="graphics\extensions\sean_veira\coin_flip\coin_tails_icon.png" />
 </root>
