@@ -3,17 +3,20 @@
 [B]Changelog:[/B]
 
 [LIST]
-[*] Reworked radial menu and icons.
+[*] Reworked radial menu and icons. (Still WIP))
 [*] Added brighter 1px rim to frames for better visibility if stacked on top of each other
 [*] Adjusted Image Window Icons
+[*] Adjusted Image Window Frame to properly show frame borders.
 [*] Adjusted some CT Icons
 [*] Fixed Image Frame Borders when not set as background mode. An invisible space is still around it unfortunately. Don't know yet how to adjust the xml accodingly.
 [*] Added additional Icon to the image share menu making it 3 tiered instead of two-tiered, allowing for unique icons. BIG THANKS TO SAAGAEL!
+    -> Unfortunately the way FGU is coded, this is not allowed for other share menus like on traits, spells and the like, still resulting in menus with either 3 oder 2 tiers and only the color red and green.
+    -> The "reset fog of war icon" is also not changeable to something else, so it still uses the icon_token_visiblity_off icon (closed red eye). Nothing I can do about that.
 [*] Added additional Icon to the rest menu making it 3 tiered instead of two-tiered, allowing for unique icons. BIG THANKS TO SAAGAEL!
 [/LIST]
 [B]Changelog TEST-Server:[/B]
 [LIST]
-[*]Fixed Image Window Toolbar Icons Transpracency (TEST-Server only)
+[*]Fixed image window toolbar icons transpracency (TEST-Server only)
 [/LIST]
 
 [B]Added Extension Support:[/B]
@@ -24,9 +27,8 @@
 [*] Mad Nomad's 3rd Party Updater (both the extension itself is now supported with my custom buttons and updates are available through it too)
 [*] Extended Rest by MeAndUnique
 [*] 5E Legendary Assistant by Stv
-[*] Coin Flip Extension for DnD 5E by Sean A Veira
 [*] Halt! by damned
-[*] CoreRPG - ReadyCheck by Celestian
+[*] ReadyCheck by Celestian
 [*] Audio Overseer by Celestian
 [/LIST]
 
@@ -36,4 +38,4 @@
 [*] Reinstated Combat Timer Extension. The error was caused by my theme! - Solved!
 [*] Changed Map Parcel Chest Icon again - Was overly complicated and didn't look nice.
 [*] Changed some clock adjuster Icons to be in line with theme
-[*] 
+[*] Minor changes to buttons for all extensions.
