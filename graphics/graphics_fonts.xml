@@ -585,5 +585,9 @@
 		<ttf file="graphics/fonts/HANDSIGN.TTF" name="HandSign" size="36" />
 		<color value="#DDDDDD" />
 	</font>	
-	
+	<!--Ext: Safety Toolkit-->
+ 	<font name="safetytoolkitfont">
+		<ttf file="graphics/fonts/Roboto-Black" name="Roboto Black" size="20" /> 
+		<color value="#DDDDDD" /> 
+	</font>
 </root>

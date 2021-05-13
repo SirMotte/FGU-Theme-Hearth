@@ -337,13 +337,27 @@
 			<icon name="button_c2g" file="graphics/extensions/mattekure/5e_coin_converter/button_c2g.png" />
 			<icon name="button_c2e" file="graphics/extensions/mattekure/5e_coin_converter/button_c2e.png" />
 			<icon name="button_c2s" file="graphics/extensions/mattekure/5e_coin_converter/button_c2s.png" />
+	<!--Ext: Safety Toolkit-->
+ 		<!--Buttons--> 
+			<icon name="safety_toolkit" file="graphics/extensions/mattekure/safety_toolkit/safetyToolkit.png" /> 
+			<icon name="safety_toolkit_down" file="graphics/extensions/mattekure/safety_toolkit/safetyToolkit_down.png" /> 
+			<icon name="triggers" file="graphics/extensions/mattekure/safety_toolkit/triggers.png" /> 
+			<icon name="triggers_down" file="graphics/extensions/mattekure/safety_toolkit/triggers_down.png" /> 
+			<icon name="card_x" file="graphics/extensions/mattekure/safety_toolkit/Card_X.png" /> 
+			<icon name="card_n" file="graphics/extensions/mattekure/safety_toolkit/Card_N.png" /> 
+			<icon name="card_o" file="graphics/extensions/mattekure/safety_toolkit/Card_O.png" /> 
+	
 
 <!--Author: Celestian-->
 	<!--Ext: Audio Overseer-->
  		<!--Buttons--> 
-			<icon name="link_audio" file="graphics/extensions/celestian/audio_overseer/link_audio.png" />
-  			<icon name="link_audio_down" file="graphics/extensions/celestian/audio_overseer/link_audio_down.png" />
+				<icon name="link_audio" file="graphics/extensions/celestian/audio_overseer/link_audio.png" />
+  				<icon name="link_audio_down" file="graphics/extensions/celestian/audio_overseer/link_audio_down.png" />
   			<!--<icon name="footer_blank" file="graphics/extensions/celestian/audio_overseer/footer_blank.png" />-->
+	<!--Ext: Ready Check-->
+ 		<!--Icons--> 
+			   	<icon name="chat_success" file="graphics/extensions/celestian/ready_check/check_success.png" />
+    			<icon name="chat_fail" file="graphics/extensions/celestian/ready_check/check_fail.png" />
 
 <!--Author: Stv-->
 	<!--Ext: 5E Legendary Assistant-->
@@ -391,6 +405,6 @@
 <!--Author: Sean A. Veira-->
 	<!--Ext: Coin Flip-->
  		<!--Icons--> 
-				<icon name="coinheadsicon" file="graphics\extensions\sean_veira\coin_flip\coin_heads_icon.png" />
-    			<icon name="cointailsicon" file="graphics\extensions\sean_veira\coin_flip\coin_tails_icon.png" />
+				<icon name="coinheadsicon" file="graphics/extensions/sean_veira/coin_flip/coin_heads_icon.png" />
+    			<icon name="cointailsicon" file="graphics/extensions/sean_veira/coin_flip/coin_tails_icon.png" />
 </root>
