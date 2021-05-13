@@ -15,7 +15,7 @@
 					end
 
 					if StringManager.contains(Extension.getExtensions(), "ExtendedRest") then
-						registerMenuItem(Interface.getString("menu_restextended"), "rest_extended", 8, 2);
+						registerMenuItem(Interface.getString("menu_restextended"), "rest_extended", 7, 2);
 					end
 				end
 			end
