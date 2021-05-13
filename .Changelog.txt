@@ -3,12 +3,18 @@
 [B]Changelog:[/B]
 
 [LIST]
-[*] More reworked radial menu icons added
+[*] Reworked radial menu and icons.
 [*] Added brighter 1px rim to frames for better visibility if stacked on top of each other
 [*] Adjusted Image Window Icons
 [*] Adjusted some CT Icons
-[*] Added additional Icon to the share menu making it 3 tiered instead of two-tiered, allowing for unique icons. BIG THANKS TO SAAGAEL!
+[*] Fixed Image Frame Borders when not set as background mode. An invisible space is still around it unfortunately. Don't know yet how to adjust the xml accodingly.
+[*] Added additional Icon to the image share menu making it 3 tiered instead of two-tiered, allowing for unique icons. BIG THANKS TO SAAGAEL!
 [*] Added additional Icon to the rest menu making it 3 tiered instead of two-tiered, allowing for unique icons. BIG THANKS TO SAAGAEL!
+[/LIST]
+[B]Changelog TEST-Server:[/B]
+[LIST]
+[*]Fixed Image Window Toolbar Icons Transpracency (TEST-Server only)
+[/LIST]
 
 [B]Added Extension Support:[/B]
 
