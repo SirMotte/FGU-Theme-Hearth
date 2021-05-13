@@ -345,7 +345,14 @@
 			<icon name="triggers_down" file="graphics/extensions/mattekure/safety_toolkit/triggers_down.png" /> 
 			<icon name="card_x" file="graphics/extensions/mattekure/safety_toolkit/Card_X.png" /> 
 			<icon name="card_n" file="graphics/extensions/mattekure/safety_toolkit/Card_N.png" /> 
-			<icon name="card_o" file="graphics/extensions/mattekure/safety_toolkit/Card_O.png" /> 
+			<icon name="card_o" file="graphics/extensions/mattekure/safety_toolkit/Card_O.png" />
+		<!--Frame-->
+			<framedef name="safetybox">
+				<bitmap file="graphics/pngs/utilitybox.png" /> 
+				<offset>22,22,22,22</offset> 
+				<insideoffset>0,0,10,10</insideoffset> 
+			</framedef>
+
 	
 
 <!--Author: Celestian-->
@@ -403,8 +410,8 @@
 				</framedef>
 
 <!--Author: Sean A. Veira-->
-	<!--Ext: Coin Flip-->
- 		<!--Icons--> 
+	<!--Ext: Coin Flip (throws errors)-->
+ 		<!--Icons
 				<icon name="coinheadsicon" file="graphics/extensions/sean_veira/coin_flip/coin_heads_icon.png" />
-    			<icon name="cointailsicon" file="graphics/extensions/sean_veira/coin_flip/coin_tails_icon.png" />
+    			<icon name="cointailsicon" file="graphics/extensions/sean_veira/coin_flip/coin_tails_icon.png" /> --> 
 </root>
