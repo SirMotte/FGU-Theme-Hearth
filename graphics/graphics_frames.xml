@@ -318,6 +318,8 @@
 		<bitmap file="graphics/pngs/imagebox.png" />
 		<offset>150,135,150,150</offset>
 		<insideoffset>0,0,20,22</insideoffset>
+		<!--Original <offset>150,135,150,150</offset>-->
+		<!--Orifinal <insideoffset>0,0,20,22</insideoffset>-->
 	</framedef>
 	<framedef name="imagebox_header">
 		<bitmap file="graphics/pngs/imagebox_header.png" />
