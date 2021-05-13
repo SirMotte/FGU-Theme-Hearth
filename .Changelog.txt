@@ -14,17 +14,20 @@
 
 [LIST]
 [*] Sign Language Fonts by Mattekure
+[*] TTRPG Safety Toolkit by Mattekure
 [*] Mad Nomad's 3rd Party Updater (both the extension itself is now supported with my custom buttons and updates are available through it too)
-[*] Audio Overseer by Celestian
 [*] Extended Rest by MeAndUnique
-[*] 
-[*] 
+[*] 5E Legendary Assistant by Stv
+[*] Coin Flip Extension for DnD 5E by Sean A Veira
+[*] Halt! by damned
+[*] CoreRPG - ReadyCheck by Celestian
+[*] Audio Overseer by Celestian
 [/LIST]
 
 [B]Supported Extension changes:[/B]
 
 [LIST]
-[*] Reinstated Combat Timer Extension. the error was caused by my theme - Solved!
+[*] Reinstated Combat Timer Extension. The error was caused by my theme! - Solved!
 [*] Changed Map Parcel Chest Icon again - Was overly complicated and didn't look nice.
 [*] Changed some clock adjuster Icons to be in line with theme
 [*] 
