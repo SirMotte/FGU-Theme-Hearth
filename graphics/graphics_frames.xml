@@ -347,30 +347,12 @@
 	</framedef>
 
 	 <!-- TEMPLATES -->
- 	<template name="toolbar_30">
-		<genericcontrol>
-			<parameters>
-				<horzmargin>2</horzmargin>
-				<vertmargin>2</vertmargin>
-				<buttonsize>30</buttonsize>
-			</parameters>
-			<frame name="toolbar_30" />
-			<button mergerule="resetandadd" />
-			<script file="common/scripts/toolbar.lua" />
-		</genericcontrol>
-	</template>
 	<template name="toolbar_button_color_base">
 		<buttoncontrol>
 			<iconcolor>FFFFFF</iconcolor>
 		</buttoncontrol>
 	</template>
-   	<template name="toolbar_button">
-		<toolbar_button_color_base>
-			<anchored position="insidetopleft" />
-			<invisible/>
-			<script file="common/scripts/toolbar_button.lua" />
-		</toolbar_button_color_base>
-    </template>
+  
 
 <!-- Lists -->
 	<framedef name="rowshade">
