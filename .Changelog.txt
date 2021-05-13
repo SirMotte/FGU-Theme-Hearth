@@ -24,7 +24,9 @@
 [LIST]
 [*] Sign Language Fonts by Mattekure
 [*] TTRPG Safety Toolkit by Mattekure
-[*] Mad Nomad's 3rd Party Updater (both the extension itself is now supported with my custom buttons and updates are available through it too)
+[*] Mad Nomad's 3rd Party Updater 
+    -> Both the extension itself is now supported with custom buttons and updates are available through it too. 
+    -> Please keep in mind that the list is slow to update, so better check my forums page regularily.
 [*] Extended Rest by MeAndUnique
 [*] 5E Legendary Assistant by Stv
 [*] Halt! by damned
