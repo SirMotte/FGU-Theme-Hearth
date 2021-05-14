@@ -348,17 +348,6 @@
 		<middle rect="0,0,128,128" />
 	</framedef>
 
-	<panel name="imagebackpanel" modes="host,client">
-		<anchored>
-			<left offset="0" /> 
-			<top />
-			<right parent="shortcutsanchor" anchor="left" />
-			<bottom offset="0" />
-		</anchored>
-		<class>imagebackpanel</class>
-		<disabled />
-	</panel>
-
 	 <!-- TEMPLATES -->
 	<template name="toolbar_button_color_base">
 		<buttoncontrol>
@@ -621,4 +610,5 @@
 		<bitmap file="graphics/pngs/fielddark.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
+
 </root>
