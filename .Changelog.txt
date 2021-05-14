@@ -3,7 +3,7 @@
 [B]Changelog:[/B]
 
 [LIST]
-[*] 
+[*] Enabled PFRPG2 again (no support yet)
 [*] 
 [*]
 [*]
@@ -30,7 +30,7 @@
 [B]Supported Extension changes:[/B]
 
 [LIST]
-[*] Another change to Clock Adjuster Icons
+[*] 
 [*]
 [*]
 [*]
