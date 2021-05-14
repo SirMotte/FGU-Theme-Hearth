@@ -22,7 +22,7 @@
 		</script>
 	</windowclass>
 
-	<!-- Source: campaign/record_char_main.xml -->
+	<!-- Source: campaign/record_char_main.xml
 	<windowclass name="charsheet_classes" merge="join">
 		<sheetdata>
 			<basicnumber name="expneeded">
@@ -43,7 +43,7 @@
 				<child><backcolor>1A40301E</backcolor></child>
 			</list_text>
 		</sheetdata>
-	</windowclass>
+	</windowclass>-->
 	<windowclass name="charsheet_hd" merge="join">
 		<sheetdata>
 			<numbercontrol name="hdcurrent">

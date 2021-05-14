@@ -1,43 +1,38 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Beta_2.6_Plucked_Horse[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.7 - Doting Elderbrain [/B][/COLOR][/SIZE]
 
 [B]Changelog:[/B]
 
 [LIST]
-[*] Reworked radial menu and icons. (Still WIP))
-[*] Added brighter 1px rim to frames for better visibility if stacked on top of each other
-[*] Adjusted Image Window Icons
-[*] Adjusted Image Window Frame to properly show frame borders.
-[*] Adjusted some CT Icons
-[*] Fixed Image Frame Borders when not set as background mode. An invisible space is still around it unfortunately. Don't know yet how to adjust the xml accodingly.
-[*] Added additional Icon to the image share menu making it 3 tiered instead of two-tiered, allowing for unique icons. BIG THANKS TO SAAGAEL!
-    -> Unfortunately the way FGU is coded, this is not allowed for other share menus like on traits, spells and the like, still resulting in menus with either 3 oder 2 tiers and only the color red and green.
-    -> The "reset fog of war icon" is also not changeable to something else, so it still uses the icon_token_visiblity_off icon (closed red eye). Nothing I can do about that.
-[*] Added additional Icon to the rest menu making it 3 tiered instead of two-tiered, allowing for unique icons. BIG THANKS TO SAAGAEL!
-[/LIST]
-[B]Changelog TEST-Server:[/B]
-[LIST]
-[*]Fixed image window toolbar icons transpracency (TEST-Server only)
+[*] 
+[*] 
+[*]
+[*]
+[*]
+[*]
+[*]
+[*]
+[*]
+[*] 
 [/LIST]
 
 [B]Added Extension Support:[/B]
 
 [LIST]
-[*] Sign Language Fonts by Mattekure
-[*] TTRPG Safety Toolkit by Mattekure
-[*] Mad Nomad's 3rd Party Updater 
-    -> Both the extension itself is now supported with custom buttons and updates are available through it too. 
-    -> Please keep in mind that the list is slow to update, so better check my forums page regularily.
-[*] Extended Rest by MeAndUnique
-[*] 5E Legendary Assistant by Stv
-[*] Halt! by damned
-[*] ReadyCheck by Celestian
-[*] Audio Overseer by Celestian
+[*] 
+[*]
+[*]
+[*]
+[*]
+[*]
+[*] 
 [/LIST]
 
 [B]Supported Extension changes:[/B]
 
 [LIST]
-[*] Reinstated Combat Timer Extension. The error was caused by my theme! - Solved!
-[*] Changed Map Parcel Chest Icon again - Was overly complicated and didn't look nice.
-[*] Changed some clock adjuster Icons to be in line with theme
-[*] Minor changes to buttons for all extensions.
+[*] Another change to Clock Adjuster Icons
+[*]
+[*]
+[*]
+[*]
+[*]
