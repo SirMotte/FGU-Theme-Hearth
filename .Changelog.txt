@@ -4,8 +4,8 @@
 
 [LIST]
 [*] Enabled PFRPG2 again (no support yet)
+[*] Adjusted Roboto.ttf Font files to include PFRPG2 action symbols (needs testing).
 [*] 
-[*]
 [*]
 [*]
 [*]
@@ -30,7 +30,7 @@
 [B]Supported Extension changes:[/B]
 
 [LIST]
-[*] 
+[*] Fixed truncated font issue with important NPC active state by Death Indicator Extension
 [*]
 [*]
 [*]
