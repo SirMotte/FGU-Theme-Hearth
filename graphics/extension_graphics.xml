@@ -112,14 +112,14 @@
 			<windowclass name="npc_combat" merge="join">
 				<sheetdata>
 					<stringcontrol name="npc_deathsavesuccess_label">
-						<anchored to="npc_deathsavesuccess" position="lefthigh" offset="4,0" />
+						<anchored to="npc_deathsavesuccess" position="lefthigh" offset="4,-2" />
 						<font>sheetlabelminideathindicator</font>
 						<nodrag />
 						<static textres="char_label_deathsave_succ" />
 					</stringcontrol>
 
 					<stringcontrol name="npc_deathsavefail_label">
-						<anchored to="npc_deathsavefail" position="lefthigh" offset="5,0" />
+						<anchored to="npc_deathsavefail" position="lefthigh" offset="4,-2" />
 						<font>sheetlabelminideathindicator</font>
 						<nodrag />
 						<static textres="char_label_deathsave_fail" />
