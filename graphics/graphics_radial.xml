@@ -226,6 +226,7 @@
 	<icon name="radial_create_action" file="graphics/pngs/icon_sword.png" />
 	<icon name="radial_delete_action" file="graphics/pngs/icon_sword.png" />
 =======
+	<icon name="radial_create_action" file="graphics/pngs/icon_sword_group.png" />
 >>>>>>> Stashed changes
 	<icon name="radial_sword" file="graphics/pngs/icon_sword.png" />
 	<icon name="radial_damage" file="graphics/pngs/icon_damage.png" />
