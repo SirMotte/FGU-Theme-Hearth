@@ -220,12 +220,12 @@
 	<icon name="listinsert" file="graphics/pngs/icon_list_insert.png" />
 	<icon name="listdelete" file="graphics/pngs/icon_list_delete.png" />
 
-	<!-- Supported rulesets - Common pngss-->
+	<!-- Supported rulesets - Common pngs-->
 	<!-- Spell actions -->
 	<icon name="radial_sword" file="graphics/pngs/icon_sword.png" />
-	<icon name="radial_sword" file="graphics/pngs/icon_damage.png" />
-	<icon name="radial_sword" file="graphics/pngs/icon_plus.png" />
-	<icon name="radial_sword" file="graphics/pngs/icon_effect.png" />
+	<icon name="radial_damage" file="graphics/pngs/icon_damage.png" />
+	<icon name="radial_heal" file="graphics/pngs/icon_plus.png" />
+	<icon name="radial_effect" file="graphics/pngs/icon_effect.png" />
 
 	<!-- 5e Rest menu -->
 	<icon name="restmenu" file="graphics/pngs/icon_rest_group.png" />
