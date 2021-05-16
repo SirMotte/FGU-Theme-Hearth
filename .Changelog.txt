@@ -4,10 +4,10 @@
 
 [LIST]
 [*] Enabled PFRPG2 again (no support yet)
-[*] Adjusted Roboto.ttf Font files to include PFRPG2 action symbols (needs testing).
-[*] 
-[*]
-[*]
+[*] Adjusted Roboto.ttf Font files to include PFRPG2 action symbols.
+[*] Remade Ruler Icon (Radial Menu)
+[*] Adjusted module loadedunloaded icon to not overlap with the player load blocked/allowed one
+[*] Added spell actions icons (Radial Menu))
 [*]
 [*]
 [*]
