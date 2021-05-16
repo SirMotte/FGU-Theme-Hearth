@@ -222,8 +222,8 @@
 
 	<!-- Supported rulesets - Common pngs-->
 	<!-- Spell actions -->	
-	<icon name="radial_reparse_spell" file="graphics/pngs/icon_sword_group.png" />
-	<icon name="radial_delete_action_confirm" file="graphics/pngs/icon_sword_delete.png" />
+	<icon name="radial_reparse_spell" file="graphics/pngs/icon_reparse_radial.png" />
+	<icon name="radial_delete_action_confirm" file="graphics/pngs/icon_delete_confirm_radial.png" />
 	<icon name="radial_create_action" file="graphics/pngs/icon_action_group.png" />
 	<icon name="radial_delete_action" file="graphics/pngs/icon_action_delete.png" />
 	<icon name="radial_sword" file="graphics/pngs/icon_sword.png" />
