@@ -16,6 +16,9 @@
 	</framedef>
 	<icon name="tabtop" file="graphics/pngs/tabtop.png" />
 	<icon name="tabtop_h" file="graphics/pngs/tabtop_h.png" />
+	<icon name="tabhorizontal" file="graphics/pngs/tabhorizontal.png" />
+	<icon name="tabhorizontal_white" file="graphics/pngs/tabhorizontal_white.png" />
+	<icon name="tab_actions2" file="graphics/pngs/tab_actions2.png" />
 	<!-- Vertical tab names -->
 	<icon name="tab_inventory" file="graphics/pngs/tab_inventory.png" />
 	<icon name="tab_main" file="graphics/pngs/tab_main.png" />
