@@ -127,4 +127,20 @@
 			</button_ct_menu>
 		</sheetdata>
 	</windowclass>
+
+	<!-- Source: campaign/record_power.xml -->
+	<windowclass name="power_item" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if windowlist then
+					if not windowlist.isReadOnly() then
+						registerMenuItem(Interface.getString("power_menu_addaction"), "radial_create_action", 3);
+					end
+				end
+			end
+		</script>
+	</windowclass>
 </root>
