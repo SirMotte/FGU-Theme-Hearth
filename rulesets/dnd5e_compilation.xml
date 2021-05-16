@@ -143,4 +143,14 @@
 			end
 		</script>
 	</windowclass>
+	<windowclass name="power_action" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				registerMenuItem(Interface.getString("power_menu_actiondelete"), "radial_delete_action", 4);
+			end
+		</script>
+	</windowclass>
 </root>
