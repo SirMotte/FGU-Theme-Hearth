@@ -6,12 +6,12 @@
 [*]Enabled PFRPG2 again (no support yet - coming soon)
 [*]Adjusted Roboto.ttf Font files to include PFRPG2 action symbols.
 [*]Remade Ruler Icon (Radial Menu)
-[*]Adjusted module loadedunloaded icon to not overlap with the player load blocked/allowed one
+[*]Adjusted module loaded/unloaded icon to not overlap with the player load blocked/allowed one
 [*]Added spell actions icons (Radial Menu))
 [*]Added 1px on top and bottom of the image window frame to have 2px black border and 1px brown border visible.
-[*]Added more icons to the radial menu and missing ones for them anual roll window.
+[*]Added more icons to the radial menu and missing ones for the manual roll window.
 [*]Adjusted several icons or remade them to be clearer.
-[*]
+[*]Made text input pop up in chat to show up higher, to not obscure text and dice rolls (thanks to Seanifurr for pointing that out)
 [*] 
 [/LIST]
 
