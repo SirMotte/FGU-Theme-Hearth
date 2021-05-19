@@ -23,7 +23,7 @@ jobs:
       uses: thedoctor0/zip-release@master
       with:
         filename: 'Theme_SirMotte_Hearth.ext'
-        exclusions: '*.git* *.github* /*node_modules/* .editorconfig body.md todo.txt *.ext'
+        exclusions: '*.git* *.github* /*node_modules/* .editorconfig body.md todo.txt *.ext .german_translation.txt .themecolors.txt'
     - name: Create Release
       uses: ncipollo/release-action@v1
       with:
