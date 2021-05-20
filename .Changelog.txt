@@ -30,8 +30,8 @@
 [B]Supported Extension changes:[/B]
 
 [LIST]
-[*] Fixed truncated font issue with important NPC active state by Death Indicator Extension
-[*]
+[*]Fixed truncated font issue with important NPC active state by Death Indicator Extension
+[*]Fixed Portals Extension by Diablo bob. Added missing frame for teleport prompts, that was definied within an other xml than the rest of the extensions graphics.
 [*]
 [*]
 [*]
