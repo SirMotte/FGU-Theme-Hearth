@@ -201,8 +201,8 @@
 		<icon name="pointer_square" file="graphics/pngs/icon_image_layer_pointer_square.png" />
 		<icon name="deletepointer" file="graphics/pngs/icon_image_layer_pointer_delete.png" />
 		<icon name="deleteallpointers" file="graphics/pngs/icon_image_layer_pointer_delete_all.png" />
-	<icon name="imagesizefit" file="" />
-	<icon name="imagesizefill" file="" />
+	<icon name="imagesizefit" file="graphics/pngs/icon_radial_zoomtofit.png" />
+	<icon name="imagesizefill" file="graphics/pngs/icon_radial_zoomtofill.png" />
 
 	<!-- Token Bag Control - REQUIRED -->
 	<icon name="arrangegrid" file="graphics/pngs/icon_tokenbag_grid.png" />
