@@ -551,6 +551,8 @@
 	<!-- Modify the radial menu to add a distinction between the share group and shared icon -->
 	<!-- This whole thing is super cludgy, since I can't find any place in CoreRPG that defines menu option 7,5 on images, which is the unshare options -->
 	<!-- Yet it's still there and works. Probably hardcoded and buried. -->
+	<string name="imagesizefill">Zoom To Fill</string>
+	<string name="imagesizefit">Zoom To Fit</string>
 	<windowclass name="imagewindow" merge="join" version="&gt;=4">
 		<script>
 			function onInit()
@@ -560,6 +562,9 @@
 				registerMenuItem(Interface.getString("windowshare"), "windowsharegroup", 7);
 				registerMenuItem(Interface.getString("windowshare"), "windowshare", 7, 7);
 				registerMenuItem(Interface.getString("windowunshare"), "windowunshare", 7, 5);
+
+				registerMenuItem(Interface.getString("imagesizefit"), "imagesizefit", 3, 3);
+				registerMenuItem(Interface.getString("imagesizefill"), "imagesizefill", 3, 4);
 			end
 
 			function onMenuSelection(item, subitem)
