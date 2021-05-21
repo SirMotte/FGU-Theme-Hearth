@@ -374,8 +374,10 @@
 				<offset>22,22,22,22</offset> 
 				<insideoffset>0,0,10,10</insideoffset> 
 			</framedef>
-
-	
+	<!--Ext: Toggle Lights-->		
+			<icon name="icon_togEffLights" file="graphics/extensions/mattekure/toggle_lights/torch.png" />
+	<!--Ext: Easy Lights-->
+			 <icon name="icon_easyLights" file="graphics/extensions/mattekure/easy_lights/light.png" />
 
 <!--Author: Celestian-->
 	<!--Ext: Audio Overseer-->
