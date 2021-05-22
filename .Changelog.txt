@@ -1,5 +1,8 @@
 [SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.7 - Doting Elderbrain [/B][/COLOR][/SIZE]
 
+[B]Added Ruleset Support:[/B]
+[*]Initial PFRPG2 support - WIP
+
 [B]Changelog:[/B]
 
 [LIST]
@@ -32,7 +35,7 @@
 [LIST]
 [*]Fixed truncated font issue with important NPC active state by Death Indicator Extension
 [*]Fixed Portals Extension by Diablobob. Added missing frame for teleport prompts, that was defined  within an other xml than the rest of the extensions graphics.
-[*]
-[*]
+[*]Changed Assistant GM Icon to be less random
+[*]Changed Death Indicator Important NPC CT Icon to be clearer and for better PFRPG2 compatibility
 [*]
 [*]
