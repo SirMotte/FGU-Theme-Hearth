@@ -36,6 +36,14 @@
 		<bottom rect="12,199,200,12" />
 		<bottomright rect="212,199,12,12" />
 		<!--<decal rect="207,212,17,14" />-->
-	</framedef>	
+	</framedef>
+	<!-- Spells -->
+	<icon name="caster_prep" file="graphics/pngs/caster_prep.png" />
+	<icon name="caster_points" file="graphics/pngs/caster_points.png" />
+	<icon name="caster_spontaneous" file="graphics/pngs/caster_spontaneous.png" />
+	<icon name="spell_cast" file="graphics/pngs/spell_cast.png" />
+	<icon name="spell_damage" file="graphics/pngs/spell_damage.png" />
+	<icon name="spell_heal" file="graphics/pngs/spell_heal.png" />
+	<icon name="spell_effect" file="graphics/pngs/spell_effect.png" />
 
 </root>
