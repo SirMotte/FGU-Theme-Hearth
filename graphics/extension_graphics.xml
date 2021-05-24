@@ -438,4 +438,40 @@
  		<!--Icons
 				<icon name="coinheadsicon" file="graphics/extensions/sean_veira/coin_flip/coin_heads_icon.png" />
     			<icon name="cointailsicon" file="graphics/extensions/sean_veira/coin_flip/coin_tails_icon.png" /> --> 
+
+<!--Author: superteddy57-->
+	<!--Ext: Theather of Mind-->
+ 		<!--Frames-->
+		 <framedef name="imagepaneltom">
+		<bitmap file="graphics/extensions/superteddy/tom/imagepanel.png" />
+		<offset>16,16,16,16</offset>
+		</framedef>
+		
+		<windowclass name="theaterofmindpanelwindow" merge="join" >
+			<frame>imagepaneltom</frame>
+			<sheetdata>
+                <wallpapercontrol name="image" />
+			</sheetdata>
+		</windowclass>
+
+			<framedef name="theaterofmind_base">
+				<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_base.png"/>
+				<offset>5,5,5,5</offset>
+			</framedef>
+
+			<framedef name="theaterofmind_allied">
+				<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_allied.png"/>
+				<offset>5,5,5,5</offset>
+			</framedef>
+
+			<framedef name="theaterofmind_foe">
+				<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_foe.png"/>
+				<offset>5,5,5,5</offset>
+			</framedef>
+		<!--Icons-->
+			<icon name="theaterofmind_unseen" file="graphics/extensions/superteddy/tom/Unseen_icon24x24.png" />
+			<icon name="theaterofmind_active" file="graphics/extensions/superteddy/tom/TotM_turn.png" />
+			<icon name="button_tracker" file="graphics/extensions/superteddy/tom/button_tracker.png" />
+			<icon name="button_tracker_down" file="graphics/extensions/superteddy/tom/button_tracker_down.png" />
+
 </root>
