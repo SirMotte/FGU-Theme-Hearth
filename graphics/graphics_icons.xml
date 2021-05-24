@@ -341,12 +341,18 @@
 	<icon name="cond_resistance" file="graphics/pngs/token_cond_resist.png" />
 	<icon name="cond_vulnerable" file="graphics/pngs/token_cond_vuln.png" />
  -->
+ <!-- Token Bag -->
+	<icon name="tokenbag" file="graphics/pngs/tokenbag.png" />
+	<icon name="tokenbagup" file="graphics/pngs/tokenbag_up.png" />
+	<icon name="tokenbagtop" file="graphics/pngs/tokenbag_top.png" />
+	<icon name="tokenbagshared" file="graphics/pngs/tokenbag_shared.png" />
+	
 	<!-- Tokens - Health -->
-<!--
+
 	<icon name="healthbar" version="&gt;=4" file="graphics/pngs/token_healthbar_fgu.png" />
 	<icon name="healthbar" version="&lt;4" file="graphics/pngs/token_healthbar.png" />
 	<icon name="healthdot" file="graphics/pngs/token_healthdot.png" />
--->
+
 	<!-- Misc -->
 	<icon name="button_speak" file="graphics/pngs/button_speak.png" />
 	<icon name="button_speak_down" file="graphics/pngs/button_speak_down.png" />
