@@ -33,6 +33,11 @@
 	<icon name="button_enc_refreshxp" file="graphics/pngs/button_ctnextround.png" />
 	<icon name="button_enc_refreshxp_down" file="graphics/pngs/button_ctnextround_down.png" />
 	
+	<!--Assetmenu-->
+	<icon name="button_asset_prev" file="graphics/pngs/button_asset_prev.png"/>
+	<icon name="button_asset_prev" file="graphics/pngs/button_asset_next.png"/>
+	<icon name="asset_preview" file="graphics/pngs/asset_preview.png"/>
+	
 	<!-- Override CoreRPG -->
 	<!-- Common -->
 	<icon name="button_close" file="graphics/pngs/button_close.png" />
