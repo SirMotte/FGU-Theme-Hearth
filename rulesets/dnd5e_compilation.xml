@@ -22,7 +22,7 @@
 		</script>
 	</windowclass>
 
-	<!-- Source: campaign/record_char_main.xml -->
+	<!-- Source: campaign/record_char_main.xml
 	<windowclass name="charsheet_classes" merge="join">
 		<sheetdata>
 			<basicnumber name="expneeded">
@@ -43,7 +43,7 @@
 				<child><backcolor>1A40301E</backcolor></child>
 			</list_text>
 		</sheetdata>
-	</windowclass>
+	</windowclass>-->
 	<windowclass name="charsheet_hd" merge="join">
 		<sheetdata>
 			<numbercontrol name="hdcurrent">
@@ -126,5 +126,35 @@
 				</script>
 			</button_ct_menu>
 		</sheetdata>
+	</windowclass>
+
+	<!-- Source: campaign/record_power.xml -->
+	<windowclass name="power_item" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if windowlist then
+					if not windowlist.isReadOnly() then
+						registerMenuItem(Interface.getString("power_menu_addaction"), "radial_create_action", 3);
+						registerMenuItem(Interface.getString("list_menu_deleteconfirm"), "radial_delete_action_confirm", 6, 7);
+
+						registerMenuItem(Interface.getString("power_menu_reparse"), "radial_reparse_spell", 4);
+					end
+				end
+			end
+		</script>
+	</windowclass>
+	<windowclass name="power_action" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				registerMenuItem(Interface.getString("power_menu_actiondelete"), "radial_delete_action", 4);
+				registerMenuItem(Interface.getString("list_menu_deleteconfirm"), "radial_delete_action_confirm", 4, 3);
+			end
+		</script>
 	</windowclass>
 </root>

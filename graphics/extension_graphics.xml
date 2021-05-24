@@ -94,15 +94,31 @@
   			<icon name="icon_death_indicator" file="graphics/extensions/silent_ruin/death_indicator/icon.png" /> 
   			<icon name="icon_death_indicator_token" file="graphics/extensions/silent_ruin/death_indicator/death_indicator.png" /> 
 		<!--Define the link / shield icons for important NPCs in the combat tracker--> 
-  			<icon name="button_shield" file="graphics/extensions/silent_ruin/death_indicator/button_shield.png" /> 
-  			<icon name="button_shield_down" file="graphics/extensions/silent_ruin/death_indicator/button_shield_down.png" /> 
-  			<icon name="button_shield_empty" file="graphics/extensions/silent_ruin/death_indicator/button_shield_empty.png" />
+  			<icon name="button_shield" file="graphics/extensions/silent_ruin/death_indicator/button_shield_SR.png" /> 
+  			<icon name="button_shield_down" file="graphics/extensions/silent_ruin/death_indicator/button_shield_down_SR.png" /> 
+  			<icon name="button_shield_empty" file="graphics/extensions/silent_ruin/death_indicator/button_shield_empty_SR.png" />
 		<!--Font--> 
 			<font name="tokenbag_empty_font">
 				<fgffile name="graphics/fonts/italic-10.fgf" />
 				<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="15" />
 				<color value="#DDDDDD" />
 			</font>
+				<font name="sheetlabelminideathindicator">
+				<fgffile name="graphics/fonts/regular-8.fgf" />
+				<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
+				<color value="#DDDDDD" />
+			</font>
+			
+			<windowclass name="npc_combat" merge="join">
+				<sheetdata>
+					<stringcontrol name="npc_importantdeath_label">
+						<anchored to="actext" position="right" offset="-85,0" width="70" />
+						<font>sheetlabelminideathindicator</font>
+						<nodrag />
+						<static textres="str_importantdeath_npc" />
+					</stringcontrol>
+				</sheetdata>
+			</windowclass>
 		<!--Define the icons for the blood splat images
   			<icon name="blood_01" file="graphics/extensions/silent_ruin/death_indicator/blood_01.png" /> 
   			<icon name="blood_02" file="graphics/extensions/silent_ruin/death_indicator/blood_02.png" /> 
@@ -296,13 +312,19 @@
 
 <!--Author: Diablo Bob-->
 	<!--Ext: Portals Revamped-->
-		<!--Icons-->
+		<!--Icons-->	
+			<icon name="token_empty" file="graphics/extensions/diablobob/portals/token_empty.png" />
 			<icon name="button_teleport_yes" file="graphics/extensions/diablobob/portals/button_teleport_yes.png" />
 			<icon name="button_teleport_yes_down" file="graphics/extensions/diablobob/portals/button_teleport_yes_down.png" />
 			<icon name="button_teleport_no" file="graphics/extensions/diablobob/portals/button_teleport_no.png" />
 			<icon name="button_teleport_no_down" file="graphics/extensions/diablobob/portals/button_teleport_no_down.png" />
 		<!--Frame-->
 			<framedef name="teleport_prompt">
+				<bitmap file="graphics/extensions/diablobob/portals/teleport_prompt.png" />
+				<offset>50,50,45,45</offset>
+				<insideoffset>0,5,12,14</insideoffset>
+			</framedef>
+			<framedef name="teleport_prompt_frame">
 				<bitmap file="graphics/extensions/diablobob/portals/teleport_prompt.png" />
 				<offset>50,50,45,45</offset>
 				<insideoffset>0,5,12,14</insideoffset>
@@ -352,8 +374,10 @@
 				<offset>22,22,22,22</offset> 
 				<insideoffset>0,0,10,10</insideoffset> 
 			</framedef>
-
-	
+	<!--Ext: Toggle Lights-->		
+			<icon name="icon_togEffLights" file="graphics/extensions/mattekure/toggle_lights/torch.png" />
+	<!--Ext: Easy Lights-->
+			 <icon name="icon_easyLights" file="graphics/extensions/mattekure/easy_lights/light.png" />
 
 <!--Author: Celestian-->
 	<!--Ext: Audio Overseer-->
@@ -414,4 +438,52 @@
  		<!--Icons
 				<icon name="coinheadsicon" file="graphics/extensions/sean_veira/coin_flip/coin_heads_icon.png" />
     			<icon name="cointailsicon" file="graphics/extensions/sean_veira/coin_flip/coin_tails_icon.png" /> --> 
+
+<!--Author: superteddy57-->
+	<!--Ext: Theather of Mind-->
+ 		<!--Frames-->
+		 <framedef name="imagepaneltom">
+		<bitmap file="graphics/extensions/superteddy/tom/imagepaneltom.png" />
+		<offset>16,16,16,16</offset>
+		</framedef>
+
+		<windowclass name="theaterofmindpanelwindow" merge="join" >
+			<frame>imagepaneltom</frame>
+			<sheetdata>
+                <wallpapercontrol name="image" />
+			</sheetdata>
+		</windowclass>
+
+			<framedef name="theaterofmind_base">
+				<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_base.png"/>
+				<offset>5,5,5,5</offset>
+			</framedef>
+
+			<framedef name="theaterofmind_allied">
+				<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_allied.png"/>
+				<offset>5,5,5,5</offset>
+			</framedef>
+
+			<framedef name="theaterofmind_foe">
+				<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_foe.png"/>
+				<offset>5,5,5,5</offset>
+			</framedef>
+
+		<!--Icons-->
+			<icon name="theaterofmind_unseen" file="graphics/extensions/superteddy/tom/Unseen_icon24x24.png" />
+			<icon name="theaterofmind_active" file="graphics/extensions/superteddy/tom/TotM_turn.png" />
+			<icon name="button_tracker" file="graphics/extensions/superteddy/tom/button_tracker.png" />
+			<icon name="button_tracker_down" file="graphics/extensions/superteddy/tom/button_tracker_down.png" />
+
+		<windowclass name="ct_theaterofmind_combat" merge="join">
+			<sheetdata>
+				<close>
+				<anchored>
+					<top offset="-20" />
+					<right offset="-8" />
+				</anchored>
+				</close>
+			</sheetdata>
+		</windowclass>
+
 </root>
