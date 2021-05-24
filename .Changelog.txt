@@ -43,10 +43,6 @@ Enjoy!
 [*]Easy Lights by Mattekure
 [*]Toggle Effect Lights by Mattekure
 [*]Theather of Mind by superteddy57
-[*]
-[*]
-[*]
-[*] 
 [/LIST]
 
 [B]Supported Extension changes:[/B]
@@ -56,8 +52,6 @@ Enjoy!
 [*]Fixed Portals Extension by Diablobob. Added missing frame for teleport prompts, that was defined within an other xml than the rest of the extensions graphics.
 [*]Changed Assistant GM Icon to be less random
 [*]Changed Death Indicator Important NPC CT Icon to be clearer and for better PFRPG2 compatibility
-[*]
-[*]
 
 Known Issue(s) introduced with this update:
 
