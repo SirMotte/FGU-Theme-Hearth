@@ -34,6 +34,8 @@ Enjoy!
 [*]Simplified Bow Icon in actions tab, to be more in line with the overal design.
 [*]Adjusted Health Bar graphics
 [*]Made link symbol slightly smaller again. Too many instances where it looked misaligned.
+[*]Removed duplicate entries in xml files.
+[*]Darkened CT Entryboxes a little for better readability.
 [/LIST]
 
 [B]Added Extension Support:[/B]
