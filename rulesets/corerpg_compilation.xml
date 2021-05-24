@@ -38,7 +38,7 @@
 			<disabled />
 		</genericcontrol>
 	</template>
-	<!--Image Window Background foreground-->
+	<!--Image Window Background foreground
 	<template name="imagedata_record_step">
 		<imagedatacontrol>
 			<invisible />
