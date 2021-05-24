@@ -220,7 +220,7 @@
 
 	<icon name="tokenbagzoommenu" file="graphics/pngs/icon_tokenbag_zoom.png" />
 	<icon name="assetviewnext" file="graphics/pngs/assetpage_next.png" />
-	<icon name="assetviewprev" file="graphics/pngs/assetpage_prev" />
+	<icon name="assetviewprev" file="graphics/pngs/assetpage_prev.png" />
 
 	<!-- Window List Control - REQUIRED -->
 	<icon name="listinsert" file="graphics/pngs/icon_list_insert.png" />
