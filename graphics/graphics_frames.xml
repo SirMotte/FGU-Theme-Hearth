@@ -354,7 +354,6 @@
 			<iconcolor>FFFFFF</iconcolor>
 		</buttoncontrol>
 	</template>
-  
 
 <!-- Lists -->
 	<framedef name="rowshade">
@@ -611,4 +610,5 @@
 		<bitmap file="graphics/pngs/fielddark.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
+
 </root>

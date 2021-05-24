@@ -38,7 +38,8 @@
 			<disabled />
 		</genericcontrol>
 	</template>
-	<!--<template name="imagedata_record_step">
+	<!--Image Window Background foreground
+	<template name="imagedata_record_step">
 		<imagedatacontrol>
 			<invisible />
 			<color>EBDDBA</color>
@@ -52,6 +53,7 @@
 			<backcolor>232323</backcolor>
 		</imagedatacontrol>
 	</template>-->
+	<!--Image Window Background foreground end-->
 	<template name="string_record_name">
 		<basicstring>
 			<anchored>
@@ -549,6 +551,12 @@
 	<!-- Modify the radial menu to add a distinction between the share group and shared icon -->
 	<!-- This whole thing is super cludgy, since I can't find any place in CoreRPG that defines menu option 7,5 on images, which is the unshare options -->
 	<!-- Yet it's still there and works. Probably hardcoded and buried. -->
+	<string name="imagesizefill">Zoom To Fill</string>
+	<string name="imagesizefit">Zoom To Fit</string>
+	<string name="image_grid_hexrow">Hex Row Grid</string>
+	<string name="image_grid_hexcolumn">Hex Column Grid</string>
+	<string name="image_grid_square">Squre Grid</string>
+	<string name="image_grid_isometric">Isometric Grid</string>
 	<windowclass name="imagewindow" merge="join" version="&gt;=4">
 		<script>
 			function onInit()
@@ -558,6 +566,15 @@
 				registerMenuItem(Interface.getString("windowshare"), "windowsharegroup", 7);
 				registerMenuItem(Interface.getString("windowshare"), "windowshare", 7, 7);
 				registerMenuItem(Interface.getString("windowunshare"), "windowunshare", 7, 5);
+
+				registerMenuItem(Interface.getString("imagesizefill"), "imagesizefill", 3, 4);
+
+				registerMenuItem(Interface.getString("imagesizefill"), "imagesizefill", 3, 4);
+
+				registerMenuItem(Interface.getString("image_grid_isometric"), "image_grid_isometric", 4, 6, 4);
+				registerMenuItem(Interface.getString("image_grid_square"), "image_grid_square", 4, 6, 5);
+				registerMenuItem(Interface.getString("image_grid_hexcolumn"), "image_grid_hexcolumn", 4, 6, 6);
+				registerMenuItem(Interface.getString("image_grid_hexrow"), "image_grid_hexrow", 4, 6, 7);
 			end
 
 			function onMenuSelection(item, subitem)

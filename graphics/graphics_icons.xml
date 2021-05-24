@@ -1,6 +1,154 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
+	<!-- Common -->
+	<icon name="button_dialog_ok" file="graphics/pngs/button_dialog_ok.png" />
+	<icon name="button_dialog_ok_down" file="graphics/pngs/button_dialog_ok_down.png" />
+	<icon name="button_dialog_roll" file="graphics/pngs/button_dialog_roll.png" />
+	<icon name="button_dialog_roll_down" file="graphics/pngs/button_dialog_roll_down.png" />
+	
+	<!-- Character wizard -->
+	<icon name="button_alert" file="graphics/pngs/button_window_alert.png" />	
+
+	<!-- Character Sheet -->
+	<icon name="button_prof" file="graphics/pngs/button_prof.png" />
+	<icon name="button_prof_down" file="graphics/pngs/button_prof_down.png" />
+	<icon name="button_prof_double" file="graphics/pngs/button_prof_double.png" />
+	<icon name="button_prof_half" file="graphics/pngs/button_prof_half.png" />
+	<icon name="button_weapon" file="graphics/pngs/button_weapon.png" />
+	<icon name="button_weapon_down" file="graphics/pngs/button_weapon_down.png" />
+	<icon name="button_star" file="graphics/pngs/button_star.png" />
+	<icon name="button_star_down" file="graphics/pngs/button_star_down.png" />
+	<icon name="token_empty" file="graphics/pngs/token_empty.png" />
+	<icon name="char_encumbrance" file="graphics/pngs/char_encumbrance.png" />
+	<icon name="char_inv_carried_header" file="graphics/pngs/char_inv_carried_header.png" />
+	<icon name="char_weapon_melee" file="graphics/pngs/char_weapon_melee.png" />
+	<icon name="char_weapon_ranged" file="graphics/pngs/char_weapon_ranged.png" />
+	<icon name="char_weapon_thrown" file="graphics/pngs/char_weapon_thrown.png" />
+	<icon name="char_name" file="graphics/pngs/char_name.png" />	
+	<icon name="char_race" file="graphics/pngs/char_race.png" />
+	<icon name="char_background" file="graphics/pngs/char_background.png" />
+	<icon name="char_class" file="graphics/pngs/char_class.png" />
+	<icon name="char_stats" file="graphics/pngs/char_stats.png" />
+	<icon name="char_init" file="graphics/pngs/char_init.png" />
+	<icon name="char_attacks" file="graphics/pngs/char_attacks.png" />
+	<icon name="char_powers" file="graphics/pngs/char_powers.png" />
+	<icon name="char_senses" file="graphics/pngs/char_senses.png" />
+	<icon name="char_abilities" file="graphics/pngs/char_abilities.png" />
+	<icon name="char_abilities_red" file="graphics/pngs/char_abilities_red.png" />
+	<icon name="char_abilities_blue" file="graphics/pngs/char_abilities_blue.png" />
+	<icon name="char_abilities_orange" file="graphics/pngs/char_abilities_orange.png" />
+	<icon name="char_abilities_purple" file="graphics/pngs/char_abilities_purple.png" />
+	<icon name="char_abilities_green" file="graphics/pngs/char_abilities_green.png" />
+	<icon name="char_inventory" file="graphics/pngs/char_inventory.png" />
+	<icon name="char_treasure" file="graphics/pngs/char_treasure.png" />
+	<icon name="char_notes" file="graphics/pngs/char_notes.png" />
+	<icon name="button_char_inv_none" file="graphics/pngs/button_inv_none.png" />
+	<icon name="button_char_inv_carried" file="graphics/pngs/button_inv_carried.png" />
+	<icon name="button_char_inv_equipped" file="graphics/pngs/button_inv_equipped.png" />
+	<icon name="minimized_char" file="graphics/pngs/minimized_char.png" />
+	<icon name="minimized_charattacks" file="graphics/pngs/minimized_charattacks.png" />
+	<icon name="minimized_charability" file="graphics/pngs/minimized_charability.png" />
+	<icon name="minimized_charpowers" file="graphics/pngs/minimized_charpowers.png" />
+	<icon name="minimized_charequipment" file="graphics/pngs/minimized_charequipment.png" />
+	<icon name="minimized_charnotes" file="graphics/pngs/minimized_charnotes.png" />
+	<icon name="char_armorcheck" file="graphics/pngs/char_armorcheck.png" />
+	
+	<!-- Encounters -->
+	<icon name="button_enc_refreshcr" file="graphics/pngs/button_ctnextround.png" />
+	<icon name="button_enc_refreshcr_down" file="graphics/pngs/button_ctnextround_down.png" />
+	<icon name="button_enc_refreshxp" file="graphics/pngs/button_ctnextround.png" />
+	<icon name="button_enc_refreshxp_down" file="graphics/pngs/button_ctnextround_down.png" />
+	
+	<!--Assetmenu-->
+	<icon name="button_asset_prev" file="graphics/pngs/button_asset_prev.png"/>
+	<icon name="button_asset_next" file="graphics/pngs/button_asset_next.png"/>
+	<icon name="asset_preview" file="graphics/pngs/asset_preview.png"/>
+	
+	<!-- Override CoreRPG -->
+	<!-- Common -->
+	<icon name="button_close" file="graphics/pngs/button_close.png" />
+	<icon name="button_close_down" file="graphics/pngs/button_close_down.png" />
+	<icon name="button_close_hover" file="graphics/pngs/button_close_hover.png" />
+	<icon name="button_help" file="graphics/pngs/button_help.png" />
+	<icon name="button_help_down" file="graphics/pngs/button_help_down.png" />
+	<icon name="button_help_hover" file="graphics/pngs/button_help_hover.png" />
+	<icon name="button_sizeup" file="graphics/pngs/button_sizeup.png" />
+	<icon name="button_sizeup_down" file="graphics/pngs/button_sizeup_down.png" />
+	<icon name="button_sizeup_hover" file="graphics/pngs/button_sizeup_hover.png" />
+	<icon name="button_sizedown" file="graphics/pngs/button_sizedown.png" />
+	<icon name="button_sizedown_down" file="graphics/pngs/button_sizedown_down.png" />
+	<icon name="button_sizedown_hover" file="graphics/pngs/button_sizedown_hover.png" />
+	<icon name="button_link" file="graphics/pngs/button_link.png" />
+	<icon name="button_link_down" file="graphics/pngs/button_link_down.png" />
+	<icon name="button_link_empty" file="graphics/pngs/button_link_empty.png" />
+	<icon name="button_link_share" file="graphics/pngs/button_link_share.png" />
+	<icon name="button_link_share_down" file="graphics/pngs/button_link_share_down.png" />
+	<icon name="button_expand" file="graphics/pngs/button_plus.png" />
+	<icon name="button_expand_down" file="graphics/pngs/button_plus_down.png" />
+	<icon name="button_collapse" file="graphics/pngs/button_minus.png" />
+	<icon name="button_collapse_down" file="graphics/pngs/button_minus_down.png" />
+	<icon name="button_dialog_cancel" file="graphics/pngs/button_dialog_cancel.png" />
+	<icon name="button_dialog_cancel_down" file="graphics/pngs/button_dialog_cancel_down.png" />
+	
+		
+	
+	<icon name="button_ct" file="graphics/pngs/button_ct.png" />
+	<icon name="button_ct_down" file="graphics/pngs/button_ct_down.png" />
+	<icon name="button_partysheet" file="graphics/pngs/button_partysheet.png" />
+	<icon name="button_partysheet_down" file="graphics/pngs/button_partysheet_down.png" />
+	<icon name="button_options" file="graphics/pngs/button_options.png" />
+	<icon name="button_options_down" file="graphics/pngs/button_options_down.png" />
+	<icon name="button_calendar" file="graphics/pngs/button_calendar.png" />
+	<icon name="button_calendar_down" file="graphics/pngs/button_calendar_down.png" />
+	<icon name="button_color" file="graphics/pngs/button_color.png" />
+	<icon name="button_color_down" file="graphics/pngs/button_color_down.png" />
+	<icon name="button_light" file="graphics/pngs/button_light.png" />
+	<icon name="button_light_down" file="graphics/pngs/button_light_down.png" />
+	<icon name="button_modifiers" file="graphics/pngs/button_modifiers.png" />
+	<icon name="button_modifiers_down" file="graphics/pngs/button_modifiers_down.png" />
+	<icon name="button_effects" file="graphics/pngs/button_effects.png" />
+	<icon name="button_effects_down" file="graphics/pngs/button_effects_down.png" />
+	
+	<!-- Ruleset: 4E -->
+	<icon name="button_tracker" file="graphics/pngs/button_tracker.png" />
+	<icon name="button_tracker_down" file="graphics/pngs/button_tracker_down.png" />
+
+	<!-- Combat Tracker -->
+	<icon name="button_fist" file="graphics/pngs/button_fist.png" />
+	<icon name="button_fist_down" file="graphics/pngs/button_fist_down.png" />
+	<icon name="button_sword" file="graphics/pngs/button_sword.png" />
+	<icon name="button_sword_down" file="graphics/pngs/button_sword_down.png" />
+	<icon name="button_shield" file="graphics/pngs/button_shield.png" />
+	<icon name="button_shield_down" file="graphics/pngs/button_shield_down.png" />
+	<icon name="button_space" file="graphics/pngs/button_space.png" />
+	<icon name="button_space_down" file="graphics/pngs/button_space_down.png" />
+	<icon name="button_effect" file="graphics/pngs/button_effect.png" />
+	<icon name="button_effect_down" file="graphics/pngs/button_effect_down.png" />
+	<icon name="button_section_targeting" file="graphics/pngs/button_section_targeting.png" />
+	<icon name="button_section_targeting_down" file="graphics/pngs/button_section_targeting_down.png" />
+	<icon name="button_menu" file="graphics/pngs/button_menu.png" />
+	<icon name="button_menu_down" file="graphics/pngs/button_menu.png" />
+	<icon name="turn_flag" file="graphics/pngs/turn_flag.png" />
+	<icon name="ct_active" file="graphics/pngs/ct_active.png" />
+	<icon name="ct_passive" file="graphics/pngs/ct_passive.png" />
+	<icon name="ct_faction_empty" file="graphics/pngs/ct_faction_empty.png" />
+	<icon name="ct_faction_friend" file="graphics/pngs/ct_faction_friend.png" />
+	<icon name="ct_faction_neutral" file="graphics/pngs/ct_faction_neutral.png" />
+	<icon name="ct_faction_foe" file="graphics/pngs/ct_faction_foe.png" />
+	<icon name="button_targeting" file="graphics/pngs/button_targeting.png" />
+	<icon name="button_targeting_down" file="graphics/pngs/button_targeting_down.png" />
+	<icon name="drag_targeting" file="graphics/pngs/drag_targeting.png" />
+	<icon name="icon_targeting_off" file="graphics/pngs/icon_targeting_off.png" />
+	<icon name="button_ctnextround" file="graphics/pngs/button_ctnextround.png" />
+	<icon name="button_ctnextround_down" file="graphics/pngs/button_ctnextround_down.png" />
+	<icon name="button_ctnextactor" file="graphics/pngs/button_ctnextactor.png" />
+	<icon name="button_ctnextactor_down" file="graphics/pngs/button_ctnextactor_down.png" />
+		
+	<!-- Ruleset: SavageWorlds -->
+	<icon name="button_tools" file="graphics/pngs/button_tools.png"/>
+	<icon name="button_tools_down" file="graphics/pngs/button_tools_down.png"/>
+	
 <!-- fgpro override CoreRPG & 5E ruleset graphics -->
 	<!--Die-->
 	<icon name="d4icon" file="graphics/pngs/d4_icon.png" />
@@ -38,10 +186,6 @@
 	<icon name="d12picon" file="graphics/pngs/d12_picon.png" />
 	<icon name="d20picon" file="graphics/pngs/d20_picon.png" />
 
-	<!-- Buttons -->
-
-	<icon name="button_action_attack" file="graphics/pngs/button_action_attack.png" />
-	<icon name="button_action_attack_down" file="graphics/pngs/button_action_attack_down.png" />
 	<icon name="button_action_damage" file="graphics/pngs/button_action_damage.png" />
 	<icon name="button_action_damage_down" file="graphics/pngs/button_action_damage_down.png" />
 	<icon name="button_action_effect" file="graphics/pngs/button_action_effect.png" />
@@ -55,42 +199,9 @@
 	<icon name="button_clear_down" file="graphics/pngs/button_clear_down.png" />
 	<icon name="button_roll" file="graphics/pngs/button_roll.png" />
 	<icon name="button_roll_down" file="graphics/pngs/button_roll_down.png" />
-	<!-- Campaign Records -->
-	<icon name="record_intact" file="graphics/pngs/record_intact.png" />
-	<icon name="record_dirty" file="graphics/pngs/record_dirty.png" />
-	<!-- Character Sheet -->
-	<icon name="char_weapon_melee" file="graphics/pngs/char_weapon_melee.png" />
-	<icon name="char_weapon_ranged" file="graphics/pngs/char_weapon_ranged.png" />
-	<icon name="char_weapon_thrown" file="graphics/pngs/char_weapon_thrown.png" />
-	<icon name="char_name" file="graphics/pngs/char_name.png" />	
-	<icon name="char_race" file="graphics/pngs/char_race.png" />
-	<icon name="char_background" file="graphics/pngs/char_background.png" />
-	<icon name="char_class" file="graphics/pngs/char_class.png" />
-	<icon name="char_stats" file="graphics/pngs/char_stats.png" />
-	<icon name="char_init" file="graphics/pngs/char_init.png" />
-	<icon name="char_attacks" file="graphics/pngs/char_attacks.png" />
-	<icon name="char_powers" file="graphics/pngs/char_powers.png" />
-	<icon name="char_senses" file="graphics/pngs/char_senses.png" />
-	<icon name="char_abilities" file="graphics/pngs/char_abilities.png" />
-	<icon name="char_abilities_red" file="graphics/pngs/char_abilities_red.png" />
-	<icon name="char_abilities_blue" file="graphics/pngs/char_abilities_blue.png" />
-	<icon name="char_abilities_orange" file="graphics/pngs/char_abilities_orange.png" />
-	<icon name="char_abilities_purple" file="graphics/pngs/char_abilities_purple.png" />
-	<icon name="char_abilities_green" file="graphics/pngs/char_abilities_green.png" />
-	<icon name="char_inventory" file="graphics/pngs/char_inventory.png" />
-	<icon name="char_treasure" file="graphics/pngs/char_treasure.png" />
-	<icon name="char_encumbrance" file="graphics/pngs/char_encumbrance.png" />
-	<icon name="char_notes" file="graphics/pngs/char_notes.png" />
-	<icon name="button_char_inv_none" file="graphics/pngs/button_inv_none.png" />
-	<icon name="button_char_inv_carried" file="graphics/pngs/button_inv_carried.png" />
-	<icon name="button_char_inv_equipped" file="graphics/pngs/button_inv_equipped.png" />
-	<icon name="minimized_char" file="graphics/pngs/minimized_char.png" />
-	<icon name="minimized_charattacks" file="graphics/pngs/minimized_charattacks.png" />
-	<icon name="minimized_charability" file="graphics/pngs/minimized_charability.png" />
-	<icon name="minimized_charpowers" file="graphics/pngs/minimized_charpowers.png" />
-	<icon name="minimized_charequipment" file="graphics/pngs/minimized_charequipment.png" />
-	<icon name="minimized_charnotes" file="graphics/pngs/minimized_charnotes.png" />
-	<icon name="char_armorcheck" file="graphics/pngs/char_armorcheck.png" />
+
+
+	
 	<!-- Chat window -->
 	<icon name="chat_speak" file="graphics/pngs/chat_speak.png" />
 	<icon name="chat_story" file="graphics/pngs/chat_story.png" />
@@ -102,35 +213,6 @@
 	<icon name="indicator_prompt" file="graphics/pngs/indicator_prompt.png" />
 	<icon name="gmdieicon" file="graphics/pngs/gmdie_icon.png" />
 	<icon name="indicator_whisper" file="graphics/pngs/indicator_whisper.png" />
-	<!-- Combat Tracker -->
-		<!-- Combat tracker -->
-	<icon name="turn_flag" file="graphics/pngs/turn_flag.png" />
-	<icon name="ct_active" file="graphics/pngs/ct_active.png" />
-	<icon name="ct_passive" file="graphics/pngs/ct_passive.png" />
-	<icon name="ct_faction_empty" file="graphics/pngs/ct_faction_empty.png" />
-	<icon name="ct_faction_friend" file="graphics/pngs/ct_faction_friend.png" />
-	<icon name="ct_faction_neutral" file="graphics/pngs/ct_faction_neutral.png" />
-	<icon name="ct_faction_foe" file="graphics/pngs/ct_faction_foe.png" />
-	<icon name="button_sword" file="graphics/pngs/button_sword.png" />
-	<icon name="button_sword_down" file="graphics/pngs/button_sword_down.png" />
-	<icon name="button_shield" file="graphics/pngs/button_shield.png" />
-	<icon name="button_shield_down" file="graphics/pngs/button_shield_down.png" />
-	<icon name="button_space" file="graphics/pngs/button_space.png" />
-	<icon name="button_space_down" file="graphics/pngs/button_space_down.png" />
-	<icon name="button_effect" file="graphics/pngs/button_effect.png" />
-	<icon name="button_effect_down" file="graphics/pngs/button_effect_down.png" />
-	<icon name="button_section_targeting" file="graphics/pngs/button_section_targeting.png" />
-	<icon name="button_section_targeting_down" file="graphics/pngs/button_section_targeting_down.png" />
-	<icon name="button_targeting" file="graphics/pngs/button_targeting.png" />
-	<icon name="button_targeting_down" file="graphics/pngs/button_targeting_down.png" />
-	<icon name="drag_targeting" file="graphics/pngs/drag_targeting.png" />
-	<icon name="icon_targeting_off" file="graphics/pngs/icon_targeting_off.png" />
-	<icon name="button_menu" file="graphics/pngs/button_menu.png" />
-	<icon name="button_menu_down" file="graphics/pngs/button_menu_down.png" />
-	<icon name="button_ctnextround" file="graphics/pngs/button_ctnextround.png" />
-	<icon name="button_ctnextround_down" file="graphics/pngs/button_ctnextround_down.png" />
-	<icon name="button_ctnextactor" file="graphics/pngs/button_ctnextactor.png" />
-	<icon name="button_ctnextactor_down" file="graphics/pngs/button_ctnextactor_down.png" />
 	
 	<!-- Common -->
 	<icon name="actions" file="graphics/pngs/actions.png" />
@@ -148,40 +230,18 @@
 	<icon name="tabtop" file="graphics/pngs/tabtop.png" />
 	<icon name="button_checkon" file="graphics/pngs/button_checkon.png" />
 	<icon name="button_checkoff" file="graphics/pngs/button_checkoff.png" />
-	<icon name="window_resize" file="graphics/pngs/window_resize.png" />
-	<icon name="window_resize_filled" file="graphics/pngs/window_resize_filled.png" />
 	<icon name="button_expand" file="graphics/pngs/button_expand.png" />
 	<icon name="button_expand_w" file="graphics/pngs/button_expand_w.png" />
 	<icon name="footer_wide" file="graphics/pngs/footer_wide.png" />
 	<icon name="footer_narrow" file="graphics/pngs/footer_narrow.png" />
-	<icon name="button_close" file="graphics/pngs/button_close.png" />
-	<icon name="button_close_down" file="graphics/pngs/button_close_down.png" />
-	<icon name="button_close_hover" file="graphics/pngs/button_close_hover.png" />
-	<icon name="button_help" file="graphics/pngs/button_help.png" />
-	<icon name="button_help_down" file="graphics/pngs/button_help_down.png" />
-	<icon name="button_help_hover" file="graphics/pngs/button_help_hover.png" />
-	<icon name="button_sizeup" file="graphics/pngs/button_sizeup.png" />
-	<icon name="button_sizeup_down" file="graphics/pngs/button_sizeup_down.png" />
-	<icon name="button_sizeup_hover" file="graphics/pngs/button_sizeup_hover.png" />
-	<icon name="button_sizedown" file="graphics/pngs/button_sizedown.png" />
-	<icon name="button_sizedown_down" file="graphics/pngs/button_sizedown_down.png" />
-	<icon name="button_sizedown_hover" file="graphics/pngs/button_sizedown_hover.png" />
-	<icon name="button_link" file="graphics/pngs/button_link.png" />
-	<icon name="button_link_down" file="graphics/pngs/button_link_down.png" />
-	<icon name="button_link_empty" file="graphics/pngs/button_link_empty.png" />
-	<icon name="button_link_share" file="graphics/pngs/button_link_share.png" />
-	<icon name="button_link_share_down" file="graphics/pngs/button_link_share_down.png" />
-	<icon name="button_checkon" file="graphics/pngs/button_checkon.png" />
-	<icon name="button_checkoff" file="graphics/pngs/button_checkoff.png" />
-	<icon name="button_arrowdown" file="graphics/pngs/button_arrowdown.png" />
-	<icon name="button_arrowdown_down" file="graphics/pngs/button_arrowdown_down.png" />
+	
+	
 	<icon name="tempmod" file="graphics/pngs/tempmod.png" />
 
 	
 	<icon name="button_add" file="graphics/pngs/button_add.png" />
 	<icon name="button_add_down" file="graphics/pngs/button_add_down.png" />
-	<icon name="button_edit" file="graphics/pngs/button_edit.png" />
-	<icon name="button_edit_down" file="graphics/pngs/button_edit_down.png" />
+	
 	<icon name="button_delete" file="graphics/pngs/button_delete.png" />
 	<icon name="button_delete_down" file="graphics/pngs/button_delete_down.png" />
 	<icon name="button_deleteconfirm" file="graphics/pngs/button_deleteconfirm.png" />
@@ -201,32 +261,7 @@
 
 	<icon name="button_action_attack" file="graphics/pngs/button_action_attack.png" />
 	<icon name="button_action_attack_down" file="graphics/pngs/button_action_attack_down.png" />
-	<icon name="button_action_damage" file="graphics/pngs/button_action_damage.png" />
-	<icon name="button_action_damage_down" file="graphics/pngs/button_action_damage_down.png" />
-	<icon name="button_action_heal" file="graphics/pngs/button_action_heal.png" />
-	<icon name="button_action_heal_down" file="graphics/pngs/button_action_heal_down.png" />
-	<icon name="button_action_effect" file="graphics/pngs/button_action_effect.png" />
-	<icon name="button_action_effect_down" file="graphics/pngs/button_action_effect_down.png" />
-	<icon name="button_action_modifier" file="graphics/pngs/button_action_modifier.png" />
-	<icon name="button_action_modifier_down" file="graphics/pngs/button_action_modifier_down.png" />
 	
-	<icon name="button_clear" file="graphics/pngs/button_clear.png" />
-	<icon name="button_clear_down" file="graphics/pngs/button_clear_down.png" />
-
-	<icon name="combobox_button" file="graphics/pngs/combobox_button.png" />
-	<icon name="combobox_button_active" file="graphics/pngs/combobox_button_active.png" />
-
-	<icon name="button_dialog_ok" file="graphics/pngs/button_dialog_ok.png" />
-	<icon name="button_dialog_ok_down" file="graphics/pngs/button_dialog_ok_down.png" />
-	<icon name="button_dialog_cancel" file="graphics/pngs/button_dialog_cancel.png" />
-	<icon name="button_dialog_cancel_down" file="graphics/pngs/button_dialog_cancel_down.png" />
-	<icon name="button_dialog_roll" file="graphics/pngs/button_dialog_roll.png" />
-	<icon name="button_dialog_roll_down" file="graphics/pngs/button_dialog_roll_down.png" />
-
-
-	<icon name="button_details" file="graphics/pngs/button_details.png" />
-	<icon name="button_details_down" file="graphics/pngs/button_details_down.png" />
-
 		<!-- Buttons -->
 	<icon name="button_toggle_visible" file="graphics/pngs/button_toggle_visible.png" />
 	<icon name="button_toggle_gm" file="graphics/pngs/button_toggle_gm.png" />
@@ -286,13 +321,8 @@
 	<icon name="button_scrollerpan_down" file="graphics/pngs/button_scrollerpan_down.png" />
 	<icon name="button_zoomer" file="graphics/pngs/button_zoomer.png" />
 	<icon name="button_zoomer_down" file="graphics/pngs/button_zoomer_down.png" />
-	<!-- Character Sheet -->
-	<icon name="token_empty" file="graphics/pngs/token_empty.png" />
-	<icon name="char_encumbrance" file="graphics/pngs/char_encumbrance.png" />
-	<icon name="char_inv_carried_header" file="graphics/pngs/char_inv_carried_header.png" />
-	<icon name="button_char_inv_none" file="graphics/pngs/button_inv_none.png" />
-	<icon name="button_char_inv_carried" file="graphics/pngs/button_inv_carried.png" />
-	<icon name="button_char_inv_equipped" file="graphics/pngs/button_inv_equipped.png" />	
+
+		
 	<!-- Local mode -->
 	<icon name="tabhorizontal" file="graphics/pngs/tabhorizontal.png" />
 	<icon name="button_statpointmode" file="graphics/pngs/button_statpointmode.png" />
@@ -341,12 +371,18 @@
 	<icon name="cond_resistance" file="graphics/pngs/token_cond_resist.png" />
 	<icon name="cond_vulnerable" file="graphics/pngs/token_cond_vuln.png" />
  -->
+ <!-- Token Bag -->
+	<icon name="tokenbag" file="graphics/pngs/tokenbag.png" />
+	<icon name="tokenbagup" file="graphics/pngs/tokenbag_up.png" />
+	<icon name="tokenbagtop" file="graphics/pngs/tokenbag_top.png" />
+	<icon name="tokenbagshared" file="graphics/pngs/tokenbag_shared.png" />
+	
 	<!-- Tokens - Health -->
-<!--
+
 	<icon name="healthbar" version="&gt;=4" file="graphics/pngs/token_healthbar_fgu.png" />
 	<icon name="healthbar" version="&lt;4" file="graphics/pngs/token_healthbar.png" />
 	<icon name="healthdot" file="graphics/pngs/token_healthdot.png" />
--->
+
 	<!-- Misc -->
 	<icon name="button_speak" file="graphics/pngs/button_speak.png" />
 	<icon name="button_speak_down" file="graphics/pngs/button_speak_down.png" />
@@ -354,20 +390,14 @@
 	<icon name="field_rollable_transparent" file="graphics/pngs/field_rollable_transparent.png" />
 	<icon name="arrowleft" file="graphics/pngs/arrow_left.png" />
 	<icon name="arrowright" file="graphics/pngs/arrow_right.png" />
-	<icon name="footer_wide" file="graphics/pngs/footer_wide.png" />
-	<icon name="footer_narrow" file="graphics/pngs/footer_narrow.png" />
-		<icon name="error" file="graphics/pngs/error.png" />
+	<icon name="error" file="graphics/pngs/error.png" />
 	<icon name="search" file="graphics/pngs/search.png" />
-	<icon name="arrowleft" file="graphics/pngs/arrow_left.png" />
-	<icon name="arrowright" file="graphics/pngs/arrow_right.png" />
 	<icon name="arrow_sm_left" file="graphics/pngs/arrow_sm_left.png" />
 	<icon name="arrow_sm_right" file="graphics/pngs/arrow_sm_right.png" />
 <!--
 	<icon name="arrow_sm_down" file="graphics/pngs/arrow_sm_down.png" />
 -->
 	<icon name="arrow_sm_up" file="graphics/pngs/arrow_sm_up.png" />
-	<icon name="button_roll" file="graphics/pngs/button_roll.png" />
-	<icon name="button_roll_down" file="graphics/pngs/button_roll_down.png" />
 	<icon name="visibilityon" file="graphics/pngs/visibilityon.png" />
 	<icon name="visibilityoff" file="graphics/pngs/visibilityoff.png" />
 <!--
@@ -436,4 +466,6 @@
 
 	<!-- Hotkeys -->
 	<icon name="empty" file="graphics/pngs/empty.png" />
+	
 </root>
+

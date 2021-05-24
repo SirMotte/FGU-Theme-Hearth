@@ -2,12 +2,12 @@
 <!--Special Thanks to MeAndUnique and Saagael for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: Sir Motte's Magnificent Darkness\rVersion: Beta 2.6 - Plucked Horse\rHearth Edition" font="emotefont" icon="footface"/>
+	<announcement text="Theme Loaded: Sir Motte's Magnificent Darkness\rVersion: Beta 2.7 - Doting Elderbrain\rHearth Edition" font="emotefont" icon="footface"/>
 	
 	<properties>
 		<name>Theme: Hearth</name>
 		<author>Sir Motte</author>
-		<version>2.6</version> 
+		<version>2.7</version> 
 		<description>Dark, warm and reduced user interface for FGU and DnD 5E</description>	
 		<loadorder>1500</loadorder>
 		<!--While many rulesets should work for the most part, only 5E is currently supported-->
@@ -82,7 +82,6 @@
 	
 		<!--Graphics definitions-->
 		<icon name="footface" file="SirMotte_footface.png" />
-		<includefile source="graphics/graphics_buttons.xml" />
 		<includefile source="graphics/graphics_fonts.xml" />
 		<includefile source="graphics/graphics_frames.xml" />
 		<includefile source="graphics/graphics_icons.xml" />
@@ -101,9 +100,10 @@
 		<includefile source="rulesets/dnd5e_compilation.xml" />
 		<includefile source="rulesets/savageworlds_compilation.xml" />
 		<includefile source="rulesets/icrpg_compilation.xml" />
+		<includefile source="rulesets/pfrpg2_compilation.xml" />
 
 		<!--Extension Graphics definitions-->
 		<includefile source="graphics/extension_graphics.xml" />
-		<!--<includefile source="graphics/extension_frames.xml" />-->
+		
 	</base>
 </root>

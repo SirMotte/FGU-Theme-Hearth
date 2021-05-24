@@ -173,6 +173,10 @@
 		<icon name="deletemask" file="graphics/pngs/icon_image_layer_mask_delete.png" />
 		<icon name="grid" file="graphics/pngs/icon_image_layer_grid_on.png" />
 		<icon name="gridchange" file="graphics/pngs/icon_image_layer_grid_change.png" />
+			<icon name="image_grid_hexrow" file="graphics/pngs/icon_image_layer_grid_hexrow.png" />
+			<icon name="image_grid_hexcolumn" file="graphics/pngs/icon_image_layer_grid_hexcolumn.png" />
+			<icon name="image_grid_square" file="graphics/pngs/icon_image_layer_grid_square.png" />
+			<icon name="image_grid_isometric" file="graphics/pngs/icon_image_layer_grid_iso.png" />
 		<icon name="gridhex" file="graphics/pngs/icon_image_layer_grid_hex.png" />
 		<icon name="gridoff" file="graphics/pngs/icon_image_layer_grid_off.png" />
 		<icon name="lockgrid" file="graphics/pngs/icon_image_layer_grid_snap_on.png" />
@@ -201,6 +205,8 @@
 		<icon name="pointer_square" file="graphics/pngs/icon_image_layer_pointer_square.png" />
 		<icon name="deletepointer" file="graphics/pngs/icon_image_layer_pointer_delete.png" />
 		<icon name="deleteallpointers" file="graphics/pngs/icon_image_layer_pointer_delete_all.png" />
+	<icon name="imagesizefit" file="graphics/pngs/icon_radial_zoomtofit.png" />
+	<icon name="imagesizefill" file="graphics/pngs/icon_radial_zoomtofill.png" />
 
 	<!-- Token Bag Control - REQUIRED -->
 	<icon name="arrangegrid" file="graphics/pngs/icon_tokenbag_grid.png" />
@@ -213,19 +219,23 @@
 	<icon name="tokenbagdelete" file="graphics/pngs/icon_tokenbag_delete.png" />
 
 	<icon name="tokenbagzoommenu" file="graphics/pngs/icon_tokenbag_zoom.png" />
-	<icon name="assetviewnext" file="graphics/pngs/icon_token_rotate_cw.png" />
-	<icon name="assetviewprev" file="graphics/pngs/icon_token_rotate_ccw.png" />
+	<icon name="assetviewnext" file="graphics/pngs/assetpage_next.png" />
+	<icon name="assetviewprev" file="graphics/pngs/assetpage_prev.png" />
 
 	<!-- Window List Control - REQUIRED -->
 	<icon name="listinsert" file="graphics/pngs/icon_list_insert.png" />
 	<icon name="listdelete" file="graphics/pngs/icon_list_delete.png" />
 
-	<!-- Supported rulesets - Common pngss-->
-	<!-- Spell actions -->
+	<!-- Supported rulesets - Common pngs-->
+	<!-- Spell actions -->	
+	<icon name="radial_reparse_spell" file="graphics/pngs/icon_reparse_radial.png" />
+	<icon name="radial_delete_action_confirm" file="graphics/pngs/icon_delete_confirm_radial.png" />
+	<icon name="radial_create_action" file="graphics/pngs/icon_action_group.png" />
+	<icon name="radial_delete_action" file="graphics/pngs/icon_action_delete.png" />
 	<icon name="radial_sword" file="graphics/pngs/icon_sword.png" />
-	<icon name="radial_sword" file="graphics/pngs/icon_damage.png" />
-	<icon name="radial_sword" file="graphics/pngs/icon_plus.png" />
-	<icon name="radial_sword" file="graphics/pngs/icon_effect.png" />
+	<icon name="radial_damage" file="graphics/pngs/icon_damage.png" />
+	<icon name="radial_heal" file="graphics/pngs/icon_plus.png" />
+	<icon name="radial_effect" file="graphics/pngs/icon_effect.png" />
 
 	<!-- 5e Rest menu -->
 	<icon name="restmenu" file="graphics/pngs/icon_rest_group.png" />
