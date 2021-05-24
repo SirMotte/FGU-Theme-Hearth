@@ -148,8 +148,7 @@
 	<!-- Ruleset: SavageWorlds -->
 	<icon name="button_tools" file="graphics/pngs/button_tools.png"/>
 	<icon name="button_tools_down" file="graphics/pngs/button_tools_down.png"/>
-	<?xml version="1.0" encoding="iso-8859-1"?>
-
+	
 <!-- fgpro override CoreRPG & 5E ruleset graphics -->
 	<!--Die-->
 	<icon name="d4icon" file="graphics/pngs/d4_icon.png" />
