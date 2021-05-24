@@ -443,10 +443,10 @@
 	<!--Ext: Theather of Mind-->
  		<!--Frames-->
 		 <framedef name="imagepaneltom">
-		<bitmap file="graphics/extensions/superteddy/tom/imagepanel.png" />
+		<bitmap file="graphics/extensions/superteddy/tom/imagepaneltom.png" />
 		<offset>16,16,16,16</offset>
 		</framedef>
-		
+
 		<windowclass name="theaterofmindpanelwindow" merge="join" >
 			<frame>imagepaneltom</frame>
 			<sheetdata>
