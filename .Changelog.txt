@@ -33,7 +33,6 @@ Enjoy!
 [*]Made text input pop up in chat to show up higher, to not obscure text and dice rolls (thanks to Seanifurr for pointing that out)
 [*]Simplified Bow Icon in actions tab, to be more in line with the overal design.
 [*]Adjusted Health Bar graphics
-[*]Made link symbol slightly smaller again. Too many instances where it looked misaligned.
 [*]Removed duplicate entries in xml files.
 [*]Darkened CT Entryboxes a little for better readability.
 [/LIST]
@@ -59,3 +58,10 @@ Enjoy!
 [*]Changed Death Indicator Important NPC CT Icon to be clearer and for better PFRPG2 compatibility
 [*]
 [*]
+
+Known Issue(s) introduced with this update:
+
+[LIST]
+[*]Radial Menu grid change only works if the map is in background mode. This also causes to revert script based icon changes to degault.
+   Not sure if fixble, might be removed with a hotfix later on.
+[/LIST]
