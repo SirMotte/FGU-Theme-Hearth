@@ -344,23 +344,23 @@
 	</font>
 	<!-- Asset View (FGU) -->
 	<font name="tokenbagasset_grid" version="&gt;=4">
-		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#DDDDDD" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
+		<color value="#EBDDBA" />
 	</font>
 	<font name="tokenbagasset_list" version="&gt;=4">
-		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#DDDDDD" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
+		<color value="#EBDDBA" />
 	</font>
 	<font name="assetview-path-active" version="&gt;=4">
-		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
 		<color value="#DDDDDD" />
 	</font>
 	<font name="assetview-path-inactive" version="&gt;=4">
-		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
+		<color value="#EBDDBA" />
 	</font>
 	<font name="assetview_empty" version="&gt;=4">
-		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
 		<color value="#DDDDDD" />
 	</font>	
 	<!-- Misc -->
