@@ -82,7 +82,6 @@
 	
 		<!--Graphics definitions-->
 		<icon name="footface" file="SirMotte_footface.png" />
-		<includefile source="graphics/graphics_buttons.xml" />
 		<includefile source="graphics/graphics_fonts.xml" />
 		<includefile source="graphics/graphics_frames.xml" />
 		<includefile source="graphics/graphics_icons.xml" />
