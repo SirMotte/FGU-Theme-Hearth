@@ -22,13 +22,13 @@ Enjoy!
 [*]Initial PFRPG2 support - WIP
 
 [LIST]
-[*]Enabled PFRPG2 again (no support yet - coming soon)
 [*]Adjusted Roboto.ttf Font files to include PFRPG2 action symbols.
 [*]Lots of Radial Menu Icons added and some adjusted.
 [*]Adjusted module loaded/unloaded icon to not overlap with the player load blocked/allowed one
 [*]Asset Library Icons changed
 [*]Added 1px on top and bottom of the image window frame to have 2px black border and 1px brown border visible.
-[*]Added more icons to the radial menu and missing ones for the manual roll window.
+[*]Added 1px bright frame to buttons (feedback desired)
+[*]Added Icons to the manual roll window.
 [*]Adjusted several icons or remade them to be clearer.
 [*]Made text input pop up in chat to show up higher, to not obscure text and dice rolls (thanks to Seanifurr for pointing that out)
 [*]Simplified Bow Icon in actions tab, to be more in line with the overal design.
