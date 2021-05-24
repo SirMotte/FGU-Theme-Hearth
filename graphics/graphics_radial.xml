@@ -173,6 +173,10 @@
 		<icon name="deletemask" file="graphics/pngs/icon_image_layer_mask_delete.png" />
 		<icon name="grid" file="graphics/pngs/icon_image_layer_grid_on.png" />
 		<icon name="gridchange" file="graphics/pngs/icon_image_layer_grid_change.png" />
+			<icon name="image_grid_hexrow" file="graphics/pngs/icon_image_layer_grid_change.png" />
+			<icon name="image_grid_hexcolumn" file="graphics/pngs/icon_image_layer_grid_change.png" />
+			<icon name="image_grid_square" file="graphics/pngs/icon_image_layer_grid_change.png" />
+			<icon name="image_grid_isometric" file="graphics/pngs/icon_image_layer_grid_change.png" />
 		<icon name="gridhex" file="graphics/pngs/icon_image_layer_grid_hex.png" />
 		<icon name="gridoff" file="graphics/pngs/icon_image_layer_grid_off.png" />
 		<icon name="lockgrid" file="graphics/pngs/icon_image_layer_grid_snap_on.png" />
