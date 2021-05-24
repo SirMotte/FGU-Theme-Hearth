@@ -1,9 +1,25 @@
 [SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.7 - Doting Elderbrain [/B][/COLOR][/SIZE]
 
-[B]Added Ruleset Support:[/B]
-[*]Initial PFRPG2 support - WIP
+We are closing in on leaving beta status.
+
+This release adds in basic PFRPG2 support that will be fleshed out more in the coming weeks.
+I'll collaborate with AlaskanFalcon and his table to find bugs and missing stuff.
+I won't go into that much detail with this ruleset, as my focus still lies with 5E, but it gets rid of some annyoing showstoppers if you're using Pathfinder 2E.
+
+
+I have added in all missing radial menu icons. Some of them are hardcoded unfortunately and can't be made unique, which is really annyoing.
+Big thank you to Saagael who made some scripts to overwrite icons where possible!
+
+It gets harder and harder from this point onward to change details, as I hit roadblocks a lot more often, like in the example above.
+Some things will probably never be changed, but the theme itself is in a very good state and almost ready to serve as template for other editions.
+The final push will happen in the coming weeks and then the edition fun begins again. I'm especially thrilled to not only provide a color blind edition, but a bright one as well!
+
+Enjoy!
 
 [B]Changelog:[/B]
+
+[B]Added Ruleset Support:[/B]
+[*]Initial PFRPG2 support - WIP
 
 [LIST]
 [*]Enabled PFRPG2 again (no support yet - coming soon)
