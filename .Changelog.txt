@@ -10,12 +10,14 @@
 [*]Adjusted Roboto.ttf Font files to include PFRPG2 action symbols.
 [*]Lots of Radial Menu Icons added and some adjusted.
 [*]Adjusted module loaded/unloaded icon to not overlap with the player load blocked/allowed one
-[*]
+[*]Asset Library Icons changed
 [*]Added 1px on top and bottom of the image window frame to have 2px black border and 1px brown border visible.
 [*]Added more icons to the radial menu and missing ones for the manual roll window.
 [*]Adjusted several icons or remade them to be clearer.
 [*]Made text input pop up in chat to show up higher, to not obscure text and dice rolls (thanks to Seanifurr for pointing that out)
 [*]Simplified Bow Icon in actions tab, to be more in line with the overal design.
+[*]Adjusted Health Bar graphics
+[*]Made link symbol slightly smaller again. Too many instances where it looked misaligned.
 [/LIST]
 
 [B]Added Extension Support:[/B]
@@ -34,7 +36,7 @@
 
 [LIST]
 [*]Fixed truncated font issue with important NPC active state by Death Indicator Extension
-[*]Fixed Portals Extension by Diablobob. Added missing frame for teleport prompts, that was defined  within an other xml than the rest of the extensions graphics.
+[*]Fixed Portals Extension by Diablobob. Added missing frame for teleport prompts, that was defined within an other xml than the rest of the extensions graphics.
 [*]Changed Assistant GM Icon to be less random
 [*]Changed Death Indicator Important NPC CT Icon to be clearer and for better PFRPG2 compatibility
 [*]
