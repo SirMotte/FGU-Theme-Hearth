@@ -468,10 +468,22 @@
 				<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_foe.png"/>
 				<offset>5,5,5,5</offset>
 			</framedef>
+
 		<!--Icons-->
 			<icon name="theaterofmind_unseen" file="graphics/extensions/superteddy/tom/Unseen_icon24x24.png" />
 			<icon name="theaterofmind_active" file="graphics/extensions/superteddy/tom/TotM_turn.png" />
 			<icon name="button_tracker" file="graphics/extensions/superteddy/tom/button_tracker.png" />
 			<icon name="button_tracker_down" file="graphics/extensions/superteddy/tom/button_tracker_down.png" />
+
+		<windowclass name="ct_theaterofmind_combat" merge="join">
+			<sheetdata>
+				<close>
+				<anchored>
+					<top offset="-20" />
+					<right offset="-8" />
+				</anchored>
+				</close>
+			</sheetdata>
+		</windowclass>
 
 </root>
