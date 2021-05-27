@@ -377,7 +377,16 @@
 	<!--Ext: Toggle Lights-->		
 			<icon name="icon_togEffLights" file="graphics/extensions/mattekure/toggle_lights/torch.png" />
 	<!--Ext: Easy Lights-->
-			 <icon name="icon_easyLights" file="graphics/extensions/mattekure/easy_lights/light.png" />
+			<icon name="icon_easyLights_generic" file="graphics/extensions/mattekure/easy_lights/light_gray.png" />
+			<icon name="icon_easyLights_campfire" file="graphics/extensions/mattekure/easy_lights/campfire_gray.png" />
+			<icon name="icon_easyLights_candle" file="graphics/extensions/mattekure/easy_lights/candlebig_gray.png" />
+			<icon name="icon_easyLights_fire" file="graphics/extensions/mattekure/easy_lights/fire_gray.png" />
+			<icon name="icon_easyLights_flame" file="graphics/extensions/mattekure/easy_lights/flame_gray.png" />
+			<icon name="icon_easyLights_lamp" file="graphics/extensions/mattekure/easy_lights/lamp_gray.png" />
+			<icon name="icon_easyLights_lantern" file="graphics/extensions/mattekure/easy_lights/lantern_gray.png" />
+			<icon name="icon_easyLights_spellDark" file="graphics/extensions/mattekure/easy_lights/spelldark_gray.png" />
+			<icon name="icon_easyLights_spellLight" file="graphics/extensions/mattekure/easy_lights/spelllight_gray.png" />
+			<icon name="icon_easyLights_torch" file="graphics/extensions/mattekure/easy_lights/torch_gray.png" />
 
 <!--Author: Celestian-->
 	<!--Ext: Audio Overseer-->

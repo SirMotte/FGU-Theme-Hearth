@@ -1,61 +1,29 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.7 - Doting Elderbrain [/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.8 - Worshipped Teacup [/B][/COLOR][/SIZE]
 
-We are closing in on leaving beta status.
-
-This release adds in basic PFRPG2 support that will be fleshed out more in the coming weeks.
-I'll collaborate with AlaskanFalcon and his table to find bugs and missing stuff.
-I won't go into that much detail with this ruleset, as my focus still lies with 5E, but it gets rid of some annyoing showstoppers if you're using Pathfinder 2E.
-
-
-I have added in all missing radial menu icons. Some of them are hardcoded unfortunately and can't be made unique, which is really annyoing.
-Big thank you to Saagael who made some scripts to overwrite icons where possible!
-
-It gets harder and harder from this point onward to change details, as I hit roadblocks a lot more often, like in the example above.
-Some things will probably never be changed, but the theme itself is in a very good state and almost ready to serve as template for other editions.
-The final push will happen in the coming weeks and then the edition fun begins again. I'm especially thrilled to not only provide a color blind edition, but a bright one as well!
+x
 
 Enjoy!
 
 [B]Changelog:[/B]
 
 [B]Added Ruleset Support:[/B]
-[*]Initial PFRPG2 support - WIP
+[*]
 
 [LIST]
-[*]Adjusted Roboto.ttf Font files to include PFRPG2 action symbols.
-[*]Lots of Radial Menu Icons added and some adjusted.
-[*]Adjusted module loaded/unloaded icon to not overlap with the player load blocked/allowed one
-[*]Asset Library Icons changed
-[*]Added 1px on top and bottom of the image window frame to have 2px black border and 1px brown border visible.
-[*]Added 1px bright frame to buttons (feedback desired)
-[*]Added Icons to the manual roll window.
-[*]Adjusted several icons or remade them to be clearer.
-[*]Made text input pop up in chat to show up higher, to not obscure text and dice rolls (thanks to Seanifurr for pointing that out)
-[*]Simplified Bow Icon in actions tab, to be more in line with the overal design.
-[*]Adjusted Health Bar graphics
-[*]Removed duplicate entries in xml files.
-[*]Darkened CT Entryboxes a little for better readability.
+[*]
 [/LIST]
 
 [B]Added Extension Support:[/B]
 
 [LIST]
-[*]Easy Lights by Mattekure
-[*]Toggle Effect Lights by Mattekure
-[*]Theather of Mind by superteddy57
+[*]
 [/LIST]
-
 [B]Supported Extension changes:[/B]
 
 [LIST]
-[*]Fixed truncated font issue with important NPC active state by Death Indicator Extension
-[*]Fixed Portals Extension by Diablobob. Added missing frame for teleport prompts, that was defined within an other xml than the rest of the extensions graphics.
-[*]Changed Assistant GM Icon to be less random
-[*]Changed Death Indicator Important NPC CT Icon to be clearer and for better PFRPG2 compatibility
-
+[*]Easy Lights by mattekure - Added new light buttons.
+[/LIST]
 Known Issue(s) introduced with this update:
-
 [LIST]
-[*]Radial Menu grid change only works if the map is in background mode. This also causes to revert script based icon changes to degault.
-   Not sure if fixble, might be removed with a hotfix later on.
+[*]
 [/LIST]
