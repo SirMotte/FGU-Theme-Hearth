@@ -253,7 +253,10 @@
   			<icon name="awardxpdown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/awardxpdown.png" /> 
   			<icon name="shareall" file="graphics/extensions/mad_nomad/enhanced_encounter_window/shareMNM.png" /> 
   			<icon name="sharealldown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/shareMNMdown.png" /> 
-
+	<!--Ext: Consumable Items-->
+		<!--Icon-->
+			 <icon name="consumableSmall" file="graphics/extensions/mad_nomad/consumable_items/consumableSmall.png" /> 
+			 
 <!--Author: MeAndUnique-->
 	<!--Ext: Constitutional Amendments-->
 		<!-- Source: campain/record_char_main.xml -->
