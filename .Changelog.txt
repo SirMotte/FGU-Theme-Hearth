@@ -16,7 +16,7 @@ Enjoy!
 [B]Added Extension Support:[/B]
 
 [LIST]
-[*]
+[*]MadNomads Consumable Items
 [/LIST]
 [B]Supported Extension changes:[/B]
 
