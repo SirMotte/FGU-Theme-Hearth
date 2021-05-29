@@ -241,4 +241,7 @@
 	<icon name="restmenu" file="graphics/pngs/icon_rest_group.png" />
 		<icon name="rest_short" file="graphics/pngs/icon_rest_short.png" />
 		<icon name="rest_long" file="graphics/pngs/icon_rest_long.png" />
+
+	<!-- CoreRPG: character selection -->
+	<icon name="icon_take_ownership" file="" />
 </root>
