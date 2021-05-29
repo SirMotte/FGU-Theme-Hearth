@@ -128,7 +128,7 @@
 	<font name="hotkey">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="16" />
-		<color value="#DDDDDD" />		
+		<color value="#EBDDBA" />		
 	</font>
 
 	<!-- Modifier stack -->

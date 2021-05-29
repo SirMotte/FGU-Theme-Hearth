@@ -53,7 +53,13 @@
 	<icon name="minimized_charequipment" file="graphics/pngs/minimized_charequipment.png" />
 	<icon name="minimized_charnotes" file="graphics/pngs/minimized_charnotes.png" />
 	<icon name="char_armorcheck" file="graphics/pngs/char_armorcheck.png" />
+	<icon name="char_weapon_hand1" file="graphics/pngs/char_weapon_hand1.png" />
+	<icon name="char_weapon_hand2" file="graphics/pngs/char_weapon_hand2.png" />
+	<icon name="char_weapon_handoff" file="graphics/pngs/char_weapon_handoff.png" />
 	
+	<!--Character List-->
+	<icon name="charlist_pointer" file="graphics/pngs/charlist_pointer.png" />
+
 	<!-- Encounters -->
 	<icon name="button_enc_refreshcr" file="graphics/pngs/button_ctnextround.png" />
 	<icon name="button_enc_refreshcr_down" file="graphics/pngs/button_ctnextround_down.png" />
