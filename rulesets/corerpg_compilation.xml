@@ -595,4 +595,15 @@
 			end
 		</script>
 	</windowclass>
+
+	<!-- Source: campaign/campaign_chars.xml -->
+	<windowclass name="charselect_host_entry" merge="join">
+		<script>
+			function onInit()
+				super.onInit();
+
+				registerMenuItem(string.format(Interface.getString("char_menu_ownergm"), User.getUsername()), "icon_take_ownership", 3);
+			end
+		</script>
+	</windowclass>
 </root>
