@@ -243,5 +243,5 @@
 		<icon name="rest_long" file="graphics/pngs/icon_rest_long.png" />
 
 	<!-- CoreRPG: character selection -->
-	<icon name="icon_take_ownership" file="" />
+	<icon name="icon_take_ownership" file="graphics/pngs/icon_take_ownership.png" />
 </root>
