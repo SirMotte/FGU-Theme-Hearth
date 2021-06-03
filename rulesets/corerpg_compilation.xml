@@ -38,7 +38,7 @@
 			<disabled />
 		</genericcontrol>
 	</template>
-	<!--Image Window Background foreground
+	<!--Image Window Background foreground-->
 	<template name="imagedata_record_step">
 		<imagedatacontrol>
 			<invisible />
@@ -52,7 +52,7 @@
 			<color>EBDDBA</color>
 			<backcolor>232323</backcolor>
 		</imagedatacontrol>
-	</template>-->
+	</template>
 	<!--Image Window Background foreground end-->
 	<template name="string_record_name">
 		<basicstring>

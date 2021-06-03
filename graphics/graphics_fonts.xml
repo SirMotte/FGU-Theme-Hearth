@@ -4,7 +4,7 @@
 	<!-- Note: FGF tags processed first for FG Classic, and TTF tags processed first for FGU -->
 	<!-- Text Highlight -->
 	<textsettings>
-		<selectioncolor>501515</selectioncolor>
+		<selectioncolor>37415A</selectioncolor>
 	</textsettings>
 	<!-- Sidebar -->
 	<font name="button_sidebar_dockitem">
