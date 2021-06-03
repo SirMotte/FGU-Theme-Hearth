@@ -11,7 +11,12 @@ Enjoy!
 [*]Added 1 Hand, 2 Hand and Off-Hand Actions Tab graphics.
 [*]Changed Player - chosen color dot - on Character Portrait to be clearer.
 [*]Added missing Radial Menu Character Selection "Add Character" entry
-[*]Added unique radial menu  "take ownership" Icon to character selection - thanks to Saagael for the necessary script overwrite.
+[*]Added unique radial menu "take ownership" Icon to character selection - thanks to Saagael for the necessary script overwrite.
+[*]Changed text selection color again, to not collide with search field color.
+[*]Image Panel now features my dark UI as well, as a bug has been fixed by Moon Wizard that prevented my changes from working in the top area.
+-> My influence on this area is still limited though, thus it doesn't look quite like I'd want it to. Oh well....
+[*]Adjusted the new Attunement Icon. This might change at some point later, but will do for now and changed coloring for too many attuned items to match the theme.
+[*]Adjusted Image Scroll and Pan button.
 [/LIST]
 
 [B]Added Ruleset Support:[/B]
@@ -27,6 +32,7 @@ Enjoy!
 [B]Supported Extension changes:[/B]
 [LIST]
 [*]Easy Lights by mattekure - Added new light buttons introduced with the latest update.
+[*]Coin Converter by mattekure - Fixed wrong icons for copper to electrum and electrum to silver buttons.
 [/LIST]
 
 [COLOR="#FF0000"][B]Known Issue(s) introduced with this update:[/B][/COLOR]
