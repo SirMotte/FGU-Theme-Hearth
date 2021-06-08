@@ -12,6 +12,17 @@
 		<bitmap file="graphics/pngs/button_sidebar_down.png" />
 		<offset>8,8,8,8</offset>
 	</framedef>
+
+	<!-- MasterIndex -->
+	<framedef name="filter">
+		<bitmap file="graphics/pngs/filter.png" />
+		<offset>1,5,1,5</offset>
+	</framedef>
+	<framedef name="filter_active">
+		<bitmap file="graphics/pngs/filter_active.png" />
+		<offset>1,5,1,5</offset>
+	</framedef>
+
 <!-- Headers -->
 	<framedef name="headerref">
 		<bitmap file="graphics/pngs/headerref.png" />
