@@ -1,10 +1,15 @@
 [SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.8 - Assassin's Spoon [/B][/COLOR][/SIZE]
 
-xxx
+[B]Yada-yada-yada:[/B]
+The word "fixed" has mostly disappeard from these changelogs *feelsgoodman*. This means we are even closer to leave beta status behind and look ahead to the coming v3.0 release that will serve as template for other Editions.
+Progress has slowed down a little due to RL-work, but I think I will have at least 1 Edition fully done until the end of the month, possibly earlier. Stay tuned.
+
+
 
 Enjoy!
+Sir Motte
 
-[B]Changelog:[/B]
+[B]Changelog DnD 5E Ruleset:[/B]
 
 [LIST]
 [*]Minor Icon Tweaks
@@ -15,13 +20,12 @@ Enjoy!
 [*]Changed text selection color again, to not collide with search field color.
 [*]Image Panel now features my dark UI as well, as a bug has been fixed by Moon Wizard that prevented my changes from working in the top area.
 -> My influence on this area is still limited though, thus it doesn't look quite like I'd want it to. Oh well....
-[*]Adjusted the new Attunement Icon. This might change at some point later, but will do for now and changed coloring for too many attuned items to match the theme.
+[*]Adjusted the new Attunement Icon. This might change at some point later, but will do for now. I also changed the red color for max attuenments, to match the theme.
 [*]Adjusted Image Scroll and Pan button.
-[/LIST]
-
-[B]Added Ruleset Support:[/B]
-[LIST]
-[*]None
+[*]Changed cogwheel in the options menu to link icon, to emphasize that those are linkable as well.
+[*]Adjusted vote check pngs.
+[*]Updated minimized window graphics to also have the 1px bright and 2px black border.
+[*]Small magnifier glass in asset view now features a dark background to not visually merge with the folder icons.
 [/LIST]
 
 [B]Added Extension Support:[/B]
@@ -38,4 +42,11 @@ Enjoy!
 [COLOR="#FF0000"][B]Known Issue(s) introduced with this update:[/B][/COLOR]
 [LIST]
 [*]None
+[/LIST]
+[*}]
+
+[B]Changelog Pathfinder 2E Ruleset[/B]
+
+[LIST]
+[*]
 [/LIST]
