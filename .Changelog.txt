@@ -31,6 +31,7 @@ Sir Motte
 [B]Added Extension Support:[/B]
 [LIST]
 [*]MadNomads Consumable Items
+[*]Colorful Language by MeAndUnique
 [/LIST]
 
 [B]Supported Extension changes:[/B]
