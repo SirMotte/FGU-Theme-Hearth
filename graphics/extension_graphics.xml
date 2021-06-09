@@ -258,8 +258,47 @@
 			 <icon name="consumableSmall" file="graphics/extensions/mad_nomad/consumable_items/consumableSmall.png" /> 
 			 
 <!--Author: MeAndUnique-->
+	<!--Ext: Colorful Lnaguage-->
+		<!-- Source: strings/strings.xml -->
+			<string name="chatfontname">Light Grey</string>
+			<string name="chatgmfontname">Lavender, Italic</string>
+			<string name="chatnpcfontname">Blue</string>
+			<string name="emotefontname">Red</string>
+			<string name="msgfontname">Purple 1</string>
+			<string name="narratorfontname">Yellow</string>
+			<string name="oocfontname">Green</string>
+			<string name="systemfontname">Purple 2</string>
+			<string name="whisperfontname">Turquoise</string>
+		<!-- Source: desktop/chat_font_selection.xml -->
+			<windowclass name="chat_font_selection" merge="join">
+				<sheetdata>
+					<windowlist name="list">
+						<anchored to="contentanchor">
+							<top anchor="bottom" relation="relative" offset="10" />
+						</anchored>
+					</windowlist>
+					<scrollbar_list />
+				</sheetdata>
+			</windowclass>
+			<windowclass name="font_selection" merge="join">
+				<sheetdata>
+					<label name="name">
+						<anchored offset="0,8" />
+					</label>
+					<comboboxc name="options">
+						<anchored offset="3,28" />
+					</comboboxc>
+					<stringcontrol name="example">
+						<anchored height="55">
+							<top offset="27" />
+							<right offset="-12" />
+						</anchored>
+						<frame name="chatbox" offset="16,27,15,0" />
+					</stringcontrol>
+				</sheetdata>
+			</windowclass>
 	<!--Ext: Constitutional Amendments-->
-		<!-- Source: campain/record_char_main.xml -->
+		<!-- Source: desktop/record_char_main.xml -->
 			<windowclass name="charsheet_main" merge="join">
 				<script>
 					function onInit()
