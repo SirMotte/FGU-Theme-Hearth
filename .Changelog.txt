@@ -22,7 +22,7 @@ Sir Motte
 -> My influence on this area is still limited though, thus it doesn't look quite like I'd want it to. Oh well....
 [*]Adjusted the new Attunement Icon. This might change at some point later, but will do for now. I also changed the red color for max attuenments, to match the theme.
 [*]Adjusted Image Scroll and Pan button.
-[*]Changed cogwheel in the options menu to link icon, to emphasize that those are linkable as well.
+[*]Changed cogwheel in the options menu to link icon, to emphasize that those are linkable as well (eg hotkeybar).
 [*]Adjusted vote check pngs.
 [*]Updated minimized window graphics to also have the 1px bright and 2px black border.
 [*]Small magnifier glass in asset view now features a dark background to not visually merge with the folder icons.
