@@ -26,6 +26,8 @@ Sir Motte
 [*]Adjusted vote check pngs.
 [*]Updated minimized window graphics to also have the 1px bright and 2px black border.
 [*]Small magnifier glass in asset view now features a dark background to not visually merge with the folder icons.
+[*]Script fuled icon change for "add entry" in the parcels window to not use the one from the character selections frame (Why smiteworks, why!).
+[*]Added new image toolbar toggles (player vision and shortcut on/off).
 [/LIST]
 
 [B]Added Extension Support:[/B]
