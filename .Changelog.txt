@@ -34,12 +34,14 @@ Sir Motte
 [LIST]
 [*]MadNomads Consumable Items
 [*]Colorful Language by MeAndUnique
+[*]Golarion Languages and Fonts FGU by mattekure and callum
 [/LIST]
 
 [B]Supported Extension changes:[/B]
 [LIST]
 [*]Easy Lights by mattekure - Added new light buttons introduced with the latest update.
 [*]Coin Converter by mattekure - Fixed wrong icons for copper to electrum and electrum to silver buttons.
+[*]Fixed Mad nomad Character Sheet Tweaks red and green highights for affected sheet values.
 [/LIST]
 
 [COLOR="#FF0000"][B]Known Issue(s) introduced with this update:[/B][/COLOR]
