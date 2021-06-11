@@ -484,20 +484,13 @@
 					<offset>87,16,14,17</offset>
 				</framedef>
 
-<!--Author: Sean A. Veira-->
-	<!--Ext: Coin Flip (throws errors)-->
- 		<!--Icons
-				<icon name="coinheadsicon" file="graphics/extensions/sean_veira/coin_flip/coin_heads_icon.png" />
-    			<icon name="cointailsicon" file="graphics/extensions/sean_veira/coin_flip/coin_tails_icon.png" /> --> 
-
 <!--Author: superteddy57-->
-	<!--Ext: Theather of Mind-->
+	<!--Ext: Theater of Mind-->
  		<!--Frames-->
 		 <framedef name="imagepaneltom">
 		<bitmap file="graphics/extensions/superteddy/tom/imagepaneltom.png" />
 		<offset>16,16,16,16</offset>
 		</framedef>
-
 		<windowclass name="theaterofmindpanelwindow" merge="join" >
 			<frame>imagepaneltom</frame>
 			<sheetdata>
@@ -519,7 +512,6 @@
 				<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_foe.png"/>
 				<offset>5,5,5,5</offset>
 			</framedef>
-
 		<!--Icons-->
 			<icon name="theaterofmind_unseen" file="graphics/extensions/superteddy/tom/Unseen_icon24x24.png" />
 			<icon name="theaterofmind_active" file="graphics/extensions/superteddy/tom/TotM_turn.png" />
