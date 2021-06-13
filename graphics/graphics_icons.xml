@@ -217,6 +217,10 @@
 	<icon name="indicator_prompt" file="graphics/pngs/indicator_prompt.png" />
 	<icon name="gmdieicon" file="graphics/pngs/gmdie_icon.png" />
 	<icon name="indicator_whisper" file="graphics/pngs/indicator_whisper.png" />
+	<icon name="chat_emote" file="graphics/pngs/chat_emote.png" />
+	<icon name="poll_check" file="graphics/pngs/poll_check.png" />
+	<icon name="poll_empty" file="graphics/pngs/poll_empty.png" />
+	<icon name="poll_negative" file="graphics/pngs/poll_negative.png" />
 	
 	<!-- Common -->
 	<icon name="actions" file="graphics/pngs/actions.png" />
