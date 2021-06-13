@@ -1,61 +1,57 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.7 - Doting Elderbrain [/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.8 - Assassin's Spoon [/B][/COLOR][/SIZE]
 
-We are closing in on leaving beta status.
-
-This release adds in basic PFRPG2 support that will be fleshed out more in the coming weeks.
-I'll collaborate with AlaskanFalcon and his table to find bugs and missing stuff.
-I won't go into that much detail with this ruleset, as my focus still lies with 5E, but it gets rid of some annyoing showstoppers if you're using Pathfinder 2E.
+[B]Yada-yada-yada:[/B]
+The word "fixed" has mostly disappeard from these changelogs *feelsgoodman*. This means we are even closer to leave beta status behind and look ahead to the coming v3.0 release that will serve as template for other Editions.
+Progress has slowed down a little due to RL-work, but I think I will have at least 1 Edition fully done until the end of the month, possibly earlier. Stay tuned.
 
 
-I have added in all missing radial menu icons. Some of them are hardcoded unfortunately and can't be made unique, which is really annyoing.
-Big thank you to Saagael who made some scripts to overwrite icons where possible!
-
-It gets harder and harder from this point onward to change details, as I hit roadblocks a lot more often, like in the example above.
-Some things will probably never be changed, but the theme itself is in a very good state and almost ready to serve as template for other editions.
-The final push will happen in the coming weeks and then the edition fun begins again. I'm especially thrilled to not only provide a color blind edition, but a bright one as well!
 
 Enjoy!
+Sir Motte
 
-[B]Changelog:[/B]
-
-[B]Added Ruleset Support:[/B]
-[*]Initial PFRPG2 support - WIP
+[B]Changelog DnD 5E Ruleset:[/B]
 
 [LIST]
-[*]Adjusted Roboto.ttf Font files to include PFRPG2 action symbols.
-[*]Lots of Radial Menu Icons added and some adjusted.
-[*]Adjusted module loaded/unloaded icon to not overlap with the player load blocked/allowed one
-[*]Asset Library Icons changed
-[*]Added 1px on top and bottom of the image window frame to have 2px black border and 1px brown border visible.
-[*]Added 1px bright frame to buttons (feedback desired)
-[*]Added Icons to the manual roll window.
-[*]Adjusted several icons or remade them to be clearer.
-[*]Made text input pop up in chat to show up higher, to not obscure text and dice rolls (thanks to Seanifurr for pointing that out)
-[*]Simplified Bow Icon in actions tab, to be more in line with the overal design.
-[*]Adjusted Health Bar graphics
-[*]Removed duplicate entries in xml files.
-[*]Darkened CT Entryboxes a little for better readability.
+[*]Minor Icon Tweaks
+[*]Added 1 Hand, 2 Hand and Off-Hand Actions Tab graphics.
+[*]Changed Player - chosen color dot - on Character Portrait to be clearer.
+[*]Added missing Radial Menu Character Selection "Add Character" entry
+[*]Added unique radial menu "take ownership" Icon to character selection - thanks to Saagael for the necessary script overwrite.
+[*]Changed text selection color again, to not collide with search field color.
+[*]Image Panel now features my dark UI as well, as a bug has been fixed by Moon Wizard that prevented my changes from working in the top area.
+-> My influence on this area is still limited though, thus it doesn't look quite like I'd want it to. Oh well....
+[*]Adjusted the new Attunement Icon. This might change at some point later, but will do for now. I also changed the red color for max attuenments, to match the theme.
+[*]Adjusted Image Scroll and Pan button.
+[*]Changed cogwheel in the options menu to link icon, to emphasize that those are linkable as well (eg hotkeybar).
+[*]Adjusted vote check pngs.
+[*]Updated minimized window graphics to also have the 1px bright and 2px black border.
+[*]Small magnifier glass in asset view now features a dark background to not visually merge with the folder icons.
+[*]Script fuled icon change for "add entry" in the parcels window to not use the one from the character selections frame (Why smiteworks, why!).
+[*]Added new image toolbar toggles (player vision and shortcut on/off).
 [/LIST]
 
 [B]Added Extension Support:[/B]
-
 [LIST]
-[*]Easy Lights by Mattekure
-[*]Toggle Effect Lights by Mattekure
-[*]Theather of Mind by superteddy57
+[*]MadNomads Consumable Items
+[*]Colorful Language by MeAndUnique
+[*]Golarion Languages and Fonts FGU by mattekure and callum
 [/LIST]
 
 [B]Supported Extension changes:[/B]
+[LIST]
+[*]Easy Lights by mattekure - Added new light buttons introduced with the latest update.
+[*]Coin Converter by mattekure - Fixed wrong icons for copper to electrum and electrum to silver buttons.
+[*]Fixed Mad nomad Character Sheet Tweaks red and green highights for affected sheet values.
+[/LIST]
+
+[COLOR="#FF0000"][B]Known Issue(s) introduced with this update:[/B][/COLOR]
+[LIST]
+[*]None
+[/LIST]
+[*}]
+
+[B]Changelog Pathfinder 2E Ruleset[/B]
 
 [LIST]
-[*]Fixed truncated font issue with important NPC active state by Death Indicator Extension
-[*]Fixed Portals Extension by Diablobob. Added missing frame for teleport prompts, that was defined within an other xml than the rest of the extensions graphics.
-[*]Changed Assistant GM Icon to be less random
-[*]Changed Death Indicator Important NPC CT Icon to be clearer and for better PFRPG2 compatibility
-
-Known Issue(s) introduced with this update:
-
-[LIST]
-[*]Radial Menu grid change only works if the map is in background mode. This also causes to revert script based icon changes to degault.
-   Not sure if fixble, might be removed with a hotfix later on.
+[*]
 [/LIST]

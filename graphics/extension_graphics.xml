@@ -253,10 +253,52 @@
   			<icon name="awardxpdown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/awardxpdown.png" /> 
   			<icon name="shareall" file="graphics/extensions/mad_nomad/enhanced_encounter_window/shareMNM.png" /> 
   			<icon name="sharealldown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/shareMNMdown.png" /> 
-
+	<!--Ext: Consumable Items-->
+		<!--Icon-->
+			 <icon name="consumableSmall" file="graphics/extensions/mad_nomad/consumable_items/consumableSmall.png" /> 
+			 
 <!--Author: MeAndUnique-->
+	<!--Ext: Colorful Language-->
+		<!-- Source: strings/strings.xml -->
+			<string name="chatfontname">Light Grey</string>
+			<string name="chatgmfontname">Lavender, Italic</string>
+			<string name="chatnpcfontname">Blue</string>
+			<string name="emotefontname">Red</string>
+			<string name="msgfontname">Purple 1</string>
+			<string name="narratorfontname">Yellow</string>
+			<string name="oocfontname">Green</string>
+			<string name="systemfontname">Purple 2</string>
+			<string name="whisperfontname">Turquoise</string>
+		<!-- Source: desktop/chat_font_selection.xml -->
+			<windowclass name="chat_font_selection" merge="join">
+				<sheetdata>
+					<windowlist name="list">
+						<anchored to="contentanchor">
+							<top anchor="bottom" relation="relative" offset="10" />
+						</anchored>
+					</windowlist>
+					<scrollbar_list />
+				</sheetdata>
+			</windowclass>
+			<windowclass name="font_selection" merge="join">
+				<sheetdata>
+					<label name="name">
+						<anchored offset="0,8" />
+					</label>
+					<comboboxc name="options">
+						<anchored offset="3,28" />
+					</comboboxc>
+					<stringcontrol name="example">
+						<anchored height="55">
+							<top offset="27" />
+							<right offset="-12" />
+						</anchored>
+						<frame name="chatbox" offset="16,27,15,0" />
+					</stringcontrol>
+				</sheetdata>
+			</windowclass>
 	<!--Ext: Constitutional Amendments-->
-		<!-- Source: campain/record_char_main.xml -->
+		<!-- Source: desktop/record_char_main.xml -->
 			<windowclass name="charsheet_main" merge="join">
 				<script>
 					function onInit()
@@ -377,7 +419,16 @@
 	<!--Ext: Toggle Lights-->		
 			<icon name="icon_togEffLights" file="graphics/extensions/mattekure/toggle_lights/torch.png" />
 	<!--Ext: Easy Lights-->
-			 <icon name="icon_easyLights" file="graphics/extensions/mattekure/easy_lights/light.png" />
+			<icon name="icon_easyLights_generic" file="graphics/extensions/mattekure/easy_lights/light_gray.png" />
+			<icon name="icon_easyLights_campfire" file="graphics/extensions/mattekure/easy_lights/campfire_gray.png" />
+			<icon name="icon_easyLights_candle" file="graphics/extensions/mattekure/easy_lights/candlebig_gray.png" />
+			<icon name="icon_easyLights_fire" file="graphics/extensions/mattekure/easy_lights/fire_gray.png" />
+			<icon name="icon_easyLights_flame" file="graphics/extensions/mattekure/easy_lights/flame_gray.png" />
+			<icon name="icon_easyLights_lamp" file="graphics/extensions/mattekure/easy_lights/lamp_gray.png" />
+			<icon name="icon_easyLights_lantern" file="graphics/extensions/mattekure/easy_lights/lantern_gray.png" />
+			<icon name="icon_easyLights_spellDark" file="graphics/extensions/mattekure/easy_lights/spelldark_gray.png" />
+			<icon name="icon_easyLights_spellLight" file="graphics/extensions/mattekure/easy_lights/spelllight_gray.png" />
+			<icon name="icon_easyLights_torch" file="graphics/extensions/mattekure/easy_lights/torch_gray.png" />
 
 <!--Author: Celestian-->
 	<!--Ext: Audio Overseer-->
@@ -433,20 +484,13 @@
 					<offset>87,16,14,17</offset>
 				</framedef>
 
-<!--Author: Sean A. Veira-->
-	<!--Ext: Coin Flip (throws errors)-->
- 		<!--Icons
-				<icon name="coinheadsicon" file="graphics/extensions/sean_veira/coin_flip/coin_heads_icon.png" />
-    			<icon name="cointailsicon" file="graphics/extensions/sean_veira/coin_flip/coin_tails_icon.png" /> --> 
-
 <!--Author: superteddy57-->
-	<!--Ext: Theather of Mind-->
+	<!--Ext: Theater of Mind-->
  		<!--Frames-->
 		 <framedef name="imagepaneltom">
 		<bitmap file="graphics/extensions/superteddy/tom/imagepaneltom.png" />
 		<offset>16,16,16,16</offset>
 		</framedef>
-
 		<windowclass name="theaterofmindpanelwindow" merge="join" >
 			<frame>imagepaneltom</frame>
 			<sheetdata>
@@ -468,7 +512,6 @@
 				<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_foe.png"/>
 				<offset>5,5,5,5</offset>
 			</framedef>
-
 		<!--Icons-->
 			<icon name="theaterofmind_unseen" file="graphics/extensions/superteddy/tom/Unseen_icon24x24.png" />
 			<icon name="theaterofmind_active" file="graphics/extensions/superteddy/tom/TotM_turn.png" />

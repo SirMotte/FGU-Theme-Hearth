@@ -4,7 +4,7 @@
 	<!-- Note: FGF tags processed first for FG Classic, and TTF tags processed first for FGU -->
 	<!-- Text Highlight -->
 	<textsettings>
-		<selectioncolor>501515</selectioncolor>
+		<selectioncolor>37415A</selectioncolor>
 	</textsettings>
 	<!-- Sidebar -->
 	<font name="button_sidebar_dockitem">
@@ -128,7 +128,7 @@
 	<font name="hotkey">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="16" />
-		<color value="#DDDDDD" />		
+		<color value="#EBDDBA" />		
 	</font>
 
 	<!-- Modifier stack -->
@@ -440,22 +440,6 @@
 		<ttf file="graphics/fonts/Dwarven.ttf" name="D&amp;D Dwarvish Bold" size="30" />
 		<color value="#DDDDDD" />
 	</font>
-	<font name="Elven">
-		<ttf file="graphics/fonts/Elven.ttf" name="D&amp;DElven" size="30" />
-		<color value="#DDDDDD" />
-	</font>
-	<font name="Infernal">
-		<ttf file="graphics/fonts/Infernal.ttf" name="D&amp;D Abyssal Barazhad" size="30" />
-		<color value="#DDDDDD" />
-	</font>
-	<font name="Celestial">
-		<ttf file="graphics/fonts/Celestial.ttf" name="Supernal" size="30" />
-		<color value="#DDDDDD" />
-	</font>
-	<font name="Draconic">
-		<ttf file="graphics/fonts/Draconic.ttf" name="Draconic 4" size="30" />
-		<color value="#DDDDDD" />
-	</font>
 	<font name="Primordial">
 		<ttf file="graphics/fonts/Primordial.ttf" name="Primordial" size="30" />
 		<color value="#DDDDDD" />
@@ -597,4 +581,117 @@
 		<ttf file="graphics/fonts/Roboto-Black" name="Roboto Black" size="20" /> 
 		<color value="#EBDDBA" /> 
 	</font>
+
+	<!--Golarion Languages and Fonts FGU by mattekure and callum-->
+		<font name="Aquan">
+			<ttf file="graphics/fonts/DS_Aqua-1.ttf" name="Aquan" size="27" />
+			<color value="#DDDDDD" />
+		</font>
+
+		<font name="Celestial">
+			<ttf file="graphics/fonts/Espruar.ttf" name="Celestial" size="18" />
+			<color value="#DDDDDD" />
+		</font>
+
+		<font name="Draconic">
+			<ttf file="graphics/fonts/LswDrachenklaueRegular.ttf" name="Draconic" size="21" />
+			<color value="#DDDDDD" />
+		</font>
+
+		<font name="Elven">
+			<ttf file="graphics/fonts/tngan.ttf" name="Elven" size="21" />
+			<color value="#DDDDDD" />
+		</font>
+
+		<font name="Infernal">
+			<ttf file="graphics/fonts/DS_Sinenya.ttf" name="Infernal" size="24" />
+			<color value="#DDDDDD" />
+		</font>
+
+		<font name="Catfolk">
+			<ttf file="graphics/fonts/Edhiron.ttf" name="Catfolk" size="27" />
+			<color value="#DDDDDD" />
+		</font>
+
+		<font name="Common">
+			<ttf file="graphics/fonts/Mexlar.ttf" name="Common" size="24" />
+			<color value="#DDDDDD" />
+		</font>
+
+		<font name="Druidic">
+			<ttf file="graphics/fonts/Beth-Luis-Fearn.ttf" name="Druidic" size="15" />
+			<color value="#DDDDDD" />
+		</font>
+    
+    <!--Other languages (Inner Sea World Guide, p.251)-->
+    
+		<font name="Aklo">
+			<ttf file="graphics/fonts/CirnajaCalligraphy.ttf" name="Aklo" size="24" />
+			<color value="#DDDDDD" />
+		</font>
+
+    <!--Modern human languages (Inner Sea World Guide, p.251)-->
+    
+		<font name="Hallit">
+			<ttf file="graphics/fonts/valmarel.ttf" name="Hallit" size="21" />
+			<color value="#DDDDDD" />
+		</font>
+    
+		<font name="Kelish">
+			<ttf file="graphics/fonts/Siddiqua.ttf" name="Kelish" size="21" />
+			<color value="#DDDDDD" />
+		</font>
+    
+		<font name="Osiriani">
+			<ttf file="graphics/fonts/TheNileSong.ttf" name="Osiriani" size="18" />
+			<color value="#DDDDDD" />
+		</font>
+    
+		<font name="Polyglot">
+			<ttf file="graphics/fonts/Ancient Thorass.ttf" name="Polyglot" size="18" />
+			<color value="#DDDDDD" />
+		</font>
+    
+		<font name="Skald">
+			<ttf file="graphics/fonts/HyrrokkinRunic.ttf" name="Skald" size="24" />
+			<color value="#DDDDDD" />
+		</font>
+
+		<font name="Tien">
+			<ttf file="graphics/fonts/DS_Nasilnese.ttf" name="Tien" size="30" />
+			<color value="#DDDDDD" />
+		</font>
+    
+		<font name="Varisian">
+			<ttf file="graphics/fonts/Hetarosia.ttf" name="Varisian" size="21" />
+			<color value="#DDDDDD" />
+		</font>
+    
+    <!--Ancient languages (Inner Sea World Guide, p.251)-->
+    
+		<font name="Azlanti">
+			<ttf file="graphics/fonts/Sequoyah.ttf" name="Azlanti" size="21" />
+			<color value="#DDDDDD" />
+		</font>
+    
+		<font name="Cyclops">
+			<ttf file="graphics/fonts/Dethek.ttf" name="Cyclops" size="21" />
+			<color value="#DDDDDD" />
+		</font>
+
+		<font name="Jistka">
+			<ttf file="graphics/fonts/AjayNormal.ttf" name="Jistka" size="24" />
+			<color value="#DDDDDD" />
+		</font>
+
+		<font name="Tekritanin">
+			<ttf file="graphics/fonts/NYMAYA__.TTF" name="Tekritanin" size="18" />
+			<color value="#DDDDDD" />
+		</font>
+
+		<font name="Thassilonian">
+			<ttf file="graphics/fonts/Thassilonian_Runes_New.ttf" name="Thassilonian" size="24" />
+			<color value="#DDDDDD" />
+		</font>
+
 </root>
