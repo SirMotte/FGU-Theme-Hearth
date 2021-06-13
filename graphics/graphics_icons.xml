@@ -53,7 +53,14 @@
 	<icon name="minimized_charequipment" file="graphics/pngs/minimized_charequipment.png" />
 	<icon name="minimized_charnotes" file="graphics/pngs/minimized_charnotes.png" />
 	<icon name="char_armorcheck" file="graphics/pngs/char_armorcheck.png" />
+	<icon name="char_weapon_hand1" file="graphics/pngs/char_weapon_hand1.png" />
+	<icon name="char_weapon_hand2" file="graphics/pngs/char_weapon_hand2.png" />
+	<icon name="char_weapon_handoff" file="graphics/pngs/char_weapon_handoff.png" />
+	<icon name="char_attuned" file="graphics/pngs/char_attuned.png" />
 	
+	<!--Character List-->
+	<icon name="charlist_pointer" file="graphics/pngs/charlist_pointer.png" />
+
 	<!-- Encounters -->
 	<icon name="button_enc_refreshcr" file="graphics/pngs/button_ctnextround.png" />
 	<icon name="button_enc_refreshcr_down" file="graphics/pngs/button_ctnextround_down.png" />
@@ -90,9 +97,6 @@
 	<icon name="button_collapse_down" file="graphics/pngs/button_minus_down.png" />
 	<icon name="button_dialog_cancel" file="graphics/pngs/button_dialog_cancel.png" />
 	<icon name="button_dialog_cancel_down" file="graphics/pngs/button_dialog_cancel_down.png" />
-	
-		
-	
 	<icon name="button_ct" file="graphics/pngs/button_ct.png" />
 	<icon name="button_ct_down" file="graphics/pngs/button_ct_down.png" />
 	<icon name="button_partysheet" file="graphics/pngs/button_partysheet.png" />
@@ -418,32 +422,28 @@
 	<!-- Toolbar -->
 	<!-- Assume 24x24 for toolbar_30 icons -->
     <icon name="tool_zoomtofit_30" file="graphics/pngs/tool_zoomtofit_30.png" />
-
     <icon name="tool_toggle_30" file="graphics/pngs/tool_toggle_30.png" />
-
     <icon name="tool_select_30" file="graphics/pngs/tool_select_30.png" />
-
     <icon name="tool_paint_30" file="graphics/pngs/tool_paint_30.png" />
     <icon name="tool_erase_30" file="graphics/pngs/tool_erase_30.png" />
     <icon name="tool_mask_30" file="graphics/pngs/tool_mask_30.png" />
     <icon name="tool_grid_30" file="graphics/pngs/tool_grid_30.png" />
-
     <icon name="tool_left_30" file="graphics/pngs/tool_arrow_left_30.png" />
     <icon name="tool_right_30" file="graphics/pngs/tool_arrow_right_30.png" />
     <icon name="tool_up_30" file="graphics/pngs/tool_arrow_up_30.png" />
     <icon name="tool_down_30" file="graphics/pngs/tool_arrow_down_30.png" />
     <icon name="tool_plus_30" file="graphics/pngs/tool_plus_30.png" />
     <icon name="tool_minus_30" file="graphics/pngs/tool_minus_30.png" />
-    
-    <icon name="tool_target_select_30" file="graphics/pngs/tool_target_select_30.png" />
+	<icon name="tool_target_select_30" file="graphics/pngs/tool_target_select_30.png" />
     <icon name="tool_target_clear_30" file="graphics/pngs/tool_target_clear_30.png" />
     <icon name="tool_target_enemies_30" file="graphics/pngs/tool_target_enemies_30.png" />
     <icon name="tool_target_allies_30" file="graphics/pngs/tool_target_allies_30.png" />
-
 	<icon name="tool_tokenlocked_30" file="graphics/pngs/tool_token_locked.png" />
 	<icon name="tool_lock_open" file="graphics/pngs/tool_lock_open.png" />
 	<icon name="tool_lock_closed" file="graphics/pngs/tool_lock_closed.png" />
-
+	<icon name="tool_shortcut_30" file="graphics/pngs/tool_shortcut.png" />
+	<icon name="tool_preview_30" file="graphics/pngs/tool_preview.png" />
+	
 <!--
 	<icon name="refresh" file="graphics/pngs/refresh.png" />
 -->

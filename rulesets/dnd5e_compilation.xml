@@ -157,4 +157,12 @@
 			end
 		</script>
 	</windowclass>
+
+	   
+	<template name="string_charinv_attunecalc" merge="join">
+        <stringcontrol>
+            <font>subwindowsmalltitle</font>
+            <warning>FF6161</warning>
+        </stringcontrol>
+    </template>
 </root>
