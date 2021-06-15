@@ -1,16 +1,32 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.9 - Assassin's Spoon [/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.9 - Pathhider[/B][/COLOR][/SIZE]
 
 [B]Yada-yada-yada:[/B]
+This update focuses on missing elements for the Pathfinder 2E and the ICRPG Ruleset.
+Its add some prominent missing frames for Pathfinder Reference Manuals, as they come with a lot more variety than the 5E or Core Ruleset.
 
+What else? I adjusted some icons here and there, but no major changes or additions, most likeley no one will ever notice.
+This is the last Beta Update, Release Edition, here we come!
 
 Enjoy!
 Sir Motte
 
+[B]Added Ruleset Support:[/B]
+[LIST]
+[*]ICRPG by Saagael and Runehammer Games LLC (Index Card RPG)
+[/LIST]
+
 [B]Changelog DnD 5E Ruleset:[/B]
 
 [LIST]
+[*]Adjusted two handed actions tab icon to be clearer.
 [*]
-
+[*]
+[*]
+[*]
+[*]
+[*]
+[*]
+[*]
 [/LIST]
 
 [B]Added Extension Support:[/B]
