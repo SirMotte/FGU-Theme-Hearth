@@ -12,7 +12,7 @@ Sir Motte
 
 [B]Added Ruleset Support:[/B]
 [LIST]
-[*]ICRPG by Saagael and Runehammer Games LLC (Index Card RPG)
+[*]ICRPG by Saagael for the Runehammer Games LLC - Index Card RPG Ruleset.
 [/LIST]
 
 [B]Changelog DnD 5E Ruleset:[/B]
