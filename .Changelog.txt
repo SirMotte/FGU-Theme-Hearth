@@ -39,7 +39,7 @@ Sir Motte
 [B]Supported Extension changes:[/B]
 
 [LIST]
-[*]none
+[*]Changed audio icon for Audio Overseer by Celestian
 [/LIST]
 
 [COLOR="#FF0000"][B]Known Issue(s) introduced with this update:[/B][/COLOR]
