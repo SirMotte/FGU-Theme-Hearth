@@ -429,6 +429,8 @@
 			<icon name="icon_easyLights_spellDark" file="graphics/extensions/mattekure/easy_lights/spelldark_gray.png" />
 			<icon name="icon_easyLights_spellLight" file="graphics/extensions/mattekure/easy_lights/spelllight_gray.png" />
 			<icon name="icon_easyLights_torch" file="graphics/extensions/mattekure/easy_lights/torch_gray.png" />
+	<!--Ext: Fantasy Grounds Unity Weather Generator-->
+			<icon name="tab_weather" file="graphics/extensions/mattekure/weather_generator/tab_weather.png" />	
 
 <!--Author: Celestian-->
 	<!--Ext: Audio Overseer-->
