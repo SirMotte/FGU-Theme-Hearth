@@ -32,13 +32,14 @@ Sir Motte
 [B]Added Extension Support:[/B]
 
 [LIST]
-[*]
+[*] Fantasy Grounds Unity Weather Generator - by Mattekure
+
 [/LIST]
 
 [B]Supported Extension changes:[/B]
 
 [LIST]
-[*]
+[*]none
 [/LIST]
 
 [COLOR="#FF0000"][B]Known Issue(s) introduced with this update:[/B][/COLOR]
