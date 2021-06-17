@@ -19,7 +19,7 @@ Sir Motte
 
 [LIST]
 [*]Adjusted two handed actions tab icon to be clearer.
-[*]
+[*]Fixed - tooltipbox.png had a missing lower border, looks like I accidentally moved the frame a little. (thanks to MeAndUnique for spotting this)
 [*]
 [*]
 [*]
