@@ -6,7 +6,7 @@
 -->
 
 <root>
-	<string name="ct_window_title">SCHLACHTENHELFER</string>
+	<string name="ct_window_title">Schlachtenhelfer</string>
 	
 	<string name="ct_emptylist">SC oder NPC hier einfügen.</string>
 	
@@ -64,7 +64,7 @@
 	<string name="ct_menu_targetingfriend">Alle Verbündeten anvisieren</string>
 	<string name="ct_menu_targetingnonfriend">Alle nicht Verbündeten anvisieren</string>
 	
-	<string name="ct_error_effectdroptargetnotinct">[ERROR] Effect dropped on target which is not listed in the combat tracker.</string>
+	<string name="ct_error_effectdroptargetnotinct">[ERROR] Effekt auf Ziel angewandt, das nicht im Schlachtenhelfer registriert ist.</string>
 	<string name="ct_error_effectdecodefail">[ERROR] Unable to decode effect details.</string>
 	<string name="ct_error_addnpcfail">[ERROR] Unable to create NPC record.</string>
 	<string name="ct_error_addnpcfail2">[ERROR] Missing data record, check your modules. Unable to add NPC record.</string>
