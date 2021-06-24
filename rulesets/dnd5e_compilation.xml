@@ -116,12 +116,12 @@
 								registerMenuItem(Interface.getString("menu_rest"), "restmenu", 8);
 								registerMenuItem(Interface.getString("menu_restshort"), "rest_short", 8, 8);
 								registerMenuItem(Interface.getString("menu_restlong"), "rest_long", 8, 6);
-								registerMenuItem(Interface.getString("menu_init"), "menu_init", 7);
-        						registerMenuItem(Interface.getString("menu_initall"), "shuffle", 7, 8);
-        						registerMenuItem(Interface.getString("menu_initnpc"), "mask", 7, 7);
-								registerMenuItem(Interface.getString("menu_initpc"), "portrait", 7, 6);
-								registerMenuItem(Interface.getString("menu_initclear"), "pointer_circle", 7, 4);
-
+								registerMenuItem(Interface.getString("menu_init"), "menu_init_radial", 7);
+        						registerMenuItem(Interface.getString("menu_initall"), "menu_initall_radial", 7, 8);
+        						registerMenuItem(Interface.getString("menu_initnpc"), "menu_initnpc_radial", 7, 7);
+								registerMenuItem(Interface.getString("menu_initpc"), "menu_initpc_radial", 7, 6);
+								registerMenuItem(Interface.getString("menu_initclear"), "menu_initclear_radial", 7, 4);
+<!--
 								registerMenuItem(Interface.getString("menu_rest"), "lockvisibilityon", 8);
 								registerMenuItem(Interface.getString("menu_restshort"), "pointer_cone", 8, 8);
 								registerMenuItem(Interface.getString("menu_restlong"), "pointer_circle", 8, 6);
@@ -132,7 +132,7 @@
 
 								registerMenuItem(Interface.getString("ct_menu_effectdelete"), "hand", 5);
 								registerMenuItem(Interface.getString("ct_menu_effectdeleteall"), "pointer_circle", 5, 7);
-								registerMenuItem(Interface.getString("ct_menu_effectdeleteexpiring"), "pointer_cone", 5, 5);
+								registerMenuItem(Interface.getString("ct_menu_effectdeleteexpiring"), "pointer_cone", 5, 5);-->
 							end
 
 							if StringManager.contains(Extension.getExtensions(), "ExtendedRest") then
