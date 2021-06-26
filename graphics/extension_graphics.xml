@@ -531,4 +531,17 @@
 			</sheetdata>
 		</windowclass>
 
+<!--Author: Scried Raven-->		
+	<!--Ext: Floating Tabs-->
+		<!--Icons-->
+			<icon name="button_traits" file="graphics/extensions/scried_raven/floating_tabs/button_traits.png" /> 
+			<icon name="button_traits_down" file="graphics/extensions/scried_raven/floating_tabs/button_traits_down.png" /> 
+			<icon name="button_skills" file="graphics/extensions/scried_raven/floating_tabs/button_skills.png" /> 
+			<icon name="button_skills_down" file="graphics/extensions/scried_raven/floating_tabs/button_skills_down.png" /> 
+			<icon name="button_spells" file="graphics/extensions/scried_raven/floating_tabs/button_spells.png" /> 
+			<icon name="button_spells_down" file="graphics/extensions/scried_raven/floating_tabs/button_spells_down.png" /> 
+			<icon name="button_actions" file="graphics/extensions/scried_raven/floating_tabs/button_actions.png" /> 
+			<icon name="button_actions_down" file="graphics/extensions/scried_raven/floating_tabs/button_actions_down.png" /> 
+			<icon name="button_inventory" file="graphics/extensions/scried_raven/floating_tabs/button_inventory.png" /> 
+			<icon name="button_inventory_down" file="graphics/extensions/scried_raven/floating_tabs/button_inventory_down.png" /> 
 </root>
