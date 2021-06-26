@@ -22,7 +22,7 @@ Sir Motte
 [*]Fixed - tooltipbox.png had a missing lower border, looks like I accidentally moved the frame a little. (thanks to MeAndUnique for spotting this)
 [*]Added Custom Dice Radial Menu Icon
 [*]Changed "Take Ownership Icon" to be less confusing.
-[*]
+[*]Changed 2 Hand Action Icon to not cause its line to expand when selected.
 [*]
 [*]
 [*]
@@ -32,14 +32,15 @@ Sir Motte
 [B]Added Extension Support:[/B]
 
 [LIST]
-[*] Fantasy Grounds Unity Weather Generator - by Mattekure
-
+[*]Fantasy Grounds Unity Weather Generator - by Mattekure
+[*]
 [/LIST]
 
 [B]Supported Extension changes:[/B]
 
 [LIST]
 [*]Changed audio icon for Audio Overseer by Celestian
+[*]Adjusted new buttons for Floating Tabs by Scried Raven
 [/LIST]
 
 [COLOR="#FF0000"][B]Known Issue(s) introduced with this update:[/B][/COLOR]
