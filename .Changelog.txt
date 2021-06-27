@@ -23,7 +23,7 @@ Sir Motte
 [*]Added Custom Dice Radial Menu Icon
 [*]Changed "Take Ownership Icon" to be less confusing.
 [*]Changed 2 Hand Action Icon to not cause its line to expand when selected.
-[*]
+[*]Minor changes to any icon that used a sword symbol.
 [*]
 [*]
 [*]
