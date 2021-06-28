@@ -45,7 +45,9 @@ function onInit()
 	ColorManager.COLOR_TOKEN_HEALTH_GRADIENT_MID = { r = 255, g = 192, b = 0 };
 	ColorManager.COLOR_TOKEN_HEALTH_GRADIENT_BOTTOM = { r = 255, g = 0, b = 0 };
 
-	Interface.onHotkeyDrop = onHotkeyDrop;
+	if not Bartender then
+		Interface.onHotkeyDrop = onHotkeyDrop;
+	end
 end
 
 function onHotkeyDrop(dragdata)
