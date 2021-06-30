@@ -2,7 +2,7 @@
 <!--Special Thanks to MeAndUnique and Saagael for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: Sir Motte's Magnificent Darkness\rVersion: Beta 2.9 - xxx\rHearth Edition" font="emotefont" icon="footface"/>
+	<announcement text="Theme Loaded: Sir Motte's Magnificent Darkness\rVersion: Beta 2.9 - Pathhider\rHearth Edition" font="emotefont" icon="footface"/>
 	
 	<properties>
 		<name>Theme: Hearth</name>
