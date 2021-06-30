@@ -33,7 +33,7 @@ Sir Motte
 
 [LIST]
 [*]Fantasy Grounds Unity Weather Generator - by Mattekure
-[*]
+[*]Bartender by MeAndUnique - My Themes functionality will be replaced by Bartender if loaded.
 [/LIST]
 
 [B]Supported Extension changes:[/B]
