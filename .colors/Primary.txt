@@ -49,49 +49,64 @@ Brown =             473C33
 Tan =               EBDDBA
 
 
-Primary Background =    Dark Grey
-Secondary Background =  Medium Dark Grey
-Primary Foreground =    Tan
-Secondary Foreground =  Light Grey
+Primary Background =        Dark Grey
+Secondary Background =      Medium Dark Grey
+Primary Foreground =        Tan
+Secondary Foreground =      Light Grey
 
-Blend Color =           White
+Blend Color =               White
 
-Calendar Background =   Brown
-Calendar Holiday =      Crimson
+Calendar Background =       Brown
+Calendar Holiday =          Crimson
 
-Text Selection =        Navy
-Warning Text =          Crimson
+Text Selection =            Navy
+Warning Text =              Crimson
 
-Chapter Font =          Light Salmon
+Chapter Font =              Light Salmon
 
-Chat Font 1 =           Blush
-Chat Font 2 =           Cream
-Chat Font 3 =           Violet
-Chat Font 4 =           Mint Green
-Chat Font 5 =           Light Sky Blue
-Chat Font 6 =           Light Slate
-Chat Font 7 =           Turquoise
+Chat Font 1 =               Blush
+Chat Font 2 =               Cream
+Chat Font 3 =               Violet
+Chat Font 4 =               Mint Green
+Chat Font 5 =               Light Sky Blue
+Chat Font 6 =               Light Slate
+Chat Font 7 =               Turquoise
 
-Temporary HP =          Sky Blue
-Adjusted HP =           Warm Lavender
+Temporary HP =              Sky Blue
+Adjusted HP =               Warm Lavender
 
-Bloodied =              Crimson
-Heavy Wounds =          Salmon
-Moderate Wounds =       Light Gold
-Healthy =               Mint Green
-Dead =                  Grey
-Unconscious =           Lavender
+Bloodied =                  Crimson
+Critical Wounds =           Crimson
+Heavy Wounds =              Salmon
+Moderate Wounds =           Light Gold
+Light Wounds =              Mint Green
+Healthy =                   Mint Green
+Dead =                      Grey
+Unconscious =               Lavender
 
-Token Healthy =         Green
-Token Dead =            Medium Light Grey
-Token Unconscious =     Purple
-Token Wounded =         Lime Green
-Token Bloodied =        Red
-Token ModerateWounds =  Gold
-Token HeavyWounds =     Orange
+Token Healthy =             Green
+Token Dead =                Medium Light Grey
+Token Unconscious =         Purple
+Token Wounded =             Lime Green
+Token Bloodied =            Red
+Token Moderate Wounds =     Gold
+Token Heavy Wounds =        Orange
+Token Critical Wounds =     Red
 
-Usage Full =            Light Grey
-Usage Three Quarter =   Crimson
-Usage Half =            Salmon
-Usage One Quarter =     Light Gold
-Usage Empty =           Light Grey
+Usage Full =                Light Grey
+Usage Three Quarter =       Crimson
+Usage Half =                Salmon
+Usage One Quarter =         Light Gold
+Usage Empty =               Light Grey
+
+Gradient Top =              Black
+Gradient Mid =              Maroon
+Gradient Bottom =           Red
+
+Health Gradient Top =       Green
+Health Gradient Mid =       Dark Orange
+Health Gradient Bottom =    Dark Red
+
+Token Gradient Top =        Green
+Token Gradient Mid =        Gold
+Token Gradient Bottom =     Red
