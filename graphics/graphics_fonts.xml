@@ -4,13 +4,13 @@
 	<!-- Note: FGF tags processed first for FG Classic, and TTF tags processed first for FGU -->
 	<!-- Text Highlight -->
 	<textsettings>
-		<selectioncolor>37415A</selectioncolor>
+		<selectioncolor>37415A</selectioncolor> <!-- Replaceable Color: Text Selection -->
 	</textsettings>
 	<!-- Sidebar -->
 	<font name="button_sidebar_dockitem">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<!-- Default fonts - REQUIRED -->
 	<font name="defaultstringcontrol">
