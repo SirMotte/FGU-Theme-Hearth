@@ -62,6 +62,7 @@ Calendar Background =   Brown
 Calendar Holiday =      Crimson
 
 Text Selection =        Navy
+Warning Text =          Crimson
 
 Chapter Font =          Light Salmon
 
