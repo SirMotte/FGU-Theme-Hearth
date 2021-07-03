@@ -1,0 +1,91 @@
+[Greyscale]
+Black =             000000
+Dark Grey =         232323
+Medium Dark Grey =  333333
+Grey =              909090
+Medium Light Grey = C0C0C0
+Light Grey =        DDDDDD
+White =             FFFFFF
+
+[Reds]
+Maroon =            600000
+Dark Red =          C00000
+Red =               FF0000
+Crimson =           FF6161
+Blush =             FF8C8C
+
+[Greens]
+Dark Green =        008000
+Green =             00C000
+Lime Green =        80C000
+Turquoise =         44CDC5
+Mint Green =        77CE77
+
+[Blues]
+Navy =              37415A
+Light Slate =       B4B4F0
+Sky Blue =          69B7FF
+Light Sky Blue =    7DC4F7
+
+[Purples]
+Purple =            8C3BFF
+Lavender =          C7BAEB
+Warm Lavender =     D592FF
+Violet =            FF90FF
+
+[Yellows]
+Gold =              FFC000
+Light Gold =        F5CE6C
+Cream =             F5E4A1
+
+[Oranges]
+Dark Orange =       D27017
+Orange =            FF6000
+Salmon =            F29476
+Light Salmon =      F2AB76
+
+[Browns]
+Brown =             473C33
+Tan =               EBDDBA
+
+
+
+
+Primary Background =    Dark Grey
+Secondary Background =  Medium Dark Grey
+Primary Foreground =    Tan
+Secondary Foreground =  Light Grey
+
+Blend Color =           White
+
+Calendar Background =   Brown
+
+Text Selection =        Navy
+
+Chapter Font =          Light Salmon
+
+Chat Font 1 =           Blush
+Chat Font 2 =           Cream
+Chat Font 3 =           Violet
+Chat Font 4 =           Mint Green
+Chat Font 5 =           Light Sky Blue
+Chat Font 5 =           Light Slate
+Chat Font 6 =           Turquoise
+
+Temporary HP =          Sky Blue
+Adjusted HP =           Warm Lavender
+
+Bloodied =              Crimson
+Heavy Wounds =          Salmon
+Moderate Wounds =       Light Gold
+Healthy =               Mint Green
+Dead =                  Grey
+Unconscious =           Lavender
+
+Token Healthy =         Green
+Token Dead =            Medium Light Grey
+Token Unconscious =     Purple
+Token Wounded =         Lime Green
+Token Bloodied =        Red
+Token ModerateWounds =  Gold
+Token HeavyWounds =     Orange
