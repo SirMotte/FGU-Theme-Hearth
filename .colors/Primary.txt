@@ -69,8 +69,8 @@ Chat Font 2 =           Cream
 Chat Font 3 =           Violet
 Chat Font 4 =           Mint Green
 Chat Font 5 =           Light Sky Blue
-Chat Font 5 =           Light Slate
-Chat Font 6 =           Turquoise
+Chat Font 6 =           Light Slate
+Chat Font 7 =           Turquoise
 
 Temporary HP =          Sky Blue
 Adjusted HP =           Warm Lavender
