@@ -59,6 +59,7 @@ Secondary Foreground =  Light Grey
 Blend Color =           White
 
 Calendar Background =   Brown
+Calendar Holiday =      Crimson
 
 Text Selection =        Navy
 
