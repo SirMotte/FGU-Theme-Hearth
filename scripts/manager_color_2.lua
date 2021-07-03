@@ -45,7 +45,11 @@ function onInit()
 	ColorManager.COLOR_TOKEN_HEALTH_GRADIENT_MID = { r = 255, g = 192, b = 0 };
 	ColorManager.COLOR_TOKEN_HEALTH_GRADIENT_BOTTOM = { r = 255, g = 0, b = 0 };
 
-	ColorManager.COLOR_ADJUSTED_HP = "D592FF"
+	ColorManager.COLOR_ADJUSTED_HP = "D592FF";
+	ColorManager.COLOR_PRIMARY_FOREGROUND = "EBDDBA";
+	ColorManager.COLOR_SECONDARY_FOREGROUND = "DDDDDD";
+	ColorManager.COLOR_CALENDAR_BACKGROUND = "473C33";
+	ColorManager.COLOR_CALENDAR_HOLIDAY = "FF6161";
 
 	if not Bartender then
 		Interface.onHotkeyDrop = onHotkeyDrop;

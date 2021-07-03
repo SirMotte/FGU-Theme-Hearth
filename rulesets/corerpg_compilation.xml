@@ -42,15 +42,15 @@
 	<template name="imagedata_record_step">
 		<imagedatacontrol>
 			<invisible />
-			<color>EBDDBA</color>
-			<backcolor>232323</backcolor>
+			<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+			<backcolor>232323</backcolor> <!-- Replaceable Color: Primary Background -->
 		</imagedatacontrol>
 	</template>
 	<template name="imagepaneldata_record_step">
 		<imagedatacontrol>
 			<invisible />
-			<color>EBDDBA</color>
-			<backcolor>232323</backcolor>
+			<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+			<backcolor>232323</backcolor> <!-- Replaceable Color: Primary Foreground -->
 		</imagedatacontrol>
 	</template>
 	<!--Image Window Background foreground end-->
@@ -372,10 +372,10 @@
 	<windowclass name="ct_effect" merge="join">
 		<sheetdata>
 			<string_ct_effect_source name="source">
-				<color>DDDDDD</color>
+				<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
 			</string_ct_effect_source>
 			<string_ct_effect_targets name="target_summary">
-				<color>DDDDDD</color>
+				<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
 			</string_ct_effect_targets>
 		</sheetdata>
 	</windowclass>
@@ -383,7 +383,7 @@
 	<!-- Source: ct/template_ct.xml -->
 	<template name="label_ct">
 		<label>
-			<color>EBDDBA</color>
+			<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
 		</label>
 	</template>
 
@@ -478,14 +478,14 @@
 			function updatedSetState(bCurrDay, bSelDay, bHoliday, nodeEvent)
 				fSetState(bCurrDay, bSelDay, bHoliday, nodeEvent);
 				if bCurrDay then
-					setBackColor("473C33");
-					label_day.setColor("EBDDBA");
+					setBackColor(ColorManager.COLOR_CALENDAR_BACKGROUND);
+					label_day.setColor(ColorManager.COLOR_PRIMARY_FOREGROUND);
 				else
 					setBackColor();
 					if bHoliday then
-						label_day.setColor("FF6161");
+						label_day.setColor(ColorManager.COLOR_CALENDAR_HOLIDAY);
 					else
-						label_day.setColor("DDDDDD");
+						label_day.setColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
 					end
 				end
 			end
@@ -517,9 +517,9 @@
 					end
 
 					if bCampaignMonth then
-						v.label_period.setColor("EBDDBA");
+						v.label_period.setColor(ColorManager.COLOR_PRIMARY_FOREGROUND);
 					else
-						v.label_period.setColor("EBDDBA");
+						v.label_period.setColor(ColorManager.COLOR_PRIMARY_FOREGROUND);
 					end
 				end
 			end
@@ -527,22 +527,22 @@
 		</script>
 		<sheetdata>
 			<stringcontrol name="viewdate" merge="join">
-				<color>EBDDBA</color>
+				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
 			</stringcontrol>
 			<basicnumber name="currentyear" merge="join">
-				<color>EBDDBA</color>
+				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
 			</basicnumber>
 			<basicstring name="currentepoch" merge="join">
-				<color>EBDDBA</color>
+				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
 			</basicstring>
 			<label name="currenthour" merge="join">
-				<color>EBDDBA</color>
+				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
 			</label>
 			<label name="currentminute" merge="join">
-				<color>EBDDBA</color>
+				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
 			</label>
 			<label name="currentphase" merge="join">
-				<color>EBDDBA</color>
+				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
 			</label>
 		</sheetdata>
 	</windowclass>
