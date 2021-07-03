@@ -55,14 +55,14 @@
 			<windowclass name="ct_combat_timer_host" merge="join">
 				<sheetdata>
 					<simplestring name="timer">
-						<color>DDDDDD</color>
+						<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
 					</simplestring>
 				</sheetdata>
 			</windowclass>
 			<windowclass name="ct_combat_timer_client" merge="join">
 				<sheetdata>
 					<simplestring name="timer">
-						<color>DDDDDD</color>
+						<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
 					</simplestring>
 				</sheetdata>
 			</windowclass> 
@@ -101,12 +101,12 @@
 			<font name="tokenbag_empty_font">
 				<fgffile name="graphics/fonts/italic-10.fgf" />
 				<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="15" />
-				<color value="#DDDDDD" />
+				<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 			</font>
 				<font name="sheetlabelminideathindicator">
 				<fgffile name="graphics/fonts/regular-8.fgf" />
 				<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
-				<color value="#DDDDDD" />
+				<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 			</font>
 			
 			<windowclass name="npc_combat" merge="join">
@@ -208,7 +208,7 @@
             		</anchored>
             		<readonly />
             		<hideonvalue > 0 </hideonvalue>
-            		<color>69B7FF</color>
+            		<color>69B7FF</color> <!-- Replaceable Color: Temporary HP -->
             		<nodrag />
             		<nolinkwidget />
             			<script>
@@ -228,7 +228,7 @@
                     		<top offset="20" />
                     		<left parent="portraitbase" anchor="right" relation="relative" offset="5" />
             		</anchored>
-            		<color>69B7FF</color>
+            		<color>69B7FF</color> <!-- Replaceable Color: Temporary HP -->
             		<readonly />
             		<nodrag />
             		<script>
@@ -306,7 +306,7 @@
 							super.onInit();
 						end
 						if adjhp then
-							adjhp.setColor("D592FF");
+							adjhp.setColor(ColorManager.COLOR_ADJUSTED_HP);
 						end
 					end
 				</script>
@@ -344,12 +344,12 @@
 	<!--Ext: Token Height Indicators-->
 	<font name="height_medium">
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="15" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	
 	<font name="height_large">
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="20" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 <!--Author: Diablo Bob-->
