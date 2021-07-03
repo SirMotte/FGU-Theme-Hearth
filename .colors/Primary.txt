@@ -49,8 +49,6 @@ Brown =             473C33
 Tan =               EBDDBA
 
 
-
-
 Primary Background =    Dark Grey
 Secondary Background =  Medium Dark Grey
 Primary Foreground =    Tan
@@ -91,3 +89,9 @@ Token Wounded =         Lime Green
 Token Bloodied =        Red
 Token ModerateWounds =  Gold
 Token HeavyWounds =     Orange
+
+Usage Full =            Light Grey
+Usage Three Quarter =   Crimson
+Usage Half =            Salmon
+Usage One Quarter =     Light Gold
+Usage Empty =           Light Grey
