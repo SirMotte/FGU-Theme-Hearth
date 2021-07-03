@@ -16,299 +16,299 @@
 	<font name="defaultstringcontrol">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="defaultnumbercontrol">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<!-- Distance font - REQUIRED -->
 	<font name="distancelabel">
 		<fgffile name="graphics/fonts/diemod.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	
 	<!-- Dice fonts - REQUIRED -->
 	<font name="diceexpr" version="&gt;=4">
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="diemod">
 		<fgffile name="graphics/fonts/diemod.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="30" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="dieresult">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	
 	<!-- Drag fonts - REQUIRED -->
 	<font name="draglabel">
 		<fgffile name="graphics/fonts/draglabel.fgf" />
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="14" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!-- Chat fonts - REQUIRED -->
 	<font name="chatfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="emotefont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#FF8C8C" />
+		<color value="#FF8C8C" /> <!-- Replaceable Color: Chat Font 1 -->
 	</font>
 	<font name="narratorfont">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="16" />
-		<color value="#F5E4A1" />
+		<color value="#F5E4A1" /> <!-- Replaceable Color: Chat Font 2 -->
 	</font>
 	<font name="systemfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#FF90FF" />
+		<color value="#FF90FF" /> <!-- Replaceable Color: Chat Font 3 -->
 	</font>
 	<font name="msgfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#FF90FF" />
+		<color value="#FF90FF" /> <!-- Replaceable Color: Chat Font 3 -->
 	</font>
 	<font name="oocfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#77CE77" />
+		<color value="#77CE77" /> <!-- Replaceable Color: Chat Font 4 -->
 	</font>
 	
 	<!-- Chat fonts -->
 	<font name="chatnpcfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#7DC4F7" />
+		<color value="#7DC4F7" /> <!-- Replaceable Color: Chat Font 5 -->
 	</font>
 	<font name="chatgmfont">
 		<fgffile name="graphics/fonts/bolditalic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
-		<color value="#B4B4F0" />
+		<color value="#B4B4F0" /> <!-- Replaceable Color: Chat Font 6 -->
 	</font>
 	<font name="whisperfont">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#44CDC5" />
+		<color value="#44CDC5" /> <!-- Replaceable Color: Chat Font 7 -->
 	</font>
 
 	<!-- Radial menus and character list -->
 	<font name="mini_name">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="mini_name_selected">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<!-- Identity list -->
 	<font name="idactivefont">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="idinactivefont">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<!-- Hot keys -->
 	<font name="hotkey">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="16" />
-		<color value="#EBDDBA" />		
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->		
 	</font>
 
 	<!-- Modifier stack -->
 	<font name="modcollector">
 		<fgffile name="graphics/fonts/diemod.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="modcollectorlabel">
 		<fgffile name="graphics/fonts/modcollectorlabel.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<!-- Windows -->
 <font name="windowtitle">
 		<fgffile name="graphics/fonts/bold-11.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="20" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 		<font name="subwindowtitle">
 		<fgffile name="graphics/fonts/title-regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="subwindowsmalltitle">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="subwindowsmalltitle_disabled">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<!-- Formatted text fields -->
 	<font name="reference-r">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="reference-i">
 		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="reference-b">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="reference-bi">
 		<fgffile name="graphics/fonts/bolditalic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-BlackItalic.ttf" name="Roboto Black Italic" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="reference-b-large">
 		<fgffile name="graphics/fonts/bold-11.fgf" />
 		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="18" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	
 	<!-- Standard text fields -->
 	<font name="sheetlabel">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="sheettext">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!-- Number fields -->
 	<font name="sheetnumber">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!-- Character selection -->
 	<font name="charselecttitle">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="charselectbody">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!-- Options -->
 	<font name="optionset">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="optiontitle">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="optionbody">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	
 	<!-- Tables -->
 	<font name="tablerange">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="tableheader">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="tabledata">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!--Tabs-->
 	<font name="tabtext_horizontal">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>	
 	
 	<!-- Calendar -->
 	<font name="calendarday">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="calendarday-b">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto Regular" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="calendarday-bi">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="calendarbold">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="calendarselecttitle">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="calendarselectbody">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="calendarmessage">
 		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!-- Characters -->
 	<font name="sheetlabelinline">
 		<fgffile name="graphics/fonts/regular-8.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="sheetlabelmini">
 		<fgffile name="graphics/fonts/regular-8.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	
@@ -316,382 +316,382 @@
 	<font name="reference-header">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-section">
 		<fgffile name="graphics/fonts/title-regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-chapter">
 		<fgffile name="graphics/fonts/title-regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#F2AB76" />
+		<color value="#F2AB76" /> <!-- Replaceable Color: Chapter Font -->
 	</font>
 	<font name="reference-groupdesc">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-groupsubdesc">
 		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="reference-page-header">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="26" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<!-- Asset View (FGU) -->
 	<font name="tokenbagasset_grid" version="&gt;=4">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="tokenbagasset_list" version="&gt;=4">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="assetview-path-active" version="&gt;=4">
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="assetview-path-inactive" version="&gt;=4">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="assetview_empty" version="&gt;=4">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>	
 	<!-- Misc -->
 	<font name="list-empty">
 		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="button-white">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="button-white-large">
 		<fgffile name="graphics/fonts/regular-11.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 		<!-- Characters - Color Change-->
 	<font name="sheetlabelinline">
 		<fgffile name="graphics/fonts/regular-8.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<!-- Misc -->
 	<font name="list-empty-ct">
 		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="list-empty-ps">
 		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="reference-subtitle">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 		<font name="reference-title">
 		<fgffile name="graphics/fonts/bold-14.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-h">
 		<fgffile name="graphics/fonts/bold-14.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<!-- Modifier Stack -->
 	<font name="modcollector">
 		<fgffile name="graphics/fonts/diemod.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="modcollectorlabel">
 		<fgffile name="graphics/fonts/modcollectorlabel.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 		</font>	
 	<!-- Windows -->
 	<font name="windowtitle"> 
 		<fgffile name="graphics/fonts/title-regular-12.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>	
 	<!-- Assets -->
 	<font name="tokenbagasset_grid" version="&gt;=4" merge="join">
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="tokenbagasset_list" version="&gt;=4" merge="join">
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<!-- Languages -->
 	<font name="Dwarven">
 		<ttf file="graphics/fonts/Dwarven.ttf" name="D&amp;D Dwarvish Bold" size="30" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="Primordial">
 		<ttf file="graphics/fonts/Primordial.ttf" name="Primordial" size="30" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 <!--Author: Mattekure-->
 	<!--Ext: Extended Language Fonts-->
 	<font name="AncientThorass">
       <ttf file="graphics/fonts/AncientThorass.ttf" name="Ancient Thorass" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Angerthas">
       <ttf file="graphics/fonts/Angerthas.ttf" name="Angerthas" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="AngerthasMoria">
       <ttf file="graphics/fonts/AngerthasMoria.ttf" name="Angerthas Moria" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Aqua">
       <ttf file="graphics/fonts/Aqua.ttf" name="DS_Aqua-1" size="30" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="BethLuisFearn">
       <ttf file="graphics/fonts/Beth-Luis-Fearn.ttf" name="Beth-Luis-Fearn" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Cirnaja">
       <ttf file="graphics/fonts/Cirnaja.ttf" name="Cirnaja Calligraphy" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="DeadSpace">
       <ttf file="graphics/fonts/DeadSpace.ttf" name="DeadSpace" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Dethek">
       <ttf file="graphics/fonts/Dethek.ttf" name="Dethek" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="DethekStone">
       <ttf file="graphics/fonts/DethekStone.ttf" name="Dethek Stone" size="28" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Edhiron">
       <ttf file="graphics/fonts/Edhiron.ttf" name="Edhiron Asdh�riel v. 1.2" size="30" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Espruar">
       <ttf file="graphics/fonts/Espruar.ttf" name="Espruar" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Greek">
       <ttf file="graphics/fonts/Greek.ttf" name="Greek Old Face" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Hetarosia">
       <ttf file="graphics/fonts/Hetarosia.ttf" name="hetarosia" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="HyrrokkinRunic">
       <ttf file="graphics/fonts/HyrrokkinRunic.ttf" name="Hyrrokkin Runic" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Khazuldum">
       <ttf file="graphics/fonts/Khazuldum.ttf" name="DS_Kha'zuldum" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="KhuzdulErebor">
       <ttf file="graphics/fonts/KhuzdulErebor.ttf" name="KhuzdulErebor" size="20" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Nasilnese">
       <ttf file="graphics/fonts/Nasilnese.ttf" name="DS_Nasilnese" size="36" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="NorseCode">
       <ttf file="graphics/fonts/NorseCode.ttf" name="Norse Code" size="30" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="OldeEspruar">
       <ttf file="graphics/fonts/OldeEspruar.otf" name="Olde Espruar" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="ScrapbookChinese">
       <ttf file="graphics/fonts/ScrapbookChinese.ttf" name="Scrapbook Chinese" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Sequoyah">
       <ttf file="graphics/fonts/Sequoyah.ttf" name="Sequoyah" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Siddiqua">
       <ttf file="graphics/fonts/Siddiqua.ttf" name="Siddiqua" size="28" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Sinenya">
       <ttf file="graphics/fonts/Sinenya.ttf" name="DS_Sinenya" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Tengwar3">
       <ttf file="graphics/fonts/Tengwar3.ttf" name="Tengwar 03" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
      <font name="Tengwar5">
       <ttf file="graphics/fonts/Tengwar5.ttf" name="Tengwar 05" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="TengwarAnnatar">
       <ttf file="graphics/fonts/TengwarAnnatar.ttf" name="Tengwar Annatar" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="TheNileSong">
       <ttf file="graphics/fonts/TheNileSong.ttf" name="The Nile Song" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Thorass">
       <ttf file="graphics/fonts/Thorass.ttf" name="Thorass" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
     <font name="Valmaric">
       <ttf file="graphics/fonts/Valmaric.ttf" name="Valmaric Eldamar" size="24" />
-      <color value="#DDDDDD" />
+      <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
     </font>
 <!--Ext: Sign Language Fonts-->
 	<font name="Gallaudet">
 		<ttf file="graphics/fonts/GALLAUDET.ttf" name="Gallaudet" size="48" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="Handtalk">
 		<ttf file="graphics/fonts/handtalk.ttf" name="Handtalk" size="36" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="HandSign">
 		<ttf file="graphics/fonts/HANDSIGN.TTF" name="HandSign" size="36" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>	
 	<!--Ext: Safety Toolkit-->
  	<font name="safetytoolkitfont">
 		<ttf file="graphics/fonts/Roboto-Black" name="Roboto Black" size="20" /> 
-		<color value="#EBDDBA" /> 
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground --> 
 	</font>
 
 	<!--Golarion Languages and Fonts FGU by mattekure and callum-->
 		<font name="Aquan">
 			<ttf file="graphics/fonts/DS_Aqua-1.ttf" name="Aquan" size="27" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
 		<font name="Celestial">
 			<ttf file="graphics/fonts/Espruar.ttf" name="Celestial" size="18" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
 		<font name="Draconic">
 			<ttf file="graphics/fonts/LswDrachenklaueRegular.ttf" name="Draconic" size="21" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
 		<font name="Elven">
 			<ttf file="graphics/fonts/tngan.ttf" name="Elven" size="21" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
 		<font name="Infernal">
 			<ttf file="graphics/fonts/DS_Sinenya.ttf" name="Infernal" size="24" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
 		<font name="Catfolk">
 			<ttf file="graphics/fonts/Edhiron.ttf" name="Catfolk" size="27" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
 		<font name="Common">
 			<ttf file="graphics/fonts/Mexlar.ttf" name="Common" size="24" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
 		<font name="Druidic">
 			<ttf file="graphics/fonts/Beth-Luis-Fearn.ttf" name="Druidic" size="15" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
     
     <!--Other languages (Inner Sea World Guide, p.251)-->
     
 		<font name="Aklo">
 			<ttf file="graphics/fonts/CirnajaCalligraphy.ttf" name="Aklo" size="24" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
     <!--Modern human languages (Inner Sea World Guide, p.251)-->
     
 		<font name="Hallit">
 			<ttf file="graphics/fonts/valmarel.ttf" name="Hallit" size="21" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
     
 		<font name="Kelish">
 			<ttf file="graphics/fonts/Siddiqua.ttf" name="Kelish" size="21" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
     
 		<font name="Osiriani">
 			<ttf file="graphics/fonts/TheNileSong.ttf" name="Osiriani" size="18" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
     
 		<font name="Polyglot">
 			<ttf file="graphics/fonts/Ancient Thorass.ttf" name="Polyglot" size="18" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
     
 		<font name="Skald">
 			<ttf file="graphics/fonts/HyrrokkinRunic.ttf" name="Skald" size="24" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
 		<font name="Tien">
 			<ttf file="graphics/fonts/DS_Nasilnese.ttf" name="Tien" size="30" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
     
 		<font name="Varisian">
 			<ttf file="graphics/fonts/Hetarosia.ttf" name="Varisian" size="21" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
     
     <!--Ancient languages (Inner Sea World Guide, p.251)-->
     
 		<font name="Azlanti">
 			<ttf file="graphics/fonts/Sequoyah.ttf" name="Azlanti" size="21" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
     
 		<font name="Cyclops">
 			<ttf file="graphics/fonts/Dethek.ttf" name="Cyclops" size="21" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
 		<font name="Jistka">
 			<ttf file="graphics/fonts/AjayNormal.ttf" name="Jistka" size="24" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
 		<font name="Tekritanin">
 			<ttf file="graphics/fonts/NYMAYA__.TTF" name="Tekritanin" size="18" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
 		<font name="Thassilonian">
 			<ttf file="graphics/fonts/Thassilonian_Runes_New.ttf" name="Thassilonian" size="24" />
-			<color value="#DDDDDD" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
 </root>
