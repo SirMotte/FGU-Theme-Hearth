@@ -13,6 +13,7 @@ Sir Motte
 [B]Added Ruleset Support:[/B]
 [LIST]
 [*]ICRPG by Saagael for the Runehammer Games LLC - Index Card RPG Ruleset.
+[*]Fixed: Error for the WHFRP 2e Ruleset - Fix Brought to you by Saagael.
 [/LIST]
 
 [B]Changelog DnD 5E Ruleset:[/B]
