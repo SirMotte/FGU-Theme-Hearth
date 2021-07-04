@@ -89,6 +89,7 @@ Token Dead =                Medium Light Grey
 Token Unconscious =         Purple
 Token Wounded =             Lime Green
 Token Bloodied =            Red
+Token Light Wounds =        Lime Green
 Token Moderate Wounds =     Gold
 Token Heavy Wounds =        Orange
 Token Critical Wounds =     Red
@@ -103,7 +104,7 @@ Gradient Top =              Black
 Gradient Mid =              Maroon
 Gradient Bottom =           Red
 
-Health Gradient Top =       Green
+Health Gradient Top =       Dark Green
 Health Gradient Mid =       Dark Orange
 Health Gradient Bottom =    Dark Red
 
