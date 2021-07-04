@@ -60,8 +60,9 @@ foreach($file in $files)
     }
 }
 
-$content = Get-Content .\scripts\manager_color_2.lua
-for($index = 0; $index -lt $content; ++$index)
+$managerpath = ".\scripts\manager_color_2.lua"
+$content = Get-Content $managerpath
+for($index = 0; $index -lt $content.Length; ++$index)
 {
     $line = $content[$index];
     if($line -match "-- Replaceable Color: ([\w ]+)$")
@@ -69,7 +70,7 @@ for($index = 0; $index -lt $content; ++$index)
         $content[$index] = $line -replace "[0-9A-F]{6}", $colormap[$Matches.1]
         $updated = $true
     }
-    elseif($line -match "-- Replaceable Channel: ([\w ]+)$")
+    elseif($line -match "-- Replaceable Channels: ([\w ]+)$")
     {
         $hex = $colormap[$Matches.1]
         $red = [System.Convert]::ToInt32($hex.substring(0, 2), 16)
@@ -79,5 +80,6 @@ for($index = 0; $index -lt $content; ++$index)
         $content[$index] = $line -replace "\{ ?r ?= ?\d{1,3}, ?g ?= ?\d{1,3}, ?b ?= ?\d{1,3} ?\}", $channels
     }
 }
+Set-Content -Path $managerpath -Value $content
 
 Pop-Location
