@@ -50,7 +50,7 @@
 		<imagedatacontrol>
 			<invisible />
 			<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
-			<backcolor>232323</backcolor> <!-- Replaceable Color: Primary Foreground -->
+			<backcolor>232323</backcolor> <!-- Replaceable Color: Primary Background -->
 		</imagedatacontrol>
 	</template>
 	<!--Image Window Background foreground end-->
