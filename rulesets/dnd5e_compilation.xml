@@ -125,11 +125,7 @@
 								registerMenuItem(Interface.getString("menu_rest"), "lockvisibilityon", 8);
 								registerMenuItem(Interface.getString("menu_restshort"), "pointer_cone", 8, 8);
 								registerMenuItem(Interface.getString("menu_restlong"), "pointer_circle", 8, 6);
-<!--
-								registerMenuItem(Interface.getString("ct_menu_itemdelete"), "delete", 3);
-								registerMenuItem(Interface.getString("ct_menu_itemdeletenonfriendly"), "delete", 3, 1);
-								registerMenuItem(Interface.getString("ct_menu_itemdeletefoe"), "delete", 3, 3);
--->
+								
 								registerMenuItem(Interface.getString("ct_menu_effectdelete"), "hand", 5);
 								registerMenuItem(Interface.getString("ct_menu_effectdeleteall"), "pointer_circle", 5, 7);
 								registerMenuItem(Interface.getString("ct_menu_effectdeleteexpiring"), "pointer_cone", 5, 5);
