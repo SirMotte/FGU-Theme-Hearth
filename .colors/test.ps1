@@ -60,4 +60,24 @@ foreach($file in $files)
     }
 }
 
+$content = Get-Content .\scripts\manager_color_2.lua
+for($index = 0; $index -lt $content; ++$index)
+{
+    $line = $content[$index];
+    if($line -match "-- Replaceable Color: ([\w ]+)$")
+    {
+        $content[$index] = $line -replace "[0-9A-F]{6}", $colormap[$Matches.1]
+        $updated = $true
+    }
+    elseif($line -match "-- Replaceable Channel: ([\w ]+)$")
+    {
+        $hex = $colormap[$Matches.1]
+        $red = [System.Convert]::ToInt32($hex.substring(0, 2), 16)
+        $green = [System.Convert]::ToInt32($hex.substring(2, 2), 16)
+        $blue = [System.Convert]::ToInt32($hex.substring(4, 2), 16)
+        $channels = "{ r = $($red), g = $($green), b = $($blue) }"
+        $content[$index] = $line -replace "\{ ?r ?= ?\d{1,3}, ?g ?= ?\d{1,3}, ?b ?= ?\d{1,3} ?\}", $channels
+    }
+}
+
 Pop-Location
