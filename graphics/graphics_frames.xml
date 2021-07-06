@@ -369,7 +369,7 @@
 	 <!-- TEMPLATES -->
 	<template name="toolbar_button_color_base">
 		<buttoncontrol>
-			<iconcolor>FFFFFF</iconcolor>
+			<iconcolor>FFFFFF</iconcolor> <!-- Replaceable Color: Blend Color -->
 		</buttoncontrol>
 	</template>
 
