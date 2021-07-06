@@ -1,0 +1,3 @@
+Text Selection =        600000
+Gradient Top =          Sky Blue
+Usage Empty =           Medium Dark Grey

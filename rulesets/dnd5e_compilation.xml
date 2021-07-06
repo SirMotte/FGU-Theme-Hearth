@@ -47,7 +47,7 @@
 	<windowclass name="charsheet_hd" merge="join">
 		<sheetdata>
 			<numbercontrol name="hdcurrent">
-				<color>DDDDDD</color>
+				<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
 			</numbercontrol>
 		</sheetdata>
 	</windowclass>
@@ -59,7 +59,7 @@
 					super.onInit();
 				end
 				if temphp then
-					temphp.setColor("69B7FF");
+					temphp.setColor(ColorManager.COLOR_TEMP_HP);
 				end
 			end
 		</script>
@@ -84,7 +84,7 @@
 					super.onInit();
 				end
 				if hptemp then
-					hptemp.setColor("69B7FF");
+					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
 				end
 			end
 		</script>
@@ -96,7 +96,7 @@
 					super.onInit();
 				end
 				if hptemp then
-					hptemp.setColor("69B7FF");
+					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
 				end
 			end
 		</script>
@@ -175,7 +175,7 @@
 	<template name="string_charinv_attunecalc" merge="join">
         <stringcontrol>
             <font>subwindowsmalltitle</font>
-            <warning>FF6161</warning>
+            <warning>FF6161</warning> <!-- Replaceable Color: Warning Text -->
         </stringcontrol>
     </template>
 </root>
