@@ -1,5 +1,5 @@
 # FGU-Theme-Hearth
-Fantasy Grounds Unity Theme by Sir Motte
+Fantasy Grounds Unity Theme by Sir Motte.
 
 Special thanks to MeAndUnique and Saagael.
 
