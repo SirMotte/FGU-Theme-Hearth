@@ -1,7 +1,7 @@
 # FGU-Theme-Hearth
 Fantasy Grounds Unity Theme by Sir Motte
 
-Speical thanks to MeAndUnique and Saagael.
+Special thanks to MeAndUnique and Saagael.
 
 Download:
 https://github.com/SirMotte/FGU-Theme-Hearth/releases
