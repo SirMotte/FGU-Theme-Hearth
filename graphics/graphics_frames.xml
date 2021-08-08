@@ -510,6 +510,117 @@
 		<offset>100,30,100,30</offset>
 	</framedef>
 
+<!--PFRPG2 Refblocks-->
+<framedef name="referenceblock-pfgreen">
+		<bitmap file="graphics/pngs/refblock_pfgreen.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfred">
+		<bitmap file="graphics/pngs/refblock_pfred.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfblue">
+		<bitmap file="graphics/pngs/refblock_pfblue.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfgreen1">
+		<bitmap file="graphics/pngs/refblock_pfgreen1.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfgreen2">
+		<bitmap file="graphics/pngs/refblock_pfgreen2.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfgreen3">
+		<bitmap file="graphics/pngs/refblock_pfgreen3.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfgreen4">
+		<bitmap file="graphics/pngs/refblock_pfgreen4.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>	
+	<framedef name="referenceblock-pfgreen5">
+		<bitmap file="graphics/pngs/refblock_pfgreen5.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>	
+	<framedef name="referenceblock-pfred1">
+		<bitmap file="graphics/pngs/refblock_pfred1.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfred2">
+		<bitmap file="graphics/pngs/refblock_pfred2.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfred3">
+		<bitmap file="graphics/pngs/refblock_pfred3.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfred4">
+		<bitmap file="graphics/pngs/refblock_pfred4.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>	
+	<framedef name="referenceblock-pfred5">
+		<bitmap file="graphics/pngs/refblock_pfred5.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>	
+	<framedef name="referenceblock-pfblue1">
+		<bitmap file="graphics/pngs/refblock_pfblue1.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfblue2">
+		<bitmap file="graphics/pngs/refblock_pfblue2.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfblue3">
+		<bitmap file="graphics/pngs/refblock_pfblue3.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfblue4">
+		<bitmap file="graphics/pngs/refblock_pfblue4.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>	
+	<framedef name="referenceblock-pfblue5">
+		<bitmap file="graphics/pngs/refblock_pfblue5.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>	
+	<framedef name="referenceblock-pf1">
+		<bitmap file="graphics/pngs/refblock_pf1.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pf2">
+		<bitmap file="graphics/pngs/refblock_pf2.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfaction">
+		<bitmap file="graphics/pngs/refblock_action.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfreaction">
+		<bitmap file="graphics/pngs/refblock_reaction.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pffreeaction">
+		<bitmap file="graphics/pngs/refblock_freeaction.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pftwoaction">
+		<bitmap file="graphics/pngs/refblock_twoaction.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-pfthreeaction">
+		<bitmap file="graphics/pngs/refblock_threeaction.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-map1">
+		<bitmap file="graphics/pngs/refblock_map1.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-horns">
+		<bitmap file="graphics/pngs/refblock_horns.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+
+
 <!-- Scrollbar -->
 	<framedef name="scrollbar_base">
 		<bitmap file="graphics/pngs/scrollbar.png" />
