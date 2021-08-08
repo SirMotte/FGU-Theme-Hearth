@@ -35,10 +35,5 @@
 	<icon name="tab_xp" file="graphics/pngs/tab_xp.png" />
 	<icon name="tab_log" file="graphics/pngs/tab_log.png" />
 	
-	<!-- Horizontal tab font -->
-	<font name="tabfont">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
-		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="16" />
-		<color value="#EBDDBA" />
-	</font>
+
 </root>
