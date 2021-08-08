@@ -694,4 +694,11 @@
 			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 		</font>
 
+		<!-- Horizontal tab font -->
+		<font name="tabfont">
+			<fgffile name="graphics/fonts/regular-10.fgf" />
+			<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="16" />
+			<color value="#EBDDBA" />
+		</font>
+
 </root>
