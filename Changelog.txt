@@ -27,7 +27,7 @@ Sir Motte
 [*]Minor changes to any icon that used a sword symbol.
 [*]Added in custom, script induced Initiative Icons to the Radial Menu.
 [*]Fixed AC Shield Icon to be misaligned, this was caused by changes for the PFRPG2 Ruleset that I now reverted.
-[*]Added missing Initiative and Effects icon in the combat tracker Radial Menu
+[*]Added in custom Initiative and Effects Removal icons in the combat tracker Radial Menu - Again special thanks to Saagael and MeAndUnique for providing the necessary scripts.
 [/LIST]
 
 [B]Added Extension Support:[/B]
