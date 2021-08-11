@@ -123,9 +123,9 @@
 								registerMenuItem(Interface.getString("menu_initpc"), "menu_initpc_radial", 7, 6);
 								registerMenuItem(Interface.getString("menu_initclear"), "menu_initclear_radial", 7, 4);
 															
-								registerMenuItem(Interface.getString("menu_effectdelete"), "menu_effectdelete_radial", 5);
-								registerMenuItem(Interface.getString("menu_effectdeleteall"), "menu_effectdeleteall_radial", 5, 7);
-								registerMenuItem(Interface.getString("menu_effectdeleteexpiring"), "menu_effectdeleteexpiring_radial", 5, 5);
+								registerMenuItem(Interface.getString("ct_menu_effectdelete"), "ct_menu_effectdelete_radial", 5);
+								registerMenuItem(Interface.getString("ct_menu_effectdeleteall"), "ct_menu_effectdeleteall_radial", 5, 7);
+								registerMenuItem(Interface.getString("ct_menu_effectdeleteexpiring"), "ct_menu_effectdeleteexpiring_radial", 5, 5);
 							end
 
 							if StringManager.contains(Extension.getExtensions(), "ExtendedRest") then

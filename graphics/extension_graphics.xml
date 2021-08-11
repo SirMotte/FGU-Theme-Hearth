@@ -144,11 +144,6 @@
   				<offset>37,16,14,17</offset> 
   			</framedef>
 
-<!--Author: dmsanctum-->
-	<!--Ext: Attunement Tracker-->
-		<!--Icon-->
-			<icon name="no_attunement" file="graphics/extensions/dmsanctum/attunement_tracker/no_attunement.png" /> 
-
 <!--Author: Houndy-->
 	<!--Ext: RFIA - Roll for Initiative Addon-->
 		<!--Icons-->
