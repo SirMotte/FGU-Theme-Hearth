@@ -309,6 +309,11 @@
 	<!-- Ext: Extended Rest -->
 		<!-- Icons -->
 			<icon name="rest_extended" file="graphics/extensions/meandunique/extended_rest/icon_rest_extended.png" />
+	<!-- Ext: Friend Zone -->
+		<!-- Tabs -->
+			<icon name="char_cohorts" file="graphics/pngs/char_name.png" />
+		<!-- Tabs -->
+			<icon name="tab_cohorts" file="graphics/extensions/meandunique/friend_zone/tab_cohorts.png" />
 
 <!--Author: pr6i6est (Troy Monteith)-->
 	<!--Ext: NPC Random Treasure Drops-->
