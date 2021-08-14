@@ -1,69 +1,73 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.9 - Pathhider[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Version 3.0 - Release the Kraken![/B][/COLOR][/SIZE]
 
-[B]Yada-yada-yada:[/B]
-This update focuses on missing elements for the Pathfinder 2E and the ICRPG Ruleset.
-Its add some prominent missing frames for Pathfinder Reference Manuals, as they come with a lot more variety than the 5E or Core Ruleset.
+[B]Anouncement:[/B]
+Finally...with 3.0 I proudly herald the end of Beta Status and am happy to present to you the fruit of MeAndUniques and as well as my labour:
 
-What else? I adjusted some icons here and there, but no major changes or additions, most likeley no one will ever notice.
-This is the last Beta Update, Release 3.0, here we come!
+Color Manager (C) TM Yada
+
+You now can with some practice, easily create your own color scheme for my Theme, or even go above and beyond with creating and altering any graphical component in the later presented Figma file.
+Theming just go a major step easier and I'm thrilled to see what you guys come up with. I think I can expect some wild experiments!
+
+I created several video tutorials on how to do this, please watch them conciously. While I will try to answer as many questions as I can when they come up, I won't provide any support that goes beyond the scope of the tutorials.
+For example I won't teach you how to use Figma.com but for the very specific purpose of altering this theme in the way I intended.
+
 
 Enjoy!
 Sir Motte
 
 [B]Added Ruleset Support:[/B]
 [LIST]
-[*]ICRPG by Saagael for the Runehammer Games LLC - Index Card RPG Ruleset.
-[*]Fixed: Error for the WHFRP 2e Ruleset - Fix brought to you by Saagael.
+[*]None
 [/LIST]
 
 [B]Changelog DnD 5E Ruleset:[/B]
-
 [LIST]
-[*]Adjusted two handed actions tab icon to be clearer.
-[*]Fixed - tooltipbox.png had a missing lower border, looks like I accidentally moved the frame a little. (thanks to MeAndUnique for spotting this).
-[*]Added Custom Dice Radial Menu Icon.
-[*]Changed "Take Ownership Icon" to be less confusing.
-[*]Changed 2 Hand Action Icon to not cause its line to expand when selected.
-[*]Minor changes to any icon that used a sword symbol.
-[*]Added in custom, script induced Initiative Icons to the Radial Menu.
-[*]Fixed AC Shield Icon to be misaligned, this was caused by changes for the PFRPG2 Ruleset that I now reverted.
-[*]Added in custom Initiative and Effects Removal icons in the combat tracker Radial Menu - Again special thanks to Saagael and MeAndUnique for providing the necessary scripts.
+[*]Expanded the CT window to better encompass the circles on the left.
+[*]
+[*]
+[*]
+[*]
+[*]
 [/LIST]
 
 [B]Added Extension Support:[/B]
-
 [LIST]
-[*]Fantasy Grounds Unity Weather Generator - by Mattekure.
-[*]Bartender by MeAndUnique - My Themes functionality will be replaced by Bartender automatically, if loaded.
+[*]
+[*]
+[*]
+[*]
 [/LIST]
 
 [B]Removed Extension Support:[/B]
 [LIST]
-[*]Removed Attunement Extension by DMSanctum as its functionality is no longer needed.
+[*]None
 [/LIST]
 
 [B]Supported Extension changes:[/B]
-
 [LIST]
-[*]Changed audio icon for Audio Overseer by Celestian.
-[*]Added new buttons for Floating Tabs by Scried Raven.
-[*]Corrected some names to be more exact to the Authors wording.
-[*]Adjusted frames introduced by Legendary Assistant to reflect color changes made with Beta 2.7.
+[*]
+[*]
+[*]
 [/LIST]
 
 [B]Changelog Pathfinder 2E Ruleset[/B]
-
 [LIST]
-[*]Added missing Reference Manual Graphics. Texts should now be readable on all occasions.
+[*]Minor change to the ct_effectdc.png frame.
+[*]
+[*]
+[*]
 [/LIST]
 
 [B]Under the Hood[/B]
 [LIST]
-[*]Code Groundwork implementation for much easier colorization - By MeAndUnique [MINDBLOWING] More on this with the release of 3.0
+[*]
+[*]
+[*]
+[*]
+[*]
 [/LIST]
 
 [COLOR="#FF0000"][B]Known Issue(s) introduced with this update:[/B][/COLOR]
-
 [LIST]
 [*]None
 [/LIST]
