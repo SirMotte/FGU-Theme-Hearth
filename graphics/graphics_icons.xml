@@ -217,6 +217,10 @@
 	<icon name="indicator_prompt" file="graphics/pngs/indicator_prompt.png" />
 	<icon name="gmdieicon" file="graphics/pngs/gmdie_icon.png" />
 	<icon name="indicator_whisper" file="graphics/pngs/indicator_whisper.png" />
+	<icon name="chat_emote" file="graphics/pngs/chat_emote.png" />
+	<icon name="poll_check" file="graphics/pngs/poll_check.png" />
+	<icon name="poll_empty" file="graphics/pngs/poll_empty.png" />
+	<icon name="poll_negative" file="graphics/pngs/poll_negative.png" />
 	
 	<!-- Common -->
 	<icon name="actions" file="graphics/pngs/actions.png" />
@@ -329,8 +333,6 @@
 		
 	<!-- Local mode -->
 	<icon name="tabhorizontal" file="graphics/pngs/tabhorizontal.png" />
-	<icon name="button_statpointmode" file="graphics/pngs/button_statpointmode.png" />
-	<icon name="button_statpointmode_down" file="graphics/pngs/button_statpointmode_down.png" />
 	<!-- Minimized -->	
 	<icon name="minimized_image" file="graphics/pngs/minimized_image.png" />
 	<icon name="minimized_encounter" file="graphics/pngs/minimized_encounter.png" />
@@ -449,23 +451,11 @@
 -->
 	<!-- Modifier Stack -->
 	<icon name="modcollector" file="graphics/pngs/modcollector.png" />
-	<!-- Powers -->
-	<icon name="usepower" file="graphics/pngs/usepower.png" />
-	<icon name="spell_cast" file="graphics/pngs/spell_cast.png" />
-	<icon name="spell_damage" file="graphics/pngs/spell_damage.png" />
-	<icon name="spell_heal" file="graphics/pngs/spell_heal.png" />
-	<icon name="spell_effect" file="graphics/pngs/spell_effect.png" />
-	<icon name="power_weapon" file="graphics/pngs/power_weapon.png" />
-	<icon name="power_casterspontaneous" file="graphics/pngs/power_casterspontaneous.png" />
-	<icon name="power_casterprep" file="graphics/pngs/power_casterprep.png" />
-	<!-- Rolls -->
-	<icon name="roll_cast" file="graphics/pngs/roll_cast.png" />
-	<icon name="roll_damage" file="graphics/pngs/roll_damage.png" />
-	<icon name="roll_heal" file="graphics/pngs/roll_heal.png" />
-	<icon name="roll_effect" file="graphics/pngs/roll_effect.png" />
+
 
 	<!-- Hotkeys -->
 	<icon name="empty" file="graphics/pngs/empty.png" />
-	
+
+
 </root>
 

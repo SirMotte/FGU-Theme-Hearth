@@ -8,7 +8,7 @@
 		<author>Sir Motte</author>
 		<version>0.1</version> 
 		<description>Deutsche Übersetzung der meisten UI Elemente</description>	
-		<loadorder>200</loadorder>
+		<loadorder>1503</loadorder>
 		<ruleset>
 			<name>CoreRPG</name>
 		</ruleset>

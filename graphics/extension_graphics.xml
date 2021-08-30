@@ -55,14 +55,14 @@
 			<windowclass name="ct_combat_timer_host" merge="join">
 				<sheetdata>
 					<simplestring name="timer">
-						<color>DDDDDD</color>
+						<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
 					</simplestring>
 				</sheetdata>
 			</windowclass>
 			<windowclass name="ct_combat_timer_client" merge="join">
 				<sheetdata>
 					<simplestring name="timer">
-						<color>DDDDDD</color>
+						<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
 					</simplestring>
 				</sheetdata>
 			</windowclass> 
@@ -101,12 +101,12 @@
 			<font name="tokenbag_empty_font">
 				<fgffile name="graphics/fonts/italic-10.fgf" />
 				<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="15" />
-				<color value="#DDDDDD" />
+				<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 			</font>
 				<font name="sheetlabelminideathindicator">
 				<fgffile name="graphics/fonts/regular-8.fgf" />
 				<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
-				<color value="#DDDDDD" />
+				<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 			</font>
 			
 			<windowclass name="npc_combat" merge="join">
@@ -143,11 +143,6 @@
   				<bitmap file="graphics/extensions/daddy_orgeman/combat_highlighter/ctentrybox_inactive.png" /> 
   				<offset>37,16,14,17</offset> 
   			</framedef>
-
-<!--Author: dmsanctum-->
-	<!--Ext: Attunement Tracker-->
-		<!--Icon-->
-			<icon name="no_attunement" file="graphics/extensions/dmsanctum/attunement_tracker/no_attunement.png" /> 
 
 <!--Author: Houndy-->
 	<!--Ext: RFIA - Roll for Initiative Addon-->
@@ -208,7 +203,7 @@
             		</anchored>
             		<readonly />
             		<hideonvalue > 0 </hideonvalue>
-            		<color>69B7FF</color>
+            		<color>69B7FF</color> <!-- Replaceable Color: Temporary HP -->
             		<nodrag />
             		<nolinkwidget />
             			<script>
@@ -228,7 +223,7 @@
                     		<top offset="20" />
                     		<left parent="portraitbase" anchor="right" relation="relative" offset="5" />
             		</anchored>
-            		<color>69B7FF</color>
+            		<color>69B7FF</color> <!-- Replaceable Color: Temporary HP -->
             		<readonly />
             		<nodrag />
             		<script>
@@ -306,7 +301,7 @@
 							super.onInit();
 						end
 						if adjhp then
-							adjhp.setColor("D592FF");
+							adjhp.setColor(ColorManager.COLOR_ADJUSTED_HP);
 						end
 					end
 				</script>
@@ -314,6 +309,11 @@
 	<!-- Ext: Extended Rest -->
 		<!-- Icons -->
 			<icon name="rest_extended" file="graphics/extensions/meandunique/extended_rest/icon_rest_extended.png" />
+	<!-- Ext: Friend Zone -->
+		<!-- Tabs -->
+			<icon name="char_cohorts" file="graphics/pngs/char_name.png" />
+		<!-- Tabs -->
+			<icon name="tab_cohorts" file="graphics/extensions/meandunique/friend_zone/tab_cohorts.png" />
 
 <!--Author: pr6i6est (Troy Monteith)-->
 	<!--Ext: NPC Random Treasure Drops-->
@@ -340,16 +340,55 @@
   			<icon name="reminder_button" file="graphics/extensions/troy_monteith/clock_adjuster/reminder.png" /> 
   			<icon name="reminder_button_down" file="graphics/extensions/troy_monteith/clock_adjuster/reminder_down.png" /> 
 
+
+<!--Author: Saagael-->
+	<!--Ext: Unofficial Kingdoms and Warfare Extension-->
+		<!--Icons-->
+			<icon name="button_kw_tokens" file="graphics/extensions/saagael/kingdoms_and_warfare/button_kw_tokens.png" /> 
+  			<icon name="button_kw_tokens_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_kw_tokens_down.png" /> 
+  			<icon name="button_banner" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner.png" /> 
+  			<icon name="button_banner_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner_down.png" /> 
+			<icon name="rally" file="graphics/extensions/saagael/kingdoms_and_warfare/rally.png" /> 
+- 		<!--Roll icons--> 
+			<icon name="roll_harrow" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_harrow.png" /> 
+			<icon name="roll_rally" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_rally.png" /> 
+		<!--token icons--> 
+			<icon name="cond_disoriented" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_disoriented.png" /> 
+			<icon name="cond_disorganized" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_disorganized.png" /> 
+			<icon name="cond_harrowed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_harrowed.png" /> 
+			<icon name="cond_misled" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_misled.png" /> 
+			<icon name="cond_rallied" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_rallied.png" /> 
+			<icon name="cond_weakened" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_weakened.png" /> 
+			<icon name="cond_harrowpassed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_harrowingpassed.png" /> 
+			<icon name="cond_broken" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_broken.png" /> 
+			<icon name="state_activated" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_activated.png" /> 
+			<icon name="state_reacted" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_reaction.png" /> 
+			<icon name="state_exposed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_exposed.png" /> 
+			<icon name="token_acid" file="graphics/extensions/saagael/kingdoms_and_warfare/token_acid.png" /> 
+			<icon name="token_bleed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_bleed.png" /> 
+			<icon name="token_fire" file="graphics/extensions/saagael/kingdoms_and_warfare/token_fire.png" /> 
+			<icon name="token_poison" file="graphics/extensions/saagael/kingdoms_and_warfare/token_poison.png" /> 
+		- <!--Tabs--> 
+			<icon name="tab_domain" file="graphics/extensions/saagael/kingdoms_and_warfare/tab_domain.png" /> 
+			<icon name="tab_powerpool" file="graphics/extensions/saagael/kingdoms_and_warfare/tab_powerpool.png" /> 
+		- <!--Image--> 
+			<icon name="icon_rank_bottom" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_bottom_30.png" /> 
+			<icon name="icon_rank_left" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_left_30.png" /> 
+			<icon name="icon_rank_right" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_right_30.png" /> 
+			<icon name="icon_rank_top" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_top_30.png" /> 
+			<icon name="icon_warfare" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_warfare_30.png" /> 
+			
+
 <!--Author: GKEnialb-->
 	<!--Ext: Token Height Indicators-->
 	<font name="height_medium">
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="15" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	
 	<font name="height_large">
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="20" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 <!--Author: Diablo Bob-->
@@ -429,6 +468,11 @@
 			<icon name="icon_easyLights_spellDark" file="graphics/extensions/mattekure/easy_lights/spelldark_gray.png" />
 			<icon name="icon_easyLights_spellLight" file="graphics/extensions/mattekure/easy_lights/spelllight_gray.png" />
 			<icon name="icon_easyLights_torch" file="graphics/extensions/mattekure/easy_lights/torch_gray.png" />
+	<!--Ext: Fantasy Grounds Unity Weather Generator-->
+			<icon name="tab_weather" file="graphics/extensions/mattekure/weather_generator/tab_weather.png" />
+	<!--Ext: Linker-->
+			<icon name="linker_button_icon_down" file="graphics/extensions/mattekure/linker/linker_button_down.png" />
+    		<icon name="linker_button_icon_up" file="graphics/extensions/mattekure/linker/linker_button_up.png" />		
 
 <!--Author: Celestian-->
 	<!--Ext: Audio Overseer-->
@@ -529,4 +573,41 @@
 			</sheetdata>
 		</windowclass>
 
+<!--Author: Scried Raven-->		
+	<!--Ext: Floating Tabs-->
+		<!--Icons-->
+			<icon name="button_traits" file="graphics/extensions/scried_raven/floating_tabs/button_traits.png" /> 
+			<icon name="button_traits_down" file="graphics/extensions/scried_raven/floating_tabs/button_traits_down.png" /> 
+			<icon name="button_skills" file="graphics/extensions/scried_raven/floating_tabs/button_skills.png" /> 
+			<icon name="button_skills_down" file="graphics/extensions/scried_raven/floating_tabs/button_skills_down.png" /> 
+			<icon name="button_spells" file="graphics/extensions/scried_raven/floating_tabs/button_spells.png" /> 
+			<icon name="button_spells_down" file="graphics/extensions/scried_raven/floating_tabs/button_spells_down.png" /> 
+			<icon name="button_actions" file="graphics/extensions/scried_raven/floating_tabs/button_actions.png" /> 
+			<icon name="button_actions_down" file="graphics/extensions/scried_raven/floating_tabs/button_actions_down.png" /> 
+			<icon name="button_inventory" file="graphics/extensions/scried_raven/floating_tabs/button_inventory.png" /> 
+			<icon name="button_inventory_down" file="graphics/extensions/scried_raven/floating_tabs/button_inventory_down.png" /> 
+
+<!--Author: Bayne-->
+	<!--Bayne's Emporium-->
+		<!--Icons-->
+  <icon name="mimic" file="graphics/extensions/bayne/baynes_emporium/mimic1.png" />
+    <icon name="buttondwnnum" file="graphics/extensions/bayne/baynes_emporium/buttondown.png" />
+    <icon name="buttonupnum" file="graphics/extensions/bayne/baynes_emporium/button_ctnextactorup.png" />
+    <icon name="cleartoken" file="graphics/extensions/bayne/baynes_emporium/button_ctnextround.png" />
+    <framedef name="SKledger">
+      <bitmap file="graphics/extensions/bayne/baynes_emporium/Open safety box.png" />
+      <offset>10,10,10,10</offset>
+    </framedef>
+    <framedef name="SKnotes">
+      <bitmap file="graphics/extensions/bayne/baynes_emporium/notepad.png" />
+      <offset>2,2,2,2</offset>
+    </framedef>
+		<!--Fonts-->
+		<windowclass name="shops" merge="join">
+			<sheetdata>
+				<stringfield name="name">
+					<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+				</stringfield>
+			</sheetdata>
+		</windowclass>	
 </root>
