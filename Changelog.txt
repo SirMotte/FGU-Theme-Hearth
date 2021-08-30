@@ -42,7 +42,7 @@ Sir Motte
 [*]Bayne's Emporium
 -> Special thanks to Bayne for his cooperation and willingness to provide all necessary data I needed to fix the issue. Make sure to check out his awesome extensions at the forge here:
 https://forge.fantasygrounds.com/crafter/49/view-profile
-[*]
+[*]Unofficial Kingdoms and Warfare Extension by Saagael
 [/LIST]
 
 [B]Removed Extension Support:[/B]

@@ -340,13 +340,14 @@
   			<icon name="reminder_button" file="graphics/extensions/troy_monteith/clock_adjuster/reminder.png" /> 
   			<icon name="reminder_button_down" file="graphics/extensions/troy_monteith/clock_adjuster/reminder_down.png" /> 
 
+
 <!--Author: Saagael-->
-	<!--Ext: Unofficial Kingdoms and Warfare-->
+	<!--Ext: Unofficial Kingdoms and Warfare Extension-->
 		<!--Icons-->
-			<icon name="button_kw_tokens" file="graphics/sidebar/button_kw_tokens.png" /> 
-  			<icon name="button_kw_tokens_down" file="graphics/sidebar/button_kw_tokens_down.png" /> 
-  			<icon name="button_banner" file="graphics/buttons/button_banner.png" /> 
-  			<icon name="button_banner_down" file="graphics/buttons/button_banner_down.png" /> 
+			<icon name="button_kw_tokens" file="graphics/extensions/saagael/kingdoms_and_warfare/button_kw_tokens.png" /> 
+  			<icon name="button_kw_tokens_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_kw_tokens_down.png" /> 
+  			<icon name="button_banner" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner.png" /> 
+  			<icon name="button_banner_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner_down.png" /> 
 			<icon name="rally" file="graphics/extensions/saagael/kingdoms_and_warfare/rally.png" /> 
 - 		<!--Roll icons--> 
 			<icon name="roll_harrow" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_harrow.png" /> 
@@ -376,8 +377,7 @@
 			<icon name="icon_rank_right" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_right_30.png" /> 
 			<icon name="icon_rank_top" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_top_30.png" /> 
 			<icon name="icon_warfare" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_warfare_30.png" /> 
-
-
+			
 
 <!--Author: GKEnialb-->
 	<!--Ext: Token Height Indicators-->

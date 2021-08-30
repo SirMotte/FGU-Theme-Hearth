@@ -1,0 +1,34 @@
+[SIZE=4][COLOR="#FF0000"][B]Update to Version 2.9.1 - Tiny Squid[/B][/COLOR][/SIZE]
+
+[B]Yadda-Yadda-Yadda:[/B]
+
+This is a small extension support patch with a minor change to the CT window.
+Special Thanks to Bayne and bmos, who went out of their way to help me out to make my theme support their extensions.
+
+3.0 is still in the works, so stay tuned :).
+
+Enjoy!
+Sir Motte
+
+[B]Changelog DnD 5E Ruleset:[/B]
+[LIST]
+[*]Expanded the CT window to better encompass the circles on the left.
+[/LIST]
+
+[B]Added Extension Support:[/B]
+[LIST]
+[*]Friend Zone by MeAndUnique.
+[*]Linker by Mattekure
+[*]CalendarPlus by darrenan (Special thanks to Saagael)
+[*]Bayne's Emporium
+-> Special thanks to Bayne for his cooperation and willingness to provide all necessary data I needed to fix the issue. Make sure to check out his awesome extensions at the Forge!
+https://forge.fantasygrounds.com/crafter/49/view-profile
+[*]Unofficial Kingdoms and Warfare Extension by Saagael
+[*]Extraplanar Containers - bmos adjusted this extension to not need any dedicated support by my theme at all anymore. AWESOME!
+[/LIST]
+
+[B]Changelog Pathfinder 2E Ruleset[/B]
+[LIST]
+[*]Minor change to the ct_effectdc.png frame.
+[/LIST]
+
