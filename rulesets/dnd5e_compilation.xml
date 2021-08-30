@@ -47,7 +47,7 @@
 	<windowclass name="charsheet_hd" merge="join">
 		<sheetdata>
 			<numbercontrol name="hdcurrent">
-				<color>DDDDDD</color>
+				<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
 			</numbercontrol>
 		</sheetdata>
 	</windowclass>
@@ -59,7 +59,7 @@
 					super.onInit();
 				end
 				if temphp then
-					temphp.setColor("69B7FF");
+					temphp.setColor(ColorManager.COLOR_TEMP_HP);
 				end
 			end
 		</script>
@@ -84,7 +84,7 @@
 					super.onInit();
 				end
 				if hptemp then
-					hptemp.setColor("69B7FF");
+					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
 				end
 			end
 		</script>
@@ -96,7 +96,7 @@
 					super.onInit();
 				end
 				if hptemp then
-					hptemp.setColor("69B7FF");
+					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
 				end
 			end
 		</script>
@@ -116,6 +116,16 @@
 								registerMenuItem(Interface.getString("menu_rest"), "restmenu", 8);
 								registerMenuItem(Interface.getString("menu_restshort"), "rest_short", 8, 8);
 								registerMenuItem(Interface.getString("menu_restlong"), "rest_long", 8, 6);
+								
+								registerMenuItem(Interface.getString("menu_init"), "menu_init_radial", 7);
+        						registerMenuItem(Interface.getString("menu_initall"), "menu_initall_radial", 7, 8);
+        						registerMenuItem(Interface.getString("menu_initnpc"), "menu_initnpc_radial", 7, 7);
+								registerMenuItem(Interface.getString("menu_initpc"), "menu_initpc_radial", 7, 6);
+								registerMenuItem(Interface.getString("menu_initclear"), "menu_initclear_radial", 7, 4);
+															
+								registerMenuItem(Interface.getString("ct_menu_effectdelete"), "ct_menu_effectdelete_radial", 5);
+								registerMenuItem(Interface.getString("ct_menu_effectdeleteall"), "ct_menu_effectdeleteall_radial", 5, 7);
+								registerMenuItem(Interface.getString("ct_menu_effectdeleteexpiring"), "ct_menu_effectdeleteexpiring_radial", 5, 5);
 							end
 
 							if StringManager.contains(Extension.getExtensions(), "ExtendedRest") then
@@ -162,7 +172,7 @@
 	<template name="string_charinv_attunecalc" merge="join">
         <stringcontrol>
             <font>subwindowsmalltitle</font>
-            <warning>FF6161</warning>
+            <warning>FF6161</warning> <!-- Replaceable Color: Warning Text -->
         </stringcontrol>
     </template>
 </root>

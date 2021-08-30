@@ -9,7 +9,7 @@
     <!-- Sidebar -->
 	<font name="button_sidebar">
 		<ttf file="graphics/rulesets/icrpg/nusaliver.ttf" name="nusaliver" size="14" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
     <icon name="button_damagetypes" file="graphics/rulesets/icrpg/button_damagetypes.png" />
 	<icon name="button_damagetypes_down" file="graphics/rulesets/icrpg/button_damagetypes_down.png" />
@@ -24,11 +24,11 @@
     <!-- Char sheet -->
     <font name="charstatlabel">
 		<ttf file="graphics/rulesets/icrpg/nusaliver.ttf" name="nusaliver" size="15"/>
-		<color value="EBDDBA" />
+		<color value="EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
     <font name="charstattotal">
 		<ttf file="graphics/fonts/nusaliver.ttf" name="nusaliver" size="28"/>
-		<color value="DDDDDD" />
+		<color value="DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
     <!-- CT -->

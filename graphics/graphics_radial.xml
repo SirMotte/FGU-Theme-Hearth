@@ -12,9 +12,9 @@
             	<hubicon>menuhub</hubicon>
             	<backicon>menuback</backicon>
             	<background>menubackground</background>
-            	<hubcolor>FFFFFF</hubcolor>
-            	<backgroundcolor>FFFFFF</backgroundcolor>
-            	<iconcolor>FFFFFF</iconcolor>
+            	<hubcolor>FFFFFF</hubcolor> <!-- Replaceable Color: Blend Color -->
+            	<backgroundcolor>FFFFFF</backgroundcolor> <!-- Replaceable Color: Blend Color -->
+            	<iconcolor>FFFFFF</iconcolor> <!-- Replaceable Color: Blend Color -->
         	</radial>
     	</menusettings>
 
@@ -46,6 +46,17 @@
 	
 	<!-- Tables -->
 	<icon name="radial_plus" file="graphics/pngs/icon_plus.png" />
+
+	<!--Combat Tracker Menu-->
+	<icon name="menu_init_radial" file="graphics/pngs/menu_init_radial.png" />
+	<icon name="menu_initall_radial" file="graphics/pngs/menu_initall_radial.png" />
+	<icon name="menu_initnpc_radial" file="graphics/pngs/menu_initnpc_radial.png" />
+	<icon name="menu_initpc_radial" file="graphics/pngs/menu_initpc_radial.png" />
+	<icon name="menu_initclear_radial" file="graphics/pngs/menu_initclear_radial.png" />
+
+	<icon name="ct_menu_effectdelete_radial" file="graphics/pngs/menu_effectdelete_radial.png" />
+	<icon name="ct_menu_effectdeleteall_radial" file="graphics/pngs/menu_effectdeleteall_radial.png" />
+	<icon name="ct_menu_effectdeleteexpiring_radial" file="graphics/pngs/menu_effectdeleteexpiring_radial.png" />
 	
 	<!-- Images -->
 	<icon name="imagesize" file="graphics/pngs/icon_image_size_menu.png" />

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<!-- Source: ref/ref_help.xml -->
+<!-- This theme overrides string_record_name template which cause this instance of it to not work.  -->
+<root>
+    <windowclass name="ref_skill_header" merge="join">
+		<sheetdata>
+			<string_record_name name="name">
+				<anchored merge="replace">
+					<top offset="5"/>
+					<left offset="40" />
+					<right offset="-45" />
+				</anchored>
+				<static />
+			</string_record_name>
+		</sheetdata>
+	</windowclass>
+</root>
