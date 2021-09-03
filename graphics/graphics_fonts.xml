@@ -143,7 +143,7 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<!-- Windows -->
-<font name="windowtitle">
+	<font name="windowtitle">
 		<fgffile name="graphics/fonts/bold-11.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="20" />
 		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
@@ -395,6 +395,11 @@
 		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+	</font>
+	<font name="sheetlabel_ps">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="16" />
+		<color value="#EBDDBA" />
 	</font>
 	<font name="reference-subtitle">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
