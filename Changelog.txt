@@ -27,7 +27,7 @@ Sir Motte
 
 [B]Changelog DnD 5E Ruleset:[/B]
 [LIST]
-[*]Changed CT Menu Initiative Radial Menu Icons again. I still wasN#t satisfied, so I treid another approach.
+[*]Changed CT Menu Initiative Radial Menu Icons again. I still wasn't satisfied, so I tried another approach.
 [*]
 [*]
 [*]
