@@ -1,4 +1,4 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Version 3.0 - Release the Tiny Squid![/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Version 3.0 - Release the Kraken![/B][/COLOR][/SIZE]
 
 [B]Anouncement:[/B]
 
@@ -27,7 +27,7 @@ Sir Motte
 
 [B]Changelog DnD 5E Ruleset:[/B]
 [LIST]
-[*]Expanded the CT window to better encompass the circles on the left.
+[*]Changed CT Menu Initiative Radial Menu Icons again. I still wasN#t satisfied, so I treid another approach.
 [*]
 [*]
 [*]
@@ -37,12 +37,7 @@ Sir Motte
 
 [B]Added Extension Support:[/B]
 [LIST]
-[*]Friend Zone by MeAndUnique.
-[*]Linker by Mattekure
-[*]Bayne's Emporium
--> Special thanks to Bayne for his cooperation and willingness to provide all necessary data I needed to fix the issue. Make sure to check out his awesome extensions at the forge here:
-https://forge.fantasygrounds.com/crafter/49/view-profile
-[*]Unofficial Kingdoms and Warfare Extension by Saagael
+[*]
 [/LIST]
 
 [B]Removed Extension Support:[/B]
@@ -59,7 +54,7 @@ https://forge.fantasygrounds.com/crafter/49/view-profile
 
 [B]Changelog Pathfinder 2E Ruleset[/B]
 [LIST]
-[*]Minor change to the ct_effectdc.png frame.
+[*]
 [*]
 [*]
 [*]
