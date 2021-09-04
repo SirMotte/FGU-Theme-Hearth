@@ -399,7 +399,7 @@
 	<font name="sheetlabel_ps">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="16" />
-		<color value="#EBDDBA" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-subtitle">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
