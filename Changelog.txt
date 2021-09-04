@@ -25,6 +25,11 @@ Sir Motte
 [*]None
 [/LIST]
 
+[B]Changelog Core Ruleset:[/B]
+[LIST]
+[*]Fixed Party Sheet Font Colors in CoreRPG (contributed by bmos, thanks!)
+[/LIST]
+
 [B]Changelog DnD 5E Ruleset:[/B]
 [LIST]
 [*]Changed CT Menu Initiative Radial Menu Icons again. I still wasn't satisfied, so I tried another approach.
