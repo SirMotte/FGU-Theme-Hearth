@@ -601,7 +601,7 @@
 				</sheetdata>
 			</windowclass>
 			<windowclass name="battletracker_commander" merge="join">
-				<margins control="0,0,0,5" />
+				<margins control="22,0,0,5" />
 			</windowclass>
 
 <!--Author: GKEnialb-->
