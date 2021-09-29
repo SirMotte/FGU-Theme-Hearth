@@ -376,8 +376,49 @@
 			<icon name="icon_rank_left" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_left_30.png" /> 
 			<icon name="icon_rank_right" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_right_30.png" /> 
 			<icon name="icon_rank_top" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_top_30.png" /> 
-			<icon name="icon_warfare" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_warfare_30.png" /> 
-			
+			<icon name="icon_warfare" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_warfare_30.png" />
+		<!-- Battle Tracker -->
+			<windowclass name="combattracker_host" merge="join">
+				<sheetdata>
+					<buttoncontrol name="button_show_battle">
+						<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
+					</buttoncontrol>
+				</sheetdata>
+			</windowclass>
+			<windowclass name="combattracker_client" merge="join">
+				<sheetdata>
+					<buttoncontrol name="button_show_battle">
+						<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
+					</buttoncontrol>
+				</sheetdata>
+			</windowclass>
+			<windowclass name="battletracker" merge="join">
+				<sheetdata>
+					<genericcontrol name="leftanchor">
+						<anchored>
+							<left anchor="left" offset="15" />
+						</anchored>
+					</genericcontrol>
+					<genericcontrol name="rightanchor">
+						<anchored>
+							<right anchor="right" offset="-20" />
+						</anchored>
+					</genericcontrol>
+				</sheetdata>
+			</windowclass>
+			<windowclass name="battletracker_unitsummary" merge="join">
+				<sheetdata>
+					<number_ct name="size" source="casualties">
+						<anchored to="size_label" position="righthigh" offset="17,0" />
+					</number_ct>
+					<label name="casualties_label">
+						<anchored to="size_label" position="lefthigh" offset="-101,0" />
+					</label>
+				</sheetdata>
+			</windowclass>
+			<windowclass name="battletracker_commander" merge="join">
+				<margins control="0,0,0,5" />
+			</windowclass>
 
 <!--Author: GKEnialb-->
 	<!--Ext: Token Height Indicators-->
