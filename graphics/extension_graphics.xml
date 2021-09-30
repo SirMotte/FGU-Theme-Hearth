@@ -588,6 +588,40 @@
 							<right anchor="right" offset="-20" />
 						</anchored>
 					</genericcontrol>
+
+					<windowlist name="list">
+						<anchored>
+							<left parent="topanchor" anchor="right" offset="-10" />
+						</anchored>
+					</windowlist>
+					<subwindow name="uncommanded_units">
+						<anchored>
+							<left parent="topanchor" anchor="right" offset="16" />
+							<right parent="rightanchor" anchor="left" offset="-1" />
+						</anchored>
+					</subwindow>
+
+					<battletracker_morale name="morale_neutral">
+						<stateframe>
+							<keyedit name="fieldfocus" offset="7,5,6,7" />
+							<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+							<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+						</stateframe>
+					</battletracker_morale>
+					<battletracker_morale name="morale_foe">
+						<stateframe>
+							<keyedit name="fieldfocus" offset="7,5,6,7" />
+							<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+							<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+						</stateframe>
+					</battletracker_morale>
+					<battletracker_morale name="morale_friend">
+						<stateframe>
+							<keyedit name="fieldfocus" offset="7,5,6,7" />
+							<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+							<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+						</stateframe>
+					</battletracker_morale>
 				</sheetdata>
 			</windowclass>
 			<windowclass name="battletracker_unitsummary" merge="join">
@@ -602,6 +636,13 @@
 			</windowclass>
 			<windowclass name="battletracker_commander" merge="join">
 				<margins control="22,0,0,5" />
+				<sheetdata>
+					<battletracker_unitlist>
+						<anchored>
+							<left offset="2" />
+						</anchored>
+					</battletracker_unitlist>
+				</sheetdata>
 			</windowclass>
 
 <!--Author: GKEnialb-->
