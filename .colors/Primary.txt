@@ -45,7 +45,8 @@ Salmon =            F29476
 Light Salmon =      F2AB76
 
 [Browns]
-Brown =             473C33
+Brown =             322C27
+Light Brown =       473C33
 Tan =               EBDDBA
 
 
@@ -56,7 +57,7 @@ Secondary Foreground =      Light Grey
 
 Blend Color =               White
 
-Calendar Background =       Brown
+Calendar Background =       Light Brown
 Calendar Holiday =          Crimson
 
 Text Selection =            Navy
@@ -111,3 +112,5 @@ Health Gradient Bottom =    Dark Red
 Token Gradient Top =        Green
 Token Gradient Mid =        Gold
 Token Gradient Bottom =     Red
+
+Unit Selection =            Brown
