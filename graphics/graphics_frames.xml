@@ -836,5 +836,33 @@
 		<right rect="86,17,41,25" />
 		<bottomright rect="86,42,41,18" />
 	</framedef>
+<framedef name="whitecontrolarea">
+		<bitmap file="graphics/pngs/whitecontrolarea.png" />
+		<offset>12,11,17,18</offset>
+	</framedef>
+	<framedef name="powercat_up">
+		<bitmap file="graphics/pngs/powercat_up.png" />
+		<offset>7,7,7,7</offset>
+	</framedef>
+	<framedef name="powercat_down">
+		<bitmap file="graphics/pngs/powercat_down.png" />
+		<offset>7,7,7,7</offset>
+	</framedef>
+	<framedef name="whitefielddark">
+		<bitmap file="graphics/pngs/whitefielddark.png" />
+		<topleft rect="0,0,9,9" />
+		<top rect="9,0,205,9" />
+		<topright rect="214,0,9,9" />
+		<left rect="0,9,9,192" />
+		<middle rect="9,9,205,192" />
+		<right rect="214,9,9,192" />
+		<bottomleft rect="0,201,9,9" />
+		<bottom rect="9,201,205,9" />
+		<bottomright rect="214,201,9,9" />
+	</framedef>
+	<framedef name="whitefieldfocus">
+		<bitmap file="graphics/pngs/whitefieldfocus.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
 
 </root>
