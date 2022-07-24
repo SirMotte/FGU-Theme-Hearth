@@ -95,7 +95,7 @@
 		<includefile source="graphics/rulesets/icrpg/graphics_icrpg.xml" />
 
 		<script name="manager_color_2" file="scripts/manager_color_2.lua" />
-
+		<script name="manager_desktop" file="scripts/manager_desktop.lua" />
 		<!-- Ruleset control definitions -->
 		<includefile source="rulesets/coc7e_compilation.xml" />
 		<includefile source="rulesets/corerpg_compilation.xml" />
