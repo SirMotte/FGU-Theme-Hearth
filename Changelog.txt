@@ -25,6 +25,7 @@ Sir Motte
 [*]Changed Minimized Icons to a round shape, to stand out a little more. I found them "hard to find" sometimes
 [*]Changed Extension Icon
 [*]Bumped up Asset Folder Icon brightness a little.
+[*]Changed Radial Menu Bordercolor to new border color.
 [/LIST]
 
 [B]Changelog - DnD 5E Ruleset:[/B]
@@ -40,6 +41,7 @@ Sir Motte
 [B]Added Extension Support:[/B]
 [LIST]
 [*]Better Combat Effects Gold by Ryan Hagelstrom
+[*]Improved Critical by Theogeek
 [/LIST]
 
 [B]Removed Extension Support:[/B]
@@ -49,8 +51,8 @@ Sir Motte
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]New, streamlined Extension Icon Adjustments when possible. Some Authors don't define unqiue icons for their extensions, therefore I can't change them without them showing up in the interface (I look at you SR :P).
-[*]Fixed - button graphics names for Floating Tabs extension by Scried Raven
+[*](In Progress)New, streamlined Extension Icon Adjustments when possible. Some Authors don't define unqiue icons for their extensions, or lock them up in the vault ¯\_(ツ)_/¯.
+[*]Fixed - button graphics names for Floating Tabs extension by Scried Raven.
 [*]
 [*]
 [/LIST]
