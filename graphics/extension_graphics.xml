@@ -622,4 +622,29 @@
 				</stringfield>
 			</sheetdata>
 		</windowclass>
+
+<!--Author: mccartysr-->
+	<!--Ext: RequestedRolls-->
+	<windowclass name="rr_console" merge="join">
+		<sheetdata>
+			<buttonfield name="clicktoroll">
+				<state color="DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+				<state color="EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
+			</buttonfield>
+			<buttonfield name="DClink">
+				<state color="DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+				<state color="EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
+			</buttonfield>
+			<buttonfield name="autoroll">
+				<state color="DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+				<state color="EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
+				<gmvisibleonly />
+			</buttonfield>
+			<buttonfield name="deselectonroll">
+				<state color="DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+				<state color="EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
+				<gmvisibleonly />
+			</buttonfield>
+		</sheetdata>
+	</windowclass>
 </root>
