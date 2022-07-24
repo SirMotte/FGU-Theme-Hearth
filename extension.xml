@@ -2,13 +2,13 @@
 <!--Special Thanks to MeAndUnique and Saagael for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: Sir Motte's Magnificent Darkness\rVersion: 2.9.1 - Tiny Squid\rHearth Edition" font="emotefont" icon="footface"/>
-	
+	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: 2.9.2 - Stale Holy Water\rHearth Edition" font="emotefont" icon="footface"/>
+
 	<properties>
 		<name>Theme: Hearth</name>
-		<author>Sir Motte</author>
-		<version>2.9.1</version> 
-		<description>Dark, warm and reduced user interface for FGU and DnD 5E</description>	
+		<author>Sir Motte - Co. Authors: MeAndUnique and Saagael</author>
+		<version>2.9.1</version>
+		<description>Dark, warm and reduced user interface for FGU and DnD 5E</description>
 		<loadorder>1500</loadorder>
 		<!--While many rulesets should work for the most part, only 5E is currently supported-->
 		<ruleset>
@@ -73,16 +73,19 @@
 		</ruleset>
 		<ruleset>
 			<name>Basic Roleplaying</name>
-		</ruleset>	
+		</ruleset>
 		<ruleset>
 			<name>ICRPG</name>
 		</ruleset>
 		<ruleset>
 			<name>WHFRP 2ed</name>
 		</ruleset>
+		<ruleset>
+			<name>Target12</name>
+		</ruleset>
 	</properties>
 	<base>
-	
+
 		<!--Graphics definitions-->
 		<icon name="footface" file="SirMotte_footface.png" />
 		<includefile source="graphics/graphics_fonts.xml" />
@@ -93,21 +96,22 @@
 
 		<!-- Ruleset Graphics -->
 		<includefile source="graphics/rulesets/icrpg/graphics_icrpg.xml" />
-	
+
 		<script name="manager_color_2" file="scripts/manager_color_2.lua" />
+		<script name="manager_desktop_2" file="scripts/manager_desktop2.lua" />
 
 		<!-- Ruleset control definitions -->
 		<includefile source="rulesets/coc7e_compilation.xml" />
 		<includefile source="rulesets/corerpg_compilation.xml" />
-		<includefile source="rulesets/dnd4e_compilation.xml" />
-		<includefile source="rulesets/dnd5e_compilation.xml" />
-		<includefile source="rulesets/savageworlds_compilation.xml" />
-		<includefile source="rulesets/icrpg_compilation.xml" />
-		<includefile source="rulesets/pfrpg2_compilation.xml" />
-		<includefile source="rulesets/whfrp2e_compilation.xml" />
+		<includefile source="rulesets/dnd4e_compilation.xml" ruleset="4E" />
+		<includefile source="rulesets/dnd5e_compilation.xml" ruleset="5E" />
+		<includefile source="rulesets/savageworlds_compilation.xml" ruleset="SavageWorlds" />
+		<includefile source="rulesets/icrpg_compilation.xml" ruleset="ICRPG" />
+		<includefile source="rulesets/pfrpg2_compilation.xml" ruleset="PFRPG2" />
+		<includefile source="rulesets/whfrp2e_compilation.xml" ruleset="PFRPG" />
 
 		<!--Extension Graphics definitions-->
 		<includefile source="graphics/extension_graphics.xml" />
-		
+
 	</base>
 </root>
