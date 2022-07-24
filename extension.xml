@@ -2,13 +2,13 @@
 <!--Special Thanks to MeAndUnique and Saagael for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: Sir Motte's Magnificent Darkness\rVersion: 2.9.1 - Tiny Squid\rHearth Edition" font="emotefont" icon="footface"/>
-	
+	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: 2.9.2 - Bloody Beaver\rHearth Edition" font="emotefont" icon="footface"/>
+
 	<properties>
 		<name>Theme: Hearth</name>
 		<author>Sir Motte</author>
-		<version>2.9.1</version> 
-		<description>Dark, warm and reduced user interface for FGU and DnD 5E</description>	
+		<version>2.9.1</version>
+		<description>Dark, warm and reduced user interface for FGU and DnD 5E</description>
 		<loadorder>1500</loadorder>
 		<!--While many rulesets should work for the most part, only 5E is currently supported-->
 		<ruleset>
@@ -73,7 +73,7 @@
 		</ruleset>
 		<ruleset>
 			<name>Basic Roleplaying</name>
-		</ruleset>	
+		</ruleset>
 		<ruleset>
 			<name>ICRPG</name>
 		</ruleset>
@@ -82,7 +82,7 @@
 		</ruleset>
 	</properties>
 	<base>
-	
+
 		<!--Graphics definitions-->
 		<icon name="footface" file="SirMotte_footface.png" />
 		<includefile source="graphics/graphics_fonts.xml" />
@@ -93,7 +93,7 @@
 
 		<!-- Ruleset Graphics -->
 		<includefile source="graphics/rulesets/icrpg/graphics_icrpg.xml" />
-	
+
 		<script name="manager_color_2" file="scripts/manager_color_2.lua" />
 
 		<!-- Ruleset control definitions -->
@@ -108,6 +108,6 @@
 
 		<!--Extension Graphics definitions-->
 		<includefile source="graphics/extension_graphics.xml" />
-		
+
 	</base>
 </root>
