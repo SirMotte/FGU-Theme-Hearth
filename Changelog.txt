@@ -4,14 +4,6 @@
 
 3.0 - Finally. The long awaited End of Beta and the great reveal! * Dun Dun Dun *
 
-Off Color 
-Color me "adjective"
-Blotter
-Blot it
-Blot over
-Join the colours
-Colour Up
-
 The incredible MeAndUnique has outdone himself again and created something awesome. Really dude, the things you touch turn to gold!
 He wrote a script that makes changing colors within xml and lua childsplay. In conjunction with my design document that I prepared for similar ease of use, you can now make your very own color scheme of my theme with just a little effort.
 
@@ -25,12 +17,17 @@ Sir Motte
 [*]None
 [/LIST]
 
-[B]Changelog Core Ruleset:[/B]
+[B]Changelog - Theme Elements:[/B]
 [LIST]
-[*]Fixed Party Sheet Font Colors in CoreRPG (contributed by bmos, thanks!)
+[*]Fixed - Party Sheet Font Colors in CoreRPG (contributed by bmos, thanks!)
+[*]Fixed - Mirrored image layer drawing expand icon.
+[*]Brightened window border color a little to make window separation a little more visible (feedback needed)
+[*]Changed Minimized Icons to a round shape, to stand out a little more. I found them "hard to find" sometimes
+[*]Changed Extension Icon
+[*]Bumped up Asset Folder Icon brightness a little.
 [/LIST]
 
-[B]Changelog DnD 5E Ruleset:[/B]
+[B]Changelog - DnD 5E Ruleset:[/B]
 [LIST]
 [*]Changed CT Menu Initiative Radial Menu Icons again. I still wasn't satisfied, so I tried another approach.
 [*]
@@ -52,7 +49,7 @@ Sir Motte
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]
+[*]Fixed - button graphics names for Floating Tabs extension by Scried Raven
 [*]
 [*]
 [/LIST]
