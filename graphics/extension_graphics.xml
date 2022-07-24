@@ -138,17 +138,25 @@
   			<icon name="blood_10" file="graphics/extensions/silent_ruin/death_indicator/blood_10.png" />
   			<icon name="stable_01" file="graphics/extensions/silent_ruin/death_indicator/stable_01.png" /> -->
 
+<!--Author: Theogeek-->
+	<!--Ext: Improved Critical + Natural 20-->
+		<!--Icons-->
+			<icon name="splash_icon" file="graphics/extensions/theogeek/improved_critical/Brutal Barbarian_(v4)_60x60.png" />
+
 <!--Author: DaddyOgreman / Orgemandude-->
 	<!--Ext: CoreRPG Combat Highlighter-->
 		<!--Frames-->
-  			<framedef name="ctentrybox_highlight">
-  				<bitmap file="graphics/extensions/daddy_orgeman/combat_highlighter/ctentrybox_highlight.png" />
-  				<offset>37,16,14,17</offset>
-  			</framedef>
-- 			<framedef name="ctentrybox_inactive">
-  				<bitmap file="graphics/extensions/daddy_orgeman/combat_highlighter/ctentrybox_inactive.png" />
-  				<offset>37,16,14,17</offset>
-  			</framedef>
+  		<framedef name="ctentrybox_highlight">
+  			<bitmap file="graphics/extensions/daddy_orgeman/combat_highlighter/ctentrybox_highlight.png" />
+  			<offset>37,16,14,17</offset>
+  		</framedef>
+- 		<framedef name="ctentrybox_inactive">
+  			<bitmap file="graphics/extensions/daddy_orgeman/combat_highlighter/ctentrybox_inactive.png" />
+  			<offset>37,16,14,17</offset>
+  		</framedef>
+
+		<!--Icons-->
+			<icon name="ogremandude" file="graphics/extensions/daddy_orgreman/combat_highlighter/OgreManDude-small.png" />
 
 <!--Author: Houndy-->
 	<!--Ext: RFIA - Roll for Initiative Addon-->
