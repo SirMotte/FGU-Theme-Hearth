@@ -80,6 +80,9 @@
 		<ruleset>
 			<name>WHFRP 2ed</name>
 		</ruleset>
+		<ruleset>
+			<name>Target12</name>
+		</ruleset>
 	</properties>
 	<base>
 
