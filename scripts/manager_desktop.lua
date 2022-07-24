@@ -2,7 +2,6 @@
 -- Please see the license.html file included with this distribution for
 -- attribution and copyright information.
 --
-function onInit()
 
 local _nSidebarVersion = 2;
 
@@ -608,5 +607,4 @@ end
 function setSidebarStackButtonOffset(l, t, r, b)
 	Debug.console("DesktopManager.setSidebarStackOffset - DEPRECATED - 2022-02-01 - Use DesktopManager.setSidebarDockButtonOffset(l, t, r, b).");
 	ChatManager.SystemMessage("DesktopManager.setSidebarStackOffset - DEPRECATED - 2022-02-01 - Contact forge/extension author");
-end
 end
