@@ -147,16 +147,16 @@
 	<!--Ext: CoreRPG Combat Highlighter-->
 		<!--Frames-->
   		<framedef name="ctentrybox_highlight">
-  			<bitmap file="graphics/extensions/daddy_orgeman/combat_highlighter/ctentrybox_highlight.png" />
+  			<bitmap file="graphics\extensions\daddy_ogreman\combat_highlighter\ctentrybox_highlight.png" />
   			<offset>37,16,14,17</offset>
   		</framedef>
 - 		<framedef name="ctentrybox_inactive">
-  			<bitmap file="graphics/extensions/daddy_orgeman/combat_highlighter/ctentrybox_inactive.png" />
+  			<bitmap file="graphics\extensions\daddy_ogreman\combat_highlighter\ctentrybox_inactive.png" />
   			<offset>37,16,14,17</offset>
   		</framedef>
 
 		<!--Icons-->
-			<icon name="ogremandude" file="graphics/extensions/daddy_orgeman/combat_highlighter/OgreManDude-small.png" />
+			<icon name="ogremandude" file="graphics\extensions\daddy_ogreman\combat_highlighter\OgreManDude-small.png" />
 
 <!--Author: Houndy-->
 	<!--Ext: RFIA - Roll for Initiative Addon-->
