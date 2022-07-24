@@ -98,16 +98,17 @@
 		<includefile source="graphics/rulesets/icrpg/graphics_icrpg.xml" />
 
 		<script name="manager_color_2" file="scripts/manager_color_2.lua" />
-		<script name="manager_desktop" file="scripts/manager_desktop.lua" />
+		<script name="manager_desktop_2" file="scripts/manager_desktop2.lua" />
+
 		<!-- Ruleset control definitions -->
 		<includefile source="rulesets/coc7e_compilation.xml" />
 		<includefile source="rulesets/corerpg_compilation.xml" />
-		<includefile source="rulesets/dnd4e_compilation.xml" />
-		<includefile source="rulesets/dnd5e_compilation.xml" />
-		<includefile source="rulesets/savageworlds_compilation.xml" />
-		<includefile source="rulesets/icrpg_compilation.xml" />
-		<includefile source="rulesets/pfrpg2_compilation.xml" />
-		<includefile source="rulesets/whfrp2e_compilation.xml" />
+		<includefile source="rulesets/dnd4e_compilation.xml" ruleset="4E" />
+		<includefile source="rulesets/dnd5e_compilation.xml" ruleset="5E" />
+		<includefile source="rulesets/savageworlds_compilation.xml" ruleset="SavageWorlds" />
+		<includefile source="rulesets/icrpg_compilation.xml" ruleset="ICRPG" />
+		<includefile source="rulesets/pfrpg2_compilation.xml" ruleset="PFRPG2" />
+		<includefile source="rulesets/whfrp2e_compilation.xml" ruleset="PFRPG" />
 
 		<!--Extension Graphics definitions-->
 		<includefile source="graphics/extension_graphics.xml" />
