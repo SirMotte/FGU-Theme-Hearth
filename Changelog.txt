@@ -11,7 +11,7 @@ Sir Motte
 
 [B]Added Ruleset Support:[/B]
 [LIST]
-[*]None
+[*]Basic Target 12 support
 [/LIST]
 
 [B]Changelog - Theme Elements:[/B]
@@ -35,6 +35,7 @@ Sir Motte
 [LIST]
 [*]Better Combat Effects Gold by Ryan Hagelstrom
 [*]Improved Critical by Theogeek
+[*]Basic Requested Rolls by McCartysr support (WIP)
 [/LIST]
 
 [B]Removed Extension Support:[/B]
@@ -47,11 +48,7 @@ Sir Motte
 [*](In Progress)New, streamlined Extension Icon Adjustments when possible. Some Authors don't define unqiue icons for their extensions, or lock them up in the vault ¯\_(ツ)_/¯.
 [*]Fixed - button graphics names for Floating Tabs extension by Scried Raven.
 [*]Fixed - Typo in filestructure for Daddy Orgeman's extensions
-[/LIST]
-
-[B]Changelog Pathfinder 2E Ruleset[/B]
-[LIST]
-[*]none
+[*]Added Bratch Nine Spell Token Sidebar support
 [/LIST]
 
 [B]Changelog D&D 4E Ruleset[/B]
@@ -61,10 +58,20 @@ Sir Motte
 
 [B]Under the Hood[/B]
 [LIST]
-[*]none
+[*]Added MeAndUnique and Saagael as Co. Authors - about time I did this!
 [/LIST]
 
 [COLOR="#FF0000"][B]Known Issue(s) introduced with this update:[/B][/COLOR]
 [LIST]
 [*]None
+[/LIST]
+
+[B]Coming Soon (TM)[/B]
+[LIST]
+[*]Full Requested Rolls Support (some Icons are still badly visible, I'm on it)
+[*]Colorblind Edition
+[*]Sage Edition (Bright Theme)
+[*]Monk Edition (Bright Theme)
+[*]All old Editions that were removed
+[*]Thorough Extension Check - What needs to be adjusted, what is deprecated aso.
 [/LIST]
