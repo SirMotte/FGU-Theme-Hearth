@@ -1,48 +1,41 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Version 3.0 - Release the Tiny Squid![/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Version 2.9.2 - Bloody Beaver[/B][/COLOR][/SIZE]
 
 [B]Anouncement:[/B]
 
-3.0 - Finally. The long awaited End of Beta and the great reveal! * Dun Dun Dun *
-
-Off Color 
-Color me "adjective"
-Blotter
-Blot it
-Blot over
-Join the colours
-Colour Up
-
-The incredible MeAndUnique has outdone himself again and created something awesome. Really dude, the things you touch turn to gold!
-He wrote a script that makes changing colors within xml and lua childsplay. In conjunction with my design document that I prepared for similar ease of use, you can now make your very own color scheme of my theme with just a little effort.
-
-
+Minor Maintenance update with a few adjustments here and there. Mainly to announce that I'm kinda back again.
+I plan to work at least 1 day each weekend on the theme to bring it up to snuff and finally make it a proper template.
+Fingers crossed on this :) .
 
 Enjoy!
 Sir Motte
 
 [B]Added Ruleset Support:[/B]
 [LIST]
-[*]None
+[*]Basic Target 12 support
 [/LIST]
 
-[B]Changelog DnD 5E Ruleset:[/B]
+[B]Changelog - Theme Elements:[/B]
 [LIST]
-[*]Expanded the CT window to better encompass the circles on the left.
-[*]
-[*]
-[*]
-[*]
-[*]
+[*]Fixed - Party Sheet Font Colors in CoreRPG (contributed by bmos, thanks!)
+[*]Fixed - Mirrored image layer drawing expand icon.
+[*]Brightened window border color a little to make window separation a little more visible (feedback needed)
+[*]Changed Minimized Icons to a round shape, to stand out a little more. I found them "hard to find" sometimes
+[*]Changed Extension Icon
+[*]Bumped up Asset Folder Icon brightness a little.
+[*]Changed Radial Menu Bordercolor to new border color.
+[/LIST]
+
+[B]Changelog - DnD 5E Ruleset:[/B]
+[LIST]
+[*]Changed CT Menu Initiative Radial Menu Icons again. I still wasn't satisfied, so I tried another approach.
+[*]Adjusted sidebar to be on line with the theme.
 [/LIST]
 
 [B]Added Extension Support:[/B]
 [LIST]
-[*]Friend Zone by MeAndUnique.
-[*]Linker by Mattekure
-[*]Bayne's Emporium
--> Special thanks to Bayne for his cooperation and willingness to provide all necessary data I needed to fix the issue. Make sure to check out his awesome extensions at the forge here:
-https://forge.fantasygrounds.com/crafter/49/view-profile
-[*]Unofficial Kingdoms and Warfare Extension by Saagael
+[*]Better Combat Effects Gold by Ryan Hagelstrom
+[*]Improved Critical by Theogeek
+[*]Basic Requested Rolls by McCartysr support (WIP)
 [/LIST]
 
 [B]Removed Extension Support:[/B]
@@ -52,29 +45,33 @@ https://forge.fantasygrounds.com/crafter/49/view-profile
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]
-[*]
-[*]
+[*](In Progress)New, streamlined Extension Icon Adjustments when possible. Some Authors don't define unqiue icons for their extensions, or lock them up in the vault ¯\_(ツ)_/¯.
+[*]Fixed - button graphics names for Floating Tabs extension by Scried Raven.
+[*]Fixed - Typo in filestructure for Daddy Orgeman's extensions
+[*]Added Bratch Nine Spell Token Sidebar support
 [/LIST]
 
-[B]Changelog Pathfinder 2E Ruleset[/B]
+[B]Changelog D&D 4E Ruleset[/B]
 [LIST]
-[*]Minor change to the ct_effectdc.png frame.
-[*]
-[*]
-[*]
+[*]minimal adjustments to a few frames.
 [/LIST]
 
 [B]Under the Hood[/B]
 [LIST]
-[*]
-[*]
-[*]
-[*]
-[*]
+[*]Added MeAndUnique and Saagael as Co. Authors - about time I did this!
 [/LIST]
 
 [COLOR="#FF0000"][B]Known Issue(s) introduced with this update:[/B][/COLOR]
 [LIST]
 [*]None
+[/LIST]
+
+[B]Coming Soon (TM)[/B]
+[LIST]
+[*]Full Requested Rolls Support (some Icons are still badly visible, I'm on it)
+[*]Colorblind Edition
+[*]Sage Edition (Bright Theme)
+[*]Monk Edition (Bright Theme)
+[*]All old Editions that were removed
+[*]Thorough Extension Check - What needs to be adjusted, what is deprecated aso.
 [/LIST]
