@@ -62,10 +62,10 @@
 		<bitmap file="graphics/pngs/headerpoweratwill.png" />
 		<middle rect="0,0,128,128" />
 	</framedef>
-	<framedef name="headerpowerenc">
+	<!-- <framedef name="headerpowerenc">
 		<bitmap file="graphics/pngs/headerpowerenc.png" />
 		<middle rect="0,0,128,128" />
-	</framedef>
+	</framedef> -->
 	<framedef name="headerpowerdaily">
 		<bitmap file="graphics/pngs/headerpowerdaily.png" />
 		<middle rect="0,0,128,128" />
@@ -75,10 +75,10 @@
 		<bitmap file="graphics/pngs/headeritem.png" />
 		<middle rect="0,0,128,128" />
 	</framedef>
-	<framedef name="headerparcel">
+	<!-- <framedef name="headerparcel">
 		<bitmap file="graphics/pngs/headerparcel.png" />
 		<middle rect="0,0,128,128" />
-	</framedef>
+	</framedef> -->
 	<framedef name="headernpc">
 		<bitmap file="graphics/pngs/headernpc.png" />
 		<middle rect="0,0,128,128" />
@@ -100,18 +100,18 @@
 		<bitmap file="graphics/pngs/headerchallenge.png" />
 		<middle rect="0,0,128,128" />
 	</framedef>
-	<framedef name="headerpoison">
+	<!-- <framedef name="headerpoison">
 		<bitmap file="graphics/pngs/headerpoison.png" />
 		<middle rect="0,0,128,128" />
-	</framedef>
+	</framedef> -->
 	<framedef name="headerfamiliar">
 		<bitmap file="graphics/pngs/headerfamiliar.png" />
 		<middle rect="0,0,128,128" />
 	</framedef>
-	<framedef name="headerdisease">
+	<!-- <framedef name="headerdisease">
 		<bitmap file="graphics/pngs/headerdisease.png" />
 		<middle rect="0,0,128,128" />
-	</framedef>
+	</framedef> -->
 	<framedef name="headerref">
 		<bitmap file="graphics/pngs/headerref.png" />
 		<middle rect="0,0,128,128" />
