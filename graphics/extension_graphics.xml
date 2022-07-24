@@ -67,6 +67,12 @@
 				</sheetdata>
 			</windowclass>
 
+<!--Author: Ryan Hagelstrom-->
+	<!--Better Combat Effects Gold-->
+		<!--Icons-->
+			<icon name="BetterCombatEffectsGold" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"></icon>
+			<icon name="bce_save" file="graphics/extensions/ryan_hagelstrom/BCEG/bce_save.png"></icon>
+
 <!--Author: Silent Ruin-->
 	<!--Ext: Polymorphism-->
 		<!--Icon-->
