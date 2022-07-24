@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
+<!--Author: Mccartysr-->
+	<!--Ext: Requested Rolls-->
+		<!--Icons-->
+			<icon name="Logo_Mccartysr" file="graphics/extensions/mccartysr/requested_rolls/logo_mccartysr.png" />
+
+			<icon name="button_prof" file="graphics/extensions/mccartysr/requested_rolls/button_prof.png" />
+			<icon name="button_prof_down" file="graphics/extensions/mccartysr/requested_rolls/button_prof_down.png" />
+			<icon name="button_prof_double" file="graphics/extensions/mccartysr/requested_rolls/button_prof_double.png" />
+
+			<icon name="RR_sidebar" file="graphics/extensions/mccartysr/requested_rolls/rr_sidebar.png" />
+			<icon name="RR_field_linked_mono" file="graphics/extensions/mccartysr/requested_rolls/rr_field_linked_mono.png" />
+
+			<icon name="RR_RollIndicator" file="graphics/extensions/mccartysr/requested_rolls/rr_roll_indicator.png"/>
+			<icon name="RR_SelectionIndicator" file="graphics/extensions/mccartysr/requested_rolls/rr_selection_indicator.png"/>
+
+<!--Author: Bratch Nine-->
+	<!--Ext: B9 Spell Tokens-->
+		<!--Icons-->
+			<icon name="logo_b9" file="graphics/extensions/bratch_nine/b9_spell_tokens/logo_b9.png" />
+			<icon name="sidebar_icon_link_spelltokens" file="graphics/extensions/bratch_nine/b9_spell_tokens/icon.png" />
+
 <!--Author: Damned-->
 	<!--Ext: Player Agency-->
 		<!--Frames-->
