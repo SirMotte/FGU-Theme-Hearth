@@ -1,5 +1,5 @@
--- 
--- Please see the license.html file included with this distribution for 
+--
+-- Please see the license.html file included with this distribution for
 -- attribution and copyright information.
 --
 function onInit()
@@ -11,7 +11,7 @@ function onInit()
 
 	ColorManager.COLOR_GRADIENT_TOP = { r = 0, g = 0, b = 0 }; -- Replaceable Channels: Gradient Top
 	ColorManager.COLOR_GRADIENT_MID = { r = 96, g = 0, b = 0 }; -- Replaceable Channels: Gradient Mid
-	ColorManager.COLOR_GRADIENT_BOTTOM = { r = 255, g = 0, b = 0 }; -- Replaceable Channels: Gradient BOttom
+	ColorManager.COLOR_GRADIENT_BOTTOM = { r = 255, g = 0, b = 0 }; -- Replaceable Channels: Gradient Bottom
 
 	ColorManager.COLOR_HEALTH_UNWOUNDED = "77CE77"; -- Replaceable Color: Healthy
 	ColorManager.COLOR_HEALTH_DYING_OR_DEAD = "909090"; -- Replaceable Color: Dead
