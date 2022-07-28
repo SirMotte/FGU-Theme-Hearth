@@ -16,25 +16,78 @@
 			<icon name="RR_RollIndicator" file="graphics/extensions/mccartysr/requested_rolls/rr_roll_indicator.png"/>
 			<icon name="RR_SelectionIndicator" file="graphics/extensions/mccartysr/requested_rolls/rr_selection_indicator.png"/>
 
-
 			<windowclass name="rr_console" merge="join">
 				<sheetdata>
 					<buttonfield name="clicktoroll">
 						<script file="common/scripts/setTwoStateButtonColors.lua" />
+						<script>
+							function onValueChanged()
+								if super and super.onValueChanged then
+									super.onValueChanged()
+								end
+								local value = getValue();
+								if value == 0 then
+									setFrame("fielddark", 10, 8, 10, 6);
+								elseif value == 1 then
+									setFrame("fieldfocus", 10, 8, 10, 6);
+								end
+							end
+						</script>
 					</buttonfield>
 					<buttonfield name="DClink">
 						<script file="common/scripts/setTwoStateButtonColors.lua" />
+						<script>
+							function onValueChanged()
+								if super and super.onValueChanged then
+									super.onValueChanged()
+								end
+								local value = getValue();
+								if value == 0 then
+									setFrame("fielddark", 10, 8, 10, 6);
+								elseif value == 1 then
+									setFrame("fieldfocus", 10, 8, 10, 6);
+								end
+							end
+						</script>
 					</buttonfield>
 					<buttonfield name="autoroll">
 						<script file="common/scripts/setTwoStateButtonColors.lua" />
-						<gmvisibleonly />
+						<script>
+							function onValueChanged()
+								if super and super.onValueChanged then
+									super.onValueChanged()
+								end
+								local value = getValue();
+								if value == 0 then
+									setFrame("fielddark", 10, 8, 10, 6);
+								elseif value == 1 then
+									setFrame("fieldfocus", 10, 8, 10, 6);
+								end
+							end
+						</script>
 					</buttonfield>
 					<buttonfield name="deselectonroll">
 						<script file="common/scripts/setTwoStateButtonColors.lua" />
-						<gmvisibleonly />
+						<script>
+							function onValueChanged()
+								if super and super.onValueChanged then
+									super.onValueChanged()
+								end
+								local value = getValue();
+								if value == 0 then
+									setFrame("fielddark", 10, 8, 10, 6);
+								elseif value == 1 then
+									setFrame("fieldfocus", 10, 8, 10, 6);
+								end
+							end
+						</script>
 					</buttonfield>
 					<buttoncontrol name="mirrortargeting">
-						<color>F3D876</color>
+						<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+						<frame name="buttonup" offset="10,8,10,6" />
+						<stateframe>
+							<pressed name="buttondown" offset="12,10,12,8" nobaseframe="true" />
+						</stateframe>
 					</buttoncontrol>
 				</sheetdata>
 			</windowclass>
@@ -666,82 +719,4 @@
 				</stringfield>
 			</sheetdata>
 		</windowclass>
-
-<!--Author: mccartysr-->
-	<!--Ext: RequestedRolls-->
-	<windowclass name="rr_console" merge="join">
-		<sheetdata>
-			<buttonfield name="clicktoroll">
-				<script file="common/scripts/setTwoStateButtonColors.lua" />
-				<script>
-					function onValueChanged()
-						if super and super.onValueChanged then
-							super.onValueChanged()
-						end
-						local value = getValue();
-						if value == 0 then
-							setFrame("fielddark", 10, 8, 10, 6);
-						elseif value == 1 then
-							setFrame("fieldfocus", 10, 8, 10, 6);
-						end
-					end
-				</script>
-			</buttonfield>
-			<buttonfield name="DClink">
-				<script file="common/scripts/setTwoStateButtonColors.lua" />
-				<script>
-					function onValueChanged()
-						if super and super.onValueChanged then
-							super.onValueChanged()
-						end
-						local value = getValue();
-						if value == 0 then
-							setFrame("fielddark", 10, 8, 10, 6);
-						elseif value == 1 then
-							setFrame("fieldfocus", 10, 8, 10, 6);
-						end
-					end
-				</script>
-			</buttonfield>
-			<buttonfield name="autoroll">
-				<script file="common/scripts/setTwoStateButtonColors.lua" />
-				<script>
-					function onValueChanged()
-						if super and super.onValueChanged then
-							super.onValueChanged()
-						end
-						local value = getValue();
-						if value == 0 then
-							setFrame("fielddark", 10, 8, 10, 6);
-						elseif value == 1 then
-							setFrame("fieldfocus", 10, 8, 10, 6);
-						end
-					end
-				</script>
-			</buttonfield>
-			<buttonfield name="deselectonroll">
-				<script file="common/scripts/setTwoStateButtonColors.lua" />
-				<script>
-					function onValueChanged()
-						if super and super.onValueChanged then
-							super.onValueChanged()
-						end
-						local value = getValue();
-						if value == 0 then
-							setFrame("fielddark", 10, 8, 10, 6);
-						elseif value == 1 then
-							setFrame("fieldfocus", 10, 8, 10, 6);
-						end
-					end
-				</script>
-			</buttonfield>
-			<buttoncontrol name="mirrortargeting">
-				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
-				<frame name="buttonup" offset="10,8,10,6" />
-				<stateframe>
-					<pressed name="buttondown" offset="12,10,12,8" nobaseframe="true" />
-				</stateframe>
-			</buttoncontrol>
-		</sheetdata>
-	</windowclass>
 </root>
