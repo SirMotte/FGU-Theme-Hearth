@@ -17,27 +17,27 @@
 			<icon name="RR_SelectionIndicator" file="graphics/extensions/mccartysr/requested_rolls/rr_selection_indicator.png"/>
 
 
-<windowclass name="rr_console" merge="join">
-	<sheetdata>
-		<buttonfield name="clicktoroll">
-			<script file="common/scripts/setTwoStateButtonColors.lua" />
-		</buttonfield>
-		<buttonfield name="DClink">
-			<script file="common/scripts/setTwoStateButtonColors.lua" />
-		</buttonfield>
-		<buttonfield name="autoroll">
-			<script file="common/scripts/setTwoStateButtonColors.lua" />
-			<gmvisibleonly />
-		</buttonfield>
-		<buttonfield name="deselectonroll">
-			<script file="common/scripts/setTwoStateButtonColors.lua" />
-			<gmvisibleonly />
-		</buttonfield>
-		<buttoncontrol name="mirrortargeting">
-			<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
-		</buttoncontrol>
-	</sheetdata>
-</windowclass>
+			<windowclass name="rr_console" merge="join">
+				<sheetdata>
+					<buttonfield name="clicktoroll">
+						<script file="common/scripts/setTwoStateButtonColors.lua" />
+					</buttonfield>
+					<buttonfield name="DClink">
+						<script file="common/scripts/setTwoStateButtonColors.lua" />
+					</buttonfield>
+					<buttonfield name="autoroll">
+						<script file="common/scripts/setTwoStateButtonColors.lua" />
+						<gmvisibleonly />
+					</buttonfield>
+					<buttonfield name="deselectonroll">
+						<script file="common/scripts/setTwoStateButtonColors.lua" />
+						<gmvisibleonly />
+					</buttonfield>
+					<buttoncontrol name="mirrortargeting">
+						<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+					</buttoncontrol>
+				</sheetdata>
+			</windowclass>
 
 <!--Author: Bratch Nine-->
 	<!--Ext: B9 Spell Tokens-->

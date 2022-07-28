@@ -9,7 +9,7 @@ Sir Motte
 
 [B]Added Ruleset Support:[/B]
 [LIST]
-[*]
+[*]none
 [/LIST]
 
 [B]Changelog - Theme Elements:[/B]
@@ -23,6 +23,13 @@ Sir Motte
 [*]Fixed record sheet graphic, that was off 1px, casuing cutoff frames in eg. items, encounters and other ui elements.
 [*]Fixed new Radial Menu colors from last update - forgot to include the altered pngs.
 [*]Changed die calculated result color to saturated yellow, to better "pop" at a glance.
+[*]First batch of sidebar icons, experimental as I like the new default ones quite a lot.
+[*]Changed Module loaded/unloaded icon size
+[*]
+[*]
+[*]
+[*]
+[*]
 
 [B]Changelog - Theme Elements -Extension Icons:[/B]
 Explaination: Depending on the number of extensions you use, things get pretty wild in the Chat on launch. I try to remedy this a little my adjusting extension icons to use the same width and height and frame.
