@@ -649,23 +649,22 @@
 	<windowclass name="rr_console" merge="join">
 		<sheetdata>
 			<buttonfield name="clicktoroll">
-				<state color="DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
-				<state color="EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
+				<script file="common/scripts/setTwoStateButtonColors.lua" />
 			</buttonfield>
 			<buttonfield name="DClink">
-				<state color="DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
-				<state color="EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
+				<script file="common/scripts/setTwoStateButtonColors.lua" />
 			</buttonfield>
 			<buttonfield name="autoroll">
-				<state color="DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
-				<state color="EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
+				<script file="common/scripts/setTwoStateButtonColors.lua" />
 				<gmvisibleonly />
 			</buttonfield>
 			<buttonfield name="deselectonroll">
-				<state color="DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
-				<state color="EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
+				<script file="common/scripts/setTwoStateButtonColors.lua" />
 				<gmvisibleonly />
 			</buttonfield>
+			<buttoncontrol name="mirrortargeting">
+				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+			</buttoncontrol>
 		</sheetdata>
 	</windowclass>
 </root>
