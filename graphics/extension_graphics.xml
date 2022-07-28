@@ -83,10 +83,10 @@
 						</script>
 					</buttonfield>
 					<buttoncontrol name="mirrortargeting">
-						<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+						<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
 						<frame name="buttonup" offset="10,8,10,6" />
 						<stateframe>
-							<pressed name="buttondown" offset="12,10,12,8" nobaseframe="true" />
+							<pressed name="buttondown" offset="10,8,10,6" nobaseframe="true" />
 						</stateframe>
 					</buttoncontrol>
 				</sheetdata>
