@@ -33,7 +33,6 @@
 			<script file="common/scripts/setTwoStateButtonColors.lua" />
 			<gmvisibleonly />
 		</buttonfield>
-	</buttonfield>
 		<buttoncontrol name="mirrortargeting">
 			<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
 		</buttoncontrol>
