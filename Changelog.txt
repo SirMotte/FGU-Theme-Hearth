@@ -1,41 +1,30 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Version 2.9.2 - Stale Holy Water[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Version 2.9.3 - Sneaking Giraffe[/B][/COLOR][/SIZE]
 
 [B]Anouncement:[/B]
 
-Minor Maintenance update with a few adjustments here and there. Mainly to announce that I'm kinda back again.
-I plan to work at least 1 day each weekend on the theme to bring it up to snuff and finally make it a proper template.
-Fingers crossed on this :) .
+Extension Update with the sole purpose to get the theme up to date to possible changes over the past year that need addressing.
 
 Enjoy!
 Sir Motte
 
 [B]Added Ruleset Support:[/B]
 [LIST]
-[*]Basic Target 12 support
+[*]
 [/LIST]
 
 [B]Changelog - Theme Elements:[/B]
 [LIST]
-[*]Fixed - Party Sheet Font Colors in CoreRPG (contributed by bmos, thanks!)
-[*]Fixed - Mirrored image layer drawing expand icon.
-[*]Brightened window border color a little to make window separation a little more visible (feedback needed)
-[*]Changed Minimized Icons to a round shape, to stand out a little more. I found them "hard to find" sometimes
-[*]Changed Extension Icon
-[*]Bumped up Asset Folder Icon brightness a little.
-[*]Changed Radial Menu Bordercolor to new border color.
+[*]
 [/LIST]
 
 [B]Changelog - DnD 5E Ruleset:[/B]
 [LIST]
-[*]Changed CT Menu Initiative Radial Menu Icons again. I still wasn't satisfied, so I tried another approach.
-[*]Adjusted sidebar to be on line with the theme.
+[*]
 [/LIST]
 
 [B]Added Extension Support:[/B]
 [LIST]
-[*]Better Combat Effects Gold by Ryan Hagelstrom
-[*]Improved Critical by Theogeek
-[*]Basic Requested Rolls by McCartysr support (WIP)
+[*]
 [/LIST]
 
 [B]Removed Extension Support:[/B]
@@ -45,33 +34,20 @@ Sir Motte
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*](In Progress)New, streamlined Extension Icon Adjustments when possible. Some Authors don't define unqiue icons for their extensions, or lock them up in the vault ¯\_(ツ)_/¯.
-[*]Fixed - button graphics names for Floating Tabs extension by Scried Raven.
-[*]Fixed - Typo in filestructure for Daddy Orgeman's extensions
-[*]Added Bratch Nine Spell Token Sidebar support
+[*]Fixed some missing Button Colors for Requested Rolls by McCartysr
 [/LIST]
 
 [B]Changelog D&D 4E Ruleset[/B]
 [LIST]
-[*]minimal adjustments to a few frames.
+[*]none
 [/LIST]
 
 [B]Under the Hood[/B]
 [LIST]
-[*]Added MeAndUnique and Saagael as Co. Authors - about time I did this!
+[*]
 [/LIST]
 
 [COLOR="#FF0000"][B]Known Issue(s) introduced with this update:[/B][/COLOR]
 [LIST]
 [*]None
-[/LIST]
-
-[B]Coming Soon (TM)[/B]
-[LIST]
-[*]Full Requested Rolls Support (some Icons are still badly visible, I'm on it)
-[*]Colorblind Edition
-[*]Sage Edition (Bright Theme)
-[*]Monk Edition (Bright Theme)
-[*]All old Editions that were removed
-[*]Thorough Extension Check - What needs to be adjusted, what is deprecated aso.
 [/LIST]
