@@ -54,7 +54,9 @@ Explaination: Depending on the number of extensions you use, things get pretty w
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]Fixed some missing Button Colors for Requested Rolls by McCartysr (Thanks to McCartysr and Saagael)
+[*]Fixed some missing Button Colors for Requested Rolls by McCartysr (Thanks to McCartysr and special thanks to Saagael)
+[*]Changed Chest Icon from Map Parcel by Silent Ruin.
+[*]
 [/LIST]
 
 [B]Changelog D&D 4E Ruleset[/B]
