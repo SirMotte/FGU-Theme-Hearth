@@ -47,7 +47,7 @@
 	<font name="diemod">
 		<fgffile name="graphics/fonts/diemod.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="30" />
-		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
+		<color value="#F3D876" />
 	</font>
 	<font name="dieresult">
 		<fgffile name="graphics/fonts/regular-10.fgf" />

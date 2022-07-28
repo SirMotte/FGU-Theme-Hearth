@@ -14,7 +14,20 @@ Sir Motte
 
 [B]Changelog - Theme Elements:[/B]
 [LIST]
-[*]
+[*]Changed sidebar button size to show 1px of the background and muted border color a little, as it's not necessary to have them this bright in this area.
+[*]Minor "Roll initiative all" button adjustement in the CT menu.
+[*]Changed Dual Wield Icon Color in Actions Tab from Orange to Red, as Orange is supposed to be the "UI element active" color.
+[*]Changed "on hover" button state for eg. help or close window to yellow, instead of orange, as orange is supposed to be the "UI element active" color.
+[*]Changed "on press" button sown state for eg. close window to a bright red, instead of dark red, so when pressed they don't appear to vanish.
+[*]Fixed color inconsistencies for bright red ui elements.
+[*]Fixed record sheet graphic, that was off 1px, casuing cutoff frames in eg. items, encounters and other ui elements.
+[*]Fixed new Radial Menu colors from last update - forgot to include the altered pngs.
+[*]Changed die calculated result color to saturated yellow, to better "pop" at a glance.
+
+[B]Changelog - Theme Elements -Extension Icons:[/B]
+Explaination: Depending on the number of extensions you use, things get pretty wild in the Chat on launch. I try to remedy this a little my adjusting extension icons to use the same width and height and frame.
+[*]All MeAndUnique extensions.
+
 [/LIST]
 
 [B]Changelog - DnD 5E Ruleset:[/B]
@@ -34,7 +47,7 @@ Sir Motte
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]Fixed some missing Button Colors for Requested Rolls by McCartysr
+[*]Fixed some missing Button Colors for Requested Rolls by McCartysr (Thanks to McCartysr and Saagael)
 [/LIST]
 
 [B]Changelog D&D 4E Ruleset[/B]
@@ -47,7 +60,7 @@ Sir Motte
 [*]
 [/LIST]
 
-[COLOR="#FF0000"][B]Known Issue(s) introduced with this update:[/B][/COLOR]
+[COLOR="#FF0000"][B]Known Issue(s):[/B][/COLOR]
 [LIST]
-[*]None
+[*]
 [/LIST]
