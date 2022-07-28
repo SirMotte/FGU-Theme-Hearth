@@ -34,7 +34,7 @@
 						<gmvisibleonly />
 					</buttonfield>
 					<buttoncontrol name="mirrortargeting">
-						<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+						<color>F3D876</color>
 					</buttoncontrol>
 				</sheetdata>
 			</windowclass>
