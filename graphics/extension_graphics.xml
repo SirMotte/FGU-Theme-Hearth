@@ -240,6 +240,11 @@
 		<!--Icons-->
 			<icon name="splash_icon" file="graphics/extensions/theogeek/improved_critical/Brutal Barbarian_(v4)_60x60.png" />
 
+<!--Author: Trenloe -->
+	<!--Ext: Basic Card Tables-->
+		<!--Icons-->
+		<icon name="ext_table_icon" file="graphics/extensions/trenloe/basic_card_tables/button_tables.png" />
+
 <!--Author: DaddyOgreman / Orgemandude-->
 	<!--Ext: CoreRPG Combat Highlighter-->
 		<!--Frames-->
@@ -303,6 +308,8 @@
   			<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fieldgreen.png" />
   				<offset>10,10,10,10</offset>
   			</framedef>
+
+				<icon name="MNMLogo32" file="graphics/extensions/mad_nomad/MNM Logo 32x32.png" />
 	<!--Ext: Combat Stats-->
 		<!--Frames-->
 			<template name="number_ps_stat_lower">
@@ -403,7 +410,9 @@
 					</stringcontrol>
 				</sheetdata>
 			</windowclass>
-	<!--Ext: Constitutional Amendments-->
+
+			<icon name="ColorfulLanguage" file="graphics/extensions/meandunique/colorful_language/ColorfulLanguage.png" />
+<!--Ext: Constitutional Amendments-->
 		<!-- Source: desktop/record_char_main.xml -->
 			<windowclass name="charsheet_main" merge="join">
 				<script>
@@ -438,12 +447,21 @@
 	<!-- Ext: Constitutional Amendments -->
 		<!-- Icons -->
 			<icon name="CA_icon" file="graphics/extensions/meandunique/constitutional_amendments/ConstitutionalAmendments.png" />
-
+	<!-- Ext: Bartender -->
+		<!-- Icons -->
+			<icon name="Bartender_icon" file="graphics/extensions/meandunique/bartender/Bartender.png" />
+	<!-- Ext: Temporal Fixation -->
+		<!-- Icons -->
+			<icon name="TemporalFixation" file="graphics/extensions/meandunique/temporal_fixation/TemporalFixation.png" />
 <!--Author: pr6i6est (Troy Monteith)-->
 	<!--Ext: NPC Random Treasure Drops-->
 			<icon name="conditions_tab" file="graphics/extensions/troy_monteith/npc_random_treasure_drops/conditions_tab.png" />
+			<icon name="pr6i6e6st_logo_miniNPCRTD" file="graphics/extensions/troy_monteith/npc_random_treasure_drops/pr6i6e6st_logo_miniNPCRTD.png" />
 	<!--Ext: Automatic Record Links-->
 			<icon name="linktab" file="graphics/extensions/troy_monteith/automatic_record_links/links_tab.png" />
+			<icon name="pr6i6e6st_logo_miniARL" file="graphics/extensions/troy_monteith/automatic_record_links/pr6i6e6st_logo_miniARL.png" />
+	<!--Ext: Random Spellbook Generator-->
+			<icon name="pr6i6e6st_logo_miniRSG" file="graphics/extensions/troy_monteith/random_spellbook_generator/pr6i6e6st_logo_miniRSG.png" />
 
 
 <!--Author: pr6i6est (Troy Monteith) and bmos-->
@@ -515,6 +533,8 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
+	<icon name="GKElogo" file="graphics/extensions/good_king_enialb/token_height_indicator/GKE_Logo.png" />
+
 <!--Author: Diablo Bob-->
 	<!--Ext: Portals Revamped-->
 		<!--Icons-->
@@ -523,6 +543,8 @@
 			<icon name="button_teleport_yes_down" file="graphics/extensions/diablobob/portals/button_teleport_yes_down.png" />
 			<icon name="button_teleport_no" file="graphics/extensions/diablobob/portals/button_teleport_no.png" />
 			<icon name="button_teleport_no_down" file="graphics/extensions/diablobob/portals/button_teleport_no_down.png" />
+			<icon name="sidebar_icon_recordtype_portals" file="graphics/extensions/diablobob/portals/portals.png" />
+			<icon name="Critically_Awesome" file="graphics/extensions/diablobob/portals/Critically_Awesome.png" />
 		<!--Frame-->
 			<framedef name="teleport_prompt">
 				<bitmap file="graphics/extensions/diablobob/portals/teleport_prompt.png" />
@@ -618,6 +640,8 @@
 				<icon name="legendary_button_effects_down" file ="graphics/extensions/stv/legendary_assistant/legendary_button_effects_down.png" />
 				<icon name="legendary_search" file ="graphics/extensions/stv/legendary_assistant/ct_search.png" />
 				<icon name="legendary_search_down" file ="graphics/extensions/stv/legendary_assistant/ct_search_down.png" />
+				<icon name="stv" file="graphics/extensions/stv/legendary_assistant/stv.png" />
+				<icon name="taskbar_legendary" file="graphics/extensions/stv/legendary_assistant/legendary_taskbar.png" />
 		<!--Frames-->
 				<framedef name="ctentrybox_legendary">
 					<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary.png" />
