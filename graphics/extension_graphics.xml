@@ -167,30 +167,30 @@
 <!--Author: Ryan Hagelstrom-->
 	<!--Better Combat Effects Gold-->
 		<!--Icons-->
-			<icon name="BetterCombatEffectsGold" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"></icon>
-			<icon name="bce_save" file="graphics/extensions/ryan_hagelstrom/BCEG/bce_save.png"></icon>
+				<icon name="BetterCombatEffectsGold" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"></icon>
+				<icon name="bce_save" file="graphics/extensions/ryan_hagelstrom/BCEG/bce_save.png"></icon>
 
 <!--Author: Silent Ruin-->
 	<!--Ext: Polymorphism-->
 		<!--Icon-->
-			<icon name="polymorphism_icon" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_icon.png" />
+				<icon name="polymorphism_icon" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_icon.png" />
 	<!--Ext: Map Parcel-->
 		<!--Icon-->
-			<icon name="mapparcel_icon" file="graphics/extensions/silent_ruin/map_parcel/mapparcel_icon.png" />
+				<icon name="mapparcel_icon" file="graphics/extensions/silent_ruin/map_parcel/mapparcel_icon.png" />
 	<!--Ext: Combat Groups-->
 		<!--Icons-->
-			<icon name="combatgroups_icon" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon.png" />
-			<icon name="combatgroups_icon_down" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon_down.png" />
+				<icon name="combatgroups_icon" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon.png" />
+				<icon name="combatgroups_icon_down" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon_down.png" />
 	<!--Ext: Generic Actions-->
 		<!--Icon-->
-			<icon name="generic_actions_icon" file="graphics/extensions/silent_ruin/generic_actions/generic_actions_icon.png" />
+				<icon name="generic_actions_icon" file="graphics/extensions/silent_ruin/generic_actions/generic_actions_icon.png" />
 	<!--Ext: Assistant GM-->
 		<!--Icons-->
-			<icon name="AssistantGM_icon" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_icon.png" />
-			<icon name="AssistantGM_icon_down" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_icon_down.png" />
+				<icon name="AssistantGM_icon" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_icon.png" />
+				<icon name="AssistantGM_icon_down" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_icon_down.png" />
 	<!--Ext: Equipped Effects-->
 		<!--Icon-->
-			<icon name="equipped_effects_icon" file="graphics/extensions/silent_ruin/equipped_effects/equipped_effects_icon.png" />
+				<icon name="equipped_effects_icon" file="graphics/extensions/silent_ruin/equipped_effects/equipped_effects_icon.png" />
 	<!--Ext: Death Indicator-->
 		<!--Icons-->
  		<!-- Define the icon used in the announcement and tooltips-->
@@ -281,12 +281,12 @@
   			<icon name="update" file="graphics/extensions/mad_nomad/character_sheet_compilation/updateMNM.png" />
   			<icon name="effectremove" file="graphics/extensions/mad_nomad/character_sheet_compilation/effectremoveMNM.png" />
   			<icon name="effectremovedown" file="graphics/extensions/mad_nomad/character_sheet_compilation/effectremovedownMNM.png" />
-			<icon name="plus_sign" file="graphics/extensions/mad_nomad/character_sheet_compilation/plus_sign.png" />
+				<icon name="plus_sign" file="graphics/extensions/mad_nomad/character_sheet_compilation/plus_sign.png" />
   			<icon name="minus_sign" file="graphics/extensions/mad_nomad/character_sheet_compilation/minus_sign.png" />
   			<icon name="map" file="graphics/extensions/mad_nomad/character_sheet_compilation/map.png" />
   			<icon name="tab_journal" file="graphics/extensions/mad_nomad/character_sheet_compilation/tab_journal.png" />
   			<icon name="tab_origin" file="graphics/extensions/mad_nomad/character_sheet_compilation/tab_origin.png" />
-			<icon name="add_coins" file="graphics/extensions/mad_nomad/character_sheet_compilation/add_coins.png" />
+				<icon name="add_coins" file="graphics/extensions/mad_nomad/character_sheet_compilation/add_coins.png" />
   			<icon name="spend_coins" file="graphics/extensions/mad_nomad/character_sheet_compilation/spend_coins.png" />
   			<icon name="transaction" file="graphics/extensions/mad_nomad/character_sheet_compilation/transaction.png" />
   			<icon name="broke" file="graphics/extensions/mad_nomad/character_sheet_compilation/broke.png" />
@@ -423,6 +423,7 @@
 	<!-- Ext: Friend Zone -->
 		<!-- Tabs -->
 			<icon name="char_cohorts" file="graphics/pngs/char_name.png" />
+			<icon name="FriendZone_icon" file="graphics/extensions/meandunique/friend_zone/FriendZone.png" />
 		<!-- Tabs -->
 			<icon name="tab_cohorts" file="graphics/extensions/meandunique/friend_zone/tab_cohorts.png" />
 	<!-- Ext: Kit'N'Kaboodle -->
@@ -430,10 +431,13 @@
 			<icon name="KNK_icon" file="graphics/extensions/meandunique/kitnkaboodle/KitNKaboodle.png" />
 	<!-- Ext: Size Matters -->
 		<!-- Icons -->
-			<icon name="SizeMatter_icon" file="graphics/extensions/meandunique/sizematters/SizeMatters.png"/>
+			<icon name="SizeMatter_icon" file="graphics/extensions/meandunique/size_matters/SizeMatters.png" />
 	<!-- Ext: Blissful Ignorance -->
-					<!-- Icons -->
-				<icon name="BlissfulIgnorance_icon" file="graphics/extensions/meandunique/blissfulignorance/BlissfulIgnorance.png" />
+		<!-- Icons -->
+			<icon name="BlissfulIgnorance_icon" file="graphics/extensions/meandunique/blissful_ignorance/BlissfulIgnorance.png" />
+	<!-- Ext: Constitutional Amendments -->
+		<!-- Icons -->
+			<icon name="CA_icon" file="graphics/extensions/meandunique/constitutional_amendments/ConstitutionalAmendments.png" />
 
 <!--Author: pr6i6est (Troy Monteith)-->
 	<!--Ext: NPC Random Treasure Drops-->
