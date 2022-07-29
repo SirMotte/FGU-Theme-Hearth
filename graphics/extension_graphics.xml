@@ -430,7 +430,7 @@
 			<icon name="KNK_icon" file="graphics/extensions/meandunique/kitnkaboodle/KitNKaboodle.png" />
 	<!-- Ext: Size Matters -->
 		<!-- Icons -->
-			<icon name="SizeMatter_icon" file="graphics/extensions/meandunique/sizematters/SizeMatters.png"
+			<icon name="SizeMatter_icon" file="graphics/extensions/meandunique/sizematters/SizeMatters.png"/>
 	<!-- Ext: Blissful Ignorance -->
 					<!-- Icons -->
 				<icon name="BlissfulIgnorance_icon" file="graphics/extensions/meandunique/blissfulignorance/BlissfulIgnorance.png" />
