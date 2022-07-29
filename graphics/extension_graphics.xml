@@ -425,6 +425,15 @@
 			<icon name="char_cohorts" file="graphics/pngs/char_name.png" />
 		<!-- Tabs -->
 			<icon name="tab_cohorts" file="graphics/extensions/meandunique/friend_zone/tab_cohorts.png" />
+	<!-- Ext: Kit'N'Kaboodle -->
+		<!-- Icons -->
+			<icon name="KNK_icon" file="graphics/extensions/meandunique/kitnkaboodle/KitNKaboodle.png" />
+	<!-- Ext: Size Matters -->
+		<!-- Icons -->
+			<icon name="SizeMatter_icon" file="graphics/extensions/meandunique/sizematters/SizeMatters.png"
+	<!-- Ext: Blissful Ignorance -->
+					<!-- Icons -->
+				<icon name="BlissfulIgnorance_icon" file="graphics/extensions/meandunique/blissfulignorance/BlissfulIgnorance.png" />
 
 <!--Author: pr6i6est (Troy Monteith)-->
 	<!--Ext: NPC Random Treasure Drops-->
