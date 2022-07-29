@@ -1,41 +1,52 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Version 2.9.2 - Bloody Beaver[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Version 2.9.3 - Sneaking Giraffe[/B][/COLOR][/SIZE]
 
 [B]Anouncement:[/B]
 
-Minor Maintenance update with a few adjustments here and there. Mainly to announce that I'm kinda back again.
-I plan to work at least 1 day each weekend on the theme to bring it up to snuff and finally make it a proper template.
-Fingers crossed on this :) .
+Extension Update with the sole purpose to get the theme up to date to possible changes over the past year that need addressing.
 
 Enjoy!
 Sir Motte
 
 [B]Added Ruleset Support:[/B]
 [LIST]
-[*]Basic Target 12 support
+[*]none
 [/LIST]
 
 [B]Changelog - Theme Elements:[/B]
 [LIST]
-[*]Fixed - Party Sheet Font Colors in CoreRPG (contributed by bmos, thanks!)
-[*]Fixed - Mirrored image layer drawing expand icon.
-[*]Brightened window border color a little to make window separation a little more visible (feedback needed)
-[*]Changed Minimized Icons to a round shape, to stand out a little more. I found them "hard to find" sometimes
-[*]Changed Extension Icon
-[*]Bumped up Asset Folder Icon brightness a little.
-[*]Changed Radial Menu Bordercolor to new border color.
+[*]Changed sidebar button size to show 1px of the background and muted border color a little, as it's not necessary to have them this bright in this area.
+[*]Minor "Roll initiative all" button adjustement in the CT menu.
+[*]Changed Dual Wield Icon Color in Actions Tab from Orange to Red, as Orange is supposed to be the "UI element active" color.
+[*]Changed "on hover" button state for eg. help or close window to yellow, instead of orange, as orange is supposed to be the "UI element active" color.
+[*]Changed "on press" button sown state for eg. close window to a bright red, instead of dark red, so when pressed they don't appear to vanish.
+[*]Fixed color inconsistencies for bright red ui elements.
+[*]Fixed record sheet graphic, that was off 1px, casuing cutoff frames in eg. items, encounters and other ui elements.
+[*]Fixed new Radial Menu colors from last update - forgot to include the altered pngs.
+[*]Changed die calculated result color to saturated yellow, to better "pop" at a glance.
+[*]First batch of sidebar icons.
+[*]Changed Module loaded/unloaded icon size
+[*]Changed settings menu link icon to be a hybrid of link and setting.
+[*]
+[*]
+[*]
+[*]
+[/LIST]
+
+[B]Changelog - Theme Elements - Extension Icons:[/B]
+Explanation: Depending on the number of extensions you use, things get pretty wild in the Chat on launch. I try to remedy this a little by adjusting extension icons to use the same width, height and frame.
+This calms down the chaos and gives me the opportunity to better embed other authors extension icons, without changing them altogether. Purely Cosmetic Madness.
+[LIST]
+[*]A whole lot...like all of them - when possible...why do I do this to me?!
 [/LIST]
 
 [B]Changelog - DnD 5E Ruleset:[/B]
 [LIST]
-[*]Changed CT Menu Initiative Radial Menu Icons again. I still wasn't satisfied, so I tried another approach.
-[*]Adjusted sidebar to be on line with the theme.
+[*]
 [/LIST]
 
 [B]Added Extension Support:[/B]
 [LIST]
-[*]Better Combat Effects Gold by Ryan Hagelstrom
-[*]Improved Critical by Theogeek
-[*]Basic Requested Rolls by McCartysr support (WIP)
+[*]
 [/LIST]
 
 [B]Removed Extension Support:[/B]
@@ -45,33 +56,23 @@ Sir Motte
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*](In Progress)New, streamlined Extension Icon Adjustments when possible. Some Authors don't define unqiue icons for their extensions, or lock them up in the vault ¯\_(ツ)_/¯.
-[*]Fixed - button graphics names for Floating Tabs extension by Scried Raven.
-[*]Fixed - Typo in filestructure for Daddy Orgeman's extensions
-[*]Added Bratch Nine Spell Token Sidebar support
+[*]Fixed some missing Button Colors for Requested Rolls by McCartysr (Thanks to McCartysr and special thanks to Saagael)
+[*]Changed Chest Icon from Map Parcel by Silent Ruin.
+[*]Changed all custom frames of extensions to use the new frame outline color.
+[*]Updated Legendary Assistant by Stv to work with the recent sidebar changes.
 [/LIST]
 
 [B]Changelog D&D 4E Ruleset[/B]
 [LIST]
-[*]minimal adjustments to a few frames.
+[*]none
 [/LIST]
 
 [B]Under the Hood[/B]
 [LIST]
-[*]Added MeAndUnique and Saagael as Co. Authors - about time I did this!
+[*]
 [/LIST]
 
-[COLOR="#FF0000"][B]Known Issue(s) introduced with this update:[/B][/COLOR]
+[COLOR="#FF0000"][B]Known Issue(s):[/B][/COLOR]
 [LIST]
-[*]None
-[/LIST]
-
-[B]Coming Soon (TM)[/B]
-[LIST]
-[*]Full Requested Rolls Support (some Icons are still badly visible, I'm on it)
-[*]Colorblind Edition
-[*]Sage Edition (Bright Theme)
-[*]Monk Edition (Bright Theme)
-[*]All old Editions that were removed
-[*]Thorough Extension Check - What needs to be adjusted, what is deprecated aso.
+[*]
 [/LIST]
