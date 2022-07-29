@@ -34,7 +34,7 @@ Sir Motte
 [B]Changelog - Theme Elements -Extension Icons:[/B]
 Explaination: Depending on the number of extensions you use, things get pretty wild in the Chat on launch. I try to remedy this a little my adjusting extension icons to use the same width, height and frame.
 This calms down the chaos and gives me the opportunity to better embed other authors extension icons, without changing them altogether.
-[*]Size Matters, FriendZone, Constitutiona lAmendments, Kit'N'Kaboodle by MeAndUnique extensions.
+[*]Size Matters, FriendZone, Constitutional Amendments, Kit'N'Kaboodle by MeAndUnique extensions.
 [*]All Silent Ruin extensions, where possible.
 
 [/LIST]
