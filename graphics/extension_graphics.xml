@@ -782,6 +782,8 @@
 			<icon name="icon_bubble" file="graphics/extensions/mattekure/who_speaks/icon-bubble.png" />
 			<icon name="icon-bubble-white" file="graphics/extensions/mattekure/who_speaks/icon-bubble-white.png" />
 			<icon name="Mattekure_Logo" file="graphics/extensions/mattekure/Mattekure_Logo.png" />
+	<!--Ext: CSV Table Importer-->
+			 <icon name="csv_button" file="graphics/extensions/mattekure/csv_table_importer/csv_button.png" />
 
 <!--Author: Celestian-->
 	<!--Ext: Audio Overseer-->
