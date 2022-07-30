@@ -1,8 +1,8 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Version 2.9.3 - Sneaking Giraffe[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Version 2.9.4 - Breezy Kilt[/B][/COLOR][/SIZE]
 
 [B]Anouncement:[/B]
 
-Extension Update with the sole purpose to get the theme up to date to possible changes over the past year that need addressing.
+Small cosmetic update and support for more extensions and some fixes. I won't have time to work more on the theme during the weekend, so I wanted to put this one in the wild now.
 
 Enjoy!
 Sir Motte
@@ -14,29 +14,27 @@ Sir Motte
 
 [B]Changelog - Theme Elements:[/B]
 [LIST]
-[*]Changed sidebar button size to show 1px of the background and muted border color a little, as it's not necessary to have them this bright in this area.
-[*]Minor "Roll initiative all" button adjustement in the CT menu.
-[*]Changed Dual Wield Icon Color in Actions Tab from Orange to Red, as Orange is supposed to be the "UI element active" color.
-[*]Changed "on hover" button state for eg. help or close window to yellow, instead of orange, as orange is supposed to be the "UI element active" color.
-[*]Changed "on press" button sown state for eg. close window to a bright red, instead of dark red, so when pressed they don't appear to vanish.
-[*]Fixed color inconsistencies for bright red ui elements.
-[*]Fixed record sheet graphic, that was off 1px, casuing cutoff frames in eg. items, encounters and other ui elements.
-[*]Fixed new Radial Menu colors from last update - forgot to include the altered pngs.
-[*]Changed die calculated result color to saturated yellow, to better "pop" at a glance.
-[*]First batch of sidebar icons.
-[*]Changed Module loaded/unloaded icon size
-[*]Changed settings menu link icon to be a hybrid of link and setting.
-[*]
-[*]
-[*]
+[*]Changed Font Graphic for Chat, Emote, Story aso. when typing in the chat.
+[*]Fixed Default Sidebar Icon (D20) xml definition.
+[*]Fixed CT sidebar icon xml definition.
+[*]Fixed Party Sheet sidebar xml defintition.
+[*]Adjusted "icon_window_close" + "icon_window_close_remote" (radial menu) colors to fit recent changes
+[*]Changed "emotefont" chat color to lavender.
+[*]Changed "chatgmfont" to bright orange.
 [*]
 [/LIST]
 
 [B]Changelog - Theme Elements - Extension Icons:[/B]
+
 Explanation: Depending on the number of extensions you use, things get pretty wild in the Chat on launch. I try to remedy this a little by adjusting extension icons to use the same width, height and frame.
 This calms down the chaos and gives me the opportunity to better embed other authors extension icons, without changing them altogether. Purely Cosmetic Madness.
+
 [LIST]
-[*]A whole lot...like all of them - when possible...why do I do this to me?!
+[*]Arcane Ward by Ryan Hagelstrom
+[*]Trigger Me Timbers by MeAndUnique
+[*]Better Combat Effects
+[*]Kent Height (hidden in vault) by Ryan Hagelstrom
+[*]Player Agency by Damned
 [/LIST]
 
 [B]Changelog - DnD 5E Ruleset:[/B]
@@ -46,20 +44,20 @@ This calms down the chaos and gives me the opportunity to better embed other aut
 
 [B]Added Extension Support:[/B]
 [LIST]
-[*]
-[/LIST]
-
-[B]Removed Extension Support:[/B]
-[LIST]
-[*]None
+[*]Arcane Ward by Ryan Hagelstrom
+[*]Trigger Me Timbers by MeAndUnique
 [/LIST]
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]Fixed some missing Button Colors for Requested Rolls by McCartysr (Thanks to McCartysr and special thanks to Saagael)
-[*]Changed Chest Icon from Map Parcel by Silent Ruin.
-[*]Changed all custom frames of extensions to use the new frame outline color.
-[*]Updated Legendary Assistant by Stv to work with the recent sidebar changes.
+[*]Updated support for Agency by Damned
+[*]
+[*]
+[*]
+[*]
+[*]
+[*]
+[*]
 [/LIST]
 
 [B]Changelog D&D 4E Ruleset[/B]

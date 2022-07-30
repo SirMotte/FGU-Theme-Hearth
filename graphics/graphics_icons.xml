@@ -3,6 +3,7 @@
 <root>
 <!-- sidebar -->
 <!-- CoreRPG -->
+	<icon name="sidebar_icon_default" file="graphics/pngs/sidebar_icon_default.png" />
 	<icon name="sidebar_icon_link_ct" file="graphics/pngs/sidebar_icon_link_ct.png" />
 	<icon name="sidebar_icon_link_ps" file="graphics/pngs/sidebar_icon_link_ps.png" />
 	<icon name="sidebar_icon_link_calendar" file="graphics/pngs/sidebar_icon_link_calendar.png" />
