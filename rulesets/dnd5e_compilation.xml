@@ -16,6 +16,8 @@
 
 					if StringManager.contains(Extension.getExtensions(), "ExtendedRest") then
 						registerMenuItem(Interface.getString("menu_restextended"), "rest_extended", 7, 2);
+					elseif PowerManagerKw then
+						registerMenuItem(Interface.getString("menu_restextended"), "rest_extended", 7, 2);
 					end
 				end
 			end
@@ -129,6 +131,8 @@
 							end
 
 							if StringManager.contains(Extension.getExtensions(), "ExtendedRest") then
+								registerMenuItem(Interface.getString("menu_restextended"), "rest_extended", 8, 2);
+							elseif PowerManagerKw then
 								registerMenuItem(Interface.getString("menu_restextended"), "rest_extended", 8, 2);
 							end
 						end

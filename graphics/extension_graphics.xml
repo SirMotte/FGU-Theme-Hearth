@@ -533,7 +533,7 @@
   			<icon name="button_banner" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner.png" />
   			<icon name="button_banner_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner_down.png" />
 			<icon name="rally" file="graphics/extensions/saagael/kingdoms_and_warfare/rally.png" />
-- 		<!--Roll icons-->
+- 		<!--Roll icons--> 
 			<icon name="roll_harrow" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_harrow.png" />
 			<icon name="roll_rally" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_rally.png" />
 		<!--token icons-->
@@ -561,7 +561,89 @@
 			<icon name="icon_rank_right" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_right_30.png" />
 			<icon name="icon_rank_top" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_top_30.png" />
 			<icon name="icon_warfare" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_warfare_30.png" />
+		<!-- Battle Tracker -->
+			<windowclass name="combattracker_host" merge="join">
+				<sheetdata>
+					<buttoncontrol name="button_show_battle">
+						<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
+					</buttoncontrol>
+				</sheetdata>
+			</windowclass>
+			<windowclass name="combattracker_client" merge="join">
+				<sheetdata>
+					<buttoncontrol name="button_show_battle">
+						<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
+					</buttoncontrol>
+				</sheetdata>
+			</windowclass>
+			<windowclass name="battletracker" merge="join">
+				<sheetdata>
+					<genericcontrol name="leftanchor">
+						<anchored>
+							<left anchor="left" offset="15" />
+						</anchored>
+					</genericcontrol>
+					<genericcontrol name="rightanchor">
+						<anchored>
+							<right anchor="right" offset="-20" />
+						</anchored>
+					</genericcontrol>
 
+					<windowlist name="list">
+						<anchored>
+							<left parent="topanchor" anchor="right" offset="-10" />
+						</anchored>
+					</windowlist>
+					<subwindow name="uncommanded_units">
+						<anchored>
+							<left parent="topanchor" anchor="right" offset="16" />
+							<right parent="rightanchor" anchor="left" offset="-1" />
+						</anchored>
+					</subwindow>
+
+					<battletracker_morale name="morale_neutral">
+						<stateframe>
+							<keyedit name="fieldfocus" offset="7,5,6,7" />
+							<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+							<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+						</stateframe>
+					</battletracker_morale>
+					<battletracker_morale name="morale_foe">
+						<stateframe>
+							<keyedit name="fieldfocus" offset="7,5,6,7" />
+							<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+							<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+						</stateframe>
+					</battletracker_morale>
+					<battletracker_morale name="morale_friend">
+						<stateframe>
+							<keyedit name="fieldfocus" offset="7,5,6,7" />
+							<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+							<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+						</stateframe>
+					</battletracker_morale>
+				</sheetdata>
+			</windowclass>
+			<windowclass name="battletracker_unitsummary" merge="join">
+				<sheetdata>
+					<number_ct name="size" source="casualties">
+						<anchored to="size_label" position="righthigh" offset="17,0" />
+					</number_ct>
+					<label name="casualties_label">
+						<anchored to="size_label" position="lefthigh" offset="-101,0" />
+					</label>
+				</sheetdata>
+			</windowclass>
+			<windowclass name="battletracker_commander" merge="join">
+				<margins control="22,0,0,5" />
+				<sheetdata>
+					<battletracker_unitlist>
+						<anchored>
+							<left offset="2" />
+						</anchored>
+					</battletracker_unitlist>
+				</sheetdata>
+			</windowclass>
 
 <!--Author: GKEnialb-->
 	<!--Ext: Token Height Indicators-->
