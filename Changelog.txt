@@ -17,6 +17,7 @@ Sir Motte
 [*]Reverted "emotefont" color to redish - supposed to be a warm theme, right?
 [*]Changed "narratorfont" color to better distinguish between chat types.
 [*]Changed "chatgmfont" color to better distinguish between chat types.
+[*]Altered chat frames to be clearer.
 [/LIST]
 
 [B]Changelog - Theme Elements - Extension Icons:[/B]
