@@ -175,11 +175,11 @@
 <!--Author: Ryan Hagelstrom-->
 	<!--Better Combat Effects Gold-->
 		<!--Icons-->
-				<icon name="BetterCombatEffectsGold" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"></icon>
-				<icon name="bce_save" file="graphics/extensions/ryan_hagelstrom/BCEG/bce_save.png"></icon>
+				<icon name="BetterCombatEffectsGold" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"/>
+				<icon name="bce_save" file="graphics/extensions/ryan_hagelstrom/BCEG/bce_save.png"/>
 		<!--Better Combat Effects-->
 			<!--Icons-->
-				<icon name="BetterCombatEffects" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"></icon>
+				<icon name="BetterCombatEffects" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"/>
 	<!--Arkane Ward-->
 		<!--Icons-->
 				<icon name="button_arcaneward" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small.png" />
@@ -200,10 +200,32 @@
 				<icon name="button_pactmagic_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down_no_slots.png" />
 				<icon name="button_pactmagic_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_off.png" />
 
-				<icon name="ArcaneWard" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWard.png"></icon>
+				<icon name="ArcaneWard" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWard.png" />
 		<!--Kent Height-->
 			<!--Icons-->
-				<icon name="KentHeight" file="graphics/extensions/ryan_hagelstrom/kent_height/kheight.png"></icon>
+				<icon name="KentHeight" file="graphics/extensions/ryan_hagelstrom/kent_height/kheight.png" />
+
+<!--Author: Kent McCullough-->
+			<!--Ext: Automatic Series-->
+				<!--Icon-->
+				<icon name="AutomaticPackTactics" file="graphics/extensions/kent_mccullough/Automatic_Pack_Tactics.png" />
+				<icon name="AutomaticCriticalDamage" file="graphics/extensions/kent_mccullough/Automatic_Critical_Damage.png" />
+				<icon name="AutomaticDeathResist" file="graphics/extensions/kent_mccullough/Automatic_Death_Resist.png" />
+				<icon name="AutomaticLingeringEffects" file="graphics/extensions/kent_mccullough/Automatic_Lingering_Effects.png" />
+				<icon name="AutomaticMirrorImage" file="graphics/extensions/kent_mccullough/Automatic_Mirror_Image.png" />
+				<icon name="AutomaticReturnDamage" file="graphics/extensions/kent_mccullough/Automatic_Return_Damage.png" />
+				<icon name="AutomaticSaveAdvantage" file="graphics/extensions/kent_mccullough/Automatic_Save_Advantage.png" />
+				<icon name="AutomaticShieldMaster" file="graphics/extensions/kent_mccullough/Automatic_Shield_Master.png" />
+				<icon name="AutomaticSneakAttack" file="graphics/extensions/kent_mccullough/Automatic_Sneak_Attack.png" />
+ 				<icon name="AutomaticSpellResistance" file="graphics/extensions/kent_mccullough/Automatic_Spell_Resistance.png" />
+		<!--Ext: Turn Based Effects-->
+			<!--Icon-->
+				<icon name="TurnBasedEffects" file ="graphics/extensions/kent_mccullough/TurnBasedEffects.png" />
+		<!--Ext: Ongoing Saves -->
+			<!--Icon-->
+				<icon name="OngoingSaveEffects" file="graphics/extensions/kent_mccullough/OngoingSaveEffects.png" />
+
+
 
 
 <!--Author: Silent Ruin-->
@@ -505,6 +527,8 @@
 			<icon name="pr6i6e6st_logo_miniRSG" file="graphics/extensions/troy_monteith/random_spellbook_generator/pr6i6e6st_logo_miniRSG.png" />
 	<!--Ext: Random Encounter Generator-->
 			<icon name="pr6i6e6st_logo_miniREG" file="graphics/extensions/troy_monteith/random_encounter_generator/pr6i6e6st_logo_miniREG.png" />
+	<!--Ext: NPC Maker-->
+			<icon name="pr6i6e6st_logo_miniNPCM" file="graphics/extensions/troy_monteith/npc_maker/pr6i6e6st_logo_miniNPCM.png" />
 
 <!--Author: pr6i6est (Troy Monteith) and bmos-->
 	<!--Ext: Clock Adjuster-->
@@ -659,6 +683,11 @@
 
 	<icon name="GKElogo" file="graphics/extensions/good_king_enialb/token_height_indicator/GKE_Logo.png" />
 
+	<!--Author: Kelrugem-->
+		<!--Ext: Advantage / Disadvantage-->
+			<!--Icons-->
+			<icon name="DeekinMightyBard" file="graphics/extensions/kelrugem/advantage_disadvantage/DeekinMightyBard.png" />
+
 <!--Author: Diablo Bob-->
 	<!--Ext: Portals Revamped-->
 		<!--Icons-->
@@ -680,6 +709,11 @@
 				<offset>50,50,45,45</offset>
 				<insideoffset>0,5,12,14</insideoffset>
 			</framedef>
+
+<!--Author: Anathemort-->
+	<!--Ext: Winnowing Pursuits-->
+		<!--Icons-->
+			<icon name="WP_tiny" file="graphics/extensions/anathemort/winnowing_pursuits/WP_tiny.png"/>
 
 <!--Author: Thomas Delaplain (Minty23185Fresh)-->
 	<!--Ext: Local Dice Tower-->
