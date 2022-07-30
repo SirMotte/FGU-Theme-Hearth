@@ -777,13 +777,17 @@
 			<icon name="tab_weather" file="graphics/extensions/mattekure/weather_generator/tab_weather.png" />
 	<!--Ext: Linker-->
 			<icon name="linker_button_icon_down" file="graphics/extensions/mattekure/linker/linker_button_down.png" />
-    		<icon name="linker_button_icon_up" file="graphics/extensions/mattekure/linker/linker_button_up.png" />
+    	<icon name="linker_button_icon_up" file="graphics/extensions/mattekure/linker/linker_button_up.png" />
+	<!--Ext: Who Speaks?-->
+			<icon name="icon_bubble" file="graphics/extensions/mattekure/who_speaks/icon-bubble.png" />
+			<icon name="icon-bubble-white" file="graphics/extensions/mattekure/who_speaks/icon-bubble-white.png" />
+			<icon name="Mattekure_Logo" file="graphics/extensions/mattekure/Mattekure_Logo.png" />
 
 <!--Author: Celestian-->
 	<!--Ext: Audio Overseer-->
  		<!--Buttons-->
 				<icon name="link_audio" file="graphics/extensions/celestian/audio_overseer/link_audio.png" />
-  				<icon name="link_audio_down" file="graphics/extensions/celestian/audio_overseer/link_audio_down.png" />
+  			<icon name="link_audio_down" file="graphics/extensions/celestian/audio_overseer/link_audio_down.png" />
   			<!--<icon name="footer_blank" file="graphics/extensions/celestian/audio_overseer/footer_blank.png" />-->
 	<!--Ext: Ready Check-->
  		<!--Icons-->
