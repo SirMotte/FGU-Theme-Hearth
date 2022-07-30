@@ -1,8 +1,8 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Version 2.9.4 - Breezy Kilt[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Version 2.9.5 - Stuck Ostrich[/B][/COLOR][/SIZE]
 
 [B]Anouncement:[/B]
 
-Small cosmetic update and support for more extensions and some fixes. I won't have time to work more on the theme during the weekend, so I wanted to put this one in the wild now.
+
 
 Enjoy!
 Sir Motte
@@ -14,14 +14,9 @@ Sir Motte
 
 [B]Changelog - Theme Elements:[/B]
 [LIST]
-[*]Changed Font Graphic for Chat, Emote, Story aso. when typing in the chat.
-[*]Fixed Default Sidebar Icon (D20) xml definition.
-[*]Fixed CT sidebar icon xml definition.
-[*]Fixed Party Sheet sidebar xml defintition.
-[*]Adjusted "icon_window_close" + "icon_window_close_remote" (radial menu) colors to fit recent changes
-[*]Changed "emotefont" chat color to lavender.
-[*]Changed "chatgmfont" to bright orange.
-[*]
+[*]Reverted "emotefont" color to redish - supposed to be a warm theme, right?
+[*]Changed "narratorfont" color to better distinguish between chat types.
+[*]Changed "chatgmfont" color to better distinguish between chat types.
 [/LIST]
 
 [B]Changelog - Theme Elements - Extension Icons:[/B]
@@ -30,11 +25,9 @@ Explanation: Depending on the number of extensions you use, things get pretty wi
 This calms down the chaos and gives me the opportunity to better embed other authors extension icons, without changing them altogether. Purely Cosmetic Madness.
 
 [LIST]
-[*]Arcane Ward by Ryan Hagelstrom
-[*]Trigger Me Timbers by MeAndUnique
-[*]Better Combat Effects
-[*]Kent Height (hidden in vault) by Ryan Hagelstrom
-[*]Player Agency by Damned
+[*]Most Troy Monteith Extensions
+[*]Advantage / Disadvantage by Kelrugem
+[*]Icons for Kent McCulloughs Automatic Series, Turn Based Effects and Ongoing Save Effects.
 [/LIST]
 
 [B]Changelog - DnD 5E Ruleset:[/B]
@@ -44,15 +37,14 @@ This calms down the chaos and gives me the opportunity to better embed other aut
 
 [B]Added Extension Support:[/B]
 [LIST]
-[*]Arcane Ward by Ryan Hagelstrom
-[*]Trigger Me Timbers by MeAndUnique
+[*]
 [/LIST]
 
 [B]Supported Extension changes:[/B]
 [LIST]
 [*]Updated support for Agency by Damned
-[*]
-[*]
+[*]Kingdom & Warfare Battle tracker support brought to you by MeAndUnique.
+[*]Changed Legendary Assistant's (by Stv) CT outline to be solid instead of dashes.
 [*]
 [*]
 [*]

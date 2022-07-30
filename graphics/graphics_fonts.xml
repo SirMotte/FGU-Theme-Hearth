@@ -71,12 +71,12 @@
 	<font name="emotefont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#C292FF" /> <!-- Replaceable Color: Chat Font 1 -->
+		<color value="#FFB0B0" /> <!-- Replaceable Color: Chat Font 1 -->
 	</font>
 	<font name="narratorfont">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="16" />
-		<color value="#F5E4A1" /> <!-- Replaceable Color: Chat Font 2 -->
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Chat Font 2 -->
 	</font>
 	<font name="systemfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
@@ -103,7 +103,7 @@
 	<font name="chatgmfont">
 		<fgffile name="graphics/fonts/bolditalic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
-		<color value="#FFD3AA" /> <!-- Replaceable Color: Chat Font 6 -->
+		<color value="#8BFF97" /> <!-- Replaceable Color: Chat Font 6 -->
 	</font>
 	<font name="whisperfont">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
