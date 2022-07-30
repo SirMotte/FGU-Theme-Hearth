@@ -2,7 +2,7 @@
 
 [B]Anouncement:[/B]
 
-
+Another Extension, Sidebar and Cosmetics Update. No major changes.
 
 Enjoy!
 Sir Motte
@@ -30,11 +30,10 @@ This calms down the chaos and gives me the opportunity to better embed other aut
 [*]Advantage / Disadvantage by Kelrugem
 [*]Icons for Kent McCulloughs Automatic Series, Turn Based Effects and Ongoing Save Effects.
 [*]Mattekures Logo
-[/LIST]
-
-[B]Changelog - DnD 5E Ruleset:[/B]
-[LIST]
-[*]
+[*]Exhausted by Ryan Hagelstrom
+[*]Effective Initiative by Ryan Hagelstrom
+[*]Effective NPC by Ryan Hagelstrom
+[*]Stealth Tracker by Justin Freitas
 [/LIST]
 
 [B]Added Extension Support:[/B]
@@ -49,23 +48,8 @@ This calms down the chaos and gives me the opportunity to better embed other aut
 [*]Kingdom & Warfare Battle tracker support brought to you by MeAndUnique.
 [*]Changed Legendary Assistant's (by Stv) CT outline to be solid instead of dashes.
 [*]Arcane Ward by Ryan Hagelstrom - Ryan was so kind to add an extra icon defintions to his extension. Now I can appease my obsessive-compulsive-disorder to not have truncated icons anywhere. Now, when casting using his extension the chat still looks fine. NICE!
+[*]Exchanged all MeAndUnique Extension Announcement Icons with High Rez versions. Results in minor quality improvement within FGU. that you wouldn't notice ever (￣へ￣）.
 [*]
 [*]
-[*]
-[*]
-[/LIST]
-
-[B]Changelog D&D 4E Ruleset[/B]
-[LIST]
-[*]none
-[/LIST]
-
-[B]Under the Hood[/B]
-[LIST]
-[*]
-[/LIST]
-
-[COLOR="#FF0000"][B]Known Issue(s):[/B][/COLOR]
-[LIST]
 [*]
 [/LIST]

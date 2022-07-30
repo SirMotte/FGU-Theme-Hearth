@@ -205,6 +205,20 @@
 		<!--Kent Height-->
 			<!--Icons-->
 				<icon name="KentHeight" file="graphics/extensions/ryan_hagelstrom/kent_height/kheight.png" />
+		<!--Effective Initative-->
+				<!--Icons-->
+				<icon name="EffectiveInitiative" file="graphics/extensions/ryan_hagelstrom/effective_initiative/effectiveinitiative.png" />
+		<!--Effective NPC-->
+				<!--Icons-->
+				<icon name="EffectiveNPC" file="graphics/extensions/ryan_hagelstrom/effective_npc/Effective-NPC.png" />
+		<!--Exhausted-->
+				<!--Icons-->
+				<icon name="Exhausted" file="graphics/extensions/ryan_hagelstrom/exhausted/exhausted.png" />
+
+<!--Author: Justin Freitas-->
+		<!--Ext: Automatic Series-->
+				<!--Icon-->
+				<icon name="stealth_icon" file="graphics/extensions/justin_freitas/stealth_tracker/stealth_icon.png" />
 
 <!--Author: Kent McCullough-->
 			<!--Ext: Automatic Series-->
@@ -225,9 +239,6 @@
 		<!--Ext: Ongoing Saves -->
 			<!--Icon-->
 				<icon name="OngoingSaveEffects" file="graphics/extensions/kent_mccullough/OngoingSaveEffects.png" />
-
-
-
 
 <!--Author: Silent Ruin-->
 	<!--Ext: Polymorphism-->
