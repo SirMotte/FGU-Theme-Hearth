@@ -2,7 +2,7 @@
 
 [B]Anouncement:[/B]
 
-Extension Update with the sole purpose to get the theme up to date to possible changes over the past year that need addressing.
+Small cosmetic update and support for more extensions and some fixes. I won't have time to work more on the theme during the weekend, so I wanted to put this one in the wild now.
 
 Enjoy!
 Sir Motte
@@ -50,7 +50,7 @@ This calms down the chaos and gives me the opportunity to better embed other aut
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]
+[*]Updated support for Agency by Damned
 [*]
 [*]
 [*]
