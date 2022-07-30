@@ -50,7 +50,7 @@ This calms down the chaos and gives me the opportunity to better embed other aut
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]Added Sidebar entries to Player Agency by Damned
+[*]
 [*]
 [*]
 [*]
