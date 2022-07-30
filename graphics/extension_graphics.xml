@@ -528,39 +528,39 @@
 <!--Author: Saagael-->
 	<!--Ext: Unofficial Kingdoms and Warfare Extension-->
 		<!--Icons-->
-			<icon name="button_kw_tokens" file="graphics/extensions/saagael/kingdoms_and_warfare/button_kw_tokens.png" /> 
-  			<icon name="button_kw_tokens_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_kw_tokens_down.png" /> 
-  			<icon name="button_banner" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner.png" /> 
-  			<icon name="button_banner_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner_down.png" /> 
-			<icon name="rally" file="graphics/extensions/saagael/kingdoms_and_warfare/rally.png" /> 
+			<icon name="button_kw_tokens" file="graphics/extensions/saagael/kingdoms_and_warfare/button_kw_tokens.png" />
+  			<icon name="button_kw_tokens_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_kw_tokens_down.png" />
+  			<icon name="button_banner" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner.png" />
+  			<icon name="button_banner_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner_down.png" />
+			<icon name="rally" file="graphics/extensions/saagael/kingdoms_and_warfare/rally.png" />
 - 		<!--Roll icons--> 
-			<icon name="roll_harrow" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_harrow.png" /> 
-			<icon name="roll_rally" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_rally.png" /> 
-		<!--token icons--> 
-			<icon name="cond_disoriented" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_disoriented.png" /> 
-			<icon name="cond_disorganized" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_disorganized.png" /> 
-			<icon name="cond_harrowed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_harrowed.png" /> 
-			<icon name="cond_misled" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_misled.png" /> 
-			<icon name="cond_rallied" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_rallied.png" /> 
-			<icon name="cond_weakened" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_weakened.png" /> 
-			<icon name="cond_harrowpassed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_harrowingpassed.png" /> 
-			<icon name="cond_broken" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_broken.png" /> 
-			<icon name="state_activated" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_activated.png" /> 
-			<icon name="state_reacted" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_reaction.png" /> 
-			<icon name="state_exposed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_exposed.png" /> 
-			<icon name="token_acid" file="graphics/extensions/saagael/kingdoms_and_warfare/token_acid.png" /> 
-			<icon name="token_bleed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_bleed.png" /> 
-			<icon name="token_fire" file="graphics/extensions/saagael/kingdoms_and_warfare/token_fire.png" /> 
-			<icon name="token_poison" file="graphics/extensions/saagael/kingdoms_and_warfare/token_poison.png" /> 
-		- <!--Tabs--> 
-			<icon name="tab_domain" file="graphics/extensions/saagael/kingdoms_and_warfare/tab_domain.png" /> 
-			<icon name="tab_powerpool" file="graphics/extensions/saagael/kingdoms_and_warfare/tab_powerpool.png" /> 
-		- <!--Image--> 
-			<icon name="icon_rank_bottom" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_bottom_30.png" /> 
-			<icon name="icon_rank_left" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_left_30.png" /> 
-			<icon name="icon_rank_right" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_right_30.png" /> 
-			<icon name="icon_rank_top" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_top_30.png" /> 
-			<icon name="icon_warfare" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_warfare_30.png" /> 
+			<icon name="roll_harrow" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_harrow.png" />
+			<icon name="roll_rally" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_rally.png" />
+		<!--token icons-->
+			<icon name="cond_disoriented" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_disoriented.png" />
+			<icon name="cond_disorganized" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_disorganized.png" />
+			<icon name="cond_harrowed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_harrowed.png" />
+			<icon name="cond_misled" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_misled.png" />
+			<icon name="cond_rallied" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_rallied.png" />
+			<icon name="cond_weakened" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_weakened.png" />
+			<icon name="cond_harrowpassed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_harrowingpassed.png" />
+			<icon name="cond_broken" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_broken.png" />
+			<icon name="state_activated" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_activated.png" />
+			<icon name="state_reacted" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_reaction.png" />
+			<icon name="state_exposed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_exposed.png" />
+			<icon name="token_acid" file="graphics/extensions/saagael/kingdoms_and_warfare/token_acid.png" />
+			<icon name="token_bleed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_bleed.png" />
+			<icon name="token_fire" file="graphics/extensions/saagael/kingdoms_and_warfare/token_fire.png" />
+			<icon name="token_poison" file="graphics/extensions/saagael/kingdoms_and_warfare/token_poison.png" />
+		- <!--Tabs-->
+			<icon name="tab_domain" file="graphics/extensions/saagael/kingdoms_and_warfare/tab_domain.png" />
+			<icon name="tab_powerpool" file="graphics/extensions/saagael/kingdoms_and_warfare/tab_powerpool.png" />
+		- <!--Image-->
+			<icon name="icon_rank_bottom" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_bottom_30.png" />
+			<icon name="icon_rank_left" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_left_30.png" />
+			<icon name="icon_rank_right" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_right_30.png" />
+			<icon name="icon_rank_top" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_top_30.png" />
+			<icon name="icon_warfare" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_warfare_30.png" />
 		<!-- Battle Tracker -->
 			<windowclass name="combattracker_host" merge="join">
 				<sheetdata>
