@@ -20,7 +20,7 @@ Sir Motte
 [*]Fixed Party Sheet sidebar xml defintition.
 [*]Adjusted "icon_window_close" + "icon_window_close_remote" (radial menu) colors to fit recent changes
 [*]Changed "emotefont" chat color to lavender.
-[*]
+[*]Changed "chatgmfont" to bright orange.
 [*]
 [/LIST]
 
