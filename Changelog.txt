@@ -40,6 +40,7 @@ This calms down the chaos and gives me the opportunity to better embed other aut
 [B]Added Extension Support:[/B]
 [LIST]
 [*]Who Speaks by Mattekure
+[*]CSV Table Importer by Mattekure
 [/LIST]
 
 [B]Supported Extension changes:[/B]
