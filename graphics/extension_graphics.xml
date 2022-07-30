@@ -121,14 +121,22 @@
 			<icon name="chat_place" file="graphics/extensions/damned/player_agency/chat_place.png" />
 			<icon name="chat_religion" file="graphics/extensions/damned/player_agency/chat_religion.png" />
 			<icon name="chat_group" file="graphics/extensions/damned/player_agency/chat_group.png" />
+			<!--Sidebar-->
+			<icon name="button_world" file="graphics/extensions/damned/player_agency/button_world.png" />
+			<icon name="button_investigator" file="graphics/extensions/damned/player_agency/button_investigator.png" />
+			<!--Icon-->
+			<icon name="playeragency" file="graphics/extensions/damned/player_agency/imlogo.png" />
 	<!--Ext: Sharing is Caring-->
 		<!--Frame-->
 			<framedef name="chatframe_spell">
 				<bitmap file="graphics/extensions/damned/sharing_is_caring/chatframe_spell.png" />
   				<offset>40,40,40,40</offset>
 			</framedef>
-			<!--Chat-->
-				<icon name="button_chat" file="graphics/extensions/damned/sharing_is_caring/chat.png" />
+		<!--Chat-->
+			<icon name="button_chat" file="graphics/extensions/damned/sharing_is_caring/chat.png" />
+		<!--Icon-->
+			<icon name="sharingiscaring" file="graphics/extensions/damned/player_agency/imlogo.png" />
+
 	<!--Ext: Halt!-->
 		<!--Icons-->
 			<icon name="button_stop" file="graphics/extensions/damned/halt/stop.png" />
@@ -169,6 +177,34 @@
 		<!--Icons-->
 				<icon name="BetterCombatEffectsGold" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"></icon>
 				<icon name="bce_save" file="graphics/extensions/ryan_hagelstrom/BCEG/bce_save.png"></icon>
+		<!--Better Combat Effects-->
+			<!--Icons-->
+				<icon name="BetterCombatEffects" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"></icon>
+	<!--Arkane Ward-->
+		<!--Icons-->
+				<icon name="button_arcaneward" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small.png" />
+				<icon name="button_arcaneward_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_down.png" />
+				<icon name="button_arcaneward_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_no_slots.png" />
+				<icon name="button_arcaneward_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_down_no_slots.png" />
+				<icon name="button_arcaneward_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_off.png" />
+
+				<icon name="button_cast_spell" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small.png" />
+				<icon name="button_cast_spell_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_down.png" />
+				<icon name="button_cast_spell_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_no_slots.png" />
+				<icon name="button_cast_spell_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_down_no_slots.png" />
+				<icon name="button_cast_spell_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_off.png" />
+
+				<icon name="button_pactmagic" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small.png" />
+				<icon name="button_pactmagic_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down.png" />
+				<icon name="button_pactmagic_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_no_slots.png" />
+				<icon name="button_pactmagic_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down_no_slots.png" />
+				<icon name="button_pactmagic_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_off.png" />
+
+				<icon name="ArcaneWard" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWard.png"></icon>
+		<!--Kent Height-->
+			<!--Icons-->
+				<icon name="KentHeight" file="graphics/extensions/ryan_hagelstrom/kent_height/kheight.png"></icon>
+
 
 <!--Author: Silent Ruin-->
 	<!--Ext: Polymorphism-->
@@ -453,6 +489,11 @@
 	<!-- Ext: Temporal Fixation -->
 		<!-- Icons -->
 			<icon name="TemporalFixation" file="graphics/extensions/meandunique/temporal_fixation/TemporalFixation.png" />
+	<!--Ext: Trigger me Timbers-->
+			<icon name="TriggerMeTimbers" file="graphics/extensions/meandunique/trigger_me_timbers/TriggerMeTimbers.png" />
+			<icon name="sidebar_icon_recordtype_trigger" file="graphics/extensions/meandunique/trigger_me_timbers/trigger.png" />
+			<icon name="active_trigger" file="graphics/extensions/meandunique/trigger_me_timbers/lightning.png" />
+
 <!--Author: pr6i6est (Troy Monteith)-->
 	<!--Ext: NPC Random Treasure Drops-->
 			<icon name="conditions_tab" file="graphics/extensions/troy_monteith/npc_random_treasure_drops/conditions_tab.png" />
@@ -462,7 +503,8 @@
 			<icon name="pr6i6e6st_logo_miniARL" file="graphics/extensions/troy_monteith/automatic_record_links/pr6i6e6st_logo_miniARL.png" />
 	<!--Ext: Random Spellbook Generator-->
 			<icon name="pr6i6e6st_logo_miniRSG" file="graphics/extensions/troy_monteith/random_spellbook_generator/pr6i6e6st_logo_miniRSG.png" />
-
+	<!--Ext: Random Encounter Generator-->
+			<icon name="pr6i6e6st_logo_miniREG" file="graphics/extensions/troy_monteith/random_encounter_generator/pr6i6e6st_logo_miniREG.png" />
 
 <!--Author: pr6i6est (Troy Monteith) and bmos-->
 	<!--Ext: Clock Adjuster-->
