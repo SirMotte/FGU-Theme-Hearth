@@ -55,6 +55,10 @@ function onInit()
 	if not Bartender then
 		Interface.onHotkeyDrop = onHotkeyDrop;
 	end
+
+	if ColorManagerKw then
+		ColorManagerKw.COLOR_UNIT_SELECTION = "322C27" -- Replaceable Color: Unit Selection
+	end
 end
 
 function onHotkeyDrop(dragdata)
