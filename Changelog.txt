@@ -14,7 +14,7 @@ Sir Motte
 
 [B]Changelog - Theme Elements:[/B]
 [LIST]
-[*]Reverted "emotefont" color to redish - supposed to be a warm theme, right?
+[*]Changed "emotefont" color to redish again - supposed to be a warm theme, right?
 [*]Changed "narratorfont" color to better distinguish between chat types.
 [*]Changed "chatgmfont" color to better distinguish between chat types.
 [*]Altered chat frames to be clearer.
@@ -43,7 +43,7 @@ This calms down the chaos and gives me the opportunity to better embed other aut
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]Updated support for Agency by Damned
+[*]Updated support for Player Agency by Damned
 [*]Kingdom & Warfare Battle tracker support brought to you by MeAndUnique.
 [*]Changed Legendary Assistant's (by Stv) CT outline to be solid instead of dashes.
 [*]
