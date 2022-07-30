@@ -46,7 +46,7 @@ This calms down the chaos and gives me the opportunity to better embed other aut
 [*]Updated support for Player Agency by Damned
 [*]Kingdom & Warfare Battle tracker support brought to you by MeAndUnique.
 [*]Changed Legendary Assistant's (by Stv) CT outline to be solid instead of dashes.
-[*]
+[*]Arcane Ward by Ryan Hagelstrom - Ryan was so kind to add an extra icon defintions to his extension. Now I can appease my obsessive-compulsive-disorder to not have truncated icons anywhere. Now, when casting using his extension the chat still looks fine. NICE!
 [*]
 [*]
 [*]

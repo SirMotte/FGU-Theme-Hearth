@@ -201,6 +201,7 @@
 				<icon name="button_pactmagic_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_off.png" />
 
 				<icon name="ArcaneWard" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWard.png" />
+				<icon name="ArcaneWardCast" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWardCast.png" />
 		<!--Kent Height-->
 			<!--Icons-->
 				<icon name="KentHeight" file="graphics/extensions/ryan_hagelstrom/kent_height/kheight.png" />
