@@ -533,7 +533,7 @@
   			<icon name="button_banner" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner.png" />
   			<icon name="button_banner_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner_down.png" />
 			<icon name="rally" file="graphics/extensions/saagael/kingdoms_and_warfare/rally.png" />
-- 		<!--Roll icons--> 
+- 		<!--Roll icons-->
 			<icon name="roll_harrow" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_harrow.png" />
 			<icon name="roll_rally" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_rally.png" />
 		<!--token icons-->
