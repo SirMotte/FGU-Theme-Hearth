@@ -214,6 +214,10 @@
 		<!--Exhausted-->
 				<!--Icons-->
 				<icon name="Exhausted" file="graphics/extensions/ryan_hagelstrom/exhausted/exhausted.png" />
+		<!--Power Up-->
+				<!--Icons-->
+				<icon name="PowerUp" file="graphics/extensions/ryan_hagelstrom/power_up/PowerUp.png" />
+				<icon name="PowerUpChat" file="graphics/extensions/ryan_hagelstrom/power_up/PowerUpChat.png" />
 
 <!--Author: Justin Freitas-->
 		<!--Ext: Automatic Series-->
