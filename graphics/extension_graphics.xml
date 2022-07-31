@@ -175,11 +175,11 @@
 <!--Author: Ryan Hagelstrom-->
 	<!--Better Combat Effects Gold-->
 		<!--Icons-->
-				<icon name="BetterCombatEffectsGold" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"></icon>
-				<icon name="bce_save" file="graphics/extensions/ryan_hagelstrom/BCEG/bce_save.png"></icon>
+				<icon name="BetterCombatEffectsGold" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"/>
+				<icon name="bce_save" file="graphics/extensions/ryan_hagelstrom/BCEG/bce_save.png"/>
 		<!--Better Combat Effects-->
 			<!--Icons-->
-				<icon name="BetterCombatEffects" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"></icon>
+				<icon name="BetterCombatEffects" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"/>
 	<!--Arkane Ward-->
 		<!--Icons-->
 				<icon name="button_arcaneward" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small.png" />
@@ -200,11 +200,45 @@
 				<icon name="button_pactmagic_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down_no_slots.png" />
 				<icon name="button_pactmagic_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_off.png" />
 
-				<icon name="ArcaneWard" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWard.png"></icon>
+				<icon name="ArcaneWard" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWard.png" />
+				<icon name="ArcaneWardCast" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWardCast.png" />
 		<!--Kent Height-->
 			<!--Icons-->
-				<icon name="KentHeight" file="graphics/extensions/ryan_hagelstrom/kent_height/kheight.png"></icon>
+				<icon name="KentHeight" file="graphics/extensions/ryan_hagelstrom/kent_height/kheight.png" />
+		<!--Effective Initative-->
+				<!--Icons-->
+				<icon name="EffectiveInitiative" file="graphics/extensions/ryan_hagelstrom/effective_initiative/effectiveinitiative.png" />
+		<!--Effective NPC-->
+				<!--Icons-->
+				<icon name="EffectiveNPC" file="graphics/extensions/ryan_hagelstrom/effective_npc/Effective-NPC.png" />
+		<!--Exhausted-->
+				<!--Icons-->
+				<icon name="Exhausted" file="graphics/extensions/ryan_hagelstrom/exhausted/exhausted.png" />
 
+<!--Author: Justin Freitas-->
+		<!--Ext: Automatic Series-->
+				<!--Icon-->
+				<icon name="stealth_icon" file="graphics/extensions/justin_freitas/stealth_tracker/stealth_icon.png" />
+
+<!--Author: Kent McCullough-->
+			<!--Ext: Automatic Series-->
+				<!--Icon-->
+				<icon name="AutomaticPackTactics" file="graphics/extensions/kent_mccullough/Automatic_Pack_Tactics.png" />
+				<icon name="AutomaticCriticalDamage" file="graphics/extensions/kent_mccullough/Automatic_Critical_Damage.png" />
+				<icon name="AutomaticDeathResist" file="graphics/extensions/kent_mccullough/Automatic_Death_Resist.png" />
+				<icon name="AutomaticLingeringEffects" file="graphics/extensions/kent_mccullough/Automatic_Lingering_Effects.png" />
+				<icon name="AutomaticMirrorImage" file="graphics/extensions/kent_mccullough/Automatic_Mirror_Image.png" />
+				<icon name="AutomaticReturnDamage" file="graphics/extensions/kent_mccullough/Automatic_Return_Damage.png" />
+				<icon name="AutomaticSaveAdvantage" file="graphics/extensions/kent_mccullough/Automatic_Save_Advantage.png" />
+				<icon name="AutomaticShieldMaster" file="graphics/extensions/kent_mccullough/Automatic_Shield_Master.png" />
+				<icon name="AutomaticSneakAttack" file="graphics/extensions/kent_mccullough/Automatic_Sneak_Attack.png" />
+ 				<icon name="AutomaticSpellResistance" file="graphics/extensions/kent_mccullough/Automatic_Spell_Resistance.png" />
+		<!--Ext: Turn Based Effects-->
+			<!--Icon-->
+				<icon name="TurnBasedEffects" file ="graphics/extensions/kent_mccullough/TurnBasedEffects.png" />
+		<!--Ext: Ongoing Saves -->
+			<!--Icon-->
+				<icon name="OngoingSaveEffects" file="graphics/extensions/kent_mccullough/OngoingSaveEffects.png" />
 
 <!--Author: Silent Ruin-->
 	<!--Ext: Polymorphism-->
@@ -270,11 +304,19 @@
   			<icon name="blood_09" file="graphics/extensions/silent_ruin/death_indicator/blood_09.png" />
   			<icon name="blood_10" file="graphics/extensions/silent_ruin/death_indicator/blood_10.png" />
   			<icon name="stable_01" file="graphics/extensions/silent_ruin/death_indicator/stable_01.png" /> -->
+	<!--Ext: Advantages-->
+		<!--Icons-->
+		<icon name="advantages_icon" file="graphics/extensions/silent_ruin/advantages/advantages_icon.png" />
+
+<!--Author: Xelab and JHarp -->
+	<!--Ext: Instant Dice-->
+		<!--Icons-->
+		<!-- <icon name="d20_icon_30" file="graphics/icons/d20_icon_30.png" /> --> <!-- Needs to be made unique -->
 
 <!--Author: Theogeek-->
 	<!--Ext: Improved Critical + Natural 20-->
 		<!--Icons-->
-			<icon name="splash_icon" file="graphics/extensions/theogeek/improved_critical/Brutal Barbarian_(v4)_60x60.png" />
+		<icon name="splash_icon" file="graphics/extensions/theogeek/improved_critical/Brutal Barbarian_(v4)_60x60.png" />
 
 <!--Author: Trenloe -->
 	<!--Ext: Basic Card Tables-->
@@ -285,16 +327,16 @@
 	<!--Ext: CoreRPG Combat Highlighter-->
 		<!--Frames-->
   		<framedef name="ctentrybox_highlight">
-  			<bitmap file="graphics\extensions\daddy_ogreman\combat_highlighter\ctentrybox_highlight.png" />
+  			<bitmap file="graphics/extensions/daddy_ogreman/combat_highlighter/ctentrybox_highlight.png" />
   			<offset>37,16,14,17</offset>
   		</framedef>
 - 		<framedef name="ctentrybox_inactive">
-  			<bitmap file="graphics\extensions\daddy_ogreman\combat_highlighter\ctentrybox_inactive.png" />
+  			<bitmap file="graphics/extensions/daddy_ogreman/combat_highlighter/ctentrybox_inactive.png" />
   			<offset>37,16,14,17</offset>
   		</framedef>
 
 		<!--Icons-->
-			<icon name="ogremandude" file="graphics\extensions\daddy_ogreman\combat_highlighter\OgreManDude-small.png" />
+			<icon name="ogremandude" file="graphics/extensions/daddy_ogreman/combat_highlighter/OgreManDude-small.png" />
 
 <!--Author: Houndy-->
 	<!--Ext: RFIA - Roll for Initiative Addon-->
@@ -313,6 +355,17 @@
   				<bitmap file="graphics/extensions/houndy/RFIA/buttonhover.png" />
   				<offset>11,16,15,16</offset>
   			</framedef>
+
+<!--Author: berwind -->
+		<!--Ext: CT Scroll-->
+				<!--Icons-->
+				<icon name="IFN" file="graphics/extensions/berwind/untrue_effects/ifn_small.png" />
+
+<!--Author: fxg42 -->
+		<!--Ext: CT Scroll-->
+				<!--Icons-->
+				<icon name="raven" file="graphics/extensions/fxg42/raven-circ-30x30.png" />
+
 
 <!--Author: Mad Nomad-->
 	<!--Ext: Character Sheet Tweaks/Journal/Effects/Coin Manager Display-->
@@ -446,7 +499,7 @@
 					</stringcontrol>
 				</sheetdata>
 			</windowclass>
-
+			<!-- Icon -->
 			<icon name="ColorfulLanguage" file="graphics/extensions/meandunique/colorful_language/ColorfulLanguage.png" />
 <!--Ext: Constitutional Amendments-->
 		<!-- Source: desktop/record_char_main.xml -->
@@ -493,6 +546,8 @@
 			<icon name="TriggerMeTimbers" file="graphics/extensions/meandunique/trigger_me_timbers/TriggerMeTimbers.png" />
 			<icon name="sidebar_icon_recordtype_trigger" file="graphics/extensions/meandunique/trigger_me_timbers/trigger.png" />
 			<icon name="active_trigger" file="graphics/extensions/meandunique/trigger_me_timbers/lightning.png" />
+	<!--Ext: Capital Gains-->
+			<icon name="CapitalGains" file="graphics/extensions/meandunique/capital_gains/CapitalGains.png" />
 
 <!--Author: pr6i6est (Troy Monteith)-->
 	<!--Ext: NPC Random Treasure Drops-->
@@ -505,6 +560,8 @@
 			<icon name="pr6i6e6st_logo_miniRSG" file="graphics/extensions/troy_monteith/random_spellbook_generator/pr6i6e6st_logo_miniRSG.png" />
 	<!--Ext: Random Encounter Generator-->
 			<icon name="pr6i6e6st_logo_miniREG" file="graphics/extensions/troy_monteith/random_encounter_generator/pr6i6e6st_logo_miniREG.png" />
+	<!--Ext: NPC Maker-->
+			<icon name="pr6i6e6st_logo_miniNPCM" file="graphics/extensions/troy_monteith/npc_maker/pr6i6e6st_logo_miniNPCM.png" />
 
 <!--Author: pr6i6est (Troy Monteith) and bmos-->
 	<!--Ext: Clock Adjuster-->
@@ -524,6 +581,10 @@
   			<icon name="reminder_button" file="graphics/extensions/troy_monteith/clock_adjuster/reminder.png" />
   			<icon name="reminder_button_down" file="graphics/extensions/troy_monteith/clock_adjuster/reminder_down.png" />
 
+<!--Author: Kent McCullough and bmos-->
+		<!--Ext: Aura Effects-->
+				<!--Icons-->
+				<icon name="aura_icon" file="graphics/extensions/bmos/aura_effects/aura_icon.png" />
 
 <!--Author: Saagael-->
 	<!--Ext: Unofficial Kingdoms and Warfare Extension-->
@@ -561,7 +622,92 @@
 			<icon name="icon_rank_right" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_right_30.png" />
 			<icon name="icon_rank_top" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_top_30.png" />
 			<icon name="icon_warfare" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_warfare_30.png" />
+		<!-- Battle Tracker -->
+			<windowclass name="combattracker_host" merge="join">
+				<sheetdata>
+					<buttoncontrol name="button_show_battle">
+						<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
+					</buttoncontrol>
+				</sheetdata>
+			</windowclass>
+			<windowclass name="combattracker_client" merge="join">
+				<sheetdata>
+					<buttoncontrol name="button_show_battle">
+						<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
+					</buttoncontrol>
+				</sheetdata>
+			</windowclass>
+			<windowclass name="battletracker" merge="join">
+				<sheetdata>
+					<genericcontrol name="leftanchor">
+						<anchored>
+							<left anchor="left" offset="15" />
+						</anchored>
+					</genericcontrol>
+					<genericcontrol name="rightanchor">
+						<anchored>
+							<right anchor="right" offset="-20" />
+						</anchored>
+					</genericcontrol>
 
+					<windowlist name="list">
+						<anchored>
+							<left parent="topanchor" anchor="right" offset="-10" />
+						</anchored>
+					</windowlist>
+					<subwindow name="uncommanded_units">
+						<anchored>
+							<left parent="topanchor" anchor="right" offset="16" />
+							<right parent="rightanchor" anchor="left" offset="-1" />
+						</anchored>
+					</subwindow>
+
+					<battletracker_morale name="morale_neutral">
+						<stateframe>
+							<keyedit name="fieldfocus" offset="7,5,6,7" />
+							<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+							<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+						</stateframe>
+					</battletracker_morale>
+					<battletracker_morale name="morale_foe">
+						<stateframe>
+							<keyedit name="fieldfocus" offset="7,5,6,7" />
+							<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+							<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+						</stateframe>
+					</battletracker_morale>
+					<battletracker_morale name="morale_friend">
+						<stateframe>
+							<keyedit name="fieldfocus" offset="7,5,6,7" />
+							<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+							<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+						</stateframe>
+					</battletracker_morale>
+				</sheetdata>
+			</windowclass>
+			<windowclass name="battletracker_unitsummary" merge="join">
+				<sheetdata>
+					<number_ct name="size" source="casualties">
+						<anchored to="size_label" position="righthigh" offset="17,0" />
+					</number_ct>
+					<label name="casualties_label">
+						<anchored to="size_label" position="lefthigh" offset="-101,0" />
+					</label>
+				</sheetdata>
+			</windowclass>
+			<windowclass name="battletracker_commander" merge="join">
+				<margins control="22,0,0,5" />
+				<sheetdata>
+					<battletracker_unitlist>
+						<anchored>
+							<left offset="2" />
+						</anchored>
+					</battletracker_unitlist>
+				</sheetdata>
+			</windowclass>
+	<!--Ext: Close Encounters-->
+			<!--Icon-->
+			<icon name="CloseEncounters" file="graphics/extensions/saagael/close_encounters/CloseEncounters.png" />
 
 <!--Author: GKEnialb-->
 	<!--Ext: Token Height Indicators-->
@@ -576,6 +722,11 @@
 	</font>
 
 	<icon name="GKElogo" file="graphics/extensions/good_king_enialb/token_height_indicator/GKE_Logo.png" />
+
+	<!--Author: Kelrugem-->
+		<!--Ext: Advantage / Disadvantage-->
+			<!--Icons-->
+			<icon name="DeekinMightyBard" file="graphics/extensions/kelrugem/advantage_disadvantage/DeekinMightyBard.png" />
 
 <!--Author: Diablo Bob-->
 	<!--Ext: Portals Revamped-->
@@ -598,6 +749,11 @@
 				<offset>50,50,45,45</offset>
 				<insideoffset>0,5,12,14</insideoffset>
 			</framedef>
+
+<!--Author: Anathemort-->
+	<!--Ext: Winnowing Pursuits-->
+		<!--Icons-->
+			<icon name="WP_tiny" file="graphics/extensions/anathemort/winnowing_pursuits/WP_tiny.png"/>
 
 <!--Author: Thomas Delaplain (Minty23185Fresh)-->
 	<!--Ext: Local Dice Tower-->
@@ -660,18 +816,27 @@
 			<icon name="tab_weather" file="graphics/extensions/mattekure/weather_generator/tab_weather.png" />
 	<!--Ext: Linker-->
 			<icon name="linker_button_icon_down" file="graphics/extensions/mattekure/linker/linker_button_down.png" />
-    		<icon name="linker_button_icon_up" file="graphics/extensions/mattekure/linker/linker_button_up.png" />
+    	<icon name="linker_button_icon_up" file="graphics/extensions/mattekure/linker/linker_button_up.png" />
+	<!--Ext: Who Speaks?-->
+			<icon name="icon_bubble" file="graphics/extensions/mattekure/who_speaks/icon-bubble.png" />
+			<icon name="icon-bubble-white" file="graphics/extensions/mattekure/who_speaks/icon-bubble-white.png" />
+			<icon name="Mattekure_Logo" file="graphics/extensions/mattekure/Mattekure_Logo.png" />
+	<!--Ext: CSV Table Importer-->
+			 <icon name="csv_button" file="graphics/extensions/mattekure/csv_table_importer/csv_button.png" />
 
 <!--Author: Celestian-->
 	<!--Ext: Audio Overseer-->
  		<!--Buttons-->
 				<icon name="link_audio" file="graphics/extensions/celestian/audio_overseer/link_audio.png" />
-  				<icon name="link_audio_down" file="graphics/extensions/celestian/audio_overseer/link_audio_down.png" />
+  			<icon name="link_audio_down" file="graphics/extensions/celestian/audio_overseer/link_audio_down.png" />
   			<!--<icon name="footer_blank" file="graphics/extensions/celestian/audio_overseer/footer_blank.png" />-->
 	<!--Ext: Ready Check-->
  		<!--Icons-->
 			   	<icon name="chat_success" file="graphics/extensions/celestian/ready_check/check_success.png" />
     			<icon name="chat_fail" file="graphics/extensions/celestian/ready_check/check_fail.png" />
+	<!--Ext: Advanced Effects-->
+					<!--Icons-->
+					<icon name="celestian" file="graphics/extensions/celestian/celestian.png" />
 
 <!--Author: Stv-->
 	<!--Ext: 5E Legendary Assistant-->
@@ -798,4 +963,9 @@
 				</stringfield>
 			</sheetdata>
 		</windowclass>
+
+<!--Author: Bayne-->
+	<!--Bayne's Emporium-->
+		<!--Icons-->
+		<icon name="zlogo" file="graphics/extensions/zuilin/zlogo.png" />
 </root>
