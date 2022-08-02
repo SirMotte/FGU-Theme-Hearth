@@ -15,10 +15,12 @@ Sir Motte
 
 [B]Added Extension Support:[/B]
 [LIST]
-[*]Power Up by Ryan Hagelstrom
+[*]Power Up by Ryan Hagelstrom.
+[*]Moon Tracker by DMFirmy, maintained by bmos.
+[*]Ammunition Manager by bmos.
 [/LIST]
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]
+[*]Fixed Better Combat Effects using the same icon as Better Combat Effects Gold. *gurrrr*
 [/LIST]
