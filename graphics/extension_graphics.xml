@@ -653,14 +653,14 @@
 			<icon name="icon_rank_top" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_top_30.png" />
 			<icon name="icon_warfare" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_warfare_30.png" />
 		<!-- Battle Tracker -->
-			<windowclass name="combattracker_host" merge="join">
+			<windowclass name="combattracker_host" merge="join" ruleset="5E">
 				<sheetdata>
 					<buttoncontrol name="button_show_battle">
 						<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
 					</buttoncontrol>
 				</sheetdata>
 			</windowclass>
-			<windowclass name="combattracker_client" merge="join">
+			<windowclass name="combattracker_client" merge="join" ruleset="5E">
 				<sheetdata>
 					<buttoncontrol name="button_show_battle">
 						<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
