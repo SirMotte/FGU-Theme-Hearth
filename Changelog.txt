@@ -1,62 +1,26 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Version 2.9.5 - Stuck Ostrich[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.6 - Gelatinous Candy[/B][/COLOR][/SIZE]
 
 [B]Anouncement:[/B]
 
-Last Update for this week, couldn't help myself :)
-Extension, Sidebar and Cosmetics Updates. No major changes.
+
 
 Enjoy!
 Sir Motte
 
-[B]Added Ruleset Support:[/B]
-[LIST]
-[*]none
-[/LIST]
-
 [B]Changelog - Theme Elements:[/B]
 [LIST]
-[*]Changed "emotefont" color to redish again - supposed to be a warm theme, right?
-[*]Changed "narratorfont" color to better distinguish between chat types.
-[*]Changed "chatgmfont" color to better distinguish between chat types.
-[*]Altered chat frames to be clearer and less rounded
-[/LIST]
-
-[B]Changelog - Extension Icons:[/B]
-
-Explanation: Depending on the number of extensions you use, things get pretty wild in the Chat on launch. I try to remedy this a little by adjusting extension icons to use the same width, height and frame.
-This calms down the chaos and gives me the opportunity to better embed other authors extension icons, without changing them altogether. Purely Cosmetic Madness.
-
-[LIST]
-[*]Most Troy Monteith Extensions
-[*]Advantage / Disadvantage by Kelrugem
-[*]Icons for Kent McCullough's Automatic Series, Turn Based Effects and Ongoing Save Effects.
-[*]Mattekures Logo
-[*]Exhausted by Ryan Hagelstrom
-[*]Effective Initiative by Ryan Hagelstrom
-[*]Effective NPC by Ryan Hagelstrom
-[*]Stealth Tracker by Justin Freitas
-[*]Zuilin's Whisper Window
-[*]Aura Effects by KentMcCullough and bmos
-[*]Capital Gains by MeAndUnique
-[*]IFNOT untrue effects by Berwind
-[*]CT Scroll by fxg42
-[*]Close Encounters by Saagael <3
-[*]Advanced Effects by Celestian
-[*]Advantages by Silent Ruin
+[*]Addad new outline color to sidebar and hotkey bar again for consistency.
+[*]Defined Action Icons that get show in chat when something is triggered to be 30x30 squares
 [/LIST]
 
 [B]Added Extension Support:[/B]
 [LIST]
-[*]Who Speaks by Mattekure
-[*]CSV Table Importer by Mattekure
+[*]Power Up by Ryan Hagelstrom.
+[*]Moon Tracker by DMFirmy, maintained by bmos.
+[*]Ammunition Manager by bmos.
 [/LIST]
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]Updated support for Player Agency by Damned
-[*]Kingdom & Warfare Battle tracker support brought to you by MeAndUnique.
-[*]Changed Legendary Assistant's (by Stv) CT outline to be solid instead of dashes.
-[*]Arcane Ward by Ryan Hagelstrom - Ryan was so kind to add an extra icon defintions to his extension. Now I can appease my obsessive-compulsive-disorder to not have truncated icons anywhere. Now, when casting using his extension the chat still looks fine. NICE!
-[*]Exchanged most MeAndUnique Extension Announcement Icons with "High Rez" versions. Results in minor quality improvement within FGU, that you wouldn't notice, ever (￣へ￣）.
-[*]Combat Highlighter by Daddy Ogreman - reduced outline from 2px to 1px and added "high res" announcement icon.
+[*]Fixed Better Combat Effects using the same icon as Better Combat Effects Gold. *gurrrr*
 [/LIST]
