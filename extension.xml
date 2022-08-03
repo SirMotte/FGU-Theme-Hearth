@@ -2,12 +2,12 @@
 <!--Special Thanks to MeAndUnique and Saagael for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: 2.9.5 - Stuck Ostrich\rHearth Edition" font="oocfont" icon="footface"/>
+	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: Beta 2.9.6 - Gelatinous Candy\rHearth Edition" font="oocfont" icon="footface"/>
 
 	<properties>
 		<name>Theme: Hearth</name>
 		<author>Sir Motte - Co. Authors: MeAndUnique and Saagael</author>
-		<version>2.9.5</version>
+		<version>2.9.6</version>
 		<description>Dark, warm and reduced user interface for FGU</description>
 		<loadorder>1500</loadorder>
 		<!--While many rulesets should work for the most part, only 5E is currently supported-->

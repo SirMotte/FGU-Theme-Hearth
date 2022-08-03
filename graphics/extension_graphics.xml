@@ -98,6 +98,15 @@
 			<icon name="logo_b9" file="graphics/extensions/bratch_nine/b9_spell_tokens/logo_b9.png" />
 			<icon name="sidebar_icon_link_spelltokens" file="graphics/extensions/bratch_nine/b9_spell_tokens/icon.png" />
 
+<!--Author: Bmos-->
+		<!--Ext: Ammunition Manager-->
+		<!-- Buttons -->
+		<icon name="button_load" file="graphics/extensions/bmos/ammunition_manager/button_load.png" />
+		<icon name="button_unload" file="graphics/extensions/bmos/ammunition_manager/button_unload.png" />
+		<!-- Chat Graphics -->
+		<icon name="archery_ammomanager" file="graphics/extensions/bmos/ammunition_manager/bow-and-arrows.png" />
+
+
 <!--Author: Damned-->
 	<!--Ext: Player Agency-->
 		<!--Frames-->
@@ -172,6 +181,23 @@
 				</sheetdata>
 			</windowclass>
 
+<!--Author: DMFirmy -->
+			<!--Moon Tracker-->
+			<!-- Buttons -->
+			<icon name="button_moon" file="graphics/extensions/DMFirmy/moon_tracker/button_moon.png" />
+			<icon name="button_moon_down" file="graphics/extensions/DMFirmy/moon_tracker/button_moon_down.png" />
+			<!-- Icons -->
+			<icon name="moonphase1" file="graphics/extensions/DMFirmy/moon_tracker/phase1.png" />
+			<icon name="moonphase2" file="graphics/extensions/DMFirmy/moon_tracker/phase2.png" />
+			<icon name="moonphase3" file="graphics/extensions/DMFirmy/moon_tracker/phase3.png" />
+			<icon name="moonphase4" file="graphics/extensions/DMFirmy/moon_tracker/phase4.png" />
+			<icon name="moonphase5" file="graphics/extensions/DMFirmy/moon_tracker/phase5.png" />
+			<icon name="moonphase6" file="graphics/extensions/DMFirmy/moon_tracker/phase6.png" />
+			<icon name="moonphase7" file="graphics/extensions/DMFirmy/moon_tracker/phase7.png" />
+			<icon name="moonphase8" file="graphics/extensions/DMFirmy/moon_tracker/phase8.png" />
+			<icon name="nightsky-moontracker" file="graphics/extensions/DMFirmy/moon_tracker/night-sky-icon.png" />
+
+
 <!--Author: Ryan Hagelstrom-->
 	<!--Better Combat Effects Gold-->
 		<!--Icons-->
@@ -179,7 +205,7 @@
 				<icon name="bce_save" file="graphics/extensions/ryan_hagelstrom/BCEG/bce_save.png"/>
 		<!--Better Combat Effects-->
 			<!--Icons-->
-				<icon name="BetterCombatEffects" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"/>
+				<icon name="BetterCombatEffects" file="graphics/extensions/ryan_hagelstrom/BCE/bce.png"/>
 	<!--Arkane Ward-->
 		<!--Icons-->
 				<icon name="button_arcaneward" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small.png" />
@@ -214,6 +240,10 @@
 		<!--Exhausted-->
 				<!--Icons-->
 				<icon name="Exhausted" file="graphics/extensions/ryan_hagelstrom/exhausted/exhausted.png" />
+		<!--Power Up-->
+				<!--Icons-->
+				<icon name="PowerUp" file="graphics/extensions/ryan_hagelstrom/power_up/PowerUp.png" />
+				<icon name="PowerUpChat" file="graphics/extensions/ryan_hagelstrom/power_up/PowerUpChat.png" />
 
 <!--Author: Justin Freitas-->
 		<!--Ext: Automatic Series-->
@@ -623,14 +653,14 @@
 			<icon name="icon_rank_top" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_top_30.png" />
 			<icon name="icon_warfare" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_warfare_30.png" />
 		<!-- Battle Tracker -->
-			<windowclass name="combattracker_host" merge="join">
+			<windowclass name="combattracker_host" merge="join" ruleset="5E">
 				<sheetdata>
 					<buttoncontrol name="button_show_battle">
 						<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
 					</buttoncontrol>
 				</sheetdata>
 			</windowclass>
-			<windowclass name="combattracker_client" merge="join">
+			<windowclass name="combattracker_client" merge="join" ruleset="5E">
 				<sheetdata>
 					<buttoncontrol name="button_show_battle">
 						<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
