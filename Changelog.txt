@@ -1,4 +1,4 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.6 - Gelatinous Candy[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.7 - Constipated Seagull[/B][/COLOR][/SIZE]
 
 [B]Anouncement:[/B]
 
@@ -9,18 +9,31 @@ Sir Motte
 
 [B]Changelog - Theme Elements:[/B]
 [LIST]
-[*]Addad new outline color to sidebar and hotkey bar again for consistency.
-[*]Defined Action Icons that get show in chat when something is triggered to be 30x30 squares
+[*]
 [/LIST]
 
 [B]Added Extension Support:[/B]
 [LIST]
-[*]Power Up by Ryan Hagelstrom.
-[*]Moon Tracker by DMFirmy, maintained by bmos.
-[*]Ammunition Manager by bmos.
+[*]
 [/LIST]
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]Fixed Better Combat Effects using the same icon as Better Combat Effects Gold. *gurrrr*
+[*]Changed Better Combat Effects Gold Save Icon to adhere the new theme definition set in Beta 2.9.6.
+[*]Added Announcement Icon for Pack Tactics, Automatic Halfling Luck and Automatic Flanking and Range by Kent McCullough. Thanks Kent :).
+
+Thanks SR for adding in the needed code!
+[*]Added Announcement Icon of Assistant GM by Silent Ruin.
+[*]Added Announcement Icon of Generic Actions by Silent Ruin.
+[*]Added Announcement Icon of Combat Groups by Silent Ruin.
+[*]Added Announcement Icon of Map Parcel by Silent Ruin.
+[*]Added Announcement Icon of Polymorphism by Silent Ruin.
+
+Thanks bmos for adding in the needed code!
+[*]Added Announcement Icon of Hit Margins by bmos.
+[*]Added Announcement Icon of Coin Weight by bmos.
+[*]Added Announcement Icon of xxx by bmos.
+[*]Added Announcement Icon of xxx by bmos.
+
+[*]Remade the Button Icons of Arcane Ward by bmos again.
 [/LIST]
