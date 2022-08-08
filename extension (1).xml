@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="3.2">
+	<announcement text="Theme Add-On: \rWhite Tiki's Font Override\rVersion: 1.0" font="oocfont" icon="Tiki"/>
+
+	<properties>
+		<name>Theme: White Tiki's Font Override</name>
+		<author>White Tiki</author>
+		<version>1.0</version>
+		<description>Overwrites Font definitions</description>
+		<loadorder>1501</loadorder>
+		
+		<ruleset>
+			<name>CoreRPG</name>
+		</ruleset>
+		<ruleset>
+			<name>2E</name>
+		</ruleset>
+		<ruleset>
+			<name>3.5E</name>
+		</ruleset>
+		<ruleset>
+			<name>4E</name>
+		</ruleset>
+		<ruleset>
+			<name>5E</name>
+		</ruleset>
+		<ruleset>
+			<name>PFRPG</name>
+		</ruleset>
+		<ruleset>
+    		<name>PFRPG2</name>
+		</ruleset>
+		<ruleset>
+			<name>SFRPG</name>
+		</ruleset>
+		<ruleset>
+			<name>Castles and Crusades</name>
+		</ruleset>
+		<ruleset>
+			<name>CallOfCthulhu</name>
+		</ruleset>
+		<ruleset>
+			<name>CallOfCthulhu7E</name>
+		</ruleset>
+		<ruleset>
+			<name>d20 Modern</name>
+		</ruleset>
+		<ruleset>
+			<name>Fate Core</name>
+		</ruleset>
+		<ruleset>
+			<name>Cypher System</name>
+		</ruleset>
+		<ruleset>
+			<name>Numenera</name>
+		</ruleset>
+		<ruleset>
+			<name>The Strange</name>
+		</ruleset>
+		<ruleset>
+			<name>13th_Age</name>
+		</ruleset>
+		<ruleset>
+			<name>SavageWorlds</name>
+		</ruleset>
+		<ruleset>
+			<name>SWD</name>
+		</ruleset>
+		<ruleset>
+			<name>Mutants and Masterminds 3rd</name>
+		</ruleset>
+		<ruleset>
+			<name>Basic Roleplaying</name>
+		</ruleset>
+		<ruleset>
+			<name>ICRPG</name>
+		</ruleset>
+		<ruleset>
+			<name>WHFRP 2ed</name>
+		</ruleset>
+		<ruleset>
+			<name>Target12</name>
+		</ruleset>
+	</properties>
+	<base>
+
+		<!--Graphics definitions-->
+		<icon name="Tiki" file="WhiteTiki_Logo.png" />
+		<includefile source="graphics/graphics_fonts.xml" />
+
+	</base>
+</root>
