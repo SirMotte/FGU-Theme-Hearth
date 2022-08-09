@@ -498,7 +498,7 @@
 	<!-- Hotkeys -->
 	<icon name="empty" file="graphics/pngs/empty.png" />
 
-	<!--PFRPG-->
+	<!--PFRPG / 3.5E-->
 		<!-- Spells -->
 		<icon name="caster_prep" file="graphics/pngs/caster_prep.png" />
 		<icon name="caster_points" file="graphics/pngs/caster_points.png" />
@@ -545,4 +545,14 @@
 		<icon name="button_power_down" file="graphics/pngs/button_power_down.png" />
 		<icon name="button_skillLore" file="graphics/pngs/button_skillLore.png" />
 		<icon name="button_skillLore_down" file="graphics/pngs/button_skillLore_down.png" />
+
+		<icon name="button_skillcr" file="graphics/pngs/button_skillcr.png" />
+		<icon name="button_skillcr_down" file="graphics/pngs/button_skillcr_down.png" />
+		<icon name="button_skillkn" file="graphics/pngs/button_skillkn.png" />
+		<icon name="button_skillkn_down" file="graphics/pngs/button_skillkn_down.png" />
+		<icon name="button_skillpe" file="graphics/pngs/button_skillpe.png" />
+		<icon name="button_skillpe_down" file="graphics/pngs/button_skillpe_down.png" />
+		<icon name="button_skillpr" file="graphics/pngs/button_skillpr.png" />
+		<icon name="button_skillpr_down" file="graphics/pngs/button_skillpr_down.png" />
+
 </root>
