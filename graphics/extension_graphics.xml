@@ -100,20 +100,11 @@
 
 <!--Author: Bmos-->
 		<!--Ext: Ammunition Manager-->
-			<!-- Buttons -->
-				<icon name="button_load" file="graphics/extensions/bmos/ammunition_manager/button_load.png" />
-				<icon name="button_unload" file="graphics/extensions/bmos/ammunition_manager/button_unload.png" />
-			<!-- Chat Graphics -->
-				<icon name="archery_ammomanager" file="graphics/extensions/bmos/ammunition_manager/bow-and-arrows.png" />
-		<!--Ext: Hit Margins-->
-			<!-- Icons -->
-				<icon name="hitmargintarget" file="graphics/extensions/bmos/hit_margins/hitmargins_logo.png" />
-		<!--Ext: Coin Weight-->
-				<icon name="bmoscoinsweight" file="graphics/extensions/bmos/coin_weight/bmos_coin_weight_logo.png" />
-		<!--Ext: Extraplanar Containers-->
-				<icon name="extraplanarcontainers" file="graphics/extensions/bmos/extraplanar_containers/extraplanar_containers_logo.png" />
-
-
+		<!-- Buttons -->
+		<icon name="button_load" file="graphics/extensions/bmos/ammunition_manager/button_load.png" />
+		<icon name="button_unload" file="graphics/extensions/bmos/ammunition_manager/button_unload.png" />
+		<!-- Chat Graphics -->
+		<icon name="archery_ammomanager" file="graphics/extensions/bmos/ammunition_manager/bow-and-arrows.png" />
 
 
 <!--Author: Damned-->
@@ -272,8 +263,6 @@
 				<icon name="AutomaticShieldMaster" file="graphics/extensions/kent_mccullough/Automatic_Shield_Master.png" />
 				<icon name="AutomaticSneakAttack" file="graphics/extensions/kent_mccullough/Automatic_Sneak_Attack.png" />
  				<icon name="AutomaticSpellResistance" file="graphics/extensions/kent_mccullough/Automatic_Spell_Resistance.png" />
-				<icon name="AutomaticHalflingLuck" file="graphics/extensions/kent_mccullough/Automatic_Halfling_Luck.png"/>
-				<icon name="AutomaticFlankingAndRange" file="graphics/extensions/kent_mccullough/Automatic_Flanking_and_Range.png"/>
 		<!--Ext: Turn Based Effects-->
 			<!--Icon-->
 				<icon name="TurnBasedEffects" file ="graphics/extensions/kent_mccullough/TurnBasedEffects.png" />
@@ -284,24 +273,19 @@
 <!--Author: Silent Ruin-->
 	<!--Ext: Polymorphism-->
 		<!--Icon-->
-				<icon name="polymorphism_Logo" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_logo.png" />
 				<icon name="polymorphism_icon" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_icon.png" />
 	<!--Ext: Map Parcel-->
 		<!--Icon-->
-				<icon name="mapparcel_Logo" file="graphics/extensions/silent_ruin/map_parcel/mapparcel_logo.png" />
 				<icon name="mapparcel_icon" file="graphics/extensions/silent_ruin/map_parcel/mapparcel_icon.png" />
 	<!--Ext: Combat Groups-->
 		<!--Icons-->
-				<icon name="combatgroups_Logo" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_logo.png" />
 				<icon name="combatgroups_icon" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon.png" />
 				<icon name="combatgroups_icon_down" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon_down.png" />
 	<!--Ext: Generic Actions-->
 		<!--Icon-->
-				<icon name="generic_actions_Logo" file="graphics/extensions/silent_ruin/generic_actions/generic_actions_logo.png" />
 				<icon name="generic_actions_icon" file="graphics/extensions/silent_ruin/generic_actions/generic_actions_icon.png" />
 	<!--Ext: Assistant GM-->
 		<!--Icons-->
-				<icon name="AssistantGM_Logo" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_Logo.png" />
 				<icon name="AssistantGM_icon" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_icon.png" />
 				<icon name="AssistantGM_icon_down" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_icon_down.png" />
 	<!--Ext: Equipped Effects-->
@@ -310,7 +294,7 @@
 	<!--Ext: Death Indicator-->
 		<!--Icons-->
  		<!-- Define the icon used in the announcement and tooltips-->
-  			<icon name="icon_death_indicator" file="graphics/extensions/silent_ruin/death_indicator/death_indicator_logo.png" />
+  			<icon name="icon_death_indicator" file="graphics/extensions/silent_ruin/death_indicator/icon.png" />
   			<icon name="icon_death_indicator_token" file="graphics/extensions/silent_ruin/death_indicator/death_indicator.png" />
 		<!--Define the link / shield icons for important NPCs in the combat tracker-->
   			<icon name="button_shield" file="graphics/extensions/silent_ruin/death_indicator/button_shield_SR.png" />

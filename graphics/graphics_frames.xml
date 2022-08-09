@@ -708,54 +708,6 @@
 		<offset>100,50,100,50</offset>
 	</framedef>
 
-	<!--PFRPG-->
-		<!-- Spells -->
-		<icon name="caster_prep" file="graphics/pngs/caster_prep.png" />
-		<icon name="caster_points" file="graphics/pngs/caster_points.png" />
-		<icon name="caster_spontaneous" file="graphics/pngs/caster_spontaneous.png" />
-		<icon name="spell_cast" file="graphics/pngs/spell_cast.png" />
-		<icon name="spell_damage" file="graphics/pngs/spell_damage.png" />
-		<icon name="spell_heal" file="graphics/pngs/spell_heal.png" />
-		<icon name="spell_effect" file="graphics/pngs/spell_effect.png" />
-
-		<!--PFRPG2-->
-		<icon name="icon_action" file="graphics/pngs/Action - Action - Alpha BG - 20x20.png" />
-		<icon name="icon_reaction" file="graphics/pngs/Action - Reaction - Alpha BG - 25x20.png" />
-		<icon name="icon_freeaction" file="graphics/pngs/Action - Free - Alpha BG - 20x20.png" />
-		<icon name="icon_2actions" file="graphics/pngs/Action - Two Actions - Alpha BG - 31x20.png" />
-		<icon name="icon_3actions" file="graphics/pngs/Action - Three Actions - Alpha BG - 41x20.png" />
-
-		<icon name="char_quicklist" file="graphics/pngs/char_quicklist.png" />
-		<!-- Powers -->
-		<icon name="usepower" file="graphics/pngs/usepower.png" />
-		<icon name="power_weapon" file="graphics/pngs/power_weapon.png" />
-		<icon name="power_casterprep" file="graphics/pngs/power_casterprep.png" />
-		<!-- Rolls -->
-		<icon name="roll_cast" file="graphics/pngs/roll_cast.png" />
-		<icon name="roll_damage" file="graphics/pngs/roll_damage.png" />
-		<icon name="roll_heal" file="graphics/pngs/roll_heal.png" />
-		<icon name="roll_effect" file="graphics/pngs/roll_effect.png" />
-
-		<icon name="button_statpointmode" file="graphics/pngs/button_statpointmode.png" />
-		<icon name="button_statpointmode_down" file="graphics/pngs/button_statpointmode_down.png" />
-
-		<icon name="button_toggle_start" file="graphics/pngs/button_toggle_start.png" />
-		<icon name="button_toggle_end" file="graphics/pngs/button_toggle_end.png" />
-
-		<icon name="xp" file="graphics/pngs/xp.png" />
-
-		<icon name="button_minisheet" file="graphics/pngs/button_minisheet.png" />
-		<icon name="button_minisheet_down" file="graphics/pngs/button_minisheet_down.png" />
-		<icon name="button_fullsheet" file="graphics/pngs/button_fullsheet.png" />
-		<icon name="button_fullsheet_down" file="graphics/pngs/button_fullsheet_down.png" />
-
-		<icon name="button_menu" file="graphics/pngs/button_menu.png" />
-		<icon name="button_menu_down" file="graphics/pngs/button_menu_down.png" />
-		<icon name="button_power" file="graphics/pngs/button_power.png" />
-		<icon name="button_power_down" file="graphics/pngs/button_power_down.png" />
-		<icon name="button_skillLore" file="graphics/pngs/button_skillLore.png" />
-		<icon name="button_skillLore_down" file="graphics/pngs/button_skillLore_down.png" />
-
 
 <!-- Scrollbar -->
 	<framedef name="scrollbar_base">
