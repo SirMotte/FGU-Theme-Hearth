@@ -16,6 +16,8 @@ PFRPG - Basic support - Special Thanks to bmos and Zarestria
 [LIST]
 [*]Expand Icon used in 3.5E adjusted to be in line with theme colors.
 [*]slottedmodifier.png and slottedbonus.png used by PFRPG 1+2 and 3.5E (and maybe others) adjusted to fit my theme.
+[*]Fixed some icons for PFRPG 2
+[*]Fixed some fontcolors in the inventory for PFRPG2
 [/LIST]
 
 [B]Added Extension Support:[/B]
