@@ -109,6 +109,9 @@
 		<includefile source="rulesets/icrpg_compilation.xml" ruleset="ICRPG" />
 		<includefile source="rulesets/pfrpg2_compilation.xml" ruleset="PFRPG2" />
 		<includefile source="rulesets/whfrp2e_compilation.xml" ruleset="PFRPG" />
+		<includefile source="rulesets/3.5E_compilation.xml" ruleset="3.5E" />
+
+		<includefile source="rulesets/multi_compilation.xml" ruleset="3.5E|PFRPG|PFRPG2" />
 
 		<!--Extension Graphics definitions-->
 		<includefile source="graphics/extension_graphics.xml" />
