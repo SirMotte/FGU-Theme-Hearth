@@ -59,7 +59,6 @@ Blend Color =               White
 
 Calendar Background =       Light Brown
 Calendar Holiday =          Crimson
-Calendar Month =            Light Salmon
 
 Text Selection =            Navy
 Warning Text =              Crimson

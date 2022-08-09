@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-		<framedef name="ct_effectdc">
+	<framedef name="slottedmodifier">
+		<bitmap file="graphics/pngs/slottedmodifier.png" />
+		<topleft rect="0,0,37,12" />
+		<top rect="37,0,160,12" />
+		<topright rect="212,0,12,12" />
+		<left rect="0,12,37,187" />
+		<middle rect="37,12,160,187" />
+		<right rect="212,12,12,187" />
+		<bottomleft rect="0,199,37,12" />
+		<bottom rect="37,199,160,12" />
+		<bottomright rect="212,199,12,12" />
+	</framedef>
+	<framedef name="slottedbonus">
+		<bitmap file="graphics/pngs/slottedbonus.png" />
+		<topleft rect="0,0,68,12" />
+		<top rect="68,0,128,12" />
+		<topright rect="212,0,12,12" />
+		<left rect="0,12,68,187" />
+		<middle rect="68,12,128,187" />
+		<right rect="212,12,12,187" />
+		<bottomleft rect="0,199,68,12" />
+		<bottom rect="68,199,128,12" />
+		<bottomright rect="212,199,12,12" />
+	</framedef>
+	<framedef name="ct_effectdc">
 		<bitmap file="graphics/pngs/ct_effectdc.png" />
 		<topleft rect="0,0,12,12" />
 		<top rect="12,0,200,12" />
@@ -58,6 +82,6 @@
 	<icon name="button_power" file="graphics/pngs/button_power.png" />
 	<icon name="button_power_down" file="graphics/pngs/button_power_down.png" />
 	<icon name="button_skillLore" file="graphics/pngs/button_skillLore.png" />
-	<icon name="button_skillLore_down" file="graphics/pngs/button_skillLore_down.png" />
+	<icon name="button_skillLore_down" file="graphics/pngs/button_skillLore_down.png" />	
 
 </root>
