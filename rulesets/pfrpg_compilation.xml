@@ -8,7 +8,6 @@
 <!-- Source: ref/ref_help.xml -->
 <!-- This theme overrides string_record_name template which cause this instance of it to not work.  -->
 <root>
-
     <windowclass name="ref_skill_header" merge="join">
 		<sheetdata>
 			<string_record_name name="name">
@@ -21,31 +20,4 @@
 			</string_record_name>
 		</sheetdata>
 	</windowclass>
-
-	<windowclass name="charsheet_inventory" merge="join">
-		<sheetdata>
-			<!--Armor-->
-			<buttonfield name="usearmormaxstatbonus">
-				<script>
-					function onValueChanged(...)
-						if super and super.onValueChanged then super.onValueChanged(...); end
-						if getValue() == 1 then
-							window.armormaxstatbonus.setColor(ColorManager.COLOR_CALENDAR_BACKGROUND);
-							window.armorcheckpenalty.setColor(ColorManager.COLOR_CALENDAR_BACKGROUND);
-							window.spellfailure.setColor(ColorManager.COLOR_CALENDAR_BACKGROUND);
-						else
-							window.armormaxstatbonus.setColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
-							window.armorcheckpenalty.setColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
-							window.spellfailure.setColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
-						end
-					end
-					function onInit()
-						if super and super.onInit then super.onInit() end
-						onValueChanged()
-					end
-				</script>
-			</buttonfield>
-		</sheetdata>
-	</windowclass>
-
 </root>
