@@ -6,7 +6,7 @@
 
 	<properties>
 		<name>Theme: Hearth</name>
-		<author>Sir Motte - Co. Authors: MeAndUnique and Saagael</author>
+		<author>Sir Motte - Co. Authors: MeAndUnique and Saagael - Contributions by bmos and Zarestria</author>
 		<version>2.9.7</version>
 		<description>Dark, warm and reduced user interface for FGU</description>
 		<loadorder>1500</loadorder>
@@ -109,8 +109,7 @@
 		<includefile source="rulesets/icrpg_compilation.xml" ruleset="ICRPG" />
 		<includefile source="rulesets/pfrpg2_compilation.xml" ruleset="PFRPG2" />
 		<includefile source="rulesets/pfrpg_compilation.xml" ruleset="PFRPG|3.5E" />
-		<includefile source="rulesets/3.5E_compilation.xml" ruleset="3.5E" />
-
+		
 		<includefile source="rulesets/multi_compilation.xml" ruleset="3.5E|PFRPG|PFRPG2" />
 
 

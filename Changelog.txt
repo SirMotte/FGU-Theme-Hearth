@@ -1,3 +1,4 @@
+@@ -1,42 +1,43 @@
 [SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.7 - Constipated Seagull[/B][/COLOR][/SIZE]
 
 [B]Anouncement:[/B]
@@ -8,7 +9,7 @@ Enjoy!
 Sir Motte
 
 [B]Added Ruleset support:[/B]
-3.5E - Basic support - Special Thanks to bmos and Zarestria
+3.5E - Basic support -Special Thanks to bmos and Zarestria
 PFRPG - Basic support - Special Thanks to bmos and Zarestria
 
 [B]Changelog - Theme Elements:[/B]
