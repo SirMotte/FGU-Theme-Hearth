@@ -8,8 +8,8 @@ Enjoy!
 Sir Motte
 
 [B]Added Ruleset support:[/B]
-3.5E - Basic support -Special Thanks to bmos and Zarestria
-PF1E - Basic support
+3.5E - Basic support - Special Thanks to bmos and Zarestria
+PFRPG - Basic support - Special Thanks to bmos and Zarestria
 
 [B]Changelog - Theme Elements:[/B]
 [LIST]
@@ -39,4 +39,5 @@ Thanks bmos for adding in the needed code!
 [*]
 
 [*]Remade the action buttons of Arcane Ward by bmos again.
+
 [/LIST]
