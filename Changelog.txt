@@ -7,9 +7,12 @@
 Enjoy!
 Sir Motte
 
+[B]Added Ruleset support:[/B]
+3.5E - Basic support
+
 [B]Changelog - Theme Elements:[/B]
 [LIST]
-[*]
+[*]Expand Icon used in 3.5E adjusted to be in line with theme colors
 [/LIST]
 
 [B]Added Extension Support:[/B]
