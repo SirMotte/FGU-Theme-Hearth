@@ -1,28 +1,43 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.6 - Gelatinous Candy[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.7 - Constipated Seagull[/B][/COLOR][/SIZE]
 
 [B]Anouncement:[/B]
 
-Hotfix for PFRPG2 Combat Tracker Menu Button not working correctly and a few other items on the list. Again special thanks to MeAndUnique for finding and fixing the issue.
+
 
 Enjoy!
 Sir Motte
 
-
+[B]Added Ruleset support:[/B]
+3.5E - Basic support - Special Thanks to bmos and Zarestria
+PFRPG - Basic support - Special Thanks to bmos and Zarestria
 
 [B]Changelog - Theme Elements:[/B]
 [LIST]
-[*]Addad new outline color to sidebar and hotkey bar again for consistency.
-[*]Defined Action Icons that get shown in chat when something is triggered to be 30x30px squares - Groundwork for Chat Icon rework.
+[*]Expand Icon used in 3.5E adjusted to be in line with theme colors.
+[*]slottedmodifier.png and slottedbonus.png used by PFRPG 1+2 and 3.5E (and maybe others) adjusted to fit my theme.
 [/LIST]
 
 [B]Added Extension Support:[/B]
 [LIST]
-[*]Power Up by Ryan Hagelstrom.
-[*]Moon Tracker by DMFirmy, maintained by bmos.
-[*]Ammunition Manager by bmos.
+[*]
 [/LIST]
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]Fixed Better Combat Effects using the same icon as Better Combat Effects Gold. *gurrrr*
+[*]Changed Better Combat Effects Gold Save Icon to adhere to the new theme definition set in Beta 2.9.6.
+[*]Added Announcement Icon for Pack Tactics, Automatic Halfling Luck and Automatic Flanking and Range by Kent McCullough. Thanks Kent :).
+Thanks SR for adding in the needed definitions!
+[*]Added Announcement Icon of Assistant GM by Silent Ruin.
+[*]Added Announcement Icon of Generic Actions by Silent Ruin.
+[*]Added Announcement Icon of Combat Groups by Silent Ruin.
+[*]Added Announcement Icon of Map Parcel by Silent Ruin.
+[*]Added Announcement Icon of Polymorphism by Silent Ruin.
+
+Thanks bmos for adding in the needed code!
+[*]Added Announcement Icon of Hit Margins by bmos.
+[*]Added Announcement Icon of Coin Weight by bmos.
+[*]
+
+[*]Remade the action buttons of Arcane Ward by bmos again.
+
 [/LIST]
