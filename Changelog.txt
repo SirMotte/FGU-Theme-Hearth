@@ -19,10 +19,9 @@ Sir Motte
 
 [B]Supported Extension changes:[/B]
 [LIST]
-[*]Changed Better Combat Effects Gold Save Icon to adhere the new theme definition set in Beta 2.9.6.
+[*]Changed Better Combat Effects Gold Save Icon to adhere to the new theme definition set in Beta 2.9.6.
 [*]Added Announcement Icon for Pack Tactics, Automatic Halfling Luck and Automatic Flanking and Range by Kent McCullough. Thanks Kent :).
-
-Thanks SR for adding in the needed code!
+Thanks SR for adding in the needed definitions!
 [*]Added Announcement Icon of Assistant GM by Silent Ruin.
 [*]Added Announcement Icon of Generic Actions by Silent Ruin.
 [*]Added Announcement Icon of Combat Groups by Silent Ruin.
@@ -32,8 +31,7 @@ Thanks SR for adding in the needed code!
 Thanks bmos for adding in the needed code!
 [*]Added Announcement Icon of Hit Margins by bmos.
 [*]Added Announcement Icon of Coin Weight by bmos.
-[*]Added Announcement Icon of xxx by bmos.
-[*]Added Announcement Icon of xxx by bmos.
+[*]
 
-[*]Remade the Button Icons of Arcane Ward by bmos again.
+[*]Remade the action buttons of Arcane Ward by bmos again.
 [/LIST]
