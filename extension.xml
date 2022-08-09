@@ -108,7 +108,7 @@
 		<includefile source="rulesets/savageworlds_compilation.xml" ruleset="SavageWorlds" />
 		<includefile source="rulesets/icrpg_compilation.xml" ruleset="ICRPG" />
 		<includefile source="rulesets/pfrpg2_compilation.xml" ruleset="PFRPG2" />
-		<includefile source="rulesets/whfrp2e_compilation.xml" ruleset="PFRPG" />
+		<includefile source="rulesets/pfrpg_compilation.xml" ruleset="PFRPG|3.5E" />
 
 		<!--Extension Graphics definitions-->
 		<includefile source="graphics/extension_graphics.xml" />
