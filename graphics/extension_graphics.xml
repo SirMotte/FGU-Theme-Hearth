@@ -394,6 +394,7 @@
   			<icon name="blood_09" file="graphics/extensions/silent_ruin/death_indicator/blood_09.png" />
   			<icon name="blood_10" file="graphics/extensions/silent_ruin/death_indicator/blood_10.png" />
   			<icon name="stable_01" file="graphics/extensions/silent_ruin/death_indicator/stable_01.png" /> -->
+	
 	<!--Ext: Advantages-->
 		<!--Icons-->
 		<icon name="advantages_icon" file="graphics/extensions/silent_ruin/advantages/advantages_icon.png" />
@@ -447,14 +448,14 @@
   			</framedef>
 
 <!--Author: berwind -->
-		<!--Ext: CT Scroll-->
-				<!--Icons-->
-				<icon name="IFN" file="graphics/extensions/berwind/untrue_effects/ifn_small.png" />
+	<!--Ext: CT Scroll-->
+			<!--Icons-->
+			<icon name="IFN" file="graphics/extensions/berwind/untrue_effects/ifn_small.png" />
 
 <!--Author: fxg42 -->
-		<!--Ext: CT Scroll-->
-				<!--Icons-->
-				<icon name="raven" file="graphics/extensions/fxg42/raven-circ-30x30.png" />
+	<!--Ext: CT Scroll-->
+			<!--Icons-->
+			<icon name="raven" file="graphics/extensions/fxg42/raven-circ-30x30.png" />
 
 
 <!--Author: Mad Nomad-->
@@ -533,6 +534,7 @@
             		</script>
             		</stringfield>
     		</template>
+	
 	<!--Ext: Enhanced Encounter Window-->
 		<!--pngs-->
 			<icon name="addcombat" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addcombat.png" />
@@ -545,6 +547,7 @@
   			<icon name="awardxpdown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/awardxpdown.png" />
   			<icon name="shareall" file="graphics/extensions/mad_nomad/enhanced_encounter_window/shareMNM.png" />
   			<icon name="sharealldown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/shareMNMdown.png" />
+	
 	<!--Ext: Consumable Items-->
 		<!--Icon-->
 			 <icon name="consumableSmall" file="graphics/extensions/mad_nomad/consumable_items/consumableSmall.png" />
