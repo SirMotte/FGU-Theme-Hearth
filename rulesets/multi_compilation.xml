@@ -24,4 +24,32 @@
 		<bottom rect="68,199,128,12" />
 		<bottomright rect="212,199,12,12" />
 	</framedef>
+
+	<windowclass name="charsheet_inventory" merge="join">
+		<sheetdata>
+			<!--Armor-->
+			<buttonfield name="usearmormaxstatbonus">
+				<script>
+					function onValueChanged(...)
+						if super and super.onValueChanged then super.onValueChanged(...); end
+						if getValue() == 1 then
+							window.armormaxstatbonus.setColor(ColorManager.COLOR_CALENDAR_BACKGROUND);
+							window.armorcheckpenalty.setColor(ColorManager.COLOR_CALENDAR_BACKGROUND);
+							window.speedpenalty.setColor(CColorManager.COLOR_CALENDAR_BACKGROUND);
+							else
+							window.armormaxstatbonus.setColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
+							window.armorcheckpenalty.setColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
+							window.speedpenalty.setColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
+
+							end
+					if super and super.encumbranceColors then super.encumbranceColors(); end
+					end
+					function onInit()
+						if super and super.onInit then super.onInit() end
+						onValueChanged()
+					end
+				</script>
+			</buttonfield>
+		</sheetdata>
+	</windowclass>
 </root>
