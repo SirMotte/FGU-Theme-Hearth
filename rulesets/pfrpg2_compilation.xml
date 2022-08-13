@@ -14,9 +14,4 @@
 		<!--<decal rect="207,212,17,14" />-->
 	</framedef>
 
-	<framedef name="acicon">
-		<bitmap file="graphics/pngs/acicon_pfrpg.png" />
-		<topleft rect="-3,0,35,39" />
-	</framedef>
-
 </root>

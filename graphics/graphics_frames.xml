@@ -841,7 +841,7 @@
 		<bottomright rect="96,94,48,47" />
 		<insideoffset>0,0,4,0</insideoffset>
 	</framedef>
-
+2
 	<framedef name="reference-section">
 		<bitmap file="graphics/pngs/reference-section.png" />
 		<topleft rect="0,0,1,0" />

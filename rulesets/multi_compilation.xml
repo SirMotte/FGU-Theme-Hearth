@@ -96,6 +96,39 @@
 	</windowclass>
 
 
+<!--PFRPG2=Speed-->
+<!--PFRPG1=Spellfailure-->
+<!--3.5€=Spellfailure-->
+<windowclass name="charsheet_inventory" merge="join">
+    <sheetdata>
+    <!-- Armor -->
+        <buttonfield name="usearmormaxstatbonus">
+					<!-- The following assumes that this only exists in 3.5E, PFRPG1 or PFRPG2.-->
+					<!-- This logic will likely need updating in the event that changes.-->
+            <script>
+                  function onValueChanged(...)
+                    if super and super.onValueChanged then super.onValueChanged(...); end
+                    local sColor = ColorManager.COLOR_SECONDARY_FOREGROUND;
+                    if getValue() == 1 then
+                      sColor = ColorManager.COLOR_CALENDAR_BACKGROUND;
+                    end
+                    window.armormaxstatbonus.setColor(sColor);
+                    window.armorcheckpenalty.setColor(sColor);
+										if User.getRulesetName() == "PFRPG2" then
+	                      window.speedpenalty.setColor(sColor);
+	                    else
+	                      window.spellfailure.setColor(sColor);
+	                    end
+                    if super and super.encumbranceColors then super.encumbranceColors(); end -- bmos' encumbrance penalties
+                  	end
+                  function onInit()
+                    if super and super.onInit then super.onInit(); end
+                      onValueChanged();
+                    end
+            </script>
+        </buttonfield>
+    </sheetdata>
+</windowclass>
 
 	<framedef name="slottedmodifier">
 		<bitmap file="graphics/pngs/slottedmodifier.png" />
@@ -122,32 +155,9 @@
 		<bottomright rect="212,199,12,12" />
 	</framedef>
 
-	<windowclass name="charsheet_inventory" merge="join">
-		<sheetdata>
-			<!--Armor-->
-			<buttonfield name="usearmormaxstatbonus">
-				<script>
-					function onValueChanged(...)
-						if super and super.onValueChanged then super.onValueChanged(...); end
-						if getValue() == 1 then
-							window.armormaxstatbonus.setColor(ColorManager.COLOR_CALENDAR_BACKGROUND);
-							window.armorcheckpenalty.setColor(ColorManager.COLOR_CALENDAR_BACKGROUND);
-							window.speedpenalty.setColor(CColorManager.COLOR_CALENDAR_BACKGROUND);
-							else
-							window.armormaxstatbonus.setColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
-							window.armorcheckpenalty.setColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
-							window.speedpenalty.setColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
-
-							end
-					if super and super.encumbranceColors then super.encumbranceColors(); end
-					end
-					function onInit()
-						if super and super.onInit then super.onInit() end
-						onValueChanged()
-					end
-				</script>
-			</buttonfield>
-		</sheetdata>
-	</windowclass>
+	<framedef name="acicon">
+		<bitmap file="graphics/pngs/acicon_pfrpg.png" />
+		<topleft rect="-3,0,35,39" />
+	</framedef>
 
 </root>
