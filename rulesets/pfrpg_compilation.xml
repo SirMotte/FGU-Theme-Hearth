@@ -10,6 +10,7 @@
 <root>
   <windowclass name="ref_skill_header" merge="join">
     <sheetdata>
+      <string_record_name name="name">
         <anchored merge="replace">
           <top offset="5"/>
           <left offset="40" />
