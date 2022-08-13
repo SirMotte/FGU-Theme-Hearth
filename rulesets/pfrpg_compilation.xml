@@ -8,22 +8,16 @@
 <!-- Source: ref/ref_help.xml -->
 <!-- This theme overrides string_record_name template which cause this instance of it to not work.  -->
 <root>
+  <windowclass name="ref_skill_header" merge="join">
+    <sheetdata>
+        <anchored merge="replace">
+          <top offset="5"/>
+          <left offset="40" />
+          <right offset="-45" />
+        </anchored>
+        <static />
+      </string_record_name>
+    </sheetdata>
+  </windowclass>
 
-    <windowclass name="ref_skill_header" merge="join">
-		<sheetdata>
-			<string_record_name name="name">
-				<anchored merge="replace">
-					<top offset="5"/>
-					<left offset="40" />
-					<right offset="-45" />
-				</anchored>
-				<static />
-			</string_record_name>
-		</sheetdata>
-	</windowclass>
-
-  <framedef name="acicon">
-		<bitmap file="graphics/pngs/acicon_pfrpg.png" />
-		<topleft rect="-4,0,35,39" />
-	</framedef>
 </root>
