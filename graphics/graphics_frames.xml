@@ -708,7 +708,6 @@
 		<offset>100,50,100,50</offset>
 	</framedef>
 
-
 <!-- Scrollbar -->
 	<framedef name="scrollbar_base">
 		<bitmap file="graphics/pngs/scrollbar.png" />
