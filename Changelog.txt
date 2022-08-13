@@ -17,7 +17,7 @@ PFRPG - Basic support - Special Thanks to bmos and Zarestria
 [*]Expand Icon used in 3.5E adjusted to be in line with theme colors.
 [*]slottedmodifier.png and slottedbonus.png used by PFRPG 1+2 and 3.5E (and maybe others) adjusted to fit my theme.
 [*]Fixed some icons for PFRPG 2
-[*]Fixed some fontcolors in the inventory for PFRPG2
+[*]Fixed some fontcolors in the inventory, Combat Tracker and Character Sheet for PFRPG 1+2 and 3.5E
 [/LIST]
 
 [B]Added Extension Support:[/B]
@@ -41,6 +41,6 @@ Thanks bmos for adding in the needed code!
 [*]Added Announcement Icon of Coin Weight by bmos.
 [*]Remade the action buttons of Arcane Ward by bmos again.
 
-[*]Button fixes for Requested Rolls by mccartysr (Thanks!)
+[*]Button fixes for Requested Rolls by mccartysr (Thanks McCartysr)
 
 [/LIST]

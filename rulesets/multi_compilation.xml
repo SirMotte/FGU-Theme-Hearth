@@ -1,5 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
+
+	<!-- Re-color is moved to script instead of xml to support rulesets that don't use the temphp box -->
+	<windowclass name="charsheet_main" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if temphp then
+    			temphp.setColor(ColorManager.COLOR_TEMP_HP);
+						elseif hptemp then
+    			hptemp.setColor(ColorManager.COLOR_TEMP_HP);
+					end
+			end
+		</script>
+	</windowclass>
+	<windowclass name="charsheet_main" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if wounded then
+    			wounded.setColor(ColorManager.COLOR_HEALTH_HVY_WOUNDS);
+				end
+			end
+		</script>
+	</windowclass>
+	<windowclass name="charsheet_main" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if dying then
+    			dying.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
+				end
+			end
+		</script>
+	</windowclass>
+	<!-- Source: ct/ct_host.xml -->
+	<!-- Re-color is moved to script instead of xml to support rulesets that don't use the temphp box -->
+	<windowclass name="ct_entry" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if temphp then
+					temphp.setColor(ColorManager.COLOR_TEMP_HP);
+						elseif hptemp then
+					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
+				end
+			end
+		</script>
+	</windowclass>
+	<windowclass name="client_ct_entry" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if temphp then
+    			temphp.setColor(ColorManager.COLOR_TEMP_HP);
+						elseif hptemp then
+    			hptemp.setColor(ColorManager.COLOR_TEMP_HP);
+				end
+			end
+		</script>
+	</windowclass>
+	<windowclass name="ct_entry" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if nonlethal then
+					nonlethal.setColor(ColorManager.COLOR_HEALTH_UNCONSCIOUS);
+				end
+			end
+		</script>
+	</windowclass>
+	<windowclass name="client_ct_entry" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if nonlethal then
+					nonlethal.setColor(ColorManager.COLOR_HEALTH_UNCONSCIOUS);
+				end
+			end
+		</script>
+	</windowclass>
+
+
+
 	<framedef name="slottedmodifier">
 		<bitmap file="graphics/pngs/slottedmodifier.png" />
 		<topleft rect="0,0,37,12" />
@@ -52,4 +149,5 @@
 			</buttonfield>
 		</sheetdata>
 	</windowclass>
+
 </root>
