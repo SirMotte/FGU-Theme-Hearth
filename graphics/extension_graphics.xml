@@ -21,10 +21,21 @@
 					<buttonfield name="clicktoroll">
 						<script file="common/scripts/setTwoStateButtonColors.lua" />
 						<script>
+							function onInit()
+								if super and super.onInit then
+									super.onInit()
+								end
+								setFrameTypes();
+							end
+
 							function onValueChanged()
 								if super and super.onValueChanged then
 									super.onValueChanged()
 								end
+								setFrameTypes();
+							end
+							
+							function setFrameTypes()
 								local value = getValue();
 								if value == 0 then
 									setFrame("fielddark", 10, 8, 10, 6);
@@ -37,10 +48,21 @@
 					<buttonfield name="DClink">
 						<script file="common/scripts/setTwoStateButtonColors.lua" />
 						<script>
+							function onInit()
+								if super and super.onInit then
+									super.onInit()
+								end
+								setFrameTypes();
+							end
+
 							function onValueChanged()
 								if super and super.onValueChanged then
 									super.onValueChanged()
 								end
+								setFrameTypes();
+							end
+							
+							function setFrameTypes()
 								local value = getValue();
 								if value == 0 then
 									setFrame("fielddark", 10, 8, 10, 6);
@@ -53,10 +75,21 @@
 					<buttonfield name="autoroll">
 						<script file="common/scripts/setTwoStateButtonColors.lua" />
 						<script>
+							function onInit()
+								if super and super.onInit then
+									super.onInit()
+								end
+								setFrameTypes();
+							end
+
 							function onValueChanged()
 								if super and super.onValueChanged then
 									super.onValueChanged()
 								end
+								setFrameTypes();
+							end
+							
+							function setFrameTypes()
 								local value = getValue();
 								if value == 0 then
 									setFrame("fielddark", 10, 8, 10, 6);
@@ -69,10 +102,21 @@
 					<buttonfield name="deselectonroll">
 						<script file="common/scripts/setTwoStateButtonColors.lua" />
 						<script>
+							function onInit()
+								if super and super.onInit then
+									super.onInit()
+								end
+								setFrameTypes();
+							end
+
 							function onValueChanged()
 								if super and super.onValueChanged then
 									super.onValueChanged()
 								end
+								setFrameTypes();
+							end
+							
+							function setFrameTypes()
 								local value = getValue();
 								if value == 0 then
 									setFrame("fielddark", 10, 8, 10, 6);
@@ -84,10 +128,6 @@
 					</buttonfield>
 					<buttoncontrol name="mirrortargeting">
 						<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
-						<frame name="buttonup" offset="10,8,10,6" />
-						<stateframe>
-							<pressed name="buttondown" offset="10,8,10,6" nobaseframe="true" />
-						</stateframe>
 					</buttoncontrol>
 				</sheetdata>
 			</windowclass>
