@@ -157,7 +157,7 @@
             <script>
                   function onValueChanged(...)
                     if super and super.onValueChanged then super.onValueChanged(...); end
-                    local sColor = ColorManager.COLOR_TOKEN_HEALTH_DYING_OR_DEAD;
+                    local sColor = ColorManager.COLOR_HEALTH_DYING_OR_DEAD;
                     if getValue() == 1 then
                       sColor = ColorManager.COLOR_SECONDARY_FOREGROUND;
                     end
