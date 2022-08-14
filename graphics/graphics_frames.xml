@@ -595,8 +595,8 @@
 		<offset>100,30,100,30</offset>
 	</framedef>
 
-<!--PFRPG2 Refblocks-->
-<framedef name="referenceblock-pfgreen">
+<!--PFRPG2-->
+	<framedef name="referenceblock-pfgreen">
 		<bitmap file="graphics/pngs/refblock_pfgreen.png" />
 		<offset>100,50,100,50</offset>
 	</framedef>
@@ -703,6 +703,15 @@
 	<framedef name="referenceblock-horns">
 		<bitmap file="graphics/pngs/refblock_horns.png" />
 		<offset>100,50,100,50</offset>
+	</framedef>
+
+	<framedef name="groupbox2">
+		<bitmap file="graphics/pngs/groupbox2.png" />
+		<offset>15,15,16,16</offset>
+	</framedef>
+	<framedef name="groupbox3">
+		<bitmap file="graphics/pngs/groupbox3.png" />
+		<offset>18,18,17,17</offset>
 	</framedef>
 
 <!-- Scrollbar -->

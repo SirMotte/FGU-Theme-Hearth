@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-<!-- sidebar -->
+<!--Ruleset Icons-->
+	<icon name="rulesetlogo_CoreRPG" file="graphics/pngs/rulesetlogo_CoreRPG.png" />
+	<icon name="rulesetlogo_PFRPG2" file="graphics/pngs/rulesetlogo_PFRPG2.png" />
+
 <!-- CoreRPG -->
 	<icon name="sidebar_icon_default" file="graphics/pngs/sidebar_icon_default.png" />
 	<icon name="sidebar_icon_link_ct" file="graphics/pngs/sidebar_icon_link_ct.png" />
@@ -66,9 +69,15 @@
 	<icon name="token_empty" file="graphics/pngs/token_empty.png" />
 	<icon name="char_encumbrance" file="graphics/pngs/char_encumbrance.png" />
 	<icon name="char_inv_carried_header" file="graphics/pngs/char_inv_carried_header.png" />
+
 	<icon name="char_weapon_melee" file="graphics/pngs/char_weapon_melee.png" />
 	<icon name="char_weapon_ranged" file="graphics/pngs/char_weapon_ranged.png" />
 	<icon name="char_weapon_thrown" file="graphics/pngs/char_weapon_thrown.png" />
+	<icon name="char_weapon" file="graphics/pngs/char_weapon.png" />
+	<icon name="char_weapon_hand1" file="graphics/pngs/char_weapon_hand1.png" />
+	<icon name="char_weapon_hand2" file="graphics/pngs/char_weapon_hand2.png" />
+	<icon name="char_weapon_handoff" file="graphics/pngs/char_weapon_handoff.png" />
+
 	<icon name="char_name" file="graphics/pngs/char_name.png" />
 	<icon name="char_race" file="graphics/pngs/char_race.png" />
 	<icon name="char_background" file="graphics/pngs/char_background.png" />
@@ -87,6 +96,7 @@
 	<icon name="char_inventory" file="graphics/pngs/char_inventory.png" />
 	<icon name="char_treasure" file="graphics/pngs/char_treasure.png" />
 	<icon name="char_notes" file="graphics/pngs/char_notes.png" />
+
 	<icon name="button_char_inv_none" file="graphics/pngs/button_inv_none.png" />
 	<icon name="button_char_inv_carried" file="graphics/pngs/button_inv_carried.png" />
 	<icon name="button_char_inv_equipped" file="graphics/pngs/button_inv_equipped.png" />
@@ -97,26 +107,28 @@
 	<icon name="minimized_charequipment" file="graphics/pngs/minimized_charequipment.png" />
 	<icon name="minimized_charnotes" file="graphics/pngs/minimized_charnotes.png" />
 	<icon name="char_armorcheck" file="graphics/pngs/char_armorcheck.png" />
-	<icon name="char_weapon_hand1" file="graphics/pngs/char_weapon_hand1.png" />
-	<icon name="char_weapon_hand2" file="graphics/pngs/char_weapon_hand2.png" />
-	<icon name="char_weapon_handoff" file="graphics/pngs/char_weapon_handoff.png" />
+
 	<icon name="char_attuned" file="graphics/pngs/char_attuned.png" />
 
-	<!--Character List-->
+<!--Character List-->
 	<icon name="charlist_pointer" file="graphics/pngs/charlist_pointer.png" />
+	<icon name="charlist_typing" file="graphics/pngs/charlist_typing.png" />
+	<icon name="charlist_idling" file="graphics/pngs/charlist_idling.png" />
+	<icon name="charlist_afk" file="graphics/pngs/charlist_afk.png" />
 
-	<!-- Encounters -->
+
+<!-- Encounters -->
 	<icon name="button_enc_refreshcr" file="graphics/pngs/button_ctnextround.png" />
 	<icon name="button_enc_refreshcr_down" file="graphics/pngs/button_ctnextround_down.png" />
 	<icon name="button_enc_refreshxp" file="graphics/pngs/button_ctnextround.png" />
 	<icon name="button_enc_refreshxp_down" file="graphics/pngs/button_ctnextround_down.png" />
 
-	<!--Assetmenu-->
+<!--Assetmenu-->
 	<icon name="button_asset_prev" file="graphics/pngs/button_asset_prev.png"/>
 	<icon name="button_asset_next" file="graphics/pngs/button_asset_next.png"/>
 	<icon name="asset_preview" file="graphics/pngs/asset_preview.png"/>
 
-	<!-- Override CoreRPG -->
+<!-- Override CoreRPG -->
 	<!-- Common -->
 	<icon name="button_close" file="graphics/pngs/button_close.png" />
 	<icon name="button_close_down" file="graphics/pngs/button_close_down.png" />
@@ -158,11 +170,11 @@
 	<icon name="button_effects" file="graphics/pngs/button_effects.png" />
 	<icon name="button_effects_down" file="graphics/pngs/button_effects_down.png" />
 
-	<!-- Ruleset: 4E -->
+<!-- Ruleset: 4E -->
 	<icon name="button_tracker" file="graphics/pngs/button_tracker.png" />
 	<icon name="button_tracker_down" file="graphics/pngs/button_tracker_down.png" />
 
-	<!-- Combat Tracker -->
+<!-- Combat Tracker -->
 	<icon name="button_fist" file="graphics/pngs/button_fist.png" />
 	<icon name="button_fist_down" file="graphics/pngs/button_fist_down.png" />
 	<icon name="button_sword" file="graphics/pngs/button_sword.png" />
@@ -193,7 +205,7 @@
 	<icon name="button_ctnextactor" file="graphics/pngs/button_ctnextactor.png" />
 	<icon name="button_ctnextactor_down" file="graphics/pngs/button_ctnextactor_down.png" />
 
-	<!-- Ruleset: SavageWorlds -->
+<!-- Ruleset: SavageWorlds -->
 	<icon name="button_tools" file="graphics/pngs/button_tools.png"/>
 	<icon name="button_tools_down" file="graphics/pngs/button_tools_down.png"/>
 
@@ -250,7 +262,7 @@
 
 
 
-	<!-- Chat window -->
+<!-- Chat window -->
 	<icon name="chat_speak" file="graphics/pngs/chat_speak.png" />
 	<icon name="chat_story" file="graphics/pngs/chat_story.png" />
 	<icon name="chat_action" file="graphics/pngs/chat_action.png" />
@@ -266,7 +278,7 @@
 	<icon name="poll_empty" file="graphics/pngs/poll_empty.png" />
 	<icon name="poll_negative" file="graphics/pngs/poll_negative.png" />
 
-	<!-- Common -->
+<!-- Common -->
 	<icon name="actions" file="graphics/pngs/actions.png" />
 	<icon name="actions_down" file="graphics/pngs/actions_down.png" />
 	<icon name="button_details" file="graphics/pngs/button_details.png" />
@@ -314,7 +326,7 @@
 	<icon name="button_action_attack" file="graphics/pngs/button_action_attack.png" />
 	<icon name="button_action_attack_down" file="graphics/pngs/button_action_attack_down.png" />
 
-		<!-- Buttons -->
+<!-- pngs -->
 	<icon name="button_toggle_visible" file="graphics/pngs/button_toggle_visible.png" />
 	<icon name="button_toggle_gm" file="graphics/pngs/button_toggle_gm.png" />
 	<icon name="button_toggle_on" file="graphics/pngs/button_toggle_on.png" />
@@ -327,45 +339,51 @@
 	<icon name="button_toggle_trgt" file="graphics/pngs/button_toggle_trgt.png" />
 	<icon name="button_toggle_self" file="graphics/pngs/button_toggle_self.png" />
 
-	<!-- Master index -->
+<!-- Master index -->
 	<icon name="button_page_start" file="graphics/pngs/arrow_sm_first.png" />
 	<icon name="button_page_prev" file="graphics/pngs/arrow_sm_left.png" />
 	<icon name="button_page_next" file="graphics/pngs/arrow_sm_right.png" />
 	<icon name="button_page_end" file="graphics/pngs/arrow_sm_last.png" />
 	<icon name="button_page_top" file="graphics/pngs/arrow_sm_up.png" />
 
-	<!-- pngs tower -->
+<!-- pngs tower -->
 	<icon name="pngstower_icon" file="graphics/pngs/dicetower_icon.png" />
 	<icon name="pngstower_drop" file="graphics/pngs/dicetower_drop.png" />
 	<icon name="pngstower_normal" file="graphics/pngs/dicetower_normal.png" />
-	<!-- Dragging -->
+
+<!-- Dragging -->
 	<icon name="action_attack" file="graphics/pngs/action_attack.png" />
 	<icon name="action_damage" file="graphics/pngs/action_damage.png" />
 	<icon name="action_heal" file="graphics/pngs/action_heal.png" />
 	<icon name="action_effect" file="graphics/pngs/action_effect.png" />
 	<icon name="action_option" file="graphics/pngs/action_option.png" />
-	<!-- Library / Modules -->
+
+<!-- Library / Modules -->
 	<icon name="module_loaded" file="graphics/pngs/module_loaded.png" />
 	<icon name="module_unloaded" file="graphics/pngs/module_unloaded.png" />
 	<icon name="module_loading" file="graphics/pngs/module_loading.png" />
 	<icon name="module_unloading" file="graphics/pngs/module_unloading.png" />
 	<icon name="module_stateblocked" file="graphics/pngs/module_stateblocked.png" />
 	<icon name="module_stateallowed" file="graphics/pngs/module_stateallowed.png" />
-	<!-- Calendar -->
+
+<!-- Calendar -->
 	<icon name="dot_red" file="graphics/pngs/dot_red.png" />
 	<icon name="dot_blue" file="graphics/pngs/dot_blue.png" />
-	<!-- Campaign records -->
+
+<!-- Campaign records -->
 	<icon name="record_public" file="graphics/pngs/record_public.png" />
 	<icon name="record_shared" file="graphics/pngs/record_shared.png" />
 	<icon name="record_readonly" file="graphics/pngs/record_readonly.png" />
 	<icon name="record_intact" file="graphics/pngs/record_intact.png" />
 	<icon name="record_dirty" file="graphics/pngs/record_dirty.png" />
-		<!-- Tables -->
+
+<!-- Tables -->
 	<icon name="button_add_table_guided" file="graphics/pngs/button_add_table_guided.png" />
 	<icon name="button_add_table_guided_down" file="graphics/pngs/button_add_table_guided_down.png" />
 	<icon name="button_col_insert" file="graphics/pngs/button_col_insert.png" />
 	<icon name="button_col_delete" file="graphics/pngs/button_col_delete.png" />
-	<!-- Images -->
+
+<!-- Images -->
 	<icon name="image_pin" file="graphics/pngs/image_pin.png" />
 	<icon name="image_pin_public" file="graphics/pngs/image_pin_public.png" />
 	<icon name="image_loading" file="graphics/pngs/image_loading.png" />
@@ -408,9 +426,9 @@
 	<icon name="cond_surprised" file="graphics/pngs/token_cond_surprised.png" />
 	<icon name="cond_unconscious" file="graphics/pngs/token_cond_unconscious.png" />
 	<icon name="cond_weakened" file="graphics/pngs/token_cond_weakened.png" />
--->
-	<!-- Tokens - Effects - Common -->
-<!--
+
+	Tokens - Effects - Common
+
 	<icon name="cond_advantage" file="graphics/pngs/token_cond_advantage.png" />
 	<icon name="cond_bleed" file="graphics/pngs/token_cond_bleed.png" />
 	<icon name="cond_cover" file="graphics/pngs/token_cond_cover.png" />
@@ -490,7 +508,7 @@
 	<icon name="tool_shortcut_30" file="graphics/pngs/tool_shortcut.png" />
 	<icon name="tool_preview_30" file="graphics/pngs/tool_preview.png" />
 
-<!--	<icon name="refresh" file="graphics/pngs/refresh.png" />-->
+<!--<icon name="refresh" file="graphics/pngs/refresh.png" />-->
 	<!-- Modifier Stack -->
 	<icon name="modcollector" file="graphics/pngs/modcollector.png" />
 
@@ -498,8 +516,14 @@
 	<!-- Hotkeys -->
 	<icon name="empty" file="graphics/pngs/empty.png" />
 
-	<!--PFRPG / 3.5E-->
-		<!-- Spells -->
+<!--PFRPG 1/2/3.5E-->
+	<!-- Common -->
+		<icon name="question" file="graphics/pngs/question.png" />
+		<icon name="star" file="graphics/pngs/star.png" />
+		<icon name="expand" file="graphics/pngs/expand.png" />
+		<icon name="expand_down" file="graphics/pngs/expand_down.png" />
+
+	<!-- Spells -->
 		<icon name="caster_prep" file="graphics/pngs/caster_prep.png" />
 		<icon name="caster_points" file="graphics/pngs/caster_points.png" />
 		<icon name="caster_spontaneous" file="graphics/pngs/caster_spontaneous.png" />
@@ -514,6 +538,21 @@
 		<icon name="icon_freeaction" file="graphics/pngs/Action - Free - Alpha BG - 20x20.png" />
 		<icon name="icon_2actions" file="graphics/pngs/Action - Two Actions - Alpha BG - 31x20.png" />
 		<icon name="icon_3actions" file="graphics/pngs/Action - Three Actions - Alpha BG - 41x20.png" />
+
+		<icon name="button_toggle_start" file="graphics/pngs/button_toggle_start.png" />
+		<icon name="button_toggle_end" file="graphics/pngs/button_toggle_end.png" />
+
+		<icon name="button_action_effect_applyall" file="graphics/pngs/button_action_effect_applyall.png" />
+		<icon name="button_action_effect_applyall_down" file="graphics/pngs/button_action_effect_applyall_down.png" />
+
+		<icon name="button_toggle_cat" file="graphics/pngs/button_toggle_cat.png" />
+		<icon name="button_toggle_grp" file="graphics/pngs/button_toggle_grp.png" />
+		<icon name="button_toggle_name" file="graphics/pngs/button_toggle_name.png" />
+
+		<icon name="button_chareffect_ct_on" file="graphics/pngs/button_chareffect_ct_on.png" />
+		<icon name="button_chareffect_ct_off" file="graphics/pngs/button_chareffect_ct_off.png" />
+		<icon name="button_pceffect_ct_on" file="graphics/pngs/button_pceffect_ct_on.png" />
+		<icon name="button_pceffect_ct_off" file="graphics/pngs/button_pceffect_ct_off.png" />
 
 		<icon name="char_quicklist" file="graphics/pngs/char_quicklist.png" />
 		<!-- Powers -->
@@ -554,5 +593,7 @@
 		<icon name="button_skillpe_down" file="graphics/pngs/button_skillpe_down.png" />
 		<icon name="button_skillpr" file="graphics/pngs/button_skillpr.png" />
 		<icon name="button_skillpr_down" file="graphics/pngs/button_skillpr_down.png" />
+
+		<icon name="char_coin" file="graphics/pngs/char_coin.png" />
 
 </root>
