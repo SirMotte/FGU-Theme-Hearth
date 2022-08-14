@@ -712,7 +712,7 @@
 		<font name="tabfont">
 			<fgffile name="graphics/fonts/regular-10.fgf" />
 			<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="16" />
-			<color value="#EBDDBA" />
+			<color value="#EBDDBA" /> <!-- Replacable Color: Primary Foreground -->
 		</font>
 
 </root>
