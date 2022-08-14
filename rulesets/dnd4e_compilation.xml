@@ -17,4 +17,8 @@
 			</stringfield>
 		</sheetdata>
 	</windowclass>
+	<framedef name="acicon">
+		<bitmap file="graphics/pngs/acicon_pfrpg.png" />
+		<topleft rect="0,0,40,44" />
+	</framedef>
 </root>

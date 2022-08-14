@@ -1,46 +1,58 @@
-@@ -1,42 +1,43 @@
 [SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.7 - Constipated Seagull[/B][/COLOR][/SIZE]
 
 [B]Anouncement:[/B]
+    This weeks update is now live on the forge. It adds Basic Support and fixes to the 3.5E, PFRPG and PFRPG2 ruleset, as well as some more extension support and tweaks to the theme.
+    It should also be ready for the upcoming update currently on "Test" if no major changes happen. 
 
-
-
-Enjoy!
-Sir Motte
+    Enjoy!
+    Sir Motte
 
 [B]Added Ruleset support:[/B]
-3.5E - Basic support -Special Thanks to bmos and Zarestria
-PFRPG - Basic support - Special Thanks to bmos and Zarestria
+
+Special Thanks to the Unofficial Developers Guild for help and guidance!
+    [LIST]
+        [*]3.5E - Basic support
+        [*]4E - Basic support
+        [*]PFRPG - Basic support
+        [*]PFRPG2 - Basic Support -renewed
+    [/LIST]
+All additional Rulesets are WIP and still have some missing icons and frames here and there, but work for the most part.
 
 [B]Changelog - Theme Elements:[/B]
-[LIST]
-[*]Expand Icon used in 3.5E adjusted to be in line with theme colors.
-[*]slottedmodifier.png and slottedbonus.png used by PFRPG 1+2 and 3.5E (and maybe others) adjusted to fit my theme.
-[*]Fixed some icons for PFRPG 2
-[*]Fixed some fontcolors in the inventory for PFRPG2
-[/LIST]
+    [LIST]
+        [*]Expand Icon used in 3.5E adjusted to be in line with theme colors.
+        [*]slottedmodifier.png and slottedbonus.png used by PFRPG 1+2 and 3.5E (and maybe others) adjusted to fit my theme.
+        [*]Fixed some icons for PFRPG 2
+        [*]Fixed some fontcolors in the inventory, Combat Tracker and Character Sheet for PFRPG 1+2 and 3.5E
+        [*]Uniformized Button down state and button down state toggle within the theme.
+        [*]Updated Chat Icon template be 32x32px instead of 30x30. Large Announcement Icons remain at 42x42px.
+        [*]Changed Whisper and Stop Chat Indicator to match new 32x32px template.
+        [*]Changed font from regual to bold for small CT buttons.
+        [*]Added new sidebar icons for other rulesets (not all done yet)
+        [*]Fixed Pathfinder xml definitions that prevented my graphics from showing up correctly.
+        [*]Changed Ruleset Announcement Icon to be in line with the theme.
+        [*]Changed GM Token.
+        [*]Changed dice chat icons to be more clear and better to understand at a glance (Cheers TheoGeek, who spotted my lazyness :p)
+    [/LIST]
 
 [B]Added Extension Support:[/B]
-[LIST]
-[*]
-[/LIST]
+    [LIST]
+        [*]
+    [/LIST]
 
 [B]Supported Extension changes:[/B]
-[LIST]
-[*]Changed Better Combat Effects Gold Save Icon to adhere to the new theme definition set in Beta 2.9.6.
-[*]Added Announcement Icon for Pack Tactics, Automatic Halfling Luck and Automatic Flanking and Range by Kent McCullough. Thanks Kent :).
-Thanks SR for adding in the needed definitions!
-[*]Added Announcement Icon of Assistant GM by Silent Ruin.
-[*]Added Announcement Icon of Generic Actions by Silent Ruin.
-[*]Added Announcement Icon of Combat Groups by Silent Ruin.
-[*]Added Announcement Icon of Map Parcel by Silent Ruin.
-[*]Added Announcement Icon of Polymorphism by Silent Ruin.
-
-Thanks bmos for adding in the needed code!
-[*]Added Announcement Icon of Hit Margins by bmos.
-[*]Added Announcement Icon of Coin Weight by bmos.
-[*]Remade the action buttons of Arcane Ward by bmos again.
-
-[*]Button fixes for Requested Rolls by mccartysr (Thanks!)
-
-[/LIST]
+    [LIST]
+        [*]Changed Better Combat Effects Gold Save Icon to adhere to the new theme definition set in Beta 2.9.6.
+        [*]Added Announcement Icon for Pack Tactics, Automatic Halfling Luck and Automatic Flanking and Range by Kent McCullough. Thanks Kent :).
+        Thanks SR for adding in the needed definitions!
+        [*]Added Announcement Icon of Assistant GM by Silent Ruin.
+        [*]Added Announcement Icon of Generic Actions by Silent Ruin.
+        [*]Added Announcement Icon of Combat Groups by Silent Ruin.
+        [*]Added Announcement Icon of Map Parcel by Silent Ruin.
+        [*]Added Announcement Icon of Polymorphism by Silent Ruin.
+        Thanks bmos for adding in the needed code!
+        [*]Added Announcement Icon of Hit Margins by bmos.
+        [*]Added Announcement Icon of Coin Weight by bmos.
+        [*]Remade the action buttons of Arcane Ward by bmos again.
+        [*]Button fixes for Requested Rolls by mccartysr (Thanks McCartysr)
+    [/LIST]
