@@ -5,7 +5,9 @@
 	<icon name="rulesetlogo_CoreRPG" file="graphics/pngs/rulesetlogo_CoreRPG.png" />
 	<icon name="rulesetlogo_PFRPG2" file="graphics/pngs/rulesetlogo_PFRPG2.png" />
 
+
 <!-- CoreRPG -->
+	<icon name="portrait_gm_token" file="graphics/pngs/portrait_gm_token.png" />
 	<icon name="sidebar_icon_default" file="graphics/pngs/sidebar_icon_default.png" />
 	<icon name="sidebar_icon_link_ct" file="graphics/pngs/sidebar_icon_link_ct.png" />
 	<icon name="sidebar_icon_link_ps" file="graphics/pngs/sidebar_icon_link_ps.png" />
