@@ -53,20 +53,7 @@
 			</numbercontrol>
 		</sheetdata>
 	</windowclass>
-	<!-- Re-color is moved to script instead of xml to support rulesets that don't use the temphp box -->
-	<windowclass name="charsheet_main" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if temphp then
-					temphp.setColor(ColorManager.COLOR_TEMP_HP);
-				end
-			end
-		</script>
-	</windowclass>
-	
+
 	<!-- Source: common/template_windows.xml -->
 	<template name="close_charsheethelper">
 		<close>
@@ -75,34 +62,9 @@
 				<right offset="-12" />
 			</anchored>
 		</close>
-	</template>	
+	</template>
 
-	<!-- Source: ct/ct_host.xml -->
-	<!-- Re-color is moved to script instead of xml to support rulesets that don't use the temphp box -->
-	<windowclass name="ct_entry" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if hptemp then
-					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
-				end
-			end
-		</script>
-	</windowclass>
-	<windowclass name="client_ct_entry" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if hptemp then
-					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
-				end
-			end
-		</script>
-	</windowclass>
+
 
 	<!-- Source: ct/ct_host.xml -->
 	<windowclass name="combattracker_host" merge="join">
@@ -118,13 +80,13 @@
 								registerMenuItem(Interface.getString("menu_rest"), "restmenu", 8);
 								registerMenuItem(Interface.getString("menu_restshort"), "rest_short", 8, 8);
 								registerMenuItem(Interface.getString("menu_restlong"), "rest_long", 8, 6);
-								
+
 								registerMenuItem(Interface.getString("menu_init"), "menu_init_radial", 7);
         						registerMenuItem(Interface.getString("menu_initall"), "menu_initall_radial", 7, 8);
         						registerMenuItem(Interface.getString("menu_initnpc"), "menu_initnpc_radial", 7, 7);
 								registerMenuItem(Interface.getString("menu_initpc"), "menu_initpc_radial", 7, 6);
 								registerMenuItem(Interface.getString("menu_initclear"), "menu_initclear_radial", 7, 4);
-															
+
 								registerMenuItem(Interface.getString("ct_menu_effectdelete"), "ct_menu_effectdelete_radial", 5);
 								registerMenuItem(Interface.getString("ct_menu_effectdeleteall"), "ct_menu_effectdeleteall_radial", 5, 7);
 								registerMenuItem(Interface.getString("ct_menu_effectdeleteexpiring"), "ct_menu_effectdeleteexpiring_radial", 5, 5);
@@ -172,7 +134,7 @@
 		</script>
 	</windowclass>
 
-	   
+
 	<template name="string_charinv_attunecalc" merge="join">
         <stringcontrol>
             <font>subwindowsmalltitle</font>

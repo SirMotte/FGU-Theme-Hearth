@@ -3,7 +3,7 @@
 <root>
 <!-- fgpro override CoreRPG & 5E ruleset graphics -->
 
-	<!-- Sidebar -->
+<!-- Sidebar -->
 	<framedef name="button_sidebar_dockitem">
 		<bitmap file="graphics/pngs/button_sidebar.png" />
 		<offset>8,8,8,8</offset>
@@ -12,29 +12,26 @@
 		<bitmap file="graphics/pngs/button_sidebar_down.png" />
 		<offset>8,8,8,8</offset>
 	</framedef>
-
-
-	<!-- Sidebar -->
-	 <framedef name="sidebar_dock_category">
-			 <bitmap file="graphics/pngs/sidebar_dock_category.png" />
-	 <offset>12,12,12,12</offset>
-	 </framedef>
-	 <framedef name="sidebar_dock_category_down">
-			 <bitmap file="graphics/pngs/sidebar_dock_category_down.png" />
-	 <offset>12,12,12,12</offset>
-	 </framedef>
-	 <framedef name="sidebar_dock_entry_icon">
-	 <bitmap file="graphics/pngs/sidebar_dock_icon.png" />
-	 <offset>12,12,12,12</offset>
-	 </framedef>
- <framedef name="sidebar_dock_entry">
-	 <bitmap file="graphics/pngs/sidebar_dock_entry.png" />
-	 <offset>12,12,12,12</offset>
- </framedef>
- <framedef name="sidebar_dock_entry_down">
-	 <bitmap file="graphics/pngs/sidebar_dock_entry_down.png" />
-	 <offset>12,12,12,12</offset>
- </framedef>
+	<framedef name="sidebar_dock_category">
+		<bitmap file="graphics/pngs/sidebar_dock_category.png" />
+	 	<offset>12,12,12,12</offset>
+	</framedef>
+	<framedef name="sidebar_dock_category_down">
+		<bitmap file="graphics/pngs/sidebar_dock_category_down.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+	<framedef name="sidebar_dock_entry_icon">
+		<bitmap file="graphics/pngs/sidebar_dock_icon.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+ 	<framedef name="sidebar_dock_entry">
+		<bitmap file="graphics/pngs/sidebar_dock_entry.png" />
+		<offset>12,12,12,12</offset>
+ 	</framedef>
+ 	<framedef name="sidebar_dock_entry_down">
+		<bitmap file="graphics/pngs/sidebar_dock_entry_down.png" />
+		<offset>12,12,12,12</offset>
+ 	</framedef>
 
 
 	<!-- MasterIndex -->
@@ -49,7 +46,7 @@
 
 <!-- Headers -->
 
-<framedef name="headerwhite">
+	<framedef name="headerwhite">
 		<bitmap file="graphics/pngs/headerwhite.png" />
 		<middle rect="0,0,128,128" />
 	</framedef>
@@ -598,8 +595,8 @@
 		<offset>100,30,100,30</offset>
 	</framedef>
 
-<!--PFRPG2 Refblocks-->
-<framedef name="referenceblock-pfgreen">
+<!--PFRPG2-->
+	<framedef name="referenceblock-pfgreen">
 		<bitmap file="graphics/pngs/refblock_pfgreen.png" />
 		<offset>100,50,100,50</offset>
 	</framedef>
@@ -706,6 +703,15 @@
 	<framedef name="referenceblock-horns">
 		<bitmap file="graphics/pngs/refblock_horns.png" />
 		<offset>100,50,100,50</offset>
+	</framedef>
+
+	<framedef name="groupbox2">
+		<bitmap file="graphics/pngs/groupbox2.png" />
+		<offset>15,15,16,16</offset>
+	</framedef>
+	<framedef name="groupbox3">
+		<bitmap file="graphics/pngs/groupbox3.png" />
+		<offset>18,18,17,17</offset>
 	</framedef>
 
 <!-- Scrollbar -->
@@ -841,7 +847,7 @@
 		<bottomright rect="96,94,48,47" />
 		<insideoffset>0,0,4,0</insideoffset>
 	</framedef>
-
+2
 	<framedef name="reference-section">
 		<bitmap file="graphics/pngs/reference-section.png" />
 		<topleft rect="0,0,1,0" />
