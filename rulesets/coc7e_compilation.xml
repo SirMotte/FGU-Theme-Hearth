@@ -17,4 +17,9 @@
 			</anchored>
 		</buttongroup_tabs>
 	</template>
+		<!-- Die Cup (Local mode) -->
+		<framedef name="collector">
+			<bitmap file="graphics/pngs/collector.png" />
+			<offset>7,7,3,3</offset>
+		</framedef>
 </root>
