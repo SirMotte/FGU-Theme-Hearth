@@ -157,9 +157,9 @@
             <script>
                   function onValueChanged(...)
                     if super and super.onValueChanged then super.onValueChanged(...); end
-                    local sColor = ColorManager.COLOR_SECONDARY_FOREGROUND;
+                    local sColor = ColorManager.COLOR_TOKEN_HEALTH_DYING_OR_DEAD;
                     if getValue() == 1 then
-                      sColor = ColorManager.COLOR_CALENDAR_BACKGROUND;
+                      sColor = ColorManager.COLOR_SECONDARY_FOREGROUND;
                     end
                     window.armormaxstatbonus.setColor(sColor);
                     window.armorcheckpenalty.setColor(sColor);
