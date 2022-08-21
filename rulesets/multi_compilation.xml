@@ -2,96 +2,16 @@
 <root>
 	<!-- Re-color is moved to script instead of xml to support rulesets that don't use the temphp box -->
 	<windowclass name="charsheet_main" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if temphp then
-    			temphp.setColor(ColorManager.COLOR_TEMP_HP);
-						elseif hptemp then
-    			hptemp.setColor(ColorManager.COLOR_TEMP_HP);
-					end
-			end
-		</script>
+		<script file="rulesets/scripts/charsheet_main_colors.lua" />
 	</windowclass>
-	<windowclass name="charsheet_main" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if wounded then
-    			wounded.setColor(ColorManager.COLOR_HEALTH_HVY_WOUNDS);
-				end
-			end
-		</script>
-	</windowclass>
-	<windowclass name="charsheet_main" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if dying then
-    			dying.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
-				end
-			end
-		</script>
-	</windowclass>
+
 	<!-- Source: ct/ct_host.xml -->
 	<!-- Re-color is moved to script instead of xml to support rulesets that don't use the temphp box -->
 	<windowclass name="ct_entry" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if temphp then
-					temphp.setColor(ColorManager.COLOR_TEMP_HP);
-						elseif hptemp then
-					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
-				end
-			end
-		</script>
+		<script file="rulesets/scripts/ct_entry_colors.lua" />
 	</windowclass>
 	<windowclass name="client_ct_entry" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if temphp then
-    			temphp.setColor(ColorManager.COLOR_TEMP_HP);
-						elseif hptemp then
-    			hptemp.setColor(ColorManager.COLOR_TEMP_HP);
-				end
-			end
-		</script>
-	</windowclass>
-	<windowclass name="ct_entry" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if nonlethal then
-					nonlethal.setColor(ColorManager.COLOR_HEALTH_UNCONSCIOUS);
-				end
-			end
-		</script>
-	</windowclass>
-	<windowclass name="client_ct_entry" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if nonlethal then
-					nonlethal.setColor(ColorManager.COLOR_HEALTH_UNCONSCIOUS);
-				end
-			end
-		</script>
+		<script file="rulesets/scripts/ct_entry_colors.lua" />
 	</windowclass>
 	<windowclass name="charsheetmini_main" merge="join">
 		<script>
@@ -112,72 +32,60 @@
 					super.onInit();
 				end
 				if temphp then
-				temphp.setColor(ColorManager.COLOR_TEMP_HP);
-						elseif hptemp then
-				hptemp.setColor(ColorManager.COLOR_TEMP_HP);
-					end
-			end
-		</script>
-	</windowclass>
-	<windowclass name="char_actions_quickref" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
+					temphp.setColor(ColorManager.COLOR_TEMP_HP);
+				elseif hptemp then
+					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
 				end
 				if wounded then
-				wounded.setColor(ColorManager.COLOR_HEALTH_HVY_WOUNDS);
-				end
-			end
-		</script>
-	</windowclass>
-	<windowclass name="char_actions_quickref" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
+					wounded.setColor(ColorManager.COLOR_HEALTH_HVY_WOUNDS);
 				end
 				if dying then
-				dying.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
+					dying.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
 				end
 			end
 		</script>
 	</windowclass>
 
 
-<!--PFRPG2=Speed-->
-<!--PFRPG1=Spellfailure-->
-<!--3.5€=Spellfailure-->
-<windowclass name="charsheet_inventory" merge="join">
-    <sheetdata>
-    <!-- Armor -->
-        <buttonfield name="usearmormaxstatbonus">
-					<!-- The following assumes that this only exists in 3.5E, PFRPG1 or PFRPG2.-->
-					<!-- This logic will likely need updating in the event that changes.-->
-            <script>
-                  function onValueChanged(...)
-                    if super and super.onValueChanged then super.onValueChanged(...); end
-                    local sColor = ColorManager.COLOR_HEALTH_DYING_OR_DEAD;
-                    if getValue() == 1 then
-                      sColor = ColorManager.COLOR_SECONDARY_FOREGROUND;
-                    end
-                    window.armormaxstatbonus.setColor(sColor);
-                    window.armorcheckpenalty.setColor(sColor);
-										if User.getRulesetName() == "PFRPG2" then
-	                      window.speedpenalty.setColor(sColor);
-	                    else
-	                      window.spellfailure.setColor(sColor);
-	                    end
-                    if super and super.encumbranceColors then super.encumbranceColors(); end -- bmos' encumbrance penalties
-                  	end
-                  function onInit()
-                    if super and super.onInit then super.onInit(); end
-                      onValueChanged();
-                    end
-            </script>
-        </buttonfield>
-    </sheetdata>
-</windowclass>
+	<!--PFRPG2=Speed-->
+	<!--PFRPG1=Spellfailure-->
+	<!--3.5€=Spellfailure-->
+	<windowclass name="charsheet_inventory" merge="join">
+		<sheetdata>
+		<!-- Armor -->
+			<buttonfield name="usearmormaxstatbonus">
+						<!-- The following assumes that this only exists in 3.5E, PFRPG1 or PFRPG2.-->
+						<!-- This logic will likely need updating in the event that changes.-->
+				<script>
+					function onValueChanged(...)
+						if super and super.onValueChanged then
+							super.onValueChanged(...);
+						end
+						local sColor = ColorManager.COLOR_HEALTH_DYING_OR_DEAD;
+						if getValue() == 1 then
+						  sColor = ColorManager.COLOR_SECONDARY_FOREGROUND;
+						end
+						window.armormaxstatbonus.setColor(sColor);
+						window.armorcheckpenalty.setColor(sColor);
+						if User.getRulesetName() == "PFRPG2" then
+							window.speedpenalty.setColor(sColor);
+						else
+							window.spellfailure.setColor(sColor);
+						end
+						if super and super.encumbranceColors then
+							super.encumbranceColors(); -- bmos' encumbrance penalties
+						end
+					end
+					function onInit()
+						if super and super.onInit then
+							super.onInit();
+						end
+						onValueChanged();
+					end
+				</script>
+			</buttonfield>
+		</sheetdata>
+	</windowclass>
 
 	<framedef name="slottedmodifier">
 		<bitmap file="graphics/pngs/slottedmodifier.png" />
