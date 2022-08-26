@@ -318,83 +318,86 @@
  				<icon name="AutomaticSpellResistance" file="graphics/extensions/kent_mccullough/Automatic_Spell_Resistance.png" />
 				<icon name="AutomaticHalflingLuck" file="graphics/extensions/kent_mccullough/Automatic_Halfling_Luck.png"/>
 				<icon name="AutomaticFlankingAndRange" file="graphics/extensions/kent_mccullough/Automatic_Flanking_and_Range.png"/>
-		<!--Ext: Turn Based Effects-->
-			<!--Icon-->
-				<icon name="TurnBasedEffects" file ="graphics/extensions/kent_mccullough/TurnBasedEffects.png" />
-		<!--Ext: Ongoing Saves -->
-			<!--Icon-->
-				<icon name="OngoingSaveEffects" file="graphics/extensions/kent_mccullough/OngoingSaveEffects.png" />
+			<!--Ext: Turn Based Effects-->
+				<!--Icon-->
+					<icon name="TurnBasedEffects" file ="graphics/extensions/kent_mccullough/TurnBasedEffects.png" />
+			<!--Ext: Ongoing Saves -->
+				<!--Icon-->
+					<icon name="OngoingSaveEffects" file="graphics/extensions/kent_mccullough/OngoingSaveEffects.png" />
 
 <!--Author: Silent Ruin-->
-	<!--Ext: Polymorphism-->
-		<!--Icon-->
+			<!--Ext: Carrier-->
+				<!--Logo-->
+				<icon name="Carrier_Logo" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
+			<!--Ext: Polymorphism-->
+				<!--Icon-->
 				<icon name="polymorphism_Logo" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_logo.png" />
 				<icon name="polymorphism_icon" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_icon.png" />
-	<!--Ext: Map Parcel-->
-		<!--Icon-->
+			<!--Ext: Map Parcel-->
+				<!--Icon-->
 				<icon name="mapparcel_Logo" file="graphics/extensions/silent_ruin/map_parcel/mapparcel_logo.png" />
 				<icon name="mapparcel_icon" file="graphics/extensions/silent_ruin/map_parcel/mapparcel_icon.png" />
-	<!--Ext: Combat Groups-->
-		<!--Icons-->
+			<!--Ext: Combat Groups-->
+				<!--Icons-->
 				<icon name="combatgroups_Logo" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_logo.png" />
 				<icon name="combatgroups_icon" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon.png" />
 				<icon name="combatgroups_icon_down" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon_down.png" />
-	<!--Ext: Generic Actions-->
-		<!--Icon-->
+			<!--Ext: Generic Actions-->
+				<!--Icon-->
 				<icon name="generic_actions_Logo" file="graphics/extensions/silent_ruin/generic_actions/generic_actions_logo.png" />
 				<icon name="generic_actions_icon" file="graphics/extensions/silent_ruin/generic_actions/generic_actions_icon.png" />
-	<!--Ext: Assistant GM-->
-		<!--Icons-->
+			<!--Ext: Assistant GM-->
+				<!--Icons-->
 				<icon name="AssistantGM_Logo" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_Logo.png" />
 				<icon name="AssistantGM_icon" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_icon.png" />
 				<icon name="AssistantGM_icon_down" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_icon_down.png" />
-	<!--Ext: Equipped Effects-->
-		<!--Icon-->
+			<!--Ext: Equipped Effects-->
+				<!--Icon-->
 				<icon name="equipped_effects_icon" file="graphics/extensions/silent_ruin/equipped_effects/equipped_effects_icon.png" />
-	<!--Ext: Death Indicator-->
-		<!--Icons-->
- 		<!-- Define the icon used in the announcement and tooltips-->
-  			<icon name="icon_death_indicator" file="graphics/extensions/silent_ruin/death_indicator/death_indicator_logo.png" />
-  			<icon name="icon_death_indicator_token" file="graphics/extensions/silent_ruin/death_indicator/death_indicator.png" />
-		<!--Define the link / shield icons for important NPCs in the combat tracker-->
-  			<icon name="button_shield" file="graphics/extensions/silent_ruin/death_indicator/button_shield_SR.png" />
-  			<icon name="button_shield_down" file="graphics/extensions/silent_ruin/death_indicator/button_shield_down_SR.png" />
-  			<icon name="button_shield_empty" file="graphics/extensions/silent_ruin/death_indicator/button_shield_empty_SR.png" />
-		<!--Font-->
-			<font name="tokenbag_empty_font">
-				<fgffile name="graphics/fonts/italic-10.fgf" />
-				<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="15" />
-				<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
-			</font>
-				<font name="sheetlabelminideathindicator">
-				<fgffile name="graphics/fonts/regular-8.fgf" />
-				<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
-				<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
-			</font>
+			<!--Ext: Death Indicator-->
+				<!--Icons-->
+				<!-- Define the icon used in the announcement and tooltips-->
+					<icon name="icon_death_indicator" file="graphics/extensions/silent_ruin/death_indicator/death_indicator_logo.png" />
+					<icon name="icon_death_indicator_token" file="graphics/extensions/silent_ruin/death_indicator/death_indicator.png" />
+				<!--Define the link / shield icons for important NPCs in the combat tracker-->
+					<icon name="button_shield" file="graphics/extensions/silent_ruin/death_indicator/button_shield_SR.png" />
+					<icon name="button_shield_down" file="graphics/extensions/silent_ruin/death_indicator/button_shield_down_SR.png" />
+					<icon name="button_shield_empty" file="graphics/extensions/silent_ruin/death_indicator/button_shield_empty_SR.png" />
+				<!--Font-->
+					<font name="tokenbag_empty_font">
+						<fgffile name="graphics/fonts/italic-10.fgf" />
+						<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="15" />
+						<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+					</font>
+						<font name="sheetlabelminideathindicator">
+						<fgffile name="graphics/fonts/regular-8.fgf" />
+						<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
+						<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+					</font>
 
-			<windowclass name="npc_combat" merge="join">
-				<sheetdata>
-					<stringcontrol name="npc_importantdeath_label">
-						<anchored to="actext" position="right" offset="-85,0" width="70" />
-						<font>sheetlabelminideathindicator</font>
-						<nodrag />
-						<static textres="str_importantdeath_npc" />
-					</stringcontrol>
-				</sheetdata>
-			</windowclass>
-		<!--Define the icons for the blood splat images
-  			<icon name="blood_01" file="graphics/extensions/silent_ruin/death_indicator/blood_01.png" />
-  			<icon name="blood_02" file="graphics/extensions/silent_ruin/death_indicator/blood_02.png" />
-  			<icon name="blood_03" file="graphics/extensions/silent_ruin/death_indicator/blood_03.png" />
-  			<icon name="blood_04" file="graphics/extensions/silent_ruin/death_indicator/blood_04.png" />
-  			<icon name="blood_05" file="graphics/extensions/silent_ruin/death_indicator/blood_05.png" />
-  			<icon name="blood_06" file="graphics/extensions/silent_ruin/death_indicator/blood_06.png" />
-  			<icon name="blood_07" file="graphics/extensions/silent_ruin/death_indicator/blood_07.png" />
-  			<icon name="blood_08" file="graphics/extensions/silent_ruin/death_indicator/blood_08.png" />
-  			<icon name="blood_09" file="graphics/extensions/silent_ruin/death_indicator/blood_09.png" />
-  			<icon name="blood_10" file="graphics/extensions/silent_ruin/death_indicator/blood_10.png" />
-  			<icon name="stable_01" file="graphics/extensions/silent_ruin/death_indicator/stable_01.png" /> -->
-	
+					<windowclass name="npc_combat" merge="join">
+						<sheetdata>
+							<stringcontrol name="npc_importantdeath_label">
+								<anchored to="actext" position="right" offset="-85,0" width="70" />
+								<font>sheetlabelminideathindicator</font>
+								<nodrag />
+								<static textres="str_importantdeath_npc" />
+							</stringcontrol>
+						</sheetdata>
+					</windowclass>
+				<!--Define the icons for the blood splat images
+					<icon name="blood_01" file="graphics/extensions/silent_ruin/death_indicator/blood_01.png" />
+					<icon name="blood_02" file="graphics/extensions/silent_ruin/death_indicator/blood_02.png" />
+					<icon name="blood_03" file="graphics/extensions/silent_ruin/death_indicator/blood_03.png" />
+					<icon name="blood_04" file="graphics/extensions/silent_ruin/death_indicator/blood_04.png" />
+					<icon name="blood_05" file="graphics/extensions/silent_ruin/death_indicator/blood_05.png" />
+					<icon name="blood_06" file="graphics/extensions/silent_ruin/death_indicator/blood_06.png" />
+					<icon name="blood_07" file="graphics/extensions/silent_ruin/death_indicator/blood_07.png" />
+					<icon name="blood_08" file="graphics/extensions/silent_ruin/death_indicator/blood_08.png" />
+					<icon name="blood_09" file="graphics/extensions/silent_ruin/death_indicator/blood_09.png" />
+					<icon name="blood_10" file="graphics/extensions/silent_ruin/death_indicator/blood_10.png" />
+					<icon name="stable_01" file="graphics/extensions/silent_ruin/death_indicator/stable_01.png" /> -->
+
 	<!--Ext: Advantages-->
 		<!--Icons-->
 		<icon name="advantages_icon" file="graphics/extensions/silent_ruin/advantages/advantages_icon.png" />
@@ -624,23 +627,29 @@
 		<!-- Icons -->
 			<icon name="SizeMatter_icon" file="graphics/extensions/meandunique/size_matters/SizeMatters.png" />
 	<!-- Ext: Blissful Ignorance -->
-		<!-- Icons -->
+		<!-- Logo -->
 			<icon name="BlissfulIgnorance_icon" file="graphics/extensions/meandunique/blissful_ignorance/BlissfulIgnorance.png" />
 	<!-- Ext: Constitutional Amendments -->
-		<!-- Icons -->
+		<!-- Logo -->
 			<icon name="CA_icon" file="graphics/extensions/meandunique/constitutional_amendments/ConstitutionalAmendments.png" />
 	<!-- Ext: Bartender -->
-		<!-- Icons -->
+		<!-- Logo -->
 			<icon name="Bartender_icon" file="graphics/extensions/meandunique/bartender/Bartender.png" />
 	<!-- Ext: Temporal Fixation -->
-		<!-- Icons -->
+		<!-- Logo -->
 			<icon name="TemporalFixation" file="graphics/extensions/meandunique/temporal_fixation/TemporalFixation.png" />
 	<!--Ext: Trigger me Timbers-->
+		<!-- Logo -->
 			<icon name="TriggerMeTimbers" file="graphics/extensions/meandunique/trigger_me_timbers/TriggerMeTimbers.png" />
+		<!-- Icons -->
 			<icon name="sidebar_icon_recordtype_trigger" file="graphics/extensions/meandunique/trigger_me_timbers/trigger.png" />
 			<icon name="active_trigger" file="graphics/extensions/meandunique/trigger_me_timbers/lightning.png" />
 	<!--Ext: Capital Gains-->
+		<!-- Logo -->
 			<icon name="CapitalGains" file="graphics/extensions/meandunique/capital_gains/CapitalGains.png" />
+	<!--Ext: Verses Magicae-->
+		<!-- Logo -->
+			<icon name="VersesMagicae_icon" file="graphics/extensions/meandunique/verses_magicae/MeAndUnique_Verses_Magicae_Logo.png" />
 
 <!--Author: pr6i6est (Troy Monteith)-->
 	<!--Ext: NPC Random Treasure Drops-->

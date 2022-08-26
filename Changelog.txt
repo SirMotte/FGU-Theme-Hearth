@@ -1,7 +1,7 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.8 - Cotton Shield[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.8 - Rubber Wand[/B][/COLOR][/SIZE]
 
-[B]Anouncement:[/B]
-    This weeks update is now live on the Forge and Github. Update your FG Client or Grab it from the Github link.
+[B]Announcement:[/B]
+    This weeks update is now live on the Forge and GitHub. Update your FG Client or Grab it from the GitHub link.
 
     xxxxx
 
@@ -23,10 +23,10 @@ Special Thanks to the Unofficial Developers Guild for help and guidance!
 
 [B]Added Extension Support:[/B]
     [LIST]
-        [*]
+        [*]Added Icon support for Carrier by Silent Ruin - Thank for providing everything necessary :).
     [/LIST]
 
 [B]Supported Extension changes:[/B]
     [LIST]
-        [*]
+        [*]Changed Moon Tracker (by DMFirmy and bmos) Icon button down state to be in line with the rest of the theme.
     [/LIST]
