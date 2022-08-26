@@ -1,4 +1,4 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.8 - Rubber Wand[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.8 - Baldurs Catdoor[/B][/COLOR][/SIZE]
 
 [B]Announcement:[/B]
     This weeks update is now live on the Forge and GitHub. Update your FG Client or Grab it from the GitHub link.
@@ -29,4 +29,5 @@ Special Thanks to the Unofficial Developers Guild for help and guidance!
 [B]Supported Extension changes:[/B]
     [LIST]
         [*]Changed Moon Tracker (by DMFirmy and bmos) Icon button down state to be in line with the rest of the theme.
+        [*]5E and other Rulesets - Fixed Constitutional Amendments Temporary HP Color (again).
     [/LIST]
