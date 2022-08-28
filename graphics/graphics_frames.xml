@@ -939,42 +939,42 @@
 
    <!--Combat Tracker-->
    <framedef name="ctaentrybox">
-    <bitmap file="graphics/frames/ctaentrybox.png" />
+    <bitmap file="graphics/pngs/ctaentrybox.png" />
     <offset>2,2,2,2</offset>
   </framedef>
 
   <framedef name="ctaentrybox_active">
-    <bitmap file="graphics/frames/ctaentrybox_active.png" />
+    <bitmap file="graphics/pngs/ctaentrybox_active.png" />
     <offset>17,16,14,17</offset>
   </framedef>
 
   <framedef name="ctaentrybox_friend">
-    <bitmap file="graphics/frames/ctaentrybox_friend.png" />
+    <bitmap file="graphics/pngs/ctaentrybox_friend.png" />
     <offset>17,16,14,17</offset>
   </framedef>
 
   <framedef name="ctaentrybox_friend_active">
-    <bitmap file="graphics/frames/ctaentrybox_friend_active.png" />
+    <bitmap file="graphics/pngs/ctaentrybox_friend_active.png" />
     <offset>17,16,14,17</offset>
   </framedef>
 
   <framedef name="ctaentrybox_neutral">
-    <bitmap file="graphics/frames/ctaentrybox_neutral.png" />
+    <bitmap file="graphics/pngs/ctaentrybox_neutral.png" />
     <offset>17,16,14,17</offset>
   </framedef>
 
   <framedef name="ctaentrybox_neutral_active">
-    <bitmap file="graphics/frames/ctaentrybox_neutral_active.png" />
+    <bitmap file="graphics/pngs/ctaentrybox_neutral_active.png" />
     <offset>17,16,14,17</offset>
   </framedef>
 
   <framedef name="ctaentrybox_foe">
-    <bitmap file="graphics/frames/ctaentrybox_foe.png" />
+    <bitmap file="graphics/pngs/ctaentrybox_foe.png" />
     <offset>17,16,14,17</offset>
   </framedef>
   
   <framedef name="ctaentrybox_foe_active">
-    <bitmap file="graphics/frames/ctaentrybox_foe_active.png" />
+    <bitmap file="graphics/pngs/ctaentrybox_foe_active.png" />
     <offset>17,16,14,17</offset>
   </framedef>
 
