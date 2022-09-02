@@ -1,15 +1,15 @@
 [SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.8 - Baldurs Cat Flap[/B][/COLOR][/SIZE]
 
 [B]Announcement:[/B]
-    This weeks update is now live on the Forge or GitHub.
+    This weeks update is now live on the Forge and GitHub.
 
-    It focuses on bringing in basic support for the ADND/ 2E ruleset! I can tell how much the 2E community cherishes this ruleset, as never before I've had so many help offerings and issue reports than with this ruleset.
+    It focuses on bringing in basic support for (ADnD)2E! I can tell how much the 2E community cherishes this ruleset, as never before I've had so many help offerings and issue reports than with this ruleset.
     A whopping 23 different players reported to me within a week! Fantastic!
 
     I hope you're now able to fully enjoy Hearth Theme in 2E!
 
-    As always special thanks to MeAndUnique and Saagael, as well as all the wonderful folks at the Unofficial Developers Guild, as well as Derek From Fantasy Grounds.
-    Also big thanks to
+    As always special thanks to MeAndUnique and Saagael, as well as all the wonderful folks at the Unofficial Developers Guild, as well as Derek From Fantasy Grounds (and Smiteworks in general)
+
 
     Enjoy!
     Sir Motte
@@ -22,10 +22,12 @@
 [B]Changelog - Theme Elements:[/B]
     [LIST]
         [*]Exchanged Import/Export button to make more sense - Import = Arrow Down / Export = Arrow Up.
-        [*]Changes Portrait Frame. While I like the original, it felt a little bit off.
+        [*]Changes Portrait Frame. While I like the original, it felt a little bit off style wise.
         [*]Changed Reference Manual Chapter Font Color from Orange to Yellow.
         [*]Changed Chat "Stop" indicator from "halt" hand to exclamation mark, to be more universal.
         [*]Changed Radial Menu Initiative icon to use a Bold Exclamation mark instead of the regular one.
+        [*]Increased Border size of custom roll window buttons to 2px, in order to not produce weird aliasing effects.
+        [*]Changed Character Sheet Tab Font from Regular to Bold (Black).
     [/LIST]
 
 [B]Added Extension Support:[/B]
