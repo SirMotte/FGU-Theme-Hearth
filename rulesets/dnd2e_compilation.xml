@@ -53,6 +53,88 @@
   </framedef>
  -->
 
+   <!-- More Reference Blocks -->
+   <framedef name="referenceblock-paper1">
+    <bitmap file="graphics/pngs/refblock_paper1.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-paper2">
+    <bitmap file="graphics/pngs/refblock_paper2.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-paper3">
+    <bitmap file="graphics/pngs/refblock_paper3.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-paper4">
+    <bitmap file="graphics/pngs/refblock_paper4.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-paper5">
+    <bitmap file="graphics/pngs/refblock_paper5.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-text2">
+    <bitmap file="graphics/pngs/refblock_text2.png" />
+    <offset>50,60,50,60</offset>
+  </framedef>
+  <framedef name="referenceblock-text3">
+    <bitmap file="graphics/pngs/refblock_text3.png" />
+    <offset>50,60,50,60</offset>
+  </framedef>
+  <framedef name="referenceblock-text4">
+    <bitmap file="graphics/pngs/refblock_text4.png" />
+    <offset>50,60,50,60</offset>
+  </framedef>
+  <framedef name="referenceblock-sidebar">
+    <bitmap file="graphics/pngs/refblock_sidebar.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+  <framedef name="referenceblock-picture">
+    <bitmap file="graphics/pngs/refblock_picture.png" />
+    <offset>32,30,32,30</offset>
+  </framedef>
+
+  <framedef name="referenceblock-horror1">
+    <bitmap file="graphics/pngs/refblock_horror1.png" />
+    <offset>100,60,60,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-horror6">
+    <bitmap file="graphics/pngs/refblock_horror6.png" />
+    <offset>100,60,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-add">
+    <bitmap file="graphics/pngs/refblock_add.png" />
+    <offset>100,60,184,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-diceset">
+    <bitmap file="graphics/pngs/refblock_diceset.png" />
+    <offset>100,60,184,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-3d6">
+    <bitmap file="graphics/pngs/refblock_3d6.png" />
+    <offset>100,60,90,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-web">
+    <bitmap file="graphics/pngs/refblock_web.png" />
+    <offset>100,60,90,50</offset>
+  </framedef>
+
+  <framedef name="groupbox">
+    <bitmap file="graphics/pngs/groupboxlight.png" />
+    <offset>18,18,17,17</offset>
+  </framedef>
+
 <!--Combat Tracker-->
    <framedef name="ctaentrybox">
     <bitmap file="graphics/pngs/ctaentrybox.png" />
