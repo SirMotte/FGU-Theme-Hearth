@@ -3,21 +3,29 @@
 [B]Announcement:[/B]
     This weeks update is now live on the Forge or GitHub.
 
-    It focuses on bringing in basic support for the 2E ruleset. Right now 2E still has a lot of missing frames, but the glaring issues in the character sheet and Combat tracker have been taken care of.
-    The rest will follow piecemeal with the coming updates. Also, while I had planned to make 3.0 the big release for leaving beta and branching out again, I will postpone this to another version number,
-    as the inclusion of additional rulesets and the changes by Smiteworks make some adjustments under the hood necessary.
+    It focuses on bringing in basic support for the 2E ruleset! I can tell how much the 2E community cherishes this ruleset, as never before I had so many help offerings and issue reports than with this ruleset.
+    A whopping 23 different players reported to me! Fantastic!
+
+    I hope you're now able to fully enjoy Hearth Theme in 2E!
+
+    As always special thanks to MeAndUnique and Saagael, as well as all the wonderful folks at the Unofficial Developers Guild, as well as Derek From Fantasy Grounds.
+    Also big thanks to
 
     Enjoy!
     Sir Motte
 
 [B]Added Ruleset support:[/B]
     [LIST]
-        [*]Basic 2E support - Heavily WIP
+        [*]Basic 2E support
     [/LIST]
 
 [B]Changelog - Theme Elements:[/B]
     [LIST]
         [*]Exchanged Import/Export button to make more sense - Import = Arrow Down / Export = Arrow Up.
+        [*]Changes Portrait Frame. While I like the original, it felt a little bit off.
+        [*]Changed Reference Manual Chapter Font Color from Orange to Yellow.
+        [*]Changed Chat "Stop" indicator from "halt" hand to exclamation mark, to be more universal.
+        [*]Changed Radial Menu Initiative icon to use a Bold Exclamation mark instead of the regular one.
     [/LIST]
 
 [B]Added Extension Support:[/B]

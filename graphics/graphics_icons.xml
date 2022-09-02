@@ -7,6 +7,11 @@
 
 
 <!-- CoreRPG -->
+	<!-- Portrait -->
+	<icon name="charlist_base" file="graphics/pngs/portrait.png" />
+	<icon name="portraitchat_base" file="graphics/pngs/portrait_chat.png" />
+	<icon name="portraittoken_base" file="graphics/pngs/portrait_token.png" />
+	<icon name="miniportrait_base" file="graphics/pngs/portrait_mini.png" />
 	<icon name="portrait_gm_token" file="graphics/pngs/portrait_gm_token.png" />
 	<icon name="sidebar_icon_default" file="graphics/pngs/sidebar_icon_default.png" />
 	<icon name="sidebar_icon_link_ct" file="graphics/pngs/sidebar_icon_link_ct.png" />
@@ -281,6 +286,8 @@
 	<icon name="poll_negative" file="graphics/pngs/poll_negative.png" />
 
 <!-- Common -->
+	<icon name="button_collapse" file="graphics/pngs/button_collapse.png" />
+	<icon name="button_collapse_w" file="graphics/pngs/button_collapse_w.png" />
 	<icon name="actions" file="graphics/pngs/actions.png" />
 	<icon name="actions_down" file="graphics/pngs/actions_down.png" />
 	<icon name="button_details" file="graphics/pngs/button_details.png" />
@@ -598,4 +605,60 @@
 
 		<icon name="char_coin" file="graphics/pngs/char_coin.png" />
 
+<!-- 2E -->
+		<icon name="rulesetlogo_DungeonClassic" file="graphics/pngs/DnD_ClassicLogo.png" />
+
+	<!-- Common -->
+		<icon name="button_dialog_check_green" file="graphics/pngs/button_dialog_check_green.png" />
+		<icon name="button_dialog_check_red" file="graphics/pngs/button_dialog_check_red.png" />
+
+		<icon name="details" file="graphics/pngs/wheels-icon.png" />
+		<icon name="details_white" file="graphics/pngs/wheels-icon-white.png" />
+		<icon name="details_down" file="graphics/pngs/wheels-icon-down.png" />
+		<icon name="button_details" file="graphics/pngs/wheels-icon.png" />
+		<icon name="button_details_down" file="graphics/pngs/wheels-icon-down.png" />
+
+		<icon name="wheels_icon_double" file="graphics/pngs/wheels-icon-double.png" />
+
+	<!-- Character sheet -->
+		<icon name="char_axes" file="graphics/pngs/char_axes.png" />
+		<icon name="char_mask" file="graphics/pngs/char_mask.png" />
+		<icon name="char_spells" file="graphics/pngs/char_spells.png" />
+		<icon name="char_psion" file="graphics/pngs/char_psion.png" />
+		<icon name="char_weight" file="graphics/pngs/char_weight.png" />
+		<icon name="char_tools" file="graphics/pngs/char_tools.png" />
+		<icon name="char_defenses" file="graphics/pngs/char_defenses.png" />
+
+		<icon name="menu_icon_black" file="graphics/pngs/menu_icon_black.png" />
+		<icon name="menu_icon_white" file="graphics/pngs/menu_icon_white.png" />
+		<icon name="menu_icon_white_filled" file="graphics/pngs/menu_icon_white_filled.png" />
+
+	<!-- CT -->
+		<icon name="menu_icon_white_filled" file="graphics/pngs/menu_icon_white_filled.png" />
+
+	<!-- cta tabs -->
+		<icon name="tab_effects" file="graphics/pngs/tab_effects.png" />
+		<icon name="htabtop" file="graphics/pngs/htabtop.png" />
+		<icon name="hactive" file="graphics/pngs/htab_active.png" />
+		<icon name="tabtop_h" file="graphics/pngs/tabtop_h.png" />
+
+	<!-- tabs -->
+		<icon name="tab_weapons" file="graphics/pngs/tab_weapons.png" />
+		<icon name="tab_proficiency" file="graphics/pngs/tab_proficiency.png" />
+		<icon name="tab_details" file="graphics/pngs/tab_details.png" />
+		<icon name="tab_advance" file="graphics/pngs/tab_advancement.png" />
+
+	<!-- Powers -->
+		<icon name="reorder_black" file="graphics/pngs/drag_black.png" />
+		<icon name="reorder_white" file="graphics/pngs/drag_white.png" />
+
+  	<!-- Upper combat mini section, init/surprise/turn undead -->
+		<icon name="button_turnundead" file="graphics/pngs/button_turnundead.png" />
+		<icon name="button_surprise" file="graphics/pngs/button_surprise.png" />
+		<icon name="button_initiative" file="graphics/pngs/button_initiative.png" />
+		<icon name="button_turnundead_down" file="graphics/pngs/button_turnundead_down.png" />
+		<icon name="button_surprise_down" file="graphics/pngs/button_surprise_down.png" />
+		<icon name="button_initiative_down" file="graphics/pngs/button_initiative_down.png" />
+		<icon name="button_initdelay" file="graphics/pngs/button_initdelay.png" />
+		<icon name="button_initdelay_down" file="graphics/pngs/button_initdelay_down.png" />
 </root>

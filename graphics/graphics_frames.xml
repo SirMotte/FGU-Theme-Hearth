@@ -3,6 +3,9 @@
 <root>
 <!-- fgpro override CoreRPG & 5E ruleset graphics -->
 
+
+
+
 <!-- Sidebar -->
 	<framedef name="button_sidebar_dockitem">
 		<bitmap file="graphics/pngs/button_sidebar.png" />
@@ -893,89 +896,4 @@
 		<bitmap file="graphics/pngs/whitefieldfocus.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
-
-<!-- 2E -->
-<framedef name="sheetgroup">
-    <bitmap file="graphics/pngs/sheetgroup.png" />
-    <offset>18,18,17,17</offset>
-  </framedef>
-
-  <framedef name="abilityfields">
-    <bitmap file="graphics/pngs/abilityscore_dark.png" />
-    <offset>7,7,7,7</offset>
-  </framedef>
-
-  <framedef name="abilityscore_box">
-    <bitmap file="graphics/pngs/sheetgroup.png" />
-    <offset>9,9,9,9</offset>
-  </framedef>
-
-  <framedef name="shaded_box">
-    <bitmap file="graphics/pngs/rowshade.png" />
-    <offset>9,9,9,9</offset>
-  </framedef>
-
-  <framedef name="bonus_box">
-    <bitmap file="graphics/pngs/bonus.png" />
-    <offset>9,9,9,9</offset>
-  </framedef>
-<!--
-  <framedef name="adnd_swordicon">
-    <bitmap file="graphics/pngs/adnd_sword.png" />
-    <topleft rect="0,0,207,24" />
-  </framedef>
- -->
-  <framedef name="cta_box">
-    <bitmap file="graphics/pngs/cta_box.png" />
-    <offset>65,80,65,75</offset>
-    <insideoffset>0,0,0,0</insideoffset>
-  </framedef>
-<!--
-  <framedef name="dark_tiled">
-    <bitmap file="graphics/pngs/dark_tiled.png" />
-    <offset>9,9,9,9</offset>
-  </framedef>
- -->
-
-   <!--Combat Tracker-->
-   <framedef name="ctaentrybox">
-    <bitmap file="graphics/pngs/ctaentrybox.png" />
-    <offset>2,2,2,2</offset>
-  </framedef>
-
-  <framedef name="ctaentrybox_active">
-    <bitmap file="graphics/pngs/ctaentrybox_active.png" />
-    <offset>17,16,14,17</offset>
-  </framedef>
-
-  <framedef name="ctaentrybox_friend">
-    <bitmap file="graphics/pngs/ctaentrybox_friend.png" />
-    <offset>17,16,14,17</offset>
-  </framedef>
-
-  <framedef name="ctaentrybox_friend_active">
-    <bitmap file="graphics/pngs/ctaentrybox_friend_active.png" />
-    <offset>17,16,14,17</offset>
-  </framedef>
-
-  <framedef name="ctaentrybox_neutral">
-    <bitmap file="graphics/pngs/ctaentrybox_neutral.png" />
-    <offset>17,16,14,17</offset>
-  </framedef>
-
-  <framedef name="ctaentrybox_neutral_active">
-    <bitmap file="graphics/pngs/ctaentrybox_neutral_active.png" />
-    <offset>17,16,14,17</offset>
-  </framedef>
-
-  <framedef name="ctaentrybox_foe">
-    <bitmap file="graphics/pngs/ctaentrybox_foe.png" />
-    <offset>17,16,14,17</offset>
-  </framedef>
-  
-  <framedef name="ctaentrybox_foe_active">
-    <bitmap file="graphics/pngs/ctaentrybox_foe_active.png" />
-    <offset>17,16,14,17</offset>
-  </framedef>
-
 </root>
