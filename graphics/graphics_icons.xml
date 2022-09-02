@@ -634,10 +634,14 @@
 		<icon name="menu_icon_white_filled" file="graphics/pngs/menu_icon_white_filled.png" />
 
 	<!-- CTA -->
+		<icon name="hourglass_icon" file="graphics/pngs/hourglass.png" />
 		<icon name="menu_icon_white_filled" file="graphics/pngs/menu_icon_white_filled.png" />
+		<icon name="window_resize_filled_white" file="graphics/pngs/window_resize_filled_white.png" />
+		<icon name="window_resize_white" file="graphics/pngs/window_resize_white.png" />
 
 		<icon name="cta_visibilityon" file="graphics/pngs/cta_visibilityon.png" />
 		<icon name="cta_visibilityoff" file="graphics/pngs/cta_visibilityoff.png" />
+
 
 	<!-- cta tabs -->
 		<icon name="tab_effects" file="graphics/pngs/tab_effects.png" />
