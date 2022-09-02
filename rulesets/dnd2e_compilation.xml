@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- Source: cta_host.xml -->
+
+<!-- 2E -->
+
+<framedef name="htabs">
+	<bitmap file="graphics/pngs/htab.png" />
+	<topleft rect="0,0,29,27" />
+	<top rect="29,0,402,27" />
+	<topright rect="431,0,69,27" />
+</framedef>
+
+<framedef name="sheetgroup">
+    <bitmap file="graphics/pngs/sheetgroup.png" />
+    <offset>18,18,17,17</offset>
+  </framedef>
+
+  <framedef name="abilityfields">
+    <bitmap file="graphics/pngs/abilityscore_dark.png" />
+    <offset>7,7,7,7</offset>
+  </framedef>
+
+  <framedef name="abilityscore_box">
+    <bitmap file="graphics/pngs/sheetgroup.png" />
+    <offset>9,9,9,9</offset>
+  </framedef>
+
+  <framedef name="shaded_box">
+    <bitmap file="graphics/pngs/rowshade.png" />
+    <offset>9,9,9,9</offset>
+  </framedef>
+
+  <framedef name="bonus_box">
+    <bitmap file="graphics/pngs/bonus.png" />
+    <offset>9,9,9,9</offset>
+  </framedef>
+<!--
+  <framedef name="adnd_swordicon">
+    <bitmap file="graphics/pngs/adnd_sword.png" />
+    <topleft rect="0,0,207,24" />
+  </framedef>
+ -->
+  <framedef name="cta_box">
+    <bitmap file="graphics/pngs/cta_box.png" />
+    <offset>65,80,65,75</offset>
+    <insideoffset>0,0,0,0</insideoffset>
+  </framedef>
+<!--
+  <framedef name="dark_tiled">
+    <bitmap file="graphics/pngs/dark_tiled.png" />
+    <offset>9,9,9,9</offset>
+  </framedef>
+ -->
+
+<!--Combat Tracker-->
+   <framedef name="ctaentrybox">
+    <bitmap file="graphics/pngs/ctaentrybox.png" />
+    <offset>2,2,2,2</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_active">
+    <bitmap file="graphics/pngs/ctaentrybox_active.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_friend">
+    <bitmap file="graphics/pngs/ctaentrybox_friend.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_friend_active">
+    <bitmap file="graphics/pngs/ctaentrybox_friend_active.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_neutral">
+    <bitmap file="graphics/pngs/ctaentrybox_neutral.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_neutral_active">
+    <bitmap file="graphics/pngs/ctaentrybox_neutral_active.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_foe">
+    <bitmap file="graphics/pngs/ctaentrybox_foe.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_foe_active">
+    <bitmap file="graphics/pngs/ctaentrybox_foe_active.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+<!-- Control Frames -->
+  <framedef name="field-blue">
+    <bitmap file="graphics/pngs/field-blue.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-cyan">
+    <bitmap file="graphics/pngs/field-cyan.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-green">
+    <bitmap file="graphics/pngs/field-green.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-red">
+    <bitmap file="graphics/pngs/field-red.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-yellow">
+    <bitmap file="graphics/pngs/field-yellow.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-initiative">
+    <bitmap file="graphics/pngs/field-initiative.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+  <framedef name="field-darkgreen">
+    <bitmap file="graphics/pngs/field-darkgreen.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-darkred">
+    <bitmap file="graphics/pngs/field-darkred.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-darkyellow">
+    <bitmap file="graphics/pngs/field-darkyellow.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-goldenrod">
+    <bitmap file="graphics/pngs/field-goldenrod.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+<!-- 2E CT Tab Backcolor-->
+  <windowclass name="cta_skills_host" merge="join">
+    <script>
+      function onInit()
+      if child and child[2] then
+        if child[2].backcolor and child[2].backcolor[1] then
+        child[2].backcolor[1] = "[232323]"
+        end
+      end
+      end
+    </script>
+  </windowclass>
+
+</root>

@@ -41,7 +41,6 @@
   <font name="warning">
     <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
     <color value="#CB4335" />
-    <shadow offset="0,1" color="FFFFFF" />
   </font>
 
   <font name="cta_hypertext">
@@ -315,6 +314,5 @@
   <font name="font-hpcurrent">
     <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
     <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
-    <shadow offset="0,1" color="FFFFFF" />
-  </font>
+    </font>
 </root>

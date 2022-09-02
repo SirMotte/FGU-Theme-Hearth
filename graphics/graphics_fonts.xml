@@ -340,7 +340,7 @@
 	<font name="reference-chapter">
 		<fgffile name="graphics/fonts/title-regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#F2AB76" /> <!-- Replaceable Color: Chapter Font -->
+		<color value="#F3D876" /> <!-- Replaceable Color: Chapter Font -->
 	</font>
 	<font name="reference-groupdesc">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
