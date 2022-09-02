@@ -3,8 +3,8 @@
 [B]Announcement:[/B]
     This weeks update is now live on the Forge or GitHub.
 
-    It focuses on bringing in basic support for the 2E ruleset! I can tell how much the 2E community cherishes this ruleset, as never before I had so many help offerings and issue reports than with this ruleset.
-    A whopping 23 different players reported to me! Fantastic!
+    It focuses on bringing in basic support for the ADND/ 2E ruleset! I can tell how much the 2E community cherishes this ruleset, as never before I've had so many help offerings and issue reports than with this ruleset.
+    A whopping 23 different players reported to me within a week! Fantastic!
 
     I hope you're now able to fully enjoy Hearth Theme in 2E!
 

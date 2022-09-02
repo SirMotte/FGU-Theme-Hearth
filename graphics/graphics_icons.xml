@@ -633,8 +633,11 @@
 		<icon name="menu_icon_white" file="graphics/pngs/menu_icon_white.png" />
 		<icon name="menu_icon_white_filled" file="graphics/pngs/menu_icon_white_filled.png" />
 
-	<!-- CT -->
+	<!-- CTA -->
 		<icon name="menu_icon_white_filled" file="graphics/pngs/menu_icon_white_filled.png" />
+
+		<icon name="cta_visibilityon" file="graphics/pngs/cta_visibilityon.png" />
+		<icon name="cta_visibilityoff" file="graphics/pngs/cta_visibilityoff.png" />
 
 	<!-- cta tabs -->
 		<icon name="tab_effects" file="graphics/pngs/tab_effects.png" />
