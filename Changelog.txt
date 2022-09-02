@@ -28,6 +28,7 @@
         [*]Changed Radial Menu Initiative icon to use a Bold Exclamation mark instead of the regular one.
         [*]Increased Border size of custom roll window buttons to 2px, in order to not produce weird aliasing effects.
         [*]Changed Character Sheet Tab Font from Regular to Bold (Black).
+        [*]Changed Chat Speech bubbles to use a much darker value, for better readability.
     [/LIST]
 
 [B]Added Extension Support:[/B]
