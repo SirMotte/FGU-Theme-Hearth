@@ -21,6 +21,7 @@
 
 [B]Changelog - Theme Elements:[/B]
     [LIST]
+        [*]Second pass on Chat Icons like attack, critical hit and the like. Some feel a little clunky, I will probably change them up again.
         [*]Exchanged Import/Export button to make more sense - Import = Arrow Down / Export = Arrow Up.
         [*]Changes Portrait Frame. While I like the original, it felt a little bit off style wise.
         [*]Changed Reference Manual Chapter Font Color from Orange to Yellow.

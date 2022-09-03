@@ -573,6 +573,11 @@
 		<icon name="roll_damage" file="graphics/pngs/roll_damage.png" />
 		<icon name="roll_heal" file="graphics/pngs/roll_heal.png" />
 		<icon name="roll_effect" file="graphics/pngs/roll_effect.png" />
+		<icon name="roll_attack" file="graphics/pngs/roll_attack.png" />
+		<icon name="roll_attack_miss" file="graphics/pngs/roll_attack_miss.png" />
+		<icon name="roll_attack_crit_miss" file="graphics/pngs/roll_attack_crit_miss.png" />
+		<icon name="roll_attack_hit" file="graphics/pngs/roll_attack_hit.png" />
+		<icon name="roll_attack_crit" file="graphics/pngs/roll_attack_crit.png" />
 
 		<icon name="button_statpointmode" file="graphics/pngs/button_statpointmode.png" />
 		<icon name="button_statpointmode_down" file="graphics/pngs/button_statpointmode_down.png" />
