@@ -46,4 +46,10 @@
     [LIST]
         [*]Changed Moon Tracker (by DMFirmy and bmos) Icon button down state to be in line with the rest of the theme.
         [*]5E and other Rulesets - Fixed Constitutional Amendments Temporary HP Color (again).
+        [*]Changed Arcane Ward (Ryan Hagelstrom) Announcement Icon to use a dark backdrop.
+        [*]Adjusted Friend Zone (MeAndUnique) Tab Font to match new black font type.
     [/LIST]
+
+[B]Community Question:[/B]
+- What do you think of the colour gradients used for the chat icons like attack, critical hit, hit, miss aso. (metallic look)? Do you think they fit with the theme? are they too flashy? Please let me know.
+
