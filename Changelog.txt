@@ -16,15 +16,20 @@
 
 [B]Added Ruleset support:[/B]
     [LIST]
-        [*]Basic 2E support
+        [*][B]Basic 2E support![/B]
+        - Celestian did outstanding work with this ruleset! I'm amazed how many features are present by default, that would otherwise require extensions.
+        Same goes for the amount of custom graphics, well done.
     [/LIST]
 
 [B]Changelog - Theme Elements:[/B]
     [LIST]
+        [*]Changed GM Roll hidden Roll icon.
+        [*]Fixed 1px misaligned Chatbox frame.
         [*]Second pass on Chat Icons like attack, critical hit and the like. Some feel a little clunky, I will probably change them up again.
         [*]Exchanged Import/Export button to make more sense - Import = Arrow Down / Export = Arrow Up.
         [*]Changes Portrait Frame. While I like the original, it felt a little bit off style wise.
         [*]Changed Reference Manual Chapter Font Color from Orange to Yellow.
+        [*]If you read this changelog, you can request your very own GM icon extension, contact me.
         [*]Changed Chat "Stop" indicator from "halt" hand to exclamation mark, to be more universal.
         [*]Changed Radial Menu Initiative icon to use a Bold Exclamation mark instead of the regular one.
         [*]Increased Border size of custom roll window buttons to 2px, in order to not produce weird aliasing effects.
