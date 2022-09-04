@@ -3,6 +3,9 @@
 <root>
 <!-- fgpro override CoreRPG & 5E ruleset graphics -->
 
+
+
+
 <!-- Sidebar -->
 	<framedef name="button_sidebar_dockitem">
 		<bitmap file="graphics/pngs/button_sidebar.png" />
@@ -847,7 +850,6 @@
 		<bottomright rect="96,94,48,47" />
 		<insideoffset>0,0,4,0</insideoffset>
 	</framedef>
-2
 	<framedef name="reference-section">
 		<bitmap file="graphics/pngs/reference-section.png" />
 		<topleft rect="0,0,1,0" />
@@ -893,5 +895,4 @@
 		<bitmap file="graphics/pngs/whitefieldfocus.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
-
 </root>
