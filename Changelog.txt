@@ -1,55 +1,46 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.8 - Baldurs Cat Flap[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.9.9 - Sprinting King[/B][/COLOR][/SIZE]
 
-[B]Announcement:[/B]
+
+[COLOR="#FF0000"][B]Download:[/B]
+
+Fantasygorunds Forge:
+https://forge.fantasygrounds.com/shop/items/12/view
+
+GitHub:
+https://github.com/SirMotte/FGU-Theme-Hearth/releases
+
+[COLOR="#FF0000"][B]Announcement:[/B]
     This weeks update is now live on the Forge and GitHub.
 
-    It focuses on bringing in basic support for (ADnD)2E! I can tell how much the 2E community cherishes this ruleset, as never before I've had so many help offerings and issue reports than with this ruleset.
-    A whopping 23 different players reported to me within a week! Fantastic!
+    xxxxx
 
-    I hope you're now able to fully enjoy Hearth Theme in 2E!
-
-    As always special thanks to MeAndUnique and Saagael, as well as all the wonderful folks at the Unofficial Developers Guild, as well as Derek From Fantasy Grounds (and Smiteworks in general)
-
+    Special thanks to MeAndUnique and Saagael, as well as all the wonderful folks at the Unofficial Developers Guild.
 
     Enjoy!
     Sir Motte
 
-[B]Added Ruleset support:[/B]
+[COLOR="#FF0000"][B]Added Ruleset support:[/B][/COLOR]
     [LIST]
-        [*][B]Basic 2E support![/B]
-        - Celestian did outstanding work with this ruleset! I'm amazed how many features are present by default, that would otherwise require extensions.
-        Same goes for the amount of custom graphics, well done.
+        [*]xxxx
     [/LIST]
 
-[B]Changelog - Theme Elements:[/B]
+[COLOR="#FF0000"][B]Changelog - Theme Elements:[/B][/COLOR]
     [LIST]
-        [*]Changed GM Roll hidden Roll icon.
-        [*]Fixed 1px misaligned Chatbox frame.
-        [*]Second pass on Chat Icons like attack, critical hit and the like. Some feel a little clunky, I will probably change them up again.
-        [*]Exchanged Import/Export button to make more sense - Import = Arrow Down / Export = Arrow Up.
-        [*]Changes Portrait Frame. While I like the original, it felt a little bit off style wise.
-        [*]Changed Reference Manual Chapter Font Color from Orange to Yellow.
-        [*]If you read this changelog, you can request your very own GM icon extension, contact me.
-        [*]Changed Chat "Stop" indicator from "halt" hand to exclamation mark, to be more universal.
-        [*]Changed Radial Menu Initiative icon to use a Bold Exclamation mark instead of the regular one.
-        [*]Increased Border size of custom roll window buttons to 2px, in order to not produce weird aliasing effects.
-        [*]Changed Character Sheet Tab Font from Regular to Bold (Black).
-        [*]Changed Chat Speech bubbles to use a much darker value, for better readability.
+        [*]xxxx
     [/LIST]
 
-[B]Added Extension Support:[/B]
+[COLOR="#FF0000"][B]Added Extension Support:[/B][/COLOR]
     [LIST]
-        [*]Added Icon support for "Carrier" by Silent Ruin - Thanks for providing everything necessary SR :).
+        [*]xxxx
     [/LIST]
 
-[B]Supported Extension changes:[/B]
+[COLOR="#FF0000"][B]Supported Extension changes:[/B][/COLOR]
     [LIST]
-        [*]Changed Moon Tracker (by DMFirmy and bmos) Icon button down state to be in line with the rest of the theme.
-        [*]5E and other Rulesets - Fixed Constitutional Amendments Temporary HP Color (again).
-        [*]Changed Arcane Ward (Ryan Hagelstrom) Announcement Icon to use a dark backdrop.
-        [*]Adjusted Friend Zone (MeAndUnique) Tab Font to match new black font type.
+        [*]xxxx
     [/LIST]
 
-[B]Community Question:[/B]
-- What do you think of the colour gradients used for the chat icons like attack, critical hit, hit, miss aso. (metallic look)? Do you think they fit with the theme? are they too flashy? Please let me know.
+[COLOR="#FF0000"][B]Community Question:[/B][/COLOR]
+    [LIST]
+        [*]xxxx
+    [/LIST]
 

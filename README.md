@@ -7,8 +7,6 @@ Download:
 Fantasygorunds Forge:
 https://forge.fantasygrounds.com/shop/items/12/view
 
-or
-
 GitHub:
 https://github.com/SirMotte/FGU-Theme-Hearth/releases
 

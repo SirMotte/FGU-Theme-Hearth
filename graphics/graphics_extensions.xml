@@ -329,9 +329,9 @@
 			<!--Ext: Carrier-->
 				<!--Logo-->
 				<icon name="Carrier_Logo" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
-				<icon name="Carrier_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
-				<icon name="Carried_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
-				<icon name="button_driver_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
+				<icon name="Carrier_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_icon.png" />
+				<icon name="Carried_icon" file="graphics/extensions/silent_ruin/carrier/Carried_icon.png" />
+				<icon name="button_driver_icon" file="graphics/extensions/silent_ruin/carrier/button_driver_icon.png" />
 			<!--Ext: Polymorphism-->
 				<!--Icon-->
 				<icon name="polymorphism_Logo" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_logo.png" />
