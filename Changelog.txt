@@ -1,58 +1,55 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.7 - Constipated Seagull[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Version Beta 2.9.8 - Baldurs Cat Flap[/B][/COLOR][/SIZE]
 
-[B]Anouncement:[/B]
-    This weeks update is now live on the forge. It adds Basic Support and fixes to the 3.5E, PFRPG and PFRPG2 ruleset, as well as some more extension support and tweaks to the theme.
-    It should also be ready for the upcoming update currently on "Test" if no major changes happen. 
+[B]Announcement:[/B]
+    This weeks update is now live on the Forge and GitHub.
+
+    It focuses on bringing in basic support for (ADnD)2E! I can tell how much the 2E community cherishes this ruleset, as never before I've had so many help offerings and issue reports than with this ruleset.
+    A whopping 23 different players reported to me within a week! Fantastic!
+
+    I hope you're now able to fully enjoy Hearth Theme in 2E!
+
+    As always special thanks to MeAndUnique and Saagael, as well as all the wonderful folks at the Unofficial Developers Guild, as well as Derek From Fantasy Grounds (and Smiteworks in general)
+
 
     Enjoy!
     Sir Motte
 
 [B]Added Ruleset support:[/B]
-
-Special Thanks to the Unofficial Developers Guild for help and guidance!
     [LIST]
-        [*]3.5E - Basic support
-        [*]4E - Basic support
-        [*]PFRPG - Basic support
-        [*]PFRPG2 - Basic Support -renewed
+        [*][B]Basic 2E support![/B]
+        - Celestian did outstanding work with this ruleset! I'm amazed how many features are present by default, that would otherwise require extensions.
+        Same goes for the amount of custom graphics, well done.
     [/LIST]
-All additional Rulesets are WIP and still have some missing icons and frames here and there, but work for the most part.
 
 [B]Changelog - Theme Elements:[/B]
     [LIST]
-        [*]Expand Icon used in 3.5E adjusted to be in line with theme colors.
-        [*]slottedmodifier.png and slottedbonus.png used by PFRPG 1+2 and 3.5E (and maybe others) adjusted to fit my theme.
-        [*]Fixed some icons for PFRPG 2
-        [*]Fixed some fontcolors in the inventory, Combat Tracker and Character Sheet for PFRPG 1+2 and 3.5E
-        [*]Uniformized Button down state and button down state toggle within the theme.
-        [*]Updated Chat Icon template be 32x32px instead of 30x30. Large Announcement Icons remain at 42x42px.
-        [*]Changed Whisper and Stop Chat Indicator to match new 32x32px template.
-        [*]Changed font from regual to bold for small CT buttons.
-        [*]Added new sidebar icons for other rulesets (not all done yet)
-        [*]Fixed Pathfinder xml definitions that prevented my graphics from showing up correctly.
-        [*]Changed Ruleset Announcement Icon to be in line with the theme.
-        [*]Changed GM Token.
-        [*]Changed dice chat icons to be more clear and better to understand at a glance (Cheers TheoGeek, who spotted my lazyness :p)
+        [*]Changed GM Roll hidden Roll icon.
+        [*]Fixed 1px misaligned Chatbox frame.
+        [*]Second pass on Chat Icons like attack, critical hit and the like. Some feel a little clunky, I will probably change them up again.
+        [*]Exchanged Import/Export button to make more sense - Import = Arrow Down / Export = Arrow Up.
+        [*]Changes Portrait Frame. While I like the original, it felt a little bit off style wise.
+        [*]Changed Reference Manual Chapter Font Color from Orange to Yellow.
+        [*]If you read this changelog, you can request your very own GM icon extension, contact me.
+        [*]Changed Chat "Stop" indicator from "halt" hand to exclamation mark, to be more universal.
+        [*]Changed Radial Menu Initiative icon to use a Bold Exclamation mark instead of the regular one.
+        [*]Increased Border size of custom roll window buttons to 2px, in order to not produce weird aliasing effects.
+        [*]Changed Character Sheet Tab Font from Regular to Bold (Black).
+        [*]Changed Chat Speech bubbles to use a much darker value, for better readability.
     [/LIST]
 
 [B]Added Extension Support:[/B]
     [LIST]
-        [*]
+        [*]Added Icon support for "Carrier" by Silent Ruin - Thanks for providing everything necessary SR :).
     [/LIST]
 
 [B]Supported Extension changes:[/B]
     [LIST]
-        [*]Changed Better Combat Effects Gold Save Icon to adhere to the new theme definition set in Beta 2.9.6.
-        [*]Added Announcement Icon for Pack Tactics, Automatic Halfling Luck and Automatic Flanking and Range by Kent McCullough. Thanks Kent :).
-        Thanks SR for adding in the needed definitions!
-        [*]Added Announcement Icon of Assistant GM by Silent Ruin.
-        [*]Added Announcement Icon of Generic Actions by Silent Ruin.
-        [*]Added Announcement Icon of Combat Groups by Silent Ruin.
-        [*]Added Announcement Icon of Map Parcel by Silent Ruin.
-        [*]Added Announcement Icon of Polymorphism by Silent Ruin.
-        Thanks bmos for adding in the needed code!
-        [*]Added Announcement Icon of Hit Margins by bmos.
-        [*]Added Announcement Icon of Coin Weight by bmos.
-        [*]Remade the action buttons of Arcane Ward by bmos again.
-        [*]Button fixes for Requested Rolls by mccartysr (Thanks McCartysr)
+        [*]Changed Moon Tracker (by DMFirmy and bmos) Icon button down state to be in line with the rest of the theme.
+        [*]5E and other Rulesets - Fixed Constitutional Amendments Temporary HP Color (again).
+        [*]Changed Arcane Ward (Ryan Hagelstrom) Announcement Icon to use a dark backdrop.
+        [*]Adjusted Friend Zone (MeAndUnique) Tab Font to match new black font type.
     [/LIST]
+
+[B]Community Question:[/B]
+- What do you think of the colour gradients used for the chat icons like attack, critical hit, hit, miss aso. (metallic look)? Do you think they fit with the theme? are they too flashy? Please let me know.
+

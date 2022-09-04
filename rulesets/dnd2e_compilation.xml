@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- Source: cta_host.xml -->
+
+<!-- 2E -->
+
+<framedef name="htabs">
+	<bitmap file="graphics/pngs/htab.png" />
+	<topleft rect="0,0,29,27" />
+	<top rect="29,0,402,27" />
+	<topright rect="431,0,69,27" />
+</framedef>
+
+<framedef name="sheetgroup">
+    <bitmap file="graphics/pngs/sheetgroup.png" />
+    <offset>18,18,17,17</offset>
+  </framedef>
+
+  <framedef name="abilityfields">
+    <bitmap file="graphics/pngs/abilityscore_dark.png" />
+    <offset>7,7,7,7</offset>
+  </framedef>
+
+  <framedef name="abilityscore_box">
+    <bitmap file="graphics/pngs/sheetgroup.png" />
+    <offset>9,9,9,9</offset>
+  </framedef>
+
+  <framedef name="shaded_box">
+    <bitmap file="graphics/pngs/rowshade.png" />
+    <offset>9,9,9,9</offset>
+  </framedef>
+
+  <framedef name="bonus_box">
+    <bitmap file="graphics/pngs/bonus.png" />
+    <offset>9,9,9,9</offset>
+  </framedef>
+
+  <framedef name="adnd_swordicon">
+    <bitmap file="graphics/pngs/adnd_sword.png" />
+    <topleft rect="0,0,207,24" />
+  </framedef>
+ 
+  <framedef name="cta_box">
+    <bitmap file="graphics/pngs/cta_box.png" />
+    <offset>65,80,65,75</offset>
+    <insideoffset>0,0,0,0</insideoffset>
+  </framedef>
+
+  <framedef name="dark_tiled">
+    <bitmap file="graphics/pngs/dark_tiled.png" />
+    <offset>9,9,9,9</offset>
+  </framedef>
+
+   <!-- Reference Blocks -->
+   <framedef name="referenceblock-axes">
+    <bitmap file="graphics/pngs/refblock_axes.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-bard">
+    <bitmap file="graphics/pngs/refblock_bard.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-castle">
+    <bitmap file="graphics/pngs/refblock_castle.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-crystalball">
+    <bitmap file="graphics/pngs/refblock_crystalball.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-chest">
+    <bitmap file="graphics/pngs/refblock_chest.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-diceframe">
+    <bitmap file="graphics/pngs/refblock_dice.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-dragon">
+    <bitmap file="graphics/pngs/refblock_dragon.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-fist">
+    <bitmap file="graphics/pngs/refblock_fist.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-ankh">
+    <bitmap file="graphics/pngs/refblock_ankh.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-forest">
+    <bitmap file="graphics/pngs/refblock_forest.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-ghost">
+    <bitmap file="graphics/pngs/refblock_ghost.png" />
+    <offset>100,60,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-helm">
+    <bitmap file="graphics/pngs/refblock_helm.png" />
+    <offset>100,60,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-key">
+    <bitmap file="graphics/pngs/refblock_key.png" />
+    <offset>100,60,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-loot">
+    <bitmap file="graphics/pngs/refblock_loot.png" />
+    <offset>100,60,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-notes">
+    <bitmap file="graphics/pngs/refblock_notes.png" />
+    <offset>100,60,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-openbook">
+    <bitmap file="graphics/pngs/refblock_openbook.png" />
+    <offset>100,60,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-potion">
+    <bitmap file="graphics/pngs/refblock_potion.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-powers">
+    <bitmap file="graphics/pngs/refblock_powers.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-shield">
+    <bitmap file="graphics/pngs/refblock_shield.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-sickle">
+    <bitmap file="graphics/pngs/refblock_sickle.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-skull">
+    <bitmap file="graphics/pngs/refblock_skull.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-slime">
+    <bitmap file="graphics/pngs/refblock_slime.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-tools">
+    <bitmap file="graphics/pngs/refblock_tools.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-tower">
+    <bitmap file="graphics/pngs/refblock_tower.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-town">
+    <bitmap file="graphics/pngs/refblock_town.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+   <!-- More Reference Blocks -->
+   <framedef name="referenceblock-paper1">
+    <bitmap file="graphics/pngs/refblock_paper1.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-paper2">
+    <bitmap file="graphics/pngs/refblock_paper2.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-paper3">
+    <bitmap file="graphics/pngs/refblock_paper3.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-paper4">
+    <bitmap file="graphics/pngs/refblock_paper4.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-paper5">
+    <bitmap file="graphics/pngs/refblock_paper5.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-text2">
+    <bitmap file="graphics/pngs/refblock_text2.png" />
+    <offset>50,60,50,60</offset>
+  </framedef>
+  <framedef name="referenceblock-text3">
+    <bitmap file="graphics/pngs/refblock_text3.png" />
+    <offset>50,60,50,60</offset>
+  </framedef>
+  <framedef name="referenceblock-text4">
+    <bitmap file="graphics/pngs/refblock_text4.png" />
+    <offset>50,60,50,60</offset>
+  </framedef>
+  <framedef name="referenceblock-sidebar">
+    <bitmap file="graphics/pngs/refblock_sidebar.png" />
+    <offset>100,50,100,50</offset>
+  </framedef>
+  <framedef name="referenceblock-picture">
+    <bitmap file="graphics/pngs/refblock_picture.png" />
+    <offset>32,30,32,30</offset>
+  </framedef>
+
+  <framedef name="referenceblock-horror1">
+    <bitmap file="graphics/pngs/refblock_horror1.png" />
+    <offset>100,60,60,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-horror6">
+    <bitmap file="graphics/pngs/refblock_horror6.png" />
+    <offset>100,60,100,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-add">
+    <bitmap file="graphics/pngs/refblock_add.png" />
+    <offset>100,60,184,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-diceset">
+    <bitmap file="graphics/pngs/refblock_diceset.png" />
+    <offset>100,60,184,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-3d6">
+    <bitmap file="graphics/pngs/refblock_3d6.png" />
+    <offset>100,60,90,50</offset>
+  </framedef>
+
+  <framedef name="referenceblock-web">
+    <bitmap file="graphics/pngs/refblock_web.png" />
+    <offset>100,60,90,50</offset>
+  </framedef>
+
+  <framedef name="groupbox">
+    <bitmap file="graphics/pngs/groupboxlight.png" />
+    <offset>18,18,17,17</offset>
+  </framedef>
+
+<!--Combat Tracker-->
+   <framedef name="ctaentrybox">
+    <bitmap file="graphics/pngs/ctaentrybox.png" />
+    <offset>2,2,2,2</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_active">
+    <bitmap file="graphics/pngs/ctaentrybox_active.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_friend">
+    <bitmap file="graphics/pngs/ctaentrybox_friend.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_friend_active">
+    <bitmap file="graphics/pngs/ctaentrybox_friend_active.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_neutral">
+    <bitmap file="graphics/pngs/ctaentrybox_neutral.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_neutral_active">
+    <bitmap file="graphics/pngs/ctaentrybox_neutral_active.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_foe">
+    <bitmap file="graphics/pngs/ctaentrybox_foe.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+  <framedef name="ctaentrybox_foe_active">
+    <bitmap file="graphics/pngs/ctaentrybox_foe_active.png" />
+    <offset>17,16,14,17</offset>
+  </framedef>
+
+  <framedef name="ct_subgroupbox">
+    <bitmap file="graphics/pngs/ct_subgroupbox.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+<!-- Control Frames -->
+  <framedef name="field-blue">
+    <bitmap file="graphics/pngs/field-blue.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-cyan">
+    <bitmap file="graphics/pngs/field-cyan.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-green">
+    <bitmap file="graphics/pngs/field-green.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-red">
+    <bitmap file="graphics/pngs/field-red.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-yellow">
+    <bitmap file="graphics/pngs/field-yellow.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-initiative">
+    <bitmap file="graphics/pngs/field-initiative.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+  <framedef name="field-darkgreen">
+    <bitmap file="graphics/pngs/field-darkgreen.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-darkred">
+    <bitmap file="graphics/pngs/field-darkred.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-darkyellow">
+    <bitmap file="graphics/pngs/field-darkyellow.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+  <framedef name="field-goldenrod">
+    <bitmap file="graphics/pngs/field-goldenrod.png" />
+    <offset>12,12,12,12</offset>
+  </framedef>
+
+<!-- 2E CT Tab Backcolor-->
+  <windowclass name="cta_skills_host" merge="join">
+    <script>
+      function onInit()
+      if child and child[2] then
+        if child[2].backcolor and child[2].backcolor[1] then
+        child[2].backcolor[1] = "[232323]"
+        end
+      end
+      end
+    </script>
+  </windowclass>
+
+ <!-- Story and Notes -->
+  <framedef name="storybox_dark">
+    <bitmap file="graphics/pngs/storybox_dark.png" />
+    <offset>41,172,41,49</offset>
+    <insideoffset>0,0,10,5</insideoffset>
+  </framedef>
+
+  <framedef name="lightbox_transparent">
+    <bitmap file="graphics/pngs/lightbox_transparent.png" />
+    <offset>5,5,10,5</offset>
+  </framedef>
+
+  <framedef name="darkbox_transparent">
+    <bitmap file="graphics/pngs/darkbox_transparent.png" />
+    <offset>5,5,5,5</offset>
+  </framedef>
+
+  <framedef name="darkbox">
+    <bitmap file="graphics/pngs/darkbox.png" />
+    <offset>5,5,5,5</offset>
+  </framedef>
+</root>

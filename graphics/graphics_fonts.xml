@@ -102,7 +102,7 @@
 	</font>
 	<font name="chatgmfont">
 		<fgffile name="graphics/fonts/bolditalic-10.fgf" />
-		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
+		<ttf file="graphics/fonts/Roboto-BoldItalic.ttf" name="Roboto Bold Italic" size="16" />
 		<color value="#FAFF00" /> <!-- Replaceable Color: Chat Font 6 -->
 	</font>
 	<font name="whisperfont">
@@ -340,7 +340,7 @@
 	<font name="reference-chapter">
 		<fgffile name="graphics/fonts/title-regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#F2AB76" /> <!-- Replaceable Color: Chapter Font -->
+		<color value="#F3D876" /> <!-- Replaceable Color: Chapter Font -->
 	</font>
 	<font name="reference-groupdesc">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
@@ -412,7 +412,7 @@
 	</font>
 	<font name="sheetlabel_ps">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
-		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="16" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-subtitle">
@@ -712,7 +712,7 @@
 		<font name="tabfont">
 			<fgffile name="graphics/fonts/regular-10.fgf" />
 			<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="16" />
-			<color value="#EBDDBA" />
+			<color value="#EBDDBA" /> <!-- Replacable Color: Primary Foreground -->
 		</font>
 
 </root>
