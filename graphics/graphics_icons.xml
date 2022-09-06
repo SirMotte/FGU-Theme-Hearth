@@ -329,6 +329,8 @@
 	<icon name="button_back_down" file="graphics/pngs/button_back_down.png" />
 	<icon name="button_import" file="graphics/pngs/button_import.png" />
 	<icon name="button_import_down" file="graphics/pngs/button_import_down.png" />
+	<icon name="button_import_text" file="graphics/pngs/button_import_text.png" />
+	<icon name="button_import_text_down" file="graphics/pngs/button_import_text_down.png" />
 	<icon name="button_export" file="graphics/pngs/button_export.png" />
 	<icon name="button_export_down" file="graphics/pngs/button_export_down.png" />
 	<icon name="button_zoomin" file="graphics/pngs/button_zoomin.png" />

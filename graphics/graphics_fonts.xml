@@ -70,23 +70,23 @@
 	</font>
 	<font name="emotefont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
-		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#FFB0B0" /> <!-- Replaceable Color: Chat Font 1 -->
+		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
+		<color value="#FFC9F4" /> <!-- Replaceable Color: Chat Font 1 -->
 	</font>
 	<font name="narratorfont">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="16" />
-		<color value="#EBDDBA" /> <!-- Replaceable Color: Chat Font 2 -->
+		<color value="#C2D4FF" /> <!-- Replaceable Color: Chat Font 2 -->
 	</font>
 	<font name="systemfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
-		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#FFB890" /> <!-- Replaceable Color: Chat Font 3 -->
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#EBDDBA" /> <!-- Replaceable Color: Chat Font 3 -->
 	</font>
 	<font name="msgfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
-		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#69B7FF" /> <!-- Replaceable Color: Chat Font 3 -->
+		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
+		<color value="#C3FFD1" /> <!-- Replaceable Color: Chat Font 3 -->
 	</font>
 	<font name="oocfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
