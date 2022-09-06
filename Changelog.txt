@@ -3,7 +3,7 @@
 
 [COLOR="#FF0000"][B]Download:[/B]
 
-Fantasygorunds Forge:
+Fantasygorunds Forge (Run an update using hte FG Client if you're already subscribed):
 https://forge.fantasygrounds.com/shop/items/12/view
 
 GitHub:
@@ -24,9 +24,18 @@ https://github.com/SirMotte/FGU-Theme-Hearth/releases
         [*]xxxx
     [/LIST]
 
-[COLOR="#FF0000"][B]Changelog - Theme Elements:[/B][/COLOR]
+[COLOR="#FF0000"][B]Altered Theme Elements:[/B][/COLOR]
     [LIST]
-        [*]xxxx
+        [*]Adjusted some frames/buttons/icons to use 1px rounded edges as all other do as well.
+        [*]Changed Chat_Wait Icon (the one that appears when someone is typing) to b yellow and not look like a thought bubble.
+        [*]Changed button_speak (the one used when you want to talk with the identity of a creature / character) to yellow and not look like a thought bubble.
+        [*]Adjusted all Radial Menu Icons to use Roboto Black instead of regular, where present.
+        [*]Changed acicon border (shield symbol behind the AC value) to #DDDDDD colour, to no clash with proficiency star. (mostly 5E relevant)
+        [*]Changed magnifying glass to cogwheel. No one I every played with understood from the get go what that icon was for until explained (or tested).
+        [*]Fixed Misaligned Character Sheet Tabs in 5E and made them protrude a little more, they are all over the place in any other ruleset however.
+        [*]Colored Melee, Ranged, Thrown icon on the Character Sheet - Test for now, will probably revert this.
+        [*]Altered "Off Hand" Character Sheet Icon to have the same line weight as the "Primary Hand" and "Two Handed" Icons.
+
     [/LIST]
 
 [COLOR="#FF0000"][B]Added Extension Support:[/B][/COLOR]
