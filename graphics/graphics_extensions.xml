@@ -836,7 +836,6 @@
 <!--Author: Diablo Bob-->
 	<!--Ext: Portals Revamped-->
 		<!--Icons-->
-			<icon name="token_empty" file="graphics/extensions/diablobob/portals/token_empty.png" />
 			<icon name="button_teleport_yes" file="graphics/extensions/diablobob/portals/button_teleport_yes.png" />
 			<icon name="button_teleport_yes_down" file="graphics/extensions/diablobob/portals/button_teleport_yes_down.png" />
 			<icon name="button_teleport_no" file="graphics/extensions/diablobob/portals/button_teleport_no.png" />

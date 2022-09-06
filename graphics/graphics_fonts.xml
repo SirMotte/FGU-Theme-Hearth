@@ -81,12 +81,12 @@
 	<font name="systemfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#FF90FF" /> <!-- Replaceable Color: Chat Font 3 -->
+		<color value="#FFB890" /> <!-- Replaceable Color: Chat Font 3 -->
 	</font>
 	<font name="msgfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#FF90FF" /> <!-- Replaceable Color: Chat Font 3 -->
+		<color value="#69B7FF" /> <!-- Replaceable Color: Chat Font 3 -->
 	</font>
 	<font name="oocfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
