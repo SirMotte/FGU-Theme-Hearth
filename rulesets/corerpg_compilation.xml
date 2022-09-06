@@ -767,5 +767,16 @@
 			</script>
 		</windowclass>
 
+		<windowclass name="char_weapon" merge="join">
+				<script>
+					function highlightAttack(bOnControl)
+					if bOnControl then
+						attackshade.setFrame("fieldfocus");
+					else
+						attackshade.setFrame(nil);
+					end
+				end
+			</script>
+		</windowclass>
 
 </root>

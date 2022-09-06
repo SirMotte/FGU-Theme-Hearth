@@ -42,6 +42,12 @@
 	<icon name="sidebar_action_expand" file="graphics/pngs/sidebar_action_expand.png" />
 	<icon name="sidebar_action_collapse" file="graphics/pngs/sidebar_action_collapse.png" />
 
+<!-- Color Selection -->
+	<icon name="colorgizmo_bigbtn_base" file="graphics/pngs/colorgizmo_bigbtn_base.png" />
+	<icon name="colorgizmo_bigbtn_color" file="graphics/pngs/colorgizmo_bigbtn_color.png" />
+	<icon name="colorgizmo_bigbtn_effects" file="graphics/pngs/colorgizmo_bigbtn_effects.png" />
+	<icon name="colorgizmo_bigbtn_text" file="graphics/pngs/colorgizmo_bigbtn_text.png" />
+
 <!-- Common ruleset-specific record types -->
 	<icon name="sidebar_icon_recordtype_archetype" file="graphics/pngs/sidebar_icon_background.png" />
 	<icon name="sidebar_icon_recordtype_background" file="graphics/pngs/sidebar_icon_background.png" />
