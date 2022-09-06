@@ -766,7 +766,7 @@
 				end
 			</script>
 		</windowclass>
-
+<!-- My try to exchange the rowshade with the fieldfocus frame on hover in the actions menu - not working
 		<windowclass name="char_weapon" merge="join">
 				<script>
 					function highlightAttack(bOnControl)
@@ -778,5 +778,5 @@
 				end
 			</script>
 		</windowclass>
-
+	-->
 </root>
