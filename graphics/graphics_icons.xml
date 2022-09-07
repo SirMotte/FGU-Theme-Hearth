@@ -69,6 +69,8 @@
 
 <!-- Character wizard -->
 	<icon name="button_alert" file="graphics/pngs/button_window_alert.png" />
+	<icon name="button_selectedspell_add" file="graphics/pngs/button_charwizard_selectedspell_add.png" />
+    <icon name="button_selectedspell_add_down" file="graphics/pngs/button_charwizard_selectedspell_add_down.png" />
 
 <!-- Character Sheet -->
 	<icon name="button_prof" file="graphics/pngs/button_prof.png" />
@@ -485,9 +487,9 @@
 	<icon name="arrow_sm_up" file="graphics/pngs/arrow_sm_up.png" />
 	<icon name="visibilityon" file="graphics/pngs/visibilityon.png" />
 	<icon name="visibilityoff" file="graphics/pngs/visibilityoff.png" />
-<!--
+
 	<icon name="field_linked" file="graphics/pngs/field_linked.png" />
--->
+
 	<icon name="padlock_open" file="graphics/pngs/padlock_open.png" />
 	<icon name="padlock_closed" file="graphics/pngs/padlock_closed.png" />
 	<icon name="record_identified" file="graphics/pngs/record_identified.png" />

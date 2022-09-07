@@ -98,17 +98,17 @@
 	<font name="chatnpcfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#7DC4F7" /> <!-- Replaceable Color: Chat Font 5 -->
+		<color value="#A7BAFF" /> <!-- Replaceable Color: Chat Font 5 -->
 	</font>
 	<font name="chatgmfont">
 		<fgffile name="graphics/fonts/bolditalic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-BoldItalic.ttf" name="Roboto Bold Italic" size="16" />
-		<color value="#FAFF00" /> <!-- Replaceable Color: Chat Font 6 -->
+		<color value="#F3D876" /> <!-- Replaceable Color: Chat Font 6 -->
 	</font>
 	<font name="whisperfont">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#56E5DD" /> <!-- Replaceable Color: Chat Font 7 -->
+		<color value="#A4FFFB" /> <!-- Replaceable Color: Chat Font 7 -->
 	</font>
 
 	<!-- Radial menus and character list -->

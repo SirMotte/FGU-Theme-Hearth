@@ -1,18 +1,11 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.9.9 - Rubber Wand[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.9.9 - Hairy Drums[/B][/COLOR][/SIZE]
 
-
-[COLOR="#FF0000"][B]Download:[/B]
-
-Fantasygorunds Forge (Run an update using hte FG Client if you're already subscribed):
-https://forge.fantasygrounds.com/shop/items/12/view
-
-GitHub:
-https://github.com/SirMotte/FGU-Theme-Hearth/releases
 
 [COLOR="#FF0000"][B]Announcement:[/B]
     This weeks update is now live on the Forge and GitHub.
 
-    xxxxx
+    This update focuses on the streamlining the chat window and to make comprehending the chat at a glance easier (hopefully).
+    Feedback on what you think of the chat colors and font choices is highly appreciated.
 
     Special thanks to MeAndUnique and Saagael, as well as all the wonderful folks at the Unofficial Developers Guild.
 
@@ -26,24 +19,29 @@ https://github.com/SirMotte/FGU-Theme-Hearth/releases
 
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
-        [*]Chat color rework - I hope this helps with clarity, feedback appreciated!
+        [*]Chat color and font rework - I hope this helps with clarity, feedback appreciated!
         [*]Adjusted some frames/buttons/icons to use 1px rounded edges as all other do as well.
-        [*]Changed Chat_Wait Icon (the one that appears when someone is typing) to b yellow and not look like a thought bubble.
+        [*]Changed Chat_Wait Icon (the one that appears when someone is typing) to be yellow and not look like a thought bubble.
         [*]Changed button_speak (the one used when you want to talk with the identity of a creature / character) to yellow and not look like a thought bubble.
         [*]Adjusted all Radial Menu Icons to use Roboto Black instead of regular, where present.
         [*]Changed acicon border (shield symbol behind the AC value) to match other frames and to no clash with proficiency star. (mostly 5E relevant)
         [*]Changed magnifying glass to cogwheel. No one I every played with understood from the get go what that icon was for until explained (or tested).
         [*]Fixed Misaligned Character Sheet Tabs in 5E and made them protrude a little more, they are all over the place in any other ruleset however.
-        [*]Removed Color from Melee, Ranged, Thrown, Off Hand, Primary Hand and two handed icon in the Character Sheet's actions tab I found the colours too distracting and not helpful for "at a glance" comprehension.
+        [*]Added Colored line to Melee, Ranged, Thrown, Off Hand, Primary Hand and two handed icon in the Character Sheet's actions tab. Helps with "at a glance" comprehension.
         [*]Altered "Off Hand" Character Sheet Icon to have the same line weight as the "Primary Hand" and "Two Handed" Icons.
         [*]Changed Empty Portrait Frame to better convey interaction possibility.
-        [*]Changed Field Focus Frame to be more prominent by using blue.
+        [*]If you read the changelog and want your very own DM Icon Extension, contact me.
+        [*]Changed Field Focus color to be more prominent.
         [*]Remade Dice Color Picker pngs.
         [*]Minor Changes to Chat Icons
-        [*]Horizontally Flipped Vehicle Sidebar Icon (little horsy is now riding out).
+        [*]Horizontally Flipped Vehicle Sidebar Icon (little horsy is now riding out / test server).
         [*]Added Import Text Button in NPC Window
-    
-
+        [*]Made Link Icon 2px smaller for better row clarity.
+        [*]Made cogwheel icon 2px smaller to better fit their frames / background frames.
+        [*]Made Label Frames on Charsheet to not have a gap in between.
+        [*]Remade field_rollable and field_rollable_transparent icon (small dice icon shown next to eg. abilities). I always found the d20 in super miniature quite unclear.
+        [*]Added button background for table columns insert/delete and slightly changed their appearance.
+        [*]Added Character Wizard Add item/add Spell button.
 
     [/LIST]
 
@@ -62,3 +60,11 @@ https://github.com/SirMotte/FGU-Theme-Hearth/releases
         [*]xxxx
     [/LIST]
 
+[COLOR="#FF0000"][B]Download:[/B]
+
+Fantasy Grounds Forge
+(Run an update using the FG Client if you're already subscribed):
+https://forge.fantasygrounds.com/shop/items/12/view
+
+GitHub:
+https://github.com/SirMotte/FGU-Theme-Hearth/releases
