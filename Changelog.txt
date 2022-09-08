@@ -1,4 +1,4 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.9.9 - Hairy Drums[/B][/COLOR][/SIZE]
+[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.9.9 - Slothful Squire[/B][/COLOR][/SIZE]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B]
@@ -19,7 +19,7 @@
 
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
-        [*]Chat color and font rework - I hope this helps with clarity, feedback appreciated!
+        [*]Chat color and font rework - I hope this helps with clarity and thus usability, feedback appreciated!
         [*]Adjusted some frames/buttons/icons to use 1px rounded edges as all other do as well.
         [*]Changed Chat_Wait Icon (the one that appears when someone is typing) to be yellow and not look like a thought bubble.
         [*]Changed button_speak (the one used when you want to talk with the identity of a creature / character) to yellow and not look like a thought bubble.
