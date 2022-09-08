@@ -814,7 +814,7 @@
 			<!--Icon-->
 			<icon name="CloseEncounters" file="graphics/extensions/saagael/close_encounters/CloseEncounters.png" />
 
-<!--Author: GKEnialb-->
+<!--Author: Good King Enialb-->
 	<!--Ext: Token Height Indicators-->
 	<font name="height_medium">
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="15" />
