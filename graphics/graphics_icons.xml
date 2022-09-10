@@ -293,6 +293,12 @@
 	<icon name="poll_empty" file="graphics/pngs/poll_empty.png" />
 	<icon name="poll_negative" file="graphics/pngs/poll_negative.png" />
 
+	<icon name="textclipboard" file="graphics/pngs/icon_clipboard_menu.png" />
+	<icon name="textclipboardcut" file="graphics/pngs/icon_clipboard_cut.png" />
+	<icon name="textclipboardcopy" file="graphics/pngs/icon_clipboard_copy.png" />
+	<icon name="textclipboardpaste" file="graphics/pngs/icon_clipboard_paste.png" />
+	<icon name="textparagraphtypes" file="graphics/pngs/icon_text_paragraph_types.png" />
+
 <!-- Common -->
 	<icon name="button_collapse" file="graphics/pngs/button_collapse.png" />
 	<icon name="button_collapse_w" file="graphics/pngs/button_collapse_w.png" />
@@ -319,7 +325,6 @@
 
 	<icon name="tempmod" file="graphics/pngs/tempmod.png" />
 
-
 	<icon name="button_add" file="graphics/pngs/button_add.png" />
 	<icon name="button_add_down" file="graphics/pngs/button_add_down.png" />
 
@@ -344,6 +349,10 @@
 
 	<icon name="button_action_attack" file="graphics/pngs/button_action_attack.png" />
 	<icon name="button_action_attack_down" file="graphics/pngs/button_action_attack_down.png" />
+
+<!-- Supported rulesets - Common radials-->
+	<!-- Generic -->
+	<icon name="radial_magicwand" file="graphics/pngs/icon_magicwand.png" />
 
 <!-- pngs -->
 	<icon name="button_toggle_visible" file="graphics/pngs/button_toggle_visible.png" />
