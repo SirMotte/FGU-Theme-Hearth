@@ -42,6 +42,12 @@
 	<icon name="sidebar_action_expand" file="graphics/pngs/sidebar_action_expand.png" />
 	<icon name="sidebar_action_collapse" file="graphics/pngs/sidebar_action_collapse.png" />
 
+<!-- Color Selection -->
+	<icon name="colorgizmo_bigbtn_base" file="graphics/pngs/colorgizmo_bigbtn_base.png" />
+	<icon name="colorgizmo_bigbtn_color" file="graphics/pngs/colorgizmo_bigbtn_color.png" />
+	<icon name="colorgizmo_bigbtn_effects" file="graphics/pngs/colorgizmo_bigbtn_effects.png" />
+	<icon name="colorgizmo_bigbtn_text" file="graphics/pngs/colorgizmo_bigbtn_text.png" />
+
 <!-- Common ruleset-specific record types -->
 	<icon name="sidebar_icon_recordtype_archetype" file="graphics/pngs/sidebar_icon_background.png" />
 	<icon name="sidebar_icon_recordtype_background" file="graphics/pngs/sidebar_icon_background.png" />
@@ -63,6 +69,8 @@
 
 <!-- Character wizard -->
 	<icon name="button_alert" file="graphics/pngs/button_window_alert.png" />
+	<icon name="button_selectedspell_add" file="graphics/pngs/button_charwizard_selectedspell_add.png" />
+    <icon name="button_selectedspell_add_down" file="graphics/pngs/button_charwizard_selectedspell_add_down.png" />
 
 <!-- Character Sheet -->
 	<icon name="button_prof" file="graphics/pngs/button_prof.png" />
@@ -285,6 +293,12 @@
 	<icon name="poll_empty" file="graphics/pngs/poll_empty.png" />
 	<icon name="poll_negative" file="graphics/pngs/poll_negative.png" />
 
+	<icon name="textclipboard" file="graphics/pngs/icon_clipboard_menu.png" />
+	<icon name="textclipboardcut" file="graphics/pngs/icon_clipboard_cut.png" />
+	<icon name="textclipboardcopy" file="graphics/pngs/icon_clipboard_copy.png" />
+	<icon name="textclipboardpaste" file="graphics/pngs/icon_clipboard_paste.png" />
+	<icon name="textparagraphtypes" file="graphics/pngs/icon_text_paragraph_types.png" />
+
 <!-- Common -->
 	<icon name="button_collapse" file="graphics/pngs/button_collapse.png" />
 	<icon name="button_collapse_w" file="graphics/pngs/button_collapse_w.png" />
@@ -311,7 +325,6 @@
 
 	<icon name="tempmod" file="graphics/pngs/tempmod.png" />
 
-
 	<icon name="button_add" file="graphics/pngs/button_add.png" />
 	<icon name="button_add_down" file="graphics/pngs/button_add_down.png" />
 
@@ -323,6 +336,8 @@
 	<icon name="button_back_down" file="graphics/pngs/button_back_down.png" />
 	<icon name="button_import" file="graphics/pngs/button_import.png" />
 	<icon name="button_import_down" file="graphics/pngs/button_import_down.png" />
+	<icon name="button_import_text" file="graphics/pngs/button_import_text.png" />
+	<icon name="button_import_text_down" file="graphics/pngs/button_import_text_down.png" />
 	<icon name="button_export" file="graphics/pngs/button_export.png" />
 	<icon name="button_export_down" file="graphics/pngs/button_export_down.png" />
 	<icon name="button_zoomin" file="graphics/pngs/button_zoomin.png" />
@@ -334,6 +349,10 @@
 
 	<icon name="button_action_attack" file="graphics/pngs/button_action_attack.png" />
 	<icon name="button_action_attack_down" file="graphics/pngs/button_action_attack_down.png" />
+
+<!-- Supported rulesets - Common radials-->
+	<!-- Generic -->
+	<icon name="radial_magicwand" file="graphics/pngs/icon_magicwand.png" />
 
 <!-- pngs -->
 	<icon name="button_toggle_visible" file="graphics/pngs/button_toggle_visible.png" />
@@ -477,9 +496,9 @@
 	<icon name="arrow_sm_up" file="graphics/pngs/arrow_sm_up.png" />
 	<icon name="visibilityon" file="graphics/pngs/visibilityon.png" />
 	<icon name="visibilityoff" file="graphics/pngs/visibilityoff.png" />
-<!--
+
 	<icon name="field_linked" file="graphics/pngs/field_linked.png" />
--->
+
 	<icon name="padlock_open" file="graphics/pngs/padlock_open.png" />
 	<icon name="padlock_closed" file="graphics/pngs/padlock_closed.png" />
 	<icon name="record_identified" file="graphics/pngs/record_identified.png" />

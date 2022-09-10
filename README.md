@@ -4,11 +4,8 @@ Fantasy Grounds Unity Theme by Sir Motte.
 Special thanks to MeAndUnique and Saagael.
 
 Download:
-
-Fantasygrounds Forge:
+Fantasy Grounds Forge:
 https://forge.fantasygrounds.com/shop/items/12/view
-
-or
 
 GitHub:
 https://github.com/SirMotte/FGU-Theme-Hearth/releases

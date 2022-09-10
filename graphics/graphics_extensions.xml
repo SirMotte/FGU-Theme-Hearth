@@ -329,9 +329,9 @@
 			<!--Ext: Carrier-->
 				<!--Logo-->
 				<icon name="Carrier_Logo" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
-				<icon name="Carrier_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
-				<icon name="Carried_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
-				<icon name="button_driver_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
+				<icon name="Carrier_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_icon.png" />
+				<icon name="Carried_icon" file="graphics/extensions/silent_ruin/carrier/Carried_icon.png" />
+				<icon name="button_driver_icon" file="graphics/extensions/silent_ruin/carrier/button_driver_icon.png" />
 			<!--Ext: Polymorphism-->
 				<!--Icon-->
 				<icon name="polymorphism_Logo" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_logo.png" />
@@ -814,7 +814,7 @@
 			<!--Icon-->
 			<icon name="CloseEncounters" file="graphics/extensions/saagael/close_encounters/CloseEncounters.png" />
 
-<!--Author: GKEnialb-->
+<!--Author: Good King Enialb-->
 	<!--Ext: Token Height Indicators-->
 	<font name="height_medium">
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="15" />
@@ -836,7 +836,6 @@
 <!--Author: Diablo Bob-->
 	<!--Ext: Portals Revamped-->
 		<!--Icons-->
-			<icon name="token_empty" file="graphics/extensions/diablobob/portals/token_empty.png" />
 			<icon name="button_teleport_yes" file="graphics/extensions/diablobob/portals/button_teleport_yes.png" />
 			<icon name="button_teleport_yes_down" file="graphics/extensions/diablobob/portals/button_teleport_yes_down.png" />
 			<icon name="button_teleport_no" file="graphics/extensions/diablobob/portals/button_teleport_no.png" />
