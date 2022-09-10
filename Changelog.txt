@@ -4,8 +4,13 @@
 [COLOR="#FF0000"][B]Announcement:[/B]
     This weeks update is now live on the Forge and GitHub.
 
-    This update focuses on the streamlining the chat window and to make comprehending the chat at a glance easier (hopefully).
+    This update focuses on the streamlining the chat window to make comprehending the chat at a glance easier (hopefully).
     Feedback on what you think of the chat colors and font choices is highly appreciated.
+
+    This was supposed to be the last update before 3.0 ships and was supposed to clean up all the small fry bugs, hickups and issues that remained.
+    Unfortunately I haven't been able to change some stuff in the image control panel so a version 2.9.10 and so on might be necessary after all.
+
+    But good progress was made and I feel mostly fine to get work started on other color schemes.
 
     Special thanks to MeAndUnique and Saagael, as well as all the wonderful folks at the Unofficial Developers Guild.
 
@@ -35,29 +40,16 @@
         [*]Remade Dice Color Picker pngs.
         [*]Minor Changes to Chat Icons
         [*]Horizontally Flipped Vehicle Sidebar Icon (little horsy is now riding out / test server).
-        [*]Added Import Text Button in NPC Window
+        [*]Added new Import Text Button in NPC Window
         [*]Made Link Icon 2px smaller for better row clarity.
         [*]Made cogwheel icon 2px smaller to better fit their frames / background frames.
         [*]Made Label Frames on Charsheet to not have a gap in between.
         [*]Remade field_rollable and field_rollable_transparent icon (small dice icon shown next to eg. abilities). I always found the d20 in super miniature quite unclear.
         [*]Added button background for table columns insert/delete and slightly changed their appearance.
         [*]Added Character Wizard Add item/add Spell button.
-
-    [/LIST]
-
-[COLOR="#FF0000"][B]Added Extension Support:[/B][/COLOR]
-    [LIST]
-        [*]xxxx
-    [/LIST]
-
-[COLOR="#FF0000"][B]Supported Extension changes:[/B][/COLOR]
-    [LIST]
-        [*]xxxx
-    [/LIST]
-
-[COLOR="#FF0000"][B]Community Question:[/B][/COLOR]
-    [LIST]
-        [*]xxxx
+        [*]Added new Clipboard Radial Menu entries - Menu,Copy, Cut, Paste
+        [*]Changed Radial Menu Link Break Icon to be less picturesque.
+        [*]Added new Magic Wand Radial Menu Icon - It has no tooltip, so I'm unsure what it does, so expect this to be generic for now.
     [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B]
