@@ -18,7 +18,10 @@
 
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
-        [*]xxxx
+        [*]Removed duplicate sheetlabelinline font definition (Thanks to Zarestia for spotting this.)
+        [*]Changed radial magic wand icon to better convey its cleanup function of statblocks for import.
+        [*]Added new <icon name="num1" file="graphics/radial/icon_dice_1.png" /> that is used in the reworked formation tab.
+        [*]Removed Metallic Effect from chat icons but for the DM. I found it too distracting during actual play.
     [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
