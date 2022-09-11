@@ -1,16 +1,10 @@
-[SIZE=4][COLOR="#FF0000"][B]Update to Beta 2.9.9 - Slothful Squire[/B][/COLOR][/SIZE]
+[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.10 - Wrestling Princess[/B][/SIZE][/COLOR]
 
 
-[COLOR="#FF0000"][B]Announcement:[/B]
+[COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
     This weeks update is now live on the Forge and GitHub.
 
-    This update focuses on the streamlining the chat window to make comprehending the chat at a glance easier (hopefully).
-    Feedback on what you think of the chat colors and font choices is highly appreciated.
-
-    This was supposed to be the last update before 3.0 ships and was supposed to clean up all the small fry bugs, hickups and issues that remained.
-    Unfortunately I haven't been able to change some stuff in the image control panel so a version 2.9.10 and so on might be necessary after all.
-
-    But good progress was made and I feel mostly fine to get work started on other color schemes.
+    xxxxx
 
     Special thanks to MeAndUnique and Saagael, as well as all the wonderful folks at the Unofficial Developers Guild.
 
@@ -24,35 +18,10 @@
 
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
-        [*]Chat color and font rework - I hope this helps with clarity and thus usability, feedback appreciated!
-        [*]Adjusted some frames/buttons/icons to use 1px rounded edges as all other do as well.
-        [*]Changed Chat_Wait Icon (the one that appears when someone is typing) to be yellow and not look like a thought bubble.
-        [*]Changed button_speak (the one used when you want to talk with the identity of a creature / character) to yellow and not look like a thought bubble.
-        [*]Adjusted all Radial Menu Icons to use Roboto Black instead of regular, where present.
-        [*]Changed acicon border (shield symbol behind the AC value) to match other frames and to no clash with proficiency star. (mostly 5E relevant)
-        [*]Changed magnifying glass to cogwheel. No one I every played with understood from the get go what that icon was for until explained (or tested).
-        [*]Fixed Misaligned Character Sheet Tabs in 5E and made them protrude a little more, they are all over the place in any other ruleset however.
-        [*]Added Colored line to Melee, Ranged, Thrown, Off Hand, Primary Hand and two handed icon in the Character Sheet's actions tab. Helps with "at a glance" comprehension.
-        [*]Altered "Off Hand" Character Sheet Icon to have the same line weight as the "Primary Hand" and "Two Handed" Icons.
-        [*]Changed Empty Portrait Frame to better convey interaction possibility.
-        [*]If you read the changelog and want your very own DM Icon Extension, contact me.
-        [*]Changed Field Focus color to be more prominent.
-        [*]Remade Dice Color Picker pngs.
-        [*]Minor Changes to Chat Icons
-        [*]Horizontally Flipped Vehicle Sidebar Icon (little horsy is now riding out / test server).
-        [*]Added new Import Text Button in NPC Window
-        [*]Made Link Icon 2px smaller for better row clarity.
-        [*]Made cogwheel icon 2px smaller to better fit their frames / background frames.
-        [*]Made Label Frames on Charsheet to not have a gap in between.
-        [*]Remade field_rollable and field_rollable_transparent icon (small dice icon shown next to eg. abilities). I always found the d20 in super miniature quite unclear.
-        [*]Added button background for table columns insert/delete and slightly changed their appearance.
-        [*]Added Character Wizard Add item/add Spell button.
-        [*]Added new Clipboard Radial Menu entries - Menu,Copy, Cut, Paste
-        [*]Changed Radial Menu Link Break Icon to be less picturesque.
-        [*]Added new Magic Wand Radial Menu Icon - It has no tooltip, so I'm unsure what it does, so expect this to be generic for now.
+        [*]xxxx
     [/LIST]
 
-[COLOR="#FF0000"][B]Download:[/B]
+[COLOR="#FF0000"][B]Download:[/B][/COLOR]
 
 Fantasy Grounds Forge
 (Run an update using the FG Client if you're already subscribed):
