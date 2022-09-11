@@ -431,7 +431,7 @@
 		<icon name="minimized_note" file="graphics/pngs/minimized_note.png" />
 		<icon name="minimized_combat" file="graphics/pngs/minimized_combat.png" />
 	<!-- Tokens - Effects - Conditions -->
-<!--
+
 		<icon name="cond_blinded" file="graphics/pngs/token_cond_blinded.png" />
 		<icon name="cond_charmed" file="graphics/pngs/token_cond_charmed.png" />
 		<icon name="cond_confused" file="graphics/pngs/token_cond_confused.png" />
@@ -462,7 +462,7 @@
 		<icon name="cond_regeneration" file="graphics/pngs/token_cond_regen.png" />
 		<icon name="cond_resistance" file="graphics/pngs/token_cond_resist.png" />
 		<icon name="cond_vulnerable" file="graphics/pngs/token_cond_vuln.png" />
-	-->
+	
  	<!-- Token Bag -->
 		<icon name="tokenbag" file="graphics/pngs/tokenbag.png" />
 		<icon name="tokenbagup" file="graphics/pngs/tokenbag_up.png" />
