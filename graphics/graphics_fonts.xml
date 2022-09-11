@@ -393,12 +393,7 @@
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
-		<!-- Characters - Color Change-->
-	<font name="sheetlabelinline">
-		<fgffile name="graphics/fonts/regular-8.fgf" />
-		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
-		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
-	</font>
+
 	<!-- Misc -->
 	<font name="list-empty-ct">
 		<fgffile name="graphics/fonts/italic-10.fgf" />

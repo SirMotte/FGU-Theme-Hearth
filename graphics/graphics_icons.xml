@@ -304,8 +304,6 @@
 	<icon name="button_collapse_w" file="graphics/pngs/button_collapse_w.png" />
 	<icon name="actions" file="graphics/pngs/actions.png" />
 	<icon name="actions_down" file="graphics/pngs/actions_down.png" />
-	<icon name="button_details" file="graphics/pngs/button_details.png" />
-	<icon name="button_details_down" file="graphics/pngs/button_details_down.png" />
 	<icon name="combobox_button" file="graphics/pngs/combobox_button.png" />
 	<icon name="combobox_button_active" file="graphics/pngs/combobox_button_active.png" />
 	<icon name="button_arrowdown" file="graphics/pngs/button_arrowdown.png" />
