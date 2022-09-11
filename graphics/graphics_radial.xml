@@ -77,6 +77,7 @@
 	<icon name="arrangedice" file="graphics/pngs/icon_dice_arrange.png" />
 	<icon name="lockdice" file="graphics/pngs/icon_dice_lock.png" />
 	<icon name="unlockdice" file="graphics/pngs/icon_dice_unlock.png" />
+	<icon name="num1" file="graphics/pngs/icon_dice_1.png" />
 	<icon name="num2" file="graphics/pngs/icon_dice_2.png" />
 	<icon name="num3" file="graphics/pngs/icon_dice_3.png" />
 	<icon name="num4" file="graphics/pngs/icon_dice_4.png" />
@@ -136,25 +137,25 @@
 	<icon name="categoryicon" file="graphics/pngs/icon_category_icon.png" />
 	
 	<!-- Chat Window - REQUIRED -->
-	<icon name="chatclipboard" file="graphics/pngs/icon_chat_clipboard.png" />
-	<icon name="prompt" file="graphics/pngs/icon_chat_prompt.png" />
-	<icon name="hand" file="graphics/pngs/icon_chat_hand.png" />
-	<icon name="chatclear" file="graphics/pngs/icon_chat_clear.png" />
-	<icon name="log" file="graphics/pngs/icon_chat_logon.png" />
-	<icon name="logoff" file="graphics/pngs/icon_chat_logoff.png" />
-	<icon name="crossed" file="graphics/pngs/icon_chat_total_off.png" />
-	<icon name="equals" file="graphics/pngs/icon_chat_total_on.png" />
-	<icon name="halve" file="graphics/pngs/icon_chat_total_half.png" />
-	<icon name="double" file="graphics/pngs/icon_chat_total_double.png" />
-	<icon name="negate" file="graphics/pngs/icon_chat_total_negate.png" />
+		<icon name="chatclipboard" file="graphics/pngs/icon_chat_clipboard.png" />
+		<icon name="prompt" file="graphics/pngs/icon_chat_prompt.png" />
+		<icon name="hand" file="graphics/pngs/icon_chat_hand.png" />
+		<icon name="chatclear" file="graphics/pngs/icon_chat_clear.png" />
+		<icon name="log" file="graphics/pngs/icon_chat_logon.png" />
+		<icon name="logoff" file="graphics/pngs/icon_chat_logoff.png" />
+		<icon name="crossed" file="graphics/pngs/icon_chat_total_off.png" />
+		<icon name="equals" file="graphics/pngs/icon_chat_total_on.png" />
+		<icon name="halve" file="graphics/pngs/icon_chat_total_half.png" />
+		<icon name="double" file="graphics/pngs/icon_chat_total_double.png" />
+		<icon name="negate" file="graphics/pngs/icon_chat_total_negate.png" />
 	
 	<!-- Die Control - REQUIRED -->
-	<icon name="dieclear" file="graphics/pngs/icon_die_clear.png" />
+		<icon name="dieclear" file="graphics/pngs/icon_die_clear.png" />
 	
 	<!-- Formatted Text Control - REQUIRED -->
 	<!-- <icon name="textedit" file="graphics/pngs/icon_edit.png" /> -->
 	<!-- <icon name="textstopedit" file="graphics/pngs/icon_stopedit.png" /> -->
-	<icon name="textparagraphtypes" file="graphics/pngs/icon_text_paragraph_types.png" />
+		<icon name="textparagraphtypes" file="graphics/pngs/icon_text_paragraph_types.png" />
 		<icon name="textbody" file="graphics/pngs/icon_text_body.png" />
 		<icon name="texttitle" file="graphics/pngs/icon_text_header.png" />
 		<icon name="textchat" file="graphics/pngs/icon_text_chat.png" />
@@ -162,21 +163,21 @@
 		<icon name="textlink" file="graphics/pngs/icon_text_link.png" />
 		<icon name="texttableh" file="graphics/pngs/icon_text_table.png" />
 		<icon name="assignspeaker" file="graphics/pngs/icon_text_speaker.png" />
-	<icon name="textformatting" file="graphics/pngs/icon_text_formatting.png" />
+		<icon name="textformatting" file="graphics/pngs/icon_text_formatting.png" />
 		<icon name="bold" file="graphics/pngs/icon_text_bold.png" />
 		<icon name="italics" file="graphics/pngs/icon_text_italics.png" />
 		<icon name="underline" file="graphics/pngs/icon_text_underline.png" />
 
 	<!-- Image Control - REQUIRED -->
-	<icon name="shortcutdelete" file="graphics/pngs/icon_image_shortcut_delete.png" />
-	<icon name="imageviewmenu" file="graphics/pngs/icon_image_view_menu.png" />
+		<icon name="shortcutdelete" file="graphics/pngs/icon_image_shortcut_delete.png" />
+		<icon name="imageviewmenu" file="graphics/pngs/icon_image_view_menu.png" />
 		<icon name="broadcast" file="graphics/pngs/icon_image_view_share.png" />
 		<icon name="send" file="graphics/pngs/icon_image_view_preload.png" />
 		<icon name="imageviewlock" file="graphics/pngs/icon_image_view_lock.png" />
 		<icon name="imageviewunlock" file="graphics/pngs/icon_image_view_unlock.png" />
 		<icon name="imageviewupdate" file="graphics/pngs/icon_image_view_update.png" />
 		<icon name="imageviewsynch" file="graphics/pngs/icon_image_view_synch.png" />
-	<icon name="layers" file="graphics/pngs/icon_image_layer_menu.png" />
+		<icon name="layers" file="graphics/pngs/icon_image_layer_menu.png" />
 		<icon name="goto" file="graphics/pngs/icon_image_layer_navigator.png" />
 		<icon name="mask" file="graphics/pngs/icon_image_layer_mask_on.png" />
 		<icon name="maskedit" file="graphics/pngs/icon_image_layer_mask_edit_on.png" />
@@ -184,10 +185,10 @@
 		<icon name="deletemask" file="graphics/pngs/icon_image_layer_mask_delete.png" />
 		<icon name="grid" file="graphics/pngs/icon_image_layer_grid_on.png" />
 		<icon name="gridchange" file="graphics/pngs/icon_image_layer_grid_change.png" />
-			<icon name="image_grid_hexrow" file="graphics/pngs/icon_image_layer_grid_hexrow.png" />
-			<icon name="image_grid_hexcolumn" file="graphics/pngs/icon_image_layer_grid_hexcolumn.png" />
-			<icon name="image_grid_square" file="graphics/pngs/icon_image_layer_grid_square.png" />
-			<icon name="image_grid_isometric" file="graphics/pngs/icon_image_layer_grid_iso.png" />
+		<icon name="image_grid_hexrow" file="graphics/pngs/icon_image_layer_grid_hexrow.png" />
+		<icon name="image_grid_hexcolumn" file="graphics/pngs/icon_image_layer_grid_hexcolumn.png" />
+		<icon name="image_grid_square" file="graphics/pngs/icon_image_layer_grid_square.png" />
+		<icon name="image_grid_isometric" file="graphics/pngs/icon_image_layer_grid_iso.png" />
 		<icon name="gridhex" file="graphics/pngs/icon_image_layer_grid_hex.png" />
 		<icon name="gridoff" file="graphics/pngs/icon_image_layer_grid_off.png" />
 		<icon name="lockgrid" file="graphics/pngs/icon_image_layer_grid_snap_on.png" />
