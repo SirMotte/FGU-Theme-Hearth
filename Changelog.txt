@@ -1,4 +1,4 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.10 - Ripped Princess[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.10 - Beefcake Princess[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
@@ -27,6 +27,7 @@
         [*]Made gear Icon on CharSheet 2px smaller to better fit its background
         [*]Changed sidebar Partysheet icon to be in line with other icons
         [*]Adjusted hit and critical hit chat icons to be more distinct.
+        [*]Made chat hidden GM roll icon red to be in line with the rest of the theme.
     [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
