@@ -80,13 +80,13 @@
 	</font>
 	<font name="systemfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
-		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="16" />
 		<color value="#EBDDBA" /> <!-- Replaceable Color: Chat Font 3 -->
 	</font>
 	<font name="msgfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
-		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
-		<color value="#C3FFD1" /> <!-- Replaceable Color: Chat Font 3 -->
+		<ttf file="graphics/fonts/Roboto-BoldItalic.ttf" name="Roboto Bold Italic" size="16" />
+		<color value="#FDB7A2" /> <!-- Replaceable Color: Chat Font 3 -->
 	</font>
 	<font name="oocfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />

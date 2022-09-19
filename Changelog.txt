@@ -12,11 +12,6 @@
     Enjoy!
     Sir Motte
 
-[COLOR="#FF0000"][B]Added Ruleset support:[/B][/COLOR]
-    [LIST]
-        [*]xxxx
-    [/LIST]
-
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
         [*]Removed duplicate sheetlabelinline font definition (Thanks to Zarestia for spotting this.)
@@ -24,10 +19,13 @@
         [*]Added new <icon name="num1" file="graphics/radial/icon_dice_1.png" /> that is used in the reworked formation tab.
         [*]Removed Metallic Effect from chat icons but for the DM. I found it too distracting during actual play.
         [*]Added missing Condition Icons.
-        [*]Made gear Icon on CharSheet 2px smaller to better fit its background
+        [*]If you read this changelog, you can request your very own GM Icon extension, contact me.
+        [*]Made gear Icon on Charsheet 2px smaller to better fit its background
         [*]Changed sidebar Partysheet icon to be in line with other icons
         [*]Adjusted hit and critical hit chat icons to be more distinct.
         [*]Made chat hidden GM roll icon red to be in line with the rest of the theme.
+        [*]Made select chat fonts bold for better readaility. 
+        [*]Changed chatcolors again for msgfont. The pale green was a complimentary color, but ultimately a cold one and thus unfit for the warm colors everywhere else.
     [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
