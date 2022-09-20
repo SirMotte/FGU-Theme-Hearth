@@ -47,7 +47,7 @@ Light Salmon =      F2AB76
 [Browns]
 Brown =             322C27
 Light Brown =       473C33
-Tan =               EBDDBA
+Tan =               FFF0CA
 
 
 Primary Background =        Dark Grey
