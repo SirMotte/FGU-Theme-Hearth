@@ -42,14 +42,14 @@
 	<template name="imagedata_record_step">
 		<imagedatacontrol>
 			<invisible />
-			<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+			<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			<backcolor>232323</backcolor> <!-- Replaceable Color: Primary Background -->
 		</imagedatacontrol>
 	</template>
 	<template name="imagepaneldata_record_step">
 		<imagedatacontrol>
 			<invisible />
-			<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+			<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			<backcolor>232323</backcolor> <!-- Replaceable Color: Primary Background -->
 		</imagedatacontrol>
 	</template>
@@ -383,7 +383,7 @@
 	<!-- Source: ct/template_ct.xml -->
 	<template name="label_ct">
 		<label>
-			<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+			<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 		</label>
 	</template>
 
@@ -542,22 +542,22 @@
 		</script>
 		<sheetdata>
 			<stringcontrol name="viewdate" merge="join">
-				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			</stringcontrol>
 			<basicnumber name="currentyear" merge="join">
-				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			</basicnumber>
 			<basicstring name="currentepoch" merge="join">
-				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			</basicstring>
 			<label name="currenthour" merge="join">
-				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			</label>
 			<label name="currentminute" merge="join">
-				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			</label>
 			<label name="currentphase" merge="join">
-				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			</label>
 		</sheetdata>
 	</windowclass>
