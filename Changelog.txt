@@ -28,7 +28,10 @@
         [*]Made chat hidden GM roll icon red to be in line with the rest of the theme.
         [*]Made select chat fonts bold for better readaility.
         [*]Changed chatcolors again for msgfont. The pale green was a complimentary color, but ultimately a cold one and thus unfit for the warm colors everywhere else.
-        [*]Fixed referencepage graphic - had the original still in the brackground, leading to smudgy edges.
+        [*]Fixed referencepage graphic - had the original still in the background, leading to smudgy edges.
+        [*]Remade sidebar Character Selection and Party sheet icon to be in line with the look and feel of other icons.
+        [*]Filled out sidbar image icon mountain and sun to be in line with other icons.
+        [*]Adjusted Chat portrait size to be slightly smaller, to be in line with other icons.
     [/LIST]
 
 [COLOR="#FF0000"][B]Changelog Extension Elements:[/B][/COLOR]
