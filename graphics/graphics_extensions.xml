@@ -1063,7 +1063,7 @@
 		<windowclass name="shops" merge="join">
 			<sheetdata>
 				<stringfield name="name">
-					<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+					<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 				</stringfield>
 			</sheetdata>
 		</windowclass>
