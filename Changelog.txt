@@ -32,12 +32,16 @@
         [*]Remade sidebar Character Selection and Party sheet icon to be in line with the look and feel of other icons.
         [*]Filled out sidbar image icon mountain and sun to be in line with other icons.
         [*]Adjusted Chat portrait size to be slightly smaller, to be in line with other icons.
+        [*]Slightly adjusted empty portrait symbol
+        [*]Fixed Character Sheet empty Token icon to not be tiny.
+        [*]Made gear icon in character sheet (and possibly other places) another 2px smaller to not stand out as much.
     [/LIST]
 
 [COLOR="#FF0000"][B]Changelog Extension Elements:[/B][/COLOR]
     [LIST]
         [*]Increase contrast for all beige UI elements slighty (#EBBDBA -> #FFF0CA)
         [*]Adjusted all Tab Fonts to use Black instead of Regular
+        [*]Death Indicator by Silent Ruin - Changed empty token slot on Character Sheet and NPC sheet to emphasize a drag and drop area a little more.
     [/LIST]
 
 
