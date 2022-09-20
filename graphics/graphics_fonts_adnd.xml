@@ -172,7 +172,7 @@
   <!-- Formatted text fields for dark/transparent frames and menus -->
   <font name="reference-b-large-light">
     <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
-    <color value="#EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
+    <color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
   </font>
 
   <font name="reference-r-light">

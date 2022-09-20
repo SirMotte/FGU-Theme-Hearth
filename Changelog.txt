@@ -14,7 +14,9 @@
 
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
-        [*]Removed duplicate sheetlabelinline font definition (Thanks to Zarestia for spotting this.)
+        [*]Increase contrast for all beige UI elements slighty (#EBBDBA -> #FFF0CA)
+        [*]Removed Metallic look from all chat elements but for the GM icon and the extension announcment icons.
+        {*]Removed duplicate sheetlabelinline font definition (Thanks to Zarestia for spotting this.)
         [*]Changed radial magic wand icon to better convey its cleanup function of statblocks for import.
         [*]Added new <icon name="num1" file="graphics/radial/icon_dice_1.png" /> that is used in the reworked formation tab.
         [*]Removed Metallic Effect from chat icons but for the DM. I found it too distracting during actual play.
@@ -24,9 +26,18 @@
         [*]Changed sidebar Partysheet icon to be in line with other icons
         [*]Adjusted hit and critical hit chat icons to be more distinct.
         [*]Made chat hidden GM roll icon red to be in line with the rest of the theme.
-        [*]Made select chat fonts bold for better readaility. 
+        [*]Made select chat fonts bold for better readaility.
         [*]Changed chatcolors again for msgfont. The pale green was a complimentary color, but ultimately a cold one and thus unfit for the warm colors everywhere else.
+        [*]Fixed referencepage graphic - had the original still in the brackground, leading to smudgy edges.
     [/LIST]
+
+[COLOR="#FF0000"][B]Changelog Extension Elements:[/B][/COLOR]
+    [LIST]
+        [*]Increase contrast for all beige UI elements slighty (#EBBDBA -> #FFF0CA)
+        [*]Adjusted all Tab Fonts to use Black instead of Regular
+    [/LIST]
+
+
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
 

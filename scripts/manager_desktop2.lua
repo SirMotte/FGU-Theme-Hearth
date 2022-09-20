@@ -3,8 +3,8 @@
 -- attribution and copyright information.
 --
 
-local _cDockCategoryIconColor = "EBDDBA"; -- Replaceable Color: Primary Foreground
-local _cDockCategoryTextColor = "EBDDBA"; -- Replaceable Color: Primary Foreground
+local _cDockCategoryIconColor = "FFF0CA"; -- Replaceable Color: Primary Foreground
+local _cDockCategoryTextColor = "FFF0CA"; -- Replaceable Color: Primary Foreground
 local _cDockIconColor = "DDDDDD"; -- Replaceable Color: Secondary Foreground
 local _cDockTextColor = "DDDDDD"; -- Replaceable Color: Secondary Foreground
 
