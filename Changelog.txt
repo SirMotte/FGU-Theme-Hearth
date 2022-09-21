@@ -12,6 +12,8 @@
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
         [*]Replaced the hidden roll GM icon with text to be better to understand.
+        [*]Changed systemfont from font style black to bold again, to be better readable.
+        [*]Re-added proper button down state for cogwheel that replaced the magnifying glass. (Thanks to MrDDT for bringing that up).
     [/LIST]
 
 [COLOR="#FF0000"][B]Changelog Extension Elements:[/B][/COLOR]
