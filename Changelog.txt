@@ -11,7 +11,7 @@
 
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
-        [*]
+        [*]Replaced the hidden roll GM icon with text to be better to understand.
     [/LIST]
 
 [COLOR="#FF0000"][B]Changelog Extension Elements:[/B][/COLOR]
