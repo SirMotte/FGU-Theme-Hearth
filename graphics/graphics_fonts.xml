@@ -80,7 +80,7 @@
 	</font>
 	<font name="systemfont">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
-		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="16" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Chat Font 3 -->
 	</font>
 	<font name="msgfont">
