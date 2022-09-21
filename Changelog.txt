@@ -1,47 +1,22 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.10 - Beefcake Princess[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.11 - Penpot and Lunacy[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
     This weeks update is now live on the Forge and GitHub.
 
-    Maintenance Update das addresses a few missing items and added stuff from last update.
-    Also I finally got around to add in the condition icons that are shown on map tokens.
-
-    Special thanks to MeAndUnique and Saagael, as well as all the wonderful folks at the Unofficial Developers Guild.
+   xxxx
 
     Enjoy!
     Sir Motte
 
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
-        [*]Increase contrast for all beige UI elements slighty (#EBBDBA -> #FFF0CA)
-        [*]Removed Metallic look from all chat elements but for the GM icon and the extension announcment icons.
-        {*]Removed duplicate sheetlabelinline font definition (Thanks to Zarestia for spotting this.)
-        [*]Changed radial magic wand icon to better convey its cleanup function of statblocks for import.
-        [*]Added new <icon name="num1" file="graphics/radial/icon_dice_1.png" /> that is used in the reworked formation tab.
-        [*]Removed Metallic Effect from chat icons but for the DM. I found it too distracting during actual play.
-        [*]Added missing Condition Icons.
-        [*]If you read this changelog, you can request your very own GM Icon extension, contact me.
-        [*]Made gear Icon on Charsheet 2px smaller to better fit its background
-        [*]Changed sidebar Partysheet icon to be in line with other icons
-        [*]Adjusted hit and critical hit chat icons to be more distinct.
-        [*]Made chat hidden GM roll icon red to be in line with the rest of the theme.
-        [*]Made select chat fonts bold for better readaility.
-        [*]Changed chatcolors again for msgfont. The pale green was a complimentary color, but ultimately a cold one and thus unfit for the warm colors everywhere else.
-        [*]Fixed referencepage graphic - had the original still in the background, leading to smudgy edges.
-        [*]Remade sidebar Character Selection and Party sheet icon to be in line with the look and feel of other icons.
-        [*]Filled out sidbar image icon mountain and sun to be in line with other icons.
-        [*]Adjusted Chat portrait size to be slightly smaller, to be in line with other icons.
-        [*]Slightly adjusted empty portrait symbol
-        [*]Fixed Character Sheet empty Token icon to not be tiny.
-        [*]Made gear icon in character sheet (and possibly other places) another 2px smaller to not stand out as much.
+        [*]
     [/LIST]
 
 [COLOR="#FF0000"][B]Changelog Extension Elements:[/B][/COLOR]
     [LIST]
-        [*]Increase contrast for all beige UI elements slighty (#EBBDBA -> #FFF0CA)
-        [*]Adjusted all Tab Fonts to use Black instead of Regular
-        [*]Death Indicator by Silent Ruin - Changed empty token slot on Character Sheet and NPC sheet to emphasize a drag and drop area a little more.
+        [*]
     [/LIST]
 
 
