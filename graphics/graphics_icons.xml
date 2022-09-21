@@ -640,11 +640,11 @@
 		<icon name="button_dialog_check_green" file="graphics/pngs/button_dialog_check_green.png" />
 		<icon name="button_dialog_check_red" file="graphics/pngs/button_dialog_check_red.png" />
 
-		<icon name="details" file="graphics/pngs/button_details.png" />
+		<icon name="details" file="graphics/pngs/wheels-icon.png" />
 		<icon name="details_white" file="graphics/pngs/wheels-icon-white.png" />
-		<icon name="details_down" file="graphics/pngs/button_details_down.png" />
-		<icon name="button_details" file="graphics/pngs/wheels-icon.png" />
-		<icon name="button_details_down" file="graphics/pngs/wheels-icon-down.png" />
+		<icon name="details_down" file="graphics/pngs/wheels-icon-down.png" />
+		<icon name="button_details" file="graphics/pngs/button_details.png" />
+		<icon name="button_details_down" file="graphics/pngs/button_details_down.png" />
 
 		<icon name="wheels_icon_double" file="graphics/pngs/wheels-icon-double.png" />
 
