@@ -15,9 +15,14 @@ You can find me on Discord using Sir Motte#1305, the [Grim Press](https://discor
 - Pathfinder 2E - Basic
 - Other Rulesets might work to some degree, but expect oddities to occur.
 
-    Full = I do my utmost to not only have everything this ruleset entails covered, I also have set out to make all availalbe extensions adhere to my theme.
-    Basic = I try my best to have no gamebreaking UI issues happening, other than that you must request eg. extension support specifically.
-    WIP = Work in Progress, so expect oddities to occur.
+**Full**
+I do my utmost to not only have everything this ruleset entails covered, I also have set out to make all availalbe extensions adhere to my theme.
+
+**Basic**
+
+I try my best to have no gamebreaking UI issues happening, other than that you must request eg. extension support specifically.
+**WIP**
+Work in Progress, so expect oddities to occur.
 
 ## Special Contributors
 By now I must call them Co-Authors! [MeAndUnique]https://github.com/MeAndUnique and [Saagael](https://github.com/Gtaray) have helped me tremendiously with their invaluable help with .xml and .lua code and general workflow. Without them this theme wouldn't be available with this level of polish! 3.
