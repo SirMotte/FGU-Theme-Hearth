@@ -4,8 +4,12 @@
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
     This weeks update is now live on the Forge and GitHub.
 
-   xxxx
+    It entails small modifications to very frequently used buttons, to make them stand out more and be in line with other buttons as well.
+    Please tell me what you think of it.
 
+    Other than those there are no major changes or additions, as I had little time to work on it. 
+    The next update will be a little bigger and hopefully address some lingering issues with 4E and Classic.
+    
     Enjoy!
     Sir Motte
 
@@ -17,13 +21,6 @@
         [*]Re-made several flat icons to be clearly interactable.
         [*]Enlarged the eye open closed icon to better fit their new frame in the CT.
     [/LIST]
-
-[COLOR="#FF0000"][B]Changelog Extension Elements:[/B][/COLOR]
-    [LIST]
-        [*]
-    [/LIST]
-
-
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
 
