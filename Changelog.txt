@@ -1,25 +1,22 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.11 - Penpot and Lunacy[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.12 - xxxx[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
-    This weeks update is now live on the Forge and GitHub.
 
-    It entails small modifications to very frequently used buttons, to make them stand out more and be in line with other buttons as well.
-    Please tell me what you think of it.
-
-    Other than those there are no major changes or additions, as I had little time to work on it. 
-    The next update will be a little bigger and hopefully address some lingering issues with 4E and Classic.
-    
-    Enjoy!
-    Sir Motte
 
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
-        [*]Replaced the hidden roll GM icon with text to be better to understand.
-        [*]Changed systemfont from font style black to bold again, to be better readable.
-        [*]Re-added proper button down state for cogwheel that replaced the magnifying glass. (Thanks to MrDDT for bringing that up).
-        [*]Re-made several flat icons to be clearly interactable.
-        [*]Enlarged the eye open closed icon to better fit their new frame in the CT.
+        [*]
+        [*]
+        [*]
+        [*]
+        [*]
+        [*]
+        [*]
+        [*]
+        [*]
+        [*]
+        [*]
     [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
