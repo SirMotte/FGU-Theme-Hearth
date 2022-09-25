@@ -2,12 +2,12 @@
 <!--Special Thanks to MeAndUnique and Saagael for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: Beta 2.9.10 - Beefcake Princess\rHearth Edition" font="oocfont" icon="footface"/>
+	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: Beta 2.9.11 - Penpot and Lunacy\rHearth Edition" font="oocfont" icon="footface"/>
 
 	<properties>
 		<name>Theme: Hearth</name>
 		<author>Sir Motte - Co. Authors: MeAndUnique and Saagael / Contributions by bmos and Zarestia</author>
-		<version>2.9.10</version>
+		<version>2.9.11</version>
 		<description>Dark, warm and reduced user interface for FGU</description>
 		<loadorder>1500</loadorder>
 	</properties>
