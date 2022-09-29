@@ -19,7 +19,6 @@ You can find me on Discord using Sir Motte#1305, the [Grim Press](https://discor
 I do my utmost to not only have everything this ruleset entails covered, I also have set out to make all availalbe extensions adhere to my theme.
 
 **Basic**
-
 I try my best to have no gamebreaking UI issues happening, other than that you must request eg. extension support specifically.
 
 **WIP**
