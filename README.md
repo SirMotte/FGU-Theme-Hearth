@@ -21,6 +21,7 @@ I do my utmost to not only have everything this ruleset entails covered, I also 
 **Basic**
 
 I try my best to have no gamebreaking UI issues happening, other than that you must request eg. extension support specifically.
+
 **WIP**
 Work in Progress, so expect oddities to occur.
 
