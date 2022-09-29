@@ -1,4 +1,4 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.12 - xxxx[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.12 - Homunculus[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
@@ -6,7 +6,7 @@
 
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
-        [*]
+        [*]Fixed Tokenbag asset icon not showing correctly
         [*]
         [*]
         [*]
