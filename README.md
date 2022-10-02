@@ -59,9 +59,9 @@ I try my best to make all available extensions visually compatible (there should
 This theme uses a very high loadorder of 1500 in order to be able to overwrite most extension's UI elements out there. Therefore any extension that you want to overwrite my theme with must use a loadorder value of 1501 or higher. This is set in the extension.xml within any extension.
 
 Currently there are no reports of incompatibilities or conflicts.
-Font Extensions like the one by Mattekure will make the font go back to black and thus badly readable.
-If you pay close attention to the console log you might find [Warning] entries related to this theme. 
-You can safely ignore them, as they only tell you, that you're not using an extension supported by my theme. 
+- Font Extensions like the one by Mattekure will make the font go back to black and thus badly readable.
+- If you pay close attention to the console log you might find [Warning] entries related to this theme. 
+- You can safely ignore them, as they only tell you, that you're not using an extension supported by my theme. 
 
 ### Want to buy me a coffee?
 [PayPal War Chest](https://www.paypal.com/paypalme/DnDKriegskasse)
