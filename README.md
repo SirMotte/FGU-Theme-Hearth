@@ -73,7 +73,7 @@ Here's my [Dungeon Masters Guild Maps Wishlist](https://www.dmsguild.com/wishlis
 
 
 # Installation - Forge (Recommended)
-1. Subscribe to the FG Forge Item and Update your Fantasy Grounds Client.
+1. Subscribe to the [FG Forge Item](https://forge.fantasygrounds.com/shop/items/12/view) and Update your Fantasy Grounds Client.
 2. Activate the theme listed as "Theme: Hearth" in your campaign details page in the "Extensions" section and launch the campaign.
 3. Done, I hope you like it!
 
