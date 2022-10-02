@@ -33,7 +33,7 @@ In order to customize your GM Icon, download my GM Icon Replacer Extension and f
 You can find me on Discord using Sir Motte#1305, the [Grim Press](https://discord.com/invite/zQCJ6H67XN) and [Fantasy Grounds Channel](https://discord.gg/rhvsZj5xgP) or message me here directly. For discussions, help and suggestions either write/report on the [Fantasy Grounds Forums Thread](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-5E-SirMottes-Magnificent-Darkness), or @Message me in the official [Forge Item Support Channel](https://discord.gg/dFx53WDKzb) on Discord.
 
 ## Special Contributors
-By now I must call them Co-Authors! [MeAndUnique](https://github.com/MeAndUnique) and [Saagael](https://github.com/Gtaray) have helped me tremendiously with their invaluable help with .xml and .lua code and general workflow. Without them this theme wouldn't be available with this level of polish! 3.
+By now I must call them Co-Authors! [MeAndUnique](https://github.com/MeAndUnique) and [Saagael](https://github.com/Gtaray) have helped me tremendiously with their invaluable help with .xml and .lua code and general workflow. Without them this theme wouldn't be available with this level of polish.
 
 Illustrious Community [Egghead bmos](https://github.com/bmos) has also contributed greatly to the theme and my learning process. Thanks!
 Shoutout to [Zarestia](https://github.com/ZarestiaDev) and all the folks at the unofficial developers guild, you rock!
