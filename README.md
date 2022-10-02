@@ -79,7 +79,7 @@ Here's my [Dungeon Masters Guild Maps Wishlist](https://www.dmsguild.com/wishlis
 
 
 # Installation - GitHub
-1. Download the Theme from Github
+1. [Download](https://github.com/SirMotte/FGU-Theme-Hearth/releases) the Theme from Github
    - or grab the Developer-Build (always most up to date, but potentially unstable)
 2. Move the file named "Theme_SirMotte_Hearth.ext" into the "Extensions" Folder found inside your Fantasy Grounds Data folder"
 3. Activate the theme listed as "Theme: Hearth" in your campaign details page in the "Extensions" section and launch the campaign
