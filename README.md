@@ -8,15 +8,15 @@ This is a Theme Extension for the Fantasy Grounds Virtual Tabletop Platform.
 - Dungeons & Dragons 4E - WIP
 - Pathfinder 1E - Basic
 - Pathfinder 2E - Basic
-- Other Rulesets might work to some degree, but expect oddities to occur.
+- Other Rulesets might work surprisingly well, please test this and possibly report your findings. 
 
-**Full**
+**Full**:
 I do my utmost to not only have everything this ruleset entails covered, I also have set out to make all availalbe extensions adhere to my theme.
 
-**Basic**
+**Basic**:
 I try my best to have no gamebreaking UI issues happening, other than that you must request eg. extension support specifically.
 
-**WIP**
+**WIP**:
 Work in Progress, so expect oddities to occur.
 
 
