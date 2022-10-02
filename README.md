@@ -27,8 +27,8 @@ I proudly present to you my take on a dark, reduced and calm Fantasy Grounds Uni
 If you tend to play in dimmed light conditions or prefer a dark UI for your Software, my Theme might be to your liking. It was developed at 120 cd/m screen brightness in AdobeRGB color space. Most monitors ship with brighter factory settings and can't use the full Adobe Color spectrum. Therefore, make sure that you're not using exaggerated brightness and contrast settings.
 If you come across extensions that need to be adjusted to fit this theme, please contact me :).
 
-Now with [Customization Bonus Extension](https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md)
-In order to customize your GM Icon, download my GM Icon Replacer Extension and follow the instructions in the readme.
+Now with Customization Bonus Extension!
+In order to customize your GM Icon, download my [GM Icon Replacer](https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md) Extension and follow the instructions in the readme.
 
 You can find me on Discord using Sir Motte#1305, the [Grim Press](https://discord.com/invite/zQCJ6H67XN) and [Fantasy Grounds Channel](https://discord.gg/rhvsZj5xgP) or message me here directly. For discussions, help and suggestions either write/report on the [Fantasy Grounds Forums Thread](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-5E-SirMottes-Magnificent-Darkness), or @Message me in the official [Forge Item Support Channel](https://discord.gg/dFx53WDKzb) on Discord.
 
