@@ -1,23 +1,18 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.12 - Homunculus[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.12 - Dancing Homunculus[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
+Tiny fix for a few UI issues that were brought to my attention, doesn't really warrant a version change, but for the sake of consistency, it is now 2.9.12.
+No news on the 4E support front.
 
+I'm hard at work creating a "https://penpot.app/" Design File that will make it fairly easy to create your own Editions of Hearth Theme, and enable me to easily create the old editions again and some more.
+In the background functionality created by the one and only MeAndUnique streamlines the process with super smart scripts to ease the workload a lot. Stay tuned.
 
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
         [*]Fixed Tokenbag asset icon not showing correctly
         [*]Exchanged all closed eye symbols with the same icon as the opened eye, only color indicates the state now. Reinstated eye symbol in the chat instead of the "hidden roll" text to be less obtrusive and in line with everything else.
         I'm still unsure about how to approach this in another way, since the menu item is not a button. Adding a square or circle around the eye symbol like I do for most klick-able ui elements isn't possible, because of the way it is implemented into the ui. If I did this, it wouldn't be discernible at all.
-        [*]
-        [*]
-        [*]
-        [*]
-        [*]
-        [*]
-        [*]
-        [*]
-        [*]
     [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
