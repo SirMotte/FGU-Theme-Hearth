@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!--
+  Please see the license.html file included with this distribution for
+  attribution and copyright information.
+-->
+
+<root>
+  <font name="sheetlabelmini">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="13" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+
+  <font name="sheetlabelmini_percent">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+
+  <font name="sidebar">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+
+  <font name="successfont">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+    <color value="#418c12" />
+  </font>
+  <font name="failfont">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+    <color value="#6106d1" />
+  </font>
+  <font name="hitfont">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+    <color value="#cc1d1d" />
+  </font>
+  <font name="missfont">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+    <color value="#1d97cc" />
+  </font>
+
+  <font name="warning">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+    <color value="#CB4335" />
+  </font>
+
+  <font name="cta_hypertext">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+  <font name="cta_text">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+
+
+  <!-- font used in grouplist headers in shortcut buttons on npc/item/etc -->
+
+  <font name="grouplist-white">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+    <color value="#DDDDDD" />
+  </font>
+  <!-- font used in grouplists in shortcut buttons on item for damage -->
+  <font name="grouplist-damage-black">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+    <color value="#DDDDDD" />
+  </font>
+
+  <!-- regular -->
+  <!--
+  <font name="regular8">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="8" />
+  </font>
+  <font name="regular9">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="9" />
+  </font>
+  -->
+  <font name="regular10">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="13" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+  <font name="regular11">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+  <!--
+  <font name="regular12">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
+  </font>
+  <font name="regular13">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="13" />
+  </font>
+  <font name="regular14">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
+  </font>
+  -->
+  <font name="regular10-white">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="13" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+  <font name="regular14-white">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+  <!--
+  <font name="regular15">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="15" />
+  </font>
+  <font name="regular16">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+  </font>
+  <font name="regular18">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
+  </font>
+  <font name="regular20">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="20" />
+  </font>
+  -->
+
+  <!-- regular italic -->
+  <!--
+  <font name="regular14italic">
+    <ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="14" />
+  </font>
+  <font name="regular14italic-white">
+    <ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="14" />
+    <color value="#DDDDDD" />
+  </font>
+  <font name="regular15italic">
+    <ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="15" />
+  </font>
+  <font name="regular16italic">
+    <ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
+  </font>
+  <font name="regular18italic">
+    <ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="18" />
+  </font>
+  <font name="regular20italic">
+    <ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="20" />
+  </font>
+  -->
+
+  <!-- bold  -->
+
+  <font name="bold10">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="13" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+
+  <font name="bold11">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+  <font name="bold12">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+  <!--
+  <font name="bold13">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="13" />
+  </font>
+  <font name="bold14">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
+  </font>
+  -->
+  <font name="bold14-white">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="15" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+
+  <!-- Formatted text fields for dark/transparent frames and menus -->
+  <font name="reference-b-large-light">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+    <color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
+  </font>
+
+  <font name="reference-r-light">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+
+  <font name="reference-i-light">
+    <ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+
+  <font name="reference-b-light">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+
+  <font name="reference-bi-light">
+    <ttf file="graphics/fonts/Roboto-BoldItalic" name="Roboto Bold Italic" size="16" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+
+  <!--
+  <font name="bold15">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="15" />
+  </font>
+  -->
+  <font name="bold16">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+  <!--
+  <font name="bold18">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+  </font>
+  -->
+  <font name="bold20">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+
+  <!-- semi-bold -->
+  <font name="semibold12">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+  <!--
+  <font name="semibold13">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="13" />
+  </font>
+  <font name="semibold14">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
+  </font>
+  <font name="semibold14-white">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
+    <color value="#DDDDDD" />
+  </font>
+  <font name="semibold15">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="15" />
+  </font>
+  <font name="semibold16">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+  </font>
+  <font name="semibold18">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+  </font>
+  <font name="semibold20">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="20" />
+  </font>
+  -->
+
+  <!-- extra-bold -->
+  <!--
+  <font name="extrabold14">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
+  </font>
+  <font name="extrabold14-white">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
+    <color value="#DDDDDD" />
+  </font>
+  <font name="extrabold15">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="15" />
+  </font>
+  <font name="extrabold16">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+  </font>
+  <font name="extrabold18">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+  </font>
+  <font name="extrabold20">
+
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="20" />
+  </font>
+  -->
+
+  <!-- bold italic -->
+  <!--
+  <font name="bold14italic">
+
+    <ttf file="graphics/fonts/Roboto-BoldItalic" name="Roboto Bold Italic" size="14" />
+  </font>
+  <font name="bold14italic-white">
+
+    <ttf file="graphics/fonts/Roboto-BoldItalic" name="Roboto Bold Italic" size="14" />
+    <color value="#DDDDDD" />
+  </font>
+  <font name="bold15italic">
+
+    <ttf file="graphics/fonts/Roboto-BoldItalic" name="Roboto Bold Italic" size="15" />
+  </font>
+  <font name="bold16italic">
+
+    <ttf file="graphics/fonts/Roboto-BoldItalic" name="Roboto Bold Italic" size="16" />
+  </font>
+  <font name="bold18italic">
+
+    <ttf file="graphics/fonts/Roboto-BoldItalic" name="Roboto Bold Italic" size="18" />
+  </font>
+  <font name="bold20italic">
+
+    <ttf file="graphics/fonts/Roboto-BoldItalic" name="Roboto Bold Italic" size="20" />
+  </font>
+  -->
+
+  <!-- font used for hpcurrent display. The shadow is to make sure even with
+  the light coloring for hp status you can see it-->
+  <font name="font-hpcurrent">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+    </font>
+</root>

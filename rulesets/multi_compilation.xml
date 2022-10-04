@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<!--PFRPG2=Speed-->
+<!--PFRPG1=Spellfailure-->
+<!--3.5€=Spellfailure-->
+<windowclass name="charsheet_inventory" merge="join">
+    <sheetdata>
+    <!-- Armor -->
+        <buttonfield name="usearmormaxstatbonus">
+					<!-- The following assumes that this only exists in 3.5E, PFRPG1 or PFRPG2.-->
+					<!-- This logic will likely need updating in the event that changes.-->
+            <script>
+                  function onValueChanged(...)
+                    if super and super.onValueChanged then super.onValueChanged(...); end
+                    local sColor = ColorManager.COLOR_HEALTH_DYING_OR_DEAD;
+                    if getValue() == 1 then
+                      sColor = ColorManager.COLOR_SECONDARY_FOREGROUND;
+                    end
+                    window.armormaxstatbonus.setColor(sColor);
+                    window.armorcheckpenalty.setColor(sColor);
+										if User.getRulesetName() == "PFRPG2" then
+	                      window.speedpenalty.setColor(sColor);
+	                    else
+	                      window.spellfailure.setColor(sColor);
+	                    end
+                    if super and super.encumbranceColors then super.encumbranceColors(); end -- bmos' encumbrance penalties
+                  	end
+                  function onInit()
+                    if super and super.onInit then super.onInit(); end
+                      onValueChanged();
+                    end
+            </script>
+        </buttonfield>
+    </sheetdata>
+</windowclass>
+
+	<framedef name="slottedmodifier">
+		<bitmap file="graphics/pngs/slottedmodifier.png" />
+		<topleft rect="0,0,37,12" />
+		<top rect="37,0,160,12" />
+		<topright rect="212,0,12,12" />
+		<left rect="0,12,37,187" />
+		<middle rect="37,12,160,187" />
+		<right rect="212,12,12,187" />
+		<bottomleft rect="0,199,37,12" />
+		<bottom rect="37,199,160,12" />
+		<bottomright rect="212,199,12,12" />
+	</framedef>
+	<framedef name="slottedbonus">
+		<bitmap file="graphics/pngs/slottedbonus.png" />
+		<topleft rect="0,0,68,12" />
+		<top rect="68,0,128,12" />
+		<topright rect="212,0,12,12" />
+		<left rect="0,12,68,187" />
+		<middle rect="68,12,128,187" />
+		<right rect="212,12,12,187" />
+		<bottomleft rect="0,199,68,12" />
+		<bottom rect="68,199,128,12" />
+		<bottomright rect="212,199,12,12" />
+	</framedef>
+
+	<framedef name="acicon">
+		<bitmap file="graphics/pngs/acicon_pfrpg.png" />
+		<topleft rect="-4,0,35,39" />
+	</framedef>
+</root>

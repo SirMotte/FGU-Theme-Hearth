@@ -42,14 +42,14 @@
 	<template name="imagedata_record_step">
 		<imagedatacontrol>
 			<invisible />
-			<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+			<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			<backcolor>232323</backcolor> <!-- Replaceable Color: Primary Background -->
 		</imagedatacontrol>
 	</template>
 	<template name="imagepaneldata_record_step">
 		<imagedatacontrol>
 			<invisible />
-			<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+			<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			<backcolor>232323</backcolor> <!-- Replaceable Color: Primary Background -->
 		</imagedatacontrol>
 	</template>
@@ -383,7 +383,7 @@
 	<!-- Source: ct/template_ct.xml -->
 	<template name="label_ct">
 		<label>
-			<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+			<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 		</label>
 	</template>
 
@@ -465,8 +465,15 @@
 		<script>
 			local fSetState;
 			function onInit()
-				fSetState = super.setState;
-				super.setState = updatedSetState;
+				local root = super;
+				while root.super do					
+					root = root.super;
+				end
+				if root then
+					fSetState = root.setState;
+					root.setState = updatedSetState;	
+				end
+
 				if super.onInit then
 					super.onInit();
 				end
@@ -495,8 +502,16 @@
 		<script>
 			local fUpdateDisplay;
 			function onInit()
-				fUpdateDisplay = super.updateDisplay;
-				super.updateDisplay = updateDisplay2;
+				local root = super;
+				while root.super do
+					if root.super then
+						root = root.super;
+					end
+				end
+				if root then
+					fUpdateDisplay = root.updateDisplay;
+					root.updateDisplay = updateDisplay2;
+				end
 				
 				if super.onInit then
 					super.onInit();
@@ -527,22 +542,22 @@
 		</script>
 		<sheetdata>
 			<stringcontrol name="viewdate" merge="join">
-				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			</stringcontrol>
 			<basicnumber name="currentyear" merge="join">
-				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			</basicnumber>
 			<basicstring name="currentepoch" merge="join">
-				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			</basicstring>
 			<label name="currenthour" merge="join">
-				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			</label>
 			<label name="currentminute" merge="join">
-				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			</label>
 			<label name="currentphase" merge="join">
-				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			</label>
 		</sheetdata>
 	</windowclass>
@@ -606,4 +621,81 @@
 			end
 		</script>
 	</windowclass>
+
+
+	<!-- Re-color is moved to script instead of xml to support rulesets that don't use the temphp box -->
+	<windowclass name="charsheet_main" merge="join">
+		<script file="rulesets/scripts/charsheet_main_colors.lua" />
+	</windowclass>
+	<!-- Source: ct/ct_host.xml -->
+	<!-- Re-color is moved to script instead of xml to support rulesets that don't use the temphp box -->
+	<windowclass name="ct_entry" merge="join">
+		<script file="rulesets/scripts/ct_entry_colors.lua" />
+	</windowclass>
+	<windowclass name="client_ct_entry" merge="join">
+		<script file="rulesets/scripts/ct_entry_colors.lua" />
+	</windowclass>
+	<windowclass name="charsheetmini_main" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if hptemp then
+					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
+				end
+			end
+		</script>
+	</windowclass>
+	<windowclass name="char_actions_quickref" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if temphp then
+				temphp.setColor(ColorManager.COLOR_TEMP_HP);
+						elseif hptemp then
+				hptemp.setColor(ColorManager.COLOR_TEMP_HP);
+					end
+			end
+		</script>
+	</windowclass>
+	<windowclass name="char_actions_quickref" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if wounded then
+				wounded.setColor(ColorManager.COLOR_HEALTH_HVY_WOUNDS);
+				end
+			end
+		</script>
+	</windowclass>
+	<windowclass name="char_actions_quickref" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if dying then
+				dying.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
+				end
+			end
+		</script>
+	</windowclass>
+	<!-- My try to exchange the rowshade with the fieldfocus frame on hover in the actions menu - not working
+	<windowclass name="char_weapon" merge="join">
+			<script>
+				function highlightAttack(bOnControl)
+				if bOnControl then
+					attackshade.setFrame("fieldfocus");
+				else
+					attackshade.setFrame(nil);
+				end
+			end
+		</script>
+	</windowclass>
+	-->
 </root>
