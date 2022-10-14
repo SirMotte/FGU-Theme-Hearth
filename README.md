@@ -61,8 +61,6 @@ Currently there are no reports of incompatibilities or conflicts.
 - You can safely ignore them, as they only tell you, that you're not using an extension supported by my theme. 
 
 ### Want to buy me a coffee?
-[PayPal War Chest](https://www.paypal.com/paypalme/DnDKriegskasse)
-or
 [Ko.Fi](https://ko-fi.com/sirmotte)
 
 ### Want to buy me a DMs Guild gift instead?
