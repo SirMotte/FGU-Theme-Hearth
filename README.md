@@ -1,3 +1,5 @@
+![Showcase](https://forge.fantasygrounds.com/images/0c95da41dc4631463ceb64c87e76f84a.png)
+
 # Sir Motte's Magnificent Darkness - Hearth Edition
 This is a Theme Extension for the Fantasy Grounds Virtual Tabletop Platform.
 
@@ -18,7 +20,6 @@ I try my best to have no gamebreaking UI issues happening, other than that you m
 
 **WIP**:
 Work in Progress, so expect oddities to occur.
-
 
 ## Foreword
 Hello fellow Adventurers,
