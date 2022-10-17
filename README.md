@@ -66,8 +66,7 @@ Currently there are no reports of incompatibilities or conflicts.
 [Ko.Fi](https://ko-fi.com/sirmotte)
 
 ### Want to buy me a DMs Guild gift instead?
-Here's my [Dungeon Masters Guild Maps Wishlist](https://www.dmsguild.com/wishlist_public.php?public_id=2593421&list_id=3816273&buying_for=sirmotte%40posteo.de&quot;]Wishlist%20for%20Maps).
-Or my general [PDF Wishlist](https://www.dmsguild.com/wishlist_public.php?public_id=2593421&list_id=3869339&buying_for=sirmotte%40posteo.de)
+Here's my [Dungeon Masters Guild Maps Wishlist](https://www.dmsguild.com/wishlist_public.php?public_id=2593421&list_id=3816273&buying_for=sirmotte%40posteo.de&quot;]Wishlist%20for%20Maps), or my general [PDF Wishlist](https://www.dmsguild.com/wishlist_public.php?public_id=2593421&list_id=3869339&buying_for=sirmotte%40posteo.de)
 
 
 # Installation - Forge (Recommended)
