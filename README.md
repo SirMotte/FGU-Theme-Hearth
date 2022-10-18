@@ -60,7 +60,7 @@ This theme uses a very high loadorder of 1500 in order to be able to overwrite m
 Currently there are no reports of incompatibilities or conflicts.
 - Font Extensions like the one by Mattekure will make the font go back to black and thus badly readable.
 - If you pay close attention to the console log you might find [Warning] entries related to this theme. 
-- You can safely ignore them, as they only tell you, that you're not using an extension supported by my theme. 
+You can safely ignore them, as they only tell you, that you're not using an extension supported by my theme. 
 
 ### Want to buy me a coffee?
 [Ko.Fi](https://ko-fi.com/sirmotte)
