@@ -57,7 +57,7 @@ I try my best to make all available extensions visually compatible (there should
 ## Compatibility Information & Known Problems
 This theme uses a very high loadorder of 1500 in order to be able to overwrite most extension's UI elements out there. Therefore any extension that you want to overwrite my theme with must use a loadorder value of 1501 or higher. This is set in the extension.xml within any extension.
 
-- Chat Aesthetics Configurator by Drowbe, maintained by Ryan Haegelstrom currently creates font issues withing the Pathfinder Rulesets and disables Action Icons. This will probably be fixed soon.
+- [Chat Aesthetics Configurator](https://forge.fantasygrounds.com/shop/items/523/view) by Drowbe, maintained by Ryan Haegelstrom currently creates font issues withing the Pathfinder Rulesets and disables Action Icons. This will probably be fixed soon.
 - Font Extensions like the one by Mattekure will make the font go back to black and thus badly readable.
 - If you pay close attention to the console log you might find [Warning] entries related to this theme. 
 You can safely ignore them, as they only tell you, that you're not using an extension supported by my theme. 
