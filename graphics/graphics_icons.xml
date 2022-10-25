@@ -18,7 +18,7 @@
 		<icon name="sidebar_icon_link_ct" file="graphics/pngs/sidebar_icon_link_ct.png" />
 		<icon name="sidebar_icon_link_ps" file="graphics/pngs/sidebar_icon_link_ps.png" />
 		<icon name="sidebar_icon_link_calendar" file="graphics/pngs/sidebar_icon_link_calendar.png" />
-		<icon name="sidebar_icon_link_pointerselection" file="graphics/pngs/sidebar_icon_link_color.png" />
+		<icon name="sidebar_icon_link_colorselect" file="graphics/pngs/sidebar_icon_link_color.png" />
 		<icon name="sidebar_icon_link_modifiers" file="graphics/pngs/sidebar_icon_link_modifiers.png" />
 		<icon name="sidebar_icon_link_effectlist" file="graphics/pngs/sidebar_icon_link_effects.png" />
 		<icon name="sidebar_icon_link_options" file="graphics/pngs/sidebar_icon_link_options.png" />
