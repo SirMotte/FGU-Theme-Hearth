@@ -812,7 +812,36 @@
 			</windowclass>
 	<!--Ext: Close Encounters-->
 			<!--Icon-->
-			<icon name="CloseEncounters" file="graphics/extensions/saagael/close_encounters/CloseEncounters.png" />
+				<icon name="CloseEncounters" file="graphics/extensions/saagael/close_encounters/CloseEncounters.png" />
+	<!--Ext: Decked Out-->
+			<!--Icon-->
+				<icon name="decked_out" file="graphics/extensions/saagael/decked_out/deckedout.png" />
+			<!-- Sidebar -->
+				<icon name="sidebar_action_hand" file="graphics/extensions/saagael/decked_out/sidebar_hand.png" />
+				<icon name="sidebar_icon_deckbox" file="graphics/extensions/saagael/decked_out/sidebar_deckbox.png" />
+				<icon name="sidebar_icon_recordtype_deck" file="graphics/extensions/saagael/decked_out/sidebar_decks.png" />		
+			<!-- Radial -->
+				<icon name="deck" file="graphics/extensions/saagael/decked_out/view_cardlist.png" />
+				<icon name="discard" file="graphics/extensions/saagael/decked_out/view_discard.png" />
+				<icon name="view_hand" file="graphics/extensions/saagael/decked_out/view_hand.png" />
+				<icon name="reshuffle_hand" file="graphics/extensions/saagael/decked_out/reshuffle.png" />
+				<icon name="reshuffle_card" file="graphics/extensions/saagael/decked_out/reshuffle.png" />
+				<icon name="play_faceup" file="graphics/extensions/saagael/decked_out/play_faceup.png" />
+				<icon name="play_facedown" file="graphics/extensions/saagael/decked_out/play_facedown.png" />
+				<icon name="discard_card" file="graphics/extensions/saagael/decked_out/discard.png" />
+				<icon name="discard_random" file="graphics/extensions/saagael/decked_out/discard_random.png" />
+				<icon name="discard_hand" file="graphics/extensions/saagael/decked_out/discard_hand.png" />
+				<icon name="give_card" file="graphics/extensions/saagael/decked_out/deal.png" />
+			<!-- <icon name="give_random_card" file="graphics/radial/give_random_card.png" /> -->
+				<icon name="deal" file="graphics/extensions/saagael/decked_out/deal.png" />
+				<icon name="deal_multiperson" file="graphics/extensions/saagael/decked_out/deal_multiperson.png" />
+				<icon name="multideal" file="graphics/extensions/saagael/decked_out/multideal.png" />
+				<icon name="multideal_multiperson" file="graphics/extensions/saagael/decked_out/multideal_multiperson.png" />
+			<!-- Misc -->
+				<icon name="icon_discard_pile" file="graphics/extensions/saagael/decked_out/discard_pile.png" />
+
+
+
 
 <!--Author: Good King Enialb-->
 	<!--Ext: Token Height Indicators-->
