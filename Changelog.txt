@@ -1,4 +1,4 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.13 - Philosophic Berserk[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.14 - xxx[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
@@ -6,18 +6,13 @@
 
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
-        [*]Made the "Tokennumber" frame Semi Black (#232323) for better readability.
-        [*]Changed Rollable Field indicator again to not look like a cube, but more like a hexagon.
-        [*]Slightly adjusted settings cogwheel...still looks ugly...
-        [*]Fixed Color Picker sidebar icon, that got renamed with the last FGU update.
-        [*]Adjusted some frames to no longer use headers.
+        [*]Added Missing Sidebar Icons for other rulesets - No official support, just for completeness's sake.
 
     [/LIST]
 
 [COLOR="#FF0000"][B]Changelog Extension Elements:[/B][/COLOR]
     [LIST]
-        [*]Player Agency by Damned - Removed Frame Header, to be in line with recent Theme changes.
-        [*]Sharing is caring - Removed Frame Header, to be in line with recent Theme changes.
+        [*]
 
     [/LIST]
 
