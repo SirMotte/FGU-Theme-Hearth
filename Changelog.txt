@@ -1,4 +1,4 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.14 - xxx[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.14 - Drenched Phoenix[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
@@ -12,7 +12,7 @@
 
 [COLOR="#FF0000"][B]Changelog Extension Elements:[/B][/COLOR]
     [LIST]
-        [*]
+        [*]Added support for Decked Out by Saagael
 
     [/LIST]
 
