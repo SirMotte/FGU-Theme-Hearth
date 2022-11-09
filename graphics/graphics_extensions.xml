@@ -810,16 +810,16 @@
 					</battletracker_unitlist>
 				</sheetdata>
 			</windowclass>
-	<!--Ext: Close Encounters-->
+		<!--Ext: Close Encounters-->
 			<!--Icon-->
 				<icon name="CloseEncounters" file="graphics/extensions/saagael/close_encounters/CloseEncounters.png" />
-	<!--Ext: Decked Out-->
+		<!--Ext: Decked Out-->
 			<!--Icon-->
 				<icon name="decked_out" file="graphics/extensions/saagael/decked_out/deckedout.png" />
 			<!-- Sidebar -->
 				<icon name="sidebar_action_hand" file="graphics/extensions/saagael/decked_out/sidebar_hand.png" />
 				<icon name="sidebar_icon_deckbox" file="graphics/extensions/saagael/decked_out/sidebar_deckbox.png" />
-				<icon name="sidebar_icon_recordtype_deck" file="graphics/extensions/saagael/decked_out/sidebar_decks.png" />		
+				<icon name="sidebar_icon_recordtype_deck" file="graphics/extensions/saagael/decked_out/sidebar_decks.png" />
 			<!-- Radial -->
 				<icon name="deck" file="graphics/extensions/saagael/decked_out/view_cardlist.png" />
 				<icon name="discard" file="graphics/extensions/saagael/decked_out/view_discard.png" />
