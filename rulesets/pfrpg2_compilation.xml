@@ -12,6 +12,26 @@
 		<bottom rect="12,199,200,12" />
 		<bottomright rect="212,199,12,12" />
 		<!--<decal rect="207,212,17,14" />-->
-	</framedef>
+		</framedef>
 
+		<!-- script in windowclass messes with color application, need a fix.
+
+		<windowclass name="spelldesc_header" merge="join">
+			<sheetdata>
+				<stringfield name="spelltype_header_label">
+					<color>FFFFFF</color>
+					<backcolor >800000</backcolor>	
+				</stringfield>
+			</sheetdata>
+		</windowclass>
+
+		<windowclass name="masterindexitem_spell" merge="join">
+			<sheetdata>
+				<stringfield name="level">
+					<color >DDDDDD</color>
+					<backcolor >501515</backcolor>
+				</stringfield>
+			</sheetdata>
+		</windowclass>
+	-->
 </root>

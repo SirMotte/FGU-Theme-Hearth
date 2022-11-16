@@ -10,6 +10,7 @@
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
         [*]Added Missing Sidebar Icons for other rulesets - No official support, just for completeness's sake.
+        [*]Fixed Spelltype Header Label in PFRPG2 to be brighter and in line with the theme.
 
     [/LIST]
 
