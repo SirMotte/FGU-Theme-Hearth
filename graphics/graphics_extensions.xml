@@ -821,7 +821,7 @@
 				<icon name="sidebar_icon_deckbox" file="graphics/extensions/saagael/decked_out/sidebar_deckbox.png" />
 				<icon name="sidebar_icon_recordtype_deck" file="graphics/extensions/saagael/decked_out/sidebar_decks.png" />
 			<!-- Radial -->
-				<icon name="deck" file="graphics/extensions/saagael/decked_out/view_cardlist.png" />
+				<icon name="deck" file="graphics/extensions/saagael/decked_out/card_list.png" />
 				<icon name="discard" file="graphics/extensions/saagael/decked_out/view_discard.png" />
 				<icon name="view_hand" file="graphics/extensions/saagael/decked_out/view_hand.png" />
 				<icon name="reshuffle_hand" file="graphics/extensions/saagael/decked_out/reshuffle.png" />
@@ -1076,29 +1076,48 @@
 <!--Author: Bayne-->
 	<!--Bayne's Emporium-->
 		<!--Icons-->
-  <icon name="mimic" file="graphics/extensions/bayne/baynes_emporium/mimic1.png" />
-    <icon name="buttondwnnum" file="graphics/extensions/bayne/baynes_emporium/buttondown.png" />
-    <icon name="buttonupnum" file="graphics/extensions/bayne/baynes_emporium/button_ctnextactorup.png" />
-    <icon name="cleartoken" file="graphics/extensions/bayne/baynes_emporium/button_ctnextround.png" />
-    <framedef name="SKledger">
-      <bitmap file="graphics/extensions/bayne/baynes_emporium/Open safety box.png" />
-      <offset>10,10,10,10</offset>
-    </framedef>
-    <framedef name="SKnotes">
-      <bitmap file="graphics/extensions/bayne/baynes_emporium/notepad.png" />
-      <offset>2,2,2,2</offset>
-    </framedef>
-		<!--Fonts-->
-		<windowclass name="shops" merge="join">
-			<sheetdata>
-				<stringfield name="name">
-					<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
-				</stringfield>
-			</sheetdata>
-		</windowclass>
+			<icon name="mimic" file="graphics/extensions/bayne/baynes_emporium/mimic1.png" />
+			<icon name="buttondwnnum" file="graphics/extensions/bayne/baynes_emporium/buttondown.png" />
+			<icon name="buttonupnum" file="graphics/extensions/bayne/baynes_emporium/button_ctnextactorup.png" />
+			<icon name="cleartoken" file="graphics/extensions/bayne/baynes_emporium/button_ctnextround.png" />
+			<framedef name="SKledger">
+			<bitmap file="graphics/extensions/bayne/baynes_emporium/Open safety box.png" />
+			<offset>10,10,10,10</offset>
+			</framedef>
+			<framedef name="SKnotes">
+			<bitmap file="graphics/extensions/bayne/baynes_emporium/notepad.png" />
+			<offset>2,2,2,2</offset>
+			</framedef>
+				<!--Fonts-->
+				<windowclass name="shops" merge="join">
+					<sheetdata>
+						<stringfield name="name">
+							<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
+						</stringfield>
+					</sheetdata>
+				</windowclass>
 
 <!--Author: Bayne-->
 	<!--Bayne's Emporium-->
 		<!--Icons-->
-		<icon name="zlogo" file="graphics/extensions/zuilin/zlogo.png" />
+			<icon name="zlogo" file="graphics/extensions/zuilin/zlogo.png" />
+
+<!--dsaraujo-->
+	<!-- Kindom Manager-->
+		<!-- Logo -->
+			<icon name="GMEnhancementsIcon" file="graphics/extensions/dsaraujos/kingdom_manager/logo32.png" />
+		<!-- Icons -->
+			<icon name="kkm_farmlands" file="graphics/extensions/dsaraujos/kingdom_manager/farmlands.png" />
+			<icon name="kkm_food" file="graphics/extensions/dsaraujos/kingdom_manager/food.png" />
+			<icon name="kkm_lumber" file="graphics/extensions/dsaraujos/kingdom_manager/lumber.png" />
+			<icon name="kkm_lumbercamps" file="graphics/extensions/dsaraujos/kingdom_manager/lumbercamps.png" />
+			<icon name="kkm_luxuries" file="graphics/extensions/dsaraujos/kingdom_manager/luxuries.png" />
+			<icon name="kkm_mines" file="graphics/extensions/dsaraujos/kingdom_manager/mines.png" />
+			<icon name="kkm_ore" file="graphics/extensions/dsaraujos/kingdom_manager/ore.png" />
+			<icon name="kkm_quaries" file="graphics/extensions/dsaraujos/kingdom_manager/quaries.png" />
+			<icon name="kkm_stone" file="graphics/extensions/dsaraujos/kingdom_manager/stone.png" />
+			<icon name="kkm_crown" file="graphics/extensions/dsaraujos/kingdom_manager/crown.png" />
+			<icon name="sidebar_icon_recordtype_kkm_window" file="graphics/extensions/dsaraujos/kingdom_manager/crown.png" />
+			<icon name="tab_leaders" file="graphics/extensions/dsaraujos/kingdom_manager/tab_leaders.png" />
+			<icon name="tab_armies" file="graphics/extensions/dsaraujos/kingdom_manager/tab_armies.png" />
 </root>

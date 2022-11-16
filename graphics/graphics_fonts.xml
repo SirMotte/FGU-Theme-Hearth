@@ -710,4 +710,12 @@
 			<color value="#FFF0CA" /> <!-- Replacable Color: Primary Foreground -->
 		</font>
 
+		<font name="sheettextfaded">
+			<fgffile name="graphics/fonts/regular-10.fgf" />
+			<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+			<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+		</font>
+
+
+
 </root>
