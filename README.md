@@ -1,8 +1,10 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
-A dark theme for Fantasy Grounds Unity
+This is a Theme Extension for the Fantasy Grounds Virtual Tabletop Platform.
 
 If you come across extensions that need to be adjusted to fit this theme, please contact me :).
+
+![Showcase](https://forge.fantasygrounds.com/images/0c95da41dc4631463ceb64c87e76f84a.png)
 
 Now with [Customization Bonus Extension](https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md)
 In order to customize your GM Icon, download my GM Icon Replacer Extension and follow the instructions in the readme.
@@ -16,14 +18,14 @@ You can find me on Discord using Sir Motte#1305, the [Grim Press](https://discor
 - Dungeons & Dragons 4E - WIP
 - Pathfinder 1E - Basic
 - Pathfinder 2E - Basic
-- Other Rulesets might work to some degree, but expect oddities to occur.
+- Other Rulesets might work surprisingly well, please test this and possibly report your findings.
 
 **Full**
 I do my utmost to not only have everything this ruleset entails covered, I also have set out to make all available extensions adhere to my theme.
 
 **Basic**
-
 I try my best to have no game-breaking UI issues happening, other than that you must request eg. extension support specifically.
+
 **WIP**
 Work in Progress, so expect oddities to occur.
 
@@ -61,10 +63,8 @@ I try my best to make all available extensions visually compatible (there should
 ## Compatibility Information & Known Problems
 This theme uses a very high loadorder of 1500 in order to be able to overwrite most extension's UI elements out there. Therefore any extension that you want to overwrite my theme with must use a loadorder value of 1501 or higher. This is set in the extension.xml within any extension.
 
-Currently there are no reports of incompatibilities or conflicts.
-Font Extensions like the one by Mattekure will make the font go back to black and thus badly readable.
-If you pay close attention to the console log you might find [Warning] entries related to this theme. 
-You can safely ignore them, as they only tell you, that you're not using an extension supported by my theme. 
+- Font Extensions like the one by Mattekure will make the font go back to black and thus badly readable.
+- If you pay close attention to the console log you might find [Warning] entries related to this theme. 
 
 ### Want to buy me a coffee?
 [PayPal War Chest](https://www.paypal.com/paypalme/DnDKriegskasse)
@@ -72,17 +72,17 @@ or
 [Ko.Fi](https://ko-fi.com/sirmotte)
 
 ### Want to buy me a DMs Guild gift instead?
-Here's my [Dungeon Masters Guild Maps Wishlist](https://www.dmsguild.com/wishlist_public.php?public_id=2593421&list_id=3816273&buying_for=sirmotte%40posteo.de&quot;]Wishlist%20for%20Maps).
+Here's my [Dungeon Masters Guild Maps Wishlist](https://www.dmsguild.com/wishlist_public.php?public_id=2593421&list_id=3816273&buying_for=sirmotte%40posteo.de&quot;]Wishlist%20for%20Maps), or my general [PDF Wishlist](https://www.dmsguild.com/wishlist_public.php?public_id=2593421&list_id=3869339&buying_for=sirmotte%40posteo.de)
 
 
 # Installation - Forge (Recommended)
-1. Subscribe to the FG Forge Item and Update your Fantasy Grounds Client.
+1. Subscribe to the [FG Forge Item](https://forge.fantasygrounds.com/shop/items/12/view) and Update your Fantasy Grounds Client.
 2. Activate the theme listed as "Theme: Hearth" in your campaign details page in the "Extensions" section and launch the campaign.
 3. Done, I hope you like it!
 
 
 # Installation - GitHub
-1. Download the Theme from Github
+1. [Download](https://github.com/SirMotte/FGU-Theme-Hearth/releases) the Theme from Github
    - or grab the Developer-Build (always most up to date, but potentially unstable)
 2. Move the file named "Theme_SirMotte_Hearth.ext" into the "Extensions" Folder found inside your Fantasy Grounds Data folder"
 3. Activate the theme listed as "Theme: Hearth" in your campaign details page in the "Extensions" section and launch the campaign
