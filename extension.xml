@@ -39,6 +39,7 @@
 		<includefile source="rulesets/pfrpg2_compilation.xml" ruleset="PFRPG2" />
 		<includefile source="rulesets/pfrpg_compilation.xml" ruleset="PFRPG" />
 		<includefile source="rulesets/multi_compilation.xml" ruleset="3.5E|PFRPG2|PFRPG" />
+		<includefile source="rulesets/sfrpg_compilation.xml" ruleset="SFRPG" />
 
 
 		<!--Extension Graphics definitions-->
