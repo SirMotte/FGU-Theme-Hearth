@@ -1076,6 +1076,7 @@
 <!--Author: Bayne-->
 	<!--Bayne's Emporium-->
 		<!--Icons-->
+			<icon name="zlogo" file="graphics/extensions/zuilin/zlogo.png" />
 			<icon name="mimic" file="graphics/extensions/bayne/baynes_emporium/mimic1.png" />
 			<icon name="buttondwnnum" file="graphics/extensions/bayne/baynes_emporium/buttondown.png" />
 			<icon name="buttonupnum" file="graphics/extensions/bayne/baynes_emporium/button_ctnextactorup.png" />
@@ -1088,19 +1089,14 @@
 			<bitmap file="graphics/extensions/bayne/baynes_emporium/notepad.png" />
 			<offset>2,2,2,2</offset>
 			</framedef>
-				<!--Fonts-->
-				<windowclass name="shops" merge="join">
-					<sheetdata>
-						<stringfield name="name">
-							<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
-						</stringfield>
-					</sheetdata>
-				</windowclass>
-
-<!--Author: Bayne-->
-	<!--Bayne's Emporium-->
-		<!--Icons-->
-			<icon name="zlogo" file="graphics/extensions/zuilin/zlogo.png" />
+		<!--Fonts-->
+			<windowclass name="shops" merge="join">
+				<sheetdata>
+					<stringfield name="name">
+						<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
+					</stringfield>
+				</sheetdata>
+			</windowclass>
 
 <!--dsaraujo-->
 	<!-- Kindom Manager-->
