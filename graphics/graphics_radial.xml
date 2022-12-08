@@ -6,17 +6,17 @@
 -->
 <root>
 	<!--Radial Menu color hue. Supports argb hex values -->
-	
-    	<menusettings>
-        	<radial>
-            	<hubicon>menuhub</hubicon>
-            	<backicon>menuback</backicon>
-            	<background>menubackground</background>
-            	<hubcolor>FFFFFF</hubcolor> <!-- Replaceable Color: Blend Color -->
-            	<backgroundcolor>FFFFFF</backgroundcolor> <!-- Replaceable Color: Blend Color -->
-            	<iconcolor>FFFFFF</iconcolor> <!-- Replaceable Color: Blend Color -->
-        	</radial>
-    	</menusettings>
+
+	<menusettings>
+		<radial>
+			<hubicon>menuhub</hubicon>
+			<backicon>menuback</backicon>
+			<background>menubackground</background>
+			<hubcolor>FFFFFF</hubcolor> <!-- Replaceable Color: Blend Color -->
+			<backgroundcolor>FFFFFF</backgroundcolor> <!-- Replaceable Color: Blend Color -->
+			<iconcolor>FFFFFF</iconcolor> <!-- Replaceable Color: Blend Color -->
+		</radial>
+	</menusettings>
 
 
 	<!-- Basic Menu - REQUIRED -->
@@ -28,7 +28,7 @@
 	<icon name="insert" file="graphics/pngs/icon_insert.png" />
 	<icon name="edit" file="graphics/pngs/icon_edit_on.png" />
 	<icon name="stopedit" file="graphics/pngs/icon_edit_off.png" />
-	<icon name="delete" file="graphics/pngs/icon_category_delete.png" /> 
+	<icon name="delete" file="graphics/pngs/icon_category_delete.png" />
 	<!--<icon name="delete" file="graphics/pngs/icon_delete.png" /> -->
 	<icon name="erase" file="graphics/pngs/icon_erase.png" />
 	<icon name="unshare" file="graphics/pngs/icon_unshare.png" />
@@ -43,7 +43,7 @@
 	<icon name="bell" file="graphics/pngs/icon_char_bell.png" />
 	<icon name="kick" file="graphics/pngs/icon_char_kick.png" />
 	<icon name="kickconfirm" file="graphics/pngs/icon_char_kick_confirm.png" />
-	
+
 	<!-- Tables -->
 	<icon name="radial_plus" file="graphics/pngs/icon_plus.png" />
 
@@ -57,7 +57,7 @@
 	<icon name="ct_menu_effectdelete_radial" file="graphics/pngs/menu_effectdelete_radial.png" />
 	<icon name="ct_menu_effectdeleteall_radial" file="graphics/pngs/menu_effectdeleteall_radial.png" />
 	<icon name="ct_menu_effectdeleteexpiring_radial" file="graphics/pngs/menu_effectdeleteexpiring_radial.png" />
-	
+
 	<!-- Images -->
 	<icon name="imagesize" file="graphics/pngs/icon_image_size_menu.png" />
 	<icon name="imagesizesynch" file="graphics/pngs/icon_image_size_synch.png" />
@@ -68,8 +68,8 @@
 
 	<!-- Tabletop - REQUIRED -->
 	<icon name="closeprogrammenu" file="graphics/pngs/icon_close_menu.png" />
-		<icon name="closeprogram" file="graphics/pngs/icon_close_quit.png" />
-		<icon name="return" file="graphics/pngs/icon_close_launcher.png" />
+	<icon name="closeprogram" file="graphics/pngs/icon_close_quit.png" />
+	<icon name="return" file="graphics/pngs/icon_close_launcher.png" />
 	<icon name="restorewindow" file="graphics/pngs/icon_tabletop_restore.png" />
 	<icon name="maximizewindow" file="graphics/pngs/icon_tabletop_maximize.png" />
 
@@ -91,11 +91,11 @@
 	<icon name="num20" file="graphics/pngs/icon_dice_20.png" />
 	<icon name="percent" file="graphics/pngs/icon_dice_percent.png" />
 	<icon name="customdice" file="graphics/pngs/icon_dice_custom.png" />
-	
+
 	<!-- Hot Keys - REQUIRED -->
 	<icon name="hotkeyedit" file="graphics/pngs/icon_hotkey_edit.png" />
 	<icon name="hotkeyclear" file="graphics/pngs/icon_hotkey_delete.png" />
-	
+
 	<!-- Windows - REQUIRED -->
 	<icon name="windowclosemenu" file="graphics/pngs/icon_window_close_menu.png" />
 	<icon name="lock" file="graphics/pngs/icon_window_lock.png" />
@@ -111,7 +111,7 @@
 	<icon name="windowunshare" file="graphics/pngs/icon_window_unshare.png" />
 	<icon name="windowdelete" file="graphics/pngs/icon_window_delete.png" />
 	<icon name="windowexport" file="graphics/pngs/icon_tokenbag_insert.png" />
-	
+
 	<!-- Tokens - REQUIRED -->
 	<icon name="rotatecw" file="graphics/pngs/icon_token_rotate_cw.png" />
 	<icon name="rotateccw" file="graphics/pngs/icon_token_rotate_ccw.png" />
@@ -124,99 +124,99 @@
 	<icon name="lockzoom" file="graphics/pngs/icon_token_zoom_lock.png" />
 	<icon name="unlockzoom" file="graphics/pngs/icon_token_zoom_unlock.png" />
 	<icon name="tokenvisibility" file="graphics/pngs/icon_token_visibility_menu.png" />
-		<icon name="lockvisibilityon" file="graphics/pngs/icon_token_visiblity_on.png" />
-		<icon name="lockvisibilityoff" file="graphics/pngs/icon_token_visiblity_off.png" />
-		<icon name="maskvisibility" file="graphics/pngs/icon_token_visiblity_mask.png" />
+	<icon name="lockvisibilityon" file="graphics/pngs/icon_token_visiblity_on.png" />
+	<icon name="lockvisibilityoff" file="graphics/pngs/icon_token_visiblity_off.png" />
+	<icon name="maskvisibility" file="graphics/pngs/icon_token_visiblity_mask.png" />
 	<icon name="publicvisionon" file="graphics/pngs/icon_token_vision_public_on.png" />
 	<icon name="publicvisionoff" file="graphics/pngs/icon_token_vision_public_off.png" />
-	
+
 	<!-- Category Selection Control - REQUIRED -->
 	<icon name="categoryinsert" file="graphics/pngs/icon_category_insert.png" />
 	<icon name="categorydelete" file="graphics/pngs/icon_category_delete.png" />
 	<icon name="categorystyle" file="graphics/pngs/icon_category_style.png" />
 	<icon name="categoryicon" file="graphics/pngs/icon_category_icon.png" />
-	
+
 	<!-- Chat Window - REQUIRED -->
-		<icon name="chatclipboard" file="graphics/pngs/icon_chat_clipboard.png" />
-		<icon name="prompt" file="graphics/pngs/icon_chat_prompt.png" />
-		<icon name="hand" file="graphics/pngs/icon_chat_hand.png" />
-		<icon name="chatclear" file="graphics/pngs/icon_chat_clear.png" />
-		<icon name="log" file="graphics/pngs/icon_chat_logon.png" />
-		<icon name="logoff" file="graphics/pngs/icon_chat_logoff.png" />
-		<icon name="crossed" file="graphics/pngs/icon_chat_total_off.png" />
-		<icon name="equals" file="graphics/pngs/icon_chat_total_on.png" />
-		<icon name="halve" file="graphics/pngs/icon_chat_total_half.png" />
-		<icon name="double" file="graphics/pngs/icon_chat_total_double.png" />
-		<icon name="negate" file="graphics/pngs/icon_chat_total_negate.png" />
-	
+	<icon name="chatclipboard" file="graphics/pngs/icon_chat_clipboard.png" />
+	<icon name="prompt" file="graphics/pngs/icon_chat_prompt.png" />
+	<icon name="hand" file="graphics/pngs/icon_chat_hand.png" />
+	<icon name="chatclear" file="graphics/pngs/icon_chat_clear.png" />
+	<icon name="log" file="graphics/pngs/icon_chat_logon.png" />
+	<icon name="logoff" file="graphics/pngs/icon_chat_logoff.png" />
+	<icon name="crossed" file="graphics/pngs/icon_chat_total_off.png" />
+	<icon name="equals" file="graphics/pngs/icon_chat_total_on.png" />
+	<icon name="halve" file="graphics/pngs/icon_chat_total_half.png" />
+	<icon name="double" file="graphics/pngs/icon_chat_total_double.png" />
+	<icon name="negate" file="graphics/pngs/icon_chat_total_negate.png" />
+
 	<!-- Die Control - REQUIRED -->
-		<icon name="dieclear" file="graphics/pngs/icon_die_clear.png" />
-	
+	<icon name="dieclear" file="graphics/pngs/icon_die_clear.png" />
+
 	<!-- Formatted Text Control - REQUIRED -->
 	<!-- <icon name="textedit" file="graphics/pngs/icon_edit.png" /> -->
 	<!-- <icon name="textstopedit" file="graphics/pngs/icon_stopedit.png" /> -->
-		<icon name="textparagraphtypes" file="graphics/pngs/icon_text_paragraph_types.png" />
-		<icon name="textbody" file="graphics/pngs/icon_text_body.png" />
-		<icon name="texttitle" file="graphics/pngs/icon_text_header.png" />
-		<icon name="textchat" file="graphics/pngs/icon_text_chat.png" />
-		<icon name="textlist" file="graphics/pngs/icon_text_list.png" />
-		<icon name="textlink" file="graphics/pngs/icon_text_link.png" />
-		<icon name="texttableh" file="graphics/pngs/icon_text_table.png" />
-		<icon name="assignspeaker" file="graphics/pngs/icon_text_speaker.png" />
-		<icon name="textformatting" file="graphics/pngs/icon_text_formatting.png" />
-		<icon name="bold" file="graphics/pngs/icon_text_bold.png" />
-		<icon name="italics" file="graphics/pngs/icon_text_italics.png" />
-		<icon name="underline" file="graphics/pngs/icon_text_underline.png" />
+	<icon name="textparagraphtypes" file="graphics/pngs/icon_text_paragraph_types.png" />
+	<icon name="textbody" file="graphics/pngs/icon_text_body.png" />
+	<icon name="texttitle" file="graphics/pngs/icon_text_header.png" />
+	<icon name="textchat" file="graphics/pngs/icon_text_chat.png" />
+	<icon name="textlist" file="graphics/pngs/icon_text_list.png" />
+	<icon name="textlink" file="graphics/pngs/icon_text_link.png" />
+	<icon name="texttableh" file="graphics/pngs/icon_text_table.png" />
+	<icon name="assignspeaker" file="graphics/pngs/icon_text_speaker.png" />
+	<icon name="textformatting" file="graphics/pngs/icon_text_formatting.png" />
+	<icon name="bold" file="graphics/pngs/icon_text_bold.png" />
+	<icon name="italics" file="graphics/pngs/icon_text_italics.png" />
+	<icon name="underline" file="graphics/pngs/icon_text_underline.png" />
 
 	<!-- Image Control - REQUIRED -->
-		<icon name="shortcutdelete" file="graphics/pngs/icon_image_shortcut_delete.png" />
-		<icon name="imageviewmenu" file="graphics/pngs/icon_image_view_menu.png" />
-		<icon name="broadcast" file="graphics/pngs/icon_image_view_share.png" />
-		<icon name="send" file="graphics/pngs/icon_image_view_preload.png" />
-		<icon name="imageviewlock" file="graphics/pngs/icon_image_view_lock.png" />
-		<icon name="imageviewunlock" file="graphics/pngs/icon_image_view_unlock.png" />
-		<icon name="imageviewupdate" file="graphics/pngs/icon_image_view_update.png" />
-		<icon name="imageviewsynch" file="graphics/pngs/icon_image_view_synch.png" />
-		<icon name="layers" file="graphics/pngs/icon_image_layer_menu.png" />
-		<icon name="goto" file="graphics/pngs/icon_image_layer_navigator.png" />
-		<icon name="mask" file="graphics/pngs/icon_image_layer_mask_on.png" />
-		<icon name="maskedit" file="graphics/pngs/icon_image_layer_mask_edit_on.png" />
-		<icon name="maskeditoff" file="graphics/pngs/icon_image_layer_mask_edit_off.png" />
-		<icon name="deletemask" file="graphics/pngs/icon_image_layer_mask_delete.png" />
-		<icon name="grid" file="graphics/pngs/icon_image_layer_grid_on.png" />
-		<icon name="gridchange" file="graphics/pngs/icon_image_layer_grid_change.png" />
-		<icon name="image_grid_hexrow" file="graphics/pngs/icon_image_layer_grid_hexrow.png" />
-		<icon name="image_grid_hexcolumn" file="graphics/pngs/icon_image_layer_grid_hexcolumn.png" />
-		<icon name="image_grid_square" file="graphics/pngs/icon_image_layer_grid_square.png" />
-		<icon name="image_grid_isometric" file="graphics/pngs/icon_image_layer_grid_iso.png" />
-		<icon name="gridhex" file="graphics/pngs/icon_image_layer_grid_hex.png" />
-		<icon name="gridoff" file="graphics/pngs/icon_image_layer_grid_off.png" />
-		<icon name="lockgrid" file="graphics/pngs/icon_image_layer_grid_snap_on.png" />
-		<icon name="unlockgrid" file="graphics/pngs/icon_image_layer_grid_snap_off.png" />
-		<icon name="shortcutson" file="graphics/pngs/icon_image_layer_shortcut_on.png" />
-		<icon name="shortcutsoff" file="graphics/pngs/icon_image_layer_shortcut_off.png" />
-		<icon name="enablelos" file="graphics/pngs/icon_image_layer_los_on.png" />
-		<icon name="disablelos" file="graphics/pngs/icon_image_layer_los_off.png" />
+	<icon name="shortcutdelete" file="graphics/pngs/icon_image_shortcut_delete.png" />
+	<icon name="imageviewmenu" file="graphics/pngs/icon_image_view_menu.png" />
+	<icon name="broadcast" file="graphics/pngs/icon_image_view_share.png" />
+	<icon name="send" file="graphics/pngs/icon_image_view_preload.png" />
+	<icon name="imageviewlock" file="graphics/pngs/icon_image_view_lock.png" />
+	<icon name="imageviewunlock" file="graphics/pngs/icon_image_view_unlock.png" />
+	<icon name="imageviewupdate" file="graphics/pngs/icon_image_view_update.png" />
+	<icon name="imageviewsynch" file="graphics/pngs/icon_image_view_synch.png" />
+	<icon name="layers" file="graphics/pngs/icon_image_layer_menu.png" />
+	<icon name="goto" file="graphics/pngs/icon_image_layer_navigator.png" />
+	<icon name="mask" file="graphics/pngs/icon_image_layer_mask_on.png" />
+	<icon name="maskedit" file="graphics/pngs/icon_image_layer_mask_edit_on.png" />
+	<icon name="maskeditoff" file="graphics/pngs/icon_image_layer_mask_edit_off.png" />
+	<icon name="deletemask" file="graphics/pngs/icon_image_layer_mask_delete.png" />
+	<icon name="grid" file="graphics/pngs/icon_image_layer_grid_on.png" />
+	<icon name="gridchange" file="graphics/pngs/icon_image_layer_grid_change.png" />
+	<icon name="image_grid_hexrow" file="graphics/pngs/icon_image_layer_grid_hexrow.png" />
+	<icon name="image_grid_hexcolumn" file="graphics/pngs/icon_image_layer_grid_hexcolumn.png" />
+	<icon name="image_grid_square" file="graphics/pngs/icon_image_layer_grid_square.png" />
+	<icon name="image_grid_isometric" file="graphics/pngs/icon_image_layer_grid_iso.png" />
+	<icon name="gridhex" file="graphics/pngs/icon_image_layer_grid_hex.png" />
+	<icon name="gridoff" file="graphics/pngs/icon_image_layer_grid_off.png" />
+	<icon name="lockgrid" file="graphics/pngs/icon_image_layer_grid_snap_on.png" />
+	<icon name="unlockgrid" file="graphics/pngs/icon_image_layer_grid_snap_off.png" />
+	<icon name="shortcutson" file="graphics/pngs/icon_image_layer_shortcut_on.png" />
+	<icon name="shortcutsoff" file="graphics/pngs/icon_image_layer_shortcut_off.png" />
+	<icon name="enablelos" file="graphics/pngs/icon_image_layer_los_on.png" />
+	<icon name="disablelos" file="graphics/pngs/icon_image_layer_los_off.png" />
 	<icon name="drawingmenu" file="graphics/pngs/icon_image_layer_drawing_menu.png" />
-		<icon name="expanddrawing" file="graphics/pngs/icon_image_layer_drawing_expand_menu.png" />
-			<icon name="expanddrawingup" file="graphics/pngs/icon_image_layer_drawing_expand_up.png" />
-			<icon name="expanddrawingright" file="graphics/pngs/icon_image_layer_drawing_expand_right.png" />
-			<icon name="expanddrawingdown" file="graphics/pngs/icon_image_layer_drawing_expand_down.png" />
-			<icon name="expanddrawingleft" file="graphics/pngs/icon_image_layer_drawing_expand_left.png" />
-		<icon name="drawingediton" file="graphics/pngs/icon_image_layer_drawing_edit_on.png" />
-		<icon name="drawingeditoff" file="graphics/pngs/icon_image_layer_drawing_edit_off.png" />
-		<icon name="drawingstroke" file="graphics/pngs/icon_image_layer_drawing_stroke.png" />
-		<icon name="erasestroke" file="graphics/pngs/icon_image_layer_drawing_erase.png" />
-		<icon name="lockdrawing" file="graphics/pngs/icon_image_layer_drawing_lock.png" />
-		<icon name="unlockdrawing" file="graphics/pngs/icon_image_layer_drawing_unlock.png" />
-		<icon name="eraselayer" file="graphics/pngs/icon_image_layer_drawing_delete.png" />
+	<icon name="expanddrawing" file="graphics/pngs/icon_image_layer_drawing_expand_menu.png" />
+	<icon name="expanddrawingup" file="graphics/pngs/icon_image_layer_drawing_expand_up.png" />
+	<icon name="expanddrawingright" file="graphics/pngs/icon_image_layer_drawing_expand_right.png" />
+	<icon name="expanddrawingdown" file="graphics/pngs/icon_image_layer_drawing_expand_down.png" />
+	<icon name="expanddrawingleft" file="graphics/pngs/icon_image_layer_drawing_expand_left.png" />
+	<icon name="drawingediton" file="graphics/pngs/icon_image_layer_drawing_edit_on.png" />
+	<icon name="drawingeditoff" file="graphics/pngs/icon_image_layer_drawing_edit_off.png" />
+	<icon name="drawingstroke" file="graphics/pngs/icon_image_layer_drawing_stroke.png" />
+	<icon name="erasestroke" file="graphics/pngs/icon_image_layer_drawing_erase.png" />
+	<icon name="lockdrawing" file="graphics/pngs/icon_image_layer_drawing_lock.png" />
+	<icon name="unlockdrawing" file="graphics/pngs/icon_image_layer_drawing_unlock.png" />
+	<icon name="eraselayer" file="graphics/pngs/icon_image_layer_drawing_delete.png" />
 	<icon name="pointer" file="graphics/pngs/icon_image_layer_pointer_menu.png" />
-		<icon name="pointer_arrow" file="graphics/pngs/icon_image_layer_pointer_arrow.png" />
-		<icon name="pointer_cone" file="graphics/pngs/icon_image_layer_pointer_cone.png" />
-		<icon name="pointer_circle" file="graphics/pngs/icon_image_layer_pointer_circle.png" />
-		<icon name="pointer_square" file="graphics/pngs/icon_image_layer_pointer_square.png" />
-		<icon name="deletepointer" file="graphics/pngs/icon_image_layer_pointer_delete.png" />
-		<icon name="deleteallpointers" file="graphics/pngs/icon_image_layer_pointer_delete_all.png" />
+	<icon name="pointer_arrow" file="graphics/pngs/icon_image_layer_pointer_arrow.png" />
+	<icon name="pointer_cone" file="graphics/pngs/icon_image_layer_pointer_cone.png" />
+	<icon name="pointer_circle" file="graphics/pngs/icon_image_layer_pointer_circle.png" />
+	<icon name="pointer_square" file="graphics/pngs/icon_image_layer_pointer_square.png" />
+	<icon name="deletepointer" file="graphics/pngs/icon_image_layer_pointer_delete.png" />
+	<icon name="deleteallpointers" file="graphics/pngs/icon_image_layer_pointer_delete_all.png" />
 	<icon name="imagesizefit" file="graphics/pngs/icon_radial_zoomtofit.png" />
 	<icon name="imagesizefill" file="graphics/pngs/icon_radial_zoomtofill.png" />
 
@@ -239,7 +239,7 @@
 	<icon name="listdelete" file="graphics/pngs/icon_list_delete.png" />
 
 	<!-- Supported rulesets - Common pngs-->
-	<!-- Spell actions -->	
+	<!-- Spell actions -->
 	<icon name="radial_reparse_spell" file="graphics/pngs/icon_reparse_radial.png" />
 	<icon name="radial_delete_action_confirm" file="graphics/pngs/icon_delete_confirm_radial.png" />
 	<icon name="radial_create_action" file="graphics/pngs/icon_action_group.png" />
@@ -251,8 +251,8 @@
 
 	<!-- 5e Rest menu -->
 	<icon name="restmenu" file="graphics/pngs/icon_rest_group.png" />
-		<icon name="rest_short" file="graphics/pngs/icon_rest_short.png" />
-		<icon name="rest_long" file="graphics/pngs/icon_rest_long.png" />
+	<icon name="rest_short" file="graphics/pngs/icon_rest_short.png" />
+	<icon name="rest_long" file="graphics/pngs/icon_rest_long.png" />
 
 	<!-- CoreRPG: character selection -->
 	<icon name="icon_take_ownership" file="graphics/pngs/icon_take_ownership.png" />

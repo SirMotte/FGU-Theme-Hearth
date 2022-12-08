@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-<!-- fgpro override CoreRPG & 5E ruleset graphics -->
+	<!-- fgpro override CoreRPG & 5E ruleset graphics -->
 
 
-
-
-<!-- Sidebar -->
+	<!-- Sidebar -->
 	<framedef name="button_sidebar_dockitem">
 		<bitmap file="graphics/pngs/button_sidebar.png" />
 		<offset>8,8,8,8</offset>
@@ -17,7 +15,7 @@
 	</framedef>
 	<framedef name="sidebar_dock_category">
 		<bitmap file="graphics/pngs/sidebar_dock_category.png" />
-	 	<offset>12,12,12,12</offset>
+		<offset>12,12,12,12</offset>
 	</framedef>
 	<framedef name="sidebar_dock_category_down">
 		<bitmap file="graphics/pngs/sidebar_dock_category_down.png" />
@@ -27,14 +25,14 @@
 		<bitmap file="graphics/pngs/sidebar_dock_icon.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
- 	<framedef name="sidebar_dock_entry">
+	<framedef name="sidebar_dock_entry">
 		<bitmap file="graphics/pngs/sidebar_dock_entry.png" />
 		<offset>12,12,12,12</offset>
- 	</framedef>
- 	<framedef name="sidebar_dock_entry_down">
+	</framedef>
+	<framedef name="sidebar_dock_entry_down">
 		<bitmap file="graphics/pngs/sidebar_dock_entry_down.png" />
 		<offset>12,12,12,12</offset>
- 	</framedef>
+	</framedef>
 
 
 	<!-- MasterIndex -->
@@ -47,7 +45,7 @@
 		<offset>1,5,1,5</offset>
 	</framedef>
 
-<!-- Headers -->
+	<!-- Headers -->
 
 	<framedef name="headerwhite">
 		<bitmap file="graphics/pngs/headerwhite.png" />
@@ -117,13 +115,13 @@
 		<middle rect="0,0,128,128" />
 	</framedef>
 
-<!-- Manual Roll -->
+	<!-- Manual Roll -->
 	<framedef name="manualroll_entry">
 		<bitmap file="graphics/pngs/manualroll_entry.png" />
 		<offset>95,95,95,95</offset>
 	</framedef>
 
-<!-- Characters -->
+	<!-- Characters -->
 	<framedef name="acicon">
 		<bitmap file="graphics/pngs/acicon.png" />
 		<topleft rect="0,0,35,39" />
@@ -143,7 +141,7 @@
 		<offset>12,12,12,12</offset>
 	</framedef>
 
-<!-- Controls -->
+	<!-- Controls -->
 	<framedef name="metalplate">
 		<bitmap file="graphics/pngs/leathertag.png" />
 		<topleft rect="0,0,11,10" />
@@ -161,13 +159,13 @@
 		<offset>7,7,7,7</offset>
 	</framedef>
 
-<!-- Die Cup (Local mode) -->
+	<!-- Die Cup (Local mode) -->
 	<framedef name="collector">
 		<bitmap file="graphics/pngs/collector.png" />
 		<offset>7,7,3,3</offset>
 	</framedef>
 
-<!-- Utility -->
+	<!-- Utility -->
 	<framedef name="durationadjustment">
 		<bitmap file="graphics/pngs/durationadjustment.png" />
 		<topleft rect="0,0,12,12" />
@@ -182,7 +180,7 @@
 		<decal rect="205,211,19,15" />
 	</framedef>
 
-<!-- Roll/Point Modes (Local mode) -->
+	<!-- Roll/Point Modes (Local mode) -->
 	<framedef name="localchatbox">
 		<bitmap file="graphics/pngs/chatbox.png" />
 		<offset>95,95,95,95</offset>
@@ -194,7 +192,7 @@
 		<insideoffset>0,0,7,3</insideoffset>
 	</framedef>
 
-<!-- Buttons -->
+	<!-- Buttons -->
 	<framedef name="buttonup">
 		<bitmap file="graphics/pngs/buttonup.png" />
 		<offset>8,8,8,8</offset>
@@ -208,7 +206,7 @@
 		<offset>8,8,8,8</offset>
 	</framedef>
 
-<!-- Calendar -->
+	<!-- Calendar -->
 	<framedef name="calendar">
 		<bitmap file="graphics/pngs/utilitybox3.png" />
 		<offset>95,95,95,95</offset>
@@ -217,13 +215,13 @@
 	<framedef name="calendarselectentry">
 		<bitmap file="graphics/pngs/fieldlight.png" />
 		<offset>12,12,12,12</offset>
-    </framedef>
+	</framedef>
 	<framedef name="calendarmonthentry">
 		<bitmap file="graphics/pngs/fielddark.png" />
 		<offset>12,12,12,12</offset>
-    </framedef>
+	</framedef>
 
-<!-- Character selection -->
+	<!-- Character selection -->
 	<framedef name="charselect">
 		<bitmap file="graphics/pngs/utilitybox3.png" />
 		<offset>95,95,95,95</offset>
@@ -234,13 +232,13 @@
 		<offset>12,12,12,12</offset>
 	</framedef>
 
-<!-- Modules -->
+	<!-- Modules -->
 	<framedef name="moduleselectentry">
 		<bitmap file="graphics/pngs/fieldlight.png" />
 		<offset>12,12,12,12</offset>
 	</framedef>
 
-<!-- Chat window -->
+	<!-- Chat window -->
 	<framedef name="chatbox">
 		<bitmap file="graphics/pngs/chatbox.png" />
 		<topleft rect="0,0,8,27" />
@@ -278,7 +276,7 @@
 		<offset>16,16,16,16</offset>
 	</framedef>
 
-<!-- Combat tracker -->
+	<!-- Combat tracker -->
 	<framedef name="ctbox">
 		<bitmap file="graphics/pngs/ctbox.png" />
 		<offset>95,95,95,95</offset>
@@ -320,12 +318,12 @@
 		<bitmap file="graphics/pngs/groupbox.png" />
 		<offset>18,18,17,17</offset>
 	</framedef>
-		<framedef name="cteffect">
+	<framedef name="cteffect">
 		<bitmap file="graphics/pngs/cteffect.png" />
 		<offset>5,5,5,5</offset>
 	</framedef>
 
-<!-- Control frames -->
+	<!-- Control frames -->
 	<framedef name="groupbox">
 		<bitmap file="graphics/pngs/groupbox.png" />
 		<offset>18,18,17,17</offset>
@@ -360,7 +358,7 @@
 		<offset>7,7,9,9</offset>
 	</framedef>
 
-<!-- Desktop background -->
+	<!-- Desktop background -->
 	<framedef name="desktop">
 		<bitmap file="graphics/pngs/desktop.png" />
 		<topleft rect="0,0,15,15" />
@@ -379,7 +377,7 @@
 		<right rect="500,15,11,500" />
 	</framedef>
 
-<!-- Dice Tower -->
+	<!-- Dice Tower -->
 	<framedef name="dicetower_normal">
 		<bitmap file="graphics/pngs/dicetower_normal.png" />
 		<middle>0,0,100,100</middle>
@@ -389,7 +387,7 @@
 		<middle>0,0,100,100</middle>
 	</framedef>
 
-<!-- Headers -->
+	<!-- Headers -->
 	<framedef name="headergray">
 		<bitmap file="graphics/pngs/headergray.png" />
 		<middle rect="0,0,128,128" />
@@ -399,7 +397,7 @@
 		<middle rect="0,0,128,128" />
 	</framedef>
 
-<!-- Hot key bar -->
+	<!-- Hot key bar -->
 	<framedef name="hotkeybox">
 		<bitmap file="graphics/pngs/hotkeybox.png" />
 		<offset>21,34,24,21</offset>
@@ -409,7 +407,7 @@
 		<offset>0,0,4,5</offset>
 	</framedef>
 
-<!-- Identity List -->
+	<!-- Identity List -->
 	<framedef name="id_active">
 		<bitmap file="graphics/pngs/id_active.png" />
 		<offset>7,0,7,0</offset>
@@ -419,7 +417,7 @@
 		<offset>7,0,7,0</offset>
 	</framedef>
 
-<!-- Images -->
+	<!-- Images -->
 	<framedef name="imagebox">
 		<bitmap file="graphics/pngs/imagebox.png" />
 		<offset>150,135,150,150</offset>
@@ -437,7 +435,7 @@
 	</framedef>
 
 	<framedef name="toolbar_30">
-		<bitmap file="graphics/pngs/toolbar_30.png"/>
+		<bitmap file="graphics/pngs/toolbar_30.png" />
 		<topleft rect="0,0,4,3" />
 		<top rect="4,0,32,3" />
 		<topright rect="62,0,4,3" />
@@ -450,23 +448,23 @@
 	</framedef>
 
 	<framedef name="toolbar_back">
-		<bitmap file="graphics/pngs/toolbar_back.png"/>
+		<bitmap file="graphics/pngs/toolbar_back.png" />
 		<middle rect="0,0,128,128" />
 	</framedef>
 
-	 <!-- TEMPLATES -->
+	<!-- TEMPLATES -->
 	<template name="toolbar_button_color_base">
 		<buttoncontrol>
 			<iconcolor>FFFFFF</iconcolor> <!-- Replaceable Color: Blend Color -->
 		</buttoncontrol>
 	</template>
 
-<!-- Lists -->
+	<!-- Lists -->
 	<framedef name="rowshade">
 		<bitmap file="graphics/pngs/rowshade.png" />
 		<middle rect="0,0,200,100" />
 	</framedef>
-		<framedef name="search">
+	<framedef name="search">
 		<bitmap file="graphics/pngs/search.png" />
 		<offset>17,5,1,5</offset>
 		<topleft rect="0,0,17,30" />
@@ -477,12 +475,12 @@
 		<topleft rect="0,0,17,30" />
 	</framedef>
 
-<!-- Misc frames -->
+	<!-- Misc frames -->
 	<framedef name="mini_name">
 		<bitmap file="graphics/pngs/mini_name.png" />
 		<offset>7,7,7,7</offset>
 	</framedef>
-		<framedef name="separatorline">
+	<framedef name="separatorline">
 		<bitmap file="graphics/pngs/textline.png" />
 		<middle rect="1,14,98,3" />
 	</framedef>
@@ -491,13 +489,13 @@
 		<offset>1,1,1,1</offset>
 	</framedef>
 
-<!-- Modifier Stack -->
+	<!-- Modifier Stack -->
 	<framedef name="modstackfocus">
 		<bitmap file="graphics/pngs/modstackfocus.png" />
 		<offset>9,9,9,9</offset>
 	</framedef>
 
-<!-- Other Campaign Records -->
+	<!-- Other Campaign Records -->
 	<framedef name="recordsheet">
 		<bitmap file="graphics/pngs/recordsheet.png" />
 		<offset>11,12,17,18</offset>
@@ -511,7 +509,7 @@
 		<insideoffset>0,0,4,5</insideoffset>
 	</framedef>
 
-<!-- Party Sheet -->
+	<!-- Party Sheet -->
 	<framedef name="partysheet">
 		<bitmap file="graphics/pngs/partysheet.png" />
 		<offset>95,95,95,95</offset>
@@ -598,7 +596,7 @@
 		<offset>100,30,100,30</offset>
 	</framedef>
 
-<!--PFRPG2-->
+	<!--PFRPG2-->
 	<framedef name="referenceblock-pfgreen">
 		<bitmap file="graphics/pngs/refblock_pfgreen.png" />
 		<offset>100,50,100,50</offset>
@@ -717,7 +715,7 @@
 		<offset>18,18,17,17</offset>
 	</framedef>
 
-<!-- Scrollbar -->
+	<!-- Scrollbar -->
 	<framedef name="scrollbar_base">
 		<bitmap file="graphics/pngs/scrollbar.png" />
 		<top rect="0,0,20,14" />
@@ -730,43 +728,43 @@
 		<middle rect="0,16,20,8" />
 		<bottom rect="0,24,20,16" />
 	</framedef>
-<!--Dropdown-->
+	<!--Dropdown-->
 	<framedef name="combobox_list">
-		<bitmap file="graphics/pngs/combobox_list.png"/>
+		<bitmap file="graphics/pngs/combobox_list.png" />
 		<offset>1,1,1,1</offset>
 	</framedef>
 	<framedef name="combobox_scrollbar">
-		<bitmap file="graphics/pngs/combobox_scrollbar.png"/>
+		<bitmap file="graphics/pngs/combobox_scrollbar.png" />
 		<offset>1,1,1,1</offset>
 	</framedef>
 
-<!-- Story and Notes -->
+	<!-- Story and Notes -->
 	<framedef name="storybox">
 		<bitmap file="graphics/pngs/storybox.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,6,5</insideoffset>
 	</framedef>
 
-<!-- Token Bag -->
+	<!-- Token Bag -->
 	<framedef name="tokenbag">
 		<bitmap file="graphics/pngs/utilitybox3.png" />
 		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,18,16</insideoffset>
 	</framedef>
 
-<!--Token-->
+	<!--Token-->
 	<framedef name="tokennumber">
 		<bitmap file="graphics/pngs/tokennumber.png" />
 		<offset>6,6,6,6</offset>
 	</framedef>
 
-<!-- Tooltips -->
+	<!-- Tooltips -->
 	<framedef name="tooltipbox">
 		<bitmap file="graphics/pngs/tooltipbox.png" />
 		<offset>6,4,9,7</offset>
 	</framedef>
 
-<!-- Utility Windows -->
+	<!-- Utility Windows -->
 	<framedef name="referencelist">
 		<bitmap file="graphics/pngs/utilitybox3.png" />
 		<offset>95,95,95,95</offset>
@@ -836,7 +834,7 @@
 		<offset>12,12,12,12</offset>
 	</framedef>
 
-<!--4E-->
+	<!--4E-->
 	<framedef name="campaignframe">
 		<bitmap file="graphics/pngs/campaignframe.png" />
 		<topleft rect="0,0,48,47" />
@@ -867,7 +865,7 @@
 		<right rect="86,17,41,25" />
 		<bottomright rect="86,42,41,18" />
 	</framedef>
-<framedef name="whitecontrolarea">
+	<framedef name="whitecontrolarea">
 		<bitmap file="graphics/pngs/whitecontrolarea.png" />
 		<offset>12,11,17,18</offset>
 	</framedef>

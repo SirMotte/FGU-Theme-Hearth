@@ -1,10 +1,14 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.15 - xxx[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.15 - Hearth can into Space[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
 xxx
 
+[COLOR="#FF0000"][B]Added Ruleset Support:[/B][/COLOR]
+    [LIST]
+        [*]SFRPG (Starfinder) - Basic Support - (brought to you by Evolivolution, thanks!)
+    [/LIST]
 
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
