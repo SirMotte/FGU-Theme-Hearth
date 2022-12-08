@@ -48,4 +48,6 @@
 		<offset>11,12,17,18</offset>
 		<insideoffset>0,0,4,5</insideoffset>
 	</framedef>
+
+	<icon name="sidebar_icon_recordtype_charsheet" file="graphics/pngs/sidebar_icon_charsheet_2.png" />
 </root>

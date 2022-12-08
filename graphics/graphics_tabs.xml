@@ -8,7 +8,7 @@
 		<left rect="0,73,18,335" />
 		<bottomleft rect="0,408,18,86" />
 	</framedef>
-		<framedef name="tabs_h">
+	<framedef name="tabs_h">
 		<bitmap file="graphics/pngs/tabs_h.png" />
 		<topleft rect="0,0,75,18" />
 		<top rect="75,0,335,18" />
@@ -24,7 +24,7 @@
 	<icon name="tab_main" file="graphics/pngs/tab_main.png" />
 	<icon name="tab_notes" file="graphics/pngs/tab_notes.png" />
 	<icon name="tab_order" file="graphics/pngs/tab_order.png" />
-	
+
 	<icon name="tab_actions" file="graphics/pngs/tab_actions.png" />
 	<icon name="tab_abilities" file="graphics/pngs/tab_abilities.png" />
 	<icon name="tab_combat" file="graphics/pngs/tab_combat.png" />
@@ -34,6 +34,6 @@
 	<icon name="tab_spells" file="graphics/pngs/tab_spells.png" />
 	<icon name="tab_xp" file="graphics/pngs/tab_xp.png" />
 	<icon name="tab_log" file="graphics/pngs/tab_log.png" />
-	
+
 
 </root>
