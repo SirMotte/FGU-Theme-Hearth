@@ -314,5 +314,5 @@
   <font name="font-hpcurrent">
     <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
     <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
-    </font>
+  </font>
 </root>

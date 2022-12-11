@@ -1,23 +1,24 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.14 - Drenched Phoenix[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.15 - Polite Extremist[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
-[COLOR="#FF0000"][B]Fixes:[/B][/COLOR]
+xxx
+
+[COLOR="#FF0000"][B]Added Ruleset Support:[/B][/COLOR]
     [LIST]
-        [*]Fixed - Mutant Crawl Classic popping Errors when opening NPC sheets. Cause was, that my compatibility adjustments for Death Indicator rely on the "actext" control, which is not present in MCC (and possibly Dungeon Crawl Classic as well?). This caused the error to appear. Please try my theme again, and report any findings to me.
+        [*]SFRPG (Starfinder) - Basic Support - (brought to you by Evolivolution, thanks!)
+        [*]Muntant Crawl Classic and Dungeon Crawl Classis should no longer throw an error when opening up an NPC sheet. (Thanks to Zarestia for providing the info on how to fix this)
+    [/LIST]
 
 [COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
     [LIST]
-        [*]Added Missing Sidebar Icons for other rulesets - No official support, just for completeness's sake.
-        [*]Fixed new Dice Select Sidebar Icon.
+        [*]none
     [/LIST]
 
 [COLOR="#FF0000"][B]Changelog Extension Elements:[/B][/COLOR]
     [LIST]
-        [*]Added support for Decked Out by Saagael https://forge.fantasygrounds.com/shop/items/910/view
-        [*]Added support for Kingdom Manager Extension by dsaraujos (PFRPG2) https://forge.fantasygrounds.com/shop/items/918/view - Thanks for reaching out to me!
-
+        [*]none
     [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
@@ -28,3 +29,4 @@ https://forge.fantasygrounds.com/shop/items/12/view
 
 GitHub:
 https://github.com/SirMotte/FGU-Theme-Hearth/releases
+

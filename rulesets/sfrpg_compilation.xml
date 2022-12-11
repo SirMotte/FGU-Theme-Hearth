@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<font name="charstarship-sheetnumber-large">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="charstarship-sheetnumber">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="charstarship-sheetnumber-red">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#d92c2c" />
+	</font>
+	<font name="charstarship-sheetlabel">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="12" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="charstarship-sheetlabelmini">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="11" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="charstarship-sheet">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="13" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="charstarship-sheetinline">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="11" />
+		<color value="#FFF0CA" />
+	</font>
+	<font name="reference-h">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="26" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="reference-subtitle">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="26" />
+		<color value="#DDDDDD" />
+	</font>
+
+	<framedef name="recordsheet_small">
+		<bitmap file="graphics/pngs/recordsheet.png" />
+		<offset>11,12,17,18</offset>
+		<insideoffset>0,0,4,5</insideoffset>
+	</framedef>
+	<framedef name="dialog">
+		<bitmap file="graphics/pngs/recordsheet.png" />
+		<offset>11,12,17,18</offset>
+		<insideoffset>0,0,4,5</insideoffset>
+	</framedef>
+
+	<icon name="sidebar_icon_recordtype_charsheet" file="graphics/pngs/sidebar_icon_charsheet_2.png" />
+</root>

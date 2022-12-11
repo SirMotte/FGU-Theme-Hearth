@@ -2,25 +2,25 @@
 
 <root>
 	<!--Author: Mccartysr-->
-		<!--Ext: Requested Rolls-->
-			<!--Icons-->
-				<icon name="Logo_Mccartysr" file="graphics/extensions/mccartysr/requested_rolls/logo_mccartysr.png" />
+	<!--Ext: Requested Rolls-->
+	<!--Icons-->
+	<icon name="Logo_Mccartysr" file="graphics/extensions/mccartysr/requested_rolls/logo_mccartysr.png" />
 
-				<icon name="button_prof" file="graphics/extensions/mccartysr/requested_rolls/button_prof.png" />
-				<icon name="button_prof_down" file="graphics/extensions/mccartysr/requested_rolls/button_prof_down.png" />
-				<icon name="button_prof_double" file="graphics/extensions/mccartysr/requested_rolls/button_prof_double.png" />
+	<icon name="button_prof" file="graphics/extensions/mccartysr/requested_rolls/button_prof.png" />
+	<icon name="button_prof_down" file="graphics/extensions/mccartysr/requested_rolls/button_prof_down.png" />
+	<icon name="button_prof_double" file="graphics/extensions/mccartysr/requested_rolls/button_prof_double.png" />
 
-				<icon name="RR_sidebar" file="graphics/extensions/mccartysr/requested_rolls/rr_sidebar.png" />
-				<icon name="RR_field_linked_mono" file="graphics/extensions/mccartysr/requested_rolls/rr_field_linked_mono.png" />
+	<icon name="RR_sidebar" file="graphics/extensions/mccartysr/requested_rolls/rr_sidebar.png" />
+	<icon name="RR_field_linked_mono" file="graphics/extensions/mccartysr/requested_rolls/rr_field_linked_mono.png" />
 
-				<icon name="RR_RollIndicator" file="graphics/extensions/mccartysr/requested_rolls/rr_roll_indicator.png"/>
-				<icon name="RR_SelectionIndicator" file="graphics/extensions/mccartysr/requested_rolls/rr_selection_indicator.png"/>
+	<icon name="RR_RollIndicator" file="graphics/extensions/mccartysr/requested_rolls/rr_roll_indicator.png" />
+	<icon name="RR_SelectionIndicator" file="graphics/extensions/mccartysr/requested_rolls/rr_selection_indicator.png" />
 
-				<windowclass name="rr_console" merge="join">
-					<sheetdata>
-						<buttonfield name="clicktoroll">
-							<script file="common/scripts/setTwoStateButtonColors.lua" />
-							<script>
+	<windowclass name="rr_console" merge="join">
+		<sheetdata>
+			<buttonfield name="clicktoroll">
+				<script file="common/scripts/setTwoStateButtonColors.lua" />
+				<script>
 								function onInit()
 									if super and super.onInit then
 										super.onInit()
@@ -44,10 +44,10 @@
 									end
 								end
 							</script>
-						</buttonfield>
-						<buttonfield name="DClink">
-							<script file="common/scripts/setTwoStateButtonColors.lua" />
-							<script>
+			</buttonfield>
+			<buttonfield name="DClink">
+				<script file="common/scripts/setTwoStateButtonColors.lua" />
+				<script>
 								function onInit()
 									if super and super.onInit then
 										super.onInit()
@@ -71,10 +71,10 @@
 									end
 								end
 							</script>
-						</buttonfield>
-						<buttonfield name="autoroll">
-							<script file="common/scripts/setTwoStateButtonColors.lua" />
-							<script>
+			</buttonfield>
+			<buttonfield name="autoroll">
+				<script file="common/scripts/setTwoStateButtonColors.lua" />
+				<script>
 								function onInit()
 									if super and super.onInit then
 										super.onInit()
@@ -98,10 +98,10 @@
 									end
 								end
 							</script>
-						</buttonfield>
-						<buttonfield name="deselectonroll">
-							<script file="common/scripts/setTwoStateButtonColors.lua" />
-							<script>
+			</buttonfield>
+			<buttonfield name="deselectonroll">
+				<script file="common/scripts/setTwoStateButtonColors.lua" />
+				<script>
 								function onInit()
 									if super and super.onInit then
 										super.onInit()
@@ -125,270 +125,260 @@
 									end
 								end
 							</script>
-						</buttonfield>
-						<buttoncontrol name="mirrortargeting">
-							<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
-							<frame name="buttonup" offset="10,8,10,6" />
-							<stateframe>
-								<pressed name="buttondown" offset="10,8,10,6" nobaseframe="true" />
-							</stateframe>
-						</buttoncontrol>
-					</sheetdata>
-				</windowclass>
+			</buttonfield>
+			<buttoncontrol name="mirrortargeting">
+				<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
+				<frame name="buttonup" offset="10,8,10,6" />
+				<stateframe>
+					<pressed name="buttondown" offset="10,8,10,6" nobaseframe="true" />
+				</stateframe>
+			</buttoncontrol>
+		</sheetdata>
+	</windowclass>
 
-<!--Author: Bratch Nine-->
+	<!--Author: Bratch Nine-->
 	<!--Ext: B9 Spell Tokens-->
-		<!--Icons-->
-			<icon name="logo_b9" file="graphics/extensions/bratch_nine/b9_spell_tokens/logo_b9.png" />
-			<icon name="sidebar_icon_link_spelltokens" file="graphics/extensions/bratch_nine/b9_spell_tokens/icon.png" />
+	<!--Icons-->
+	<icon name="logo_b9" file="graphics/extensions/bratch_nine/b9_spell_tokens/logo_b9.png" />
+	<icon name="sidebar_icon_link_spelltokens" file="graphics/extensions/bratch_nine/b9_spell_tokens/icon.png" />
 
-<!--Author: Bmos-->
-		<!--Ext: Ammunition Manager-->
-			<!-- Buttons -->
-				<icon name="button_load" file="graphics/extensions/bmos/ammunition_manager/button_load.png" />
-				<icon name="button_unload" file="graphics/extensions/bmos/ammunition_manager/button_unload.png" />
-			<!-- Chat Graphics -->
-				<icon name="archery_ammomanager" file="graphics/extensions/bmos/ammunition_manager/bow-and-arrows.png" />
-		<!--Ext: Hit Margins-->
-			<!-- Icons -->
-				<icon name="hitmargintarget" file="graphics/extensions/bmos/hit_margins/hitmargins_logo.png" />
-		<!--Ext: Coin Weight-->
-				<icon name="bmoscoinsweight" file="graphics/extensions/bmos/coin_weight/bmos_coin_weight_logo.png" />
-		<!--Ext: Extraplanar Containers-->
-				<icon name="extraplanarcontainers" file="graphics/extensions/bmos/extraplanar_containers/extraplanar_containers_logo.png" />
-
-
+	<!--Author: Bmos-->
+	<!--Ext: Ammunition Manager-->
+	<!-- Buttons -->
+	<icon name="button_load" file="graphics/extensions/bmos/ammunition_manager/button_load.png" />
+	<icon name="button_unload" file="graphics/extensions/bmos/ammunition_manager/button_unload.png" />
+	<!-- Chat Graphics -->
+	<icon name="archery_ammomanager" file="graphics/extensions/bmos/ammunition_manager/bow-and-arrows.png" />
+	<!--Ext: Hit Margins-->
+	<!-- Icons -->
+	<icon name="hitmargintarget" file="graphics/extensions/bmos/hit_margins/hitmargins_logo.png" />
+	<!--Ext: Coin Weight-->
+	<icon name="bmoscoinsweight" file="graphics/extensions/bmos/coin_weight/bmos_coin_weight_logo.png" />
+	<!--Ext: Extraplanar Containers-->
+	<icon name="extraplanarcontainers" file="graphics/extensions/bmos/extraplanar_containers/extraplanar_containers_logo.png" />
 
 
-<!--Author: Damned-->
+	<!--Author: Damned-->
 	<!--Ext: Player Agency-->
-		<!--Frames-->
-			<framedef name="chatframe_spell">
- 				<bitmap file="graphics/extensions/damned/player_agency/chatframe_spell.png" />
-  				<offset>35,85,30,30</offset>
-  				</framedef>
-			<framedef name="worldpage">
-  				<bitmap file="graphics/extensions/damned/player_agency/frame4.png" />
-  				<offset>30,30,35,30</offset>
-  				<insideoffset>0,0,10,10</insideoffset>
-			</framedef>
-			<framedef name="chatframe_world">
-				<bitmap file="graphics/extensions/damned/player_agency/chatframe_world.png" />
-				<offset>35,50,30,30</offset>
-			</framedef>
-		<!--Chat-->
-			<icon name="button_chat" file="graphics/extensions/damned/player_agency/chat.png" />
-			<icon name="button_pcedit" file="graphics/extensions/damned/player_agency/edit.png" />
-			<icon name="button_pcsubmit" file="graphics/extensions/damned/player_agency/submit.png" />
-			<icon name="chat_place" file="graphics/extensions/damned/player_agency/chat_place.png" />
-			<icon name="chat_religion" file="graphics/extensions/damned/player_agency/chat_religion.png" />
-			<icon name="chat_group" file="graphics/extensions/damned/player_agency/chat_group.png" />
-			<!--Sidebar-->
-			<icon name="button_world" file="graphics/extensions/damned/player_agency/button_world.png" />
-			<icon name="button_investigator" file="graphics/extensions/damned/player_agency/button_investigator.png" />
-			<!--Icon-->
-			<icon name="playeragency" file="graphics/extensions/damned/player_agency/imlogo.png" />
+	<!--Frames-->
+	<framedef name="chatframe_spell">
+		<bitmap file="graphics/extensions/damned/player_agency/chatframe_spell.png" />
+		<offset>35,85,30,30</offset>
+	</framedef>
+	<framedef name="worldpage">
+		<bitmap file="graphics/extensions/damned/player_agency/frame4.png" />
+		<offset>30,30,35,30</offset>
+		<insideoffset>0,0,10,10</insideoffset>
+	</framedef>
+	<framedef name="chatframe_world">
+		<bitmap file="graphics/extensions/damned/player_agency/chatframe_world.png" />
+		<offset>35,50,30,30</offset>
+	</framedef>
+	<!--Chat-->
+	<icon name="button_chat" file="graphics/extensions/damned/player_agency/chat.png" />
+	<icon name="button_pcedit" file="graphics/extensions/damned/player_agency/edit.png" />
+	<icon name="button_pcsubmit" file="graphics/extensions/damned/player_agency/submit.png" />
+	<icon name="chat_place" file="graphics/extensions/damned/player_agency/chat_place.png" />
+	<icon name="chat_religion" file="graphics/extensions/damned/player_agency/chat_religion.png" />
+	<icon name="chat_group" file="graphics/extensions/damned/player_agency/chat_group.png" />
+	<!--Sidebar-->
+	<icon name="button_world" file="graphics/extensions/damned/player_agency/button_world.png" />
+	<icon name="button_investigator" file="graphics/extensions/damned/player_agency/button_investigator.png" />
+	<!--Icon-->
+	<icon name="playeragency" file="graphics/extensions/damned/player_agency/imlogo.png" />
 	<!--Ext: Sharing is Caring-->
-		<!--Frame-->
-			<framedef name="chatframe_spell">
-				<bitmap file="graphics/extensions/damned/sharing_is_caring/chatframe_spell.png" />
-  				<offset>40,40,40,40</offset>
-			</framedef>
-		<!--Chat-->
-			<icon name="button_chat" file="graphics/extensions/damned/sharing_is_caring/chat.png" />
-		<!--Icon-->
-			<icon name="sharingiscaring" file="graphics/extensions/damned/player_agency/imlogo.png" />
+	<!--Frame-->
+	<framedef name="chatframe_spell">
+		<bitmap file="graphics/extensions/damned/sharing_is_caring/chatframe_spell.png" />
+		<offset>40,40,40,40</offset>
+	</framedef>
+	<!--Chat-->
+	<icon name="button_chat" file="graphics/extensions/damned/sharing_is_caring/chat.png" />
+	<!--Icon-->
+	<icon name="sharingiscaring" file="graphics/extensions/damned/player_agency/imlogo.png" />
 
 	<!--Ext: Halt!-->
-		<!--Icons-->
-			<icon name="button_stop" file="graphics/extensions/damned/halt/stop.png" />
-			<icon name="button_slow" file="graphics/extensions/damned/halt/slow.png" />
-			<icon name="stop_sign" file="graphics/extensions/damned/halt/stop_sign.png" />
-			<icon name="slow_sign" file="graphics/extensions/damned/halt/slow_sign.png" />
+	<!--Icons-->
+	<icon name="button_stop" file="graphics/extensions/damned/halt/stop.png" />
+	<icon name="button_slow" file="graphics/extensions/damned/halt/slow.png" />
+	<icon name="stop_sign" file="graphics/extensions/damned/halt/stop_sign.png" />
+	<icon name="slow_sign" file="graphics/extensions/damned/halt/slow_sign.png" />
 
-<!--Author: Zygmunt Molotch-->
+	<!--Author: Zygmunt Molotch-->
 	<!--Ext: Combat Timer-->
-		<!--Frame-->
-			<framedef name="timer_background">
-  				<bitmap file="graphics/extensions/zygmunt_molotch/combat_timer/TimerFrame.png" />
-  				<middle rect="0,0,100,25" />
-			</framedef>-->
-		<!--Icons -->
-			<icon name="button_timerstart" file="graphics/extensions/zygmunt_molotch/combat_timer/button_timerstart2.png" />
-			<icon name="button_settings" file="graphics/extensions/zygmunt_molotch/combat_timer/button_settings.png" />
-			<icon name="button_settings2" file="graphics/extensions/zygmunt_molotch/combat_timer/button_settings2.png" />
-			<icon name="button_timerrunning" file="graphics/extensions/zygmunt_molotch/combat_timer/button_timerrunning.png" />
-		<!-- Font Adjustments -->
-			<windowclass name="ct_combat_timer_host" merge="join">
-				<sheetdata>
-					<simplestring name="timer">
-						<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
-					</simplestring>
-				</sheetdata>
-			</windowclass>
-			<windowclass name="ct_combat_timer_client" merge="join">
-				<sheetdata>
-					<simplestring name="timer">
-						<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
-					</simplestring>
-				</sheetdata>
-			</windowclass>
+	<!--Frame-->
+	<framedef name="timer_background">
+		<bitmap file="graphics/extensions/zygmunt_molotch/combat_timer/TimerFrame.png" />
+		<middle rect="0,0,100,25" />
+	</framedef>
+	-->
+	<!--Icons -->
+	<icon name="button_timerstart" file="graphics/extensions/zygmunt_molotch/combat_timer/button_timerstart2.png" />
+	<icon name="button_settings" file="graphics/extensions/zygmunt_molotch/combat_timer/button_settings.png" />
+	<icon name="button_settings2" file="graphics/extensions/zygmunt_molotch/combat_timer/button_settings2.png" />
+	<icon name="button_timerrunning" file="graphics/extensions/zygmunt_molotch/combat_timer/button_timerrunning.png" />
+	<!-- Font Adjustments -->
+	<windowclass name="ct_combat_timer_host" merge="join">
+		<sheetdata>
+			<simplestring name="timer">
+				<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
+			</simplestring>
+		</sheetdata>
+	</windowclass>
+	<windowclass name="ct_combat_timer_client" merge="join">
+		<sheetdata>
+			<simplestring name="timer">
+				<color>DDDDDD</color> <!-- Replaceable Color: Secondary Foreground -->
+			</simplestring>
+		</sheetdata>
+	</windowclass>
 
-<!--Author: DMFirmy -->
-			<!--Moon Tracker-->
-			<!-- Buttons -->
-			<icon name="button_moon" file="graphics/extensions/DMFirmy/moon_tracker/button_moon.png" />
-			<icon name="button_moon_down" file="graphics/extensions/DMFirmy/moon_tracker/button_moon_down.png" />
-			<!-- Icons -->
-			<icon name="moonphase1" file="graphics/extensions/DMFirmy/moon_tracker/phase1.png" />
-			<icon name="moonphase2" file="graphics/extensions/DMFirmy/moon_tracker/phase2.png" />
-			<icon name="moonphase3" file="graphics/extensions/DMFirmy/moon_tracker/phase3.png" />
-			<icon name="moonphase4" file="graphics/extensions/DMFirmy/moon_tracker/phase4.png" />
-			<icon name="moonphase5" file="graphics/extensions/DMFirmy/moon_tracker/phase5.png" />
-			<icon name="moonphase6" file="graphics/extensions/DMFirmy/moon_tracker/phase6.png" />
-			<icon name="moonphase7" file="graphics/extensions/DMFirmy/moon_tracker/phase7.png" />
-			<icon name="moonphase8" file="graphics/extensions/DMFirmy/moon_tracker/phase8.png" />
-			<icon name="nightsky-moontracker" file="graphics/extensions/DMFirmy/moon_tracker/night-sky-icon.png" />
+	<!--Author: DMFirmy -->
+	<!--Moon Tracker-->
+	<!-- Buttons -->
+	<icon name="button_moon" file="graphics/extensions/DMFirmy/moon_tracker/button_moon.png" />
+	<icon name="button_moon_down" file="graphics/extensions/DMFirmy/moon_tracker/button_moon_down.png" />
+	<!-- Icons -->
+	<icon name="moonphase1" file="graphics/extensions/DMFirmy/moon_tracker/phase1.png" />
+	<icon name="moonphase2" file="graphics/extensions/DMFirmy/moon_tracker/phase2.png" />
+	<icon name="moonphase3" file="graphics/extensions/DMFirmy/moon_tracker/phase3.png" />
+	<icon name="moonphase4" file="graphics/extensions/DMFirmy/moon_tracker/phase4.png" />
+	<icon name="moonphase5" file="graphics/extensions/DMFirmy/moon_tracker/phase5.png" />
+	<icon name="moonphase6" file="graphics/extensions/DMFirmy/moon_tracker/phase6.png" />
+	<icon name="moonphase7" file="graphics/extensions/DMFirmy/moon_tracker/phase7.png" />
+	<icon name="moonphase8" file="graphics/extensions/DMFirmy/moon_tracker/phase8.png" />
+	<icon name="nightsky-moontracker" file="graphics/extensions/DMFirmy/moon_tracker/night-sky-icon.png" />
 
 
-<!--Author: Ryan Hagelstrom-->
+	<!--Author: Ryan Hagelstrom-->
 	<!--Better Combat Effects Gold-->
-		<!--Icons-->
-				<icon name="BetterCombatEffectsGold" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png"/>
-				<icon name="bce_save" file="graphics/extensions/ryan_hagelstrom/BCEG/bce_save.png"/>
-		<!--Better Combat Effects-->
-			<!--Icons-->
-				<icon name="BetterCombatEffects" file="graphics/extensions/ryan_hagelstrom/BCE/bce.png"/>
+	<!--Icons-->
+	<icon name="BetterCombatEffectsGold" file="graphics/extensions/ryan_hagelstrom/BCEG/bceg.png" />
+	<icon name="bce_save" file="graphics/extensions/ryan_hagelstrom/BCEG/bce_save.png" />
+	<!--Better Combat Effects-->
+	<!--Icons-->
+	<icon name="BetterCombatEffects" file="graphics/extensions/ryan_hagelstrom/BCE/bce.png" />
 	<!--Arkane Ward-->
-		<!--Icons-->
-				<icon name="button_arcaneward" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small.png" />
-				<icon name="button_arcaneward_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_down.png" />
-				<icon name="button_arcaneward_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_no_slots.png" />
-				<icon name="button_arcaneward_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_down_no_slots.png" />
-				<icon name="button_arcaneward_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_off.png" />
+	<!--Icons-->
+	<icon name="button_arcaneward" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small.png" />
+	<icon name="button_arcaneward_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_down.png" />
+	<icon name="button_arcaneward_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_no_slots.png" />
+	<icon name="button_arcaneward_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_down_no_slots.png" />
+	<icon name="button_arcaneward_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_off.png" />
 
-				<icon name="button_cast_spell" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small.png" />
-				<icon name="button_cast_spell_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_down.png" />
-				<icon name="button_cast_spell_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_no_slots.png" />
-				<icon name="button_cast_spell_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_down_no_slots.png" />
-				<icon name="button_cast_spell_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_off.png" />
+	<icon name="button_cast_spell" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small.png" />
+	<icon name="button_cast_spell_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_down.png" />
+	<icon name="button_cast_spell_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_no_slots.png" />
+	<icon name="button_cast_spell_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_down_no_slots.png" />
+	<icon name="button_cast_spell_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_off.png" />
 
-				<icon name="button_pactmagic" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small.png" />
-				<icon name="button_pactmagic_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down.png" />
-				<icon name="button_pactmagic_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_no_slots.png" />
-				<icon name="button_pactmagic_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down_no_slots.png" />
-				<icon name="button_pactmagic_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_off.png" />
+	<icon name="button_pactmagic" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small.png" />
+	<icon name="button_pactmagic_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down.png" />
+	<icon name="button_pactmagic_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_no_slots.png" />
+	<icon name="button_pactmagic_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down_no_slots.png" />
+	<icon name="button_pactmagic_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_off.png" />
 
-				<icon name="ArcaneWard" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWard.png" />
-				<icon name="ArcaneWardCast" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWardCast.png" />
-		<!--Kent Height-->
-			<!--Icons-->
-				<icon name="KentHeight" file="graphics/extensions/ryan_hagelstrom/kent_height/kheight.png" />
-		<!--Effective Initative-->
-				<!--Icons-->
-				<icon name="EffectiveInitiative" file="graphics/extensions/ryan_hagelstrom/effective_initiative/effectiveinitiative.png" />
-		<!--Effective NPC-->
-				<!--Icons-->
-				<icon name="EffectiveNPC" file="graphics/extensions/ryan_hagelstrom/effective_npc/Effective-NPC.png" />
-		<!--Exhausted-->
-				<!--Icons-->
-				<icon name="Exhausted" file="graphics/extensions/ryan_hagelstrom/exhausted/exhausted.png" />
-		<!--Power Up-->
-				<!--Icons-->
-				<icon name="PowerUp" file="graphics/extensions/ryan_hagelstrom/power_up/PowerUp.png" />
-				<icon name="PowerUpChat" file="graphics/extensions/ryan_hagelstrom/power_up/PowerUpChat.png" />
+	<icon name="ArcaneWard" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWard.png" />
+	<icon name="ArcaneWardCast" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWardCast.png" />
+	<!--Kent Height-->
+	<!--Icons-->
+	<icon name="KentHeight" file="graphics/extensions/ryan_hagelstrom/kent_height/kheight.png" />
+	<!--Effective Initative-->
+	<!--Icons-->
+	<icon name="EffectiveInitiative" file="graphics/extensions/ryan_hagelstrom/effective_initiative/effectiveinitiative.png" />
+	<!--Effective NPC-->
+	<!--Icons-->
+	<icon name="EffectiveNPC" file="graphics/extensions/ryan_hagelstrom/effective_npc/Effective-NPC.png" />
+	<!--Exhausted-->
+	<!--Icons-->
+	<icon name="Exhausted" file="graphics/extensions/ryan_hagelstrom/exhausted/exhausted.png" />
+	<!--Power Up-->
+	<!--Icons-->
+	<icon name="PowerUp" file="graphics/extensions/ryan_hagelstrom/power_up/PowerUp.png" />
+	<icon name="PowerUpChat" file="graphics/extensions/ryan_hagelstrom/power_up/PowerUpChat.png" />
 
-<!--Author: Justin Freitas-->
-		<!--Ext: Automatic Series-->
-				<!--Icon-->
-				<icon name="stealth_icon" file="graphics/extensions/justin_freitas/stealth_tracker/stealth_icon.png" />
+	<!--Author: Justin Freitas-->
+	<!--Ext: Automatic Series-->
+	<!--Icon-->
+	<icon name="stealth_icon" file="graphics/extensions/justin_freitas/stealth_tracker/stealth_icon.png" />
 
-<!--Author: Kent McCullough-->
-			<!--Ext: Automatic Series-->
-				<!--Icon-->
-				<icon name="AutomaticPackTactics" file="graphics/extensions/kent_mccullough/Automatic_Pack_Tactics.png" />
-				<icon name="AutomaticCriticalDamage" file="graphics/extensions/kent_mccullough/Automatic_Critical_Damage.png" />
-				<icon name="AutomaticDeathResist" file="graphics/extensions/kent_mccullough/Automatic_Death_Resist.png" />
-				<icon name="AutomaticLingeringEffects" file="graphics/extensions/kent_mccullough/Automatic_Lingering_Effects.png" />
-				<icon name="AutomaticMirrorImage" file="graphics/extensions/kent_mccullough/Automatic_Mirror_Image.png" />
-				<icon name="AutomaticReturnDamage" file="graphics/extensions/kent_mccullough/Automatic_Return_Damage.png" />
-				<icon name="AutomaticSaveAdvantage" file="graphics/extensions/kent_mccullough/Automatic_Save_Advantage.png" />
-				<icon name="AutomaticShieldMaster" file="graphics/extensions/kent_mccullough/Automatic_Shield_Master.png" />
-				<icon name="AutomaticSneakAttack" file="graphics/extensions/kent_mccullough/Automatic_Sneak_Attack.png" />
- 				<icon name="AutomaticSpellResistance" file="graphics/extensions/kent_mccullough/Automatic_Spell_Resistance.png" />
-				<icon name="AutomaticHalflingLuck" file="graphics/extensions/kent_mccullough/Automatic_Halfling_Luck.png"/>
-				<icon name="AutomaticFlankingAndRange" file="graphics/extensions/kent_mccullough/Automatic_Flanking_and_Range.png"/>
-			<!--Ext: Turn Based Effects-->
-				<!--Icon-->
-					<icon name="TurnBasedEffects" file ="graphics/extensions/kent_mccullough/TurnBasedEffects.png" />
-			<!--Ext: Ongoing Saves -->
-				<!--Icon-->
-					<icon name="OngoingSaveEffects" file="graphics/extensions/kent_mccullough/OngoingSaveEffects.png" />
+	<!--Author: Kent McCullough-->
+	<!--Ext: Automatic Series-->
+	<!--Icon-->
+	<icon name="AutomaticPackTactics" file="graphics/extensions/kent_mccullough/Automatic_Pack_Tactics.png" />
+	<icon name="AutomaticCriticalDamage" file="graphics/extensions/kent_mccullough/Automatic_Critical_Damage.png" />
+	<icon name="AutomaticDeathResist" file="graphics/extensions/kent_mccullough/Automatic_Death_Resist.png" />
+	<icon name="AutomaticLingeringEffects" file="graphics/extensions/kent_mccullough/Automatic_Lingering_Effects.png" />
+	<icon name="AutomaticMirrorImage" file="graphics/extensions/kent_mccullough/Automatic_Mirror_Image.png" />
+	<icon name="AutomaticReturnDamage" file="graphics/extensions/kent_mccullough/Automatic_Return_Damage.png" />
+	<icon name="AutomaticSaveAdvantage" file="graphics/extensions/kent_mccullough/Automatic_Save_Advantage.png" />
+	<icon name="AutomaticShieldMaster" file="graphics/extensions/kent_mccullough/Automatic_Shield_Master.png" />
+	<icon name="AutomaticSneakAttack" file="graphics/extensions/kent_mccullough/Automatic_Sneak_Attack.png" />
+	<icon name="AutomaticSpellResistance" file="graphics/extensions/kent_mccullough/Automatic_Spell_Resistance.png" />
+	<icon name="AutomaticHalflingLuck" file="graphics/extensions/kent_mccullough/Automatic_Halfling_Luck.png" />
+	<icon name="AutomaticFlankingAndRange" file="graphics/extensions/kent_mccullough/Automatic_Flanking_and_Range.png" />
+	<!--Ext: Turn Based Effects-->
+	<!--Icon-->
+	<icon name="TurnBasedEffects" file="graphics/extensions/kent_mccullough/TurnBasedEffects.png" />
+	<!--Ext: Ongoing Saves -->
+	<!--Icon-->
+	<icon name="OngoingSaveEffects" file="graphics/extensions/kent_mccullough/OngoingSaveEffects.png" />
 
-<!--Author: Silent Ruin-->
-			<!--Ext: Carrier-->
-				<!--Logo-->
-				<icon name="Carrier_Logo" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
-				<icon name="Carrier_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
-				<icon name="Carried_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
-				<icon name="button_driver_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
-			<!--Ext: Polymorphism-->
-				<!--Icon-->
-				<icon name="polymorphism_Logo" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_logo.png" />
-				<icon name="polymorphism_icon" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_icon.png" />
-			<!--Ext: Map Parcel-->
-				<!--Icon-->
-				<icon name="mapparcel_Logo" file="graphics/extensions/silent_ruin/map_parcel/mapparcel_logo.png" />
-				<icon name="mapparcel_icon" file="graphics/extensions/silent_ruin/map_parcel/mapparcel_icon.png" />
-			<!--Ext: Combat Groups-->
-				<!--Icons-->
-				<icon name="combatgroups_Logo" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_logo.png" />
-				<icon name="combatgroups_icon" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon.png" />
-				<icon name="combatgroups_icon_down" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon_down.png" />
-			<!--Ext: Generic Actions-->
-				<!--Icon-->
-				<icon name="generic_actions_Logo" file="graphics/extensions/silent_ruin/generic_actions/generic_actions_logo.png" />
-				<icon name="generic_actions_icon" file="graphics/extensions/silent_ruin/generic_actions/generic_actions_icon.png" />
-			<!--Ext: Assistant GM-->
-				<!--Icons-->
-				<icon name="AssistantGM_Logo" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_Logo.png" />
-				<icon name="AssistantGM_icon" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_icon.png" />
-				<icon name="AssistantGM_icon_down" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_icon_down.png" />
-			<!--Ext: Equipped Effects-->
-				<!--Icon-->
-				<icon name="equipped_effects_icon" file="graphics/extensions/silent_ruin/equipped_effects/equipped_effects_icon.png" />
-			<!--Ext: Death Indicator-->
-				<!--Icons-->
-				<!-- Define the icon used in the announcement and tooltips-->
-					<icon name="icon_death_indicator" file="graphics/extensions/silent_ruin/death_indicator/death_indicator_logo.png" />
-					<icon name="icon_death_indicator_token" file="graphics/extensions/silent_ruin/death_indicator/death_indicator.png" />
-				<!--Define the link / shield icons for important NPCs in the combat tracker-->
-					<icon name="button_shield" file="graphics/extensions/silent_ruin/death_indicator/button_shield_SR.png" />
-					<icon name="button_shield_down" file="graphics/extensions/silent_ruin/death_indicator/button_shield_down_SR.png" />
-					<icon name="button_shield_empty" file="graphics/extensions/silent_ruin/death_indicator/button_shield_empty_SR.png" />
-				<!--Font-->
-					<font name="tokenbag_empty_font">
-						<fgffile name="graphics/fonts/italic-10.fgf" />
-						<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="15" />
-						<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
-					</font>
-						<font name="sheetlabelminideathindicator">
-						<fgffile name="graphics/fonts/regular-8.fgf" />
-						<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
-						<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
-					</font>
+	<!--Author: Silent Ruin-->
+	<!--Ext: Carrier-->
+	<!--Logo-->
+	<icon name="Carrier_Logo" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
+	<icon name="Carrier_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
+	<icon name="Carried_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
+	<icon name="button_driver_icon" file="graphics/extensions/silent_ruin/carrier/Carrier_Logo.png" />
+	<!--Ext: Polymorphism-->
+	<!--Icon-->
+	<icon name="polymorphism_Logo" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_logo.png" />
+	<icon name="polymorphism_icon" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_icon.png" />
+	<!--Ext: Map Parcel-->
+	<!--Icon-->
+	<icon name="mapparcel_Logo" file="graphics/extensions/silent_ruin/map_parcel/mapparcel_logo.png" />
+	<icon name="mapparcel_icon" file="graphics/extensions/silent_ruin/map_parcel/mapparcel_icon.png" />
+	<!--Ext: Combat Groups-->
+	<!--Icons-->
+	<icon name="combatgroups_Logo" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_logo.png" />
+	<icon name="combatgroups_icon" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon.png" />
+	<icon name="combatgroups_icon_down" file="graphics/extensions/silent_ruin/combat_groups/combatgroups_icon_down.png" />
+	<!--Ext: Generic Actions-->
+	<!--Icon-->
+	<icon name="generic_actions_Logo" file="graphics/extensions/silent_ruin/generic_actions/generic_actions_logo.png" />
+	<icon name="generic_actions_icon" file="graphics/extensions/silent_ruin/generic_actions/generic_actions_icon.png" />
+	<!--Ext: Assistant GM-->
+	<!--Icons-->
+	<icon name="AssistantGM_Logo" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_Logo.png" />
+	<icon name="AssistantGM_icon" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_icon.png" />
+	<icon name="AssistantGM_icon_down" file="graphics/extensions/silent_ruin/assistant_gm/AssistantGM_icon_down.png" />
+	<!--Ext: Equipped Effects-->
+	<!--Icon-->
+	<icon name="equipped_effects_icon" file="graphics/extensions/silent_ruin/equipped_effects/equipped_effects_icon.png" />
+	<!--Ext: Death Indicator-->
+	<!--Icons-->
+	<!-- Define the icon used in the announcement and tooltips-->
+	<icon name="icon_death_indicator" file="graphics/extensions/silent_ruin/death_indicator/death_indicator_logo.png" />
+	<icon name="icon_death_indicator_token" file="graphics/extensions/silent_ruin/death_indicator/death_indicator.png" />
+	<!--Define the link / shield icons for important NPCs in the combat tracker-->
+	<icon name="button_shield" file="graphics/extensions/silent_ruin/death_indicator/button_shield_SR.png" />
+	<icon name="button_shield_down" file="graphics/extensions/silent_ruin/death_indicator/button_shield_down_SR.png" />
+	<icon name="button_shield_empty" file="graphics/extensions/silent_ruin/death_indicator/button_shield_empty_SR.png" />
+	<!--Font-->
+	<font name="tokenbag_empty_font">
+		<fgffile name="graphics/fonts/italic-10.fgf" />
+		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="15" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+	</font>
+	<font name="sheetlabelminideathindicator">
+		<fgffile name="graphics/fonts/regular-8.fgf" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+	</font>
 
-					<windowclass name="npc_combat" merge="join">
-						<sheetdata>
-							<stringcontrol name="npc_importantdeath_label">
-								<anchored to="actext" position="right" offset="-85,0" width="70" />
-								<font>sheetlabelminideathindicator</font>
-								<nodrag />
-								<static textres="str_importantdeath_npc" />
-							</stringcontrol>
-						</sheetdata>
-					</windowclass>
-				<!--Define the icons for the blood splat images
+
+	<!--Define the icons for the blood splat images
 					<icon name="blood_01" file="graphics/extensions/silent_ruin/death_indicator/blood_01.png" />
 					<icon name="blood_02" file="graphics/extensions/silent_ruin/death_indicator/blood_02.png" />
 					<icon name="blood_03" file="graphics/extensions/silent_ruin/death_indicator/blood_03.png" />
@@ -402,115 +392,117 @@
 					<icon name="stable_01" file="graphics/extensions/silent_ruin/death_indicator/stable_01.png" /> -->
 
 	<!--Ext: Advantages-->
-		<!--Icons-->
-		<icon name="advantages_icon" file="graphics/extensions/silent_ruin/advantages/advantages_icon.png" />
+	<!--Icons-->
+	<icon name="advantages_icon" file="graphics/extensions/silent_ruin/advantages/advantages_icon.png" />
 
-<!--Author: Xelab and JHarp -->
+	<!--Author: Xelab and JHarp -->
 	<!--Ext: Instant Dice-->
-		<!--Icons-->
-		<!-- <icon name="d20_icon_30" file="graphics/icons/d20_icon_30.png" /> --> <!-- Needs to be made unique -->
+	<!--Icons-->
+	<!-- <icon name="d20_icon_30" file="graphics/icons/d20_icon_30.png" /> -->
+	<!-- Needs to be made unique -->
 
-<!--Author: Theogeek-->
+	<!--Author: Theogeek-->
 	<!--Ext: Improved Critical + Natural 20-->
-		<!--Icons-->
-		<icon name="splash_icon" file="graphics/extensions/theogeek/improved_critical/Brutal Barbarian_(v4)_60x60.png" />
+	<!--Icons-->
+	<icon name="splash_icon" file="graphics/extensions/theogeek/improved_critical/Brutal Barbarian_(v4)_60x60.png" />
 
-<!--Author: Trenloe -->
+	<!--Author: Trenloe -->
 	<!--Ext: Basic Card Tables-->
-		<!--Icons-->
-		<icon name="ext_table_icon" file="graphics/extensions/trenloe/basic_card_tables/button_tables.png" />
+	<!--Icons-->
+	<icon name="ext_table_icon" file="graphics/extensions/trenloe/basic_card_tables/button_tables.png" />
 
-<!--Author: DaddyOgreman / Orgemandude-->
+	<!--Author: DaddyOgreman / Orgemandude-->
 	<!--Ext: CoreRPG Combat Highlighter-->
-		<!--Frames-->
-  		<framedef name="ctentrybox_highlight">
-  			<bitmap file="graphics/extensions/daddy_ogreman/combat_highlighter/ctentrybox_highlight.png" />
-  			<offset>37,16,14,17</offset>
-  		</framedef>
-- 		<framedef name="ctentrybox_inactive">
-  			<bitmap file="graphics/extensions/daddy_ogreman/combat_highlighter/ctentrybox_inactive.png" />
-  			<offset>37,16,14,17</offset>
-  		</framedef>
+	<!--Frames-->
+	<framedef name="ctentrybox_highlight">
+		<bitmap file="graphics/extensions/daddy_ogreman/combat_highlighter/ctentrybox_highlight.png" />
+		<offset>37,16,14,17</offset>
+	</framedef>
+	-
+	<framedef name="ctentrybox_inactive">
+		<bitmap file="graphics/extensions/daddy_ogreman/combat_highlighter/ctentrybox_inactive.png" />
+		<offset>37,16,14,17</offset>
+	</framedef>
 
-		<!--Icons-->
-			<icon name="ogremandude" file="graphics/extensions/daddy_ogreman/combat_highlighter/OgreManDude-small.png" />
+	<!--Icons-->
+	<icon name="ogremandude" file="graphics/extensions/daddy_ogreman/combat_highlighter/OgreManDude-small.png" />
 
-<!--Author: Houndy-->
+	<!--Author: Houndy-->
 	<!--Ext: RFIA - Roll for Initiative Addon-->
-		<!--Icons-->
-			<icon name="RFI_RollNotDone" file="graphics/extensions/houndy/RFIA/rfi_roll_not_done.png" />
-  			<icon name="RFI_RollDone" file="graphics/extensions/houndy/RFIA/rfi_roll_done.png" />
-  			<icon name="RFI_PcSelected" file="graphics/extensions/houndy/RFIA/rfi_pc_selected.png" />
-  			<icon name="RFI_PcHover" file="graphics/extensions/houndy/RFIA/rfi_pc_hover.png" />
-  			<icon name="RFIA_DefaultButtonUp" file="graphics/extensions/houndy/RFIA/rfia_default_button_up.png" />
-  			<icon name="RFIA_DefaultButtonDown" file="graphics/extensions/houndy/RFIA/rfia_default_button_down.png" />
-  			<icon name="RFI_Adv" file="graphics/extensions/houndy/RFIA/rfi_adv_icon.png" />
-  			<icon name="RFI_Dis" file="graphics/extensions/houndy/RFIA/rfi_dis_icon.png" />
-  			<icon name="RFI_Hidden" file="graphics/extensions/houndy/RFIA/rfi_hidden_icon.png" />
-		<!--Frame-->
-			<framedef name="buttonhover">
-  				<bitmap file="graphics/extensions/houndy/RFIA/buttonhover.png" />
-  				<offset>11,16,15,16</offset>
-  			</framedef>
+	<!--Icons-->
+	<icon name="RFI_RollNotDone" file="graphics/extensions/houndy/RFIA/rfi_roll_not_done.png" />
+	<icon name="RFI_RollDone" file="graphics/extensions/houndy/RFIA/rfi_roll_done.png" />
+	<icon name="RFI_PcSelected" file="graphics/extensions/houndy/RFIA/rfi_pc_selected.png" />
+	<icon name="RFI_PcHover" file="graphics/extensions/houndy/RFIA/rfi_pc_hover.png" />
+	<icon name="RFIA_DefaultButtonUp" file="graphics/extensions/houndy/RFIA/rfia_default_button_up.png" />
+	<icon name="RFIA_DefaultButtonDown" file="graphics/extensions/houndy/RFIA/rfia_default_button_down.png" />
+	<icon name="RFI_Adv" file="graphics/extensions/houndy/RFIA/rfi_adv_icon.png" />
+	<icon name="RFI_Dis" file="graphics/extensions/houndy/RFIA/rfi_dis_icon.png" />
+	<icon name="RFI_Hidden" file="graphics/extensions/houndy/RFIA/rfi_hidden_icon.png" />
+	<!--Frame-->
+	<framedef name="buttonhover">
+		<bitmap file="graphics/extensions/houndy/RFIA/buttonhover.png" />
+		<offset>11,16,15,16</offset>
+	</framedef>
 
-<!--Author: berwind -->
+	<!--Author: berwind -->
 	<!--Ext: CT Scroll-->
-			<!--Icons-->
-			<icon name="IFN" file="graphics/extensions/berwind/untrue_effects/ifn_small.png" />
+	<!--Icons-->
+	<icon name="IFN" file="graphics/extensions/berwind/untrue_effects/ifn_small.png" />
 
-<!--Author: fxg42 -->
+	<!--Author: fxg42 -->
 	<!--Ext: CT Scroll-->
-			<!--Icons-->
-			<icon name="raven" file="graphics/extensions/fxg42/raven-circ-30x30.png" />
+	<!--Icons-->
+	<icon name="raven" file="graphics/extensions/fxg42/raven-circ-30x30.png" />
 
 
-<!--Author: Mad Nomad-->
+	<!--Author: Mad Nomad-->
 	<!--Ext: Character Sheet Tweaks/Journal/Effects/Coin Manager Display-->
-		<!--Icons-->
-  			<icon name="advdie" file="graphics/extensions/mad_nomad/character_sheet_compilation/advdie.png" />
-  			<icon name="disdie" file="graphics/extensions/mad_nomad/character_sheet_compilation/disdie.png" />
-  			<icon name="update" file="graphics/extensions/mad_nomad/character_sheet_compilation/updateMNM.png" />
-  			<icon name="effectremove" file="graphics/extensions/mad_nomad/character_sheet_compilation/effectremoveMNM.png" />
-  			<icon name="effectremovedown" file="graphics/extensions/mad_nomad/character_sheet_compilation/effectremovedownMNM.png" />
-				<icon name="plus_sign" file="graphics/extensions/mad_nomad/character_sheet_compilation/plus_sign.png" />
-  			<icon name="minus_sign" file="graphics/extensions/mad_nomad/character_sheet_compilation/minus_sign.png" />
-  			<icon name="map" file="graphics/extensions/mad_nomad/character_sheet_compilation/map.png" />
-  			<icon name="tab_journal" file="graphics/extensions/mad_nomad/character_sheet_compilation/tab_journal.png" />
-  			<icon name="tab_origin" file="graphics/extensions/mad_nomad/character_sheet_compilation/tab_origin.png" />
-				<icon name="add_coins" file="graphics/extensions/mad_nomad/character_sheet_compilation/add_coins.png" />
-  			<icon name="spend_coins" file="graphics/extensions/mad_nomad/character_sheet_compilation/spend_coins.png" />
-  			<icon name="transaction" file="graphics/extensions/mad_nomad/character_sheet_compilation/transaction.png" />
-  			<icon name="broke" file="graphics/extensions/mad_nomad/character_sheet_compilation/broke.png" />
-		<!--Frames-->
-			<framedef name="fielddarkborderless">
-  				<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fielddarkborderless.png" />
- 			 	<offset>10,10,10,10</offset>
-  			</framedef>
- 			<framedef name="fieldred">
-  				<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fieldred.png" />
-  				<offset>10,10,10,10</offset>
-  			</framedef>
- 			<framedef name="fieldgreen">
-  			<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fieldgreen.png" />
-  				<offset>10,10,10,10</offset>
-  			</framedef>
+	<!--Icons-->
+	<icon name="advdie" file="graphics/extensions/mad_nomad/character_sheet_compilation/advdie.png" />
+	<icon name="disdie" file="graphics/extensions/mad_nomad/character_sheet_compilation/disdie.png" />
+	<icon name="update" file="graphics/extensions/mad_nomad/character_sheet_compilation/updateMNM.png" />
+	<icon name="effectremove" file="graphics/extensions/mad_nomad/character_sheet_compilation/effectremoveMNM.png" />
+	<icon name="effectremovedown" file="graphics/extensions/mad_nomad/character_sheet_compilation/effectremovedownMNM.png" />
+	<icon name="plus_sign" file="graphics/extensions/mad_nomad/character_sheet_compilation/plus_sign.png" />
+	<icon name="minus_sign" file="graphics/extensions/mad_nomad/character_sheet_compilation/minus_sign.png" />
+	<icon name="map" file="graphics/extensions/mad_nomad/character_sheet_compilation/map.png" />
+	<icon name="tab_journal" file="graphics/extensions/mad_nomad/character_sheet_compilation/tab_journal.png" />
+	<icon name="tab_origin" file="graphics/extensions/mad_nomad/character_sheet_compilation/tab_origin.png" />
+	<icon name="add_coins" file="graphics/extensions/mad_nomad/character_sheet_compilation/add_coins.png" />
+	<icon name="spend_coins" file="graphics/extensions/mad_nomad/character_sheet_compilation/spend_coins.png" />
+	<icon name="transaction" file="graphics/extensions/mad_nomad/character_sheet_compilation/transaction.png" />
+	<icon name="broke" file="graphics/extensions/mad_nomad/character_sheet_compilation/broke.png" />
+	<!--Frames-->
+	<framedef name="fielddarkborderless">
+		<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fielddarkborderless.png" />
+		<offset>10,10,10,10</offset>
+	</framedef>
+	<framedef name="fieldred">
+		<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fieldred.png" />
+		<offset>10,10,10,10</offset>
+	</framedef>
+	<framedef name="fieldgreen">
+		<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fieldgreen.png" />
+		<offset>10,10,10,10</offset>
+	</framedef>
 
-				<icon name="MNMLogo32" file="graphics/extensions/mad_nomad/MNM Logo 32x32.png" />
+	<icon name="MNMLogo32" file="graphics/extensions/mad_nomad/MNM Logo 32x32.png" />
 	<!--Ext: Combat Stats-->
-		<!--Frames-->
-			<template name="number_ps_stat_lower">
-           		<basicnumber>
-           			<frame></frame>
-            		<anchored to="portraitbase" width="50" height="20">
-                    	<top offset="20" />
-                    	<left parent="portraitbase" anchor="right" relation="relative" offset="5" />
-            		</anchored>
-            		<readonly />
-            		<hideonvalue > 0 </hideonvalue>
-            		<color>69B7FF</color> <!-- Replaceable Color: Temporary HP -->
-            		<nodrag />
-            		<nolinkwidget />
-            			<script>
+	<!--Frames-->
+	<template name="number_ps_stat_lower">
+		<basicnumber>
+			<frame></frame>
+			<anchored to="portraitbase" width="50" height="20">
+				<top offset="20" />
+				<left parent="portraitbase" anchor="right" relation="relative" offset="5" />
+			</anchored>
+			<readonly />
+			<hideonvalue> 0 </hideonvalue>
+			<color>69B7FF</color> <!-- Replaceable Color: Temporary HP -->
+			<nodrag />
+			<nolinkwidget />
+			<script>
                     	function onValueChanged()
                         	node=getDatabaseNode();
                        		stat=getName();
@@ -518,19 +510,19 @@
                         	MNMStats.editStatFromPS(node,stat,value);
                     	end
             			</script>
-            	</basicnumber>
-    		</template>
+		</basicnumber>
+	</template>
 
-    		<template name="string_ps_stat_lower">
-            		<stringfield>
-            		<anchored to="portraitbase" width="150" height="20">
-                    		<top offset="20" />
-                    		<left parent="portraitbase" anchor="right" relation="relative" offset="5" />
-            		</anchored>
-            		<color>69B7FF</color> <!-- Replaceable Color: Temporary HP -->
-            		<readonly />
-            		<nodrag />
-            		<script>
+	<template name="string_ps_stat_lower">
+		<stringfield>
+			<anchored to="portraitbase" width="150" height="20">
+				<top offset="20" />
+				<left parent="portraitbase" anchor="right" relation="relative" offset="5" />
+			</anchored>
+			<color>69B7FF</color> <!-- Replaceable Color: Temporary HP -->
+			<readonly />
+			<nodrag />
+			<script>
                    		function onValueChanged()
                        		node=getDatabaseNode();
                         		stat=getName();
@@ -538,72 +530,72 @@
                         		MNMStats.editStatFromPS(node,stat,value);
                     		end
             		</script>
-            		</stringfield>
-    		</template>
-	
-	<!--Ext: Enhanced Encounter Window-->
-		<!--pngs-->
-			<icon name="addcombat" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addcombat.png" />
-  			<icon name="addtomap" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addtomap.png" />
-  			<icon name="addparty" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addparty.png" />
-  			<icon name="awardxp" file="graphics/extensions/mad_nomad/enhanced_encounter_window/awardxp.png" />
-  			<icon name="addcombatdown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addcombatdown.png" />
-  			<icon name="addtomapdown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addtomapdown.png" />
-  			<icon name="addpartydown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addpartydown.png" />
-  			<icon name="awardxpdown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/awardxpdown.png" />
-  			<icon name="shareall" file="graphics/extensions/mad_nomad/enhanced_encounter_window/shareMNM.png" />
-  			<icon name="sharealldown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/shareMNMdown.png" />
-	
-	<!--Ext: Consumable Items-->
-		<!--Icon-->
-			 <icon name="consumableSmall" file="graphics/extensions/mad_nomad/consumable_items/consumableSmall.png" />
+		</stringfield>
+	</template>
 
-<!--Author: MeAndUnique-->
+	<!--Ext: Enhanced Encounter Window-->
+	<!--pngs-->
+	<icon name="addcombat" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addcombat.png" />
+	<icon name="addtomap" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addtomap.png" />
+	<icon name="addparty" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addparty.png" />
+	<icon name="awardxp" file="graphics/extensions/mad_nomad/enhanced_encounter_window/awardxp.png" />
+	<icon name="addcombatdown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addcombatdown.png" />
+	<icon name="addtomapdown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addtomapdown.png" />
+	<icon name="addpartydown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/addpartydown.png" />
+	<icon name="awardxpdown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/awardxpdown.png" />
+	<icon name="shareall" file="graphics/extensions/mad_nomad/enhanced_encounter_window/shareMNM.png" />
+	<icon name="sharealldown" file="graphics/extensions/mad_nomad/enhanced_encounter_window/shareMNMdown.png" />
+
+	<!--Ext: Consumable Items-->
+	<!--Icon-->
+	<icon name="consumableSmall" file="graphics/extensions/mad_nomad/consumable_items/consumableSmall.png" />
+
+	<!--Author: MeAndUnique-->
 	<!--Ext: Colorful Language-->
-		<!-- Source: strings/strings.xml -->
-			<string name="chatfontname">Light Grey</string>
-			<string name="chatgmfontname">Lavender, Italic</string>
-			<string name="chatnpcfontname">Blue</string>
-			<string name="emotefontname">Red</string>
-			<string name="msgfontname">Purple 1</string>
-			<string name="narratorfontname">Yellow</string>
-			<string name="oocfontname">Green</string>
-			<string name="systemfontname">Purple 2</string>
-			<string name="whisperfontname">Turquoise</string>
-		<!-- Source: desktop/chat_font_selection.xml -->
-			<windowclass name="chat_font_selection" merge="join">
-				<sheetdata>
-					<windowlist name="list">
-						<anchored to="contentanchor">
-							<top anchor="bottom" relation="relative" offset="10" />
-						</anchored>
-					</windowlist>
-					<scrollbar_list />
-				</sheetdata>
-			</windowclass>
-			<windowclass name="font_selection" merge="join">
-				<sheetdata>
-					<label name="name">
-						<anchored offset="0,8" />
-					</label>
-					<comboboxc name="options">
-						<anchored offset="3,28" />
-					</comboboxc>
-					<stringcontrol name="example">
-						<anchored height="55">
-							<top offset="27" />
-							<right offset="-12" />
-						</anchored>
-						<frame name="chatbox" offset="16,27,15,0" />
-					</stringcontrol>
-				</sheetdata>
-			</windowclass>
-			<!-- Icon -->
-			<icon name="ColorfulLanguage" file="graphics/extensions/meandunique/colorful_language/ColorfulLanguage.png" />
-<!--Ext: Constitutional Amendments-->
-		<!-- Source: desktop/record_char_main.xml -->
-			<windowclass name="charsheet_main" merge="join">
-				<script>
+	<!-- Source: strings/strings.xml -->
+	<string name="chatfontname">Light Grey</string>
+	<string name="chatgmfontname">Lavender, Italic</string>
+	<string name="chatnpcfontname">Blue</string>
+	<string name="emotefontname">Red</string>
+	<string name="msgfontname">Purple 1</string>
+	<string name="narratorfontname">Yellow</string>
+	<string name="oocfontname">Green</string>
+	<string name="systemfontname">Purple 2</string>
+	<string name="whisperfontname">Turquoise</string>
+	<!-- Source: desktop/chat_font_selection.xml -->
+	<windowclass name="chat_font_selection" merge="join">
+		<sheetdata>
+			<windowlist name="list">
+				<anchored to="contentanchor">
+					<top anchor="bottom" relation="relative" offset="10" />
+				</anchored>
+			</windowlist>
+			<scrollbar_list />
+		</sheetdata>
+	</windowclass>
+	<windowclass name="font_selection" merge="join">
+		<sheetdata>
+			<label name="name">
+				<anchored offset="0,8" />
+			</label>
+			<comboboxc name="options">
+				<anchored offset="3,28" />
+			</comboboxc>
+			<stringcontrol name="example">
+				<anchored height="55">
+					<top offset="27" />
+					<right offset="-12" />
+				</anchored>
+				<frame name="chatbox" offset="16,27,15,0" />
+			</stringcontrol>
+		</sheetdata>
+	</windowclass>
+	<!-- Icon -->
+	<icon name="ColorfulLanguage" file="graphics/extensions/meandunique/colorful_language/ColorfulLanguage.png" />
+	<!--Ext: Constitutional Amendments-->
+	<!-- Source: desktop/record_char_main.xml -->
+	<windowclass name="charsheet_main" merge="join">
+		<script>
 					function onInit()
 						if super and super.onInit then
 							super.onInit();
@@ -613,208 +605,211 @@
 						end
 					end
 				</script>
-			</windowclass>
+	</windowclass>
 	<!-- Ext: Extended Rest -->
-		<!-- Icons -->
-			<icon name="rest_extended" file="graphics/extensions/meandunique/extended_rest/icon_rest_extended.png" />
+	<!-- Icons -->
+	<icon name="rest_extended" file="graphics/extensions/meandunique/extended_rest/icon_rest_extended.png" />
 	<!-- Ext: Friend Zone -->
-		<!-- Tabs -->
-			<icon name="char_cohorts" file="graphics/pngs/char_name.png" />
-			<icon name="FriendZone_icon" file="graphics/extensions/meandunique/friend_zone/FriendZone.png" />
-		<!-- Tabs -->
-			<icon name="tab_cohorts" file="graphics/extensions/meandunique/friend_zone/tab_cohorts.png" />
+	<!-- Tabs -->
+	<icon name="char_cohorts" file="graphics/pngs/char_name.png" />
+	<icon name="FriendZone_icon" file="graphics/extensions/meandunique/friend_zone/FriendZone.png" />
+	<!-- Tabs -->
+	<icon name="tab_cohorts" file="graphics/extensions/meandunique/friend_zone/tab_cohorts.png" />
 	<!-- Ext: Kit'N'Kaboodle -->
-		<!-- Icons -->
-			<icon name="KNK_icon" file="graphics/extensions/meandunique/kitnkaboodle/KitNKaboodle.png" />
+	<!-- Icons -->
+	<icon name="KNK_icon" file="graphics/extensions/meandunique/kitnkaboodle/KitNKaboodle.png" />
 	<!-- Ext: Size Matters -->
-		<!-- Icons -->
-			<icon name="SizeMatter_icon" file="graphics/extensions/meandunique/size_matters/SizeMatters.png" />
+	<!-- Icons -->
+	<icon name="SizeMatter_icon" file="graphics/extensions/meandunique/size_matters/SizeMatters.png" />
 	<!-- Ext: Blissful Ignorance -->
-		<!-- Logo -->
-			<icon name="BlissfulIgnorance_icon" file="graphics/extensions/meandunique/blissful_ignorance/BlissfulIgnorance.png" />
+	<!-- Logo -->
+	<icon name="BlissfulIgnorance_icon" file="graphics/extensions/meandunique/blissful_ignorance/BlissfulIgnorance.png" />
 	<!-- Ext: Constitutional Amendments -->
-		<!-- Logo -->
-			<icon name="CA_icon" file="graphics/extensions/meandunique/constitutional_amendments/ConstitutionalAmendments.png" />
+	<!-- Logo -->
+	<icon name="CA_icon" file="graphics/extensions/meandunique/constitutional_amendments/ConstitutionalAmendments.png" />
 	<!-- Ext: Bartender -->
-		<!-- Logo -->
-			<icon name="Bartender_icon" file="graphics/extensions/meandunique/bartender/Bartender.png" />
+	<!-- Logo -->
+	<icon name="Bartender_icon" file="graphics/extensions/meandunique/bartender/Bartender.png" />
 	<!-- Ext: Temporal Fixation -->
-		<!-- Logo -->
-			<icon name="TemporalFixation" file="graphics/extensions/meandunique/temporal_fixation/TemporalFixation.png" />
+	<!-- Logo -->
+	<icon name="TemporalFixation" file="graphics/extensions/meandunique/temporal_fixation/TemporalFixation.png" />
 	<!--Ext: Trigger me Timbers-->
-		<!-- Logo -->
-			<icon name="TriggerMeTimbers" file="graphics/extensions/meandunique/trigger_me_timbers/TriggerMeTimbers.png" />
-		<!-- Icons -->
-			<icon name="sidebar_icon_recordtype_trigger" file="graphics/extensions/meandunique/trigger_me_timbers/trigger.png" />
-			<icon name="active_trigger" file="graphics/extensions/meandunique/trigger_me_timbers/lightning.png" />
+	<!-- Logo -->
+	<icon name="TriggerMeTimbers" file="graphics/extensions/meandunique/trigger_me_timbers/TriggerMeTimbers.png" />
+	<!-- Icons -->
+	<icon name="sidebar_icon_recordtype_trigger" file="graphics/extensions/meandunique/trigger_me_timbers/trigger.png" />
+	<icon name="active_trigger" file="graphics/extensions/meandunique/trigger_me_timbers/lightning.png" />
 	<!--Ext: Capital Gains-->
-		<!-- Logo -->
-			<icon name="CapitalGains" file="graphics/extensions/meandunique/capital_gains/CapitalGains.png" />
+	<!-- Logo -->
+	<icon name="CapitalGains" file="graphics/extensions/meandunique/capital_gains/CapitalGains.png" />
 	<!--Ext: Verses Magicae-->
-		<!-- Logo -->
-			<icon name="VersesMagicae_icon" file="graphics/extensions/meandunique/verses_magicae/MeAndUnique_Verses_Magicae_Logo.png" />
+	<!-- Logo -->
+	<icon name="VersesMagicae_icon" file="graphics/extensions/meandunique/verses_magicae/MeAndUnique_Verses_Magicae_Logo.png" />
 
-<!--Author: pr6i6est (Troy Monteith)-->
+	<!--Author: pr6i6est (Troy Monteith)-->
 	<!--Ext: NPC Random Treasure Drops-->
-			<icon name="conditions_tab" file="graphics/extensions/troy_monteith/npc_random_treasure_drops/conditions_tab.png" />
-			<icon name="pr6i6e6st_logo_miniNPCRTD" file="graphics/extensions/troy_monteith/npc_random_treasure_drops/pr6i6e6st_logo_miniNPCRTD.png" />
+	<icon name="conditions_tab" file="graphics/extensions/troy_monteith/npc_random_treasure_drops/conditions_tab.png" />
+	<icon name="pr6i6e6st_logo_miniNPCRTD" file="graphics/extensions/troy_monteith/npc_random_treasure_drops/pr6i6e6st_logo_miniNPCRTD.png" />
 	<!--Ext: Automatic Record Links-->
-			<icon name="linktab" file="graphics/extensions/troy_monteith/automatic_record_links/links_tab.png" />
-			<icon name="pr6i6e6st_logo_miniARL" file="graphics/extensions/troy_monteith/automatic_record_links/pr6i6e6st_logo_miniARL.png" />
+	<icon name="linktab" file="graphics/extensions/troy_monteith/automatic_record_links/links_tab.png" />
+	<icon name="pr6i6e6st_logo_miniARL" file="graphics/extensions/troy_monteith/automatic_record_links/pr6i6e6st_logo_miniARL.png" />
 	<!--Ext: Random Spellbook Generator-->
-			<icon name="pr6i6e6st_logo_miniRSG" file="graphics/extensions/troy_monteith/random_spellbook_generator/pr6i6e6st_logo_miniRSG.png" />
+	<icon name="pr6i6e6st_logo_miniRSG" file="graphics/extensions/troy_monteith/random_spellbook_generator/pr6i6e6st_logo_miniRSG.png" />
 	<!--Ext: Random Encounter Generator-->
-			<icon name="pr6i6e6st_logo_miniREG" file="graphics/extensions/troy_monteith/random_encounter_generator/pr6i6e6st_logo_miniREG.png" />
+	<icon name="pr6i6e6st_logo_miniREG" file="graphics/extensions/troy_monteith/random_encounter_generator/pr6i6e6st_logo_miniREG.png" />
 	<!--Ext: NPC Maker-->
-			<icon name="pr6i6e6st_logo_miniNPCM" file="graphics/extensions/troy_monteith/npc_maker/pr6i6e6st_logo_miniNPCM.png" />
+	<icon name="pr6i6e6st_logo_miniNPCM" file="graphics/extensions/troy_monteith/npc_maker/pr6i6e6st_logo_miniNPCM.png" />
 
-<!--Author: pr6i6est (Troy Monteith) and bmos-->
+	<!--Author: pr6i6est (Troy Monteith) and bmos-->
 	<!--Ext: Clock Adjuster-->
-		<!--Icons-->
-  			<icon name="6AM_Dark" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_6am_dark_sunrise.png" />
-  			<icon name="6AM_Dark_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_6am_dark_sunrise_down.png" />
-  			<icon name="12PM_Dark" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_12pm_dark.png" />
-  			<icon name="12PM_Dark_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_12pm_dark_down.png" />
-  			<icon name="6PM_Dark" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_06pm_dark.png" />
-  			<icon name="6PM_Dark_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_06pm_dark_down.png" />
-  			<icon name="12AM_Dark" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_24_24_00_dark.png" />
-  			<icon name="12AM_Dark_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_24_24_00_dark_down.png" />
-  			<icon name="add_logentry" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_AddEntry_dark.png" />
-  			<icon name="add_logentry_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_AddEntry_dark_down.png" />
-  			<icon name="atob_button" file="graphics/extensions/troy_monteith/clock_adjuster/Button_Travel_02_dark.png" />
-  			<icon name="atob_button_down" file="graphics/extensions/troy_monteith/clock_adjuster/Button_Travel_02_dark_down.png" />
-  			<icon name="reminder_button" file="graphics/extensions/troy_monteith/clock_adjuster/reminder.png" />
-  			<icon name="reminder_button_down" file="graphics/extensions/troy_monteith/clock_adjuster/reminder_down.png" />
+	<!--Icons-->
+	<icon name="6AM_Dark" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_6am_dark_sunrise.png" />
+	<icon name="6AM_Dark_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_6am_dark_sunrise_down.png" />
+	<icon name="12PM_Dark" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_12pm_dark.png" />
+	<icon name="12PM_Dark_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_12pm_dark_down.png" />
+	<icon name="6PM_Dark" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_06pm_dark.png" />
+	<icon name="6PM_Dark_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_12_06pm_dark_down.png" />
+	<icon name="12AM_Dark" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_24_24_00_dark.png" />
+	<icon name="12AM_Dark_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_24_24_00_dark_down.png" />
+	<icon name="add_logentry" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_AddEntry_dark.png" />
+	<icon name="add_logentry_down" file="graphics/extensions/troy_monteith/clock_adjuster/button_clock_AddEntry_dark_down.png" />
+	<icon name="atob_button" file="graphics/extensions/troy_monteith/clock_adjuster/Button_Travel_02_dark.png" />
+	<icon name="atob_button_down" file="graphics/extensions/troy_monteith/clock_adjuster/Button_Travel_02_dark_down.png" />
+	<icon name="reminder_button" file="graphics/extensions/troy_monteith/clock_adjuster/reminder.png" />
+	<icon name="reminder_button_down" file="graphics/extensions/troy_monteith/clock_adjuster/reminder_down.png" />
 
-<!--Author: Kent McCullough and bmos-->
-		<!--Ext: Aura Effects-->
-				<!--Icons-->
-				<icon name="aura_icon" file="graphics/extensions/bmos/aura_effects/aura_icon.png" />
+	<!--Author: Kent McCullough and bmos-->
+	<!--Ext: Aura Effects-->
+	<!--Icons-->
+	<icon name="aura_icon" file="graphics/extensions/bmos/aura_effects/aura_icon.png" />
 
-<!--Author: Saagael-->
+	<!--Author: Saagael-->
 	<!--Ext: Unofficial Kingdoms and Warfare Extension-->
-		<!--Icons-->
-			<icon name="button_kw_tokens" file="graphics/extensions/saagael/kingdoms_and_warfare/button_kw_tokens.png" />
-  			<icon name="button_kw_tokens_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_kw_tokens_down.png" />
-  			<icon name="button_banner" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner.png" />
-  			<icon name="button_banner_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner_down.png" />
-			<icon name="rally" file="graphics/extensions/saagael/kingdoms_and_warfare/rally.png" />
-- 		<!--Roll icons-->
-			<icon name="roll_harrow" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_harrow.png" />
-			<icon name="roll_rally" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_rally.png" />
-		<!--token icons-->
-			<icon name="cond_disoriented" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_disoriented.png" />
-			<icon name="cond_disorganized" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_disorganized.png" />
-			<icon name="cond_harrowed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_harrowed.png" />
-			<icon name="cond_misled" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_misled.png" />
-			<icon name="cond_rallied" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_rallied.png" />
-			<icon name="cond_weakened" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_weakened.png" />
-			<icon name="cond_harrowpassed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_harrowingpassed.png" />
-			<icon name="cond_broken" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_broken.png" />
-			<icon name="state_activated" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_activated.png" />
-			<icon name="state_reacted" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_reaction.png" />
-			<icon name="state_exposed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_exposed.png" />
-			<icon name="token_acid" file="graphics/extensions/saagael/kingdoms_and_warfare/token_acid.png" />
-			<icon name="token_bleed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_bleed.png" />
-			<icon name="token_fire" file="graphics/extensions/saagael/kingdoms_and_warfare/token_fire.png" />
-			<icon name="token_poison" file="graphics/extensions/saagael/kingdoms_and_warfare/token_poison.png" />
-		- <!--Tabs-->
-			<icon name="tab_domain" file="graphics/extensions/saagael/kingdoms_and_warfare/tab_domain.png" />
-			<icon name="tab_powerpool" file="graphics/extensions/saagael/kingdoms_and_warfare/tab_powerpool.png" />
-		- <!--Image-->
-			<icon name="icon_rank_bottom" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_bottom_30.png" />
-			<icon name="icon_rank_left" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_left_30.png" />
-			<icon name="icon_rank_right" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_right_30.png" />
-			<icon name="icon_rank_top" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_top_30.png" />
-			<icon name="icon_warfare" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_warfare_30.png" />
-		<!-- Battle Tracker -->
-			<windowclass name="combattracker_host" merge="join" ruleset="5E">
-				<sheetdata>
-					<buttoncontrol name="button_show_battle">
-						<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
-					</buttoncontrol>
-				</sheetdata>
-			</windowclass>
-			<windowclass name="combattracker_client" merge="join" ruleset="5E">
-				<sheetdata>
-					<buttoncontrol name="button_show_battle">
-						<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
-					</buttoncontrol>
-				</sheetdata>
-			</windowclass>
-			<windowclass name="battletracker" merge="join">
-				<sheetdata>
-					<genericcontrol name="leftanchor">
-						<anchored>
-							<left anchor="left" offset="15" />
-						</anchored>
-					</genericcontrol>
-					<genericcontrol name="rightanchor">
-						<anchored>
-							<right anchor="right" offset="-20" />
-						</anchored>
-					</genericcontrol>
+	<!--Icons-->
+	<icon name="button_kw_tokens" file="graphics/extensions/saagael/kingdoms_and_warfare/button_kw_tokens.png" />
+	<icon name="button_kw_tokens_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_kw_tokens_down.png" />
+	<icon name="button_banner" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner.png" />
+	<icon name="button_banner_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner_down.png" />
+	<icon name="rally" file="graphics/extensions/saagael/kingdoms_and_warfare/rally.png" />
+	-
+	<!--Roll icons-->
+	<icon name="roll_harrow" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_harrow.png" />
+	<icon name="roll_rally" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_rally.png" />
+	<!--token icons-->
+	<icon name="cond_disoriented" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_disoriented.png" />
+	<icon name="cond_disorganized" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_disorganized.png" />
+	<icon name="cond_harrowed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_harrowed.png" />
+	<icon name="cond_misled" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_misled.png" />
+	<icon name="cond_rallied" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_rallied.png" />
+	<icon name="cond_weakened" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_weakened.png" />
+	<icon name="cond_harrowpassed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_harrowingpassed.png" />
+	<icon name="cond_broken" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_broken.png" />
+	<icon name="state_activated" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_activated.png" />
+	<icon name="state_reacted" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_reaction.png" />
+	<icon name="state_exposed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_exposed.png" />
+	<icon name="token_acid" file="graphics/extensions/saagael/kingdoms_and_warfare/token_acid.png" />
+	<icon name="token_bleed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_bleed.png" />
+	<icon name="token_fire" file="graphics/extensions/saagael/kingdoms_and_warfare/token_fire.png" />
+	<icon name="token_poison" file="graphics/extensions/saagael/kingdoms_and_warfare/token_poison.png" />
+	-
+	<!--Tabs-->
+	<icon name="tab_domain" file="graphics/extensions/saagael/kingdoms_and_warfare/tab_domain.png" />
+	<icon name="tab_powerpool" file="graphics/extensions/saagael/kingdoms_and_warfare/tab_powerpool.png" />
+	-
+	<!--Image-->
+	<icon name="icon_rank_bottom" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_bottom_30.png" />
+	<icon name="icon_rank_left" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_left_30.png" />
+	<icon name="icon_rank_right" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_right_30.png" />
+	<icon name="icon_rank_top" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_top_30.png" />
+	<icon name="icon_warfare" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_warfare_30.png" />
+	<!-- Battle Tracker -->
+	<windowclass name="combattracker_host" merge="join" ruleset="5E">
+		<sheetdata>
+			<buttoncontrol name="button_show_battle">
+				<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
+			</buttoncontrol>
+		</sheetdata>
+	</windowclass>
+	<windowclass name="combattracker_client" merge="join" ruleset="5E">
+		<sheetdata>
+			<buttoncontrol name="button_show_battle">
+				<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
+			</buttoncontrol>
+		</sheetdata>
+	</windowclass>
+	<windowclass name="battletracker" merge="join">
+		<sheetdata>
+			<genericcontrol name="leftanchor">
+				<anchored>
+					<left anchor="left" offset="15" />
+				</anchored>
+			</genericcontrol>
+			<genericcontrol name="rightanchor">
+				<anchored>
+					<right anchor="right" offset="-20" />
+				</anchored>
+			</genericcontrol>
 
-					<windowlist name="list">
-						<anchored>
-							<left parent="topanchor" anchor="right" offset="-10" />
-						</anchored>
-					</windowlist>
-					<subwindow name="uncommanded_units">
-						<anchored>
-							<left parent="topanchor" anchor="right" offset="16" />
-							<right parent="rightanchor" anchor="left" offset="-1" />
-						</anchored>
-					</subwindow>
+			<windowlist name="list">
+				<anchored>
+					<left parent="topanchor" anchor="right" offset="-10" />
+				</anchored>
+			</windowlist>
+			<subwindow name="uncommanded_units">
+				<anchored>
+					<left parent="topanchor" anchor="right" offset="16" />
+					<right parent="rightanchor" anchor="left" offset="-1" />
+				</anchored>
+			</subwindow>
 
-					<battletracker_morale name="morale_neutral">
-						<stateframe>
-							<keyedit name="fieldfocus" offset="7,5,6,7" />
-							<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
-							<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
-						</stateframe>
-					</battletracker_morale>
-					<battletracker_morale name="morale_foe">
-						<stateframe>
-							<keyedit name="fieldfocus" offset="7,5,6,7" />
-							<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
-							<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
-						</stateframe>
-					</battletracker_morale>
-					<battletracker_morale name="morale_friend">
-						<stateframe>
-							<keyedit name="fieldfocus" offset="7,5,6,7" />
-							<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
-							<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
-						</stateframe>
-					</battletracker_morale>
-				</sheetdata>
-			</windowclass>
-			<windowclass name="battletracker_unitsummary" merge="join">
-				<sheetdata>
-					<number_ct name="size" source="casualties">
-						<anchored to="size_label" position="righthigh" offset="17,0" />
-					</number_ct>
-					<label name="casualties_label">
-						<anchored to="size_label" position="lefthigh" offset="-101,0" />
-					</label>
-				</sheetdata>
-			</windowclass>
-			<windowclass name="battletracker_commander" merge="join">
-				<margins control="22,0,0,5" />
-				<sheetdata>
-					<battletracker_unitlist>
-						<anchored>
-							<left offset="2" />
-						</anchored>
-					</battletracker_unitlist>
-				</sheetdata>
-			</windowclass>
+			<battletracker_morale name="morale_neutral">
+				<stateframe>
+					<keyedit name="fieldfocus" offset="7,5,6,7" />
+					<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+					<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+				</stateframe>
+			</battletracker_morale>
+			<battletracker_morale name="morale_foe">
+				<stateframe>
+					<keyedit name="fieldfocus" offset="7,5,6,7" />
+					<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+					<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+				</stateframe>
+			</battletracker_morale>
+			<battletracker_morale name="morale_friend">
+				<stateframe>
+					<keyedit name="fieldfocus" offset="7,5,6,7" />
+					<hover name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+					<drophilight name="fieldfocus" offset="7,5,6,7" hidereadonly="true" />
+				</stateframe>
+			</battletracker_morale>
+		</sheetdata>
+	</windowclass>
+	<windowclass name="battletracker_unitsummary" merge="join">
+		<sheetdata>
+			<number_ct name="size" source="casualties">
+				<anchored to="size_label" position="righthigh" offset="17,0" />
+			</number_ct>
+			<label name="casualties_label">
+				<anchored to="size_label" position="lefthigh" offset="-101,0" />
+			</label>
+		</sheetdata>
+	</windowclass>
+	<windowclass name="battletracker_commander" merge="join">
+		<margins control="22,0,0,5" />
+		<sheetdata>
+			<battletracker_unitlist>
+				<anchored>
+					<left offset="2" />
+				</anchored>
+			</battletracker_unitlist>
+		</sheetdata>
+	</windowclass>
 	<!--Ext: Close Encounters-->
-			<!--Icon-->
-			<icon name="CloseEncounters" file="graphics/extensions/saagael/close_encounters/CloseEncounters.png" />
+	<!--Icon-->
+	<icon name="CloseEncounters" file="graphics/extensions/saagael/close_encounters/CloseEncounters.png" />
 
-<!--Author: GKEnialb-->
+	<!--Author: GKEnialb-->
 	<!--Ext: Token Height Indicators-->
 	<font name="height_medium">
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="15" />
@@ -829,248 +824,248 @@
 	<icon name="GKElogo" file="graphics/extensions/good_king_enialb/token_height_indicator/GKE_Logo.png" />
 
 	<!--Author: Kelrugem-->
-		<!--Ext: Advantage / Disadvantage-->
-			<!--Icons-->
-			<icon name="DeekinMightyBard" file="graphics/extensions/kelrugem/advantage_disadvantage/DeekinMightyBard.png" />
+	<!--Ext: Advantage / Disadvantage-->
+	<!--Icons-->
+	<icon name="DeekinMightyBard" file="graphics/extensions/kelrugem/advantage_disadvantage/DeekinMightyBard.png" />
 
-<!--Author: Diablo Bob-->
+	<!--Author: Diablo Bob-->
 	<!--Ext: Portals Revamped-->
-		<!--Icons-->
-			<icon name="token_empty" file="graphics/extensions/diablobob/portals/token_empty.png" />
-			<icon name="button_teleport_yes" file="graphics/extensions/diablobob/portals/button_teleport_yes.png" />
-			<icon name="button_teleport_yes_down" file="graphics/extensions/diablobob/portals/button_teleport_yes_down.png" />
-			<icon name="button_teleport_no" file="graphics/extensions/diablobob/portals/button_teleport_no.png" />
-			<icon name="button_teleport_no_down" file="graphics/extensions/diablobob/portals/button_teleport_no_down.png" />
-			<icon name="sidebar_icon_recordtype_portals" file="graphics/extensions/diablobob/portals/portals.png" />
-			<icon name="Critically_Awesome" file="graphics/extensions/diablobob/portals/Critically_Awesome.png" />
-		<!--Frame-->
-			<framedef name="teleport_prompt">
-				<bitmap file="graphics/extensions/diablobob/portals/teleport_prompt.png" />
-				<offset>50,50,45,45</offset>
-				<insideoffset>0,5,12,14</insideoffset>
-			</framedef>
-			<framedef name="teleport_prompt_frame">
-				<bitmap file="graphics/extensions/diablobob/portals/teleport_prompt.png" />
-				<offset>50,50,45,45</offset>
-				<insideoffset>0,5,12,14</insideoffset>
-			</framedef>
+	<!--Icons-->
+	<icon name="token_empty" file="graphics/extensions/diablobob/portals/token_empty.png" />
+	<icon name="button_teleport_yes" file="graphics/extensions/diablobob/portals/button_teleport_yes.png" />
+	<icon name="button_teleport_yes_down" file="graphics/extensions/diablobob/portals/button_teleport_yes_down.png" />
+	<icon name="button_teleport_no" file="graphics/extensions/diablobob/portals/button_teleport_no.png" />
+	<icon name="button_teleport_no_down" file="graphics/extensions/diablobob/portals/button_teleport_no_down.png" />
+	<icon name="sidebar_icon_recordtype_portals" file="graphics/extensions/diablobob/portals/portals.png" />
+	<icon name="Critically_Awesome" file="graphics/extensions/diablobob/portals/Critically_Awesome.png" />
+	<!--Frame-->
+	<framedef name="teleport_prompt">
+		<bitmap file="graphics/extensions/diablobob/portals/teleport_prompt.png" />
+		<offset>50,50,45,45</offset>
+		<insideoffset>0,5,12,14</insideoffset>
+	</framedef>
+	<framedef name="teleport_prompt_frame">
+		<bitmap file="graphics/extensions/diablobob/portals/teleport_prompt.png" />
+		<offset>50,50,45,45</offset>
+		<insideoffset>0,5,12,14</insideoffset>
+	</framedef>
 
-<!--Author: Anathemort-->
+	<!--Author: Anathemort-->
 	<!--Ext: Winnowing Pursuits-->
-		<!--Icons-->
-			<icon name="WP_tiny" file="graphics/extensions/anathemort/winnowing_pursuits/WP_tiny.png"/>
+	<!--Icons-->
+	<icon name="WP_tiny" file="graphics/extensions/anathemort/winnowing_pursuits/WP_tiny.png" />
 
-<!--Author: Thomas Delaplain (Minty23185Fresh)-->
+	<!--Author: Thomas Delaplain (Minty23185Fresh)-->
 	<!--Ext: Local Dice Tower-->
- 		<!--Icons-->
-  			<icon name="dicetower_icon_CoreRPG" file="graphics/extensions/thomas_delaplain/local_dice_tower/dicetower_icon_CoreRPG.png" />
-  			<icon name="dicetower_icon_5E" file="graphics/extensions/thomas_delaplain/local_dice_tower/dicetower_icon_5E.png" />
+	<!--Icons-->
+	<icon name="dicetower_icon_CoreRPG" file="graphics/extensions/thomas_delaplain/local_dice_tower/dicetower_icon_CoreRPG.png" />
+	<icon name="dicetower_icon_5E" file="graphics/extensions/thomas_delaplain/local_dice_tower/dicetower_icon_5E.png" />
 
-<!--Author: mattekure-->
+	<!--Author: mattekure-->
 	<!--Ext: 5E - Coin Converter-->
- 		<!--Buttons-->
-			<icon name="button_p2g" file="graphics/extensions/mattekure/5e_coin_converter/button_p2g.png" />
-			<icon name="button_p2e" file="graphics/extensions/mattekure/5e_coin_converter/button_p2e.png" />
-			<icon name="button_p2s" file="graphics/extensions/mattekure/5e_coin_converter/button_p2s.png" />
-			<icon name="button_p2c" file="graphics/extensions/mattekure/5e_coin_converter/button_p2c.png" />
-			<icon name="button_g2p" file="graphics/extensions/mattekure/5e_coin_converter/button_g2p.png" />
-			<icon name="button_g2e" file="graphics/extensions/mattekure/5e_coin_converter/button_g2e.png" />
-			<icon name="button_g2s" file="graphics/extensions/mattekure/5e_coin_converter/button_g2s.png" />
-			<icon name="button_g2c" file="graphics/extensions/mattekure/5e_coin_converter/button_g2c.png" />
-			<icon name="button_e2p" file="graphics/extensions/mattekure/5e_coin_converter/button_e2p.png" />
-			<icon name="button_e2g" file="graphics/extensions/mattekure/5e_coin_converter/button_e2g.png" />
-			<icon name="button_e2s" file="graphics/extensions/mattekure/5e_coin_converter/button_e2s.png" />
-			<icon name="button_e2c" file="graphics/extensions/mattekure/5e_coin_converter/button_e2c.png" />
-			<icon name="button_s2p" file="graphics/extensions/mattekure/5e_coin_converter/button_s2p.png" />
-			<icon name="button_s2g" file="graphics/extensions/mattekure/5e_coin_converter/button_s2g.png" />
-			<icon name="button_s2e" file="graphics/extensions/mattekure/5e_coin_converter/button_s2e.png" />
-			<icon name="button_s2c" file="graphics/extensions/mattekure/5e_coin_converter/button_s2c.png" />
-			<icon name="button_c2p" file="graphics/extensions/mattekure/5e_coin_converter/button_c2p.png" />
-			<icon name="button_c2g" file="graphics/extensions/mattekure/5e_coin_converter/button_c2g.png" />
-			<icon name="button_c2e" file="graphics/extensions/mattekure/5e_coin_converter/button_c2e.png" />
-			<icon name="button_c2s" file="graphics/extensions/mattekure/5e_coin_converter/button_c2s.png" />
+	<!--Buttons-->
+	<icon name="button_p2g" file="graphics/extensions/mattekure/5e_coin_converter/button_p2g.png" />
+	<icon name="button_p2e" file="graphics/extensions/mattekure/5e_coin_converter/button_p2e.png" />
+	<icon name="button_p2s" file="graphics/extensions/mattekure/5e_coin_converter/button_p2s.png" />
+	<icon name="button_p2c" file="graphics/extensions/mattekure/5e_coin_converter/button_p2c.png" />
+	<icon name="button_g2p" file="graphics/extensions/mattekure/5e_coin_converter/button_g2p.png" />
+	<icon name="button_g2e" file="graphics/extensions/mattekure/5e_coin_converter/button_g2e.png" />
+	<icon name="button_g2s" file="graphics/extensions/mattekure/5e_coin_converter/button_g2s.png" />
+	<icon name="button_g2c" file="graphics/extensions/mattekure/5e_coin_converter/button_g2c.png" />
+	<icon name="button_e2p" file="graphics/extensions/mattekure/5e_coin_converter/button_e2p.png" />
+	<icon name="button_e2g" file="graphics/extensions/mattekure/5e_coin_converter/button_e2g.png" />
+	<icon name="button_e2s" file="graphics/extensions/mattekure/5e_coin_converter/button_e2s.png" />
+	<icon name="button_e2c" file="graphics/extensions/mattekure/5e_coin_converter/button_e2c.png" />
+	<icon name="button_s2p" file="graphics/extensions/mattekure/5e_coin_converter/button_s2p.png" />
+	<icon name="button_s2g" file="graphics/extensions/mattekure/5e_coin_converter/button_s2g.png" />
+	<icon name="button_s2e" file="graphics/extensions/mattekure/5e_coin_converter/button_s2e.png" />
+	<icon name="button_s2c" file="graphics/extensions/mattekure/5e_coin_converter/button_s2c.png" />
+	<icon name="button_c2p" file="graphics/extensions/mattekure/5e_coin_converter/button_c2p.png" />
+	<icon name="button_c2g" file="graphics/extensions/mattekure/5e_coin_converter/button_c2g.png" />
+	<icon name="button_c2e" file="graphics/extensions/mattekure/5e_coin_converter/button_c2e.png" />
+	<icon name="button_c2s" file="graphics/extensions/mattekure/5e_coin_converter/button_c2s.png" />
 	<!--Ext: Safety Toolkit-->
- 		<!--Buttons-->
-			<icon name="safety_toolkit" file="graphics/extensions/mattekure/safety_toolkit/safetyToolkit.png" />
-			<icon name="safety_toolkit_down" file="graphics/extensions/mattekure/safety_toolkit/safetyToolkit_down.png" />
-			<icon name="triggers" file="graphics/extensions/mattekure/safety_toolkit/triggers.png" />
-			<icon name="triggers_down" file="graphics/extensions/mattekure/safety_toolkit/triggers_down.png" />
-			<icon name="card_x" file="graphics/extensions/mattekure/safety_toolkit/Card_X.png" />
-			<icon name="card_n" file="graphics/extensions/mattekure/safety_toolkit/Card_N.png" />
-			<icon name="card_o" file="graphics/extensions/mattekure/safety_toolkit/Card_O.png" />
-		<!--Frame-->
-			<framedef name="safetybox">
-				<bitmap file="graphics/pngs/utilitybox.png" />
-				<offset>22,22,22,22</offset>
-				<insideoffset>0,0,10,10</insideoffset>
-			</framedef>
+	<!--Buttons-->
+	<icon name="safety_toolkit" file="graphics/extensions/mattekure/safety_toolkit/safetyToolkit.png" />
+	<icon name="safety_toolkit_down" file="graphics/extensions/mattekure/safety_toolkit/safetyToolkit_down.png" />
+	<icon name="triggers" file="graphics/extensions/mattekure/safety_toolkit/triggers.png" />
+	<icon name="triggers_down" file="graphics/extensions/mattekure/safety_toolkit/triggers_down.png" />
+	<icon name="card_x" file="graphics/extensions/mattekure/safety_toolkit/Card_X.png" />
+	<icon name="card_n" file="graphics/extensions/mattekure/safety_toolkit/Card_N.png" />
+	<icon name="card_o" file="graphics/extensions/mattekure/safety_toolkit/Card_O.png" />
+	<!--Frame-->
+	<framedef name="safetybox">
+		<bitmap file="graphics/pngs/utilitybox.png" />
+		<offset>22,22,22,22</offset>
+		<insideoffset>0,0,10,10</insideoffset>
+	</framedef>
 	<!--Ext: Toggle Lights-->
-			<icon name="icon_togEffLights" file="graphics/extensions/mattekure/toggle_lights/torch.png" />
+	<icon name="icon_togEffLights" file="graphics/extensions/mattekure/toggle_lights/torch.png" />
 	<!--Ext: Easy Lights-->
-			<icon name="icon_easyLights_generic" file="graphics/extensions/mattekure/easy_lights/light_gray.png" />
-			<icon name="icon_easyLights_campfire" file="graphics/extensions/mattekure/easy_lights/campfire_gray.png" />
-			<icon name="icon_easyLights_candle" file="graphics/extensions/mattekure/easy_lights/candlebig_gray.png" />
-			<icon name="icon_easyLights_fire" file="graphics/extensions/mattekure/easy_lights/fire_gray.png" />
-			<icon name="icon_easyLights_flame" file="graphics/extensions/mattekure/easy_lights/flame_gray.png" />
-			<icon name="icon_easyLights_lamp" file="graphics/extensions/mattekure/easy_lights/lamp_gray.png" />
-			<icon name="icon_easyLights_lantern" file="graphics/extensions/mattekure/easy_lights/lantern_gray.png" />
-			<icon name="icon_easyLights_spellDark" file="graphics/extensions/mattekure/easy_lights/spelldark_gray.png" />
-			<icon name="icon_easyLights_spellLight" file="graphics/extensions/mattekure/easy_lights/spelllight_gray.png" />
-			<icon name="icon_easyLights_torch" file="graphics/extensions/mattekure/easy_lights/torch_gray.png" />
+	<icon name="icon_easyLights_generic" file="graphics/extensions/mattekure/easy_lights/light_gray.png" />
+	<icon name="icon_easyLights_campfire" file="graphics/extensions/mattekure/easy_lights/campfire_gray.png" />
+	<icon name="icon_easyLights_candle" file="graphics/extensions/mattekure/easy_lights/candlebig_gray.png" />
+	<icon name="icon_easyLights_fire" file="graphics/extensions/mattekure/easy_lights/fire_gray.png" />
+	<icon name="icon_easyLights_flame" file="graphics/extensions/mattekure/easy_lights/flame_gray.png" />
+	<icon name="icon_easyLights_lamp" file="graphics/extensions/mattekure/easy_lights/lamp_gray.png" />
+	<icon name="icon_easyLights_lantern" file="graphics/extensions/mattekure/easy_lights/lantern_gray.png" />
+	<icon name="icon_easyLights_spellDark" file="graphics/extensions/mattekure/easy_lights/spelldark_gray.png" />
+	<icon name="icon_easyLights_spellLight" file="graphics/extensions/mattekure/easy_lights/spelllight_gray.png" />
+	<icon name="icon_easyLights_torch" file="graphics/extensions/mattekure/easy_lights/torch_gray.png" />
 	<!--Ext: Fantasy Grounds Unity Weather Generator-->
-			<icon name="tab_weather" file="graphics/extensions/mattekure/weather_generator/tab_weather.png" />
+	<icon name="tab_weather" file="graphics/extensions/mattekure/weather_generator/tab_weather.png" />
 	<!--Ext: Linker-->
-			<icon name="linker_button_icon_down" file="graphics/extensions/mattekure/linker/linker_button_down.png" />
-    	<icon name="linker_button_icon_up" file="graphics/extensions/mattekure/linker/linker_button_up.png" />
+	<icon name="linker_button_icon_down" file="graphics/extensions/mattekure/linker/linker_button_down.png" />
+	<icon name="linker_button_icon_up" file="graphics/extensions/mattekure/linker/linker_button_up.png" />
 	<!--Ext: Who Speaks?-->
-			<icon name="icon_bubble" file="graphics/extensions/mattekure/who_speaks/icon-bubble.png" />
-			<icon name="icon-bubble-white" file="graphics/extensions/mattekure/who_speaks/icon-bubble-white.png" />
-			<icon name="Mattekure_Logo" file="graphics/extensions/mattekure/Mattekure_Logo.png" />
+	<icon name="icon_bubble" file="graphics/extensions/mattekure/who_speaks/icon-bubble.png" />
+	<icon name="icon-bubble-white" file="graphics/extensions/mattekure/who_speaks/icon-bubble-white.png" />
+	<icon name="Mattekure_Logo" file="graphics/extensions/mattekure/Mattekure_Logo.png" />
 	<!--Ext: CSV Table Importer-->
-			 <icon name="csv_button" file="graphics/extensions/mattekure/csv_table_importer/csv_button.png" />
+	<icon name="csv_button" file="graphics/extensions/mattekure/csv_table_importer/csv_button.png" />
 
-<!--Author: Celestian-->
+	<!--Author: Celestian-->
 	<!--Ext: Audio Overseer-->
- 		<!--Buttons-->
-				<icon name="link_audio" file="graphics/extensions/celestian/audio_overseer/link_audio.png" />
-  			<icon name="link_audio_down" file="graphics/extensions/celestian/audio_overseer/link_audio_down.png" />
-  			<!--<icon name="footer_blank" file="graphics/extensions/celestian/audio_overseer/footer_blank.png" />-->
+	<!--Buttons-->
+	<icon name="link_audio" file="graphics/extensions/celestian/audio_overseer/link_audio.png" />
+	<icon name="link_audio_down" file="graphics/extensions/celestian/audio_overseer/link_audio_down.png" />
+	<!--<icon name="footer_blank" file="graphics/extensions/celestian/audio_overseer/footer_blank.png" />-->
 	<!--Ext: Ready Check-->
- 		<!--Icons-->
-			   	<icon name="chat_success" file="graphics/extensions/celestian/ready_check/check_success.png" />
-    			<icon name="chat_fail" file="graphics/extensions/celestian/ready_check/check_fail.png" />
+	<!--Icons-->
+	<icon name="chat_success" file="graphics/extensions/celestian/ready_check/check_success.png" />
+	<icon name="chat_fail" file="graphics/extensions/celestian/ready_check/check_fail.png" />
 	<!--Ext: Advanced Effects-->
-					<!--Icons-->
-					<icon name="celestian" file="graphics/extensions/celestian/celestian.png" />
+	<!--Icons-->
+	<icon name="celestian" file="graphics/extensions/celestian/celestian.png" />
 
-<!--Author: Stv-->
+	<!--Author: Stv-->
 	<!--Ext: 5E Legendary Assistant-->
- 		<!--Buttons-->
-				<icon name="button_legendary" file="graphics/extensions/stv/legendary_assistant/legendary.png" />
-				<icon name="button_legendary_down" file="graphics/extensions/stv/legendary_assistant/legendary_down.png" />
-				<icon name="legendary_button_effects" file ="graphics/extensions/stv/legendary_assistant/legendary_button_effects.png" />
-				<icon name="legendary_button_effects_down" file ="graphics/extensions/stv/legendary_assistant/legendary_button_effects_down.png" />
-				<icon name="legendary_search" file ="graphics/extensions/stv/legendary_assistant/ct_search.png" />
-				<icon name="legendary_search_down" file ="graphics/extensions/stv/legendary_assistant/ct_search_down.png" />
-				<icon name="stv" file="graphics/extensions/stv/legendary_assistant/stv.png" />
-				<icon name="taskbar_legendary" file="graphics/extensions/stv/legendary_assistant/legendary_taskbar.png" />
-		<!--Frames-->
-				<framedef name="ctentrybox_legendary">
-					<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary.png" />
-					<offset>37,16,14,17</offset>
-				</framedef>
-				<framedef name="ctentrybox_legendary_foe">
-					<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary_foe.png" />
-					<offset>37,16,14,17</offset>
-				</framedef>
-				<framedef name="ctentrybox_legendary_friend">
-					<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary_friend.png" />
-					<offset>37,16,14,17</offset>
-				</framedef>
-				<framedef name="ctentrybox_legendary_neutral">
-					<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary_neutral.png" />
-					<offset>37,16,14,17</offset>
-				</framedef>
-				<framedef name="altctentrybox_legendary">
-					<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary.png" />
-					<offset>87,16,14,17</offset>
-				</framedef>
-				<framedef name="altctentrybox_legendary_foe">
-					<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary_foe.png" />
-					<offset>87,16,14,17</offset>
-				</framedef>
-				<framedef name="altctentrybox_legendary_friend">
-					<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary_friend.png" />
-					<offset>87,16,14,17</offset>
-				</framedef>
-				<framedef name="altctentrybox_legendary_neutral">
-					<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary_neutral.png" />
-					<offset>87,16,14,17</offset>
-				</framedef>
+	<!--Buttons-->
+	<icon name="button_legendary" file="graphics/extensions/stv/legendary_assistant/legendary.png" />
+	<icon name="button_legendary_down" file="graphics/extensions/stv/legendary_assistant/legendary_down.png" />
+	<icon name="legendary_button_effects" file="graphics/extensions/stv/legendary_assistant/legendary_button_effects.png" />
+	<icon name="legendary_button_effects_down" file="graphics/extensions/stv/legendary_assistant/legendary_button_effects_down.png" />
+	<icon name="legendary_search" file="graphics/extensions/stv/legendary_assistant/ct_search.png" />
+	<icon name="legendary_search_down" file="graphics/extensions/stv/legendary_assistant/ct_search_down.png" />
+	<icon name="stv" file="graphics/extensions/stv/legendary_assistant/stv.png" />
+	<icon name="taskbar_legendary" file="graphics/extensions/stv/legendary_assistant/legendary_taskbar.png" />
+	<!--Frames-->
+	<framedef name="ctentrybox_legendary">
+		<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary.png" />
+		<offset>37,16,14,17</offset>
+	</framedef>
+	<framedef name="ctentrybox_legendary_foe">
+		<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary_foe.png" />
+		<offset>37,16,14,17</offset>
+	</framedef>
+	<framedef name="ctentrybox_legendary_friend">
+		<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary_friend.png" />
+		<offset>37,16,14,17</offset>
+	</framedef>
+	<framedef name="ctentrybox_legendary_neutral">
+		<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary_neutral.png" />
+		<offset>37,16,14,17</offset>
+	</framedef>
+	<framedef name="altctentrybox_legendary">
+		<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary.png" />
+		<offset>87,16,14,17</offset>
+	</framedef>
+	<framedef name="altctentrybox_legendary_foe">
+		<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary_foe.png" />
+		<offset>87,16,14,17</offset>
+	</framedef>
+	<framedef name="altctentrybox_legendary_friend">
+		<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary_friend.png" />
+		<offset>87,16,14,17</offset>
+	</framedef>
+	<framedef name="altctentrybox_legendary_neutral">
+		<bitmap file="graphics/extensions/stv/legendary_assistant/ctentrybox_legendary_neutral.png" />
+		<offset>87,16,14,17</offset>
+	</framedef>
 
-<!--Author: superteddy57-->
+	<!--Author: superteddy57-->
 	<!--Ext: Theater of Mind-->
- 		<!--Frames-->
-		 <framedef name="imagepaneltom">
+	<!--Frames-->
+	<framedef name="imagepaneltom">
 		<bitmap file="graphics/extensions/superteddy/tom/imagepaneltom.png" />
 		<offset>16,16,16,16</offset>
-		</framedef>
-		<windowclass name="theaterofmindpanelwindow" merge="join" >
-			<frame>imagepaneltom</frame>
-			<sheetdata>
-                <wallpapercontrol name="image" />
-			</sheetdata>
-		</windowclass>
+	</framedef>
+	<windowclass name="theaterofmindpanelwindow" merge="join">
+		<frame>imagepaneltom</frame>
+		<sheetdata>
+			<wallpapercontrol name="image" />
+		</sheetdata>
+	</windowclass>
 
-			<framedef name="theaterofmind_base">
-				<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_base.png"/>
-				<offset>5,5,5,5</offset>
-			</framedef>
+	<framedef name="theaterofmind_base">
+		<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_base.png" />
+		<offset>5,5,5,5</offset>
+	</framedef>
 
-			<framedef name="theaterofmind_allied">
-				<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_allied.png"/>
-				<offset>5,5,5,5</offset>
-			</framedef>
+	<framedef name="theaterofmind_allied">
+		<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_allied.png" />
+		<offset>5,5,5,5</offset>
+	</framedef>
 
-			<framedef name="theaterofmind_foe">
-				<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_foe.png"/>
-				<offset>5,5,5,5</offset>
-			</framedef>
-		<!--Icons-->
-			<icon name="theaterofmind_unseen" file="graphics/extensions/superteddy/tom/Unseen_icon24x24.png" />
-			<icon name="theaterofmind_active" file="graphics/extensions/superteddy/tom/TotM_turn.png" />
-			<icon name="button_tracker" file="graphics/extensions/superteddy/tom/button_tracker.png" />
-			<icon name="button_tracker_down" file="graphics/extensions/superteddy/tom/button_tracker_down.png" />
+	<framedef name="theaterofmind_foe">
+		<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_foe.png" />
+		<offset>5,5,5,5</offset>
+	</framedef>
+	<!--Icons-->
+	<icon name="theaterofmind_unseen" file="graphics/extensions/superteddy/tom/Unseen_icon24x24.png" />
+	<icon name="theaterofmind_active" file="graphics/extensions/superteddy/tom/TotM_turn.png" />
+	<icon name="button_tracker" file="graphics/extensions/superteddy/tom/button_tracker.png" />
+	<icon name="button_tracker_down" file="graphics/extensions/superteddy/tom/button_tracker_down.png" />
 
-		<windowclass name="ct_theaterofmind_combat" merge="join">
-			<sheetdata>
-				<close>
+	<windowclass name="ct_theaterofmind_combat" merge="join">
+		<sheetdata>
+			<close>
 				<anchored>
 					<top offset="-20" />
 					<right offset="-8" />
 				</anchored>
-				</close>
-			</sheetdata>
-		</windowclass>
+			</close>
+		</sheetdata>
+	</windowclass>
 
-<!--Author: Scried Raven-->
+	<!--Author: Scried Raven-->
 	<!--Ext: Floating Tabs-->
-		<!--Icons-->
-			<icon name="button_traits2" file="graphics/extensions/scried_raven/floating_tabs/button_traits2.png" />
-			<icon name="button_traits_down" file="graphics/extensions/scried_raven/floating_tabs/button_traits_down.png" />
-			<icon name="button_skills2" file="graphics/extensions/scried_raven/floating_tabs/button_skills2.png" />
-			<icon name="button_skills_down" file="graphics/extensions/scried_raven/floating_tabs/button_skills_down.png" />
-			<icon name="button_actions2" file="graphics/extensions/scried_raven/floating_tabs/button_actions2.png" />
-			<icon name="button_actions_down" file="graphics/extensions/scried_raven/floating_tabs/button_actions_down.png" />
-			<icon name="button_inventory2" file="graphics/extensions/scried_raven/floating_tabs/button_inventory2.png" />
-			<icon name="button_inventory_down" file="graphics/extensions/scried_raven/floating_tabs/button_inventory_down.png" />
+	<!--Icons-->
+	<icon name="button_traits2" file="graphics/extensions/scried_raven/floating_tabs/button_traits2.png" />
+	<icon name="button_traits_down" file="graphics/extensions/scried_raven/floating_tabs/button_traits_down.png" />
+	<icon name="button_skills2" file="graphics/extensions/scried_raven/floating_tabs/button_skills2.png" />
+	<icon name="button_skills_down" file="graphics/extensions/scried_raven/floating_tabs/button_skills_down.png" />
+	<icon name="button_actions2" file="graphics/extensions/scried_raven/floating_tabs/button_actions2.png" />
+	<icon name="button_actions_down" file="graphics/extensions/scried_raven/floating_tabs/button_actions_down.png" />
+	<icon name="button_inventory2" file="graphics/extensions/scried_raven/floating_tabs/button_inventory2.png" />
+	<icon name="button_inventory_down" file="graphics/extensions/scried_raven/floating_tabs/button_inventory_down.png" />
 
-<!--Author: Bayne-->
+	<!--Author: Bayne-->
 	<!--Bayne's Emporium-->
-		<!--Icons-->
-  <icon name="mimic" file="graphics/extensions/bayne/baynes_emporium/mimic1.png" />
-    <icon name="buttondwnnum" file="graphics/extensions/bayne/baynes_emporium/buttondown.png" />
-    <icon name="buttonupnum" file="graphics/extensions/bayne/baynes_emporium/button_ctnextactorup.png" />
-    <icon name="cleartoken" file="graphics/extensions/bayne/baynes_emporium/button_ctnextround.png" />
-    <framedef name="SKledger">
-      <bitmap file="graphics/extensions/bayne/baynes_emporium/Open safety box.png" />
-      <offset>10,10,10,10</offset>
-    </framedef>
-    <framedef name="SKnotes">
-      <bitmap file="graphics/extensions/bayne/baynes_emporium/notepad.png" />
-      <offset>2,2,2,2</offset>
-    </framedef>
-		<!--Fonts-->
-		<windowclass name="shops" merge="join">
-			<sheetdata>
-				<stringfield name="name">
-					<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
-				</stringfield>
-			</sheetdata>
-		</windowclass>
+	<!--Icons-->
+	<icon name="mimic" file="graphics/extensions/bayne/baynes_emporium/mimic1.png" />
+	<icon name="buttondwnnum" file="graphics/extensions/bayne/baynes_emporium/buttondown.png" />
+	<icon name="buttonupnum" file="graphics/extensions/bayne/baynes_emporium/button_ctnextactorup.png" />
+	<icon name="cleartoken" file="graphics/extensions/bayne/baynes_emporium/button_ctnextround.png" />
+	<framedef name="SKledger">
+		<bitmap file="graphics/extensions/bayne/baynes_emporium/Open safety box.png" />
+		<offset>10,10,10,10</offset>
+	</framedef>
+	<framedef name="SKnotes">
+		<bitmap file="graphics/extensions/bayne/baynes_emporium/notepad.png" />
+		<offset>2,2,2,2</offset>
+	</framedef>
+	<!--Fonts-->
+	<windowclass name="shops" merge="join">
+		<sheetdata>
+			<stringfield name="name">
+				<color>EBDDBA</color> <!-- Replaceable Color: Primary Foreground -->
+			</stringfield>
+		</sheetdata>
+	</windowclass>
 
-<!--Author: Bayne-->
+	<!--Author: Bayne-->
 	<!--Bayne's Emporium-->
-		<!--Icons-->
-		<icon name="zlogo" file="graphics/extensions/zuilin/zlogo.png" />
+	<!--Icons-->
+	<icon name="zlogo" file="graphics/extensions/zuilin/zlogo.png" />
 </root>
