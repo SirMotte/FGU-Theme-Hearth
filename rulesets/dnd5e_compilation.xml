@@ -24,6 +24,17 @@
 		</script>
 	</windowclass>
 
+	<windowclass name="npc_combat" merge="join">
+		<sheetdata>
+			<stringcontrol name="npc_importantdeath_label">
+				<anchored to="actext" position="right" offset="-85,0" width="70" />
+				<font>sheetlabelminideathindicator</font>
+				<nodrag />
+				<static textres="str_importantdeath_npc" />
+			</stringcontrol>
+		</sheetdata>
+	</windowclass>
+
 	<!-- Source: campaign/record_char_main.xml
 	<windowclass name="charsheet_classes" merge="join">
 		<sheetdata>
