@@ -377,16 +377,6 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
-	<windowclass name="npc_combat" merge="join">
-		<sheetdata>
-			<stringcontrol name="npc_importantdeath_label">
-				<anchored to="actext" position="right" offset="-85,0" width="70" />
-				<font>sheetlabelminideathindicator</font>
-				<nodrag />
-				<static textres="str_importantdeath_npc" />
-			</stringcontrol>
-		</sheetdata>
-	</windowclass>
 	<!--Define the icons for the blood splat images
 					<icon name="blood_01" file="graphics/extensions/silent_ruin/death_indicator/blood_01.png" />
 					<icon name="blood_02" file="graphics/extensions/silent_ruin/death_indicator/blood_02.png" />
