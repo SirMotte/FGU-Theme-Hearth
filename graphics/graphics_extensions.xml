@@ -15,6 +15,11 @@
 
 	<icon name="RR_RollIndicator" file="graphics/extensions/mccartysr/requested_rolls/rr_roll_indicator.png" />
 	<icon name="RR_SelectionIndicator" file="graphics/extensions/mccartysr/requested_rolls/rr_selection_indicator.png" />
+	
+	<framedef name="stagedRollFrame">
+		<bitmap file="graphics/pngs/ctaentrybox_friend_active.png" />
+		<offset>6,4,9,7</offset>
+	</framedef>
 
 	<windowclass name="rr_console" merge="join">
 		<sheetdata>
