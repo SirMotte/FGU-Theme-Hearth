@@ -10,7 +10,7 @@ Onward to a new year that hopefully is a little less maddening than the last few
 
 [COLOR="#FF0000"][B]Added Ruleset Support:[/B][/COLOR]
     [LIST]
-        [*]Support Update for Requested Rolls by Mccartysr that adds a frame tint to the "Staged Rolls" functionality.
+        [*]Support Update for Requested Rolls by Mccartysr that adds a frame tint to the "Staged Rolls" functionality. Brought to you by the man himself.
     [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
