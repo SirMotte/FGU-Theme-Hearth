@@ -1,24 +1,16 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.15 - Polite Extremist[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.16 - Generous Dragon[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
-xxx
+Happy New Year everyone! Minor Extension update, not sure if it warrants a version change tbh, but here ya go.
+I removed the Beta Prefix, because honestly, we're long out of beta by now and the only reason that it was still used by me, were my plans to drop it with 3.0. As I again don't have much time on my hands to finish stuff for 3.0, most importantly the theming helper, I decided to remove it now.
+
+Onward to a new year that hopefully is a little less maddening than the last few years proved to be.
 
 [COLOR="#FF0000"][B]Added Ruleset Support:[/B][/COLOR]
     [LIST]
-        [*]SFRPG (Starfinder) - Basic Support - (brought to you by Evolivolution, thanks!)
-        [*]Muntant Crawl Classic and Dungeon Crawl Classis should no longer throw an error when opening up an NPC sheet. (Thanks to Zarestia for providing the info on how to fix this)
-    [/LIST]
-
-[COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
-    [LIST]
-        [*]none
-    [/LIST]
-
-[COLOR="#FF0000"][B]Changelog Extension Elements:[/B][/COLOR]
-    [LIST]
-        [*]none
+        [*]Support Update for Requested Rolls by Mccartysr that adds a frame tint to the "Staged Rolls" functionality.
     [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
