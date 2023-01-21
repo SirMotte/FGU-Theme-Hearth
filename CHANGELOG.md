@@ -1,16 +1,14 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.16 - Generous Dragon[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.17 - Floating Anvil[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
-Happy New Year everyone! Minor Extension update, not sure if it warrants a version change tbh, but here ya go.
-I removed the Beta Prefix, because honestly, we're long out of beta by now and the only reason that it was still used by me, were my plans to drop it with 3.0. As I again don't have much time on my hands to finish stuff for 3.0, most importantly the theming helper, I decided to remove it now.
+Small update that adds in support for xxxx extension and reintroduces window headers. I came to the conclusion that they were missing after all.
+Work on the Themer suite is progressing slowly but steadily - Soon you will be able to make your own customized version of hearth with realtive ease.
 
-Onward to a new year that hopefully is a little less maddening than the last few years proved to be.
-
-[COLOR="#FF0000"][B]Added Ruleset Support:[/B][/COLOR]
+[COLOR="#FF0000"][B]Added Extension Support[/B][/COLOR]
     [LIST]
-        [*]Support Update for Requested Rolls by Mccartysr that adds a frame tint to the "Staged Rolls" functionality. Brought to you by the man himself.
+        [*]xxx by unknown Author (if you developed this extension, please contact me so I can properly credit you)
     [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
