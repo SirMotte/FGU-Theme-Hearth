@@ -4,7 +4,7 @@ This is a Theme Extension for the Fantasy Grounds Virtual Tabletop Platform.
 
 If you come across extensions that need to be adjusted to fit this theme, please contact me :).
 
-![Showcase](https://forge.fantasygrounds.com/images/0c95da41dc4631463ceb64c87e76f84a.png)
+![Showcase](https://user-images.githubusercontent.com/82598692/214700861-9e55f3c0-1541-41c6-b1fc-d6bd61e0ec5f.png)
 
 Now with [Customization Bonus Extension](https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md)
 In order to customize your GM Icon, download my GM Icon Replacer Extension and follow the instructions in the readme.
