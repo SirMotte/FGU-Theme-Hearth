@@ -3,8 +3,8 @@
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
-Small update that adds in support for xxxx extension and reintroduces window headers. I came to the conclusion that they were missing after all.
-Work on the Themer suite is progressing slowly but steadily - Soon you will be able to make your own customized version of hearth with realtive ease.
+Minor but impactful visual adjustments to frames. I changed the border style and added headers back in.
+I felt like windows were too floaty and needed more of a visual anchor., please let me know what you think of the change.
 
 [COLOR="#FF0000"][B]Added Extension Support[/B][/COLOR]
     [LIST]

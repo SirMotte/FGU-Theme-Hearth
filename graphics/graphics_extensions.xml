@@ -3,11 +3,11 @@
 <root>
 	<!-- Unknown Author-->
 	<!-- Spell Save Font-->
-	<!-- Icons -->
+	<!-- Icons 
 	<icon name="cast_save_roll_success" file="graphics/icons/cast_save_roll_success.png" />
 	<icon name="cast_save_roll_failure" file="graphics/icons/cast_save_roll_failure.png" />
 	<icon name="cast_save_roll_auto_success" file="graphics/icons/cast_save_roll_auto_success.png" />
-	<icon name="cast_save_roll_auto_failure" file="graphics/icons/cast_save_roll_auto_failure.png" />
+	<icon name="cast_save_roll_auto_failure" file="graphics/icons/cast_save_roll_auto_failure.png" />-->
 
 
 	<!--Author: Mccartysr-->
