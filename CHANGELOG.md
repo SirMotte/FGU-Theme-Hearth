@@ -1,4 +1,4 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.17 - Floating Witch[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.17 - Buoyant Witch[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
