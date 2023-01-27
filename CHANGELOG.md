@@ -1,11 +1,17 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.17 - Buoyant Witch[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.18 - xxx[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
-Minor but impactful visual adjustments to window frames. I changed the border style and added headers back in and introduced a new, desaturated red color tone that is easy on the eyes and doen't pop out like previous iterations of frame headers did.
-I felt like windows were too floaty and needed more of a visual anchor. Please let me know what you think of the change.
+Test ready update that fixes some minor issues that came up and adjusts details here and there.
 
+[COLOR="#FF0000"][B]Theme Changes:[/B][/COLOR]
+- Decreased Window Header height so fonts look more centralized.
+- Removed Window Header from Chat as it doesn't need one in my opinion.
+- Removed additional lines from sidebar buttons. Got a little confusing with all the lines near each other.
+- Adjusted new token height implementation font colors.
+- Made AC Icons more prominent again.
+- fixed "usepower" icon on actions tab.
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
 
