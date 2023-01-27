@@ -1,25 +1,15 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to Beta 2.9.15 - Polite Extremist[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.18 - xxx[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
-xxx
+Test ready update that fixes some minor issues that came up and adjusts details here and there.
 
-[COLOR="#FF0000"][B]Added Ruleset Support:[/B][/COLOR]
-    [LIST]
-        [*]SFRPG (Starfinder) - Basic Support - (brought to you by Evolivolution, thanks!)
-        [*]Muntant Crawl Classic and Dungeon Crawl Classis should no longer throw an error when opening up an NPC sheet. (Thanks to Zarestia for providing the info on how to fix this)
-    [/LIST]
-
-[COLOR="#FF0000"][B]Changelog Theme Elements:[/B][/COLOR]
-    [LIST]
-        [*]none
-    [/LIST]
-
-[COLOR="#FF0000"][B]Changelog Extension Elements:[/B][/COLOR]
-    [LIST]
-        [*]none
-    [/LIST]
+[COLOR="#FF0000"][B]Theme Changes:[/B][/COLOR]
+- Decreased Window Header height so fonts look more centralized.
+- Removed Window Header from Chat as it doesn't need one in my opinion.
+- Removed additional lines from sidebar buttons. Got a little confusing with all the lines near each other.
+- Adjusted new token height implementation font colors.
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
 

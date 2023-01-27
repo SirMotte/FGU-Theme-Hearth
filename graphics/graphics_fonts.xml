@@ -313,6 +313,13 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
+	<!-- Utility Windows -->
+	<font name="utility_label">
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
+		<color value="#DDDDDD" />
+	</font>
+
+
 	<!-- Characters -->
 	<font name="sheetlabelinline">
 		<fgffile name="graphics/fonts/regular-8.fgf" />
@@ -715,6 +722,5 @@
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
-
 
 </root>
