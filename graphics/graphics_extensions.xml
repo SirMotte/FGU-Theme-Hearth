@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
+	<!-- Unknown Author-->
+	<!-- Spell Save Font-->
+	<!-- Icons 
+	<icon name="cast_save_roll_success" file="graphics/icons/cast_save_roll_success.png" />
+	<icon name="cast_save_roll_failure" file="graphics/icons/cast_save_roll_failure.png" />
+	<icon name="cast_save_roll_auto_success" file="graphics/icons/cast_save_roll_auto_success.png" />
+	<icon name="cast_save_roll_auto_failure" file="graphics/icons/cast_save_roll_auto_failure.png" />-->
+
+
 	<!--Author: Mccartysr-->
 	<!--Ext: Requested Rolls-->
 	<!--Icons-->
@@ -15,7 +24,7 @@
 
 	<icon name="RR_RollIndicator" file="graphics/extensions/mccartysr/requested_rolls/rr_roll_indicator.png" />
 	<icon name="RR_SelectionIndicator" file="graphics/extensions/mccartysr/requested_rolls/rr_selection_indicator.png" />
-	
+
 	<framedef name="stagedRollFrame">
 		<bitmap file="graphics/pngs/ctaentrybox_friend_active.png" />
 		<offset>6,4,9,7</offset>
@@ -382,16 +391,6 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
-	<windowclass name="npc_combat" merge="join">
-		<sheetdata>
-			<stringcontrol name="npc_importantdeath_label">
-				<anchored to="actext" position="right" offset="-85,0" width="70" />
-				<font>sheetlabelminideathindicator</font>
-				<nodrag />
-				<static textres="str_importantdeath_npc" />
-			</stringcontrol>
-		</sheetdata>
-	</windowclass>
 	<!--Define the icons for the blood splat images
 					<icon name="blood_01" file="graphics/extensions/silent_ruin/death_indicator/blood_01.png" />
 					<icon name="blood_02" file="graphics/extensions/silent_ruin/death_indicator/blood_02.png" />
