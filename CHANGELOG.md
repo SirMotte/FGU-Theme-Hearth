@@ -12,6 +12,8 @@ Test ready update that fixes some minor issues that came up and adjusts details 
 - Adjusted new token height implementation font colors.
 - Made AC Icons more prominent again.
 - fixed "usepower" icon on actions tab.
+- darkened sidebar
+-reduced asset folder icon size
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
 
