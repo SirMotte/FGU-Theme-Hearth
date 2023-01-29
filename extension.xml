@@ -2,7 +2,7 @@
 <!--Special Thanks to MeAndUnique and Saagael for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: 2.9.18 - Adjective Noun\rHearth Edition" font="oocfont" icon="footface" />
+	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: 2.9.18 - Cyclops's Eyepatch\rHearth Edition" font="oocfont" icon="footface" />
 
 	<properties>
 		<name>Theme: Hearth</name>

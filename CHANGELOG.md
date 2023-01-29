@@ -1,9 +1,9 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.18 - Adjective Noun Theme[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.18 - Cyclops's Eyepatch[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
-More UI refinement that fixes some long standing issues that bothered me. Thanks to the Grimpress Community who provided the version name, it is truly unique and recognizable :X .
+More UI refinement that fixes some long standing issues that bothered me.
 
 [COLOR="#FF0000"][B]Theme Changes:[/B][/COLOR]
 [*] Decreased Window Header height so fonts look more centralized.
