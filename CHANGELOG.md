@@ -1,19 +1,19 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.18 - xxx[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.18 - Adjective Noun Theme[/B][/SIZE][/COLOR]
 
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
-Test ready update that fixes some minor issues that came up and adjusts details here and there.
+More UI refinement that fixes some long standing issues that bothered me. Thanks to the Grimpress Community who provided the version name, it is truly unique and recognizable :X .
 
 [COLOR="#FF0000"][B]Theme Changes:[/B][/COLOR]
-- Decreased Window Header height so fonts look more centralized.
-- Removed Window Header from Chat as it doesn't need one in my opinion.
-- Removed additional lines from sidebar buttons. Got a little confusing with all the lines near each other.
-- Adjusted new token height implementation font colors.
-- Made AC Icons more prominent again.
-- fixed "usepower" icon on actions tab.
-- darkened sidebar
--reduced asset folder icon size
+[*] Decreased Window Header height so fonts look more centralized.
+[*] Removed Window Header from Chat as it doesn't need one in my opinion.
+[*] Removed additional lines from sidebar buttons. Got a little confusing with all the lines near each other.
+[*] Adjusted new token height implementation font colors.
+[*] Made AC Icons more prominent again.
+[*] Fixed "usepower" icon on actions tab.
+[*] Darkened sidebar
+[*] Reduced asset folder icon size
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
 
