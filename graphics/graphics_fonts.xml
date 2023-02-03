@@ -8,7 +8,6 @@
 	</textsettings>
 	<!-- Sidebar -->
 	<font name="button_sidebar_dockitem">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
@@ -23,18 +22,15 @@
 	</font>
 	<!-- Default fonts - REQUIRED -->
 	<font name="defaultstringcontrol">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="defaultnumbercontrol">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<!-- Distance font - REQUIRED -->
 	<font name="distancelabel">
-		<fgffile name="graphics/fonts/diemod.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
@@ -45,270 +41,226 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="diemod">
-		<fgffile name="graphics/fonts/diemod.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="30" />
 		<color value="#F3D876" />
 	</font>
 	<font name="dieresult">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!-- Drag fonts - REQUIRED -->
 	<font name="draglabel">
-		<fgffile name="graphics/fonts/draglabel.fgf" />
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="14" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!-- Chat fonts - REQUIRED -->
 	<font name="chatfont">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="emotefont">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
 		<color value="#FFC9F4" /> <!-- Replaceable Color: Chat Font 1 -->
 	</font>
 	<font name="narratorfont">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="16" />
 		<color value="#C2D4FF" /> <!-- Replaceable Color: Chat Font 2 -->
 	</font>
 	<font name="systemfont">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Chat Font 3 -->
 	</font>
 	<font name="msgfont">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-BoldItalic.ttf" name="Roboto Bold Italic" size="16" />
 		<color value="#FDB7A2" /> <!-- Replaceable Color: Chat Font 3 -->
 	</font>
 	<font name="oocfont">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#77CE77" /> <!-- Replaceable Color: Chat Font 4 -->
 	</font>
 
 	<!-- Chat fonts -->
 	<font name="chatnpcfont">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#A7BAFF" /> <!-- Replaceable Color: Chat Font 5 -->
 	</font>
 	<font name="chatgmfont">
-		<fgffile name="graphics/fonts/bolditalic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-BoldItalic.ttf" name="Roboto Bold Italic" size="16" />
 		<color value="#F3D876" /> <!-- Replaceable Color: Chat Font 6 -->
 	</font>
 	<font name="whisperfont">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#A4FFFB" /> <!-- Replaceable Color: Chat Font 7 -->
 	</font>
 
 	<!-- Radial menus and character list -->
 	<font name="mini_name">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="mini_name_selected">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<!-- Identity list -->
 	<font name="idactivefont">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="idinactivefont">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<!-- Hot keys -->
 	<font name="hotkey">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 
 	<!-- Modifier stack -->
 	<font name="modcollector">
-		<fgffile name="graphics/fonts/diemod.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="modcollectorlabel">
-		<fgffile name="graphics/fonts/modcollectorlabel.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<!-- Windows -->
 	<font name="windowtitle">
-		<fgffile name="graphics/fonts/bold-11.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="20" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="subwindowtitle">
-		<fgffile name="graphics/fonts/title-regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="subwindowsmalltitle">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="subwindowsmalltitle_disabled">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<!-- Formatted text fields -->
 	<font name="reference-h">
-		<fgffile name="graphics/fonts/bold-14.fgf" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
+		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
+	</font>
+	<font name="reference-h" ruleset="XCore" >
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-r">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="reference-i">
-		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="reference-b">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="reference-bi">
-		<fgffile name="graphics/fonts/bolditalic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-BlackItalic.ttf" name="Roboto Black Italic" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="reference-b-large">
-		<fgffile name="graphics/fonts/bold-11.fgf" />
 		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="18" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!-- Standard text fields -->
 	<font name="sheetlabel">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="sheettext">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!-- Number fields -->
 	<font name="sheetnumber">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!-- Character selection -->
 	<font name="charselecttitle">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="charselectbody">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!-- Options -->
 	<font name="optionset">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="optiontitle">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="optionbody">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!-- Tables -->
 	<font name="tablerange">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="tableheader">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="tabledata">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!--Tabs-->
 	<font name="tabtext_horizontal">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 
 	<!-- Calendar -->
 	<font name="calendarday">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="calendarday-b">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto Regular" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="calendarday-bi">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="calendarbold">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="calendarselecttitle">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="calendarselectbody">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="calendarmessage">
-		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
@@ -316,18 +268,16 @@
 	<!-- Utility Windows -->
 	<font name="utility_label">
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 
 	<!-- Characters -->
 	<font name="sheetlabelinline">
-		<fgffile name="graphics/fonts/regular-8.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="sheetlabelmini">
-		<fgffile name="graphics/fonts/regular-8.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
@@ -335,27 +285,22 @@
 
 	<!-- Reference -->
 	<font name="reference-header">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-section">
-		<fgffile name="graphics/fonts/title-regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-chapter">
-		<fgffile name="graphics/fonts/title-regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#F3D876" /> <!-- Replaceable Color: Chapter Font -->
 	</font>
 	<font name="reference-groupdesc">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-groupsubdesc">
-		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
@@ -386,61 +331,50 @@
 	</font>
 	<!-- Misc -->
 	<font name="list-empty">
-		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="button-white">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="button-white-large">
-		<fgffile name="graphics/fonts/regular-11.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!-- Misc -->
 	<font name="list-empty-ct">
-		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="list-empty-ps">
-		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="sheetlabel_ps">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-subtitle">
-		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="reference-title">
-		<fgffile name="graphics/fonts/bold-14.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<!-- Modifier Stack -->
 	<font name="modcollector">
-		<fgffile name="graphics/fonts/diemod.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="modcollectorlabel">
-		<fgffile name="graphics/fonts/modcollectorlabel.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<!-- Windows -->
 	<font name="windowtitle">
-		<fgffile name="graphics/fonts/title-regular-12.fgf" />
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
@@ -712,14 +646,18 @@
 
 	<!-- Horizontal tab font -->
 	<font name="tabfont">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Medium.ttf" name="Roboto Medium" size="16" />
 		<color value="#FFF0CA" /> <!-- Replacable Color: Primary Foreground -->
 	</font>
 
 	<font name="sheettextfaded">
-		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+	</font>
+
+	<!-- Cypher Stystem -->
+	<font name="char_pool">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="30" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 

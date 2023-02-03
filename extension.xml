@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<!--Special Thanks to MeAndUnique and Saagael for the enormous amount of help with xml and lua stuff <3!-->
+<!--Special Thanks to MeAndUnique, Saagael and Zarestia for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
 	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: 2.9.18 - Cyclops's Eyepatch\rHearth Edition" font="oocfont" icon="footface" />
@@ -40,6 +40,7 @@
 		<includefile source="rulesets/pfrpg_compilation.xml" ruleset="PFRPG" />
 		<includefile source="rulesets/multi_compilation.xml" ruleset="3.5E|PFRPG2|PFRPG" />
 		<includefile source="rulesets/sfrpg_compilation.xml" ruleset="SFRPG" />
+		<includefile source="rulesets/cypher_system.xml" ruleset="Cypher System" />
 
 		<!--Extension Graphics definitions-->
 		<includefile source="graphics/graphics_extensions.xml" />

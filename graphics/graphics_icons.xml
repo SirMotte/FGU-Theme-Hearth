@@ -709,4 +709,27 @@
 	<!-- Chat -->
 	<icon name="chat_success" file="graphics/pngs/check_success.png" />
 	<icon name="chat_fail" file="graphics/pngs/check_fail.png" />
+
+	<!-- Cypher System -->
+	<!-- Buttons -->
+	<icon name="button_bigcheckon" file="graphics/pngs/button_bigcheckon.png" />
+	<icon name="button_bigcheckoff" file="graphics/pngs/button_bigcheckoff.png" />
+
+	<!-- Rolls -->
+	<icon name="roll1" file="graphics/pngs/roll1.png" />
+	<icon name="roll17" file="graphics/pngs/roll17.png" />
+	<icon name="roll18" file="graphics/pngs/roll18.png" />
+	<icon name="roll19" file="graphics/pngs/roll19.png" />
+	<icon name="roll20" file="graphics/pngs/roll20.png" />
+	<icon name="task0" file="graphics/pngs/task0.png" />
+	<icon name="task1" file="graphics/pngs/task1.png" />
+	<icon name="task2" file="graphics/pngs/task2.png" />
+	<icon name="task3" file="graphics/pngs/task3.png" />
+	<icon name="task4" file="graphics/pngs/task4.png" />
+	<icon name="task5" file="graphics/pngs/task5.png" />
+	<icon name="task6" file="graphics/pngs/task6.png" />
+	<icon name="task7" file="graphics/pngs/task7.png" />
+	<icon name="task8" file="graphics/pngs/task8.png" />
+	<icon name="task9" file="graphics/pngs/task9.png" />
+	<icon name="task10" file="graphics/pngs/task10.png" />
 </root>
