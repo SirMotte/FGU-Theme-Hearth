@@ -96,9 +96,6 @@ Here's my [Dungeon Masters Guild Maps Wishlist](https://www.dmsguild.com/wishlis
 Enjoy!
 Sir Motte
 
-Changelog History
-
-
 
 # Hall of Fame
 
