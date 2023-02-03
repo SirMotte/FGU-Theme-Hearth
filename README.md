@@ -11,6 +11,8 @@ In order to customize your GM Icon, download my GM Icon Replacer Extension and f
 
 You can find me on Discord using Sir Motte#1305, the [Grim Press](https://discord.com/invite/zQCJ6H67XN) and [Fantasy Grounds Channel](https://discord.gg/rhvsZj5xgP) or message me here directly. For discussions, help and suggestions either write/report on the [Fantasy Grounds Forums Thread](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-5E-SirMottes-Magnificent-Darkness), or @Message me in the official [Forge Item Support Channel](https://discord.gg/dFx53WDKzb) on Discord.
 
+Foundry VTT User? Check out the [Foundry VTT - Hearth Theme](https://github.com/SirMotte/FoundryVTT-Theme-Hearth) sibling.
+
 ## Supported Rulesets
 - **Dungeons & Dragons 5E - Full**
 - Dungeons & Dragons Classic / AdnD / 2E - Basic
