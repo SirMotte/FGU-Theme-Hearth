@@ -752,10 +752,18 @@
 		<insideoffset>0,0,18,16</insideoffset>
 	</framedef>
 
-	<!--Token-->
-	<framedef name="tokennumber">
+	<!-- Tokens -->
+	<framedef name="token_name">
+		<bitmap file="graphics/pngs/mini_name.png" />
+		<offset>7,7,7,7</offset>
+	</framedef>
+	<framedef name="token_ordinal">
 		<bitmap file="graphics/pngs/tokennumber.png" />
 		<offset>6,6,6,6</offset>
+	</framedef>
+	<framedef name="token_height">
+		<bitmap file="graphics/pngs/mini_name.png" />
+		<offset>7,7,7,7</offset>
 	</framedef>
 
 	<!-- Tooltips -->
