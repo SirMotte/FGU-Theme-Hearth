@@ -32,7 +32,7 @@ I try my best to have no game-breaking UI issues happening, other than that you 
 Work in Progress, so expect oddities to occur.
 
 ## Special Contributors
-By now I must call them Co-Authors! [MeAndUnique]https://github.com/MeAndUnique and [Saagael](https://github.com/Gtaray) have helped me tremendiously with their invaluable help with .xml and .lua code and general workflow. Without them this theme wouldn't be available with this level of polish! 3.
+By now I must call them Co-Authors! [MeAndUnique](https://github.com/MeAndUnique) and [Saagael](https://github.com/Gtaray) have helped me tremendiously with their invaluable help with .xml and .lua code and general workflow. Without them this theme wouldn't be available with this level of polish! 3.
 
 Illustrious Community Egghead [bmos](https://github.com/bmos) has also contributed greatly to the theme and my learning process. Thanks!
 Shoutout to [Zarestia](https://github.com/ZarestiaDev) and all the folks at the unofficial developers guild, you rock!
