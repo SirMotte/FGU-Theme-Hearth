@@ -3,7 +3,12 @@
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
-More UI refinement that fixes some long standing issues that bothered me.
+Added Cypher System support - Fixed some missing Font definitions and icons making this "Basic Support" ready.
+Added XCore System support. Also more UI refinement that fix some long standing issues that bothered me as well as some code cleanup. Support for "Author" and Mad Nomads Downtime Extension will be added at a later point, I'm awaiting their response to be able to fix the UI issues mentioned in this thread.
+
+[COLOR="#FF0000"][B]Added Ruleset Support:[/B][/COLOR]
+[*] Cypher System - Basic
+[*] XCore - Basic
 
 [COLOR="#FF0000"][B]Theme Changes:[/B][/COLOR]
 [*] Decreased Window Header height so fonts look more centralized.
@@ -14,6 +19,9 @@ More UI refinement that fixes some long standing issues that bothered me.
 [*] Fixed "usepower" icon on actions tab.
 [*] Darkened sidebar
 [*] Reduced asset folder icon size
+
+[COLOR="#FF0000"][B]Under the Hood:[/B][/COLOR]
+[*] Font definition clean-up.
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
 

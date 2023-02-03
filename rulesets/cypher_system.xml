@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<windowclass name="charsheet_inventory" merge="join">
+			<sheetdata>
+				<simplenumber name="cypherload" merge="join">
+					<script>
+						function onInit()
+							onValueChanged();
+						end
+
+						function onValueChanged()
+							if getValue() &gt; window.cypherlimit.getValue() then
+								setColor("FF6161");
+								window.cypherload_label.setColor("FF6161");
+							else
+								setColor("DDDDDD");
+								window.cypherload_label.setColor("DDDDDD");
+							end
+						end
+					</script>
+				</simplenumber>
+			</sheetdata>
+		</windowclass>
+</root>
