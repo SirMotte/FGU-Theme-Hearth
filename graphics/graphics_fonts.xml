@@ -35,6 +35,24 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
+	<!-- Token Decorations -->
+	<font name="token_name">
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#FFF0CA" />
+	</font>
+	<font name="token_ordinal">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="token_height">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="token_height_negative">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
+		<color value="#FF6161" />
+	</font>
+
 	<!-- Dice fonts - REQUIRED -->
 	<font name="diceexpr" version="&gt;=4">
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
