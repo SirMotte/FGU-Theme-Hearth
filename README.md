@@ -98,7 +98,17 @@ Sir Motte
 
 
 # Hall of Fame
+- Rugged sea, distant shore, waves and thunder evermore.
+Laughing gods of wet an wind care not for souls on wooden splint.
+Tossed and turned, high and low, yet steady our ship will go, to promised land of bane and boon lead steadfast by Tabarkus tune.
 
+And a god takes notice.
+"Prideful mortal, carry on, a deity's ear has heard your song.
+I choose you to tell my name, spread the word and gain the fame, worthy of your lyrics fervour,
+my heart was moved you may go further!"
+------------------------------------------------------------------------------------------
+
+Thank you Tabarkus, for a launch of ships to my maps collection!
 - Thanks a lot to the two people who donated using the forge donation system. When you do, make sure that Smite Works gets a little cut as well.
 - The creature stared at me while sitting on top of its treasure. Its enormous front teeth glistened wet in the dim light, as did its brown fur. It smirked, the smirk became a smile and suddenly it snipped an object at me from below its feet. My instincts made me flinch, but my arm reached for the object anyway and snatched it out of the air. A beautiful gold coin from a distant country lay in my hand. Intricate and ornate details framed a fair face with long hair and a hat of an unknown fashion. The smile resembled the one shown by the creature. As I looked up again, the creature still sat there, still watching me, still smiling. I bowed. I would do my best to please it again. Thanks to Felix Achberger for donating!
 - The nameless soul led on in silence. A ghoustly figure floating just a few feet in front of me, ragged clothes billowing in an otherworldy breeze. The translucent body shimmered in a faint silverish, blue light. I followed it into a room, that looked to have been a study at some point in the distant past. Crumbling parchment and dried out inkpots, old maps of long lost kingdoms and tomes of forgotten wisdom lay about in a somewhat orderly fashion. "Remarkable!", I thought, as I let my eyes examine the treasures before me. The ghostly figure stopped and turned to me, his fair face seemed to kindly smile as he noticed the exitement in my eyes. His hands began to gesture around the room, pointed at some of his belongings, and then at me. He smiled again. I understood, nodded, bowed deeply and then returned his smile. Certainly not as fair as his, but in kind.
