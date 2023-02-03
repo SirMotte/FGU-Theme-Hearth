@@ -18,6 +18,8 @@ You can find me on Discord using Sir Motte#1305, the [Grim Press](https://discor
 - Dungeons & Dragons 4E - WIP
 - Pathfinder 1E - Basic
 - Pathfinder 2E - Basic
+- XCore - Basic
+- Cypher System - Basic
 - Other Rulesets might work surprisingly well, please test this and possibly report your findings.
 
 **Full**
