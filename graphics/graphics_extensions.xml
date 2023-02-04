@@ -562,6 +562,22 @@
 	<!--Ext: Consumable Items-->
 	<!--Icon-->
 	<icon name="consumableSmall" file="graphics/extensions/mad_nomad/consumable_items/consumableSmall.png" />
+	
+	<!--Ext: Downtime Tracker-->
+	<!--Icons-->
+	<icon name="AddCoins100" file="graphics/extensions/mad_nomad/downtime_tracker/AddCoins100.png" />
+    <icon name="AddFailIcon" file="graphics/extensions/mad_nomad/downtime_tracker/AddFailIcon100.png" />
+    <icon name="AddObjectiveIcon100" file="graphics/extensions/mad_nomad/downtime_tracker/AddObjectiveIcon100.png" />
+    <icon name="AddSuccessIcon" file="graphics/extensions/mad_nomad/downtime_tracker/AddSuccessIcon100.png" />
+    <icon name="AddTimeIcon" file="graphics/extensions/mad_nomad/downtime_tracker/AddTime100.png" />
+    <icon name="coins100x100" file="graphics/extensions/mad_nomad/downtime_tracker/coins100x100.png" />
+    <icon name="FailIcon" file="graphics/extensions/mad_nomad/downtime_tracker/fail100x100.png" />
+    <icon name="hourglass100x100" file="graphics/extensions/mad_nomad/downtime_tracker/hourglass100x100.png" />
+    <icon name="logo_MNMDowntimeTracker" file="graphics/extensions/mad_nomad/downtime_tracker/MNM Logo.png" />
+    <icon name="objective100x100" file="graphics/extensions/mad_nomad/downtime_tracker/objective100x100.png" />
+    <icon name="SuccessIcon" file="graphics/extensions/mad_nomad/downtime_tracker/success100x100.png" />
+    <icon name="tab_downtime" file="graphics/extensions/mad_nomad/downtime_tracker/tab_downtime.png" />
+
 
 	<!--Author: MeAndUnique-->
 	<!--Ext: Colorful Language-->
