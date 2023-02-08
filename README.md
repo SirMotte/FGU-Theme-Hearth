@@ -98,6 +98,7 @@ Sir Motte
 
 
 # Hall of Fame
+
 - Rugged sea, distant shore, waves and thunder evermore.
 Laughing gods of wet an wind care not for souls on wooden splint.
 Tossed and turned, high and low, yet steady our ship will go, to promised land of bane and boon lead steadfast by Tabarkus tune.
@@ -106,7 +107,6 @@ And a god takes notice.
 "Prideful mortal, carry on, a deity's ear has heard your song.
 I choose you to tell my name, spread the word and gain the fame, worthy of your lyrics fervour,
 my heart was moved you may go further!"
-------------------------------------------------------------------------------------------
 
 Thank you Tabarkus, for a launch of ships to my maps collection!
 - Thanks a lot to the two people who donated using the forge donation system. When you do, make sure that Smite Works gets a little cut as well.
@@ -124,5 +124,8 @@ Thank you Tabarkus, for a launch of ships to my maps collection!
 - Hushed voices whisper a glorious name. A supporter that aided the cause! Did you hear it too?
 - The heavens sing of a name, angelic and pure, an euphony to ears and heart. Its wielder brought gifts from the storytellers wares!
 - The scribes bow their heads in awe to, MeAndUnique, Saagael, mattekure, Superteddy57, Styrmir, damned and Trenloe for their help and ingenuity with complex scripture.
-- Wisdom poured by CMYKMatter and Drowbe helps the eye stay focused. 
+- Wisdom poured by CMYKMatter and Drowbe helps the eye stay focused.
+
+### Credits:
+A few icons used are based on the Byte Dance Open Source Icon Library (iconpark.bytedance.com/official), though in most cases heavily altered they provide an invaluable starting base. Check them out if you need them.
 
