@@ -978,6 +978,8 @@
 	<icon name="Mattekure_Logo" file="graphics/extensions/mattekure/Mattekure_Logo.png" />
 	<!--Ext: CSV Table Importer-->
 	<icon name="csv_button" file="graphics/extensions/mattekure/csv_table_importer/csv_button.png" />
+	<!--Ext: Shops-->
+	<icon name="sidebar_icon_recordtype_MKshops" file="graphics/extensions/mattekure/shops/takemymoney.png" />
 
 	<!--Author: Celestian-->
 	<!--Ext: Audio Overseer-->
