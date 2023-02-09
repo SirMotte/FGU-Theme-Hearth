@@ -9,7 +9,16 @@ Extension support update
 [*] Downtime Tracker by Mad Nomad
 
 [COLOR="#FF0000"][B]Theme Changes:[/B][/COLOR]
-[*] xxx
+[*] Changed CT Faction Colors to use a slightly more prominent hue.
+[*] Changed CT Faction Color selceted frame borders to be more prominent.
+[*] Added double frame border to Hotkeybar.
+[*] Added double frame border to Radial Menu.
+[*] Added double frame border to Minimized Frame Icons.
+[*] More adjustments to the sidebar to be a little calmer.
+
+[COLOR="#FF0000"][B]Extension Changes[/B][/COLOR]
+[*] Adjusted Legendary Assistant by Stv to be in line with the theme changes above.
+[*] Adjusted all supported extension frames to use the new double frame border where applicable.
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
 

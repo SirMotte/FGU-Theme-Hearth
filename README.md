@@ -128,6 +128,6 @@ Thank you Tabarkus, for a launch of ships to my maps collection!
 - The scribes bow their heads in awe to, MeAndUnique, Saagael, mattekure, Superteddy57, Styrmir, damned and Trenloe for their help and ingenuity with complex scripture.
 - Wisdom poured by CMYKMatter and Drowbe helps the eye stay focused.
 
-### Credits:
+### Credits
 A few icons used are based on the Byte Dance Open Source Icon Library (iconpark.bytedance.com/official), though in most cases heavily altered they provide an invaluable starting base. Check them out if you need them.
 
