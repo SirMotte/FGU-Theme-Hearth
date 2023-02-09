@@ -589,10 +589,13 @@
 	<icon name="button_pceffect_ct_off" file="graphics/pngs/button_pceffect_ct_off.png" />
 
 	<icon name="char_quicklist" file="graphics/pngs/char_quicklist.png" />
+	
 	<!-- Powers -->
+	<icon name="power_use" file="graphics/pngs/power_use.png" />
 	<icon name="usepower" file="graphics/pngs/usepower.png" />
 	<icon name="power_weapon" file="graphics/pngs/power_weapon.png" />
 	<icon name="power_casterprep" file="graphics/pngs/power_casterprep.png" />
+	
 	<!-- Rolls -->
 	<icon name="roll_cast" file="graphics/pngs/roll_cast.png" />
 	<icon name="roll_damage" file="graphics/pngs/roll_damage.png" />
