@@ -11,7 +11,8 @@ XXXXXX
 [/LIST]
 [COLOR="#FF0000"][B]Theme Changes:[/B][/COLOR]
 [LIST]
-[*] Fixed use power icon on Character sheet. Was renamed at some point.
+[*] Fixed use power icon on Character sheet and made it more prominent and in line with the theme.
+[*] Adjusted Options Link Icon to be less BUTT UGLY!!!!
 [/LIST]
 
 [COLOR="#FF0000"][B]Extension Changes[/B][/COLOR]
