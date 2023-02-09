@@ -1,6 +1,7 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
 This is a Theme Extension for the Fantasy Grounds Virtual Tabletop Platform.
+Foundry VTT Player? Please go [here](https://github.com/SirMotte/FoundryVTT-Theme-Hearth)
 
 If you come across extensions that need to be adjusted to fit this theme, please contact me :).
 
