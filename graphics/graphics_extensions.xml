@@ -671,7 +671,7 @@
 	<!-- Logo -->
 	<icon name="CapitalGains" file="graphics/extensions/meandunique/capital_gains/CapitalGains.png" />
 	<icon name="button_action_resource" file= "graphics/extensions/meandunique/capital_gains/button_action_resource.png" />
-	<icon name="button_action_resource_down " file= "graphics/extensions/meandunique/capital_gains/button_action_resource_down.png" />
+	<icon name="button_action_resource_down" file= "graphics/extensions/meandunique/capital_gains/button_action_resource_down.png" />
 	<icon name="radial_power_action_resource" file= "graphics/extensions/meandunique/capital_gains/radial_power_action_resource.png" />
 	<icon name="char_resource" file= "graphics/extensions/meandunique/capital_gains/char_resource.png" />
 	<icon name="roll_resource" file= "graphics/extensions/meandunique/capital_gains/roll_resource.png" />
