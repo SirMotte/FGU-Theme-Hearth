@@ -670,11 +670,11 @@
 	<!--Ext: Capital Gains-->
 	<!-- Logo -->
 	<icon name="CapitalGains" file="graphics/extensions/meandunique/capital_gains/CapitalGains.png" />
-	<icon name="button_action_resource" file= "graphics/>extensions/meandunique/capital_gains/button_action_rescource.png" />
-	<icon name="button_action_resource_down " file= "graphics/>extensions/meandunique/capital_gains/button_action_resource_down.png" />
-	<icon name="radial_power_action_resource" file= "graphics/>extensions/meandunique/capital_gains/radial_power_action_resource.png" />
-	<icon name="char_resource" file= "graphics/>extensions/meandunique/capital_gains/char_resource.png" />
-	<icon name="roll_resource" file= "graphics/>extensions/meandunique/capital_gains/roll_resource.png" />
+	<icon name="button_action_resource" file= "graphics/extensions/meandunique/capital_gains/button_action_resource.png" />
+	<icon name="button_action_resource_down " file= "graphics/extensions/meandunique/capital_gains/button_action_resource_down.png" />
+	<icon name="radial_power_action_resource" file= "graphics/extensions/meandunique/capital_gains/radial_power_action_resource.png" />
+	<icon name="char_resource" file= "graphics/extensions/meandunique/capital_gains/char_resource.png" />
+	<icon name="roll_resource" file= "graphics/extensions/meandunique/capital_gains/roll_resource.png" />
 	
 	<!-- Ext: Verses Magicae -->
 	<!-- Logo -->
@@ -1127,8 +1127,8 @@
 		</sheetdata>
 	</windowclass>
 	<!-- Bayne's Bag of Holding -->
-	<icon name="BoH" file="HitchYourWagon/graphics/extensions/bayne/baynes_bag_of_holding/pouch_with magic_powder.png" />
-    <icon name="tab_wagon" file="HitchYourWagon/graphics/extensions/bayne/baynes_bag_of_holding/tab_wagon.png" />
+	<icon name="BoH" file="graphics/extensions/bayne/baynes_bag_of_holding/pouch_with magic_powder.png" />
+    <icon name="tab_wagon" file="graphics/extensions/bayne/baynes_bag_of_holding/tab_wagon.png" />
 
 	<!--dsaraujo-->
 	<!-- Kindom Manager-->
