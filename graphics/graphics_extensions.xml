@@ -279,19 +279,16 @@
 	<icon name="button_arcaneward_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_no_slots.png" />
 	<icon name="button_arcaneward_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_down_no_slots.png" />
 	<icon name="button_arcaneward_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_aw_small_off.png" />
-
 	<icon name="button_cast_spell" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small.png" />
 	<icon name="button_cast_spell_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_down.png" />
 	<icon name="button_cast_spell_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_no_slots.png" />
 	<icon name="button_cast_spell_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_down_no_slots.png" />
 	<icon name="button_cast_spell_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_off.png" />
-
 	<icon name="button_pactmagic" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small.png" />
 	<icon name="button_pactmagic_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down.png" />
 	<icon name="button_pactmagic_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_no_slots.png" />
 	<icon name="button_pactmagic_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down_no_slots.png" />
 	<icon name="button_pactmagic_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_off.png" />
-
 	<icon name="ArcaneWard" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWard.png" />
 	<icon name="ArcaneWardCast" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWardCast.png" />
 	<!--Kent Height-->
@@ -310,6 +307,8 @@
 	<!--Icons-->
 	<icon name="PowerUp" file="graphics/extensions/ryan_hagelstrom/power_up/PowerUp.png" />
 	<icon name="PowerUpChat" file="graphics/extensions/ryan_hagelstrom/power_up/PowerUpChat.png" />
+	<!--Chat Asthetics Configurator-->
+	<icon name="drowbe_brand" file="graphics/extensions/ryan_hagelstrom/chat_aesthetics_configurator/drowbe_brand.png" />
 
 	<!--Author: Justin Freitas-->
 	<!--Ext: Automatic Series-->
@@ -671,7 +670,13 @@
 	<!--Ext: Capital Gains-->
 	<!-- Logo -->
 	<icon name="CapitalGains" file="graphics/extensions/meandunique/capital_gains/CapitalGains.png" />
-	<!--Ext: Verses Magicae-->
+	<icon name="button_action_resource" file= "graphics/>extensions/meandunique/capital_gains/button_action_rescource.png" />
+	<icon name="button_action_resource_down " file= "graphics/>extensions/meandunique/capital_gains/button_action_resource_down.png" />
+	<icon name="radial_power_action_resource" file= "graphics/>extensions/meandunique/capital_gains/radial_power_action_resource.png" />
+	<icon name="char_resource" file= "graphics/>extensions/meandunique/capital_gains/char_resource.png" />
+	<icon name="roll_resource" file= "graphics/>extensions/meandunique/capital_gains/roll_resource.png" />
+	
+	<!-- Ext: Verses Magicae -->
 	<!-- Logo -->
 	<icon name="VersesMagicae_icon" file="graphics/extensions/meandunique/verses_magicae/MeAndUnique_Verses_Magicae_Logo.png" />
 
@@ -1121,6 +1126,9 @@
 			</stringfield>
 		</sheetdata>
 	</windowclass>
+	<!-- Bayne's Bag of Holding -->
+	<icon name="BoH" file="HitchYourWagon/graphics/extensions/bayne/baynes_bag_of_holding/pouch_with magic_powder.png" />
+    <icon name="tab_wagon" file="HitchYourWagon/graphics/extensions/bayne/baynes_bag_of_holding/tab_wagon.png" />
 
 	<!--dsaraujo-->
 	<!-- Kindom Manager-->
