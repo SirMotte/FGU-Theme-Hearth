@@ -68,7 +68,6 @@ This theme uses a very high loadorder of 1500 in order to be able to overwrite m
 
 - Font Extensions like the one by Mattekure will make the font go back to black and thus badly readable.
 - If you pay close attention to the console log you might find [Warning] entries related to this theme.
-- A warning regarding Chat Aesthetics Configurator by Drowbe, maintained by Ryan Haegelstrom. Its font settings and chat colors won't fit very well with my theme. If you still want to use it please set it to the light color in its settings menu entry. Currently I advise against using it.
 - Celestians "Author" extension currently makes storyframe list entries hard to read (black). I'm working on resolving the issue. For now, don't use my theme during world building with the Author extension enabled.
 
 ### Want to buy me a coffee?
