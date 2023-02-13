@@ -546,7 +546,7 @@
 	</font>
 	<!--Ext: Safety Toolkit-->
 	<font name="safetytoolkitfont">
-		<ttf file="graphics/fonts/Roboto-Black" name="Roboto Black" size="20" />
+		<ttf file="graphics/fonts/Roboto-Black.ttf" name="Roboto Black" size="20" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 
