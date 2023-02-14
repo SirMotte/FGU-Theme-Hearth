@@ -675,6 +675,8 @@
 	<icon name="radial_power_action_resource" file= "graphics/extensions/meandunique/capital_gains/radial_power_action_resource.png" />
 	<icon name="char_resource" file= "graphics/extensions/meandunique/capital_gains/char_resource.png" />
 	<icon name="roll_resource" file= "graphics/extensions/meandunique/capital_gains/roll_resource.png" />
+	<icon name="roll_resource_gain" file= "graphics/extensions/meandunique/capital_gains/roll_resource_gain.png" />
+	<icon name="roll_resource_missing" file= "graphics/extensions/meandunique/capital_gains/roll_resource_missing.png" />
 	<!-- Ext: Verses Magicae -->
 	<!-- Logo -->
 	<icon name="VersesMagicae_icon" file="graphics/extensions/meandunique/verses_magicae/MeAndUnique_Verses_Magicae_Logo.png" />
