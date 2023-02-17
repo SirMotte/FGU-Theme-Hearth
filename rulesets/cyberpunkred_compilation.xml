@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- frames -->
+	<framedef name="charsheet_elo">
+		<bitmap file="graphics/pngs/charsheet.png" />
+		<offset>95,95,95,95</offset>
+		<insideoffset>0,5,10,13</insideoffset>
+	</framedef>
+
+	<framedef name="charsheet">
+		<bitmap file="graphics/pngs/charsheet.png" />
+		<offset>95,95,95,95</offset>
+		<insideoffset>0,5,10,13</insideoffset>
+	</framedef>
+
+	<framedef name="tabs_elo">
+		<bitmap file="graphics/pngs/tabs.png" />
+		<topleft rect="0,0,18,73" />
+		<left rect="0,73,18,335" />
+		<bottomleft rect="0,408,18,86" />
+	</framedef>
+
+	<framedef name="fieldSimple">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhiteFull.png" />
+		<offset>6,6,6,6</offset>
+	</framedef>
+
+	<framedef name="fieldFocusSimple">
+		<bitmap file="graphics/rulesets/cyberpunkred/fieldFocusSimple.png" />
+		<offset>4,4,4,4</offset>
+	</framedef>
+
+	<framedef name="fieldFrame">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhite.png" />
+		<offset>15,15,5,5</offset>
+	</framedef>
+
+	<framedef name="thin_buttonup">
+		<bitmap file="graphics/rulesets/cyberpunkred/thin_buttonup.png" />
+		<offset>5,5,5,5</offset>
+	</framedef>
+
+	<framedef name="roleFrame">
+		<bitmap file="graphics/rulesets/cyberpunkred/roleFrame.png" />
+		<offset>5,8,5,5</offset>
+	</framedef>
+
+	<framedef name="fielddarkOpp">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhiteOpp.png" />
+		<offset>5,5,15,15</offset>
+	</framedef>
+
+	<framedef name="boxRedFrame">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxRedFrame.png" />
+		<offset>8,8,8,8</offset>
+	</framedef>
+
+	<framedef name="fieldSimpleRed">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxRedFull.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+
+	<framedef name="fieldSimpleRed_elo">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxRedFull.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+
+	<framedef name="scrollbar_base_white">
+		<bitmap file="graphics/pngs/scrollbar.png" />
+		<top rect="0,0,20,14" />
+		<middle rect="22,0,20,62" />
+		<bottom rect="0,48,20,14" />
+	</framedef>
+	
+	<!-- additional charsheet icons -->
+	<icon name="OOIcon_elo" file="graphics/rulesets/cyberpunkred/outof.png" />
+	<icon name="OOIcon" file="graphics/rulesets/cyberpunkred/outof.png" />
+	<!-- Really don't need it in this theme, this graphic is blank -->
+	<icon name="EditPen" file="graphics/rulesets/cyberpunkred/edit.png" />
+
+	<!-- architectures -->
+	<icon name="arrow_branch" file="graphics/rulesets/cyberpunkred/arrow_branch.png" />
+	<icon name="arrow_level" file="graphics/rulesets/cyberpunkred/arrow_level.png" />
+
+	<!-- sidebar -->
+	<icon name="sidebar_icon_recordtype_architecture" file="graphics/pngs/sidebar_icon_architecture.png" />
+	<icon name="sidebar_icon_recordtype_cyberware" file="graphics/pngs/sidebar_icon_cpu.png" />
+	<icon name="sidebar_icon_recordtype_move" file="graphics/pngs/sidebar_icon_bang.png" />
+
+	<!-- tabs -->
+	<icon name="CyberwareIcon" file="graphics/rulesets/cyberpunkred/tab_cyberware.png" />
+
+	<!-- combat icon -->
+	<icon name="attack_injury" file="graphics/pngs/roll_attack_crit.png" />
+
+	<!-- fonts -->
+	<font name="charwizard_valid">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#77CE77" />
+	</font>
+	<font name="charwizard_invalid">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#FF6161" />
+	</font>
+	<font name="noto-i-15-white">
+		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="15" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-b-15-white">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="15" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-b-18-white">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-10">
+		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="10" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-12">
+		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-15">
+		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="15" />
+		<color value="#DDDDDD" />
+	</font>	
+	<font name="noto-18">
+		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-48">
+		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="48" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-b-10">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="10" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-b-12">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#FFF0CA" />
+	</font>
+	<font name="noto-b-15">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="15" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-b-18">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-b-48">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="48" />
+		<color value="#DDDDDD" />
+	</font>
+
+
+	<!-- overrides to get better colors and offsets in some windows -->
+	<windowclass name="charsheet" merge="join">
+		<sheetdata>
+			<buttongroup_tabs name="tabs_elo" merge="join">
+				<anchored>
+					<right offset="-8" />
+					<top offset="86" />
+					<size>
+						<width>18</width>
+						<height>358</height>
+					</size>
+				</anchored>
+			</buttongroup_tabs>
+
+			<buttongroup_tabs name="tabs" merge="join">
+				<anchored>
+					<right offset="-8" />
+					<top offset="86" />
+					<size>
+						<width>18</width>
+						<height>358</height>
+					</size>
+				</anchored>
+			</buttongroup_tabs>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="charsheet_main" merge="join">
+		<sheetdata>
+
+		<stringcontrol name="intLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="intCurrent" merge="join">
+			<font>sheetlabel</font>
+      	</number>
+
+		<stringcontrol name="refLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="refCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="dexLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="dexCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="techLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="techCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="coolLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="coolCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="willLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="willCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+      	<buttoncontrol name="luckBtn" merge="join">
+			<bounds>40,331,40,20</bounds>
+		</buttoncontrol>
+
+		<number name="luckCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+		<number name="luckMax" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="moveLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="moveCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="bodyLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="bodyCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="empLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="empCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+		<number name="empMax" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<number name="hpCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+		<number name="hpMax" merge="join">
+			<font>reference-b</font>
+      	</number>
+		<number name="hpSerious" merge="join">
+			<font>reference-b</font>
+      	</number>
+		<number name="deathSave" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<number name="humanityCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+		<number name="humanityMax" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		</sheetdata>
+	</windowclass>
+
+
+	<windowclass name="listArmor" merge="join">
+		<sheetdata>
+			<number name="sp" merge="join">
+				<font>reference-b</font>
+			</number>
+
+			<number name="penalty" merge="join">
+				<font>reference-b</font>
+			</number>
+		</sheetdata>
+	</windowclass>
+</root>
