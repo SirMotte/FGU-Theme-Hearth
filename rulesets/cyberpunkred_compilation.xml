@@ -25,6 +25,11 @@
 		<offset>6,6,6,6</offset>
 	</framedef>
 
+	<framedef name="fieldSimpleEdit">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhiteFullEdit.png" />
+		<offset>6,6,6,6</offset>
+	</framedef>
+
 	<framedef name="fieldFocusSimple">
 		<bitmap file="graphics/rulesets/cyberpunkred/fieldFocusSimple.png" />
 		<offset>4,4,4,4</offset>
@@ -157,6 +162,15 @@
 
 
 	<!-- overrides to get better colors and offsets in some windows -->
+	<template name="close_recordsheet">
+		<close>
+			<anchored>
+				<top offset="12" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+
 	<windowclass name="charsheet" merge="join">
 		<sheetdata>
 			<buttongroup_tabs name="tabs_elo" merge="join">
