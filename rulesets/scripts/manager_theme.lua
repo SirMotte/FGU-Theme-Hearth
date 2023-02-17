@@ -59,6 +59,13 @@ iconToCore = {
 }
 
 function setDefaultIcon(control, sCPRIcon)
+	if sCPRIcon == "window_resize_red"
+		or sCPRIcon == "window_resize"
+		or sCPRIcon == "window_resize_filled" then
+			control.setIcon("");
+		return false;
+	end
+
 	return false;
 end
 
