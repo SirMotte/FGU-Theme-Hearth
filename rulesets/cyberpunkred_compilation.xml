@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
 	<!-- frames -->
+	<framedef name="referencelist">
+		<bitmap file="graphics/rulesets/cyberpunkred/referencelist.png" />
+		<offset>95,95,95,95</offset>
+		<insideoffset>0,0,4,5</insideoffset>
+	</framedef>
+
 	<framedef name="charsheet_elo">
 		<bitmap file="graphics/pngs/charsheet.png" />
 		<offset>95,95,95,95</offset>
