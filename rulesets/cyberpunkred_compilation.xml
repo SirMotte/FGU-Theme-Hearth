@@ -25,9 +25,102 @@
 		<offset>6,6,6,6</offset>
 	</framedef>
 
+	<framedef name="darkenFieldEdit">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhiteFullEdit.png" />
+		<offset>6,6,6,6</offset>
+	</framedef>
+
+	<framedef name="darkenFieldEditLarge">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhiteFullEdit.png" />
+		<offset>6,6,6,6</offset>
+	</framedef>
+	
+	<framedef name="fieldSimpleBlk">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxBlackFull.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+
 	<framedef name="fieldSimpleEdit">
 		<bitmap file="graphics/rulesets/cyberpunkred/boxWhiteFullEdit.png" />
 		<offset>6,6,6,6</offset>
+	</framedef>
+
+	<framedef name="border">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhiteFull.png" />
+		<offset>6,6,6,6</offset>
+	</framedef>
+
+	<framedef name="fieldFrame_NPC">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhite_NPC.png" />
+		<offset>6,13,2,1</offset>
+	</framedef>
+
+	<framedef name="fieldFrame_NPCEdit">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhite_NPCEdit.png" />
+		<offset>6,13,2,1</offset>
+	</framedef>
+	
+	<framedef name="recordsheet_red">
+		<bitmap file="graphics/pngs/recordsheet.png" />
+		<offset>11,12,17,18</offset>
+		<insideoffset>0,0,4,5</insideoffset>
+	</framedef>
+
+	<framedef name="numFrame">
+		<bitmap file="graphics/rulesets/cyberpunkred/SmallNum.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+
+	<framedef name="formattedTextFrame">
+		<bitmap file="graphics/rulesets/cyberpunkred/formattedTextFrame.png" />
+		<offset>0,5,0,5</offset>
+	</framedef>
+
+	<framedef name="formattedTextFrameEdit">
+		<bitmap file="graphics/rulesets/cyberpunkred/formattedTextFrameEdit.png" />
+		<offset>6,5,0,5</offset>
+	</framedef>
+	
+	<framedef name="fieldSimpleDiceEdit">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxDarkenFullDice.png" />
+		<top rect="0,0,50,1" />
+		<topleft rect="0,0,0,0" />
+		<topright rect="50,0,0,0" />
+		<left rect="0,0,1,50" />
+		<middle rect="1,1,48,48" />
+		<right rect="49,0,1,50" />
+		<bottomleft rect="0,49,0,0" />
+		<bottom rect="0,49,50,1" />
+		<bottomright rect="49,49,0,0" />
+		<decal rect="0,50,50,20" />
+	</framedef>
+
+	<framedef name="darkenFullDice">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxDarkenFullDice.png" />
+		<top rect="0,0,50,1" />
+		<topleft rect="0,0,0,0" />
+		<topright rect="50,0,0,0" />
+		<left rect="0,0,1,50" />
+		<middle rect="1,1,48,48" />
+		<right rect="49,0,1,50" />
+		<bottomleft rect="0,49,0,0" />
+		<bottom rect="0,49,50,1" />
+		<bottomright rect="49,49,0,0" />
+		<decal rect="0,50,50,20" />
+	</framedef>
+
+	<framedef name="darkenFullDiceEdit">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxDarkenFullDiceEdit.png" />
+		<top rect="0,0,50,1" />
+		<topleft rect="0,0,0,0" />
+		<topright rect="50,0,0,0" />
+		<left rect="0,0,1,50" />
+		<middle rect="1,1,48,48" />
+		<right rect="49,0,1,50" />
+		<bottomleft rect="0,49,0,0" />
+		<bottom rect="0,49,50,1" />
+		<bottomright rect="49,49,0,0" />
+		<decal rect="0,50,50,20" />
 	</framedef>
 
 	<framedef name="fieldFocusSimple">
@@ -91,6 +184,10 @@
 	<icon name="sidebar_icon_recordtype_architecture" file="graphics/pngs/sidebar_icon_architecture.png" />
 	<icon name="sidebar_icon_recordtype_cyberware" file="graphics/pngs/sidebar_icon_cpu.png" />
 	<icon name="sidebar_icon_recordtype_move" file="graphics/pngs/sidebar_icon_bang.png" />
+
+	<!-- combat tracker -->
+	<icon name="button_cyberdeck" file="graphics/rulesets/cyberpunkred/button_cyberdeck.png" />
+	<icon name="button_cyberdeck_down" file="graphics/rulesets/cyberpunkred/button_cyberdeck_down.png" />
 
 	<!-- tabs -->
 	<icon name="CyberwareIcon" file="graphics/rulesets/cyberpunkred/tab_cyberware.png" />
@@ -165,11 +262,29 @@
 	<template name="close_recordsheet">
 		<close>
 			<anchored>
-				<top offset="12" />
+				<top offset="15" />
 				<right offset="-12" />
 			</anchored>
 		</close>
 	</template>
+
+	<windowclass name="npc" merge="join">
+		<sheetdata>
+			<close_recordsheet name="closeBtn" merge="join">
+				<script>function onInit()
+					if super and super.onInit then 
+						super.onInit();
+					end
+					
+					if not ThemeManager.isThemeLoaded then
+						self.setAnchor("top", "", "top", "absolute", "16");
+						self.setAnchor("right", "", "right", "absolute", "-10");
+					end
+				end
+				</script>
+			</close_recordsheet>
+		</sheetdata>
+	</windowclass>
 
 	<windowclass name="charsheet" merge="join">
 		<sheetdata>
@@ -300,7 +415,6 @@
 		</sheetdata>
 	</windowclass>
 
-
 	<windowclass name="listArmor" merge="join">
 		<sheetdata>
 			<number name="sp" merge="join">
@@ -312,4 +426,205 @@
 			</number>
 		</sheetdata>
 	</windowclass>
+
+  <windowclass name="ct_attachment_applied" merge="join">
+    <placement>
+      <size height="300" width="300" />
+    </placement>
+    <script>
+		function onInit()
+			if super and super.onInit then 
+				super.onInit();
+			end
+			
+			self.setFrame("");
+		end
+
+	</script>
+	<sheetdata>
+		<stringfield name="name" merge="join">
+			<controlline />
+			<lineoffset>-2</lineoffset>
+			<script>
+				function onInit()
+					self.setFrame("");
+					self.setLine(true, -2);
+				end
+			</script>
+		</stringfield>
+		<stringfield name="nonid_name" merge="join">
+			<controlline />
+			<lineoffset>-2</lineoffset>
+			<script>
+				function onInit()
+					self.setFrame("");
+					self.setLine(true, -2);
+				end
+			</script>
+		</stringfield>
+    </sheetdata>
+  </windowclass>
+
+  <windowclass name="ct_cyberdeck_program" merge="join">
+    <placement>
+      <size height="300" width="300" />
+    </placement>
+    <script>
+		function onInit()
+			if super and super.onInit then 
+				super.onInit();
+			end
+			
+			self.setFrame("");
+		end
+	</script>
+    <sheetdata>
+      <stringfield name="name" merge="join">
+        <controlline />
+        <lineoffset>-2</lineoffset>
+        <script>
+			function onInit()
+				self.setFrame("");
+				self.setLine(true, -2);
+			end
+		</script>
+      </stringfield>
+      <stringfield name="nonid_name" merge="join">
+        <controlline />
+        <lineoffset>-2</lineoffset>
+        <script>
+			function onInit()
+				self.setFrame("");
+				self.setLine(true, -2);
+			end
+		</script>
+      </stringfield>
+    </sheetdata>
+  </windowclass>
+
+  <windowclass name="ct_npc_move" merge="join">
+    <placement>
+      <size height="300" width="300" />
+    </placement>
+    <script>
+		function onInit()
+			if super and super.onInit then 
+				super.onInit();
+			end
+			
+			self.setFrame("");
+		end
+	</script>
+    <sheetdata>
+      <stringfield name="name" merge="join">
+        <controlline />
+        <lineoffset>-2</lineoffset>
+        <script>
+			function onInit()
+				self.setFrame("");
+				self.setLine(true, -2);
+			end
+		</script>
+      </stringfield>
+    </sheetdata>
+  </windowclass>
+
+  <windowclass name="ct_npc_weapon" merge="join">
+    <placement>
+      <size height="300" width="300" />
+    </placement>
+    <script>
+		function onInit()
+			if super and super.onInit then 
+				super.onInit();
+			end
+			
+			self.setFrame("");
+		end
+	</script>
+    <sheetdata>
+      <stringfield name="name" merge="join">
+        <controlline />
+        <lineoffset>-2</lineoffset>
+        <script>
+			function onInit()
+				self.setFrame("");
+				self.setLine(true, -2);
+			end
+		</script>
+      </stringfield>
+      <stringfield name="nonid_name" merge="join">
+        <controlline />
+        <lineoffset>-2</lineoffset>
+        <script>
+			function onInit()
+				self.setFrame("");
+				self.setLine(true, -2);
+			end
+		</script>
+      </stringfield>
+    </sheetdata>
+  </windowclass>
+
+  <windowclass name="quest_component" merge="join">
+    <placement>
+      <size height="300" width="300" />
+    </placement>
+    <sheetdata>
+      <formattedtextfield name="text" merge="join">
+        <frame>
+          <offset>8,8,8,8</offset>
+        </frame>
+        <script>
+			function onInit()
+				if Session.IsHost then
+					update(false);
+				else
+					update(true);
+				end
+			end
+
+			function update(bReadOnly)
+				self.setReadOnly(bReadOnly);
+				if not bReadOnly then
+					self.setFrame("formattedTextFrameEdit", 6,8,0,0);
+				else
+					self.setFrame(nil, 0,5,0,0);
+				end
+			end
+		</script>
+      </formattedtextfield>
+    </sheetdata>
+  </windowclass>
+
+  <windowclass name="quest_screamsheet_details" merge="join">
+    <placement>
+      <size height="300" width="300" />
+    </placement>
+    <sheetdata>
+      <windowlist name="leftCol" merge="join">
+        <script>
+			function update(bReadOnly)
+				if super and super.update then
+					super.update(bReadOnly)
+				end
+				
+				self.setFrame("");
+			end
+		</script>
+      </windowlist>
+      <windowlist name="rightCol" merge="join">
+        <script>
+			function update(bReadOnly)
+				if super and super.update then
+					super.update(bReadOnly)
+				end
+				
+				self.setFrame("");
+			end
+		</script>
+      </windowlist>
+    </sheetdata>
+  </windowclass>
+
 </root>
