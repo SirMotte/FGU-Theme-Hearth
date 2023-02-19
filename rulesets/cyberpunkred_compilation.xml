@@ -195,6 +195,7 @@
 	<!-- combat tracker -->
 	<icon name="button_cyberdeck" file="graphics/rulesets/cyberpunkred/button_cyberdeck.png" />
 	<icon name="button_cyberdeck_down" file="graphics/rulesets/cyberpunkred/button_cyberdeck_down.png" />
+	<icon name="button_targeting_selected" file="graphics/rulesets/cyberpunkred/button_targeting_selected.png" />
 
 	<!-- tabs -->
 	<icon name="CyberwareIcon" file="graphics/rulesets/cyberpunkred/tab_cyberware.png" />
