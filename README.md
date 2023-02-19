@@ -23,6 +23,7 @@ Foundry VTT User? Check out the [Foundry VTT - Hearth Theme](https://github.com/
 - Pathfinder 2E - Basic
 - XCore - Basic
 - Cypher System - Basic
+- Cyberpunk Red - Basic
 - Other Rulesets might work surprisingly well, please test this and possibly report your findings.
 
 **Full**
@@ -102,7 +103,7 @@ Sir Motte
 
 
 # Hall of Fame
-
+- Shoutout to seansps who added Cyberpunk Red support to the theme, you rock!
 - Rugged sea, distant shore, waves and thunder evermore.
 Laughing gods of wet an wind care not for souls on wooden splint.
 Tossed and turned, high and low, yet steady our ship will go, to promised land of bane and boon lead steadfast by Tabarkus tune.
