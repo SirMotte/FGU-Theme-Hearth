@@ -188,7 +188,7 @@
 	<icon name="arrow_level" file="graphics/rulesets/cyberpunkred/arrow_level.png" />
 
 	<!-- sidebar -->
-	<icon name="sidebar_icon_recordtype_architecture" file="graphics/pngs/sidebar_icon_architecture.png" />
+	<icon name="sidebar_icon_recordtype_architecture" file="graphics/rulesets/cyberpunkred/sidebar_icon_architecture.png" />
 	<icon name="sidebar_icon_recordtype_cyberware" file="graphics/pngs/sidebar_icon_cpu.png" />
 	<icon name="sidebar_icon_recordtype_move" file="graphics/pngs/sidebar_icon_bang.png" />
 
