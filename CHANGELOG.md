@@ -3,7 +3,13 @@
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
-XXXXXX
+This update brings in official support for the new Cyberpunk Red ruleset courtesy of the awesome seansps aka Lionblade.
+Furthermore some extensions have received some love and a few buttons got a facelift. Special thanks to RocketVaultGames for his detailed bug reports
+
+[COLOR="#FF0000"][B]Added Extension Support[/B][/COLOR]
+[LIST]
+[*] Cyberpunk Red support - Basic
+[/LIST]
 
 [COLOR="#FF0000"][B]Added Extension Support[/B][/COLOR]
 [LIST]
@@ -17,11 +23,15 @@ XXXXXX
 [*] Fixed use power icon on Character sheet and made it more prominent and in line with the theme.
 [*] Adjusted Options Link Icon to be less BUTT UGLY!!!!
 [*] Adjusted Charsheet Tabs to also use the double outline. Proper rendering seems to fail at my resolution within FGU. Unsure if this is caused by FGU or during png compression. Investigating.
+[*]
+
 [/LIST]
 
 [COLOR="#FF0000"][B]Extension Changes[/B][/COLOR]
 [LIST]
 [*] Combat Highlighter by Daddy Ogreman, applied double outline to CT Frame.
+[*] PENDING Fixed Combat Timer by Zygmunt Molotch to use the proper theme colors.
+[*] PENDING Moon Tracker fix for Calendar entries
 [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
