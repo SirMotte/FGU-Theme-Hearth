@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- frames -->
+	<framedef name="referencelist">
+		<bitmap file="graphics/rulesets/cyberpunkred/referencelist.png" />
+		<offset>95,95,95,95</offset>
+		<insideoffset>0,0,4,5</insideoffset>
+	</framedef>
+
+	<framedef name="charsheet_elo">
+		<bitmap file="graphics/pngs/charsheet.png" />
+		<offset>95,95,95,95</offset>
+		<insideoffset>0,5,10,13</insideoffset>
+	</framedef>
+
+	<framedef name="charsheet">
+		<bitmap file="graphics/pngs/charsheet.png" />
+		<offset>95,95,95,95</offset>
+		<insideoffset>0,5,10,13</insideoffset>
+	</framedef>
+
+	<framedef name="tabs_elo">
+		<bitmap file="graphics/pngs/tabs.png" />
+		<topleft rect="0,0,18,73" />
+		<left rect="0,73,18,335" />
+		<bottomleft rect="0,408,18,86" />
+	</framedef>
+
+	<framedef name="fieldSimple">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhiteFull.png" />
+		<offset>6,6,6,6</offset>
+	</framedef>
+
+	<framedef name="darkenFieldEdit">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhiteFullEdit.png" />
+		<offset>6,6,6,6</offset>
+	</framedef>
+
+	<framedef name="darkenFieldEditLarge">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhiteFullEdit.png" />
+		<offset>6,6,6,6</offset>
+	</framedef>
+	
+	<framedef name="fieldSimpleBlk">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxBlackFull.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+
+	<framedef name="fieldSimpleEdit">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhiteFullEdit.png" />
+		<offset>6,6,6,6</offset>
+	</framedef>
+
+	<framedef name="border">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhiteFull.png" />
+		<offset>6,6,6,6</offset>
+	</framedef>
+
+	<framedef name="fieldFrame_NPC">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhite_NPC.png" />
+		<offset>6,13,2,1</offset>
+	</framedef>
+
+	<framedef name="fieldFrame_NPCEdit">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhite_NPCEdit.png" />
+		<offset>6,13,2,1</offset>
+	</framedef>
+	
+	<framedef name="recordsheet_red">
+		<bitmap file="graphics/pngs/recordsheet.png" />
+		<offset>11,12,17,18</offset>
+		<insideoffset>0,0,4,5</insideoffset>
+	</framedef>
+
+	<framedef name="numFrame">
+		<bitmap file="graphics/rulesets/cyberpunkred/SmallNum.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+
+	<framedef name="formattedTextFrame">
+		<bitmap file="graphics/rulesets/cyberpunkred/formattedTextFrame.png" />
+		<offset>0,5,0,5</offset>
+	</framedef>
+
+	<framedef name="formattedTextFrameEdit">
+		<bitmap file="graphics/rulesets/cyberpunkred/formattedTextFrameEdit.png" />
+		<offset>6,5,0,5</offset>
+	</framedef>
+	
+	<framedef name="fieldSimpleDiceEdit">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxDarkenFullDice.png" />
+		<top rect="0,0,50,1" />
+		<topleft rect="0,0,0,0" />
+		<topright rect="50,0,0,0" />
+		<left rect="0,0,1,50" />
+		<middle rect="1,1,48,48" />
+		<right rect="49,0,1,50" />
+		<bottomleft rect="0,49,0,0" />
+		<bottom rect="0,49,50,1" />
+		<bottomright rect="49,49,0,0" />
+		<decal rect="0,50,50,20" />
+	</framedef>
+
+	<framedef name="darkenFullDice">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxDarkenFullDice.png" />
+		<top rect="0,0,50,1" />
+		<topleft rect="0,0,0,0" />
+		<topright rect="50,0,0,0" />
+		<left rect="0,0,1,50" />
+		<middle rect="1,1,48,48" />
+		<right rect="49,0,1,50" />
+		<bottomleft rect="0,49,0,0" />
+		<bottom rect="0,49,50,1" />
+		<bottomright rect="49,49,0,0" />
+		<decal rect="0,50,50,20" />
+	</framedef>
+
+	<framedef name="darkenFullDiceEdit">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxDarkenFullDiceEdit.png" />
+		<top rect="0,0,50,1" />
+		<topleft rect="0,0,0,0" />
+		<topright rect="50,0,0,0" />
+		<left rect="0,0,1,50" />
+		<middle rect="1,1,48,48" />
+		<right rect="49,0,1,50" />
+		<bottomleft rect="0,49,0,0" />
+		<bottom rect="0,49,50,1" />
+		<bottomright rect="49,49,0,0" />
+		<decal rect="0,50,50,20" />
+		<offset>5,0,5,0</offset>
+	</framedef>
+
+	<framedef name="fieldFocusSimple">
+		<bitmap file="graphics/rulesets/cyberpunkred/fieldFocusSimple.png" />
+		<offset>4,4,4,4</offset>
+	</framedef>
+
+	<framedef name="fieldFrame">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhite.png" />
+		<offset>15,15,5,5</offset>
+	</framedef>
+
+	<framedef name="thin_buttonup">
+		<bitmap file="graphics/rulesets/cyberpunkred/thin_buttonup.png" />
+		<offset>5,5,5,5</offset>
+	</framedef>
+
+	<framedef name="roleFrame">
+		<bitmap file="graphics/rulesets/cyberpunkred/roleFrame.png" />
+		<offset>5,8,5,5</offset>
+	</framedef>
+
+	<framedef name="fielddarkOpp">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxWhiteOpp.png" />
+		<offset>5,5,15,15</offset>
+	</framedef>
+
+	<framedef name="boxRedFrame">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxRedFrame.png" />
+		<offset>8,8,8,8</offset>
+	</framedef>
+
+	<framedef name="fieldSimpleRed">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxRedFull.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+
+	<framedef name="fieldSimpleRed_elo">
+		<bitmap file="graphics/rulesets/cyberpunkred/boxRedFull.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+
+	<framedef name="scrollbar_base_white">
+		<bitmap file="graphics/pngs/scrollbar.png" />
+		<top rect="0,0,20,14" />
+		<middle rect="22,0,20,62" />
+		<bottom rect="0,48,20,14" />
+	</framedef>
+	
+	<!-- additional charsheet icons -->
+	<icon name="OOIcon_elo" file="graphics/rulesets/cyberpunkred/outof.png" />
+	<icon name="OOIcon" file="graphics/rulesets/cyberpunkred/outof.png" />
+	<!-- Really don't need it in this theme, this graphic is blank -->
+	<icon name="EditPen" file="graphics/rulesets/cyberpunkred/edit.png" />
+
+	<!-- architectures -->
+	<icon name="arrow_branch" file="graphics/rulesets/cyberpunkred/arrow_branch.png" />
+	<icon name="arrow_level" file="graphics/rulesets/cyberpunkred/arrow_level.png" />
+
+	<!-- sidebar -->
+	<icon name="sidebar_icon_recordtype_architecture" file="graphics/pngs/sidebar_icon_architecture.png" />
+	<icon name="sidebar_icon_recordtype_cyberware" file="graphics/pngs/sidebar_icon_cpu.png" />
+	<icon name="sidebar_icon_recordtype_move" file="graphics/pngs/sidebar_icon_bang.png" />
+
+	<!-- combat tracker -->
+	<icon name="button_cyberdeck" file="graphics/rulesets/cyberpunkred/button_cyberdeck.png" />
+	<icon name="button_cyberdeck_down" file="graphics/rulesets/cyberpunkred/button_cyberdeck_down.png" />
+
+	<!-- tabs -->
+	<icon name="CyberwareIcon" file="graphics/rulesets/cyberpunkred/tab_cyberware.png" />
+
+	<!-- combat icon -->
+	<icon name="attack_injury" file="graphics/pngs/roll_attack_crit.png" />
+
+	<!-- fonts -->
+	<font name="charwizard_valid">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#77CE77" />
+	</font>
+	<font name="charwizard_invalid">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#FF6161" />
+	</font>
+	<font name="noto-i-15-white">
+		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="15" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-b-15-white">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="15" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-b-18-white">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-10">
+		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="10" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-12">
+		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-15">
+		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="15" />
+		<color value="#DDDDDD" />
+	</font>	
+	<font name="noto-18">
+		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-48">
+		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="48" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-b-10">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="10" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-b-12">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#FFF0CA" />
+	</font>
+	<font name="noto-b-15">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="15" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-b-18">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-b-48">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="48" />
+		<color value="#DDDDDD" />
+	</font>
+
+
+	<!-- overrides to get better colors and offsets in some windows -->
+	<template name="close_recordsheet">
+		<close>
+			<anchored>
+				<top offset="15" />
+				<right offset="-12" />
+			</anchored>
+		</close>
+	</template>
+
+	<windowclass name="npc" merge="join">
+		<sheetdata>
+			<close_recordsheet name="closeBtn" merge="join">
+				<script>function onInit()
+					if super and super.onInit then 
+						super.onInit();
+					end
+					
+					if not ThemeManager.isThemeLoaded then
+						self.setAnchor("top", "", "top", "absolute", "16");
+						self.setAnchor("right", "", "right", "absolute", "-10");
+					end
+				end
+				</script>
+			</close_recordsheet>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="charsheet" merge="join">
+		<sheetdata>
+			<buttongroup_tabs name="tabs_elo" merge="join">
+				<anchored>
+					<right offset="-8" />
+					<top offset="86" />
+					<size>
+						<width>18</width>
+						<height>358</height>
+					</size>
+				</anchored>
+			</buttongroup_tabs>
+
+			<buttongroup_tabs name="tabs" merge="join">
+				<anchored>
+					<right offset="-8" />
+					<top offset="86" />
+					<size>
+						<width>18</width>
+						<height>358</height>
+					</size>
+				</anchored>
+			</buttongroup_tabs>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="charsheet_main" merge="join">
+		<sheetdata>
+
+		<stringcontrol name="intLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="intCurrent" merge="join">
+			<font>sheetlabel</font>
+      	</number>
+
+		<stringcontrol name="refLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="refCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="dexLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="dexCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="techLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="techCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="coolLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="coolCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="willLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="willCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+      	<buttoncontrol name="luckBtn" merge="join">
+			<bounds>40,331,40,20</bounds>
+		</buttoncontrol>
+
+		<number name="luckCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+		<number name="luckMax" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="moveLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="moveCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="bodyLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="bodyCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<stringcontrol name="empLabel" merge="join">
+			<font>sheetlabel</font>
+      	</stringcontrol>
+		<number name="empCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+		<number name="empMax" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<number name="hpCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+		<number name="hpMax" merge="join">
+			<font>reference-b</font>
+      	</number>
+		<number name="hpSerious" merge="join">
+			<font>reference-b</font>
+      	</number>
+		<number name="deathSave" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		<number name="humanityCurrent" merge="join">
+			<font>reference-b</font>
+      	</number>
+		<number name="humanityMax" merge="join">
+			<font>reference-b</font>
+      	</number>
+
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="listArmor" merge="join">
+		<sheetdata>
+			<number name="sp" merge="join">
+				<font>reference-b</font>
+			</number>
+
+			<number name="penalty" merge="join">
+				<font>reference-b</font>
+			</number>
+		</sheetdata>
+	</windowclass>
+
+  <windowclass name="ct_attachment_applied" merge="join">
+    <placement>
+      <size height="300" width="300" />
+    </placement>
+    <script>
+		function onInit()
+			if super and super.onInit then 
+				super.onInit();
+			end
+			
+			self.setFrame("");
+		end
+
+	</script>
+	<sheetdata>
+		<stringfield name="name" merge="join">
+			<controlline />
+			<lineoffset>-2</lineoffset>
+			<script>
+				function onInit()
+					self.setFrame("");
+					self.setLine(true, -2);
+				end
+			</script>
+		</stringfield>
+		<stringfield name="nonid_name" merge="join">
+			<controlline />
+			<lineoffset>-2</lineoffset>
+			<script>
+				function onInit()
+					self.setFrame("");
+					self.setLine(true, -2);
+				end
+			</script>
+		</stringfield>
+    </sheetdata>
+  </windowclass>
+
+  <windowclass name="ct_cyberdeck_program" merge="join">
+    <placement>
+      <size height="300" width="300" />
+    </placement>
+    <script>
+		function onInit()
+			if super and super.onInit then 
+				super.onInit();
+			end
+			
+			self.setFrame("");
+		end
+	</script>
+    <sheetdata>
+      <stringfield name="name" merge="join">
+        <controlline />
+        <lineoffset>-2</lineoffset>
+        <script>
+			function onInit()
+				self.setFrame("");
+				self.setLine(true, -2);
+			end
+		</script>
+      </stringfield>
+      <stringfield name="nonid_name" merge="join">
+        <controlline />
+        <lineoffset>-2</lineoffset>
+        <script>
+			function onInit()
+				self.setFrame("");
+				self.setLine(true, -2);
+			end
+		</script>
+      </stringfield>
+    </sheetdata>
+  </windowclass>
+
+  <windowclass name="ct_npc_move" merge="join">
+    <placement>
+      <size height="300" width="300" />
+    </placement>
+    <script>
+		function onInit()
+			if super and super.onInit then 
+				super.onInit();
+			end
+			
+			self.setFrame("");
+		end
+	</script>
+    <sheetdata>
+      <stringfield name="name" merge="join">
+        <controlline />
+        <lineoffset>-2</lineoffset>
+        <script>
+			function onInit()
+				self.setFrame("");
+				self.setLine(true, -2);
+			end
+		</script>
+      </stringfield>
+    </sheetdata>
+  </windowclass>
+
+  <windowclass name="ct_npc_weapon" merge="join">
+    <placement>
+      <size height="300" width="300" />
+    </placement>
+    <script>
+		function onInit()
+			if super and super.onInit then 
+				super.onInit();
+			end
+			
+			self.setFrame("");
+		end
+	</script>
+    <sheetdata>
+      <stringfield name="name" merge="join">
+        <controlline />
+        <lineoffset>-2</lineoffset>
+        <script>
+			function onInit()
+				self.setFrame("");
+				self.setLine(true, -2);
+			end
+		</script>
+      </stringfield>
+      <stringfield name="nonid_name" merge="join">
+        <controlline />
+        <lineoffset>-2</lineoffset>
+        <script>
+			function onInit()
+				self.setFrame("");
+				self.setLine(true, -2);
+			end
+		</script>
+      </stringfield>
+    </sheetdata>
+  </windowclass>
+
+  <windowclass name="quest_component" merge="join">
+    <placement>
+      <size height="300" width="300" />
+    </placement>
+    <sheetdata>
+      <formattedtextfield name="text" merge="join">
+        <frame>
+          <offset>8,8,8,8</offset>
+        </frame>
+        <script>
+			function onInit()
+				if Session.IsHost then
+					update(false);
+				else
+					update(true);
+				end
+			end
+
+			function update(bReadOnly)
+				self.setReadOnly(bReadOnly);
+				if not bReadOnly then
+					self.setFrame("formattedTextFrameEdit", 6,8,0,0);
+				else
+					self.setFrame(nil, 0,5,0,0);
+				end
+			end
+		</script>
+      </formattedtextfield>
+    </sheetdata>
+  </windowclass>
+
+  <windowclass name="quest_screamsheet_details" merge="join">
+    <placement>
+      <size height="300" width="300" />
+    </placement>
+    <sheetdata>
+      <windowlist name="leftCol" merge="join">
+        <script>
+			function update(bReadOnly)
+				if super and super.update then
+					super.update(bReadOnly)
+				end
+				
+				self.setFrame("");
+			end
+		</script>
+      </windowlist>
+      <windowlist name="rightCol" merge="join">
+        <script>
+			function update(bReadOnly)
+				if super and super.update then
+					super.update(bReadOnly)
+				end
+				
+				self.setFrame("");
+			end
+		</script>
+      </windowlist>
+    </sheetdata>
+  </windowclass>
+
+  <windowclass name="ct_program_attack" merge="join"> 
+    <placement>
+      <size height="300" width="300" />
+    </placement>
+    <sheetdata>
+    	<basicdice name="zapDmg" merge="join">
+			<script>
+				function onInit()
+					self.setFrame("darkenFullDice", 5,0,5,0);
+				end
+			</script>
+		</basicdice>
+		<basicdice name="dmg" merge="join">
+			<script>
+				function onInit()
+					self.setFrame("darkenFullDice", 5,0,5,0);
+				end
+			</script>
+		</basicdice>
+    </sheetdata>
+  </windowclass>
+
+  <windowclass name="class" merge="join">
+	<sheetdata>
+		<buttongroup_tabs name="classTabs" merge="join">
+			<anchored>
+				<right offset="0" />
+				<top offset="66" />
+				<size>
+					<width>18</width>
+					<height>150</height>
+				</size>
+			</anchored>
+		</buttongroup_tabs>
+	</sheetdata>
+  </windowclass>
+</root>
