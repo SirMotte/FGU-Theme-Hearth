@@ -656,4 +656,18 @@
     </sheetdata>
   </windowclass>
 
+  <windowclass name="class" merge="join">
+	<sheetdata>
+		<buttongroup_tabs name="classTabs" merge="join">
+			<anchored>
+				<right offset="0" />
+				<top offset="66" />
+				<size>
+					<width>18</width>
+					<height>150</height>
+				</size>
+			</anchored>
+		</buttongroup_tabs>
+	</sheetdata>
+  </windowclass>
 </root>
