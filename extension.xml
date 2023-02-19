@@ -27,6 +27,7 @@
 
 		<script name="manager_color_2" file="scripts/manager_color_2.lua" />
 		<script name="manager_desktop_2" file="scripts/manager_desktop2.lua" />
+		<script name="ThemeManager" file="rulesets/scripts/manager_theme.lua" />
 
 		<!-- Ruleset control definitions -->
 		<includefile source="rulesets/coc7e_compilation.xml" />
@@ -40,6 +41,7 @@
 		<includefile source="rulesets/pfrpg_compilation.xml" ruleset="PFRPG" />
 		<includefile source="rulesets/multi_compilation.xml" ruleset="3.5E|PFRPG2|PFRPG" />
 		<includefile source="rulesets/sfrpg_compilation.xml" ruleset="SFRPG" />
+		<includefile source="rulesets/cyberpunkred_compilation.xml" ruleset="CyberpunkRED" />
 		<includefile source="rulesets/cypher_system.xml" ruleset="Cypher System" />
 
 		<!--Extension Graphics definitions-->
