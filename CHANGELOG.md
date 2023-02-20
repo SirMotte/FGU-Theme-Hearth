@@ -23,15 +23,16 @@ Furthermore some extensions have received some love and a few buttons got a face
 [*] Fixed use power icon on Character sheet and made it more prominent and in line with the theme.
 [*] Adjusted Options Link Icon to be less BUTT UGLY!!!!
 [*] Adjusted Charsheet Tabs to also use the double outline. Proper rendering seems to fail at my resolution within FGU. Unsure if this is caused by FGU or during png compression. Investigating.
-[*]
+[*] Adjusted Modcollector to also use double borders and removed the static "points" on it.
 
 [/LIST]
 
 [COLOR="#FF0000"][B]Extension Changes[/B][/COLOR]
 [LIST]
 [*] Combat Highlighter by Daddy Ogreman, applied double outline to CT Frame.
-[*] PENDING Fixed Combat Timer by Zygmunt Molotch to use the proper theme colors.
+[*] PENDING Fixed Combat Timer by Zygmunt Molotch to use the proper theme colors.s
 [*] PENDING Moon Tracker fix for Calendar entries
+[*] Colored Moontracker Button with the more saturated yellow border to suggest a button more clearly.
 [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
