@@ -17,7 +17,7 @@ xx
 
 [COLOR="#FF0000"][B]Theme Changes:[/B][/COLOR]
 [LIST]
-[*] xx
+[*] Changed Map Pins to not wander slightly depending on zoom level. They are a lot smaller again like the original ones. Not very happy about this, but must do for now. (Thanks to RocketVaultGames for spotting this.)
 
 [/LIST]
 
