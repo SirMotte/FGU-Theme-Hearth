@@ -3,8 +3,8 @@
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
-This update brings in official support for the new Cyberpunk Red ruleset courtesy of the awesome seansps aka Lionblade.
-Furthermore some extensions have received some love and a few buttons got a facelift. Special thanks to RocketVaultGames for his detailed bug reports
+This update brings in official support for the new [B]Cyberpunk Red[/B] ruleset courtesy of its developer the awesome [B]seansps[/B].
+Furthermore some extensions have received some love and a few buttons got a facelift. Special thanks to RocketVaultGames for his detailed bug reports! A few fixes in regard of Combat Timer by Zygmund Molotch and Moon Tracker are in the pipeline, though they are low impact.
 
 [COLOR="#FF0000"][B]Added Extension Support[/B][/COLOR]
 [LIST]
@@ -30,8 +30,6 @@ Furthermore some extensions have received some love and a few buttons got a face
 [COLOR="#FF0000"][B]Extension Changes[/B][/COLOR]
 [LIST]
 [*] Combat Highlighter by Daddy Ogreman, applied double outline to CT Frame.
-[*] PENDING Fixed Combat Timer by Zygmunt Molotch to use the proper theme colors.s
-[*] PENDING Moon Tracker fix for Calendar entries
 [*] Colored Moontracker Button with the more saturated yellow border to suggest a button more clearly.
 [/LIST]
 
