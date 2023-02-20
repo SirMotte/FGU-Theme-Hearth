@@ -671,4 +671,8 @@
 		</buttongroup_tabs>
 	</sheetdata>
   </windowclass>
+
+  <windowclass name="charsheet_applyLuck" merge="join">
+	<frame>recordsheet</frame>
+  </windowclass>
 </root>
