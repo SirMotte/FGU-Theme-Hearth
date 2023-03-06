@@ -466,12 +466,12 @@
 			local fSetState;
 			function onInit()
 				local root = super;
-				while root.super do					
+				while root.super do
 					root = root.super;
 				end
 				if root then
 					fSetState = root.setState;
-					root.setState = updatedSetState;	
+					root.setState = updatedSetState;
 				end
 
 				if super.onInit then
@@ -685,17 +685,4 @@
 			end
 		</script>
 	</windowclass>
-	<!-- My try to exchange the rowshade with the fieldfocus frame on hover in the actions menu - not working
-	<windowclass name="char_weapon" merge="join">
-			<script>
-				function highlightAttack(bOnControl)
-				if bOnControl then
-					attackshade.setFrame("fieldfocus");
-				else
-					attackshade.setFrame(nil);
-				end
-			end
-		</script>
-	</windowclass>
-	-->
 </root>
