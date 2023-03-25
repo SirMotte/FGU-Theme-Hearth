@@ -158,13 +158,15 @@
 
 	<!--Author: Bmos-->
 	<!--Ext: Ammunition Manager-->
-	<!-- Buttons -->
+	<!--Buttons-->
+	<icon name="button_recover_ammo" file="graphics/pngs/button_action_heal.png" />
+	<icon name="button_recover_ammo_down" file="graphics/pngs/button_action_heal_down.png" />
 	<icon name="button_load" file="graphics/extensions/bmos/ammunition_manager/button_load.png" />
 	<icon name="button_unload" file="graphics/extensions/bmos/ammunition_manager/button_unload.png" />
-	<!-- Chat Graphics -->
+	<!--Chat Graphics-->
 	<icon name="archery_ammomanager" file="graphics/extensions/bmos/ammunition_manager/bow-and-arrows.png" />
 	<!--Ext: Hit Margins-->
-	<!-- Icons -->
+	<!--Icons-->
 	<icon name="hitmargintarget" file="graphics/extensions/bmos/hit_margins/hitmargins_logo.png" />
 	<!--Ext: Coin Weight-->
 	<icon name="bmoscoinsweight" file="graphics/extensions/bmos/coin_weight/bmos_coin_weight_logo.png" />
