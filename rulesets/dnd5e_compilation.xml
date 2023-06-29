@@ -124,10 +124,10 @@
 				end
 				if windowlist then
 					if not windowlist.isReadOnly() then
-						registerMenuItem(Interface.getString("power_menu_addaction"), "radial_create_action", 3);
+						registerMenuItem(Interface.getString("power_menu_action_add"), "radial_create_action", 3);
 						registerMenuItem(Interface.getString("list_menu_deleteconfirm"), "radial_delete_action_confirm", 6, 7);
 
-						registerMenuItem(Interface.getString("power_menu_reparse"), "radial_reparse_spell", 4);
+						registerMenuItem(Interface.getString("power_menu_action_reparse"), "radial_reparse_spell", 4);
 					end
 				end
 			end

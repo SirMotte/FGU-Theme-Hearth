@@ -466,12 +466,12 @@
 			local fSetState;
 			function onInit()
 				local root = super;
-				while root.super do					
+				while root.super do
 					root = root.super;
 				end
 				if root then
 					fSetState = root.setState;
-					root.setState = updatedSetState;	
+					root.setState = updatedSetState;
 				end
 
 				if super.onInit then
@@ -502,16 +502,8 @@
 		<script>
 			local fUpdateDisplay;
 			function onInit()
-				local root = super;
-				while root.super do
-					if root.super then
-						root = root.super;
-					end
-				end
-				if root then
-					fUpdateDisplay = root.updateDisplay;
-					root.updateDisplay = updateDisplay2;
-				end
+				fUpdateDisplay = super.updateDisplay;
+				super.updateDisplay = updateDisplay2;
 				
 				if super.onInit then
 					super.onInit();
@@ -523,27 +515,26 @@
 
 			function updateDisplay2()
 				fUpdateDisplay();
-				local nCampaignMonth = currentmonth.getValue();
+
+				local nCampaignMonth = DB.getValue("calendar.current.month", 0);
 				for _,v in pairs(list.getWindows()) do
 					local nMonth = v.month.getValue();
-					local bCampaignMonth = false;
-					if nMonth == nCampaignMonth then
-						bCampaignMonth = true;
-					end
+					local bCampaignMonth = nMonth == nCampaignMonth;
 
 					if bCampaignMonth then
-						v.label_period.setColor(ColorManager.COLOR_PRIMARY_FOREGROUND);
+						v.label_period.setColor(ColorManager.COLOR_CALENDAR_MONTH);
 					else
 						v.label_period.setColor(ColorManager.COLOR_PRIMARY_FOREGROUND);
 					end
 				end
 			end
-
 		</script>
+	</windowclass>
+	<windowclass name="calendar_main_date" merge="join">
 		<sheetdata>
-			<stringcontrol name="viewdate" merge="join">
+			<stringc_static name="viewdate" merge="join">
 				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
-			</stringcontrol>
+			</stringc_static>
 			<basicnumber name="currentyear" merge="join">
 				<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 			</basicnumber>
@@ -685,17 +676,4 @@
 			end
 		</script>
 	</windowclass>
-	<!-- My try to exchange the rowshade with the fieldfocus frame on hover in the actions menu - not working
-	<windowclass name="char_weapon" merge="join">
-			<script>
-				function highlightAttack(bOnControl)
-				if bOnControl then
-					attackshade.setFrame("fieldfocus");
-				else
-					attackshade.setFrame(nil);
-				end
-			end
-		</script>
-	</windowclass>
-	-->
 </root>
