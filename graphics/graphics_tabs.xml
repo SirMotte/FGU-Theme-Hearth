@@ -34,6 +34,10 @@
 	<icon name="tab_spells" file="graphics/pngs/tab_spells.png" />
 	<icon name="tab_xp" file="graphics/pngs/tab_xp.png" />
 	<icon name="tab_log" file="graphics/pngs/tab_log.png" />
-
-
+	
+	<icon name="tab_arcs" file="graphics/pngs/tab_arcs.png" />
+	<icon name="tab_opening" file="graphics/pngs/tab_opening.png" />
+	<icon name="tab_inprogress" file="graphics/pngs/tab_inprogress.png" />
+	<icon name="tab_climax" file="graphics/pngs/tab_climax.png" />
+	<icon name="tab_resolution" file="graphics/pngs/tab_resolution.png" />
 </root>
