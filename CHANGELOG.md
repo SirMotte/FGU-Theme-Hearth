@@ -1,3 +1,6 @@
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.22 - I See It Now[/B][/SIZE][/COLOR]
+This update fixes two header font colors that where changed or introduced in a FGU patch (npcsheet_header and storybox_header) by overriding them in the graphics_fonts.xml file.
+
 [COLOR=#FF8C00][SIZE=4][B]Update to v2.9.20 - Reverse Oracle[/B][/SIZE][/COLOR]
 
 
