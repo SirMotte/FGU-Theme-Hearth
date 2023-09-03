@@ -262,6 +262,12 @@
 	<icon name="moonphase7" file="graphics/extensions/DMFirmy/moon_tracker/phase7.png" />
 	<icon name="moonphase8" file="graphics/extensions/DMFirmy/moon_tracker/phase8.png" />
 	<icon name="nightsky-moontracker" file="graphics/extensions/DMFirmy/moon_tracker/night-sky-icon.png" />
+	<!-- Frame -->
+	<framedef name="moontracker_config">
+		<bitmap file="graphics/pngs/charsheet.png" />
+		<offset>-6,40,19,19</offset>
+		<insideoffset>0,0,0,0</insideoffset>
+	  </framedef>
 
 
 	<!--Author: Ryan Hagelstrom-->
@@ -389,19 +395,18 @@
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
-
 	<!--Define the icons for the blood splat images
-					<icon name="blood_01" file="graphics/extensions/silent_ruin/death_indicator/blood_01.png" />
-					<icon name="blood_02" file="graphics/extensions/silent_ruin/death_indicator/blood_02.png" />
-					<icon name="blood_03" file="graphics/extensions/silent_ruin/death_indicator/blood_03.png" />
-					<icon name="blood_04" file="graphics/extensions/silent_ruin/death_indicator/blood_04.png" />
-					<icon name="blood_05" file="graphics/extensions/silent_ruin/death_indicator/blood_05.png" />
-					<icon name="blood_06" file="graphics/extensions/silent_ruin/death_indicator/blood_06.png" />
-					<icon name="blood_07" file="graphics/extensions/silent_ruin/death_indicator/blood_07.png" />
-					<icon name="blood_08" file="graphics/extensions/silent_ruin/death_indicator/blood_08.png" />
-					<icon name="blood_09" file="graphics/extensions/silent_ruin/death_indicator/blood_09.png" />
-					<icon name="blood_10" file="graphics/extensions/silent_ruin/death_indicator/blood_10.png" />
-					<icon name="stable_01" file="graphics/extensions/silent_ruin/death_indicator/stable_01.png" /> -->
+	<icon name="blood_01" file="graphics/extensions/silent_ruin/death_indicator/blood_01.png" />
+	<icon name="blood_02" file="graphics/extensions/silent_ruin/death_indicator/blood_02.png" />
+	<icon name="blood_03" file="graphics/extensions/silent_ruin/death_indicator/blood_03.png" />
+	<icon name="blood_04" file="graphics/extensions/silent_ruin/death_indicator/blood_04.png" />
+	<icon name="blood_05" file="graphics/extensions/silent_ruin/death_indicator/blood_05.png" />
+	<icon name="blood_06" file="graphics/extensions/silent_ruin/death_indicator/blood_06.png" />
+	<icon name="blood_07" file="graphics/extensions/silent_ruin/death_indicator/blood_07.png" />
+	<icon name="blood_08" file="graphics/extensions/silent_ruin/death_indicator/blood_08.png" />
+	<icon name="blood_09" file="graphics/extensions/silent_ruin/death_indicator/blood_09.png" />
+	<icon name="blood_10" file="graphics/extensions/silent_ruin/death_indicator/blood_10.png" />
+	<icon name="stable_01" file="graphics/extensions/silent_ruin/death_indicator/stable_01.png" /> -->
 
 	<!--Ext: Advantages-->
 	<!--Icons-->
@@ -624,15 +629,15 @@
 	<!-- Source: desktop/record_char_main.xml -->
 	<windowclass name="charsheet_main" merge="join">
 		<script>
-					function onInit()
-						if super and super.onInit then
-							super.onInit();
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
 						end
-						if adjhp then
-							adjhp.setColor(ColorManager.COLOR_ADJUSTED_HP);
-						end
-					end
-				</script>
+					if adjhp then
+				adjhp.setColor(ColorManager.COLOR_ADJUSTED_HP);
+				end
+			end
+		</script>
 	</windowclass>
 	<!-- Ext: Extended Rest -->
 	<!-- Icons -->
@@ -1000,6 +1005,120 @@
 	<!--Ext: Advanced Effects-->
 	<!--Icons-->
 	<icon name="celestian" file="graphics/extensions/celestian/celestian.png" />
+	<!--Ext: Author-->
+		<windowclass name="masterindexitem" merge="join">
+			<sheetdata>
+				<masterindexitem_name name="name">
+					<script>
+						sDefaultColor = "DDDDDD"; <!-- Replaceable Color: Secondary Foreground -->
+							sHightlightColor = "69B7FF"; <!-- Replaceable Color: Temporary HP -->
+								function onInit()
+								local node = getDatabaseNode();
+								--sDefaultColor = getColor();
+								--Debug.console("masterindexitem_name.lua","onInit","self",self);
+								--Debug.console("masterindexitem_name.lua","onInit","sDefaultColor",sDefaultColor);
+								--Debug.console("masterindexitem_name.lua","onInit","node",node);
+								if (node.getPath():match("^encounter%.")) then
+									updateColorsForTheme();
+									local nodeStory = node.getParent();
+									DB.addHandler(DB.getPath(nodeStory, "subchapter"), "onUpdate", onSubchapterChanged);
+									DB.addHandler("options.ADND_AUTHOR_DARKTHEME", "onUpdate", updateColorsForTheme);
+									onSubchapterChanged();
+								end
+							end
+							function updateColorsForTheme()
+								local node = getDatabaseNode();
+									if OptionsManager.isOption("ADND_AUTHOR_DARKTHEME", "enabled") then
+										sDefaultColor = "DDDDDD"; <!-- Replaceable Color: Secondary Foreground -->
+										sHightlightColor = "69B7FF"; <!-- Replaceable Color: Temporary HP -->
+											else
+										sDefaultColor = "DDDDDD"; <!-- Replaceable Color: Secondary Foreground -->
+										sHightlightColor = "69B7FF"; <!-- Replaceable Color: Temporary HP -->
+									end
+								onSubchapterChanged();
+							end
+							function onClose()
+								local node = getDatabaseNode();
+								if (node.getPath():match("^encounter%.")) then
+									local nodeStory = node.getParent();
+									DB.removeHandler(DB.getPath(nodeStory, "subchapter"), "onUpdate", onSubchapterChanged);
+									DB.removeHandler("options.ADND_AUTHOR_DARKTHEME", "onUpdate", updateColorsForTheme);
+								end
+								end
+								function onSubchapterChanged()
+								local node = getDatabaseNode();
+								if (node.getPath():match("^encounter%.")) then
+									local nodeStory = node.getParent();
+									local bSubChapter = (DB.getValue(nodeStory,"subchapter",0) == 1);
+									if bSubChapter then -- change to purple
+									setColor(sHightlightColor);
+									else
+									setColor(sDefaultColor); -- otherwise set black
+									end
+								end
+								end
+
+								function onHover(bHover)
+									setUnderline(bHover, -1);
+								end
+
+								function onClickDown(button, x, y)
+									return true;
+								end
+
+								function onClickRelease(button, x, y)
+									window.link.activate();
+									return true;
+								end
+
+								function onDragStart(button, x, y, draginfo)
+									draginfo.setType("shortcut");
+									draginfo.setIcon("button_link");
+									local sClass, sRecord = window.link.getValue();
+									draginfo.setShortcutData(sClass, sRecord);
+								--Debug.console("masterindexitem_name.lua","onDragStart","sClass",sClass);  
+								if LibraryData.getRecordTypeFromPath(sClass) ~= "" then
+									draginfo.setDescription(StringManager.capitalize(LibraryData.getRecordTypeFromPath(sClass)) .. ": " .. getValue());
+								elseif LibraryData.getDisplayText(sClass) ~= "" then
+									draginfo.setDescription(LibraryData.getDisplayText(sClass) .. ": " .. getValue());
+								elseif getRecordTypeFromDisplayClass(sClass) ~= "" then
+									draginfo.setDescription(StringManager.capitalize(getRecordTypeFromDisplayClass(sClass)) .. ": " .. getValue());
+								elseif getRecordTypeFromDataMap(sClass) ~= "" then
+									draginfo.setDescription(StringManager.capitalize(getRecordTypeFromDataMap(sClass)) .. ": " .. getValue());
+								else
+									draginfo.setDescription(getValue());
+								end
+									return true;
+								end
+
+								-- various utility functions to get readable/useful tags for dragged links.
+								function getRecordTypeFromDisplayClass(sDisplayClass)
+								for kRecordType,vRecord in pairs(LibraryData.aRecords) do
+									if vRecord.sRecordDisplayClass and vRecord.sRecordDisplayClass == sDisplayClass then
+									return kRecordType;
+									end
+								end
+								return "";
+								end
+								function getRecordTypeFromDataMap(sDataMap)
+									for kRecordType,vRecord in pairs(aRecords) do
+										if vRecord.aDataMap then
+									for i=1,#vRecord.aDataMap do 
+										if vRecord.aDataMap[i] == sDataMap then
+										return kRecordType;
+										end
+									end
+										end
+									end
+									return "";
+								end
+						</script>
+					</masterindexitem_name>
+				</sheetdata>
+			</windowclass>
+	<icon name="button_bulk_add" file="graphics/extensions/celestian/author/button_statpointmode.png" />
+    <icon name="button_bulk_add_down" file="graphics/extensions/celestian/author/button_statpointmode_down.png" />
+
 
 	<!--Author: Stv-->
 	<!--Ext: 5E Legendary Assistant-->
