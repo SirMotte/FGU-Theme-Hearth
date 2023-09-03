@@ -1,6 +1,7 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
 This is a Theme Extension for the Fantasy Grounds Virtual Tabletop Platform.
+Foundry VTT Player? Please go [here](https://github.com/SirMotte/FoundryVTT-Theme-Hearth)
 
 If you come across extensions that need to be adjusted to fit this theme, please contact me :).
 
@@ -9,7 +10,7 @@ If you come across extensions that need to be adjusted to fit this theme, please
 Now with [Customization Bonus Extension](https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md)
 In order to customize your GM Icon, download my GM Icon Replacer Extension and follow the instructions in the readme.
 
-You can find me on Discord using sir_motte, the [Grim Press](https://discord.com/invite/zQCJ6H67XN) and [Fantasy Grounds Channel](https://discord.gg/rhvsZj5xgP) or message me here directly. For discussions, help and suggestions either write/report on the [Fantasy Grounds Forums Thread](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-5E-SirMottes-Magnificent-Darkness), or @Message me in the official [Forge Item Support Channel](https://discord.gg/dFx53WDKzb) on Discord.
+You can find me on Discord using Sir Motte#1305, the [Grim Press](https://discord.com/invite/zQCJ6H67XN) and [Fantasy Grounds Channel](https://discord.gg/rhvsZj5xgP) or message me here directly. For discussions, help and suggestions either write/report on the [Fantasy Grounds Forums Thread](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-5E-SirMottes-Magnificent-Darkness), or @Message me in the official [Forge Item Support Channel](https://discord.gg/dFx53WDKzb) on Discord.
 
 Foundry VTT User? Check out the [Foundry VTT - Hearth Theme](https://github.com/SirMotte/FoundryVTT-Theme-Hearth) sibling.
 
