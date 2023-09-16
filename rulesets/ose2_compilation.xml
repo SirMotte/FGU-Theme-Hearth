@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<icon name="powers" file="graphics/pngs/tab_powers.png" />
+	<icon name="spells" file="graphics/pngs/tab_spells.png" />
+	<icon name="weapons" file="graphics/pngs/tab_weapons.png" />
+	<icon name="labelframe" file="graphics/icons_ose2/charmainplate.png" />
+	<icon name="main" file="graphics/pngs/tab_main.png" />
+	<icon name="meleeindicator" file="graphics/icons_ose2/indicator_melee.png" />
+	<icon name="rangedindicator" file="graphics/icons_ose2/indicator_ranged.png" />
+	<icon name="class" file="graphics/tabs_ose2/tab_class.png" />
+	<icon name="data" file="graphics/tabs_ose2/tab_data.png" />
+	<icon name="tab_rolls" file="graphics/tabs_ose2/tab_rolls.png" />
+	<font name="Ose-Reference" merge="join">
+		<color value="#FFF0CA" />
+	</font>
+	<font name="OSE_Reference_medium" merge="join">
+		<color value="#FFF0CA" />
+	</font>
+	<font name="Ose_referencesmall" merge="join">
+		<color value="#FFF0CA" />
+	</font>
+	<framedef name="charnamebox_frame">
+		<bitmap file="graphics/frames_ose2/charnamebox.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+	<framedef name="attboxose_icon">
+		<bitmap file="graphics/frames_ose2/attboxose.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+	<framedef name="attoselong">
+		<bitmap file="graphics/frames_ose2/attboxoselong.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+	<framedef name="osebox_frame">
+		<bitmap file="graphics/frames_ose2/osebox1.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+	<framedef name="shield">
+		<bitmap file="graphics/frames_ose2/shield.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+	<framedef name="skillbox">
+		<bitmap file="graphics/frames_ose2/Skillbutton.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+	<framedef name="turnundead">
+		<bitmap file="graphics/frames_ose2/turndead.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+		<framedef name="charsheetframe">
+		<bitmap file="graphics/frames_ose2/groupbox.png" />
+		<offset>15,15,15,15</offset>
+	</framedef>
+	<framedef name="chatbox">
+		<bitmap file="graphics/frames_ose2/groupbox.png" />
+		<offset>50,50,50,50</offset>
+	</framedef>
+	<framedef name="ctbox">
+		<bitmap file="graphics/frames_ose2/groupbox.png" />
+		<insideoffset rect="0,0,7,7" />
+		<offset>32,32,19,57</offset>
+	</framedef>
+	<framedef name="groupbox">
+		<bitmap file="graphics/frames_ose2/groupbox.png" />
+		<offset>20,20,10,10</offset>
+	</framedef>
+	<framedef name="groupboxextra">
+		<bitmap file="graphics/frames_ose2/groupbox.png" />
+		<offset>20,20,10,10</offset>
+	</framedef>
+<windowclass name="ClassData_detail" merge="join">
+		<sheetdata>
+			<basicnumber name="thaco_class">
+				<backcolor>#322C27</backcolor>
+			</basicnumber>
+			<basicnumber name="SVD_num">
+				<backcolor>#322C27</backcolor>
+			</basicnumber>
+			<basicnumber name="SVW_num">
+				<backcolor>#322C27</backcolor>
+			</basicnumber>
+			<basicnumber name="SVP_num">
+				<backcolor>#322C27</backcolor>
+			</basicnumber>
+			<basicnumber name="SVB_num">
+				<backcolor>#322C27</backcolor>
+			</basicnumber>
+			<basicnumber name="SVS_num">
+				<backcolor>#322C27</backcolor>
+			</basicnumber>
+		</sheetdata>
+	</windowclass>
+	<windowclass name="npc_spells_detail_ct" merge="join">
+		<sheetdata>
+			<buttoncontrol name="Tarsv_button">
+				<backcolor>#322C27</backcolor>
+			</buttoncontrol>
+			<buttoncontrol name="Castnosv_button">
+				<backcolor>#322C27</backcolor>
+			</buttoncontrol>
+			<buttoncontrol name="spellheal_button">
+				<backcolor>#322C27</backcolor>
+			</buttoncontrol>
+			<buttoncontrol name="spelllevel">
+				<backcolor>#322C27</backcolor>
+			</buttoncontrol>
+		</sheetdata>
+	</windowclass>
+	<windowclass name="charsheet_main" merge="join">
+		<sheetdata>
+			<hn name="Level_new">
+				<invisible merge="delete" />
+			</hn>
+		</sheetdata>
+	</windowclass>
+	<windowclass name="class_detail" merge="join">
+		<sheetdata>
+			<hn name="level_label">
+				<font>Ose-Reference</font>
+			</hn>
+		</sheetdata>
+	</windowclass>
+</root>

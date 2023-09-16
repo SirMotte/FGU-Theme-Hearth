@@ -30,7 +30,6 @@
 	<icon name="tab_combat" file="graphics/pngs/tab_combat.png" />
 	<icon name="tab_other" file="graphics/pngs/tab_other.png" />
 	<icon name="tab_powers" file="graphics/pngs/tab_powers.png" />
-	<icon name="powers" file="graphics/pngs/tab_powers.png" />
 	<icon name="tab_skills" file="graphics/pngs/tab_skills.png" />
 	<icon name="tab_spells" file="graphics/pngs/tab_spells.png" />
 	<icon name="tab_xp" file="graphics/pngs/tab_xp.png" />

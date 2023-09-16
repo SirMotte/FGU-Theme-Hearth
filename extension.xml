@@ -35,6 +35,7 @@
 		<includefile source="rulesets/dnd2e_compilation.xml" ruleset="2E" />
 		<includefile source="rulesets/dnd4e_compilation.xml" ruleset="4E" />
 		<includefile source="rulesets/dnd5e_compilation.xml" ruleset="5E" />
+        <includefile source="rulesets/ose2_compilation.xml" ruleset="OSE2" />
 		<includefile source="rulesets/savageworlds_compilation.xml" ruleset="SavageWorlds" />
 		<includefile source="rulesets/icrpg_compilation.xml" ruleset="ICRPG" />
 		<includefile source="rulesets/pfrpg2_compilation.xml" ruleset="PFRPG2" />
