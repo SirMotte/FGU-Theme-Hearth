@@ -2,12 +2,12 @@
 <!--Special Thanks to MeAndUnique, Saagael and Zarestia for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: 2.9.21 - Knightowl\rHearth Edition" font="oocfont" icon="footface" />
+	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: 2.9.22 - I See It Now Edition" font="oocfont" icon="footface" />
 
 	<properties>
 		<name>Theme: Hearth</name>
 		<author>Sir Motte - Co. Authors: MeAndUnique and Saagael / Contributions by bmos and Zarestia</author>
-		<version>2.9.21</version>
+		<version>2.9.22</version>
 		<description>Dark, warm and reduced user interface for FGU</description>
 		<loadorder>1500</loadorder>
 	</properties>
@@ -35,6 +35,7 @@
 		<includefile source="rulesets/dnd2e_compilation.xml" ruleset="2E" />
 		<includefile source="rulesets/dnd4e_compilation.xml" ruleset="4E" />
 		<includefile source="rulesets/dnd5e_compilation.xml" ruleset="5E" />
+        <includefile source="rulesets/ose2_compilation.xml" ruleset="OSE2" />
 		<includefile source="rulesets/savageworlds_compilation.xml" ruleset="SavageWorlds" />
 		<includefile source="rulesets/icrpg_compilation.xml" ruleset="ICRPG" />
 		<includefile source="rulesets/pfrpg2_compilation.xml" ruleset="PFRPG2" />
