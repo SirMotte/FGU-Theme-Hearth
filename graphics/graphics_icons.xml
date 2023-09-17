@@ -383,9 +383,9 @@
 	<icon name="button_page_top" file="graphics/pngs/arrow_sm_up.png" />
 
 	<!-- pngs tower -->
-	<icon name="pngstower_icon" file="graphics/pngs/dicetower_icon.png" />
-	<icon name="pngstower_drop" file="graphics/pngs/dicetower_drop.png" />
-	<icon name="pngstower_normal" file="graphics/pngs/dicetower_normal.png" />
+	<icon name="dicetower_icon" file="graphics/pngs/dicetower_icon.png" />
+	<icon name="dicetower_drop" file="graphics/pngs/dicetower_drop.png" />
+	<icon name="dicetower_normal" file="graphics/pngs/dicetower_normal.png" />
 
 	<!-- Dragging -->
 	<icon name="action_attack" file="graphics/pngs/action_attack.png" />
