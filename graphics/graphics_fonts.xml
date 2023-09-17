@@ -167,7 +167,7 @@
 		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="24" />
 		<color value="#FFF0CA" />
 	</font>
-	<font name="storybox_header">
+	<font name="storybox_header"> <!-- Note and Story header font, see CoreRPG string_record_name_story for edit ctrl -->
 		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="24" />
 		<color value="#FFF0CA" />
 	</font>
@@ -460,7 +460,7 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="Edhiron">
-		<ttf file="graphics/fonts/Edhiron.ttf" name="Edhiron Asdh�riel v. 1.2" size="30" />
+		<ttf file="graphics/fonts/Edhiron.ttf" name="Edhiron Asdh?riel v. 1.2" size="30" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="Espruar">
