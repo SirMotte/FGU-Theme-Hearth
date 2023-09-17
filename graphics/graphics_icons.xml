@@ -8,7 +8,7 @@
 
 	<!-- CoreRPG -->
 	<!-- Portrait -->
-	<icon name="charlist_base" file="graphics/pngs/portrait.png" />
+	<icon name="charlist_base" file="graphics/pngs/portrait_token.png" />
 	<icon name="portraitchat_base" file="graphics/pngs/portrait_chat.png" />
 	<icon name="portraitchat_mask" file="graphics/pngs/portrait_chat_mask.png" />
 	<icon name="portraittoken_base" file="graphics/pngs/portrait_token.png" />
