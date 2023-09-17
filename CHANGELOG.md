@@ -1,35 +1,25 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.22 - I See It Now[/B][/SIZE][/COLOR]
-
-This update fixes two header font colors that where changed or introduced in a FGU patch (npcsheet_header and storybox_header) by overriding them in the graphics_fonts.xml file.
-
 [COLOR=#FF8C00][SIZE=4][B]Update to v2.9.21 - Knightowl[/B][/SIZE][/COLOR]
-
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
-xx
+Thanks to the amazing JustinFreitas some fixes are provided for the recent changes Smite Works did to how Themese are set-up. Make sure to shower him with praise!
+Since I haven't taken a closer look on what was changed, 
+
+My current work scedule doesn't allow me to allocate time to anything else and during the few hours of free time I'm too exhausted to actually work on the theme right now, please bear with me.
+The Update is now live on the forge, in case you have used the Version posted my JustinFreitas in this thread, you don't need to delete it, it will get overwritten if you update though the forge.
+
+Cheers Sir Motte
+
+If your Theme's Version number goes down from 2.9.22 to 2.9.21, this is intended, as I don't jump numers for the main branch releases (in case you used Justins Version)
 
 [COLOR="#FF0000"][B]Added Ruleset Support[/B][/COLOR]
 [LIST]
-[*] xx
-[/LIST]
-
-[COLOR="#FF0000"][B]Added Extension Support[/B][/COLOR]
-[LIST]
-[*] "Author" by Celestian
+[*] Old School Essentials (brought to you by Justin Freitas)
 [/LIST]
 
 [COLOR="#FF0000"][B]Theme Changes:[/B][/COLOR]
 [LIST]
-[*] Exchanged Map Pins to not wander slightly depending on zoom level. They are a lot smaller again like the original ones. Not very happy about this, but must do for now. (Thanks to RocketVaultGames for spotting this.)
-[*] Fixed Moon Tracker Config Windowframe (somewhat, still broken)
-[*] Changed Reference Manual Headers to use the new bleached red color.
-[*] Fixed missing tooltips for add- and delete action in the character actions tab radial menu. (thx MeAndUnique).
-[/LIST]
-
-[COLOR="#FF0000"][B]Extension Changes[/B][/COLOR]
-[LIST]
-[*] xx
+- Fixed new Graphics and broken stuff introdued with the recent Smiteworks Updates.
 [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
@@ -40,48 +30,3 @@ https://forge.fantasygrounds.com/shop/items/12/view
 
 GitHub:
 https://github.com/SirMotte/FGU-Theme-Hearth/releases
-
-[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.20 - Reverse Oracle[/B][/SIZE][/COLOR]
-
-
-[COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
-
-This update brings in official support for the new [B]Cyberpunk Red[/B] ruleset courtesy of its developer the awesome [B]seansps[/B].
-Furthermore some extensions have received some love and a few buttons got a facelift. Special thanks to RocketVaultGames for his detailed bug reports! A few fixes in regard of Combat Timer by Zygmund Molotch and Moon Tracker are in the pipeline, though they are low impact.
-
-[COLOR="#FF0000"][B]Added Extension Support[/B][/COLOR]
-[LIST]
-[*] Cyberpunk Red support - Basic
-[/LIST]
-
-[COLOR="#FF0000"][B]Added Extension Support[/B][/COLOR]
-[LIST]
-[*] Capital Gains by MeAndUnique
-[*] Added support for Bayne's Bag of Holding.
-[*] Chat Aesthetics Configurator by Drowbe, maintained by Ryan Hagelstrom.
-[/LIST]
-
-[COLOR="#FF0000"][B]Theme Changes:[/B][/COLOR]
-[LIST]
-[*] Fixed use power icon on Character sheet and made it more prominent and in line with the theme.
-[*] Adjusted Options Link Icon to be less BUTT UGLY!!!!
-[*] Adjusted Charsheet Tabs to also use the double outline. Proper rendering seems to fail at my resolution within FGU. Unsure if this is caused by FGU or during png compression. Investigating.
-[*] Adjusted Modcollector to also use double borders and removed the static "points" on it.
-
-[/LIST]
-
-[COLOR="#FF0000"][B]Extension Changes[/B][/COLOR]
-[LIST]
-[*] Combat Highlighter by Daddy Ogreman, applied double outline to CT Frame.
-[*] Colored Moontracker Button with the more saturated yellow border to suggest a button more clearly.
-[/LIST]
-
-[COLOR="#FF0000"][B]Download:[/B][/COLOR]
-
-Fantasy Grounds Forge (Recommended)
-(Run an update using the FG Client if you're already subscribed):
-https://forge.fantasygrounds.com/shop/items/12/view
-
-GitHub:
-https://github.com/SirMotte/FGU-Theme-Hearth/releases
-
