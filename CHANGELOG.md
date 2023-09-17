@@ -19,7 +19,8 @@ If your Theme's Version number goes down from 2.9.22 to 2.9.21, this is intended
 
 [COLOR="#FF0000"][B]Theme Changes:[/B][/COLOR]
 [LIST]
-- Fixed new Graphics and broken stuff introdued with the recent Smiteworks Updates.
+- Fixed new Graphics and broken stuff introdued with the recent Smiteworks Updates. (brought to you by Justin Freitas)
+- Maybe some minor adjustments that I have forgotten about by now.
 [/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
