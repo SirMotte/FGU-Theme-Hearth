@@ -119,6 +119,4 @@
 			</hn>
 		</sheetdata>
 	</windowclass>
-   	<windowclass name="race" merge="join">
-	</windowclass>
 </root>
