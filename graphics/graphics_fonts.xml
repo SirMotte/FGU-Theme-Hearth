@@ -164,11 +164,11 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="npcsheet_header">
-		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="24" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Noto Sans Bold" size="20" />
 		<color value="#FFF0CA" />
 	</font>
 	<font name="storybox_header">
-		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="24" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Noto Sans Bold" size="20" />
 		<color value="#FFF0CA" />
 	</font>
 	<!-- Formatted text fields -->
