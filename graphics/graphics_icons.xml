@@ -542,7 +542,6 @@
 	<icon name="tool_shortcut_30" file="graphics/pngs/tool_shortcut.png" />
 	<icon name="tool_preview_30" file="graphics/pngs/tool_preview.png" />
 
-	<!--<icon name="refresh" file="graphics/pngs/refresh.png" />-->
 	<!-- Modifier Stack -->
 	<icon name="modcollector" file="graphics/pngs/modcollector.png" />
 

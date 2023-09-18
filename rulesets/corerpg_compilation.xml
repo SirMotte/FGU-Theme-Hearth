@@ -438,7 +438,12 @@
 			<invisible />
 		</button_window_sizedown>
 	</template>
-	
+    <template name="button_refresh">
+		<button_icon>
+			<icon normal="refresh" />
+		</button_icon>
+	</template>
+
 	<!-- Source: CoreRPG ref/template_ref.xml -->
 	<template name="anchor_reftitle">
 		<genericcontrol>
@@ -483,6 +488,45 @@
 					ReferenceManualManager.performPageCopy(window);
 				end
 			</script>
+		</button_listitem_icon_framed_right>
+	</template>
+	<template name="button_refmanual_content_paste">
+		<button_listitem_icon_framed_right>
+			<icon normal="content_paste" />
+			<tooltip textres="record_paste" />
+			<invisible />
+			<script>
+				function onInit()
+					super.onInit();
+					if Session.IsHost then
+						ReferenceManualManager.registerPagePasteCallback(self.onPasteCallback);
+					end
+				end
+				function onClose()
+					if Session.IsHost then
+						ReferenceManualManager.unregisterPagePasteCallback(self.onPasteCallback);
+					end
+				end
+				function onPasteCallback()
+					self.update();
+				end
+				function update()
+					local bReadOnly = WindowManager.getReadOnlyState(window.getDatabaseNode());
+					local bCanPaste = ReferenceManualManager.hasPagePasteRecord();
+					setVisible(bCanPaste and not bReadOnly);
+				end
+				function onButtonPress()
+					ReferenceManualManager.performPagePaste(window.parentcontrol.window.content.subwindow);
+				end
+			</script>
+		</button_listitem_icon_framed_right>
+	</template>
+	<template name="button_refmanual_content_revert">
+		<button_listitem_icon_framed_right>
+			<icon normal="refresh" />
+			<tooltip textres="record_revert" />
+			<invisible />
+			<script file="ref/scripts/ref_revert.lua" />
 		</button_listitem_icon_framed_right>
 	</template>
 
