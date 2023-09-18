@@ -56,7 +56,7 @@
 		<offset>50,50,50,50</offset>
 	</framedef>
 	<framedef name="groupbox">
-		<bitmap file="graphics/frames_ose2/chatbox.png" />
+		<bitmap file="graphics/pngs/chatbox.png" />
 		<offset>20,20,10,10</offset>
 	</framedef>
 	<framedef name="groupboxextra">
@@ -114,5 +114,7 @@
 				<font>Ose-Reference</font>
 			</hn>
 		</sheetdata>
+	</windowclass>
+   	<windowclass name="race" copy="record_window" merge="join">
 	</windowclass>
 </root>
