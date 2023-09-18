@@ -6,6 +6,21 @@
 			<anchored position="insidetopright" offset="60,24" />
 		</button_window_sizeup>
 	</template>
+	<template name="button_ichat">
+		<button_icon name="button_ichat">
+			<anchored to="rightanchor" width="20" height="20">
+				<top />
+				<right relation="relative" offset="-5" postoffet="-5" />
+			</anchored>
+			<icon normal="content_chat" />
+			<tooltip textres="record_chat" />
+			<script>
+				function onButtonPress()
+					RecordShareManager.onShareButtonPressed(window);
+				end
+			</script>
+		</button_icon>
+	</template>
 
 	<!-- Source: common/template_records.xml -->
 	<template name="anchor_record_image_header_right">
