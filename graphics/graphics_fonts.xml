@@ -460,7 +460,7 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="Edhiron">
-		<ttf file="graphics/fonts/Edhiron.ttf" name="Edhiron Asdh?riel v. 1.2" size="30" />
+		<ttf file="graphics/fonts/Edhiron.ttf" name="Edhiron Asdh�riel v. 1.2" size="30" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="Espruar">
