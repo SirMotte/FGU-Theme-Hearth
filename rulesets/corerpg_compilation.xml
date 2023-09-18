@@ -529,6 +529,24 @@
 			<script file="ref/scripts/ref_revert.lua" />
 		</button_listitem_icon_framed_right>
 	</template>
+	<template name="button_expand">
+		<button_icon>
+			<icon normal="button_expand_w" />
+			<tooltip textres="tooltip_expand" />
+			<target>grouplist,list</target>
+			<expand />
+			<script file="common/scripts/button_expand_collapse.lua" />
+		</button_icon>
+	</template>
+	<template name="button_collapse">
+		<button_icon>
+			<icon normal="button_collapse_w" />
+			<tooltip textres="tooltip_collapse" />
+			<target>grouplist,list</target>
+			<collapse />
+			<script file="common/scripts/button_expand_collapse.lua" />
+		</button_icon>
+	</template>
 
 	<!-- CALENDAR -->
 	<!-- Source: utility/utility_calendar.xml -->
