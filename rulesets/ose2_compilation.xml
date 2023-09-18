@@ -115,6 +115,4 @@
 			</hn>
 		</sheetdata>
 	</windowclass>
-   	<windowclass name="race" copy="record_window" merge="join">
-	</windowclass>
 </root>
