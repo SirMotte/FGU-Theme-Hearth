@@ -458,6 +458,18 @@
 			<fastinit />
 		</subwindow>
 	</template>
+	<template name="button_refmanual_content_copy">
+		<button_listitem_icon_framed_right>
+			<icon normal="content_copy" />
+			<tooltip textres="record_copy" />
+			<gmvisibleonly />
+			<script>
+				function onButtonPress()
+					ReferenceManualManager.performPageCopy(window);
+				end
+			</script>
+		</button_listitem_icon_framed_right>
+	</template>
 
 	<!-- CALENDAR -->
 	<!-- Source: utility/utility_calendar.xml -->
