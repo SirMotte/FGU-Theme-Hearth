@@ -165,11 +165,11 @@
 	</font>
 	<font name="npcsheet_header">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Noto Sans Bold" size="20" />
-		<color value="#FFF0CA" />
+		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="storybox_header">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Noto Sans Bold" size="20" />
-		<color value="#FFF0CA" />
+		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<!-- Formatted text fields -->
 	<font name="reference-h">
