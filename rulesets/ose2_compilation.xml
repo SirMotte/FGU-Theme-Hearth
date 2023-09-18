@@ -63,6 +63,10 @@
 		<bitmap file="graphics/frames_ose2/groupbox.png" />
 		<offset>20,20,10,10</offset>
 	</framedef>
+    <framedef name="ct_subgroupbox">
+        <bitmap file="graphics/pngs/ct_subgroupbox.png" />
+        <offset>12,12,12,12</offset>
+    </framedef>
 <windowclass name="ClassData_detail" merge="join">
 		<sheetdata>
 			<basicnumber name="thaco_class">
@@ -114,5 +118,7 @@
 				<font>Ose-Reference</font>
 			</hn>
 		</sheetdata>
+	</windowclass>
+   	<windowclass name="race" merge="join">
 	</windowclass>
 </root>
