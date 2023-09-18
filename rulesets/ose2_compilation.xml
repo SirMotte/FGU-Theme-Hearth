@@ -52,13 +52,8 @@
 		<offset>15,15,15,15</offset>
 	</framedef>
 	<framedef name="chatbox">
-		<bitmap file="graphics/frames_ose2/groupbox.png" />
+		<bitmap file="graphics/pngs/chatbox.png" />
 		<offset>50,50,50,50</offset>
-	</framedef>
-	<framedef name="ctbox">
-		<bitmap file="graphics/frames_ose2/groupbox.png" />
-		<insideoffset rect="0,0,7,7" />
-		<offset>32,32,19,57</offset>
 	</framedef>
 	<framedef name="groupbox">
 		<bitmap file="graphics/frames_ose2/groupbox.png" />
