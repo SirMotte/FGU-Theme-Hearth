@@ -56,7 +56,7 @@
 		<offset>50,50,50,50</offset>
 	</framedef>
 	<framedef name="groupbox">
-		<bitmap file="graphics/pngs/chatbox.png" />
+		<bitmap file="graphics/pngs/groupbox.png" />
 		<offset>20,20,10,10</offset>
 	</framedef>
 	<framedef name="groupboxextra">
