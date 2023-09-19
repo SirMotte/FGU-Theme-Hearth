@@ -174,11 +174,11 @@
 	<!-- Formatted text fields -->
 	<font name="reference-h">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#DDDDDD" /> <!-- Replaceable Color: Primary Foreground -->
+		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-h" ruleset="XCore" >
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#DDDDDD" /> <!-- Replaceable Color: Primary Foreground -->
+		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-r">
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
