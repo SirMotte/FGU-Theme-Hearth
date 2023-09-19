@@ -98,6 +98,10 @@
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#77CE77" /> <!-- Replaceable Color: Chat Font 4 -->
 	</font>
+    <font name="chat_record_share">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
 
 	<!-- Chat fonts -->
 	<font name="chatnpcfont">

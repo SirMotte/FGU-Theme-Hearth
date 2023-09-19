@@ -275,6 +275,10 @@
 		<bitmap file="graphics/pngs/diebox.png" />
 		<offset>16,16,16,16</offset>
 	</framedef>
+	<framedef name="chatframe_record_share">
+		<bitmap file="graphics/pngs/chatframe_record_share.png" />
+		<offset>8,40,8,8</offset>
+	</framedef>
 
 	<!-- Combat tracker -->
 	<framedef name="ctbox">
