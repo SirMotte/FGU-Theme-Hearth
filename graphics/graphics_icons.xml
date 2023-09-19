@@ -71,6 +71,8 @@
 	<icon name="sidebar_icon_recordtype_specialability" file="graphics/pngs/sidebar_icon_fire.png" />
 	<icon name="sidebar_icon_recordtype_spell" file="graphics/pngs/sidebar_icon_spell.png" />
 	<icon name="sidebar_icon_recordtype_talent" file="graphics/pngs/sidebar_icon_feat.png" />
+	<icon name="sidebar_icon_link_sound_context" file="graphics/pngs/sidebar_icon_soundset.png" />
+	<icon name="sidebar_icon_recordtype_soundset" file="graphics/pngs/sidebar_icon_soundset.png" />
 
 	<!-- Common -->
 	<icon name="button_dialog_ok" file="graphics/pngs/button_dialog_ok.png" />
