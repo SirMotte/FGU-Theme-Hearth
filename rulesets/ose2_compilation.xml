@@ -127,20 +127,25 @@
 	</windowclass>
 	<windowclass name="spells_main" merge="join">
 		<sheetdata>
-			<button_stringcycler_column name="Spelluse_type">
-                <size>
-                    <width>86</width>
-                    <height>30</height>
-                </size>
-			</button_stringcycler_column>
+			<stringcontrol name="dierollmult_label">
+				<anchored>
+					<top offset="52" anchor="bottom" parent="properties" relation="current" />
+				</anchored>
+			</stringcontrol>
 			<stringcontrol name="die_label">
 				<anchored>
+					<top offset="52" anchor="bottom" parent="properties" relation="current" />
 					<left offset="32" />
 				</anchored>
 			</stringcontrol>
-			<stringcontrol name="dierollmult_label">
+			<stringcontrol name="Casterlvl_label">
 				<anchored>
-					<top offset="48" anchor="bottom" parent="properties" relation="current" />
+					<top offset="52" anchor="bottom" parent="properties" relation="current" />
+				</anchored>
+			</stringcontrol>
+			<stringcontrol name="mod_label">
+				<anchored>
+					<top offset="52" anchor="bottom" parent="properties" relation="current" />
 				</anchored>
 			</stringcontrol>
 			<stringfield name="spells_die">
