@@ -181,4 +181,31 @@
 			</number>
 		</sheetdata>
 	</windowclass>
+	<!-- Source: ct/ct_host.xml -->
+	<windowclass name="combattracker_host" merge="join">
+		<sizelimits>
+			<minimum width="494" />
+		</sizelimits>
+		<sheetdata>
+            <label_ct_host_rounds name="label_round" merge="join">
+                <anchored height="24">
+                    <bottom offset="-20" />
+                    <right parent="contentanchor" offset="-97" />
+                </anchored>
+            </label_ct_host_rounds>
+			<number_ct_host_rounds name="round" merge="join">
+                <anchored width="40" height="24">
+                    <bottom offset="-20" />
+                    <right parent="contentanchor" offset="-40" />
+                </anchored>
+            </number_ct_host_rounds>
+            <button_turn name="button_turn" merge="join">
+                <bounds merge="delete" />
+                <anchored width="25" height="25">
+                    <bottom offset="-19" />
+                    <right parent="contentanchor" offset="-155" />
+                </anchored>
+            </button_turn>
+		</sheetdata>
+	</windowclass>
 </root>
