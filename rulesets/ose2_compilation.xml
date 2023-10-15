@@ -184,7 +184,7 @@
 	<!-- Source: ct/ct_host.xml -->
 	<windowclass name="combattracker_host" merge="join">
 		<sizelimits>
-			<minimum width="494" />
+			<minimum width="520" />
 		</sizelimits>
 		<sheetdata>
             <label_ct_host_rounds name="label_round" merge="join">
