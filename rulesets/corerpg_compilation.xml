@@ -766,3 +766,13 @@
 		</script>
 	</windowclass>
 </root>
+
+<!-- Token Height text label -->
+<font name="token_height">
+    <ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="24" />
+    <color value="#FFF0CA" />
+</font>
+<font name="token_height_negative">
+    <ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="24" />
+    <color value="#800000" />
+</font>

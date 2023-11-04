@@ -766,7 +766,7 @@
 		<offset>6,6,6,6</offset>
 	</framedef>
 	<framedef name="token_height">
-		<bitmap file="graphics/pngs/mini_name.png" />
+		<bitmap file="graphics/pngs/mini_name_height.png" />
 		<offset>7,7,7,7</offset>
 	</framedef>
 
