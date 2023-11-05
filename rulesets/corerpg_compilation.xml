@@ -765,14 +765,27 @@
 			end
 		</script>
 	</windowclass>
-</root>
+    
+    <!-- Chat window padding adjustments. Source: template_windows.xml -->
+    <template name="anchor_content_chatbox_top">
+        <genericcontrol name="contentanchor">
+            <anchored height="0">
+                <top offset="8" />
+                <left offset="16" />
+                <right offset="-20" />
+            </anchored>
+            <disabled />
+        </genericcontrol>
+    </template>
 
-<!-- Token Height text label -->
-<font name="token_height">
-    <ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="24" />
-    <color value="#FFF0CA" />
-</font>
-<font name="token_height_negative">
-    <ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="24" />
-    <color value="#800000" />
-</font>
+	<template name="anchor_content_chatbox_bottom">
+		<genericcontrol name="bottomanchor">
+			<anchored to="contentanchor" height="10">
+				<bottom parent="" />
+				<left />
+				<right />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
+</root>
