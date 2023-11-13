@@ -110,7 +110,7 @@
 	</font>
 	<font name="chatgmfont">
 		<ttf file="graphics/fonts/Roboto-BoldItalic.ttf" name="Roboto Bold Italic" size="16" />
-		<color value="#F3D876" /> <!-- Replaceable Color: Chat Font 6 -->
+		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="whisperfont">
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
