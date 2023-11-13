@@ -261,15 +261,15 @@
 	</framedef>
 	<framedef name="chatframe_chat">
 		<bitmap file="graphics/pngs/chatframe_chat.png" />
-		<offset>17,17,7,7</offset>
+		<offset>7,7,7,7</offset>
 	</framedef>
 	<framedef name="chatframe_story">
 		<bitmap file="graphics/pngs/chatframe_story.png" />
-		<offset>18,18,17,17</offset>
+		<offset>7,7,7,7</offset>
 	</framedef>
 	<framedef name="chatframe_whisper">
 		<bitmap file="graphics/pngs/chatframe_whisper.png" />
-		<offset>17,17,7,7</offset>
+		<offset>7,7,7,7</offset>
 	</framedef>
 	<framedef name="diebox">
 		<bitmap file="graphics/pngs/diebox.png" />
@@ -758,7 +758,7 @@
 
 	<!-- Tokens -->
 	<framedef name="token_name">
-		<bitmap file="graphics/pngs/mini_name.png" />
+		<bitmap file="graphics/pngs/mini_name_height.png" />
 		<offset>7,7,7,7</offset>
 	</framedef>
 	<framedef name="token_ordinal">
