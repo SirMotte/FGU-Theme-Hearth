@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
 	<!-- Source: ???/???.xml -->
+	<windowclass name="charsheetmini_main" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if hptemp then
+					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
+				end
+			end
+		</script>
+	</windowclass>
 	<windowclass name="encounter_header" merge="join">
 		<sheetdata>
 			<stringfield name="name">
