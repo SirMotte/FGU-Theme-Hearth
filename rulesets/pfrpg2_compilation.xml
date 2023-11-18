@@ -14,6 +14,45 @@
             <!--<decal rect="207,212,17,14" />-->
 		</framedef>
 
+		<windowclass name="char_actions_quickref" merge="join">
+			<script>
+				function onInit()
+					if super and super.onInit then
+						super.onInit();
+					end
+					if temphp then
+					temphp.setColor(ColorManager.COLOR_TEMP_HP);
+							elseif hptemp then
+					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
+						end
+				end
+			</script>
+		</windowclass>
+		<windowclass name="char_actions_quickref" merge="join">
+			<script>
+				function onInit()
+					if super and super.onInit then
+						super.onInit();
+					end
+					if wounded then
+					wounded.setColor(ColorManager.COLOR_HEALTH_HVY_WOUNDS);
+					end
+				end
+			</script>
+		</windowclass>
+		<windowclass name="char_actions_quickref" merge="join">
+			<script>
+				function onInit()
+					if super and super.onInit then
+						super.onInit();
+					end
+					if dying then
+					dying.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
+					end
+				end
+			</script>
+		</windowclass>
+
 		<!-- script in windowclass messes with color application, need a fix.
 
 		<windowclass name="spelldesc_header" merge="join">
