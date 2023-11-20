@@ -6,6 +6,21 @@
 			<anchored position="insidetopright" offset="60,24" />
 		</button_window_sizeup>
 	</template>
+	<template name="button_ichat">
+		<button_icon name="button_ichat">
+			<anchored to="rightanchor" width="20" height="20">
+				<top />
+				<right relation="relative" offset="-5" postoffet="-5" />
+			</anchored>
+			<icon normal="content_chat" />
+			<tooltip textres="record_chat" />
+			<script>
+				function onButtonPress()
+					RecordShareManager.onShareButtonPressed(window);
+				end
+			</script>
+		</button_icon>
+	</template>
 
 	<!-- Source: common/template_records.xml -->
 	<template name="anchor_record_image_header_right">
@@ -423,7 +438,12 @@
 			<invisible />
 		</button_window_sizedown>
 	</template>
-	
+    <template name="button_refresh">
+		<button_icon>
+			<icon normal="refresh" />
+		</button_icon>
+	</template>
+
 	<!-- Source: CoreRPG ref/template_ref.xml -->
 	<template name="anchor_reftitle">
 		<genericcontrol>
@@ -457,6 +477,75 @@
 			<activate />
 			<fastinit />
 		</subwindow>
+	</template>
+	<template name="button_refmanual_content_copy">
+		<button_listitem_icon_framed_right>
+			<icon normal="content_copy" />
+			<tooltip textres="record_copy" />
+			<gmvisibleonly />
+			<script>
+				function onButtonPress()
+					ReferenceManualManager.performPageCopy(window);
+				end
+			</script>
+		</button_listitem_icon_framed_right>
+	</template>
+	<template name="button_refmanual_content_paste">
+		<button_listitem_icon_framed_right>
+			<icon normal="content_paste" />
+			<tooltip textres="record_paste" />
+			<invisible />
+			<script>
+				function onInit()
+					super.onInit();
+					if Session.IsHost then
+						ReferenceManualManager.registerPagePasteCallback(self.onPasteCallback);
+					end
+				end
+				function onClose()
+					if Session.IsHost then
+						ReferenceManualManager.unregisterPagePasteCallback(self.onPasteCallback);
+					end
+				end
+				function onPasteCallback()
+					self.update();
+				end
+				function update()
+					local bReadOnly = WindowManager.getReadOnlyState(window.getDatabaseNode());
+					local bCanPaste = ReferenceManualManager.hasPagePasteRecord();
+					setVisible(bCanPaste and not bReadOnly);
+				end
+				function onButtonPress()
+					ReferenceManualManager.performPagePaste(window.parentcontrol.window.content.subwindow);
+				end
+			</script>
+		</button_listitem_icon_framed_right>
+	</template>
+	<template name="button_refmanual_content_revert">
+		<button_listitem_icon_framed_right>
+			<icon normal="refresh" />
+			<tooltip textres="record_revert" />
+			<invisible />
+			<script file="ref/scripts/ref_revert.lua" />
+		</button_listitem_icon_framed_right>
+	</template>
+	<template name="button_expand">
+		<button_icon>
+			<icon normal="button_expand_w" />
+			<tooltip textres="tooltip_expand" />
+			<target>grouplist,list</target>
+			<expand />
+			<script file="common/scripts/button_expand_collapse.lua" />
+		</button_icon>
+	</template>
+	<template name="button_collapse">
+		<button_icon>
+			<icon normal="button_collapse_w" />
+			<tooltip textres="tooltip_collapse" />
+			<target>grouplist,list</target>
+			<collapse />
+			<script file="common/scripts/button_expand_collapse.lua" />
+		</button_icon>
 	</template>
 
 	<!-- CALENDAR -->
@@ -626,54 +715,27 @@
 	<windowclass name="client_ct_entry" merge="join">
 		<script file="rulesets/scripts/ct_entry_colors.lua" />
 	</windowclass>
-	<windowclass name="charsheetmini_main" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if hptemp then
-					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
-				end
-			end
-		</script>
-	</windowclass>
-	<windowclass name="char_actions_quickref" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if temphp then
-				temphp.setColor(ColorManager.COLOR_TEMP_HP);
-						elseif hptemp then
-				hptemp.setColor(ColorManager.COLOR_TEMP_HP);
-					end
-			end
-		</script>
-	</windowclass>
-	<windowclass name="char_actions_quickref" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if wounded then
-				wounded.setColor(ColorManager.COLOR_HEALTH_HVY_WOUNDS);
-				end
-			end
-		</script>
-	</windowclass>
-	<windowclass name="char_actions_quickref" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if dying then
-				dying.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
-				end
-			end
-		</script>
-	</windowclass>
+    
+    <!-- Chat window padding adjustments. Source: template_windows.xml -->
+    <template name="anchor_content_chatbox_top">
+        <genericcontrol name="contentanchor">
+            <anchored height="0">
+                <top offset="8" />
+                <left offset="16" />
+                <right offset="-20" />
+            </anchored>
+            <disabled />
+        </genericcontrol>
+    </template>
+
+	<template name="anchor_content_chatbox_bottom">
+		<genericcontrol name="bottomanchor">
+			<anchored to="contentanchor" height="10">
+				<bottom parent="" />
+				<left />
+				<right />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
 </root>

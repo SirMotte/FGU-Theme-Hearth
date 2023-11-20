@@ -107,7 +107,6 @@
 		<bitmap file="graphics/extensions/zygmunt_molotch/combat_timer/TimerFrame.png" />
 		<middle rect="0,0,100,25" />
 	</framedef>
-	-->
 	<!--Icons -->
 	<icon name="button_timerstart" file="graphics/extensions/zygmunt_molotch/combat_timer/button_timerstart2.png" />
 	<icon name="button_settings" file="graphics/extensions/zygmunt_molotch/combat_timer/button_settings.png" />
@@ -128,6 +127,11 @@
 			</simplestring>
 		</sheetdata>
 	</windowclass>
+
+	<!--Author: mattekure-->
+	<!--Ext: Timer-->
+	<!--Icons -->
+    <icon name="icon_timer" file="graphics/extensions/mattekure/timer/sands-of-time.png" />
 
 	<!--Author: DMFirmy -->
 	<!--Moon Tracker-->
