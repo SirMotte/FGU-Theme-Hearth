@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
+	<string name="skills_description_text_Tooltip">Skill Details</string>
+	<string name="spells_main_spelldescription_text_Tooltip">Spell Details</string>
+	<string name="sub_main_description_Tooltip">Details</string>
+
 	<icon name="powers" file="graphics/pngs/tab_powers.png" />
 	<icon name="spells" file="graphics/pngs/tab_spells.png" />
 	<icon name="weapons" file="graphics/pngs/tab_weapons.png" />
@@ -10,6 +14,7 @@
 	<icon name="class" file="graphics/tabs_ose2/tab_class.png" />
 	<icon name="data" file="graphics/tabs_ose2/tab_data.png" />
 	<icon name="tab_rolls" file="graphics/tabs_ose2/tab_rolls.png" />
+
 	<font name="Ose-Reference" merge="join">
 		<color value="#FFF0CA" />
 	</font>
@@ -52,23 +57,23 @@
 		<offset>15,15,15,15</offset>
 	</framedef>
 	<framedef name="chatbox">
-		<bitmap file="graphics/frames_ose2/groupbox.png" />
+		<bitmap file="graphics/pngs/chatbox.png" />
 		<offset>50,50,50,50</offset>
 	</framedef>
-	<framedef name="ctbox">
-		<bitmap file="graphics/frames_ose2/groupbox.png" />
-		<insideoffset rect="0,0,7,7" />
-		<offset>32,32,19,57</offset>
-	</framedef>
 	<framedef name="groupbox">
-		<bitmap file="graphics/frames_ose2/groupbox.png" />
+		<bitmap file="graphics/pngs/groupbox.png" />
 		<offset>20,20,10,10</offset>
 	</framedef>
 	<framedef name="groupboxextra">
 		<bitmap file="graphics/frames_ose2/groupbox.png" />
 		<offset>20,20,10,10</offset>
 	</framedef>
-<windowclass name="ClassData_detail" merge="join">
+    <framedef name="ct_subgroupbox">
+        <bitmap file="graphics/pngs/ct_subgroupbox.png" />
+        <offset>12,12,12,12</offset>
+    </framedef>
+
+    <windowclass name="ClassData_detail" merge="join">
 		<sheetdata>
 			<basicnumber name="thaco_class">
 				<backcolor>#322C27</backcolor>
@@ -118,6 +123,89 @@
 			<hn name="level_label">
 				<font>Ose-Reference</font>
 			</hn>
+		</sheetdata>
+	</windowclass>
+	<windowclass name="spells_main" merge="join">
+		<sheetdata>
+			<stringcontrol name="dierollmult_label">
+				<anchored>
+					<top offset="52" anchor="bottom" parent="properties" relation="current" />
+				</anchored>
+			</stringcontrol>
+			<stringcontrol name="die_label">
+				<anchored>
+					<top offset="52" anchor="bottom" parent="properties" relation="current" />
+					<left offset="32" />
+				</anchored>
+			</stringcontrol>
+			<stringcontrol name="Casterlvl_label">
+				<anchored>
+					<top offset="52" anchor="bottom" parent="properties" relation="current" />
+				</anchored>
+			</stringcontrol>
+			<stringcontrol name="mod_label">
+				<anchored>
+					<top offset="52" anchor="bottom" parent="properties" relation="current" />
+				</anchored>
+			</stringcontrol>
+			<stringfield name="spells_die">
+				<frame>
+					<name>ct_subgroupbox</name>
+				</frame>
+				<anchored>
+					<top offset="71" anchor="bottom" parent="properties" relation="current" />
+				</anchored>
+				<center />
+				<gmeditonly />
+				<font merge="delete" />
+			</stringfield>
+			<number name="numbertoroll">
+                <frame>
+                    <name>ct_subgroupbox</name>
+                </frame>
+				<anchored>
+					<top offset="71" anchor="bottom" parent="properties" relation="current" />
+				</anchored>
+				<backcolor merge="delete" />
+				<font merge="delete" />
+            </number>
+			<button_stringcycler name="level_field">
+				<anchored>
+					<top offset="71" anchor="bottom" parent="properties" relation="current" />
+				</anchored>
+			</button_stringcycler>
+			<number name="modifier">
+				<anchored>
+					<top offset="71" anchor="bottom" parent="properties" relation="current" />
+				</anchored>
+			</number>
+		</sheetdata>
+	</windowclass>
+	<!-- Source: ct/ct_host.xml -->
+	<windowclass name="combattracker_host" merge="join">
+		<sizelimits>
+			<minimum width="520" />
+		</sizelimits>
+		<sheetdata>
+            <label_ct_host_rounds name="label_round" merge="join">
+                <anchored height="24">
+                    <bottom offset="-20" />
+                    <right parent="contentanchor" offset="-97" />
+                </anchored>
+            </label_ct_host_rounds>
+			<number_ct_host_rounds name="round" merge="join">
+                <anchored width="40" height="24">
+                    <bottom offset="-20" />
+                    <right parent="contentanchor" offset="-40" />
+                </anchored>
+            </number_ct_host_rounds>
+            <button_turn name="button_turn" merge="join">
+                <bounds merge="delete" />
+                <anchored width="25" height="25">
+                    <bottom offset="-19" />
+                    <right parent="contentanchor" offset="-155" />
+                </anchored>
+            </button_turn>
 		</sheetdata>
 	</windowclass>
 </root>

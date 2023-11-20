@@ -9,8 +9,8 @@ local _cDockIconColor = "DDDDDD"; -- Replaceable Color: Secondary Foreground
 local _cDockTextColor = "DDDDDD"; -- Replaceable Color: Secondary Foreground
 
 function onInit()
-	DesktopManager.setSidebarDockCategoryIconColor(_cDockCategoryIconColor);
-	DesktopManager.setSidebarDockCategoryTextColor(_cDockCategoryTextColor);
-	DesktopManager.setSidebarDockIconColor(_cDockIconColor);
-	DesktopManager.setSidebarDockTextColor(_cDockTextColor);
+	ColorManager.setSidebarCategoryIconColor(_cDockCategoryIconColor);
+	ColorManager.setSidebarCategoryTextColor(_cDockCategoryTextColor);
+	ColorManager.setSidebarRecordIconColor(_cDockIconColor);
+	ColorManager.setSidebarRecordTextColor(_cDockTextColor);
 end

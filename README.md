@@ -1,7 +1,6 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
 This is a Theme Extension for the Fantasy Grounds Virtual Tabletop Platform.
-Foundry VTT Player? Please go [here](https://github.com/SirMotte/FoundryVTT-Theme-Hearth)
 
 If you come across extensions that need to be adjusted to fit this theme, please contact me :).
 
@@ -72,15 +71,6 @@ This theme uses a very high loadorder of 1500 in order to be able to overwrite m
 - Font Extensions like the one by Mattekure will make the font go back to black and thus badly readable.
 - If you pay close attention to the console log you might find [Warning] entries related to this theme.
 - Celestians "Author" extension currently makes storyframe list entries hard to read (black). I'm working on resolving the issue. For now, don't use my theme during world building with the Author extension enabled.
-
-### Want to buy me a coffee?
-[PayPal War Chest](https://www.paypal.com/paypalme/DnDKriegskasse)
-or
-[Ko.Fi](https://ko-fi.com/sirmotte)
-
-### Want to buy me a DMs Guild gift instead?
-Here's my [Dungeon Masters Guild Maps Wishlist](https://www.dmsguild.com/wishlist_public.php?public_id=2593421&list_id=3816273&buying_for=sirmotte%40posteo.de&quot;]Wishlist%20for%20Maps), or my general [PDF Wishlist](https://www.dmsguild.com/wishlist_public.php?public_id=2593421&list_id=3869339&buying_for=sirmotte%40posteo.de)
-
 
 # Installation - Forge (Recommended)
 1. Subscribe to the [FG Forge Item](https://forge.fantasygrounds.com/shop/items/12/view) and Update your Fantasy Grounds Client.
