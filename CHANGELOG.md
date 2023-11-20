@@ -1,27 +1,52 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.21 - Knightowl[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.22 - Torchbearer[/B][/SIZE][/COLOR]
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
-Thanks to the amazing JustinFreitas some fixes are provided for the recent changes Smite Works did to how Themese are set-up. Make sure to shower him with praise!
-Since I haven't taken a closer look on what was changed, 
+Like the Themes title suggests,
+I will pass on the torch for Hearth to others. Namely Justin Freitas and the Unofficial Developers Guild.
+Unfortunately I'm no longer able to maintain the theme in a reliable fashion (have been for some time now as you know).
 
-My current work scedule doesn't allow me to allocate time to anything else and during the few hours of free time I'm too exhausted to actually work on the theme right now, please bear with me.
-The Update is now live on the forge, in case you have used the Version posted my JustinFreitas in this thread, you don't need to delete it, it will get overwritten if you update though the forge.
+Thus I have decided to step down as a maintainer. I'm not gone mind you, I just want to lift the increasingly heavy feeling of guilt that has been weighting on me for some time now.
+I may or may not contribute to Hearth Theme in the future if I feel like it.
 
-Cheers Sir Motte
+Please give a cheerful "HipHip Hooray" to Justin Freitas. I strongly believe he is the perfect fit to further improve Hearth.
 
-If your Theme's Version number goes down from 2.9.22 to 2.9.21, this is intended, as I don't jump numers for the main branch releases (in case you used Justins Version)
+That being said, here comes the changelog, all thanks to Justin and seanmccarty. This is where you cheer again please :D.
 
-[COLOR="#FF0000"][B]Added Ruleset Support[/B][/COLOR]
+Taking a long rest.
+Sir Motte
+
+[COLOR="#FF0000"][B]Changelog[/B][/COLOR]
 [LIST]
-[*] Old School Essentials (brought to you by Justin Freitas)
+[*] Color fixes for OSE tabs Class, Data, Rolls.
+[*] OSE fix for 2E derived groupbox (Race Main tab)
+[*] New CoreRPG icons and fixes
+[*] Fix for tintable expand/collapse buttons in reference.
+[*] Removed empty windowclass.
+[*] Fix for chat wait. Adjust graphic canvas height 30px shorter 60x61, not 69x91
+[*] Extraneous comment close fix and also addition of mattekure's Timer extension
+[*] Reference large should be theme color FFF0CA
+[*] Fix for 5e CT subgroupbox frame (i.e. effects, offense, etc)
+[*] Fix for Sound sidebar icon color.
+[*] Charlist bubble was hard to see with easel icon, switching to normal cirle
+[*] Fixes for Output Record To Chat, including font color and frame colors.
+[*] Fix for Linker extension sidebar button.
+[*] OSE Fixes for spells.
+[*] OSE spell main tweaks
+[*] Use the lighter cream color instead of the yellow on the chat wait indictor. Now it matches the Dice Tray and other UI elements.
+[*] Fix for PF2E Activities tab... colors are right now but the font should be changed to the standard Hearth font.
+[*] Update to CT for OSE to prevent the width going to small. Also, moved the DayTracker option button near the Round Counter to avoid confusion with the normal CT menu.
+[*] Account for CT Defense Item width in the CT minimum width.
+[*] Make hover icons use the primary light cream color instead of yellow to ,atch the rest of the UI.
+[*] Temporary graphic fixes, including the Height font color (wasn't able to adjust font color so changed background instead).
+[*] Remove button definitions for RequestedRolls (seanmccarty)
+[*] Added button definition that controls tintable icon colors. Used by RequestedRolls to set icon colors in a theme independent manner. (seanmccarty)
+[*] Move extraneous windowclasses from CoreRPG to their correct locations in 4e and PFRPG2.
+[*] Chat frame optimizations and also token name label fix like height.
+[*] For GM text, use the creamy primary font color instead of bright yellow. Has a much better match and isn't used for any other chat messages (player chat, whisper, etc).
+[*] Added lots of fixes and additional buttons to 5e, 4e, Core and OSE2
 [/LIST]
 
-[COLOR="#FF0000"][B]Theme Changes:[/B][/COLOR]
-[LIST]
-- Fixed new Graphics and broken stuff introdued with the recent Smiteworks Updates. (brought to you by Justin Freitas)
-- Maybe some minor adjustments that I have forgotten about by now.
-[/LIST]
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
 
