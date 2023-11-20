@@ -55,6 +55,8 @@ function onInit()
 
 	ColorManager.COLOR_MODIFIED_VALUE = "F3D876"; -- Replacable Color: Modified VALUE
 
+	ColorManager.setButtonIconColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
+	
 	if not Bartender then
 		Interface.onHotkeyDrop = onHotkeyDrop;
 	end
