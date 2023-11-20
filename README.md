@@ -1,55 +1,43 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
 This is a Theme Extension for the Fantasy Grounds Virtual Tabletop Platform.
-
-If you come across extensions that need to be adjusted to fit this theme, please contact me :).
+Original creator: Sir Motte
+Maintained by: Justin Freitas
 
 ![Showcase](https://user-images.githubusercontent.com/82598692/214700861-9e55f3c0-1541-41c6-b1fc-d6bd61e0ec5f.png)
 
 Now with [Customization Bonus Extension](https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md)
 In order to customize your GM Icon, download my GM Icon Replacer Extension and follow the instructions in the readme.
 
-You can find me on Discord using Sir Motte#1305, the [Grim Press](https://discord.com/invite/zQCJ6H67XN) and [Fantasy Grounds Channel](https://discord.gg/rhvsZj5xgP) or message me here directly. For discussions, help and suggestions either write/report on the [Fantasy Grounds Forums Thread](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-5E-SirMottes-Magnificent-Darkness), or @Message me in the official [Forge Item Support Channel](https://discord.gg/dFx53WDKzb) on Discord.
+Please relay Questions and Reports to [JustinFreitas](https://www.fantasygrounds.com/forums/member.php?34294-JustinFreitas).
+You can still contact Sir_Motte, preferably on Discord, but he is, for now, no longer actively involved.
 
-Foundry VTT User? Check out the [Foundry VTT - Hearth Theme](https://github.com/SirMotte/FoundryVTT-Theme-Hearth) sibling.
-
-## Supported Rulesets
-- **Dungeons & Dragons 5E - Full**
-- Dungeons & Dragons Classic / AdnD / 2E - Basic
-- Dungeons & Dragons 3.5E - Basic
-- Dungeons & Dragons 4E - WIP
-- Pathfinder 1E - Basic
-- Pathfinder 2E - Basic
-- XCore - Basic
-- Cypher System - Basic
-- Cyberpunk Red - Basic
+## Supported Rulesets to varying degrees.
+- Dungeons & Dragons 5E
+- Dungeons & Dragons Classic / AdnD / 2E
+- Dungeons & Dragons 3.5E
+- Dungeons & Dragons 4E
+- Pathfinder 1E
+- Pathfinder 2E
+- XCore
+- Cypher System
+- Cyberpunk Red
+- OSE2
 - Other Rulesets might work surprisingly well, please test this and possibly report your findings.
 
-**Full**
-I do my utmost to not only have everything this ruleset entails covered, I also have set out to make all available extensions adhere to my theme.
-
-**Basic**
-I try my best to have no game-breaking UI issues happening, other than that you must request eg. extension support specifically.
-
-**WIP**
-Work in Progress, so expect oddities to occur.
-
 ## Special Contributors
-By now I must call them Co-Authors! [MeAndUnique](https://github.com/MeAndUnique) and [Saagael](https://github.com/Gtaray) have helped me tremendiously with their invaluable help with .xml and .lua code and general workflow. Without them this theme wouldn't be available with this level of polish! 3.
-
-Illustrious Community Egghead [bmos](https://github.com/bmos) has also contributed greatly to the theme and my learning process. Thanks!
-Shoutout to [Zarestia](https://github.com/ZarestiaDev) and all the folks at the unofficial developers guild, you rock!
-
+[MeAndUnique](https://github.com/MeAndUnique)
+[Saagael](https://github.com/Gtaray)
+[JustinFreitas](https://forge.fantasygrounds.com/crafter/60/view-profile) - Current Maintainer
+[bmos](https://github.com/bmos)
+[Zarestia](https://github.com/ZarestiaDev)
 
 ## Foreword
-Hello fellow Adventurers,
-I proudly present to you my take on a dark, reduced and calm Fantasy Grounds Unity UI. I did my best to make it look more modern (within the limitations of FGU) and support most available extensions.
-
-If you tend to play in dimmed light conditions or prefer a dark UI for your Software, my Theme might be to your liking. It was developed at 120 cd/m screen brightness in AdobeRGB color space. Most monitors ship with brighter factory settings and can't use the full Adobe Color spectrum. Therefore, make sure that you're not using exaggerated brightness and contrast settings.
-
+This theme was created by Sir Motte in his pursuit to not burn out his eyes in dim light conditions. It quickly became one of the most downloaded items on the Forge, 
+especially because of the extensive extension support for other authors creations. Due to time constraints he is no longer able to maintain the theme.
+Luckily the torch was passed on to Justin Freitas, who will keep it up to date.
 
 ## Features
-   - Substantial support for other extensions - My theme overwrites UI elements of other extensions, no patchwork graphics styles please!
    - Reduced, dark color palette.
    - Eye-friendly 7:1 value contrasts for good readability even with small fonts.
    - Completely remade UI. No soft edges, no 3D Effects, no textures - simple, flat and clear.
@@ -58,25 +46,21 @@ If you tend to play in dimmed light conditions or prefer a dark UI for your Soft
    - Color Coded Action Buttons for ease of use.
    - Script enhanced radial menu that features more unique icons than normally possible. Big thank you to Saagael and MeAndUnique!
    - No annyoing link Icons in the Hotkey Bar - brought to you by MeAndUnique!
-     - You have to re-link already placed hotkey links to make the icon disappear.
+     - You have to re-link already placed hotkey links to make the icon disappear!
      - This functionality is now also available as the standalone "Bartender" Extension, measures are taken that there is no conflict if both extensions are active.
    - and a lot more...
-
-## Visual Extension Support
-I try my best to make all available extensions visually compatible (there should be no code related problems). If you find an extension out there that needs adjustments to fit my theme, give me a heads-up and I'll try to fix it.
 
 ## Compatibility Information & Known Problems
 This theme uses a very high loadorder of 1500 in order to be able to overwrite most extension's UI elements out there. Therefore any extension that you want to overwrite my theme with must use a loadorder value of 1501 or higher. This is set in the extension.xml within any extension.
 
 - Font Extensions like the one by Mattekure will make the font go back to black and thus badly readable.
-- If you pay close attention to the console log you might find [Warning] entries related to this theme.
+- If you pay close attention to the console log you might find [Warning] entries related to this theme. These can normaly be ignored, as they only tell you that some extension supported is not used.
 - Celestians "Author" extension currently makes storyframe list entries hard to read (black). I'm working on resolving the issue. For now, don't use my theme during world building with the Author extension enabled.
 
 # Installation - Forge (Recommended)
 1. Subscribe to the [FG Forge Item](https://forge.fantasygrounds.com/shop/items/12/view) and Update your Fantasy Grounds Client.
 2. Activate the theme listed as "Theme: Hearth" in your campaign details page in the "Extensions" section and launch the campaign.
 3. Done, I hope you like it!
-
 
 # Installation - GitHub
 1. [Download](https://github.com/SirMotte/FGU-Theme-Hearth/releases) the Theme from Github
