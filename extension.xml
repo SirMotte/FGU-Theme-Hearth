@@ -2,12 +2,12 @@
 <!--Special Thanks to MeAndUnique, Saagael and Zarestia for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: 2.9.21 - Knightowl" font="oocfont" icon="footface" />
+	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: 2.9.22 - I See It Now" font="oocfont" icon="footface" />
 
 	<properties>
 		<name>Theme: Hearth</name>
 		<author>Sir Motte - Co. Authors: MeAndUnique and Saagael / Contributions by bmos, Zarestia and JustinFreitas.</author>
-		<version>2.9.21</version>
+		<version>2.9.22</version>
 		<description>Dark, warm and reduced user interface for FGU</description>
 		<loadorder>1500</loadorder>
 	</properties>

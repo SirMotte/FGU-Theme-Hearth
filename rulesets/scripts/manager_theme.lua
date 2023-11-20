@@ -2,8 +2,8 @@
 isThemeLoaded = false;
 
 function onInit()
-	DesktopManager.setSidebarDockCategoryIconColor("FFF0CA");
-	DesktopManager.setSidebarDockIconColor("FFF0CA");
+	ColorManager.setSidebarCategoryIconColor("FFF0CA");
+	ColorManager.setSidebarRecordIconColor("FFF0CA");
 end
 
 function updateFont(control)

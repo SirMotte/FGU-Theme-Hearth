@@ -8,7 +8,7 @@
 
 	<!-- CoreRPG -->
 	<!-- Portrait -->
-	<icon name="charlist_base" file="graphics/pngs/portrait.png" />
+	<icon name="charlist_base" file="graphics/pngs/portrait_token.png" />
 	<icon name="portraitchat_base" file="graphics/pngs/portrait_chat.png" />
 	<icon name="portraitchat_mask" file="graphics/pngs/portrait_chat_mask.png" />
 	<icon name="portraittoken_base" file="graphics/pngs/portrait_token.png" />
@@ -71,6 +71,8 @@
 	<icon name="sidebar_icon_recordtype_specialability" file="graphics/pngs/sidebar_icon_fire.png" />
 	<icon name="sidebar_icon_recordtype_spell" file="graphics/pngs/sidebar_icon_spell.png" />
 	<icon name="sidebar_icon_recordtype_talent" file="graphics/pngs/sidebar_icon_feat.png" />
+	<icon name="sidebar_icon_link_sound_context" file="graphics/pngs/sidebar_icon_soundset.png" />
+	<icon name="sidebar_icon_recordtype_soundset" file="graphics/pngs/sidebar_icon_soundset.png" />
 
 	<!-- Common -->
 	<icon name="button_dialog_ok" file="graphics/pngs/button_dialog_ok.png" />
@@ -542,7 +544,6 @@
 	<icon name="tool_shortcut_30" file="graphics/pngs/tool_shortcut.png" />
 	<icon name="tool_preview_30" file="graphics/pngs/tool_preview.png" />
 
-	<!--<icon name="refresh" file="graphics/pngs/refresh.png" />-->
 	<!-- Modifier Stack -->
 	<icon name="modcollector" file="graphics/pngs/modcollector.png" />
 
@@ -735,4 +736,11 @@
 	<icon name="task8" file="graphics/pngs/task8.png" />
 	<icon name="task9" file="graphics/pngs/task9.png" />
 	<icon name="task10" file="graphics/pngs/task10.png" />
+
+    <!-- Copy to Chat, Used in Reference, etc. -->
+    <icon name="refresh" file="graphics/pngs/refresh.png" />
+	<icon name="content_chat" file="graphics/pngs/content_chat.png" />
+	<icon name="content_copy" file="graphics/pngs/content_copy.png" />
+	<icon name="content_paste" file="graphics/pngs/content_paste.png" />
+
 </root>

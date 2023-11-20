@@ -38,19 +38,19 @@
 	<!-- Token Decorations -->
 	<font name="token_name">
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#FFF0CA" />
+		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="token_ordinal">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-		<color value="#DDDDDD" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="token_height">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#DDDDDD" />
+		<color value="#000000" /> <!-- WORKAROUND v2.9.22: Changed height background to light color. -->
 	</font>
 	<font name="token_height_negative">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#FF6161" />
+		<color value="#800000" /> <!-- WORKAROUND v2.9.22: Changed height background to light color. -->
 	</font>
 
 	<!-- Dice fonts - REQUIRED -->
@@ -98,6 +98,10 @@
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
 		<color value="#77CE77" /> <!-- Replaceable Color: Chat Font 4 -->
 	</font>
+    <font name="chat_record_share">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#DDDDDD" />
+	</font>
 
 	<!-- Chat fonts -->
 	<font name="chatnpcfont">
@@ -106,7 +110,7 @@
 	</font>
 	<font name="chatgmfont">
 		<ttf file="graphics/fonts/Roboto-BoldItalic.ttf" name="Roboto Bold Italic" size="16" />
-		<color value="#F3D876" /> <!-- Replaceable Color: Chat Font 6 -->
+		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="whisperfont">
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
@@ -164,21 +168,21 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="npcsheet_header">
-		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="20" />
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="24" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
-	<font name="storybox_header">
-		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="20" />
+	<font name="storybox_header"> <!-- Note and Story header font, see CoreRPG string_record_name_story for edit ctrl -->
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="24" />
 		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<!-- Formatted text fields -->
 	<font name="reference-h">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#DDDDDD" /> <!-- Replaceable Color: Primary Foreground -->
+		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-h" ruleset="XCore" >
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#DDDDDD" /> <!-- Replaceable Color: Primary Foreground -->
+		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
 	<font name="reference-r">
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
@@ -460,7 +464,7 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="Edhiron">
-		<ttf file="graphics/fonts/Edhiron.ttf" name="Edhiron Asdh�riel v. 1.2" size="30" />
+		<ttf file="graphics/fonts/Edhiron.ttf" name="Edhiron Asdh?riel v. 1.2" size="30" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="Espruar">
