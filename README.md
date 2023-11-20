@@ -1,18 +1,18 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
-This is a Theme Extension for the Fantasy Grounds Virtual Tabletop Platform.
+This is a Theme Extension for the [Fantasy Grounds Virtual Tabletop Platform](https://www.fantasygrounds.com/).
 Original creator: Sir Motte
 Maintained by: Justin Freitas
 
 ![Showcase](https://user-images.githubusercontent.com/82598692/214700861-9e55f3c0-1541-41c6-b1fc-d6bd61e0ec5f.png)
 
-Now with [Customization Bonus Extension](https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md)
-In order to customize your GM Icon, download my GM Icon Replacer Extension and follow the instructions in the readme.
+[Customization Bonus Extension](https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md)
+In order to customize your GM Icon (or any other element of the theme), download my GM Icon Replacer Extension and follow the instructions in the readme.
 
-Please relay Questions and Reports to [JustinFreitas](https://www.fantasygrounds.com/forums/member.php?34294-JustinFreitas).
+Please relay questions and issue reports to, [JustinFreitas](https://www.fantasygrounds.com/forums/member.php?34294-JustinFreitas).
 You can still contact Sir_Motte, preferably on Discord, but he is, for now, no longer actively involved.
 
-## Supported Rulesets to varying degrees.
+## Supported Rulesets (to varying degrees).
 - Dungeons & Dragons 5E
 - Dungeons & Dragons Classic / AdnD / 2E
 - Dungeons & Dragons 3.5E
@@ -23,19 +23,19 @@ You can still contact Sir_Motte, preferably on Discord, but he is, for now, no l
 - Cypher System
 - Cyberpunk Red
 - OSE2
-- Other Rulesets might work surprisingly well, please test this and possibly report your findings.
+- Other Rulesets might work surprisingly well, please test them and possibly report your findings.
 
 ## Special Contributors
-[MeAndUnique](https://github.com/MeAndUnique)
-[Saagael](https://github.com/Gtaray)
-[JustinFreitas](https://forge.fantasygrounds.com/crafter/60/view-profile) - Current Maintainer
-[bmos](https://github.com/bmos)
-[Zarestia](https://github.com/ZarestiaDev)
+- [MeAndUnique](https://github.com/MeAndUnique)
+- [Saagael](https://github.com/Gtaray)
+- [JustinFreitas](https://forge.fantasygrounds.com/crafter/60/view-profile) - Current Maintainer
+- [bmos](https://github.com/bmos)
+- [Zarestia](https://github.com/ZarestiaDev)
+- Unofficial Developers Guild
 
 ## Foreword
-This theme was created by Sir Motte in his pursuit to not burn out his eyes in dim light conditions. It quickly became one of the most downloaded items on the Forge, 
-especially because of the extensive extension support for other authors creations. Due to time constraints he is no longer able to maintain the theme.
-Luckily the torch was passed on to Justin Freitas, who will keep it up to date.
+This theme was created by Sir Motte in his pursuit to not burn out his eyes in dim light conditions while using FGU. It quickly became one of the most downloaded items on the Forge. 
+Due to time constraints he is no longer able to work on the theme and maintenance has been taken over by Justin Freitas.
 
 ## Features
    - Reduced, dark color palette.
@@ -77,6 +77,7 @@ Sir Motte
 
 
 # Hall of Fame
+- 
 - Shoutout to seansps who added Cyberpunk Red support to the theme, you rock!
 - Rugged sea, distant shore, waves and thunder evermore.
 Laughing gods of wet an wind care not for souls on wooden splint.
