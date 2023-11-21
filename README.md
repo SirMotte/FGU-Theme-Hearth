@@ -9,7 +9,8 @@ If you come across extensions that need to be adjusted to fit this theme, please
 Now with [Customization Bonus Extension](https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md)
 In order to customize your GM Icon, download my GM Icon Replacer Extension and follow the instructions in the readme.
 
-You can find me on Discord using Sir Motte#1305, the [Grim Press](https://discord.com/invite/zQCJ6H67XN) and [Fantasy Grounds Channel](https://discord.gg/rhvsZj5xgP) or message me here directly. For discussions, help and suggestions either write/report on the [Fantasy Grounds Forums Thread](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-5E-SirMottes-Magnificent-Darkness), or @Message me in the official [Forge Item Support Channel](https://discord.gg/dFx53WDKzb) on Discord.
+Please relay questions and issue reports to the Forum Thread and/or [JustinFreitas](https://www.fantasygrounds.com/forums/member.php?34294-JustinFreitas).
+You can still contact Sir_Motte, preferably on Discord, but he is, for now, no longer actively involved.
 
 Foundry VTT User? Check out the [Foundry VTT - Hearth Theme](https://github.com/SirMotte/FoundryVTT-Theme-Hearth) sibling.
 
@@ -71,7 +72,7 @@ This theme uses a very high loadorder of 1500 in order to be able to overwrite m
 - Font Extensions like the one by Mattekure will make the font go back to black and thus badly readable.
 - If you pay close attention to the console log you might find [Warning] entries related to this theme.
 - Celestians "Author" extension currently makes storyframe list entries hard to read (black). I'm working on resolving the issue. For now, don't use my theme during world building with the Author extension enabled.
-
+s
 # Installation - Forge (Recommended)
 1. Subscribe to the [FG Forge Item](https://forge.fantasygrounds.com/shop/items/12/view) and Update your Fantasy Grounds Client.
 2. Activate the theme listed as "Theme: Hearth" in your campaign details page in the "Extensions" section and launch the campaign.
@@ -80,13 +81,9 @@ This theme uses a very high loadorder of 1500 in order to be able to overwrite m
 
 # Installation - GitHub
 1. [Download](https://github.com/SirMotte/FGU-Theme-Hearth/releases) the Theme from Github
-   - or grab the Developer-Build (always most up to date, but potentially unstable)
 2. Move the file named "Theme_SirMotte_Hearth.ext" into the "Extensions" Folder found inside your Fantasy Grounds Data folder"
 3. Activate the theme listed as "Theme: Hearth" in your campaign details page in the "Extensions" section and launch the campaign
 4. Done, I hope you like it!
-
-## Customization Bonus Extension
-- In order to customize your GM Icon, download my [GM Icon Replacer Extension](https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md) and follow the instructions in the readme.
 
 Enjoy!
 Sir Motte
@@ -122,5 +119,4 @@ Thank you Tabarkus, for a launch of ships to my maps collection!
 - Wisdom poured by CMYKMatter and Drowbe helps the eye stay focused.
 
 ### Credits
-A few icons used are based on the Byte Dance Open Source Icon Library (iconpark.bytedance.com/official), though in most cases heavily altered they provide an invaluable starting base. Check them out if you need them.
-
+A few icons used are based on the Byte Dance Open Source Icon Library (iconpark.bytedance.com/official), though in most cases heavily altered they provide an invaluable starting point. Check them out!
