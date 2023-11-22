@@ -1,7 +1,7 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
 Current Version: 2.9.22 - Torchbearer
-September xxxx, xxxx - Latest Changelog
+November xxxx, xxxx - Latest Changelog
 
 Original creator: Sir Motte
 Maintained by: Justin Freitas
@@ -58,7 +58,7 @@ Due to time constraints he is no longer able to work on the theme and maintenanc
 This theme uses a very high loadorder of 1500 in order to be able to overwrite most extension's UI elements out there. Therefore any extension that you want to overwrite my theme with must use a loadorder value of 1501 or higher. This is set in the extension.xml within any extension.
 
    - Font Extensions like the ones by Mattekure will make the font go back to black and thus badly readable.
-   - If you pay close attention to the console log you might find [Warning] entries related to this theme. You can safely ignore them, as they only tell you, that you're not using an extension supported by my theme. [ERROR] entries on the other hand are serious. If you encounter one related to this theme, please give me a report.
+   - If you pay close attention to the console log you might find [Warning] entries related to this theme. You can safely ignore them, as they only tell you, that you're not using an extension supported by my theme. [ERROR]     entries on the other hand are serious. If you encounter one related to this theme, please give me a report.
    - A warning regarding Chat Aesthetics Configurator by Drowbe, maintained by rhagelstrom. Its font settings and chat colors won't fit very well with my theme. If you still want to use it please set it to default color in its settings menu entry.If you're using the PFRPG2 ruleset, you need to restart the client AND the lanucher else the action icons won't show.
    - Celestians "Author" extension currently makes storyframe list entries hard to read (black). I'm working on resolving the issue. For now, don't use my theme during world building with the Author extension enabled.
 
