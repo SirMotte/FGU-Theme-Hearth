@@ -15,6 +15,9 @@
 	<icon name="data" file="graphics/tabs_ose2/tab_data.png" />
 	<icon name="tab_rolls" file="graphics/tabs_ose2/tab_rolls.png" />
 
+	<font name="OSEsmall" merge="join">
+		<color value="#FFF0CA" />
+	</font>
 	<font name="Ose-Reference" merge="join">
 		<color value="#FFF0CA" />
 	</font>
