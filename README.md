@@ -1,7 +1,7 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
 Current Version: 2.9.22 - Torchbearer
-November 22, 2023 - [Latest Changelog](https://github.com/SirMotte/FGU-Theme-Hearth/blob/Hearth-Edition-Main/CHANGELOG.md)
+November 22, 2023 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=697783&viewfull=1#post697783)
 
 Original creator: Sir Motte
 Maintained by: Justin Freitas
