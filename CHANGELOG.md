@@ -1,4 +1,4 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.22 - Torchbearer[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.22.1 - Torchbearer[/B][/SIZE][/COLOR]
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
@@ -34,7 +34,7 @@ Sir Motte
 [*] OSE Fixes for spells.
 [*] OSE spell main tweaks
 [*] Use the lighter cream color instead of the yellow on the chat wait indictor. Now it matches the Dice Tray and other UI elements.
-[*] Fix for PF2E Activities tab... colors are right now but the font should be changed to the standard Hearth font.
+[*] Fix for PFRPG2 Activities tab... colors are right now but the font should be changed to the standard Hearth font.
 [*] Update to CT for OSE to prevent the width going to small. Also, moved the DayTracker option button near the Round Counter to avoid confusion with the normal CT menu.
 [*] Account for CT Defense Item width in the CT minimum width.
 [*] Make hover icons use the primary light cream color instead of yellow to ,atch the rest of the UI.
@@ -45,6 +45,7 @@ Sir Motte
 [*] Chat frame optimizations and also token name label fix like height.
 [*] For GM text, use the creamy primary font color instead of bright yellow. Has a much better match and isn't used for any other chat messages (player chat, whisper, etc).
 [*] Added lots of fixes and additional buttons to 5e, 4e, Core and OSE2
+[*] Added PFRPG2-Legacy support which was causing some of the theme elements to not be recognized.
 [/LIST]
 
 

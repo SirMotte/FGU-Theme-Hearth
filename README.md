@@ -1,7 +1,7 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
-Current Version: 2.9.22 - Torchbearer
-November 22, 2023 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=702366&viewfull=1#post702366)
+Current Version: 2.9.22.1 - Torchbearer
+December 3, 2023 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=702366&viewfull=1#post702366)
 
 Original creator: Sir Motte
 Maintained by: Justin Freitas
@@ -22,7 +22,7 @@ You can still contact Sir_Motte, preferably on Discord, but he is, for now, no l
    - Dungeons & Dragons 3.5E
    - Dungeons & Dragons 4E
    - Pathfinder 1E
-   - Pathfinder 2E
+   - Pathfinder 2E (and Legacy)
    - XCore
    - Cypher System
    - Cyberpunk Red
@@ -124,4 +124,3 @@ I understood, nodded, bowed deeply and then returned his smile. Certainly not as
 
 ### Credits
 A few icons used are based on the Byte Dance Open Source Icon Library (iconpark.bytedance.com/official), though in most cases heavily altered they provide an invaluable starting base. Check them out if you need them.
-

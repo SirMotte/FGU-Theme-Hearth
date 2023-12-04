@@ -2,12 +2,12 @@
 <!--Special Thanks to MeAndUnique, Saagael and Zarestia for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: 2.9.22 - Torchbearer" font="oocfont" icon="footface" />
+	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rVersion: 2.9.22.1 - Torchbearer" font="oocfont" icon="footface" />
 
 	<properties>
 		<name>Theme: Hearth</name>
 		<author>Created by Sir Motte, maintained by Justin Freitas - Co. Authors: MeAndUnique and Saagael / Contributions by the awesome Unofficial Developers Guild</author>
-		<version>2.9.22</version>
+		<version>2.9.22.1</version>
 		<description>Dark, warm and reduced user interface for FGU</description>
 		<loadorder>1500</loadorder>
 	</properties>
@@ -38,9 +38,9 @@
         <includefile source="rulesets/ose2_compilation.xml" ruleset="OSE2" />
 		<includefile source="rulesets/savageworlds_compilation.xml" ruleset="SavageWorlds" />
 		<includefile source="rulesets/icrpg_compilation.xml" ruleset="ICRPG" />
-		<includefile source="rulesets/pfrpg2_compilation.xml" ruleset="PFRPG2" />
+		<includefile source="rulesets/pfrpg2_compilation.xml" ruleset="PFRPG2|PFRPG2-Legacy" />
 		<includefile source="rulesets/pfrpg_compilation.xml" ruleset="PFRPG" />
-		<includefile source="rulesets/multi_compilation.xml" ruleset="3.5E|PFRPG2|PFRPG" />
+		<includefile source="rulesets/multi_compilation.xml" ruleset="3.5E|PFRPG2|PFRPG2-Legacy|PFRPG" />
 		<includefile source="rulesets/sfrpg_compilation.xml" ruleset="SFRPG" />
 		<includefile source="rulesets/cyberpunkred_compilation.xml" ruleset="CyberpunkRED" />
 		<includefile source="rulesets/cypher_system.xml" ruleset="Cypher System" />
