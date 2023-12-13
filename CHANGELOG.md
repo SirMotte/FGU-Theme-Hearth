@@ -1,4 +1,4 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.22.1 - Torchbearer[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.22.2 - Torchbearer[/B][/SIZE][/COLOR]
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
@@ -46,6 +46,7 @@ Sir Motte
 [*] For GM text, use the creamy primary font color instead of bright yellow. Has a much better match and isn't used for any other chat messages (player chat, whisper, etc).
 [*] Added lots of fixes and additional buttons to 5e, 4e, Core and OSE2
 [*] Added PFRPG2-Legacy support which was causing some of the theme elements to not be recognized.
+[*] Fix for PFRPG2-Legacy character sheet inventory tab spellfailure console error.
 [/LIST]
 
 

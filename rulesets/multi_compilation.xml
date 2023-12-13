@@ -18,11 +18,11 @@
                     end
                     window.armormaxstatbonus.setColor(sColor);
                     window.armorcheckpenalty.setColor(sColor);
-										if User.getRulesetName() == "PFRPG2" then
-	                      window.speedpenalty.setColor(sColor);
-	                    else
-	                      window.spellfailure.setColor(sColor);
-	                    end
+                    if User.getRulesetName() == "PFRPG2" or User.getRulesetName() == "PFRPG2-Legacy" then
+                        window.speedpenalty.setColor(sColor);
+                    else
+                        window.spellfailure.setColor(sColor);
+                    end
                     if super and super.encumbranceColors then super.encumbranceColors(); end -- bmos' encumbrance penalties
                   	end
                   function onInit()
