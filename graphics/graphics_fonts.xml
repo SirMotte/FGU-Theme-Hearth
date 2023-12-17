@@ -38,7 +38,8 @@
 	<!-- Token Decorations -->
 	<font name="token_name">
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
+		<color value="#000000" /> <!-- Replaceable Color: Primary Foreground -->
+        <!-- WORKAROUND v2.9.22: Changed from FFF0CA to 000000 to match token height workaround. Update CoreRPG token_name font without theme enabled to test for the hight label fix. -->
 	</font>
 	<font name="token_ordinal">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
@@ -50,7 +51,7 @@
 	</font>
 	<font name="token_height_negative">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#800000" /> <!-- WORKAROUND v2.9.22: Changed height background to light color. -->
+		<color value="#800000" /> <!-- WORKAROUND v2.9.22: Changed height background to light color. #800000 is red, default CoreRPG color and the token height bug is forcing it to black/000000. -->
 	</font>
 
 	<!-- Dice fonts - REQUIRED -->
