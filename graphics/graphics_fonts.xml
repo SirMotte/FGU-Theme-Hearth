@@ -51,7 +51,7 @@
 	</font>
 	<font name="token_height_negative">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
-		<color value="#800000" /> <!-- WORKAROUND v2.9.22: Changed height background to light color. #800000 is red, default CoreRPG color and the token height bug is forcing it to black/000000. -->
+		<color value="#000000" /> <!-- WORKAROUND v2.9.22: Changed height background to light color. #800000 is red, default CoreRPG color and the token height bug is forcing it to black/000000. -->
 	</font>
 
 	<!-- Dice fonts - REQUIRED -->
