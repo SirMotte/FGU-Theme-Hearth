@@ -160,14 +160,6 @@
 			</anchored>
 		</close>
 	</template>
-	<template name="close_ctbox">
-		<close>
-			<anchored>
-				<top offset="13" />
-				<right offset="-4" />
-			</anchored>
-		</close>
-	</template>
 	<template name="close_imagebox">
 		<close>
 			<anchored>
@@ -278,14 +270,6 @@
 			</anchored>
 		</help>
 	</template>
-	<template name="help_ctbox">
-		<help>
-			<anchored>
-				<top offset="13" />
-				<right offset="-20" />
-			</anchored>
-		</help>
-	</template>
 	<template name="help_imagebox">
 		<help>
 			<anchored>
@@ -368,19 +352,182 @@
 			</anchored>
 		</buttongroup_tabs>
 	</template>
-	<template name="windowtitlebar">
-		<genericcontrol>
-			<bounds>0,0,-1,40</bounds>
-			<frame name="windowtitle" offset="30,0,30,0" />
-			<font>windowtitle</font>
-			<parameters>
-				<windowmargin>60</windowmargin>
-				<controly>0</controly>
-				<controlheight>44</controlheight>
-				<minwidth>100</minwidth>
-			</parameters>
-			<script file="common/scripts/windowtitlebar.lua" />
-		</genericcontrol>
+    <template name="windowtitlebar">
+        <genericcontrol>
+			<anchored position="insidetop" offset="0,2" height="45" />
+            <frame name="windowtitle" offset="30,0,30,0" />
+            <script file="common/scripts/windowtitlebar.lua" />
+        </genericcontrol>
+    </template>
+
+	<!-- Frame: utilitybox -->
+	<template name="windowtitlebar_utilitybox">
+		<windowtitlebar>
+			<anchored offset="0,4" />
+		</windowtitlebar>
+	</template>
+	<template name="windowmenubar_utilitybox">
+		<windowmenubar>
+			<anchored offset="-13,15" />
+		</windowmenubar>
+	</template>
+
+	<!-- Frame: partysheet -->
+	<template name="windowtitlebar_partysheet">
+		<windowtitlebar>
+			<anchored offset="0,3" />
+		</windowtitlebar>
+	</template>
+	<template name="windowmenubar_partysheet">
+		<windowmenubar>
+			<anchored offset="-18,14" />
+		</windowmenubar>
+	</template>
+
+	<!-- Frame: charselect -->
+	<template name="windowtitlebar_charselect">
+		<windowtitlebar>
+			<anchored offset="0,4" />
+		</windowtitlebar>
+	</template>
+	<template name="windowmenubar_charselect">
+		<windowmenubar>
+			<anchored offset="-16,15" />
+		</windowmenubar>
+	</template>
+
+	<!-- Frame: tokenbag -->
+	<template name="windowtitlebar_tokenbag">
+		<windowtitlebar>
+			<anchored offset="0,4" />
+		</windowtitlebar>
+	</template>
+	<template name="windowmenubar_tokenbag">
+		<windowmenubar>
+			<anchored offset="-16,15" />
+		</windowmenubar>
+	</template>
+    
+	<!-- Frame: referencelist -->
+	<template name="windowtitlebar_referencelist">
+		<windowtitlebar>
+			<anchored offset="0,4" />
+		</windowtitlebar>
+	</template>
+	<template name="windowmenubar_referencelist">
+		<windowmenubar>
+			<anchored offset="-16,15" />
+		</windowmenubar>
+	</template>
+
+    <!-- windowmenubar -->
+    <template name="windowmenubar">
+		<subwindow>
+			<anchored position="insidetop" />
+			<class>windowmenubar</class>
+			<activate />
+		</subwindow>
+	</template>
+	<windowclass name="windowmenubar">
+		<script>
+			function onInit()
+				--WindowMenuManager.initMenuButtonBar(self);
+			end
+		</script>
+		<sheetdata>
+			<genericcontrol name="leftanchor">
+				<anchored position="insidetopleft" height="16" /> <!-- Sized to Hearth icon size. -->
+			</genericcontrol>
+			<genericcontrol name="rightanchor">
+				<anchored position="insidetopright" height="16" /> <!-- Sized to Hearth icon size. -->
+			</genericcontrol>
+            <!-- TODO: Quick fix to allow more time to do all the frames. -->
+            <close>
+                <anchored>
+                    <top offset="0" />
+                    <right offset="0" />
+                </anchored>
+            </close>
+		</sheetdata>
+	</windowclass>
+
+	<!-- Frame: imagepanel -->
+	<template name="close_imagepanel">
+		<close>
+			<anchored>
+				<top offset="1" />
+				<right offset="-2" />
+			</anchored>
+			<invisible />
+		</close>
+	</template>
+
+	<!-- Frame: ctbox -->
+	<template name="close_ctbox">
+		<close>
+			<anchored>
+				<top offset="13" />
+				<right offset="-5" />
+			</anchored>
+		</close>
+	</template>
+	<template name="help_ctbox">
+		<help>
+			<anchored>
+				<top offset="13" />
+				<right offset="-21" />
+			</anchored>
+		</help>
+	</template>
+
+	<!-- Frame: recordsheet -->
+	<template name="close_recordsheet">
+		<close>
+			<anchored>
+				<top offset="7" />
+				<right offset="-8" />
+			</anchored>
+		</close>
+	</template>
+
+	<!-- Frame: charsheet -->
+	<template name="close_charsheet">
+		<close>
+			<anchored>
+				<top offset="14" />
+				<right offset="-15" />
+			</anchored>
+		</close>
+	</template>
+
+	<!-- Frame: storybox (i.e. Story) -->
+	<template name="close_storybox">
+		<close>
+			<anchored>
+				<top offset="3" />
+				<right offset="-15" />
+			</anchored>
+		</close>
+	</template>
+
+	<!-- Frame: imagebox -->
+	<template name="close_imagebox">
+		<close>
+			<anchored>
+				<top offset="24" />
+				<right offset="-28" />
+			</anchored>
+		</close>
+	</template>
+
+	<!-- Frame: charsheethelper -->
+	<template name="close_charsheethelper">
+		<close>
+			<anchored>
+				<top offset="0" />
+				<right offset="0" />
+			</anchored>
+		</close>
 	</template>
 
 	<!-- Source: ct/ct_host.xml-->
