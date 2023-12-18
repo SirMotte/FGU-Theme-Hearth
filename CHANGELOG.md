@@ -49,6 +49,7 @@ Sir Motte
 [*] Fix for PFRPG2-Legacy character sheet inventory tab spellfailure console error.
 [*] Applied the same fix/workaround as the token height label to the token name label so that the new hover token display on images works the same.  When height fix goes in, we can make both of these Hearth/Dark style.
 [*] Inhibit the new menu building functionality until a full fix can get in.  Instead, just add a close icon to all window menus for now to prevent the CoreRPG buttons from showing.
+[*] Fixed a couple of new style issues in the 4E ruleset.
 [/LIST]
 
 
