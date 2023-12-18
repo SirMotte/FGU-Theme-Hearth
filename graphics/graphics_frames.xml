@@ -847,6 +847,14 @@
 	</framedef>
 
 	<!--4E-->
+	<framedef name="windowhandle">
+		<bitmap file="graphics/pngs/headerref.png" />
+		<middle rect="0,0,128,128" />
+	</framedef>
+	<framedef name="campaigncontrolframe">
+		<bitmap file="graphics/pngs/campaigncontrolframe.png" />
+		<middle rect="0,0,128,128" />
+	</framedef>
 	<framedef name="campaignframe">
 		<bitmap file="graphics/pngs/campaignframe.png" />
 		<topleft rect="0,0,48,47" />
