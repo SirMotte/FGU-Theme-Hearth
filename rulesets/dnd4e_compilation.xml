@@ -33,4 +33,13 @@
 		<bitmap file="graphics/pngs/acicon_pfrpg.png" />
 		<topleft rect="0,0,40,44" />
 	</framedef>
+	<template name="handle_record">
+		<genericcontrol>
+			<anchored height="25">
+				<top offset="1" />
+				<left offset="1" />
+				<right offset="-1" />
+			</anchored>
+		</genericcontrol>
+	</template>
 </root>

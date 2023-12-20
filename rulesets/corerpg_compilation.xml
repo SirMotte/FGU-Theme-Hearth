@@ -152,41 +152,11 @@
 			</anchored>
 		</close>
 	</template>
-	<template name="close_charsheet">
-		<close>
-			<anchored>
-				<top offset="14" />
-				<right offset="-12" />
-			</anchored>
-		</close>
-	</template>
-	<template name="close_imagebox">
-		<close>
-			<anchored>
-				<top offset="24" />
-				<right offset="-28" />
-			</anchored>
-		</close>
-	</template>
-	<template name="close_imagepanel">
-		<close>
-			<anchored position="insidetopright" offset="1,1" />
-			<invisible />
-		</close>
-	</template>
 	<template name="close_partysheet">
 		<close>
 			<anchored>
 				<top offset="13" />
 				<right offset="-15" />
-			</anchored>
-		</close>
-	</template>
-	<template name="close_recordsheet">
-		<close>
-			<anchored>
-				<top offset="7" />
-				<right offset="-4" />
 			</anchored>
 		</close>
 	</template>
@@ -203,14 +173,6 @@
 			<anchored>
 				<top offset="7" />
 				<right offset="-4" />
-			</anchored>
-		</close>
-	</template>
-	<template name="close_storybox">
-		<close>
-			<anchored>
-				<top offset="6" />
-				<right offset="-6" />
 			</anchored>
 		</close>
 	</template>
@@ -504,8 +466,8 @@
 	<template name="close_storybox">
 		<close>
 			<anchored>
-				<top offset="3" />
-				<right offset="-15" />
+				<top offset="6" />
+				<right offset="-8" />
 			</anchored>
 		</close>
 	</template>
