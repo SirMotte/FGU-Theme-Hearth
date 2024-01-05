@@ -53,6 +53,13 @@ Sir Motte
 [*] Changed the token background pngs (with the golden frame) to remove the white question mark and circle to avoid those artifacts from showing through when transparent pngs are used for portraits.
 [/LIST]
 
+[COLOR="#FF0000"][B]TODO for Future:[/B][/COLOR]
+[LIST]
+[*] Fix the menubar stuff correctly such that I no longer have to inhibit some of the controls being built.
+[*] Fix the various fields in the Image window right editor pane.
+[*] Fix the new token hover display and also the height field to be dark themed.
+[/LIST]
+
 
 [COLOR="#FF0000"][B]Download:[/B][/COLOR]
 
