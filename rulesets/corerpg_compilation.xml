@@ -57,8 +57,8 @@
 	<template name="imagedata_record_step">
 		<imagedatacontrol>
 			<invisible />
-			<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
-			<backcolor>232323</backcolor> <!-- Replaceable Color: Primary Background -->
+			<color>988C8B</color> <!-- Replaceable Color: Primary Foreground Originally FFF0CA, but bug forced darker color so image data fields with white background can see numbers. -->
+			<backcolor>222121</backcolor> <!-- Replaceable Color: Primary Background Originally 232323, but bug forced darker background so darker font/primary color shows better. -->
 		</imagedatacontrol>
 	</template>
 	<template name="imagepaneldata_record_step">
