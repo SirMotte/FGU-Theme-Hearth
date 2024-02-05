@@ -1,4 +1,4 @@
-[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.22.2 - Torchbearer[/B][/SIZE][/COLOR]
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.22.3 - Torchbearer[/B][/SIZE][/COLOR]
 
 [COLOR="#FF0000"][B]Announcement:[/B][/COLOR]
 
@@ -51,6 +51,7 @@ Sir Motte
 [*] Inhibit the new menu building functionality until a full fix can get in.  Instead, just add a close icon to all window menus for now to prevent the CoreRPG buttons from showing.
 [*] Fixed a couple of new style issues in the 4E ruleset.
 [*] Changed the token background pngs (with the golden frame) to remove the white question mark and circle to avoid those artifacts from showing through when transparent pngs are used for portraits.
+[*] Used a gray color on the image data pages (like Paint) where you could not see the font against the background.
 [/LIST]
 
 [COLOR="#FF0000"][B]TODO for Future:[/B][/COLOR]

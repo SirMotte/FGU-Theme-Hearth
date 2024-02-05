@@ -203,9 +203,12 @@
 	<icon name="drowbe_brand" file="graphics/extensions/ryan_hagelstrom/chat_aesthetics_configurator/drowbe_brand.png" />
 
 	<!--Author: Justin Freitas-->
-	<!--Ext: Automatic Series-->
+	<!--Ext: Stealth Tracker-->
 	<!--Icon-->
 	<icon name="stealth_icon" file="graphics/extensions/justin_freitas/stealth_tracker/stealth_icon.png" />
+	<!--Ext: Close Windows-->
+	<!--Icons -->
+    <icon name="sidebar_icon_close" file="graphics/extensions/justin_freitas/closewindows/sidebar_icon_close.png" />
 
 	<!--Author: Kent McCullough-->
 	<!--Ext: Automatic Series-->
