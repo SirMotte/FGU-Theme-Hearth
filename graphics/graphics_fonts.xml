@@ -320,6 +320,10 @@
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="14" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
+	<font name="charsheet_header">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
+		<color value="#FFFFFF" />
+	</font>
 
 
 	<!-- Reference -->

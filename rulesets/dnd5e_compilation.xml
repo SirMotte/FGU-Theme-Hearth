@@ -35,6 +35,58 @@
 		</sheetdata>
 	</windowclass>
 
+	<windowclass name="combattracker_host" merge="join">
+		<sizelimits>
+			<minimum width="650" />
+		</sizelimits>
+		<script file="ct/scripts/ct_window_dnd.lua" />
+	</windowclass>
+	<windowclass name="sub_ct_header_host" merge="join">
+		<sheetdata>
+			<spacer_ct_header_right name="spacer_buttons_header_add" insertbefore="label_init">
+				<anchored width="50" />
+			</spacer_ct_header_right>
+
+			<label_ct_header_right name="label_wounds" insertbefore="label_init">
+				<static textres="ct_label_wounds" />
+				<tooltip textres="ct_tooltip_wounds" />
+			</label_ct_header_right>
+			<label_ct_header_right name="label_temp" insertbefore="label_init">
+				<static textres="ct_label_hptemp" />
+				<tooltip textres="ct_tooltip_hptemp" />
+			</label_ct_header_right>
+			<label_ct_header_right name="label_hp" insertbefore="label_init">
+				<static textres="hp" />
+				<tooltip textres="hitpoints" />
+			</label_ct_header_right>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="sub_ct_header_client" merge="join">
+		<sheetdata>
+			<spacer_ct_header_right name="spacer_buttons_header_add" insertbefore="label_init">
+				<anchored width="13" />
+			</spacer_ct_header_right>
+
+			<label_ct_header_right name="label_status" insertbefore="label_init">
+				<anchored width="110" />
+				<static textres="ct_label_status" />
+			</label_ct_header_right>
+			<label_ct_header_right name="label_wounds" insertbefore="label_init">
+				<static textres="ct_label_wounds" />
+				<tooltip textres="ct_tooltip_wounds" />
+			</label_ct_header_right>
+			<label_ct_header_right name="label_temp" insertbefore="label_init">
+				<static textres="ct_label_hptemp" />
+				<tooltip textres="ct_tooltip_hptemp" />
+			</label_ct_header_right>
+			<label_ct_header_right name="label_hp" insertbefore="label_init">
+				<static textres="hp" />
+				<tooltip textres="hitpoints" />
+			</label_ct_header_right>
+		</sheetdata>
+	</windowclass>
+
 	<!-- Source: campaign/record_char_main.xml
 	<windowclass name="charsheet_classes" merge="join">
 		<sheetdata>

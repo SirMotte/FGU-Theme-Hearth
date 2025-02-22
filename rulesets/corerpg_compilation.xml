@@ -681,6 +681,37 @@
 			<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
 		</label>
 	</template>
+    
+    <windowclass name="sub_ct_header_host">
+		<margins control="34,0,0,0" />
+		<sheetdata>
+			<anchor_ct_header_left />
+			<anchor_ct_header_right />
+
+			<spacer_ct_header_active name="spacer_header_active" />
+			<spacer_ct_header_token name="spacer_header_token" />
+			<button_ct_header_visibility name="button_global_visibility" />
+
+			<spacer_ct_header_buttons_host name="spacer_buttons_header" />
+			<label_ct_header_initresult name="label_init" />
+			<label_ct_header_name_v2 name="label_name" />
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="sub_ct_header_client">
+		<margins control="25,0,0,0" />
+		<sheetdata>
+			<anchor_ct_header_left />
+			<anchor_ct_header_right />
+
+			<spacer_ct_header_active name="spacer_header_active" />
+			<spacer_ct_header_token name="spacer_header_token" />
+
+			<spacer_ct_header_buttons_client name="spacer_buttons_header" />
+			<label_ct_header_initresult name="label_init" />
+			<label_ct_header_name_v2 name="label_name" />
+		</sheetdata>
+	</windowclass>
 
 	<!-- Source: desktop/desktop_classes.xml -->
 	<windowclass name="dicetower" merge="join">
