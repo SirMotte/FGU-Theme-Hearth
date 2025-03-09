@@ -388,6 +388,12 @@
 		</windowmenubar>
 	</template>
 
+	<template name="windowmenubar_charsheet">
+		<windowmenubar>
+			<anchored offset="-12,10" />
+		</windowmenubar>
+	</template>
+
 	<!-- Frame: tokenbag -->
 	<template name="windowtitlebar_tokenbag">
 		<windowtitlebar>

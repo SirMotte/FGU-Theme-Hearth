@@ -2,6 +2,11 @@
 
 <root>
 	<!-- Note: FGF tags processed first for FG Classic, and TTF tags processed first for FGU -->
+    	<!-- Tooltip font -->
+	<font name="tooltipbox">
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<color value="#DDDDDD" />
+	</font>	
 	<!-- Text Highlight -->
 	<textsettings>
 		<selectioncolor>37415A</selectioncolor> <!-- Replaceable Color: Text Selection -->
