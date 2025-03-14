@@ -328,13 +328,25 @@
 			</anchored>
 		</buttongroup_tabs>
 	</template>
-    <template name="tabs_charsheet">
-		<buttongroup_tabs name="tabs">
-			<anchored width="18" height="92">
-				<top offset="50" />
-				<right offset="-5" />
+	<template name="anchor_content_partysheet_top">
+		<genericcontrol name="contentanchor">
+			<anchored height="0">
+				<top offset="40" />
+				<left offset="18" />
+				<right offset="-24" />
 			</anchored>
-		</buttongroup_tabs>
+			<disabled />
+		</genericcontrol>
+	</template>
+	<template name="anchor_content_partysheet_bottom">
+		<genericcontrol name="bottomanchor">
+			<anchored to="contentanchor" height="24">
+				<bottom parent="" offset="4" />
+				<left />
+				<right />
+			</anchored>
+			<disabled />
+		</genericcontrol>
 	</template>
     <template name="tabs_recordsheet">
 		<buttongroup_tabs name="tabs">
@@ -362,6 +374,26 @@
 		<windowmenubar>
 			<anchored offset="-13,15" />
 		</windowmenubar>
+	</template>
+	<template name="anchor_content_utilitybox_top">
+		<genericcontrol name="contentanchor">
+			<anchored height="0">
+				<top offset="44" />
+				<left offset="20" />
+				<right offset="-20" />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
+	<template name="anchor_content_utilitybox_bottom">
+		<genericcontrol name="bottomanchor">
+			<anchored to="contentanchor" height="24">
+				<bottom parent="" offset="4" />
+				<left />
+				<right />
+			</anchored>
+			<disabled />
+		</genericcontrol>
 	</template>
 
 	<!-- Frame: partysheet -->
@@ -554,6 +586,24 @@
 	</template>
 
 	<!-- Frame: charsheet -->
+    <template name="tabs_charsheet">
+		<buttongroup_tabs name="tabs">
+			<anchored width="18" height="92">
+				<top offset="50" />
+				<right offset="-5" />
+			</anchored>
+		</buttongroup_tabs>
+	</template>
+	<template name="anchor_content_charsheet_bottom">
+		<genericcontrol name="bottomanchor">
+			<anchored to="contentanchor" height="15">
+				<bottom parent="" offset="-8" />
+				<left />
+				<right />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
 	<template name="close_charsheet">
 		<close>
 			<anchored>
