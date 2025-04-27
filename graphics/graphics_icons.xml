@@ -100,6 +100,8 @@
 	<icon name="token_empty" file="graphics/pngs/token_empty.png" />
 	<icon name="char_encumbrance" file="graphics/pngs/char_encumbrance.png" />
 	<icon name="char_inv_carried_header" file="graphics/pngs/char_inv_carried_header.png" />
+	<icon name="button_roll_light" file="graphics/pngs/button_roll_light.png" />
+	<icon name="button_roll_light_down" file="graphics/pngs/button_roll_light_down.png" />
 
 	<icon name="char_weapon_melee" file="graphics/pngs/char_weapon_melee.png" />
 	<icon name="char_weapon_ranged" file="graphics/pngs/char_weapon_ranged.png" />
