@@ -44,15 +44,13 @@ Due to time constraints he is no longer able to work on the theme and maintenanc
 ## Features
    - Reduced, dark color palette.
    - Eye-friendly 7:1 value contrasts for good readability even with small fonts.
-   - Completely remade UI. No soft edges, no 3D Effects, no textures - simple, flat and clear.
+   - Remade UI. No soft edges, no 3D Effects, no textures - simple, flat and clean.
    - Fonts replaced with Roboto Sans.
    - Font sizes and colors adjusted.
    - Color Coded Action Buttons for ease of use.
    - Script enhanced radial menu that features more unique icons than normally possible. Big thank you to Saagael and MeAndUnique!
    - No annyoing link Icons in the Hotkey Bar - brought to you by MeAndUnique!
      - You have to re-link already placed hotkey links to make the icon disappear!
-     - This functionality is now also available as the standalone "Bartender" Extension, measures are taken that there is no conflict if both extensions are active.
-   - and a lot more...
 
 ## Compatibility Information & Known Problems
 This theme uses a very high loadorder of 1500 in order to be able to overwrite most extension's UI elements out there. Therefore any extension that you want to overwrite my theme with must use a loadorder value of 1501 or higher. This is set in the extension.xml within any extension.
@@ -78,49 +76,6 @@ This theme uses a very high loadorder of 1500 in order to be able to overwrite m
 
 Enjoy!
 Sir Motte
-
-
-# Hall of Fame
-- The first offering seemed to do little and as the Knight stepped back from the altar, his unease was showing clearly on his face.
-"We can't fail!" he uttered as he nodded to the Ranger.
-The young Elf carefully approached the basin and put forth his selection of goods. Ripples of golden light radiated across the fluids surface when the items sank down to its bottom.
-"It is pleased!" he whispered, showing little emotion on his face, but his companions knew him well enough to decipher his stoic expression. Elation and a hint of relief.
-"My turn!" grunted the short sorcerer. He had trouble to place his gifts, his height forced him to tiptoe around the altar and place them one by one at its large stone rim.
-With a push by his cane he tipped them over. Splish, splash. The soft light became brighter and brighter with each item, until the Adventurers had to avert their eyes.
-
-Pleasant heat tickled their skin and they dared to look up again. An orb of pure light had formed atop the altar, hovering just a few inches in the air.
-"We made it!" gasped the Knight and stepped forward....
-
-- Evolivolution for providing Starfinder support!
-- Shoutout to seansps who added Cyberpunk Red support to the theme, you rock!
-- Rugged sea, distant shore, waves and thunder evermore.
-Laughing gods of wet an wind care not for souls on wooden splint.
-Tossed and turned, high and low, yet steady our ship will go, to promised land of bane and boon lead steadfast by Tabarkus tune.
-
-And a god takes notice.
-"Prideful mortal, carry on, a deity's ear has heard your song.
-I choose you to tell my name, spread the word and gain the fame, worthy of your lyrics fervour,
-my heart was moved you may go further!"
-
-Thank you Tabarkus, for a launch of ships to my maps collection!
-- Thanks a lot to the two people who donated using the forge donation system. When you do, make sure that Smite Works gets a little cut as well.
-- The creature stared at me while sitting on top of its treasure. Its enormous front teeth glistened wet in the dim light, as did its brown fur. It smirked, the smirk became a smile and suddenly it snipped an object at me from below its feet. My instincts made me flinch, but my arm reached for the object anyway and snatched it out of the air. A beautiful gold coin from a distant country lay in my hand. Intricate and ornate details framed a fair face with long hair and a hat of an unknown fashion. The smile resembled the one shown by the creature. As I looked up again, the creature still sat there, still watching me, still smiling. I bowed. I would do my best to please it again. Thanks to Felix Achberger for donating!
-- The nameless soul led on in silence. A ghoustly figure floating just a few feet in front of me, ragged clothes billowing in an otherworldy breeze. The translucent body shimmered in a faint silverish, blue light. I followed it into a room, that looked to have been a study at some point in the distant past. Crumbling parchment and dried out inkpots, old maps of long lost kingdoms and tomes of forgotten wisdom lay about in a somewhat orderly fashion. "Remarkable!", I thought, as I let my eyes examine the treasures before me. The ghostly figure stopped and turned to me, his fair face seemed to kindly smile as he noticed the exitement in my eyes.
-His hands began to gesture around the room, pointed at some of his belongings, and then at me. He smiled again.
-I understood, nodded, bowed deeply and then returned his smile. Certainly not as fair as his, but in kind.
-- Where wares and coin change purse and hands, the one called Bayne there proudly stands, manifold a craft displayed, unlucky those who come too late, missing out on goods so great!
-- Kindred spirit, generous soul, artful script makes worth a scroll, it's weight in gold and read out loud. Thank you bmos, you can be proud!
-- The one who shares with golden heart, bright in soul and sound in art, has given plentiful his craft; abundant the amount amassed; eyes wide open I childlike laughed. Thank you Dud-in!
-- The incantation rose about, the whisper soon became a shout as magic made his body stout. Thanks to Nick Frost for donating!
-- When darkness crawls and shadows loom, one misstep here could spell our doom; Smart the one with torch and lamp, will be remembered as a champ; As he who gave the gift of light, has earned himself the title knight.
-- The cartographers pride is a finished map. The travelers joy is a detailed map. The adventurers staple is a bundle of maps - They all came signed by the one whiteTiki.
-- Whispers in the kings hall, the traveling bards, puffers on the street, voices at the regulars' table, the birds in the trees; They all sing praise to the one Aridhro, who made sure the army's soldiers won't use adrenaline during battle, but solely move on caffeine alone.
-- The warriors raise a freshly brewed toast to cmtpcm, who contributed to the cause with a large gift of coffee!
-- The Valkyries cheer, for their master has spread his wealth and name to support the cause. MadNomad!
-- Hushed voices whisper a glorious name. A supporter that aided the cause! Did you hear it too?
-- The heavens sing of a name, angelic and pure, an euphony to ears and heart. Its wielder brought gifts from the storytellers wares!
-- The scribes bow their heads in awe to, MeAndUnique, Saagael, mattekure, Superteddy57, Styrmir, damned and Trenloe for their help and ingenuity with complex scripture.
-- Wisdom poured by CMYKMatter and Drowbe helps the eye stay focused.
 
 ### Credits
 A few icons used are based on the Byte Dance Open Source Icon Library (iconpark.bytedance.com/official), though in most cases heavily altered they provide an invaluable starting base. Check them out if you need them.
