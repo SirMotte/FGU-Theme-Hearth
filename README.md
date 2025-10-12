@@ -50,27 +50,26 @@ Developed to reduce eye strain during low-light use of FGU while aligning with e
 		Note: previously placed hotkey links must be re-linked to remove existing icons
 
 ## Compatibility Information & Known Problems
-This theme uses a high load order of 1500 so it can overwrite most extensions’ UI elements. Any extension that should override this theme must set its load order to 1501 or higher in its extension.xml.
-
-		- Font extensions (e.g. by Mattekure) — may revert text color to black, making it hard to read.
-		- Console warnings — you may see [Warning] entries related to this theme; these are harmless and indicate an unsupported extension. [ERROR] entries are 		serious; please report any errors mentioning this theme.
-		- Chat Aesthetics Configurator (by Drowbe, maintained by rhagelstrom) — its font and chat color settings conflict with this theme. If you use it, set the 		configurator to default color in its settings.
-		- PFRPG2 ruleset — if used, restart both the client and the launcher after installing the theme; otherwise action icons may not display.
-		- Author extension by Celestian — currently causes storyframe list entries to appear black and hard to read. Avoid using the theme during world building 		while Author is enabled.
+This theme uses a high load order of 1500 so it can overwrite most extensions’ UI elements. Any extension that should override this theme must set its load order to 1501 or higher in its extension.xml
+- Font extensions (e.g. by Mattekure) — may revert text color to black, making it hard to read.
+- Console warnings — you may see [Warning] entries related to this theme; these are harmless and indicate an unsupported extension. [ERROR] entries are 		serious; please report any errors mentioning this theme.
+- Chat Aesthetics Configurator (by Drowbe, maintained by rhagelstrom) — its font and chat color settings conflict with this theme. If you use it, set the 	configurator to default color in its settings.
+- PFRPG2 ruleset — if used, restart both the client and the launcher after installing the theme; otherwise action icons may not display.
+- Author extension by Celestian — currently causes storyframe list entries to appear black and hard to read. Avoid using the theme during world building while Author is enabled.
 
 # Installation - Forge (Recommended)
-		1. Subscribe to the FG Forge item: https://forge.fantasygrounds.com/shop/items/12/view and update your Fantasy Grounds client.  
-		2. On your campaign's Details page, enable the extension listed as **Theme: Hearth** in the **Extensions** section, then launch the campaign.  
-		3. Done — enjoy the theme!
+1. Subscribe to the FG Forge item: https://forge.fantasygrounds.com/shop/items/12/view and update your Fantasy Grounds client.  
+2. On your campaign's Details page, enable the extension listed as **Theme: Hearth** in the **Extensions** section, then launch the campaign.  
+3. Done — enjoy the theme!
 
 # Installation — Manual (GitHub)
-		1. Download the theme from GitHub: https://github.com/SirMotte/FGU-Theme-Hearth/releases  
-		2. Move the file named `Theme_SirMotte_Hearth.ext` into the `Extensions` folder inside your Fantasy Grounds Data directory.  
-		3. On your campaign's Details page, enable the extension listed as **Theme: Hearth** in the **Extensions** section, then launch the campaign.  
-		4. Done — enjoy the theme!
+1. Download the theme from GitHub: https://github.com/SirMotte/FGU-Theme-Hearth/releases  
+2. Move the file named `Theme_SirMotte_Hearth.ext` into the `Extensions` folder inside your Fantasy Grounds Data directory.  
+3. On your campaign's Details page, enable the extension listed as **Theme: Hearth** in the **Extensions** section, then launch the campaign.  
+4. Done — enjoy the theme!
 
 # Customization Bonus Extension
-   - To customize your GM icon, download the GM Icon Replacer extension and follow its README: (https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md).
+- To customize your GM icon, download the GM Icon Replacer extension and follow its README: (https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md).
 
 Enjoy!
 Sir Motte
