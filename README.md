@@ -1,17 +1,15 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
 Current Version: 2.9.46 - Torchbearer
-April 27, 2025 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
+Release Date: April 27, 2025 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
 
-Original creator: Sir Motte
-Maintained by: Justin Freitas
+Original author: Sir Motte
+Maintainer: Justin Freitas
 
-This is a Theme Extension for the [Fantasy Grounds Virtual Tabletop Platform](https://www.fantasygrounds.com/).
+This is a Theme Extension for the [Fantasy Grounds Virtual Tabletop](https://www.fantasygrounds.com/).
 
 ![Showcase](https://user-images.githubusercontent.com/82598692/214700861-9e55f3c0-1541-41c6-b1fc-d6bd61e0ec5f.png)
 
-[Customization Bonus Extension](https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md)
-In order to customize your GM Icon (or any other element of the theme), download my GM Icon Replacer Extension and follow the instructions in the readme.
 
 Please relay questions and issue reports to, [JustinFreitas](https://www.fantasygrounds.com/forums/member.php?34294-JustinFreitas).
 You can still contact Sir_Motte, preferably on Discord, but he is, for now, no longer actively involved.
@@ -38,44 +36,45 @@ You can still contact Sir_Motte, preferably on Discord, but he is, for now, no l
    - Unofficial Developers Guild
 
 ## Foreword
-This theme was created by Sir Motte in his pursuit to not burn out his eyes in dim light conditions while using FGU. It quickly became one of the most downloaded items on the Forge. 
-Due to time constraints he is no longer able to work on the theme and maintenance has been taken over by Justin Freitas.
+Developed to reduce eye strain during low-light use of FGU while aligning with established visual‑UI principles and the creator’s preferences, this theme emphasizes a clean, flat UI and strong readability.
 
 ## Features
-   - Reduced, dark color palette.
-   - Eye-friendly 7:1 value contrasts for good readability even with small fonts.
-   - Remade UI. No soft edges, no 3D Effects, no textures - simple, flat and clean.
-   - Fonts replaced with Roboto Sans.
-   - Font sizes and colors adjusted.
-   - Color Coded Action Buttons for ease of use.
-   - Script enhanced radial menu that features more unique icons than normally possible. Big thank you to Saagael and MeAndUnique!
-   - No annyoing link Icons in the Hotkey Bar - brought to you by MeAndUnique!
-     - You have to re-link already placed hotkey links to make the icon disappear!
+- Reduced dark color palette
+- 7:1 value contrast for readable text even at small font sizes
+- Redesigned UI: no soft edges, 3D effects, or textures — simple, flat, and clean
+- Fonts replaced with Roboto Sans
+- Adjusted font sizes and colors for consistency and legibility
+- Color‑coded action buttons for faster recognition
+- Enhanced radial menu with additional unique icons (thanks to Saagael and MeAndUnique)
+- Hotkey bar improvements: no distracting link icons (implemented by MeAndUnique)
+		Note: previously placed hotkey links must be re-linked to remove existing icons
 
 ## Compatibility Information & Known Problems
-This theme uses a very high loadorder of 1500 in order to be able to overwrite most extension's UI elements out there. Therefore any extension that you want to overwrite my theme with must use a loadorder value of 1501 or higher. This is set in the extension.xml within any extension.
+This theme uses a high load order of 1500 so it can overwrite most extensions’ UI elements. Any extension that should override this theme must set its load order to 1501 or higher in its extension.xml.
 
-   - Font Extensions like the ones by Mattekure will make the font go back to black and thus badly readable.
-   - If you pay close attention to the console log you might find [Warning] entries related to this theme. You can safely ignore them, as they only tell you, that you're not using an extension supported by my theme. [ERROR]     entries on the other hand are serious. If you encounter one related to this theme, please give me a report.
-   - A warning regarding Chat Aesthetics Configurator by Drowbe, maintained by rhagelstrom. Its font settings and chat colors won't fit very well with my theme. If you still want to use it please set it to default color in its settings menu entry.If you're using the PFRPG2 ruleset, you need to restart the client AND the lanucher else the action icons won't show.
-   - Celestians "Author" extension currently makes storyframe list entries hard to read (black). I'm working on resolving the issue. For now, don't use my theme during world building with the Author extension enabled.
+		- Font extensions (e.g. by Mattekure) — may revert text color to black, making it hard to read.
+		- Console warnings — you may see [Warning] entries related to this theme; these are harmless and indicate an unsupported extension. [ERROR] entries are 		serious; please report any errors mentioning this theme.
+		- Chat Aesthetics Configurator (by Drowbe, maintained by rhagelstrom) — its font and chat color settings conflict with this theme. If you use it, set the 		configurator to default color in its settings.
+		- PFRPG2 ruleset — if used, restart both the client and the launcher after installing the theme; otherwise action icons may not display.
+		- Author extension by Celestian — currently causes storyframe list entries to appear black and hard to read. Avoid using the theme during world building 		while Author is enabled.
 
 # Installation - Forge (Recommended)
-   1. Subscribe to the [FG Forge Item](https://forge.fantasygrounds.com/shop/items/12/view) and Update your Fantasy Grounds Client.
-   2. Activate the theme listed as "Theme: Hearth" in your campaign details page in the "Extensions" section and launch the campaign.
-   3. Done, I hope you like it!
+		1. Subscribe to the FG Forge item: https://forge.fantasygrounds.com/shop/items/12/view and update your Fantasy Grounds client.  
+		2. On your campaign's Details page, enable the extension listed as **Theme: Hearth** in the **Extensions** section, then launch the campaign.  
+		3. Done — enjoy the theme!
 
-# Installation - GitHub
-   1. [Download](https://github.com/SirMotte/FGU-Theme-Hearth/releases) the Theme from Github.
-   2. Move the file named "Theme_SirMotte_Hearth.ext" into the "Extensions" Folder found inside your Fantasy Grounds Data folder".
-   3. Activate the theme listed as "Theme: Hearth" in your campaign details page in the "Extensions" section and launch the campaign.
-   4. Done, I hope you like it!
+# Installation — Manual (GitHub)
+		1. Download the theme from GitHub: https://github.com/SirMotte/FGU-Theme-Hearth/releases  
+		2. Move the file named `Theme_SirMotte_Hearth.ext` into the `Extensions` folder inside your Fantasy Grounds Data directory.  
+		3. On your campaign's Details page, enable the extension listed as **Theme: Hearth** in the **Extensions** section, then launch the campaign.  
+		4. Done — enjoy the theme!
 
-## Customization Bonus Extension
-   - In order to customize your GM Icon, download my [GM Icon Replacer Extension](https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md) and follow the instructions in the readme.
+# Customization Bonus Extension
+   - To customize your GM icon, download the GM Icon Replacer extension and follow its README: (https://github.com/SirMotte/FGU-GM-Icon-Replacer/blob/GM-Icon_Replacer-Main/README.md).
 
 Enjoy!
 Sir Motte
 
 ### Credits
-A few icons used are based on the Byte Dance Open Source Icon Library (iconpark.bytedance.com/official), though in most cases heavily altered they provide an invaluable starting base. Check them out if you need them.
+A number of icons are derived from the ByteDance Open Source Icon Library (https://iconpark.bytedance.com/official). They were heavily modified but provided a valuable starting point.
+
