@@ -769,6 +769,15 @@
 		</sheetdata>
 	</windowclass>
 
+
+
+	<windowclass name="combattracker_client" merge="join">
+		<margins control="0,0,5,4" />
+		<sizelimits>
+			<dynamic />
+		</sizelimits>
+	</windowclass>
+
 	<!-- Source: desktop/desktop_classes.xml -->
 	<windowclass name="dicetower" merge="join">
 		<sizelimits>

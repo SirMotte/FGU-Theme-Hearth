@@ -186,8 +186,18 @@
 	</windowclass>
 	<!-- Source: ct/ct_host.xml -->
 	<windowclass name="combattracker_host" merge="join">
+		<margins control="0,0,5,4" />
 		<sizelimits>
 			<minimum width="520" />
+			<dynamic />
 		</sizelimits>
 	</windowclass>
+
+	<windowclass name="combattracker_client" merge="join">
+		<margins control="0,0,5,4" />
+		<sizelimits>
+			<dynamic />
+		</sizelimits>
+	</windowclass>
+
 </root>

@@ -283,7 +283,6 @@
 	<framedef name="ctbox">
 		<bitmap file="graphics/pngs/ctbox.png" />
 		<offset>95,95,95,95</offset>
-		<insideoffset>0,0,14,16</insideoffset>
 	</framedef>
 	<framedef name="ctentrybox">
 		<bitmap file="graphics/pngs/ctentrybox.png" />
