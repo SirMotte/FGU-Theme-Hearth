@@ -1217,7 +1217,7 @@
     <windowclass name="treasureparcel" merge="join">
 		<sheetdata>
 			<windowmenubar_recordsheet name="menubar">
-			    <anchored offset="-11,6" />
+			    <anchored offset="-11,9" />
             </windowmenubar_recordsheet>
 		</sheetdata>
 	</windowclass>
