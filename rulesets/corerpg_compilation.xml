@@ -769,6 +769,15 @@
 		</sheetdata>
 	</windowclass>
 
+
+
+	<windowclass name="combattracker_client" merge="join">
+		<margins control="0,0,5,4" />
+		<sizelimits>
+			<dynamic />
+		</sizelimits>
+	</windowclass>
+
 	<!-- Source: desktop/desktop_classes.xml -->
 	<windowclass name="dicetower" merge="join">
 		<sizelimits>
@@ -1208,7 +1217,7 @@
     <windowclass name="treasureparcel" merge="join">
 		<sheetdata>
 			<windowmenubar_recordsheet name="menubar">
-			    <anchored offset="-11,6" />
+			    <anchored offset="-11,9" />
             </windowmenubar_recordsheet>
 		</sheetdata>
 	</windowclass>
