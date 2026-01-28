@@ -42,11 +42,11 @@
 	<!-- MasterIndex -->
 	<framedef name="filter">
 		<bitmap file="graphics/pngs/filter.png" />
-		<offset>1,5,1,5</offset>
+		<offset>5,5,5,5</offset>
 	</framedef>
 	<framedef name="filter_active">
 		<bitmap file="graphics/pngs/filter_active.png" />
-		<offset>1,5,1,5</offset>
+		<offset>5,5,5,5</offset>
 	</framedef>
 
 	<!-- Headers -->
@@ -283,7 +283,6 @@
 	<framedef name="ctbox">
 		<bitmap file="graphics/pngs/ctbox.png" />
 		<offset>95,95,95,95</offset>
-		<insideoffset>0,0,14,16</insideoffset>
 	</framedef>
 	<framedef name="ctentrybox">
 		<bitmap file="graphics/pngs/ctentrybox.png" />

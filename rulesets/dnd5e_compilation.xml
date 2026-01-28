@@ -36,10 +36,11 @@
 	</windowclass>
 
 	<windowclass name="combattracker_host" merge="join">
+		<margins control="0,0,5,4" />
 		<sizelimits>
 			<minimum width="650" />
+			<dynamic />
 		</sizelimits>
-		<script file="ct/scripts/ct_window_dnd.lua" />
 	</windowclass>
 	<windowclass name="sub_ct_header_host" merge="join">
 		<sheetdata>
