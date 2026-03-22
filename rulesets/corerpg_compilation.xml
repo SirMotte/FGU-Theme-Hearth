@@ -710,6 +710,35 @@
 	</template>
 
 	<!-- Frame: charsheethelper -->
+	<template name="windowtitlebar_charsheethelper">
+		<windowtitlebar name="title">
+			<anchored position="insidetop" offset="0,3" height="45" />
+			<field>name</field>
+		</windowtitlebar>
+	</template>
+	<template name="windowmenubar_charsheethelper">
+		<windowmenubar>
+			<anchored offset="-12,10" />
+		</windowmenubar>
+	</template>
+	<template name="anchor_content_charsheethelper_top">
+		<genericcontrol name="contentanchor">
+			<anchored height="0" merge="replace">
+				<top offset="30" />
+				<left offset="8" />
+				<right offset="-13" />
+			</anchored>
+		</genericcontrol>
+	</template>
+	<template name="anchor_content_charsheethelper_bottom">
+		<genericcontrol name="bottomanchor">
+			<anchored to="contentanchor" height="10" merge="replace">
+				<bottom parent="" offset="-7" />
+				<left />
+				<right />
+			</anchored>
+		</genericcontrol>
+	</template>
 	<template name="close_charsheethelper">
 		<close>
 			<anchored>

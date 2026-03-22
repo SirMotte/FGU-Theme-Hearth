@@ -246,9 +246,9 @@
 		<left rect="0,27,8,508" />
 		<middle rect="8,27,510,508" />
 		<right rect="518,27,12,508" />
-		<bottomleft rect="0,535,8,4" />
-		<bottom rect="8,535,510,4" />
-		<bottomright rect="518,535,12,4" />
+		<bottomleft rect="0,535,8,3" />
+		<bottom rect="8,535,510,3" />
+		<bottomright rect="518,535,12,3" />
 	</framedef>
 	<framedef name="chatentry">
 		<bitmap file="graphics/pngs/chatentry.png" />
@@ -834,7 +834,7 @@
 		<bitmap file="graphics/pngs/tabs.png" />
 		<topleft rect="0,0,18,73" />
 		<left rect="0,73,18,335" />
-		<bottomleft rect="0,408,18,86" />
+		<bottomleft rect="0,408,18,85" />
 	</framedef>
 	<framedef name="windowmenubar_button">
 		<bitmap file="graphics/pngs/windowmenubar_button.png" />
