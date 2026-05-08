@@ -170,7 +170,7 @@
 	<icon name="button_cast_spell" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small.png" />
 	<icon name="button_cast_spell_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_down.png" />
 	<icon name="button_cast_spell_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_no_slots.png" />
-	<icon name="button_cast_spell_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_down_no_slots.png" />
+	<icon name="button_cast_spell_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_down.png" />
 	<icon name="button_cast_spell_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_cast_small_off.png" />
 	<icon name="button_pactmagic" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small.png" />
 	<icon name="button_pactmagic_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down.png" />
@@ -648,20 +648,6 @@
 	<icon name="icon_rank_top" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_top_30.png" />
 	<icon name="icon_warfare" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_warfare_30.png" />
 	<!-- Battle Tracker -->
-	<windowclass name="combattracker_host" merge="join" ruleset="5E">
-		<sheetdata>
-			<buttoncontrol name="button_show_battle">
-				<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
-			</buttoncontrol>
-		</sheetdata>
-	</windowclass>
-	<windowclass name="combattracker_client" merge="join" ruleset="5E">
-		<sheetdata>
-			<buttoncontrol name="button_show_battle">
-				<anchored position="insidetopleft" offset="2,11" width="70" height="20" />
-			</buttoncontrol>
-		</sheetdata>
-	</windowclass>
 	<windowclass name="battletracker" merge="join">
 		<sheetdata>
 			<genericcontrol name="leftanchor">
@@ -1153,4 +1139,39 @@
 	<icon name="sidebar_icon_recordtype_kkm_window" file="graphics/extensions/dsaraujos/kingdom_manager/crown.png" />
 	<icon name="tab_leaders" file="graphics/extensions/dsaraujos/kingdom_manager/tab_leaders.png" />
 	<icon name="tab_armies" file="graphics/extensions/dsaraujos/kingdom_manager/tab_armies.png" />
+
+	<!-- Standardize toolbar buttons for Hearth theme circular style -->
+	<template name="toolbar_action" merge="join">
+		<toolbar_action_step>
+			<frame name="windowmenubar_button" offset="2,2,2,2" />
+			<stateframe>
+				<pressed name="windowmenubar_button_down" offset="2,2,2,2" nobaseframe="true" />
+			</stateframe>
+		</toolbar_action_step>
+	</template>
+
+	<!-- CT Global Effects Layout Fix (Subwindow Class Method) -->
+	<template name="windowmenubar_ctbox">
+		<subwindow>
+			<anchored position="insidetop" offset="-5,9" />
+			<class>windowmenubar_ct</class>
+			<activate />
+		</subwindow>
+	</template>
+
+	<windowclass name="windowmenubar_ct">
+		<script>
+			function onInit()
+				if WindowMenuManager then
+					WindowMenuManager.populate(self);
+				end
+			end
+		</script>
+		<sheetdata>
+			<toolbar_anchor_left name="leftanchor">
+				<anchored offset="5,0" />
+			</toolbar_anchor_left>
+			<toolbar_anchor_right name="rightanchor" />
+		</sheetdata>
+	</windowclass>
 </root>
