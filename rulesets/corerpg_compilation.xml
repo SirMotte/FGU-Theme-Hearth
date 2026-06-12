@@ -527,12 +527,6 @@
 	</template>
 
 	<!-- Frame: ctbox -->
-	<template name="windowmenubar_ctbox">
-		<windowmenubar>
-			<!-- Position of the title bar link, help, and close icons.  First number is right/left, second is down/up. -->
-			<anchored offset="-5,9" />
-		</windowmenubar>
-	</template>
 	<template name="anchor_content_ctbox_top">
 		<genericcontrol name="contentanchor">
 			<anchored height="0">
@@ -737,7 +731,7 @@
 				<left />
 				<right />
 			</anchored>
-		</genericcontrol>
+			</genericcontrol>
 	</template>
 	<template name="close_charsheethelper">
 		<close>
@@ -767,11 +761,11 @@
 		</label>
 	</template>
     
-    <windowclass name="sub_ct_header_host">
+    <windowclass name="sub_ct_header_host" merge="join">
 		<margins control="34,0,0,0" />
 		<sheetdata>
-			<anchor_ct_header_left />
-			<anchor_ct_header_right />
+			<anchor_ct_header_left name="leftanchor" />
+			<anchor_ct_header_right name="rightanchor" />
 
 			<spacer_ct_header_active name="spacer_header_active" />
 			<spacer_ct_header_token name="spacer_header_token" />
@@ -783,11 +777,11 @@
 		</sheetdata>
 	</windowclass>
 
-	<windowclass name="sub_ct_header_client">
+	<windowclass name="sub_ct_header_client" merge="join">
 		<margins control="25,0,0,0" />
 		<sheetdata>
-			<anchor_ct_header_left />
-			<anchor_ct_header_right />
+			<anchor_ct_header_left name="leftanchor" />
+			<anchor_ct_header_right name="rightanchor" />
 
 			<spacer_ct_header_active name="spacer_header_active" />
 			<spacer_ct_header_token name="spacer_header_token" />
@@ -840,7 +834,6 @@
 	<template name="button_imagefullpanel_sizedown">
 		<button_window_sizedown>
 			<anchored position="insidetopright" offset="32,1" />
-			<invisible />
 		</button_window_sizedown>
 	</template>
     <template name="button_refresh">
@@ -1248,6 +1241,37 @@
 			<windowmenubar_recordsheet name="menubar">
 			    <anchored offset="-11,9" />
             </windowmenubar_recordsheet>
+		</sheetdata>
+	</windowclass>
+
+    <windowclass name="sub_ct_header_host" merge="join">
+		<margins control="34,0,0,0" />
+		<sheetdata>
+			<anchor_ct_header_left name="leftanchor" />
+			<anchor_ct_header_right name="rightanchor" />
+
+			<spacer_ct_header_active name="spacer_header_active" />
+			<spacer_ct_header_token name="spacer_header_token" />
+			<button_ct_header_visibility name="button_global_visibility" />
+
+			<spacer_ct_header_buttons_host name="spacer_buttons_header" />
+			<label_ct_header_initresult name="label_init" />
+			<label_ct_header_name_v2 name="label_name" />
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="sub_ct_header_client" merge="join">
+		<margins control="25,0,0,0" />
+		<sheetdata>
+			<anchor_ct_header_left name="leftanchor" />
+			<anchor_ct_header_right name="rightanchor" />
+
+			<spacer_ct_header_active name="spacer_header_active" />
+			<spacer_ct_header_token name="spacer_header_token" />
+
+			<spacer_ct_header_buttons_client name="spacer_buttons_header" />
+			<label_ct_header_initresult name="label_init" />
+			<label_ct_header_name_v2 name="label_name" />
 		</sheetdata>
 	</windowclass>
 </root>

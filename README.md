@@ -1,7 +1,7 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
-Current Version: 2.9.49 - Torchbearer  
-Release Date: March 20, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
+Current Version: 2.9.52 - Torchbearer  
+Release Date: June 12, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
 
 Original author: Sir Motte  
 Maintainer: Justin Freitas
@@ -25,6 +25,7 @@ You can still contact Sir_Motte, preferably on Discord, but he is, for now, no l
 - Cypher System
 - Cyberpunk Red
 - OSE2
+- Mongoose Traveller 2E
 - Other Rulesets might work surprisingly well, please test them and possibly report your findings.
 
 ## Special Contributors

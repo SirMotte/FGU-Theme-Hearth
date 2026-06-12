@@ -27,7 +27,7 @@
 		<color value="EBDDBA" /> <!-- Replaceable Color: Primary Foreground -->
 	</font>
     <font name="charstattotal">
-		<ttf file="graphics/fonts/nusaliver.ttf" name="nusaliver" size="28"/>
+		<ttf file="graphics/rulesets/icrpg/nusaliver.ttf" name="nusaliver" size="28"/>
 		<color value="DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 

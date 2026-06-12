@@ -225,23 +225,23 @@
 		<color value="#DDDDDD" />
 	</font>
 	<font name="noto-10">
-		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="10" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="10" />
 		<color value="#DDDDDD" />
 	</font>
 	<font name="noto-12">
-		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
 		<color value="#DDDDDD" />
 	</font>
 	<font name="noto-15">
-		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="15" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="15" />
 		<color value="#DDDDDD" />
 	</font>	
 	<font name="noto-18">
-		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
 		<color value="#DDDDDD" />
 	</font>
 	<font name="noto-48">
-		<ttf file="raphics/fonts/Roboto-Regular.ttf" name="Roboto" size="48" />
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="48" />
 		<color value="#DDDDDD" />
 	</font>
 	<font name="noto-b-10">

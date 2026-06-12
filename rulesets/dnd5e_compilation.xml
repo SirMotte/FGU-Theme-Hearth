@@ -43,10 +43,61 @@
 		</sizelimits>
 	</windowclass>
 	<windowclass name="sub_ct_header_host" merge="join">
+		<!-- The theme owns the 5E CT header column order (Init, HP, Tmp, Wnd) by re-declaring
+		     the HP labels below; this overrides Life Ledger's own column repositioning so the
+		     theme layout stays predictable. Because we re-emit label_wounds with a hard-coded
+		     <static>, we must also reproduce Life Ledger's Wnd/Cur toggle here, or the label
+		     stays stuck on "Wnd" (the theme loads after Life Ledger and wins the merge).
+		     Guarded on the HPDM option so this is a no-op when Life Ledger isn't installed. -->
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if OptionsManager and OptionsManager.isOption then
+					self.changeHealthDisplay();
+					OptionsManager.registerCallback("HPDM", self.changeHealthDisplay);
+				end
+			end
+			function onClose()
+				if OptionsManager and OptionsManager.unregisterCallback then
+					OptionsManager.unregisterCallback("HPDM", self.changeHealthDisplay);
+				end
+				if super and super.onClose then
+					super.onClose();
+				end
+			end
+			function changeHealthDisplay()
+				if not label_wounds then
+					return;
+				end
+				-- "" is the Life Ledger default (Wounds); "current" shows remaining HP.
+				if OptionsManager.isOption("HPDM", "current") then
+					label_wounds.setValue(Interface.getString("ct_label_current"));
+					label_wounds.setTooltipText(Interface.getString("ct_tooltip_current"));
+				else
+					label_wounds.setValue(Interface.getString("ct_label_wounds"));
+					label_wounds.setTooltipText(Interface.getString("ct_tooltip_wounds"));
+				end
+			end
+		</script>
 		<sheetdata>
 			<spacer_ct_header_right name="spacer_buttons_header_add" insertbefore="label_init">
 				<anchored width="50" />
 			</spacer_ct_header_right>
+
+			<!-- These labels use the base ruleset's relative auto-chain (each anchors to the
+			     previous sibling that shares labelrightanchor, in CONTROL CREATION ORDER, so the
+			     first-created sits rightmost). Life Ledger loads first and deletes/re-inserts
+			     label_wounds, which moves it to the end of the creation order and scrambles the
+			     chain (Init, Cur, HP, Tmp). Because the theme loads last, we delete all three
+			     and re-insert them in the intended order (wounds, temp, hp) to rebuild the chain
+			     cleanly -> Init, HP, Tmp, Wnd/Cur. We must NOT anchor forward by name (e.g.
+			     label_temp -> label_wounds) or FG errors with "anchoring to an uncalculated
+			     control" since the target is created after the referrer. -->
+			<label_ct_header_right name="label_wounds" merge="delete" />
+			<label_ct_header_right name="label_temp" merge="delete" />
+			<label_ct_header_right name="label_hp" merge="delete" />
 
 			<label_ct_header_right name="label_wounds" insertbefore="label_init">
 				<static textres="ct_label_wounds" />
@@ -64,15 +115,52 @@
 	</windowclass>
 
 	<windowclass name="sub_ct_header_client" merge="join">
+		<!-- See note in sub_ct_header_host above: the theme owns the 5E column order and
+		     reproduces Life Ledger's Wnd/Cur toggle so the re-emitted label is not stuck. -->
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if OptionsManager and OptionsManager.isOption then
+					self.changeHealthDisplay();
+					OptionsManager.registerCallback("HPDM", self.changeHealthDisplay);
+				end
+			end
+			function onClose()
+				if OptionsManager and OptionsManager.unregisterCallback then
+					OptionsManager.unregisterCallback("HPDM", self.changeHealthDisplay);
+				end
+				if super and super.onClose then
+					super.onClose();
+				end
+			end
+			function changeHealthDisplay()
+				if not label_wounds then
+					return;
+				end
+				if OptionsManager.isOption("HPDM", "current") then
+					label_wounds.setValue(Interface.getString("ct_label_current"));
+					label_wounds.setTooltipText(Interface.getString("ct_tooltip_current"));
+				else
+					label_wounds.setValue(Interface.getString("ct_label_wounds"));
+					label_wounds.setTooltipText(Interface.getString("ct_tooltip_wounds"));
+				end
+			end
+		</script>
 		<sheetdata>
 			<spacer_ct_header_right name="spacer_buttons_header_add" insertbefore="label_init">
 				<anchored width="13" />
 			</spacer_ct_header_right>
 
-			<label_ct_header_right name="label_status" insertbefore="label_init">
-				<anchored width="110" />
-				<static textres="ct_label_status" />
-			</label_ct_header_right>
+			<!-- Delete + re-insert in creation order (wounds, temp, hp, status) to rebuild the
+			     relative auto-chain after Life Ledger reshuffles label_wounds; see the detailed
+			     note in sub_ct_header_host above. Forces Init, HP, Tmp, Wnd/Cur on the client. -->
+			<label_ct_header_right name="label_status" merge="delete" />
+			<label_ct_header_right name="label_wounds" merge="delete" />
+			<label_ct_header_right name="label_temp" merge="delete" />
+			<label_ct_header_right name="label_hp" merge="delete" />
+
 			<label_ct_header_right name="label_wounds" insertbefore="label_init">
 				<static textres="ct_label_wounds" />
 				<tooltip textres="ct_tooltip_wounds" />
@@ -84,6 +172,10 @@
 			<label_ct_header_right name="label_hp" insertbefore="label_init">
 				<static textres="hp" />
 				<tooltip textres="hitpoints" />
+			</label_ct_header_right>
+			<label_ct_header_right name="label_status" insertbefore="label_init">
+				<anchored width="110" />
+				<static textres="ct_label_status" />
 			</label_ct_header_right>
 		</sheetdata>
 	</windowclass>

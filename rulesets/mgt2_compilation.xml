@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+	  Mongoose Traveller 2E (MGT2) specific Hearth adjustments.
+
+	  Loaded only when the MGT2 ruleset is active (see extension.xml: ruleset="MGT2"),
+	  so nothing here affects CoreRPG, 5E, or any other ruleset.
+
+	  Client CT header alignment:
+	  The generic Hearth client header margin (15, set in graphics/graphics_extensions.xml)
+	  lines up correctly on 5E and the other rulesets, but on Traveller the client (player)
+	  combat tracker header sits shifted right of the data rows below it. Traveller's player
+	  CT has a different left-side layout than 5E, so the header block needs a smaller left
+	  margin here to line the labels up with their columns. This loads after
+	  graphics_extensions.xml, so this value wins for MGT2 only.
+
+	  Value: the report showed roughly a 20px right-shift while the generic margin was 15,
+	  so this pulls the header back to about 15 - 20 = -5. This is a calculated best guess
+	  (the MGT2 ruleset is not available to test against here); if the header still sits a
+	  few px off, nudge this first number: more negative moves it left, larger moves it right.
+	-->
+	<windowclass name="sub_ct_header_client" merge="join">
+		<margins control="-5,0,0,0" />
+	</windowclass>
+</root>

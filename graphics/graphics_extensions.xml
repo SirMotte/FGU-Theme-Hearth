@@ -175,7 +175,7 @@
 	<icon name="button_pactmagic" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small.png" />
 	<icon name="button_pactmagic_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down.png" />
 	<icon name="button_pactmagic_no_slots" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_no_slots.png" />
-	<icon name="button_pactmagic_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down_no_slots.png" />
+	<icon name="button_pactmagic_no_slots_pressed" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_down.png" />
 	<icon name="button_pactmagic_off" file="graphics/extensions/ryan_hagelstrom/arcane_ward/button_pm_small_off.png" />
 	<icon name="ArcaneWard" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWard.png" />
 	<icon name="ArcaneWardCast" file="graphics/extensions/ryan_hagelstrom/arcane_ward/ArcaneWardCast.png" />
@@ -1150,10 +1150,14 @@
 		</toolbar_action_step>
 	</template>
 
-	<!-- CT Global Effects Layout Fix (Subwindow Class Method) -->
+	<!-- CT Global Effects Layout Fix (Safe Full-Width Method) -->
 	<template name="windowmenubar_ctbox">
 		<subwindow>
-			<anchored position="insidetop" offset="-5,9" />
+			<anchored height="30">
+				<top parent="" offset="9" />
+				<left parent="" offset="15" />
+				<right parent="" offset="-11" />
+			</anchored>
 			<class>windowmenubar_ct</class>
 			<activate />
 		</subwindow>
@@ -1168,10 +1172,13 @@
 			end
 		</script>
 		<sheetdata>
-			<toolbar_anchor_left name="leftanchor">
-				<anchored offset="5,0" />
-			</toolbar_anchor_left>
+			<toolbar_anchor_left name="leftanchor" />
 			<toolbar_anchor_right name="rightanchor" />
 		</sheetdata>
+	</windowclass>
+
+	<!-- CT Header Nudge (Client Only) -->
+	<windowclass name="sub_ct_header_client" merge="join">
+		<margins control="15,0,0,0" />
 	</windowclass>
 </root>
