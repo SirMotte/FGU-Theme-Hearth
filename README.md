@@ -1,7 +1,7 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
-Current Version: 2.9.52 - Torchbearer  
-Release Date: June 12, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
+Current Version: 2.9.54 - Torchbearer  
+Release Date: June 15, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
 
 Original author: Sir Motte  
 Maintainer: Justin Freitas
@@ -82,6 +82,15 @@ This theme uses a high load order of 1500 so it can overwrite most extensions’
 
 Enjoy!
 Sir Motte
+
+## Changelog History
+
+- 2.9.49 - Torchbearer - Frame adjustments, UI templates, and documentation sync.
+- 2.9.50 - Torchbearer - Fix for Global Effects button in top bar of Combat Tracker.
+- 2.9.51 - Torchbearer - Combat Tracker Global Effects header rework (safe full-width method). ICRPG and Cyberpunk Red font path fixes. Arcane Ward pactmagic pressed icon fix.
+- 2.9.52 - Torchbearer - 5E Life Ledger extension compatibility for the Combat Tracker header column order (Init, HP, Tmp, Wnd/Cur) with Wnd/Cur HPDM toggle support. Added Mongoose Traveller 2E (MGT2) support with a Traveller-specific client CT header margin.
+- 2.9.53 - Torchbearer - Image pane highlight color change.
+- 2.9.54 - Torchbearer - Reverted the image pane color back to the 2.9.52 color since FGU is providing the fix for the highlight color in the layers pane.
 
 ## Credits
 
