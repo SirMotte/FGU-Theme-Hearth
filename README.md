@@ -1,7 +1,7 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
-Current Version: 2.9.54 - Torchbearer  
-Release Date: June 15, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
+Current Version: 2.9.55 - Torchbearer  
+Release Date: June 25, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
 
 Original author: Sir Motte  
 Maintainer: Justin Freitas
@@ -91,6 +91,7 @@ Sir Motte
 - 2.9.52 - Torchbearer - 5E Life Ledger extension compatibility for the Combat Tracker header column order (Init, HP, Tmp, Wnd/Cur) with Wnd/Cur HPDM toggle support. Added Mongoose Traveller 2E (MGT2) support with a Traveller-specific client CT header margin.
 - 2.9.53 - Torchbearer - Image pane highlight color change.
 - 2.9.54 - Torchbearer - Reverted the image pane color back to the 2.9.52 color since FGU is providing the fix for the highlight color in the layers pane.
+- 2.9.55 - Torchbearer - MGT2 client CT header alignment refinement (END/STR/DEX labels and Name), host CT header repositioning with visibility icon aligned to row icons, and dead/dying NPC rows now hide the faction icon while the delete button shows so columns stay aligned (MGT2-only). Repo maintenance: ignore the local .claude/ tooling folder in git.
 
 ## Credits
 

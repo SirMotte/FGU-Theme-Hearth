@@ -4,22 +4,74 @@
 	  Mongoose Traveller 2E (MGT2) specific Hearth adjustments.
 
 	  Loaded only when the MGT2 ruleset is active (see extension.xml: ruleset="MGT2"),
-	  so nothing here affects CoreRPG, 5E, or any other ruleset.
+	  so nothing here affects CoreRPG, 5E, or any other ruleset. This file is included
+	  AFTER graphics/graphics_extensions.xml, so the values here win for MGT2 only.
 
-	  Client CT header alignment:
-	  The generic Hearth client header margin (15, set in graphics/graphics_extensions.xml)
-	  lines up correctly on 5E and the other rulesets, but on Traveller the client (player)
-	  combat tracker header sits shifted right of the data rows below it. Traveller's player
-	  CT has a different left-side layout than 5E, so the header block needs a smaller left
-	  margin here to line the labels up with their columns. This loads after
-	  graphics_extensions.xml, so this value wins for MGT2 only.
+	  Client (player) CT header alignment
 
-	  Value: the report showed roughly a 20px right-shift while the generic margin was 15,
-	  so this pulls the header back to about 15 - 20 = -5. This is a calculated best guess
-	  (the MGT2 ruleset is not available to test against here); if the header still sits a
-	  few px off, nudge this first number: more negative moves it left, larger moves it right.
+	  Symptom (observed in FGU, v2.9.55): on the player combat tracker the column-header
+	  labels (END / STR / DEX) sit too far RIGHT of the data columns (the stat values) in
+	  the rows below, so they need to shift LEFT to line up.
+
+	  Mechanism: the header labels (template label_ct_header_right) are RIGHT-anchored to
+	  labelrightanchor, which sits at the header content box's right edge. The data rows
+	  right-anchor off rightanchor, which is inset -7 from the entry's right edge, and the
+	  entry also has friend/foe + health columns hanging off its right that the header has
+	  no label for. So the header chain starts further right than the data chain. Because
+	  the labels are right-anchored, the lever that moves them as a group is the header
+	  sub-window's RIGHT margin: increasing it pulls the right edge (and every right-anchored
+	  label) inward / left. (A left margin does NOT move the right-anchored stat labels, which
+	  is why the earlier left-margin-only attempts to fix END/STR/DEX failed.)
+
+	  Tuning: the right value is dialed in against screenshots. Larger = stat labels move
+	  further LEFT; smaller = further right. Top/bottom kept at the base (0,2).
+
+	  Name header nudge: the "Name" label is left-anchored (it hangs off the header content
+	  box's LEFT edge), so the order-safe lever to move it right is the sub-window's LEFT
+	  margin. Setting left=4 pushes Name ~4px right. Right-anchored stat labels are pinned to
+	  the right edge and are unaffected by the left margin, so this does not disturb the
+	  END/STR/DEX alignment dialed in via the right margin below.
+	  (An earlier attempt re-declared label_name to add a left offset, but that reordered it
+	  ahead of its anchors and produced "anchoring to an uncalculated control" errors; the
+	  margin approach avoids touching control order entirely.)
 	-->
 	<windowclass name="sub_ct_header_client" merge="join">
-		<margins control="-5,0,0,0" />
+		<margins control="6,0,52,2" />
+	</windowclass>
+
+	<!--
+	  Host (GM) CT header.
+
+	  (1) Whole label bar slid ~10px LEFT as a unit: Name is LEFT-anchored and the stat labels
+	      are RIGHT-anchored, so a uniform shift needs both margins moved by the same amount in
+	      opposite directions (decrease left -> Name moves left; increase right -> right-anchored
+	      stats move left). Base host margin from rulesets/corerpg_compilation.xml is 34,0,0,0.
+
+	  (2) Name nudged a few px further LEFT: drop the left margin a bit more (24 -> 21). This
+	      also drags the left visibility icon 3px left, which is compensated in (3).
+
+	  (3) Left visibility icon (button_global_visibility) moved RIGHT ~8px so it lines up with
+	      the per-actor icons in the rows below. It anchors to spacer_header_token with a base
+	      left offset of 5 (CoreRPG template_ct.xml button_ct_header_visibility). To net +8
+	      after the -3 from the smaller left margin in (2), set the offset to 16 (5 + 8 + 3).
+	      Overriding only this control (which anchors to a sibling created before it) avoids the
+	      "anchoring to an uncalculated control" reorder error we hit re-declaring labels.
+	-->
+	<windowclass name="sub_ct_header_host" merge="join">
+		<margins control="21,0,10,0" />
+		<sheetdata>
+			<button_ct_header_visibility name="button_global_visibility">
+				<anchored to="spacer_header_token" position="insidetopleft" offset="16,0" width="20" height="20" />
+			</button_ct_header_visibility>
+		</sheetdata>
+	</windowclass>
+
+	<!--
+	  Host CT entry: hide the faction icon while the delete (trash) button is showing so the
+	  dead/dying-row stat columns stay aligned with live rows. MGT2-only because this script is
+	  attached here (this whole file is gated ruleset="MGT2"). See rulesets/scripts/mgt2_ct_entry.lua.
+	-->
+	<windowclass name="ct_entry" merge="join">
+		<script file="rulesets/scripts/mgt2_ct_entry.lua" />
 	</windowclass>
 </root>

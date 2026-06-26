@@ -1,3 +1,13 @@
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.55 - Torchbearer[/B][/SIZE][/COLOR]
+
+[COLOR="#FF0000"][B]Changelog[/B][/COLOR]
+[LIST]
+[*] Mongoose Traveller 2E (MGT2): refined the client (player) Combat Tracker header so the END / STR / DEX labels line up with their data columns and the Name label sits over the name column.
+[*] Mongoose Traveller 2E (MGT2): adjusted the host (GM) Combat Tracker header bar position and lined the visibility icon up with the per-actor row icons.
+[*] Mongoose Traveller 2E (MGT2): on dead/dying NPC rows, the faction icon is now hidden while the delete (trash) button is shown, so the Init/Mod/END/STR/DEX columns stay aligned with live rows. MGT2-only; no effect on any other ruleset.
+[*] Repository maintenance: the local Claude tooling folder (.claude/) is now ignored by git and no longer tracked.
+[/LIST]
+
 [COLOR=#FF8C00][SIZE=4][B]Update to v2.9.52 - Torchbearer[/B][/SIZE][/COLOR]
 
 [COLOR="#FF0000"][B]Changelog[/B][/COLOR]
