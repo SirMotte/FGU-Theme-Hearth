@@ -17,7 +17,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Lua Linter (Luacheck)
-        uses: lunarmodules/luacheck-action@v1
-        with:
-          args: "--config .luacheckrc scripts"
+      - name: Install Luacheck
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lua-check
+
+      - name: Run Luacheck Linter
+        run: luacheck --config .luacheckrc scripts
