@@ -1,0 +1,23 @@
+name: Lua Linting
+
+on:
+  push:
+    branches:
+      - Hearth-Edition-Main
+  pull_request:
+    branches:
+      - Hearth-Edition-Main
+  workflow_dispatch:
+
+jobs:
+  lint:
+    name: Run Luacheck Linter
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Lua Linter (Luacheck)
+        uses: lunarmodules/luacheck-action@v1
+        with:
+          args: "--config .luacheckrc scripts"
