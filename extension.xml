@@ -2,12 +2,12 @@
 <!--Special Thanks to MeAndUnique, Saagael and Zarestia for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rv2.9.55 - Torchbearer, 6/25/26" font="oocfont" icon="footface" />
+	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rv2.9.55-Dev - Torchbearer, 7/8/26" font="oocfont" icon="footface" />
 
 	<properties>
 		<name>Theme: Hearth</name>
 		<author>Created by Sir Motte, maintained by Justin Freitas - Co. Authors: MeAndUnique and Saagael / Contributions by the awesome Unofficial Developers Guild</author>
-		<version>2.9.55</version>
+		<version>2.9.55-Dev</version>
 		<description>Dark, warm and reduced user interface for FGU</description>
 		<loadorder>1500</loadorder>
 	</properties>
