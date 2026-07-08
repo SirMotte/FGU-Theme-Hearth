@@ -2,6 +2,8 @@
 -- Please see the license.html file included with this distribution for
 -- attribution and copyright information.
 --
+local originalHotkeyDrop;
+
 function onInit()
 	ColorManager.COLOR_FULL = "DDDDDD"; -- Replaceable Color: Usage Full
 	ColorManager.COLOR_THREE_QUARTER = "FF6161"; -- Replaceable Color: Usage Three Quarter
@@ -60,6 +62,7 @@ function onInit()
 	ColorManager.setButtonTextColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
 
 	if not Bartender then
+		originalHotkeyDrop = Interface.onHotkeyDrop;
 		Interface.onHotkeyDrop = onHotkeyDrop;
 	end
 
@@ -69,6 +72,9 @@ function onInit()
 end
 
 function onHotkeyDrop(dragdata)
+	if originalHotkeyDrop then
+		originalHotkeyDrop(dragdata);
+	end
 	if (dragdata.getDescription() or "") ~= "" then
 		dragdata.setIcon("empty");
 	end

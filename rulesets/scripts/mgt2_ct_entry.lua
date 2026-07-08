@@ -15,6 +15,13 @@
 -- visibility. We call super first so idelete.isVisible() reflects the updated state, then sync
 -- the faction icon to the opposite.
 
+function onInit()
+	if super and super.onInit then
+		super.onInit();
+	end
+	onHealthChanged();
+end
+
 function onHealthChanged()
 	if super and super.onHealthChanged then
 		super.onHealthChanged();

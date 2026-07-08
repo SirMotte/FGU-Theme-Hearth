@@ -10,7 +10,7 @@
 		<button_icon name="button_ichat">
 			<anchored to="rightanchor" width="20" height="20">
 				<top />
-				<right relation="relative" offset="-5" postoffet="-5" />
+				<right relation="relative" offset="-5" postoffset="-5" />
 			</anchored>
 			<icon normal="content_chat" />
 			<tooltip textres="record_chat" />
