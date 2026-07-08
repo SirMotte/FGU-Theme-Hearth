@@ -15,18 +15,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - uses: ncipollo/release-action@v1
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Archive Release
-      uses: thedoctor0/zip-release@master
-      with:
-        filename: 'Theme_SirMotte_Hearth.ext'
-        exclusions: '*.git* *.github* /*node_modules/* /*.colors/* /*.vscode/* /*build-windows/* .editorconfig body.md todo.txt *.ext .german_translation.txt .themecolors.txt'
+    - uses: actions/checkout@v4
+    
+    - name: Build Extension
+      run: |
+        python build.py
+        mv out/Theme_SirMotte_Hearth.ext .
+        
     - name: Create Release
       uses: ncipollo/release-action@v1
       with:
         artifacts: "Theme_SirMotte_Hearth.ext"
         token: ${{ secrets.GITHUB_TOKEN }}
         allowUpdates: true
+
