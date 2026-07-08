@@ -1,3 +1,13 @@
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.56 - Torchbearer[/B][/SIZE][/COLOR]
+
+[COLOR="#FF0000"][B]Changelog[/B][/COLOR]
+[LIST]
+[*] CoreRPG: Fixed a positioning offset typo in the chat share button template.
+[*] FGU Extension: Chained the hotkey drop callback hook to prevent collisions with other extensions.
+[*] Mongoose Traveller 2E (MGT2): Aligned Combat Tracker NPC rows immediately on tracker startup.
+[*] Build System: Modernized build/zipping scripts and replaced them with a cross-platform Python build script.
+[/LIST]
+
 [COLOR=#FF8C00][SIZE=4][B]Update to v2.9.55 - Torchbearer[/B][/SIZE][/COLOR]
 
 [COLOR="#FF0000"][B]Changelog[/B][/COLOR]
