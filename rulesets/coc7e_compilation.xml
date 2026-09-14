@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- Source: ???/???.xml -->
-	<template name="close_npcsheet">
-		<close>
-			<anchored>
-				<top offset="7" />
-				<right offset="-4" />
-			</anchored>
-		</close>
-	</template>
+	<!-- Source: Call of Cthulhu 7E -->
 	<template name="tabs_npcsheet">
 		<buttongroup_tabs name="tabs">
 			<anchored width="25" height="92">
@@ -17,9 +9,4 @@
 			</anchored>
 		</buttongroup_tabs>
 	</template>
-		<!-- Die Cup (Local mode) -->
-		<framedef name="collector">
-			<bitmap file="graphics/pngs/collector.png" />
-			<offset>7,7,3,3</offset>
-		</framedef>
 </root>

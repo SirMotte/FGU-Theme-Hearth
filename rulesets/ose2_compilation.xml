@@ -200,4 +200,25 @@
 		</sizelimits>
 	</windowclass>
 
+	<!-- OSE2 Character Sheet: Add right side buffer and clean header spacing -->
+	<template name="anchor_content_charsheet_tabbed_top">
+		<genericcontrol name="contentanchor">
+			<anchored height="0">
+				<top offset="42" />
+				<left offset="15" />
+				<right offset="-20" />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
+	<windowclass name="charsheet" merge="join">
+		<placement>
+			<size width="550" height="625" />
+		</placement>
+		<sizelimits>
+			<minimum width="550" height="625" />
+			<dynamic />
+		</sizelimits>
+	</windowclass>
+
 </root>

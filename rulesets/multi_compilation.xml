@@ -61,6 +61,6 @@
 
 	<framedef name="acicon">
 		<bitmap file="graphics/pngs/acicon_pfrpg.png" />
-		<topleft rect="-4,0,35,39" />
+		<topleft rect="0,0,36,40" />
 	</framedef>
 </root>

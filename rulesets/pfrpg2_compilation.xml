@@ -11,7 +11,6 @@
             <bottomleft rect="0,199,12,12" />
             <bottom rect="12,199,200,12" />
             <bottomright rect="212,199,12,12" />
-            <!--<decal rect="207,212,17,14" />-->
 		</framedef>
 
 		<windowclass name="char_actions_quickref" merge="join">
@@ -21,33 +20,15 @@
 						super.onInit();
 					end
 					if temphp then
-					temphp.setColor(ColorManager.COLOR_TEMP_HP);
-							elseif hptemp then
-					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
-						end
-				end
-			</script>
-		</windowclass>
-		<windowclass name="char_actions_quickref" merge="join">
-			<script>
-				function onInit()
-					if super and super.onInit then
-						super.onInit();
+						temphp.setColor(ColorManager.COLOR_TEMP_HP);
+					elseif hptemp then
+						hptemp.setColor(ColorManager.COLOR_TEMP_HP);
 					end
 					if wounded then
-					wounded.setColor(ColorManager.COLOR_HEALTH_HVY_WOUNDS);
-					end
-				end
-			</script>
-		</windowclass>
-		<windowclass name="char_actions_quickref" merge="join">
-			<script>
-				function onInit()
-					if super and super.onInit then
-						super.onInit();
+						wounded.setColor(ColorManager.COLOR_HEALTH_HVY_WOUNDS);
 					end
 					if dying then
-					dying.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
+						dying.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
 					end
 				end
 			</script>

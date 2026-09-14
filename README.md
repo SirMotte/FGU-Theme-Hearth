@@ -1,7 +1,7 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
-Current Version: 2.9.56 - Torchbearer  
-Release Date: July 8, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
+Current Version: 2.9.57 - Torchbearer  
+Release Date: October 6, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
 
 Original author: Sir Motte  
 Maintainer: Justin Freitas
@@ -93,6 +93,7 @@ Sir Motte
 - 2.9.54 - Torchbearer - Reverted the image pane color back to the 2.9.52 color since FGU is providing the fix for the highlight color in the layers pane.
 - 2.9.55 - Torchbearer - MGT2 client CT header alignment refinement (END/STR/DEX labels and Name), host CT header repositioning with visibility icon aligned to row icons, and dead/dying NPC rows now hide the faction icon while the delete button shows so columns stay aligned (MGT2-only). Repo maintenance: ignore the local .claude/ tooling folder in git.
 - 2.9.56 - Torchbearer - CoreRPG chat share button offset typo fix, safe hotkey drop hook chaining, immediate MGT2 Combat Tracker layout alignment upon startup, and cross-platform Python build script.
+- 2.9.57 - Torchbearer - Modernize against latest FGU CoreRPG (v4.8+) and official rulesets; prune retired FGC base templates and radial menusettings; fix 2E ability score dark text, alternating row colors, Kit overlap, Attack Matrix contrast, and charsheet header clipping; OSE2 charsheet buffer; consolidate charsheet HP colors, fix LibraryData references, clean legacy assets, and fix frame slice bounds for FGU 5.1.14+ compatibility.
 
 ## Credits
 

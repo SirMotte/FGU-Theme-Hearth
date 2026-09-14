@@ -21,4 +21,8 @@ function onInit()
 	if dying then
 		dying.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
 	end
+
+	if adjhp then
+		adjhp.setColor(ColorManager.COLOR_ADJUSTED_HP);
+	end
 end

@@ -51,7 +51,7 @@
 	<icon name="sidebar_icon_recordtype_boon" file="graphics/pngs/sidebar_icon_fire.png" />
 	<icon name="sidebar_icon_recordtype_charstarshipsheet" file="graphics/pngs/sidebar_icon_spaceship_3.png" />
 	<icon name="sidebar_icon_recordtype_companionsheet" file="graphics/pngs/sidebar_icon_default.png" />
-	<icon name="sidebar_icon_recordtype_race" file="graphics/pngs/sidebar_icon_race_2.png" />
+	<icon name="sidebar_icon_recordtype_race" ruleset="SFRPG" file="graphics/pngs/sidebar_icon_race_2.png" />
 	<icon name="sidebar_icon_recordtype_starship" file="graphics/pngs/sidebar_icon_spaceship_2.png" />
 	<icon name="sidebar_icon_recordtype_starshipitem" file="graphics/pngs/sidebar_icon_item_2.png" />
 	<icon name="sidebar_icon_recordtype_theme" file="graphics/pngs/sidebar_icon_background.png" />
@@ -181,10 +181,6 @@
 	<icon name="button_link_empty" file="graphics/pngs/button_link_empty.png" />
 	<icon name="button_link_share" file="graphics/pngs/button_link_share.png" />
 	<icon name="button_link_share_down" file="graphics/pngs/button_link_share_down.png" />
-	<icon name="button_expand" file="graphics/pngs/button_plus.png" />
-	<icon name="button_expand_down" file="graphics/pngs/button_plus_down.png" />
-	<icon name="button_collapse" file="graphics/pngs/button_minus.png" />
-	<icon name="button_collapse_down" file="graphics/pngs/button_minus_down.png" />
 	<icon name="button_dialog_cancel" file="graphics/pngs/button_dialog_cancel.png" />
 	<icon name="button_dialog_cancel_down" file="graphics/pngs/button_dialog_cancel_down.png" />
 	<icon name="button_ct" file="graphics/pngs/button_ct.png" />
@@ -226,8 +222,6 @@
 	<icon name="button_effect_down" file="graphics/pngs/button_effect_down.png" />
 	<icon name="button_section_targeting" file="graphics/pngs/button_section_targeting.png" />
 	<icon name="button_section_targeting_down" file="graphics/pngs/button_section_targeting_down.png" />
-	<icon name="button_menu" file="graphics/pngs/button_menu.png" />
-	<icon name="button_menu_down" file="graphics/pngs/button_menu.png" />
 	<icon name="turn_flag" file="graphics/pngs/turn_flag.png" />
 	<icon name="ct_active" file="graphics/pngs/ct_active.png" />
 	<icon name="ct_passive" file="graphics/pngs/ct_passive.png" />
@@ -311,7 +305,6 @@
 	<icon name="indicator_prompt" file="graphics/pngs/indicator_prompt.png" />
 	<icon name="gmdieicon" file="graphics/pngs/gmdie_icon.png" />
 	<icon name="indicator_whisper" file="graphics/pngs/indicator_whisper.png" />
-	<icon name="chat_emote" file="graphics/pngs/chat_emote.png" />
 	<icon name="poll_check" file="graphics/pngs/poll_check.png" />
 	<icon name="poll_empty" file="graphics/pngs/poll_empty.png" />
 	<icon name="poll_negative" file="graphics/pngs/poll_negative.png" />
@@ -494,8 +487,7 @@
 
 	<!-- Tokens - Health -->
 
-	<icon name="healthbar" version="&gt;=4" file="graphics/pngs/token_healthbar_fgu.png" />
-	<icon name="healthbar" version="&lt;4" file="graphics/pngs/token_healthbar.png" />
+	<icon name="healthbar" file="graphics/pngs/token_healthbar_fgu.png" />
 	<icon name="healthdot" file="graphics/pngs/token_healthdot.png" />
 
 	<!-- Misc -->
@@ -622,8 +614,6 @@
 	<icon name="button_statpointmode" file="graphics/pngs/button_statpointmode.png" />
 	<icon name="button_statpointmode_down" file="graphics/pngs/button_statpointmode_down.png" />
 
-	<icon name="button_toggle_start" file="graphics/pngs/button_toggle_start.png" />
-	<icon name="button_toggle_end" file="graphics/pngs/button_toggle_end.png" />
 
 	<icon name="xp" file="graphics/pngs/xp.png" />
 
@@ -657,8 +647,8 @@
 	<icon name="roll_psionic_hit" file="graphics/pngs/roll_psionic_hit.png" />
 
 	<!-- Buttons -->
-	<icon name="button_menu" file="graphics/pngs/FG_BUTTON.png" />
-	<icon name="button_menu_down" file="graphics/pngs/FG_BUTTON_down.png" />
+	<icon name="button_menu" ruleset="2E" file="graphics/pngs/FG_BUTTON.png" />
+	<icon name="button_menu_down" ruleset="2E" file="graphics/pngs/FG_BUTTON_down.png" />
 
 	<!-- Common -->
 	<icon name="button_dialog_check_green" file="graphics/pngs/button_dialog_check_green.png" />
@@ -687,7 +677,6 @@
 
 	<!-- CTA -->
 	<icon name="hourglass_icon" file="graphics/pngs/hourglass.png" />
-	<icon name="menu_icon_white_filled" file="graphics/pngs/menu_icon_white_filled.png" />
 	<icon name="window_resize_filled_white" file="graphics/pngs/window_resize_filled_white.png" />
 	<icon name="window_resize_white" file="graphics/pngs/window_resize_white.png" />
 

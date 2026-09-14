@@ -179,7 +179,6 @@
 		<bottomleft rect="0,199,12,12" />
 		<bottom rect="12,199,200,12" />
 		<bottomright rect="212,199,12,12" />
-		<decal rect="205,211,19,15" />
 	</framedef>
 
 	<!-- Roll/Point Modes (Local mode) -->
@@ -353,7 +352,6 @@
 		<bottomleft rect="0,199,12,12" />
 		<bottom rect="12,199,200,12" />
 		<bottomright rect="212,199,12,12" />
-		<decal rect="175,212,49,16" />
 	</framedef>
 	<framedef name="tempmodsmall">
 		<bitmap file="graphics/pngs/tempmodsmall.png" />
@@ -393,15 +391,6 @@
 		<middle>0,0,100,100</middle>
 	</framedef>
 
-	<!-- Headers -->
-	<framedef name="headergray">
-		<bitmap file="graphics/pngs/headergray.png" />
-		<middle rect="0,0,128,128" />
-	</framedef>
-	<framedef name="headerref">
-		<bitmap file="graphics/pngs/headerref.png" />
-		<middle rect="0,0,128,128" />
-	</framedef>
 
 	<!-- Hot key bar -->
 	<framedef name="hotkeybox">
@@ -523,15 +512,6 @@
 		<offset>12,12,12,12</offset>
 	</framedef>
 
-	<!-- Reference -->
-	<framedef name="reference-section">
-		<bitmap file="graphics/pngs/reference-section.png" />
-		<offset>1,1,1,1</offset>
-	</framedef>
-	<framedef name="reference-chapter">
-		<bitmap file="graphics/pngs/reference-chapter.png" />
-		<offset>1,1,1,1</offset>
-	</framedef>
 
 	<!-- Reference Blocks -->
 	<framedef name="referenceblock-sidebar">
@@ -801,9 +781,9 @@
 		<left rect="0,75,74,512" />
 		<middle rect="74,75,504,512" />
 		<right rect="578,75,77,512" />
-		<bottomleft rect="0,587,74,63" />
-		<bottom rect="74,587,504,63" />
-		<bottomright rect="578,587,77,63" />
+		<bottomleft rect="0,587,74,51" />
+		<bottom rect="74,587,504,51" />
+		<bottomright rect="578,587,77,51" />
 		<insideoffset>0,0,18,28</insideoffset>
 	</framedef>
 	<framedef name="campaignlistwithtabs">
@@ -876,20 +856,11 @@
 	</framedef>
 	<framedef name="reference-section">
 		<bitmap file="graphics/pngs/reference-section.png" />
-		<topleft rect="0,0,1,0" />
-		<top rect="1,0,70,4" />
-		<topright rect="91,0,12,1" />
-		<right rect="84,0,19,40" />
-		<middle rect="0,4,80,40" />
+		<offset>1,1,1,1</offset>
 	</framedef>
 	<framedef name="reference-chapter">
 		<bitmap file="graphics/pngs/reference-chapter.png" />
-		<middle rect="0,10,80,40" />
-		<top rect="0,0,80,10" />
-		<bottom rect="0,50,80,10" />
-		<topright rect="86,0,41,17" />
-		<right rect="86,17,41,25" />
-		<bottomright rect="86,42,41,18" />
+		<offset>1,1,1,1</offset>
 	</framedef>
 	<framedef name="whitecontrolarea">
 		<bitmap file="graphics/pngs/whitecontrolarea.png" />

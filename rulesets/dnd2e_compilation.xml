@@ -358,15 +358,14 @@
 
 <!-- 2E CT Tab Backcolor-->
   <windowclass name="cta_skills_host" merge="join">
-    <script>
-      function onInit()
-      if child and child[2] then
-        if child[2].backcolor and child[2].backcolor[1] then
-        child[2].backcolor[1] = "[232323]"
-        end
-      end
-      end
-    </script>
+    <sheetdata>
+      <windowlist name="skills">
+        <child></child>
+        <child>
+          <backcolor>1A322C27</backcolor>
+        </child>
+      </windowlist>
+    </sheetdata>
   </windowclass>
 
  <!-- Story and Notes -->
@@ -390,4 +389,55 @@
     <bitmap file="graphics/pngs/darkbox.png" />
     <offset>5,5,5,5</offset>
   </framedef>
+
+  <!-- 2E Character Sheet Header: Prevent overview from clipping into top menubar -->
+  <template name="anchor_content_charsheet_tabbed_top">
+    <genericcontrol name="contentanchor">
+      <anchored height="0">
+        <top offset="42" />
+        <left offset="15" />
+        <right offset="-25" />
+      </anchored>
+      <disabled />
+    </genericcontrol>
+  </template>
+
+  <!-- 2E Character Sheet: Fix Kit placeholder overlap -->
+  <windowclass name="charsheet_main" merge="join">
+    <sheetdata>
+      <chooser_label name="background_choose" merge="join">
+        <script>
+          function onInit()
+            if super and super.onInit then
+              super.onInit();
+            end
+            updateVisibility();
+          end
+          function updateVisibility()
+            if window and window.background then
+              local sVal = window.background.getValue() or "";
+              setVisible(sVal == "");
+            end
+          end
+        </script>
+      </chooser_label>
+      <stringu name="background" merge="join">
+        <script>
+          function onValueChanged()
+            if super and super.onValueChanged then
+              super.onValueChanged();
+            end
+            if window.background_choose and window.background_choose.updateVisibility then
+              window.background_choose.updateVisibility();
+            end
+          end
+        </script>
+      </stringu>
+    </sheetdata>
+  </windowclass>
+
+  <!-- 2E Combat / Actions: Attack Matrix dark theme contrast -->
+  <windowclass name="combat_mini_thaco_matrix" merge="join">
+    <script file="rulesets/scripts/char_matrix_thaco.lua" />
+  </windowclass>
 </root>

@@ -12,7 +12,7 @@
 		<bitmap file="graphics/pngs/tabs_h.png" />
 		<topleft rect="0,0,75,18" />
 		<top rect="75,0,335,18" />
-		<topright rect="410,0,84,18" />
+		<topright rect="410,0,83,18" />
 	</framedef>
 	<icon name="tabtop" file="graphics/pngs/tabtop.png" />
 	<icon name="tabtop_h" file="graphics/pngs/tabtop_h.png" />

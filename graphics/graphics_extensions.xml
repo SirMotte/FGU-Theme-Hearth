@@ -54,8 +54,8 @@
 	<!--Ext: Player Agency-->
 	<!--Frames-->
 	<framedef name="chatframe_spell">
-		<bitmap file="graphics/extensions/damned/player_agency/chatframe_spell.png" />
-		<offset>35,85,30,30</offset>
+		<bitmap file="graphics/extensions/damned/sharing_is_caring/chatframe_spell.png" />
+		<offset>40,40,40,40</offset>
 	</framedef>
 	<framedef name="worldpage">
 		<bitmap file="graphics/extensions/damned/player_agency/frame4.png" />
@@ -67,7 +67,7 @@
 		<offset>35,50,30,30</offset>
 	</framedef>
 	<!--Chat-->
-	<icon name="button_chat" file="graphics/extensions/damned/player_agency/chat.png" />
+	<icon name="button_chat" file="graphics/extensions/damned/sharing_is_caring/chat.png" />
 	<icon name="button_pcedit" file="graphics/extensions/damned/player_agency/edit.png" />
 	<icon name="button_pcsubmit" file="graphics/extensions/damned/player_agency/submit.png" />
 	<icon name="chat_place" file="graphics/extensions/damned/player_agency/chat_place.png" />
@@ -78,15 +78,7 @@
 	<icon name="button_investigator" file="graphics/extensions/damned/player_agency/button_investigator.png" />
 	<!--Icon-->
 	<icon name="playeragency" file="graphics/extensions/damned/player_agency/imlogo.png" />
-	<!--Ext: Sharing is Caring-->
-	<!--Frame-->
-	<framedef name="chatframe_spell">
-		<bitmap file="graphics/extensions/damned/sharing_is_caring/chatframe_spell.png" />
-		<offset>40,40,40,40</offset>
-	</framedef>
-	<!--Chat-->
-	<icon name="button_chat" file="graphics/extensions/damned/sharing_is_caring/chat.png" />
-	<!--Icon-->
+	<!--Ext: Sharing is Caring (chatframe_spell and button_chat shared with Player Agency above)-->
 	<icon name="sharingiscaring" file="graphics/extensions/damned/player_agency/imlogo.png" />
 
 	<!--Ext: Halt!-->
@@ -271,12 +263,10 @@
 	<icon name="button_shield_empty" file="graphics/extensions/silent_ruin/death_indicator/button_shield_empty_SR.png" />
 	<!--Font-->
 	<font name="tokenbag_empty_font">
-		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Roboto-Italic.ttf" name="Roboto Italic" size="15" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="sheetlabelminideathindicator">
-		<fgffile name="graphics/fonts/regular-8.fgf" />
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
@@ -406,10 +396,10 @@
 			<nolinkwidget />
 			<script>
                     	function onValueChanged()
-                        	node=getDatabaseNode();
-                       		stat=getName();
-                        	value=getValue();
-                        	MNMStats.editStatFromPS(node,stat,value);
+                        	local node = getDatabaseNode();
+                        	local stat = getName();
+                        	local value = getValue();
+                        	MNMStats.editStatFromPS(node, stat, value);
                     	end
             			</script>
 		</basicnumber>
@@ -425,12 +415,12 @@
 			<readonly />
 			<nodrag />
 			<script>
-                   		function onValueChanged()
-                       		node=getDatabaseNode();
-                        		stat=getName();
-                        		value=getValue();
-                        		MNMStats.editStatFromPS(node,stat,value);
-                    		end
+                    	function onValueChanged()
+                        	local node = getDatabaseNode();
+                        	local stat = getName();
+                        	local value = getValue();
+                        	MNMStats.editStatFromPS(node, stat, value);
+                    	end
             		</script>
 		</stringfield>
 	</template>
@@ -510,20 +500,7 @@
 	</windowclass>
 	<!-- Icon -->
 	<icon name="ColorfulLanguage" file="graphics/extensions/meandunique/colorful_language/ColorfulLanguage.png" />
-	<!--Ext: Constitutional Amendments-->
-	<!-- Source: desktop/record_char_main.xml -->
-	<windowclass name="charsheet_main" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-						end
-					if adjhp then
-				adjhp.setColor(ColorManager.COLOR_ADJUSTED_HP);
-				end
-			end
-		</script>
-	</windowclass>
+	<!--Ext: Constitutional Amendments: adjhp color handling consolidated in rulesets/scripts/charsheet_main_colors.lua-->
 	<!-- Ext: Extended Rest -->
 	<!-- Icons -->
 	<icon name="rest_extended" file="graphics/extensions/meandunique/extended_rest/icon_rest_extended.png" />
@@ -972,7 +949,7 @@
 								return "";
 								end
 								function getRecordTypeFromDataMap(sDataMap)
-									for kRecordType,vRecord in pairs(aRecords) do
+									for kRecordType,vRecord in pairs(LibraryData.aRecords or {}) do
 										if vRecord.aDataMap then
 									for i=1,#vRecord.aDataMap do 
 										if vRecord.aDataMap[i] == sDataMap then

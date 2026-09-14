@@ -8,3 +8,5 @@ build-windows/out/Theme_SirMotte_Hearth.ext
 Theme_SirMotte_Hearth.code-workspace
 .claude/
 out/
+__pycache__/
+*.pyc

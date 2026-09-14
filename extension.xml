@@ -2,12 +2,12 @@
 <!--Special Thanks to MeAndUnique, Saagael and Zarestia for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rv2.9.56 - Torchbearer, 7/8/26" font="oocfont" icon="footface" />
+	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rv2.9.57 - Torchbearer, 10/6/26" font="oocfont" icon="footface" />
 
 	<properties>
 		<name>Theme: Hearth</name>
 		<author>Created by Sir Motte, maintained by Justin Freitas - Co. Authors: MeAndUnique and Saagael / Contributions by the awesome Unofficial Developers Guild</author>
-		<version>2.9.56</version>
+		<version>2.9.57</version>
 		<description>Dark, warm and reduced user interface for FGU</description>
 		<loadorder>1500</loadorder>
 	</properties>
@@ -16,7 +16,7 @@
 		<!--Graphics definitions-->
 		<icon name="footface" file="SirMotte_footface.png" />
 		<includefile source="graphics/graphics_fonts.xml" />
-		<includefile source="graphics/graphics_fonts_adnd.xml" />
+		<includefile source="graphics/graphics_fonts_adnd.xml" ruleset="2E" />
 		<includefile source="graphics/graphics_frames.xml" />
 		<includefile source="graphics/graphics_icons.xml" />
 		<includefile source="graphics/graphics_tabs.xml" />
@@ -30,7 +30,7 @@
 		<script name="ThemeManager" file="rulesets/scripts/manager_theme.lua" />
 
 		<!-- Ruleset control definitions -->
-		<includefile source="rulesets/coc7e_compilation.xml" />
+		<includefile source="rulesets/coc7e_compilation.xml" ruleset="CallofCthulhu7E" />
 		<includefile source="rulesets/corerpg_compilation.xml" />
 		<includefile source="rulesets/dnd2e_compilation.xml" ruleset="2E" />
 		<includefile source="rulesets/dnd4e_compilation.xml" ruleset="4E" />

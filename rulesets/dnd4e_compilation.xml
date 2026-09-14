@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- Source: ???/???.xml -->
+	<!-- Source: 4E -->
 	<windowclass name="charsheetmini_main" merge="join">
 		<script>
 			function onInit()
@@ -13,33 +13,8 @@
 			end
 		</script>
 	</windowclass>
-	<windowclass name="encounter_header" merge="join">
-		<sheetdata>
-			<stringfield name="name">
-				<color merge="delete" />
-				<selectioncolor merge="delete" />
-			</stringfield>
-		</sheetdata>
-	</windowclass>
-	<windowclass name="note_header" merge="join">
-		<sheetdata>
-			<stringfield name="name">
-				<color merge="delete" />
-				<selectioncolor merge="delete" />
-			</stringfield>
-		</sheetdata>
-	</windowclass>
 	<framedef name="acicon">
 		<bitmap file="graphics/pngs/acicon_pfrpg.png" />
-		<topleft rect="0,0,40,44" />
+		<topleft rect="0,0,36,40" />
 	</framedef>
-	<template name="handle_record">
-		<genericcontrol>
-			<anchored height="25">
-				<top offset="1" />
-				<left offset="1" />
-				<right offset="-1" />
-			</anchored>
-		</genericcontrol>
-	</template>
 </root>

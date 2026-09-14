@@ -5,24 +5,6 @@
   attribution and copyright information.
 -->
 <root>
-	<!--Radial Menu color hue. Supports argb hex values -->
-
-	<menusettings>
-		<radial>
-			<hubicon>menuhub</hubicon>
-			<backicon>menuback</backicon>
-			<background>menubackground</background>
-			<hubcolor>FFFFFF</hubcolor> <!-- Replaceable Color: Blend Color -->
-			<backgroundcolor>FFFFFF</backgroundcolor> <!-- Replaceable Color: Blend Color -->
-			<iconcolor>FFFFFF</iconcolor> <!-- Replaceable Color: Blend Color -->
-		</radial>
-	</menusettings>
-
-
-	<!-- Basic Menu - REQUIRED -->
-	<icon name="menubackground" file="graphics/pngs/menubackground.png" />
-	<icon name="menuhub" file="graphics/pngs/menuhub.png" />
-	<icon name="menuback" file="graphics/pngs/menuback.png" />
 
 	<!-- Generic -->
 	<icon name="insert" file="graphics/pngs/icon_insert.png" />

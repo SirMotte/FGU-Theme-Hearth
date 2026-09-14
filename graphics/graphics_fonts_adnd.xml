@@ -16,6 +16,20 @@
     <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
   </font>
 
+  <!-- Ability Scores & Fields (2E) -->
+  <font name="abilityscore_box">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+    <color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
+  </font>
+  <font name="abilityscore_box_mini">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="13" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+  <font name="abilityfields">
+    <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="13" />
+    <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+  </font>
+
   <font name="sidebar">
     <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
     <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->

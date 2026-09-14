@@ -1,27 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- Source: campaign/template_campaign.xml -->
-	<template name="button_imagewindow_sizeup">
-		<button_window_sizeup>
-			<anchored position="insidetopright" offset="60,24" />
-		</button_window_sizeup>
-	</template>
-	<template name="button_ichat">
-		<button_icon name="button_ichat">
-			<anchored to="rightanchor" width="20" height="20">
-				<top />
-				<right relation="relative" offset="-5" postoffset="-5" />
-			</anchored>
-			<icon normal="content_chat" />
-			<tooltip textres="record_chat" />
-			<script>
-				function onButtonPress()
-					RecordShareManager.onShareButtonPressed(window);
-				end
-			</script>
-		</button_icon>
-	</template>
-
 	<!-- Source: common/template_records.xml -->
     <template name="icon_record_header_nonid">
 		<icon_record_header_base name="nonid_icon">
@@ -37,36 +15,6 @@
 			</script>
 		</icon_record_header_base>
 	</template>
-	<template name="anchor_record_image_header_right">
-		<genericcontrol name="rightanchor">
-			<anchored height="0" width="0">
-				<top offset="5" />
-				<right offset="-50" />
-			</anchored>
-		</genericcontrol>
-	</template>
-	<template name="frame_record_content">
-		<genericcontrol name="contentframe">
-			<anchored>
-				<top parent="header" anchor="bottom" offset="7" />
-				<left offset="15" />
-				<right offset="-20" />
-				<bottom offset="-20" />
-			</anchored>
-			<disabled />
-		</genericcontrol>
-	</template>
-	<template name="frame_record_content_tabbed">
-		<genericcontrol name="contentframe">
-			<anchored>
-				<top parent="header" anchor="bottom" offset="7" />
-				<left offset="15" />
-				<right offset="-30" />
-				<bottom offset="-20" />
-			</anchored>
-			<disabled />
-		</genericcontrol>
-	</template>
 	<!--Image Window Background foreground-->
 	<template name="imagedata_record_step">
 		<imagedatacontrol>
@@ -75,251 +23,8 @@
 			<backcolor>232323</backcolor> <!-- Replaceable Color: Primary Background -->
 		</imagedatacontrol>
 	</template>
-	<template name="imagepaneldata_record_step">
-		<imagedatacontrol>
-			<invisible />
-			<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
-			<backcolor>232323</backcolor> <!-- Replaceable Color: Primary Background -->
-		</imagedatacontrol>
-	</template>
 	<!--Image Window Background foreground end-->
-	<template name="string_record_name">
-		<basicstring>
-			<anchored>
-				<top offset="2"/>
-				<left offset="40" />
-				<right parent="rightanchor" anchor="left" relation="relative" offset="-5" />
-			</anchored>
-			<font>reference-title</font>
-			<multilinespacing>25</multilinespacing>
-			<nodrag />
-			<delaykeyupdate />
-		</basicstring>
-	</template>
-	<template name="string_record_name_image">
-		<string_record_name>
-			<anchored height="25" merge="merge" />
-			<multilinespacing merge="delete" />
-		</string_record_name>
-	</template>
-	<template name="string_record_name_ref">
-		<string_record_name>
-			<anchored merge="merge">
-				<right parent="" anchor="right" relation="absolute" offset="-25" />
-			</anchored>
-			<nodrag />
-			<readonly />
-		</string_record_name>
-	</template>
-	<template name="sub_note_header">
-		<subwindow>
-			<anchored>
-				<top offset="3" />
-				<left offset="15" />
-				<right offset="-25" />
-			</anchored>
-			<activate />
-			<fastinit />
-		</subwindow>
-	</template>
 
-	<!-- Source: common/template_windows.xml -->
-	<template name="button_window_sizedown">
-		<button_window_sizedown_base>
-			<anchored height="16" width="16" />
-		</button_window_sizedown_base>
-	</template>
-	<template name="button_window_sizeup">
-		<button_window_sizeup_base>
-			<anchored height="16" width="16" />
-		</button_window_sizeup_base>
-	</template>
-	<template name="close">
-		<close_base>
-			<anchored height="16" width="16">
-				<top />
-				<right />
-			</anchored>
-		</close_base>
-	</template>
-	<template name="close_calendar">
-		<close>
-			<anchored>
-				<top offset="14" />
-				<right offset="-12" />
-			</anchored>
-		</close>
-	</template>
-	<template name="close_campaignlist">
-		<close>
-			<anchored>
-				<top offset="14" />
-				<right offset="-4" />
-			</anchored>
-		</close>
-	</template>
-	<template name="close_charselect">
-		<close>
-			<anchored>
-				<top offset="14" />
-				<right offset="-12" />
-			</anchored>
-		</close>
-	</template>
-	<template name="close_partysheet">
-		<close>
-			<anchored>
-				<top offset="13" />
-				<right offset="-15" />
-			</anchored>
-		</close>
-	</template>
-	<template name="close_referencelist">
-		<close>
-			<anchored>
-				<top offset="14" />
-				<right offset="-12" />
-			</anchored>
-		</close>
-	</template>
-	<template name="close_referencepage">
-		<close>
-			<anchored>
-				<top offset="7" />
-				<right offset="-4" />
-			</anchored>
-		</close>
-	</template>
-	<template name="close_tokenbag">
-		<close>
-			<anchored>
-				<top offset="14" />
-				<right offset="-12" />
-			</anchored>
-		</close>
-	</template>
-	<template name="close_utilitybox">
-		<close>
-			<anchored>
-				<top offset="13" />
-				<right offset="-9" />
-			</anchored>
-		</close>
-	</template>
-	<template name="close_utilitybox2">
-		<close>
-			<anchored>
-				<top offset="8" />
-				<right offset="-9" />
-			</anchored>
-		</close>
-	</template>
-	<template name="close_utilitybox3">
-		<close>
-			<anchored>
-				<top offset="14" />
-				<right offset="-12" />
-			</anchored>
-		</close>
-	</template>
-	<template name="help">
-		<help_base>
-			<anchored height="16" width="16">
-				<top />
-				<right offset="-16" />
-			</anchored>
-		</help_base>
-	</template>
-	<template name="help_calendar">
-		<help>
-			<anchored>
-				<top offset="14" />
-				<right offset="-28" />
-			</anchored>
-		</help>
-	</template>
-	<template name="help_charselect">
-		<help>
-			<anchored>
-				<top offset="14" />
-				<right offset="-28" />
-			</anchored>
-		</help>
-	</template>
-	<template name="help_imagebox">
-		<help>
-			<anchored>
-				<top offset="24" />
-				<right offset="-44" />
-			</anchored>
-		</help>
-	</template>
-	<template name="help_imagepanel">
-		<help>
-			<anchored position="insidetopright" offset="17,1" />
-			<invisible />
-		</help>
-	</template>
-	<template name="help_partysheet">
-		<help>
-			<anchored>
-				<top offset="13" />
-				<right offset="-31" />
-			</anchored>
-		</help>
-	</template>
-	<template name="help_referencelist">
-		<help>
-			<anchored>
-				<top offset="14" />
-				<right offset="-28" />
-			</anchored>
-		</help>
-	</template>
-	<template name="help_tokenbag">
-		<help>
-			<anchored>
-				<top offset="14" />
-				<right offset="-28" />
-			</anchored>
-		</help>
-	</template>
-	<template name="help_utilitybox">
-		<help>
-			<anchored>
-				<top offset="13" />
-				<right offset="-25" />
-			</anchored>
-		</help>
-	</template>
-	<template name="help_utilitybox2">
-		<help>
-			<anchored>
-				<top offset="8" />
-				<right offset="-25" />
-			</anchored>
-		</help>
-	</template>
-	<template name="help_utilitybox3">
-		<help>
-			<anchored>
-				<top offset="14" />
-				<right offset="-28" />
-			</anchored>
-		</help>
-	</template>
-	<template name="sub_record_header">
-		<subwindow>
-			<anchored>
-				<top offset="10" />
-				<left offset="10" />
-				<right offset="-25" />
-			</anchored>
-			<frame name="headergray" offset="5,5,20,5" />
-			<activate />
-			<fastinit />
-		</subwindow>
-	</template>
 	<template name="tabs_partysheet">
 		<buttongroup_tabs name="tabs">
 			<anchored width="18" height="92">
@@ -370,11 +75,6 @@
 			<anchored offset="0,4" />
 		</windowtitlebar>
 	</template>
-	<template name="windowmenubar_utilitybox">
-		<windowmenubar>
-			<anchored offset="-13,15" />
-		</windowmenubar>
-	</template>
 	<template name="anchor_content_utilitybox_top">
 		<genericcontrol name="contentanchor">
 			<anchored height="0">
@@ -402,11 +102,6 @@
 			<anchored offset="0,3" />
 		</windowtitlebar>
 	</template>
-	<template name="windowmenubar_partysheet">
-		<windowmenubar>
-			<anchored offset="-18,14" />
-		</windowmenubar>
-	</template>
 
 	<!-- Frame: charselect -->
 	<template name="windowtitlebar_charselect">
@@ -431,11 +126,6 @@
 		<windowtitlebar>
 			<anchored offset="0,4" />
 		</windowtitlebar>
-	</template>
-	<template name="windowmenubar_tokenbag">
-		<windowmenubar>
-			<anchored offset="-16,15" />
-		</windowmenubar>
 	</template>
     
 	<!-- Frame: referencelist -->
@@ -569,15 +259,6 @@
 		</genericcontrol>
 	</template>
 
-	<!-- Frame: recordsheet -->
-	<template name="close_recordsheet">
-		<close>
-			<anchored>
-				<top offset="7" />
-				<right offset="-8" />
-			</anchored>
-		</close>
-	</template>
 
 	<!-- Frame: charsheet -->
     <template name="tabs_charsheet">
@@ -597,24 +278,6 @@
 			</anchored>
 			<disabled />
 		</genericcontrol>
-	</template>
-	<template name="close_charsheet">
-		<close>
-			<anchored>
-				<top offset="14" />
-				<right offset="-15" />
-			</anchored>
-		</close>
-	</template>
-	<template name="sub_charsheet">
-		<subwindow>
-			<anchored>
-				<left offset="15" />
-				<top parent="overview" anchor="bottom" offset="0" />
-				<right offset="-22" />
-				<bottom offset="-20" />
-			</anchored>
-		</subwindow>
 	</template>
 
 	<template name="windowmenubar_utilitybox">
@@ -658,13 +321,6 @@
 			</anchored>
 			<disabled />
 		</genericcontrol>
-	</template>
-	<template name="sub_content_toolbar_top">
-		<sub_content_toolbar_base>
-			<anchored>
-				<top relation="relative" offset="5" postoffset="10" />
-			</anchored>
-		</sub_content_toolbar_base>
 	</template>
 	<template name="string_record_header_name_image">
 		<string_record_header_name>
@@ -733,14 +389,6 @@
 			</anchored>
 			</genericcontrol>
 	</template>
-	<template name="close_charsheethelper">
-		<close>
-			<anchored>
-				<top offset="0" />
-				<right offset="0" />
-			</anchored>
-		</close>
-	</template>
 
 	<!-- Source: ct/ct_host.xml-->
 	<windowclass name="ct_effect" merge="join">
@@ -806,11 +454,6 @@
 		<sizelimits>
 			<minimum width="100" height="90" />
 		</sizelimits>
-		<sheetdata>
-			<genericcontrol name="base">
-				<bounds>0,0,100,90</bounds>
-			</genericcontrol>
-		</sheetdata>
 	</windowclass>
 
 	<!-- Source: desktop/desktop_panels.xml -->
@@ -819,113 +462,10 @@
 	</panel>
 	
 	<!-- Source: desktop/template_desktop.xml -->
-	<template name="button_imagebackpanel_sizedown">
-		<button_window_sizedown>
-			<anchored position="insidetopright" offset="48,1" />
-			<invisible />
-		</button_window_sizedown>
-	</template>
-	<template name="button_imagebackpanel_sizeup">
-		<button_window_sizeup>
-			<anchored position="insidetopright" offset="32,1" />
-			<invisible />
-		</button_window_sizeup>
-	</template>
-	<template name="button_imagefullpanel_sizedown">
-		<button_window_sizedown>
-			<anchored position="insidetopright" offset="32,1" />
-		</button_window_sizedown>
-	</template>
     <template name="button_refresh">
 		<button_icon>
 			<icon normal="refresh" />
 		</button_icon>
-	</template>
-
-	<!-- Source: CoreRPG ref/template_ref.xml -->
-	<template name="anchor_reftitle">
-		<genericcontrol>
-			<anchored height="0">
-				<top parent="reftitle" anchor="bottom" offset="3" />
-				<left parent="" anchor="left" offset="35" />
-				<right parent="" anchor="right" offset="-50" />
-			</anchored>
-			<disabled />
-		</genericcontrol>
-	</template>
-	<template name="frame_ref_content">
-		<genericcontrol name="contentframe">
-			<anchored>
-				<top parent="header" anchor="bottom" offset="15" />
-				<left offset="15" />
-				<right offset="-25" />
-				<bottom offset="-15" />
-			</anchored>
-			<disabled />
-		</genericcontrol>
-	</template>
-	<template name="sub_ref_header">
-		<subwindow>
-			<anchored>
-				<top offset="10" />
-				<left offset="10" />
-				<right offset="-25" />
-			</anchored>
-			<frame name="headergray" offset="6,3,6,3" />
-			<activate />
-			<fastinit />
-		</subwindow>
-	</template>
-	<template name="button_refmanual_content_copy">
-		<button_listitem_icon_framed_right>
-			<icon normal="content_copy" />
-			<tooltip textres="record_copy" />
-			<gmvisibleonly />
-			<script>
-				function onButtonPress()
-					ReferenceManualManager.performPageCopy(window);
-				end
-			</script>
-		</button_listitem_icon_framed_right>
-	</template>
-	<template name="button_refmanual_content_paste">
-		<button_listitem_icon_framed_right>
-			<icon normal="content_paste" />
-			<tooltip textres="record_paste" />
-			<invisible />
-			<script>
-				function onInit()
-					super.onInit();
-					if Session.IsHost then
-						ReferenceManualManager.registerPagePasteCallback(self.onPasteCallback);
-					end
-				end
-				function onClose()
-					if Session.IsHost then
-						ReferenceManualManager.unregisterPagePasteCallback(self.onPasteCallback);
-					end
-				end
-				function onPasteCallback()
-					self.update();
-				end
-				function update()
-					local bReadOnly = WindowManager.getReadOnlyState(window.getDatabaseNode());
-					local bCanPaste = ReferenceManualManager.hasPagePasteRecord();
-					setVisible(bCanPaste and not bReadOnly);
-				end
-				function onButtonPress()
-					ReferenceManualManager.performPagePaste(window.parentcontrol.window.content.subwindow);
-				end
-			</script>
-		</button_listitem_icon_framed_right>
-	</template>
-	<template name="button_refmanual_content_revert">
-		<button_listitem_icon_framed_right>
-			<icon normal="refresh" />
-			<tooltip textres="record_revert" />
-			<invisible />
-			<script file="ref/scripts/ref_revert.lua" />
-		</button_listitem_icon_framed_right>
 	</template>
 	<template name="button_expand">
 		<button_icon>
@@ -1048,7 +588,7 @@
 	<string name="imagesizefit">Zoom To Fit</string>
 	<string name="image_grid_hexrow">Hex Row Grid</string>
 	<string name="image_grid_hexcolumn">Hex Column Grid</string>
-	<string name="image_grid_square">Squre Grid</string>
+	<string name="image_grid_square">Square Grid</string>
 	<string name="image_grid_isometric">Isometric Grid</string>
 
 	<!-- Source: campaign/record_char.xml -->
@@ -1077,6 +617,9 @@
 	<!-- Source: ct/ct_host.xml -->
 	<!-- Re-color is moved to script instead of xml to support rulesets that don't use the temphp box -->
 	<windowclass name="ct_entry" merge="join">
+		<sizelimits>
+			<minimum height="25" />
+		</sizelimits>
 		<script file="rulesets/scripts/ct_entry_colors.lua" />
 	</windowclass>
 	<windowclass name="client_ct_entry" merge="join">
@@ -1158,7 +701,9 @@
 					setColor(UtilityManager.getControlFontColor(window, "name"));
 				end
 				function onValueChanged()
-					window.onVisibilityChanged();
+					if window.onVisibilityChanged then
+						window.onVisibilityChanged();
+					end
 				end
 			</script>
 		</buttonfield>
@@ -1182,11 +727,6 @@
 			</anchored>
 		</resize>
 	</template>
-	<windowclass name="ct_entry" merge="join">
-		<sizelimits>
-			<minimum height="25" />
-		</sizelimits>
-	</windowclass>
 	<!-- Summary string sections -->
 	<template name="string_ct_entry_summary">
 		<stringcontrol>
@@ -1244,34 +784,4 @@
 		</sheetdata>
 	</windowclass>
 
-    <windowclass name="sub_ct_header_host" merge="join">
-		<margins control="34,0,0,0" />
-		<sheetdata>
-			<anchor_ct_header_left name="leftanchor" />
-			<anchor_ct_header_right name="rightanchor" />
-
-			<spacer_ct_header_active name="spacer_header_active" />
-			<spacer_ct_header_token name="spacer_header_token" />
-			<button_ct_header_visibility name="button_global_visibility" />
-
-			<spacer_ct_header_buttons_host name="spacer_buttons_header" />
-			<label_ct_header_initresult name="label_init" />
-			<label_ct_header_name_v2 name="label_name" />
-		</sheetdata>
-	</windowclass>
-
-	<windowclass name="sub_ct_header_client" merge="join">
-		<margins control="25,0,0,0" />
-		<sheetdata>
-			<anchor_ct_header_left name="leftanchor" />
-			<anchor_ct_header_right name="rightanchor" />
-
-			<spacer_ct_header_active name="spacer_header_active" />
-			<spacer_ct_header_token name="spacer_header_token" />
-
-			<spacer_ct_header_buttons_client name="spacer_buttons_header" />
-			<label_ct_header_initresult name="label_init" />
-			<label_ct_header_name_v2 name="label_name" />
-		</sheetdata>
-	</windowclass>
 </root>
