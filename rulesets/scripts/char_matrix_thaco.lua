@@ -74,7 +74,7 @@ function createTHACOMatrix()
         local sMatrixACName = "thaco_matrix_ac_" .. i;
         local sMatrixACValue = i;
         local sMatrixNumberName = "thac" .. i;
-        local cntNum = nil;
+        local cntNum;
         if bUseMatrix then
             cntNum = createControl("number_thaco_matrix", sMatrixNumberName, "combat.matrix." .. sMatrixNumberName);
         else
@@ -111,7 +111,7 @@ function update()
     if not node then
         return;
     end
-    local bUseMatrix = (DataCommonADND.coreVersion ~= "2e");
+    local bUseMatrix = (DataCommonADND.coreVersion == "1e");
 
     local nTHACO;
     if ActorManager.isPC(node) then

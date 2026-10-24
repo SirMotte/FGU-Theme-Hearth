@@ -34,7 +34,6 @@ def build_extension():
     assets_to_copy = [
         ("extension.xml", ""),
         ("SirMotte_footface.png", ""),
-        ("common", "common"),
         ("graphics", "graphics"),
         ("rulesets", "rulesets"),
         ("scripts", "scripts")
@@ -63,10 +62,10 @@ def build_extension():
     with zipfile.ZipFile(output_ext_file, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as zipf:
         # Walk through the temp dir and add files relative to it
         for root, dirs, files in os.walk(temp_dir):
-            for file in files:
+            for file in sorted(files):
                 file_path = Path(root) / file
-                # Write file with a path relative to temp_dir (so they sit at the zip root)
-                arcname = file_path.relative_to(temp_dir)
+                # Write file with a POSIX path relative to temp_dir (so they sit at the zip root)
+                arcname = file_path.relative_to(temp_dir).as_posix()
                 zipf.write(file_path, arcname)
                 
     # 5. Clean up temporary directory

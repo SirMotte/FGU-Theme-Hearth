@@ -2,12 +2,12 @@
 <!--Special Thanks to MeAndUnique, Saagael and Zarestia for the enormous amount of help with xml and lua stuff <3!-->
 
 <root version="3.2">
-	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rv2.9.57 - Torchbearer, 10/6/26" font="oocfont" icon="footface" />
+	<announcement text="Theme Loaded: \rSir Motte's Magnificent Darkness\rv2.9.58 - Torchbearer, 10/24/26" font="oocfont" icon="footface" />
 
 	<properties>
 		<name>Theme: Hearth</name>
 		<author>Created by Sir Motte, maintained by Justin Freitas - Co. Authors: MeAndUnique and Saagael / Contributions by the awesome Unofficial Developers Guild</author>
-		<version>2.9.57</version>
+		<version>2.9.58</version>
 		<description>Dark, warm and reduced user interface for FGU</description>
 		<loadorder>1500</loadorder>
 	</properties>
@@ -23,27 +23,28 @@
 		<includefile source="graphics/graphics_radial.xml" />
 
 		<!-- Ruleset Graphics -->
-		<includefile source="graphics/rulesets/icrpg/graphics_icrpg.xml" />
+		<includefile source="graphics/rulesets/icrpg/graphics_icrpg.xml" ruleset="ICRPG" />
 
 		<script name="manager_color_2" file="scripts/manager_color_2.lua" />
 		<script name="manager_desktop_2" file="scripts/manager_desktop2.lua" />
-		<script name="ThemeManager" file="rulesets/scripts/manager_theme.lua" />
+		<script name="ThemeManager" file="rulesets/scripts/manager_theme.lua" ruleset="CyberpunkRED" />
 
 		<!-- Ruleset control definitions -->
 		<includefile source="rulesets/coc7e_compilation.xml" ruleset="CallofCthulhu7E" />
 		<includefile source="rulesets/corerpg_compilation.xml" />
+		<includefile source="rulesets/daggerheart_compilation.xml" ruleset="Daggerheart" />
 		<includefile source="rulesets/dnd2e_compilation.xml" ruleset="2E" />
 		<includefile source="rulesets/dnd4e_compilation.xml" ruleset="4E" />
 		<includefile source="rulesets/dnd5e_compilation.xml" ruleset="5E" />
-        <includefile source="rulesets/ose2_compilation.xml" ruleset="OSE2" />
-		<includefile source="rulesets/savageworlds_compilation.xml" ruleset="SavageWorlds" />
+		<includefile source="rulesets/ose_compilation.xml" ruleset="Old School Essentials" />
+		<includefile source="rulesets/ose2_compilation.xml" ruleset="OSE2" />
 		<includefile source="rulesets/icrpg_compilation.xml" ruleset="ICRPG" />
 		<includefile source="rulesets/pfrpg2_compilation.xml" ruleset="PFRPG2|PFRPG2-Legacy" />
-		<includefile source="rulesets/pfrpg_compilation.xml" ruleset="PFRPG" />
 		<includefile source="rulesets/multi_compilation.xml" ruleset="3.5E|PFRPG2|PFRPG2-Legacy|PFRPG" />
 		<includefile source="rulesets/sfrpg_compilation.xml" ruleset="SFRPG" />
+		<includefile source="rulesets/sw_compilation.xml" ruleset="Swords and Wizardry" />
+		<includefile source="rulesets/xcore_compilation.xml" ruleset="XCore" />
 		<includefile source="rulesets/cyberpunkred_compilation.xml" ruleset="CyberpunkRED" />
-		<includefile source="rulesets/cypher_system.xml" ruleset="Cypher System" />
 
 		<!--Extension Graphics definitions-->
 		<includefile source="graphics/graphics_extensions.xml" />

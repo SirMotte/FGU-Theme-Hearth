@@ -59,9 +59,11 @@ Blend Color =               White
 
 Calendar Background =       Light Brown
 Calendar Holiday =          Crimson
+Calendar Month =            Crimson
 
 Text Selection =            Navy
 Warning Text =              Crimson
+Modified VALUE =            Light Gold
 
 Chapter Font =              Light Salmon
 

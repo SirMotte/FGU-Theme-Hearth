@@ -239,15 +239,7 @@
 	<!-- Chat window -->
 	<framedef name="chatbox">
 		<bitmap file="graphics/pngs/chatbox.png" />
-		<topleft rect="0,0,8,27" />
-		<top rect="8,0,510,27" />
-		<topright rect="518,0,12,27" />
-		<left rect="0,27,8,508" />
-		<middle rect="8,27,510,508" />
-		<right rect="518,27,12,508" />
-		<bottomleft rect="0,535,8,3" />
-		<bottom rect="8,535,510,3" />
-		<bottomright rect="518,535,12,3" />
+		<offset>50,50,50,50</offset>
 	</framedef>
 	<framedef name="chatentry">
 		<bitmap file="graphics/pngs/chatentry.png" />
@@ -809,12 +801,6 @@
 	<framedef name="windowtitle">
 		<bitmap file="graphics/pngs/windowtitle.png" />
 		<offset>56,11,54,20</offset>
-	</framedef>
-	<framedef name="tabs">
-		<bitmap file="graphics/pngs/tabs.png" />
-		<topleft rect="0,0,18,73" />
-		<left rect="0,73,18,335" />
-		<bottomleft rect="0,408,18,85" />
 	</framedef>
 	<framedef name="windowmenubar_button">
 		<bitmap file="graphics/pngs/windowmenubar_button.png" />

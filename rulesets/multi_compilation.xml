@@ -16,12 +16,12 @@
                     if getValue() == 1 then
                       sColor = ColorManager.COLOR_SECONDARY_FOREGROUND;
                     end
-                    window.armormaxstatbonus.setColor(sColor);
-                    window.armorcheckpenalty.setColor(sColor);
+                    if window.armormaxstatbonus then window.armormaxstatbonus.setColor(sColor); end
+                    if window.armorcheckpenalty then window.armorcheckpenalty.setColor(sColor); end
                     if User.getRulesetName() == "PFRPG2" or User.getRulesetName() == "PFRPG2-Legacy" then
-                        window.speedpenalty.setColor(sColor);
+                        if window.speedpenalty then window.speedpenalty.setColor(sColor); end
                     else
-                        window.spellfailure.setColor(sColor);
+                        if window.spellfailure then window.spellfailure.setColor(sColor); end
                     end
                     if super and super.encumbranceColors then super.encumbranceColors(); end -- bmos' encumbrance penalties
                   	end

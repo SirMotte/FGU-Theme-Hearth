@@ -74,4 +74,14 @@
 	<windowclass name="ct_entry" merge="join">
 		<script file="rulesets/scripts/mgt2_ct_entry.lua" />
 	</windowclass>
+
+	<!-- MGT2 Spacecraft Sheet Fonts (base MGT2 uses #000000 and #100000) -->
+	<font name="charspacecraft-sheetlabel">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="12" />
+		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+	</font>
+	<font name="charspacecraft-sheetinline">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="11" />
+		<color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
+	</font>
 </root>

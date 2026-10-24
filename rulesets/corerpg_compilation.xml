@@ -62,9 +62,10 @@
 		</buttongroup_tabs>
 	</template>
     <template name="windowtitlebar">
-        <genericcontrol>
+        <genericcontrol name="title">
 			<anchored position="insidetop" offset="0,2" height="45" />
             <frame name="windowtitle" offset="30,0,30,0" />
+            <disabled />
             <script file="common/scripts/windowtitlebar.lua" />
         </genericcontrol>
     </template>
@@ -411,33 +412,10 @@
     
     <windowclass name="sub_ct_header_host" merge="join">
 		<margins control="34,0,0,0" />
-		<sheetdata>
-			<anchor_ct_header_left name="leftanchor" />
-			<anchor_ct_header_right name="rightanchor" />
-
-			<spacer_ct_header_active name="spacer_header_active" />
-			<spacer_ct_header_token name="spacer_header_token" />
-			<button_ct_header_visibility name="button_global_visibility" />
-
-			<spacer_ct_header_buttons_host name="spacer_buttons_header" />
-			<label_ct_header_initresult name="label_init" />
-			<label_ct_header_name_v2 name="label_name" />
-		</sheetdata>
 	</windowclass>
 
 	<windowclass name="sub_ct_header_client" merge="join">
-		<margins control="25,0,0,0" />
-		<sheetdata>
-			<anchor_ct_header_left name="leftanchor" />
-			<anchor_ct_header_right name="rightanchor" />
-
-			<spacer_ct_header_active name="spacer_header_active" />
-			<spacer_ct_header_token name="spacer_header_token" />
-
-			<spacer_ct_header_buttons_client name="spacer_buttons_header" />
-			<label_ct_header_initresult name="label_init" />
-			<label_ct_header_name_v2 name="label_name" />
-		</sheetdata>
+		<margins control="15,0,0,0" />
 	</windowclass>
 
 
@@ -490,27 +468,10 @@
 	<!-- Source: utility/utility_calendar.xml -->
 	<windowclass name="calendar_day" merge="join">
 		<script>
-			local fSetState;
-			function onInit()
-				local root = super;
-				while root.super do
-					root = root.super;
+			function setState(bCurrDay, bSelDay, bHoliday, nodeEvent)
+				if super and super.setState then
+					super.setState(bCurrDay, bSelDay, bHoliday, nodeEvent);
 				end
-				if root then
-					fSetState = root.setState;
-					root.setState = updatedSetState;
-				end
-
-				if super.onInit then
-					super.onInit();
-				end
-			end
-			function onClose()
-				super.setState = fSetState;
-			end
-
-			function updatedSetState(bCurrDay, bSelDay, bHoliday, nodeEvent)
-				fSetState(bCurrDay, bSelDay, bHoliday, nodeEvent);
 				if bCurrDay then
 					setBackColor(ColorManager.COLOR_CALENDAR_BACKGROUND);
 					label_day.setColor(ColorManager.COLOR_PRIMARY_FOREGROUND);
@@ -603,7 +564,9 @@
 	<windowclass name="charselect_host_entry" merge="join">
 		<script>
 			function onInit()
-				super.onInit();
+				if super and super.onInit then
+					super.onInit();
+				end
 
 				registerMenuItem(string.format(Interface.getString("char_menu_ownergm"), User.getUsername()), "icon_take_ownership", 3);
 			end
@@ -670,43 +633,41 @@
 		</tokenfield>
 	</template>
 	<template name="button_ct_entry_isidentified">
-		<buttonfield>
+		<button_ct_entry_token_decorator_base>
 			<anchored to="token" position="righthigh" offset="2,2" width="20" height="16" />
 			<frame name="tempmodmini" />
 			<state icon="button_toolbar_id_false" tooltipres="tooltip_nonid" />
 			<state icon="button_toolbar_id_true" tooltipres="tooltip_id" />
-			<invisible />
 			<gmeditonly />
 			<script>
-				function onInit()
-					setColor(UtilityManager.getControlFontColor(window, "name"));
-				end
 				function onValueChanged()
+					if super and super.onValueChanged then
+						super.onValueChanged();
+					end
 					if window.onIDChanged then
 						window.onIDChanged();
 					end
 				end
 			</script>
-		</buttonfield>
+		</button_ct_entry_token_decorator_base>
 	</template>
 	<template name="button_ct_entry_tokenvis">
-		<buttonfield>
+		<button_ct_entry_token_decorator_base>
 			<anchored to="token" position="rightlow" offset="2,3" width="20" height="16" />
 			<frame name="tempmodmini" />
 			<state icon="button_toolbar_visibility_off" tooltipres="ct_tooltip_shownpcon" />
 			<state icon="button_toolbar_visibility_on" tooltipres="ct_tooltip_shownpcoff" />
-			<invisible/>
 			<script>
-				function onInit()
-					setColor(UtilityManager.getControlFontColor(window, "name"));
-				end
 				function onValueChanged()
+					if super and super.onValueChanged then
+						super.onValueChanged();
+					end
 					if window.onVisibilityChanged then
 						window.onVisibilityChanged();
 					end
 				end
 			</script>
-		</buttonfield>
+		</button_ct_entry_token_decorator_base>
 	</template>
 	<template name="string_ct_entry_name">
 		<string_ct>

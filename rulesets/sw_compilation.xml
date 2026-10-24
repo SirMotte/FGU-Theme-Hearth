@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<!-- Swords and Wizardry Fonts (override hardcoded #000000 / #404040) -->
+	<font name="Montserrat" merge="join">
+		<color value="#FFF0CA" />
+	</font>
+	<font name="Apple_font" merge="join">
+		<color value="#DDDDDD" />
+	</font>
+	<font name="swfont" merge="join">
+		<color value="#FFF0CA" />
+	</font>
+	<font name="swfontbig" merge="join">
+		<color value="#FFF0CA" />
+	</font>
+	<font name="swfontsmall" merge="join">
+		<color value="#FFF0CA" />
+	</font>
+	<font name="swfotnbiggest" merge="join">
+		<color value="#FFF0CA" />
+	</font>
+
+	<!-- Swords and Wizardry Character Sheet Combat Roll Icons -->
+	<icon name="surprise" file="graphics/pngs/sw_surprise.png" />
+	<icon name="Init" file="graphics/pngs/sw_init.png" />
+	<icon name="turnundead" file="graphics/pngs/sw_turn.png" />
+
+	<!-- Swords and Wizardry Record & CT Color Fixes -->
+	<windowclass name="ClassData_detail" merge="join">
+		<sheetdata>
+			<number name="save">
+				<backcolor>#322C27</backcolor>
+			</number>
+			<number name="BHB">
+				<backcolor>#322C27</backcolor>
+			</number>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="npc_spells_detail" merge="join">
+		<sheetdata>
+			<buttoncontrol name="Tarsv_button">
+				<backcolor>#322C27</backcolor>
+			</buttoncontrol>
+			<buttoncontrol name="Castnosv_button">
+				<backcolor>#322C27</backcolor>
+			</buttoncontrol>
+			<buttoncontrol name="spellheal_button">
+				<backcolor>#322C27</backcolor>
+			</buttoncontrol>
+			<number name="spelllevel">
+				<backcolor>#322C27</backcolor>
+			</number>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="ct_entry" merge="join">
+		<sheetdata>
+			<number_ct_crosslink name="temp_hp">
+				<color>#69B7FF</color>
+			</number_ct_crosslink>
+		</sheetdata>
+	</windowclass>
+</root>

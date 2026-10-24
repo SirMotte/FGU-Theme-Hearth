@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<!-- ========================================================================= -->
+	<!-- Daggerheart Ruleset Overrides                                             -->
+	<!-- ========================================================================= -->
+
+	<!-- 1. Override Daggerheart's dark/black fonts for Hearth's dark theme -->
+	<font name="char_details">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="14" />
+		<color value="#FFF0CA" />
+	</font>
+	<font name="tokenbagasset_grid">
+		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
+		<color value="#DDDDDD" />
+	</font>
+	<font name="reference-h">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
+		<color value="#FFF0CA" />
+	</font>
+	<font name="reference-header">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="21" />
+		<color value="#FFF0CA" />
+	</font>
+	<font name="windowtitle">
+		<ttf file="graphics/fonts/Roboto-BoldItalic.ttf" name="Roboto" size="16" />
+		<color value="#FFF0CA" />
+	</font>
+
+	<!-- 2. Dark-interior Hearth shield frames for Trait Totals, Evasion, and Armor -->
+	<framedef name="attribute">
+		<bitmap file="graphics/pngs/dh_attribute.png" />
+		<topleft rect="0,0,80,59" />
+	</framedef>
+	<framedef name="evasion">
+		<bitmap file="graphics/pngs/dh_evasion.png" />
+		<topleft rect="0,0,60,45" />
+	</framedef>
+	<framedef name="armor">
+		<bitmap file="graphics/pngs/dh_armor.png" />
+		<topleft rect="0,0,60,45" />
+	</framedef>
+
+	<!-- 3. High-contrast Hearth counter icons for Proficiency, Hope, HP, and Stress -->
+	<icon name="button_checkon" file="graphics/pngs/button_checkon.png" />
+	<icon name="button_checkoff" file="graphics/pngs/button_checkoff.png" />
+	<icon name="button_proficiency_checkon" file="graphics/pngs/dh_proficiency_on.png" />
+	<icon name="button_proficiency_checkoff" file="graphics/pngs/dh_proficiency_off.png" />
+	<icon name="button_hope_checkon" file="graphics/pngs/dh_hope_on.png" />
+	<icon name="button_hope_checkoff" file="graphics/pngs/dh_hope_off.png" />
+	<icon name="button_hp_stress_checkon" file="graphics/pngs/dh_hp_stress_on.png" />
+	<icon name="button_hp_stress_checkoff" file="graphics/pngs/dh_hp_stress_off.png" />
+
+	<!-- 4. Daggerheart sidebar icons colored to Hearth's #FFF0CA palette -->
+	<icon name="sidebar_icon_recordtype_subclass" file="graphics/pngs/sidebar_icon_subclasses.png" />
+	<icon name="sidebar_icon_recordtype_card" file="graphics/pngs/sidebar_icon_cards.png" />
+	<icon name="sidebar_icon_recordtype_community" file="graphics/pngs/sidebar_icon_communities.png" />
+	<icon name="sidebar_icon_recordtype_domain" file="graphics/pngs/sidebar_icon_domains.png" />
+	<icon name="sidebar_icon_recordtype_environment" file="graphics/pngs/sidebar_icon_environments.png" />
+	<icon name="sidebar_icon_recordtype_organization" file="graphics/pngs/sidebar_icon_organizations.png" />
+	<icon name="sidebar_icon_recordtype_feature" file="graphics/pngs/sidebar_icon_feat.png" />
+	<icon name="sidebar_icon_recordtype_transformation" file="graphics/pngs/sidebar_icon_transformations.png" />
+	<icon name="sidebar_icon_link_ltc" file="graphics/pngs/sidebar_icon_link_ltc.png" />
+</root>

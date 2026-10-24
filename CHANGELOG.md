@@ -1,3 +1,21 @@
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.58 - Torchbearer[/B][/SIZE][/COLOR]
+
+[COLOR="#FF0000"][B]Changelog[/B][/COLOR]
+[LIST]
+[*] Old School Essentials (Official Ruleset): Added dedicated ruleset support (ose_compilation.xml) separated from legacy OSE2, including a Hearth-colored Turn Tracker torch sidebar icon (token_torch), character sheet header buffer and 515x700 sizing, readable ability effect score colors (#FFF0CA/#63ED63/#FF4F4F), high-contrast sky-blue Temp HP (#69B7FF) on the Character Sheet and Combat Tracker, dark ct_subgroupbox frame, sheetlabel_ct font, and Hearth alternating row shading.
+[*] Daggerheart: Added dedicated ruleset support (daggerheart_compilation.xml) with custom dark-interior shield frames for Trait Totals, Evasion, and Armor, high-contrast counter icons for Proficiency, Hope, HP, and Stress, 9 Hearth-colored sidebar record icons, and dark font contrast overrides.
+[*] Swords & Wizardry: Added dedicated ruleset support (sw_compilation.xml) with custom combat roll icons (Initiative, Surprise, Turn Undead), font contrast overrides, dark field backgrounds on Class and Spell records, and sky-blue CT Temp HP (#69B7FF).
+[*] XCore: Added dedicated ruleset support (xcore_compilation.xml) with custom gear/editor icons (cog, calc, label, smalldice), dark frame overrides (simple_brown, simple_blue, fieldred, fieldlight_copy), and dark header/field overrides for Arrays, Character Sheet roll sections, Rolls, and Items.
+[*] OSE2: Fixed class_detail level_label control type (<stringcontrol> instead of hidden <hn> numberfield) so the level label remains visible, and aligned spelllevel control tag in npc_spells_detail_ct.
+[*] Mongoose Traveller 2E (MGT2): Added charspacecraft-sheetlabel (#DDDDDD) and charspacecraft-sheetinline (#FFF0CA) font overrides to fix unreadable black text on spacecraft sheets.
+[*] Extension Scoping: Scoped Cyberpunk RED ThemeManager script and ICRPG graphics include to their respective rulesets so they no longer overwrite global sidebar record icon colors or pollute other rulesets.
+[*] CoreRPG & Sidebar Icons: Recolored the bottom sidebar expand/collapse arrow buttons (sidebar_action_expand / sidebar_action_collapse) to #FFF0CA to match the rest of the sidebar across all rulesets, added 5 additional sidebar record icons (array, location, magic, occupation, picture), restored dynamic active/disabled color toggling on CT token decorator buttons, restored name="title" and <disabled /> on windowtitlebar, and added Shield HP / field error UI color definitions.
+[*] CoreRPG / 5E: Mapped Hearth rest icons to native CoreRPG menu_rest* radial icon names and removed obsolete 5E charsheet radial rest menu overrides.
+[*] Typography & Fonts: Added Giant language font (#DDDDDD) for OSE/OSE2 chat legibility, standardized record/image/npc/story header fonts onto bundled Roboto Bold, and removed duplicate font/frame/icon definitions.
+[*] Extension & Multi-Ruleset Safety: Added nil-safety guards and local variable scoping to masterindexitem, MNMStats, and 3.5E/PFRPG inventory armor penalty scripts.
+[*] Build, CI & Package Size: Pruned 181 unreferenced font/graphic assets (~1.89 MB) and 3 empty ruleset XML stubs, fixed ConvertColors.ps1 PowerShell syntax, and expanded Luacheck CI to cover rulesets/scripts and Hearth-Edition-Dev.
+[/LIST]
+
 [COLOR=#FF8C00][SIZE=4][B]Update to v2.9.57 - Torchbearer[/B][/SIZE][/COLOR]
 
 [COLOR="#FF0000"][B]Changelog[/B][/COLOR]

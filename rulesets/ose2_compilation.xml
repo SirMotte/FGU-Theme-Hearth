@@ -109,9 +109,9 @@
 			<buttoncontrol name="spellheal_button">
 				<backcolor>#322C27</backcolor>
 			</buttoncontrol>
-			<buttoncontrol name="spelllevel">
+			<number name="spelllevel">
 				<backcolor>#322C27</backcolor>
-			</buttoncontrol>
+			</number>
 		</sheetdata>
 	</windowclass>
 	<windowclass name="charsheet_main" merge="join">
@@ -123,9 +123,9 @@
 	</windowclass>
 	<windowclass name="class_detail" merge="join">
 		<sheetdata>
-			<hn name="level_label">
+			<stringcontrol name="level_label">
 				<font>Ose-Reference</font>
-			</hn>
+			</stringcontrol>
 		</sheetdata>
 	</windowclass>
 	<windowclass name="spells_main" merge="join">

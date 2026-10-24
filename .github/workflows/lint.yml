@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - Hearth-Edition-Main
+      - Hearth-Edition-Dev
   pull_request:
     branches:
       - Hearth-Edition-Main
+      - Hearth-Edition-Dev
   workflow_dispatch:
 
 jobs:
@@ -23,4 +25,4 @@ jobs:
           sudo apt-get install -y lua-check
 
       - name: Run Luacheck Linter
-        run: luacheck --config .luacheckrc scripts
+        run: luacheck --config .luacheckrc scripts rulesets/scripts

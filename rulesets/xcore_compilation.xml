@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<!-- XCore Gear & Editor Icons -->
+	<icon name="icon_cog" file="graphics/pngs/icon_cog.png" />
+	<icon name="icon_calc" file="graphics/pngs/icon_calc.png" />
+	<icon name="icon_label" file="graphics/pngs/icon_label.png" />
+	<icon name="icon_smalldice" file="graphics/pngs/icon_smalldice.png" />
+
+	<!-- XCore Frames -->
+	<framedef name="simple_brown">
+		<bitmap file="graphics/pngs/recordsheet.png" />
+		<offset>11,12,17,18</offset>
+		<insideoffset>0,0,4,5</insideoffset>
+	</framedef>
+	<framedef name="simple_blue">
+		<bitmap file="graphics/pngs/recordsheet.png" />
+		<offset>11,12,17,18</offset>
+		<insideoffset>0,0,4,5</insideoffset>
+	</framedef>
+	<framedef name="fieldred">
+		<bitmap file="graphics/pngs/fieldred.png" />
+		<offset>6,6,6,6</offset>
+	</framedef>
+	<framedef name="fieldlight_copy">
+		<bitmap file="graphics/pngs/fieldlight.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+
+	<!-- XCore Array Sheet -->
+	<windowclass name="arrays" merge="join">
+		<sheetdata>
+			<stringfield name="data">
+				<frame name="fielddark" offset="8,0,8,0" />
+			</stringfield>
+		</sheetdata>
+	</windowclass>
+
+	<!-- XCore Character Sheet Main Section Headers -->
+	<windowclass name="charsheet_main" merge="join">
+		<sheetdata>
+			<stringfield name="rolls_list_label">
+				<color>#FFF0CA</color>
+			</stringfield>
+			<stringfield name="rolls_list1_label">
+				<color>#FFF0CA</color>
+			</stringfield>
+			<stringfield name="rolls_list2_label">
+				<color>#FFF0CA</color>
+			</stringfield>
+			<stringfield name="rolls_list3_label">
+				<color>#FFF0CA</color>
+			</stringfield>
+			<stringfield name="rolls_list4_label">
+				<color>#FFF0CA</color>
+			</stringfield>
+			<stringfield name="rolls_list5_label">
+				<color>#FFF0CA</color>
+			</stringfield>
+		</sheetdata>
+	</windowclass>
+
+	<!-- XCore Roll & Item Detail Header Backgrounds -->
+	<windowclass name="rolls_content" merge="join">
+		<sheetdata>
+			<stringcontrol name="description_label">
+				<backcolor>#322C27</backcolor>
+			</stringcontrol>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="item_content" merge="join">
+		<sheetdata>
+			<stringcontrol name="description_label">
+				<backcolor>#322C27</backcolor>
+			</stringcontrol>
+		</sheetdata>
+	</windowclass>
+</root>

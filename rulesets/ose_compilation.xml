@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<!-- ========================================================================= -->
+	<!-- Old School Essentials (Official Ruleset) Overrides                        -->
+	<!-- ========================================================================= -->
+
+	<!-- 1. Fonts & Frames -->
+	<font name="sheetlabel_ct">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<color value="#FFF0CA" />
+	</font>
+
+	<framedef name="ct_subgroupbox">
+		<bitmap file="graphics/pngs/ct_subgroupbox.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+
+	<!-- 2. Character Sheet Header Spacing & Sizing (preserve OSE's 700px height) -->
+	<template name="anchor_content_charsheet_tabbed_top">
+		<genericcontrol name="contentanchor">
+			<anchored height="0">
+				<top offset="42" />
+				<left offset="15" />
+				<right offset="-20" />
+			</anchored>
+			<disabled />
+		</genericcontrol>
+	</template>
+
+	<windowclass name="charsheet" merge="join">
+		<sizelimits>
+			<minimum width="515" height="700" />
+			<dynamic />
+		</sizelimits>
+	</windowclass>
+
+	<!-- 3. Character Sheet Colors & Alternating Row Shades -->
+	<template name="number_charabilityeffect">
+		<simplenumber>
+			<tooltip textres="char_tooltip_abilEffect" />
+			<readonly />
+			<hideonvalue>0</hideonvalue>
+			<script>
+				function onInit()
+					onValueChanged();
+				end
+				function onValueChanged()
+					window.updateAbil(window.getDatabaseNode());
+					if self.getValue() &lt;= 8 then
+						self.setColor("FF4F4F");
+					elseif self.getValue() &gt;= 13 then
+						self.setColor("63ED63");
+					else
+						self.setColor("FFF0CA");
+					end
+				end
+			</script>
+		</simplenumber>
+	</template>
+
+	<template name="list_abilities" merge="join">
+		<list_text>
+			<child merge="replace" />
+			<child merge="add">
+				<backcolor>1AFFFFFF</backcolor>
+			</child>
+		</list_text>
+	</template>
+
+	<windowclass name="charsheet_main" merge="join">
+		<sheetdata>
+			<basicnumber name="temp_hp">
+				<color>#69B7FF</color>
+			</basicnumber>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="charsheet_classes" merge="join">
+		<sheetdata>
+			<list_text name="classes">
+				<child merge="replace" />
+				<child merge="add">
+					<backcolor>1AFFFFFF</backcolor>
+				</child>
+			</list_text>
+		</sheetdata>
+	</windowclass>
+
+	<!-- 4. Combat Tracker Temp HP Contrast (#0000AA -> #69B7FF) -->
+	<windowclass name="ct_entry" merge="join">
+		<sheetdata>
+			<number_ct_crosslink name="hptemp">
+				<color>#69B7FF</color>
+			</number_ct_crosslink>
+		</sheetdata>
+	</windowclass>
+
+	<template name="number_clientct_hptemp" merge="join">
+		<number_ct_static name="hptemp">
+			<color>#69B7FF</color>
+		</number_ct_static>
+	</template>
+</root>

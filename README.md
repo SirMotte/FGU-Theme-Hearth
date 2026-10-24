@@ -1,7 +1,7 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
-Current Version: 2.9.57 - Torchbearer  
-Release Date: October 6, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
+Current Version: 2.9.58 - Torchbearer  
+Release Date: October 24, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
 
 Original author: Sir Motte  
 Maintainer: Justin Freitas
@@ -21,11 +21,16 @@ You can still contact Sir_Motte, preferably on Discord, but he is, for now, no l
 - Dungeons & Dragons 4E
 - Pathfinder 1E
 - Pathfinder 2E (and Legacy)
+- Starfinder (SFRPG)
+- Old School Essentials (Official & OSE2)
+- Swords & Wizardry
+- Daggerheart
+- Call of Cthulhu 7E
+- Mongoose Traveller 2E
+- Cyberpunk RED
+- Index Card RPG (ICRPG)
 - XCore
 - Cypher System
-- Cyberpunk Red
-- OSE2
-- Mongoose Traveller 2E
 - Other Rulesets might work surprisingly well, please test them and possibly report your findings.
 
 ## Special Contributors
@@ -94,6 +99,7 @@ Sir Motte
 - 2.9.55 - Torchbearer - MGT2 client CT header alignment refinement (END/STR/DEX labels and Name), host CT header repositioning with visibility icon aligned to row icons, and dead/dying NPC rows now hide the faction icon while the delete button shows so columns stay aligned (MGT2-only). Repo maintenance: ignore the local .claude/ tooling folder in git.
 - 2.9.56 - Torchbearer - CoreRPG chat share button offset typo fix, safe hotkey drop hook chaining, immediate MGT2 Combat Tracker layout alignment upon startup, and cross-platform Python build script.
 - 2.9.57 - Torchbearer - Modernize against latest FGU CoreRPG (v4.8+) and official rulesets; prune retired FGC base templates and radial menusettings; fix 2E ability score dark text, alternating row colors, Kit overlap, Attack Matrix contrast, and charsheet header clipping; OSE2 charsheet buffer; consolidate charsheet HP colors, fix LibraryData references, clean legacy assets, and fix frame slice bounds for FGU 5.1.14+ compatibility.
+- 2.9.58 - Torchbearer - Add dedicated ruleset support for Old School Essentials (official ruleset), Daggerheart, Swords & Wizardry, and XCore; scope Cyberpunk RED ThemeManager and ICRPG graphics to their respective rulesets; fix OSE2 class_detail level_label visibility and npc_spells_detail_ct spelllevel control tag; add MGT2 spacecraft font overrides and OSE/OSE2 Giant language font; recolor sidebar expand/collapse arrows to #FFF0CA, restore CoreRPG dynamic active/disabled CT token decorator colors, windowtitlebar properties, and native Rest radial menu icons; add nil-safety guards across extension and multi-ruleset scripts; fix ConvertColors.ps1 syntax; prune 181 unreferenced assets (~1.89 MB) and 3 empty ruleset stubs.
 
 ## Credits
 

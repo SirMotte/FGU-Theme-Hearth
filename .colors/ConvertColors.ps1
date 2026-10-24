@@ -1,9 +1,15 @@
 # PowerShell Script to regenerate color values from configs to XML/Lua files
-$branch = (git branch --show-current) -replace "(-Dev|-Main)", ""
-$colorFile = ".\$($branch).txt"
+$scriptDir = $PSScriptRoot
+$repoRoot = Split-Path -Parent $scriptDir
+$branch = (git -C $repoRoot branch --show-current) -replace "(-Dev|-Main)", ""
+if ([string]::IsNullOrWhiteSpace($branch)) {
+    $branch = "Hearth-Edition"
+}
+$colorFile = Join-Path $scriptDir "$($branch).txt"
+$primaryFile = Join-Path $scriptDir "Primary.txt"
 
 if (-not (Test-Path $colorFile -PathType Leaf)) {
-    $colorFile = ".\Colorize.txt"
+    $colorFile = Join-Path $scriptDir "Colorize.txt"
     if (-not (Test-Path $colorFile -PathType Leaf)) {
         Write-Warning "Color config file not found for branch '$branch' and no Colorize.txt fallback exists."
         return
@@ -34,7 +40,7 @@ function Resolve-ColorValue($key, $value) {
 }
 
 # Read Primary Color Mappings
-foreach ($line in Get-Content .\Primary.txt) {
+foreach ($line in Get-Content $primaryFile) {
     $kvp = $line.split('=')
     if (2 -eq $kvp.length) {
         $key = $kvp[0].trim()
@@ -61,7 +67,7 @@ foreach ($line in Get-Content $colorFile) {
     }
 }
 
-Push-Location ..
+Push-Location $repoRoot
 $files = Get-ChildItem -Path .\*.xml -Recurse -Force
 foreach ($file in $files) {
     $content = Get-Content $file
@@ -73,7 +79,7 @@ foreach ($file in $files) {
             if ($null -eq $colormap[$colorName]) {
                 Write-Warning "Color '$colorName' not found in colormap (File: $($file.FullName), Line: $($index + 1))"
             } else {
-                $content[$index] = $line -replace "[0-9A-F]{6}", $colormap[$colorName]
+                $content[$index] = $line -replace "(?<![0-9A-F])[0-9A-F]{6}(?![0-9A-F])", $colormap[$colorName]
                 $updated = $true
             }
         }
@@ -98,7 +104,7 @@ for ($index = 0; $index -lt $content.Length; ++$index) {
             $updated = $true
         }
     }
-    elif ($line -match "-- Replaceable Channels: ([\w ]+)$") {
+    elseif ($line -match "-- Replaceable Channels: ([\w ]+)$") {
         $colorName = $Matches.1
         if ($null -eq $colormap[$colorName]) {
             Write-Warning "Color '$colorName' not found in colormap (File: $managerpath, Line: $($index + 1))"

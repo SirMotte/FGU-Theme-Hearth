@@ -28,6 +28,7 @@
 
 	<icon name="sidebar_icon_link_sct" file="graphics/pngs/sidebar_icon_link_sct.png" />
 	<icon name="sidebar_icon_link_tools" file="graphics/pngs/sidebar_icon_link_tool.png" />
+	<icon name="token_torch" file="graphics/pngs/token_torch.png" />
 
 	<icon name="sidebar_icon_link_library" file="graphics/pngs/sidebar_icon_modules.png" />
 	<icon name="sidebar_icon_link_tokenbag" file="graphics/pngs/sidebar_icon_assets.png" />
@@ -64,6 +65,9 @@
 
 	<!-- Common ruleset-specific record types -->
 	<icon name="sidebar_icon_recordtype_archetype" file="graphics/pngs/sidebar_icon_background.png" />
+	<icon name="sidebar_icon_recordtype_arrays" file="graphics/pngs/sidebar_icon_array.png" />
+	<icon name="sidebar_icon_recordtype_pcclass" file="graphics/pngs/sidebar_icon_class.png" />
+	<icon name="sidebar_icon_recordtype_pcrace" file="graphics/pngs/sidebar_icon_race.png" />
 	<icon name="sidebar_icon_recordtype_background" file="graphics/pngs/sidebar_icon_background.png" />
 	<icon name="sidebar_icon_recordtype_career" file="graphics/pngs/sidebar_icon_class.png" />
 	<icon name="sidebar_icon_recordtype_class" file="graphics/pngs/sidebar_icon_class.png" />
@@ -76,6 +80,58 @@
 	<icon name="sidebar_icon_recordtype_talent" file="graphics/pngs/sidebar_icon_feat.png" />
 	<icon name="sidebar_icon_link_sound_context" file="graphics/pngs/sidebar_icon_soundset.png" />
 	<icon name="sidebar_icon_recordtype_soundset" file="graphics/pngs/sidebar_icon_soundset.png" />
+	<icon name="sidebar_icon_recordtype_magic" file="graphics/pngs/sidebar_icon_magic.png" />
+	<icon name="sidebar_icon_recordtype_occupation" file="graphics/pngs/sidebar_icon_class.png" />
+	<icon name="sidebar_icon_recordtype_occupation" ruleset="Swords and Wizardry" file="graphics/pngs/sidebar_icon_occupation.png" />
+	<icon name="sidebar_icon_link_pictures" file="graphics/pngs/sidebar_icon_npc.png" />
+	<icon name="sidebar_icon_recordtype_location" file="graphics/pngs/sidebar_icon_location.png" />
+	<icon name="sidebar_icon_recordtype_picture" file="graphics/pngs/sidebar_icon_picture.png" />
+	<icon name="sidebar_icon_recordtype_ancestry" file="graphics/pngs/sidebar_icon_race.png" />
+	<icon name="sidebar_icon_recordtype_species" file="graphics/pngs/sidebar_icon_race.png" />
+	<icon name="sidebar_icon_recordtype_charship" file="graphics/pngs/sidebar_icon_spaceship.png" />
+	<icon name="sidebar_icon_recordtype_planet" file="graphics/pngs/sidebar_icon_planet.png" />
+	<icon name="sidebar_icon_recordtype_ship" file="graphics/pngs/sidebar_icon_spaceship_2.png" />
+	<icon name="sidebar_icon_recordtype_chase" file="graphics/pngs/sidebar_icon_cthulhu.png" />
+	<icon name="sidebar_icon_recordtype_era" file="graphics/pngs/sidebar_icon_cthulhu.png" />
+	<icon name="sidebar_icon_recordtype_enchantment" file="graphics/pngs/sidebar_icon_potion.png" />
+	<icon name="sidebar_icon_recordtype_talents" file="graphics/pngs/sidebar_icon_feat.png" />
+	<icon name="sidebar_icon_recordtype_bioform" file="graphics/pngs/sidebar_icon_race.png" />
+	<icon name="sidebar_icon_recordtype_tag" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_battlespacecraft" file="graphics/pngs/sidebar_icon_spaceship_2.png" />
+	<icon name="sidebar_icon_recordtype_charspacecraft" file="graphics/pngs/sidebar_icon_spaceship.png" />
+	<icon name="sidebar_icon_recordtype_homeworld" file="graphics/pngs/sidebar_icon_planet.png" />
+	<icon name="sidebar_icon_recordtype_psionic" file="graphics/pngs/sidebar_icon_fire.png" />
+	<icon name="sidebar_icon_recordtype_spacecraft" file="graphics/pngs/sidebar_icon_spaceship.png" />
+	<icon name="sidebar_icon_recordtype_tradegoods" file="graphics/pngs/sidebar_icon_treasureparcel_2.png" />
+	<icon name="sidebar_icon_recordtype_worlds" file="graphics/pngs/sidebar_icon_system_2.png" />
+	<icon name="sidebar_icon_recordtype_heritage" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_trait" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_lookupdate" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_profession" file="graphics/pngs/sidebar_icon_class.png" />
+	<icon name="sidebar_icon_recordtype_spelllist" file="graphics/pngs/sidebar_icon_spell.png" />
+	<icon name="sidebar_icon_recordtype_edge" file="graphics/pngs/sidebar_icon_feat.png" />
+	<icon name="sidebar_icon_recordtype_hindrance" file="graphics/pngs/sidebar_icon_hindrance.png" />
+	<icon name="sidebar_icon_recordtype_monstrousability" file="graphics/pngs/sidebar_icon_bang.png" />
+	<icon name="sidebar_icon_recordtype_hq" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_hqroom" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_cyberware" file="graphics/pngs/sidebar_icon_cpu.png" />
+	<icon name="sidebar_icon_recordtype_modification" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_abilities" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_archetypes" file="graphics/pngs/sidebar_icon_background.png" />
+	<icon name="sidebar_icon_recordtype_mystical_powers" file="graphics/pngs/sidebar_icon_spell.png" />
+	<icon name="sidebar_icon_recordtype_mystical_traditions" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_races" file="graphics/pngs/sidebar_icon_race.png" />
+	<icon name="sidebar_icon_recordtype_referencetables" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_rituals" file="graphics/pngs/sidebar_icon_fire.png" />
+	<icon name="sidebar_icon_recordtype_traits" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_headquarters" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_upgrade" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_vaesen" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_clan" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_discipline" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_merit" file="graphics/pngs/sidebar_icon_default.png" />
+	<icon name="sidebar_icon_recordtype_predator" file="graphics/pngs/sidebar_icon_npc.png" />
+	<icon name="sidebar_icon_recordtype_exploit" file="graphics/pngs/sidebar_icon_feat.png" />
 
 	<!-- Common -->
 	<icon name="button_dialog_ok" file="graphics/pngs/button_dialog_ok.png" />
@@ -313,7 +369,6 @@
 	<icon name="textclipboardcut" file="graphics/pngs/icon_clipboard_cut.png" />
 	<icon name="textclipboardcopy" file="graphics/pngs/icon_clipboard_copy.png" />
 	<icon name="textclipboardpaste" file="graphics/pngs/icon_clipboard_paste.png" />
-	<icon name="textparagraphtypes" file="graphics/pngs/icon_text_paragraph_types.png" />
 
 	<!-- Common -->
 	<icon name="button_collapse" file="graphics/pngs/button_collapse.png" />
@@ -328,7 +383,6 @@
 	<icon name="button_edit_down" file="graphics/pngs/button_edit_down.png" />
 	<icon name="window_resize" file="graphics/pngs/window_resize.png" />
 	<icon name="window_resize_filled" file="graphics/pngs/window_resize_filled.png" />
-	<icon name="tabtop" file="graphics/pngs/tabtop.png" />
 	<icon name="button_checkon" file="graphics/pngs/button_checkon.png" />
 	<icon name="button_checkoff" file="graphics/pngs/button_checkoff.png" />
 	<icon name="button_expand" file="graphics/pngs/button_expand.png" />
@@ -436,7 +490,6 @@
 
 
 	<!-- Local mode -->
-	<icon name="tabhorizontal" file="graphics/pngs/tabhorizontal.png" />
 	<!-- Minimized -->
 	<icon name="minimized_image" file="graphics/pngs/minimized_image.png" />
 	<icon name="minimized_encounter" file="graphics/pngs/minimized_encounter.png" />
@@ -606,6 +659,7 @@
 	<icon name="roll_heal" file="graphics/pngs/roll_heal.png" />
 	<icon name="roll_effect" file="graphics/pngs/roll_effect.png" />
 	<icon name="roll_attack" file="graphics/pngs/roll_attack.png" />
+	<icon name="Action_Attack" file="graphics/pngs/roll_attack.png" />
 	<icon name="roll_attack_miss" file="graphics/pngs/roll_attack_miss.png" />
 	<icon name="roll_attack_crit_miss" file="graphics/pngs/roll_attack_crit_miss.png" />
 	<icon name="roll_attack_hit" file="graphics/pngs/roll_attack_hit.png" />
@@ -688,7 +742,6 @@
 	<icon name="tab_effects" file="graphics/pngs/tab_effects.png" />
 	<icon name="htabtop" file="graphics/pngs/htabtop.png" />
 	<icon name="hactive" file="graphics/pngs/htab_active.png" />
-	<icon name="tabtop_h" file="graphics/pngs/tabtop_h.png" />
 
 	<!-- tabs -->
 	<icon name="tab_weapons" file="graphics/pngs/tab_weapons.png" />

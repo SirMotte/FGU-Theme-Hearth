@@ -395,13 +395,15 @@
 			<nodrag />
 			<nolinkwidget />
 			<script>
-                    	function onValueChanged()
-                        	local node = getDatabaseNode();
-                        	local stat = getName();
-                        	local value = getValue();
-                        	MNMStats.editStatFromPS(node, stat, value);
-                    	end
-            			</script>
+				function onValueChanged()
+					if MNMStats and MNMStats.editStatFromPS then
+						local node = getDatabaseNode();
+						local stat = getName();
+						local value = getValue();
+						MNMStats.editStatFromPS(node, stat, value);
+					end
+				end
+			</script>
 		</basicnumber>
 	</template>
 
@@ -415,13 +417,15 @@
 			<readonly />
 			<nodrag />
 			<script>
-                    	function onValueChanged()
-                        	local node = getDatabaseNode();
-                        	local stat = getName();
-                        	local value = getValue();
-                        	MNMStats.editStatFromPS(node, stat, value);
-                    	end
-            		</script>
+				function onValueChanged()
+					if MNMStats and MNMStats.editStatFromPS then
+						local node = getDatabaseNode();
+						local stat = getName();
+						local value = getValue();
+						MNMStats.editStatFromPS(node, stat, value);
+					end
+				end
+			</script>
 		</stringfield>
 	</template>
 
@@ -593,7 +597,6 @@
 	<icon name="button_banner" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner.png" />
 	<icon name="button_banner_down" file="graphics/extensions/saagael/kingdoms_and_warfare/button_banner_down.png" />
 	<icon name="rally" file="graphics/extensions/saagael/kingdoms_and_warfare/rally.png" />
-	-
 	<!--Roll icons-->
 	<icon name="roll_harrow" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_harrow.png" />
 	<icon name="roll_rally" file="graphics/extensions/saagael/kingdoms_and_warfare/roll_rally.png" />
@@ -613,11 +616,9 @@
 	<icon name="token_bleed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_bleed.png" />
 	<icon name="token_fire" file="graphics/extensions/saagael/kingdoms_and_warfare/token_fire.png" />
 	<icon name="token_poison" file="graphics/extensions/saagael/kingdoms_and_warfare/token_poison.png" />
-	-
 	<!--Tabs-->
 	<icon name="tab_domain" file="graphics/extensions/saagael/kingdoms_and_warfare/tab_domain.png" />
 	<icon name="tab_powerpool" file="graphics/extensions/saagael/kingdoms_and_warfare/tab_powerpool.png" />
-	-
 	<!--Image-->
 	<icon name="icon_rank_bottom" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_bottom_30.png" />
 	<icon name="icon_rank_left" file="graphics/extensions/saagael/kingdoms_and_warfare/tool_rankmarker_left_30.png" />
@@ -858,53 +859,54 @@
 			<sheetdata>
 				<masterindexitem_name name="name">
 					<script>
-						sDefaultColor = "DDDDDD"; <!-- Replaceable Color: Secondary Foreground -->
-							sHightlightColor = "69B7FF"; <!-- Replaceable Color: Temporary HP -->
-								function onInit()
-								local node = getDatabaseNode();
-								--sDefaultColor = getColor();
-								--Debug.console("masterindexitem_name.lua","onInit","self",self);
-								--Debug.console("masterindexitem_name.lua","onInit","sDefaultColor",sDefaultColor);
-								--Debug.console("masterindexitem_name.lua","onInit","node",node);
-								if (node.getPath():match("^encounter%.")) then
-									updateColorsForTheme();
-									local nodeStory = node.getParent();
-									DB.addHandler(DB.getPath(nodeStory, "subchapter"), "onUpdate", onSubchapterChanged);
-									DB.addHandler("options.ADND_AUTHOR_DARKTHEME", "onUpdate", updateColorsForTheme);
-									onSubchapterChanged();
-								end
+						local sDefaultColor = "DDDDDD"; <!-- Replaceable Color: Secondary Foreground -->
+						local sHightlightColor = "69B7FF"; <!-- Replaceable Color: Temporary HP -->
+						function onInit()
+							if super and super.onInit then
+								super.onInit();
 							end
-							function updateColorsForTheme()
-								local node = getDatabaseNode();
-									if OptionsManager.isOption("ADND_AUTHOR_DARKTHEME", "enabled") then
-										sDefaultColor = "DDDDDD"; <!-- Replaceable Color: Secondary Foreground -->
-										sHightlightColor = "69B7FF"; <!-- Replaceable Color: Temporary HP -->
-											else
-										sDefaultColor = "DDDDDD"; <!-- Replaceable Color: Secondary Foreground -->
-										sHightlightColor = "69B7FF"; <!-- Replaceable Color: Temporary HP -->
-									end
+							local node = getDatabaseNode();
+							if node and node.getPath():match("^encounter%.") then
+								updateColorsForTheme();
+								local nodeStory = node.getParent();
+								DB.addHandler(DB.getPath(nodeStory, "subchapter"), "onUpdate", onSubchapterChanged);
+								DB.addHandler("options.ADND_AUTHOR_DARKTHEME", "onUpdate", updateColorsForTheme);
 								onSubchapterChanged();
 							end
-							function onClose()
-								local node = getDatabaseNode();
-								if (node.getPath():match("^encounter%.")) then
-									local nodeStory = node.getParent();
-									DB.removeHandler(DB.getPath(nodeStory, "subchapter"), "onUpdate", onSubchapterChanged);
-									DB.removeHandler("options.ADND_AUTHOR_DARKTHEME", "onUpdate", updateColorsForTheme);
-								end
-								end
-								function onSubchapterChanged()
-								local node = getDatabaseNode();
-								if (node.getPath():match("^encounter%.")) then
-									local nodeStory = node.getParent();
-									local bSubChapter = (DB.getValue(nodeStory,"subchapter",0) == 1);
-									if bSubChapter then -- change to purple
+						end
+						function updateColorsForTheme()
+							if OptionsManager.isOption("ADND_AUTHOR_DARKTHEME", "enabled") then
+								sDefaultColor = "DDDDDD"; <!-- Replaceable Color: Secondary Foreground -->
+								sHightlightColor = "69B7FF"; <!-- Replaceable Color: Temporary HP -->
+							else
+								sDefaultColor = "DDDDDD"; <!-- Replaceable Color: Secondary Foreground -->
+								sHightlightColor = "69B7FF"; <!-- Replaceable Color: Temporary HP -->
+							end
+							onSubchapterChanged();
+						end
+						function onClose()
+							local node = getDatabaseNode();
+							if node and node.getPath():match("^encounter%.") then
+								local nodeStory = node.getParent();
+								DB.removeHandler(DB.getPath(nodeStory, "subchapter"), "onUpdate", onSubchapterChanged);
+								DB.removeHandler("options.ADND_AUTHOR_DARKTHEME", "onUpdate", updateColorsForTheme);
+							end
+							if super and super.onClose then
+								super.onClose();
+							end
+						end
+						function onSubchapterChanged()
+							local node = getDatabaseNode();
+							if node and node.getPath():match("^encounter%.") then
+								local nodeStory = node.getParent();
+								local bSubChapter = (DB.getValue(nodeStory,"subchapter",0) == 1);
+								if bSubChapter then -- change to purple
 									setColor(sHightlightColor);
-									else
+								else
 									setColor(sDefaultColor); -- otherwise set black
-									end
 								end
-								end
+							end
+						end
 
 								function onHover(bHover)
 									setUnderline(bHover, -1);
@@ -941,7 +943,7 @@
 
 								-- various utility functions to get readable/useful tags for dragged links.
 								function getRecordTypeFromDisplayClass(sDisplayClass)
-								for kRecordType,vRecord in pairs(LibraryData.aRecords) do
+								for kRecordType,vRecord in pairs(LibraryData.aRecords or {}) do
 									if vRecord.sRecordDisplayClass and vRecord.sRecordDisplayClass == sDisplayClass then
 									return kRecordType;
 									end
@@ -1154,8 +1156,4 @@
 		</sheetdata>
 	</windowclass>
 
-	<!-- CT Header Nudge (Client Only) -->
-	<windowclass name="sub_ct_header_client" merge="join">
-		<margins control="15,0,0,0" />
-	</windowclass>
 </root>

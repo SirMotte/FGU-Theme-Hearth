@@ -49,13 +49,21 @@ function onInit()
 
 	ColorManager.COLOR_ADJUSTED_HP = "D592FF"; -- Replaceable Color: Adjusted HP
 	ColorManager.COLOR_TEMP_HP = "69B7FF"; -- Replaceable Color: Temporary HP
+	ColorManager.COLOR_HEALTH_SHIELD = "69B7FF"; -- Replaceable Color: Temporary HP
+	ColorManager.COLOR_TOKEN_HEALTH_SHIELD = "69B7FF"; -- Replaceable Color: Temporary HP
 	ColorManager.COLOR_PRIMARY_FOREGROUND = "FFF0CA";  -- Replaceable Color: Primary Foreground
 	ColorManager.COLOR_SECONDARY_FOREGROUND = "DDDDDD"; -- Replaceable Color: Secondary Foreground
 	ColorManager.COLOR_CALENDAR_BACKGROUND = "473C33"; -- Replaceable Color: Calendar Background
 	ColorManager.COLOR_CALENDAR_HOLIDAY = "F2AB76"; -- Replaceable Color: Calendar Holiday
 	ColorManager.COLOR_CALENDAR_MONTH = "FF6161"; -- Replaceable Color: Calendar Month
 
-	ColorManager.COLOR_MODIFIED_VALUE = "F3D876"; -- Replacable Color: Modified VALUE
+	ColorManager.COLOR_MODIFIED_VALUE = "F3D876"; -- Replaceable Color: Modified VALUE
+
+	if ColorManager.setUIColor then
+		ColorManager.setUIColor("health_shield", ColorManager.COLOR_HEALTH_SHIELD);
+		ColorManager.setUIColor("token_health_shield", ColorManager.COLOR_TOKEN_HEALTH_SHIELD);
+		ColorManager.setUIColor("field_error", "FF6161");
+	end
 
     ColorManager.setWindowMenuIconColor(ColorManager.COLOR_SECONDARY_FOREGROUND); -- Set the icon color of window toolbars
 	ColorManager.setButtonIconColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
