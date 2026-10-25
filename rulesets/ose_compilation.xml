@@ -58,31 +58,11 @@
 		</simplenumber>
 	</template>
 
-	<template name="list_abilities" merge="join">
-		<list_text>
-			<child merge="replace" />
-			<child merge="add">
-				<backcolor>1AFFFFFF</backcolor>
-			</child>
-		</list_text>
-	</template>
-
 	<windowclass name="charsheet_main" merge="join">
 		<sheetdata>
 			<basicnumber name="temp_hp">
 				<color>#69B7FF</color>
 			</basicnumber>
-		</sheetdata>
-	</windowclass>
-
-	<windowclass name="charsheet_classes" merge="join">
-		<sheetdata>
-			<list_text name="classes">
-				<child merge="replace" />
-				<child merge="add">
-					<backcolor>1AFFFFFF</backcolor>
-				</child>
-			</list_text>
 		</sheetdata>
 	</windowclass>
 

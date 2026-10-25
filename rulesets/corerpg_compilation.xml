@@ -137,7 +137,9 @@
 	</template>
 	<template name="windowmenubar_referencelist">
 		<windowmenubar>
-			<anchored offset="-12,11" />
+			<anchored offset="-12,11">
+				<left offset="12" />
+			</anchored>
 		</windowmenubar>
 	</template>
 	<template name="anchor_content_referencelist_top">
@@ -288,7 +290,9 @@
 	</template>
 	<template name="windowmenubar_tokenbag"> <!-- Orig: 0,0 -->
 		<windowmenubar>
-			<anchored offset="-12,11" />
+			<anchored offset="-12,11">
+				<left offset="12" />
+			</anchored>
 		</windowmenubar>
 	</template>
 	<template name="windowmenubar_partysheet">
@@ -308,7 +312,9 @@
 	</template>
 	<template name="windowmenubar_storybox">
 		<windowmenubar>
-			<anchored offset="-7,4" />
+			<anchored offset="-7,4">
+				<left offset="7" />
+			</anchored>
 		</windowmenubar>
 	</template>
     
@@ -379,6 +385,7 @@
 				<left offset="8" />
 				<right offset="-13" />
 			</anchored>
+			<disabled />
 		</genericcontrol>
 	</template>
 	<template name="anchor_content_charsheethelper_bottom">
@@ -388,7 +395,8 @@
 				<left />
 				<right />
 			</anchored>
-			</genericcontrol>
+			<disabled />
+		</genericcontrol>
 	</template>
 
 	<!-- Source: ct/ct_host.xml-->
@@ -636,8 +644,8 @@
 		<button_ct_entry_token_decorator_base>
 			<anchored to="token" position="righthigh" offset="2,2" width="20" height="16" />
 			<frame name="tempmodmini" />
-			<state icon="button_toolbar_id_false" tooltipres="tooltip_nonid" />
-			<state icon="button_toolbar_id_true" tooltipres="tooltip_id" />
+			<state icon="button_toolbar_id_false" tooltipres="tooltip_nonid" merge="resetandadd" />
+			<state icon="button_toolbar_id_true" tooltipres="tooltip_id" merge="add" />
 			<gmeditonly />
 			<script>
 				function onValueChanged()
@@ -655,8 +663,8 @@
 		<button_ct_entry_token_decorator_base>
 			<anchored to="token" position="rightlow" offset="2,3" width="20" height="16" />
 			<frame name="tempmodmini" />
-			<state icon="button_toolbar_visibility_off" tooltipres="ct_tooltip_shownpcon" />
-			<state icon="button_toolbar_visibility_on" tooltipres="ct_tooltip_shownpcoff" />
+			<state icon="button_toolbar_visibility_off" tooltipres="ct_tooltip_shownpcon" merge="resetandadd" />
+			<state icon="button_toolbar_visibility_on" tooltipres="ct_tooltip_shownpcoff" merge="add" />
 			<script>
 				function onValueChanged()
 					if super and super.onValueChanged then

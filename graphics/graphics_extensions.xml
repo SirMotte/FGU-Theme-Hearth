@@ -855,117 +855,62 @@
 	<!--Icons-->
 	<icon name="celestian" file="graphics/extensions/celestian/celestian.png" />
 	<!--Ext: Author-->
-		<windowclass name="masterindexitem" merge="join">
-			<sheetdata>
-				<masterindexitem_name name="name">
-					<script>
-						local sDefaultColor = "DDDDDD"; <!-- Replaceable Color: Secondary Foreground -->
-						local sHightlightColor = "69B7FF"; <!-- Replaceable Color: Temporary HP -->
-						function onInit()
-							if super and super.onInit then
-								super.onInit();
-							end
-							local node = getDatabaseNode();
-							if node and node.getPath():match("^encounter%.") then
-								updateColorsForTheme();
-								local nodeStory = node.getParent();
-								DB.addHandler(DB.getPath(nodeStory, "subchapter"), "onUpdate", onSubchapterChanged);
-								DB.addHandler("options.ADND_AUTHOR_DARKTHEME", "onUpdate", updateColorsForTheme);
-								onSubchapterChanged();
-							end
+	<windowclass name="masterindexitem" merge="join">
+		<sheetdata>
+			<string_listitem_center_noframe_static_linked name="name">
+				<script>
+					local sDefaultColor = "DDDDDD"; <!-- Replaceable Color: Secondary Foreground -->
+					local sHightlightColor = "69B7FF"; <!-- Replaceable Color: Temporary HP -->
+					local bAuthorActive = false;
+					function onInit()
+						if super and super.onInit then
+							super.onInit();
 						end
-						function updateColorsForTheme()
-							if OptionsManager.isOption("ADND_AUTHOR_DARKTHEME", "enabled") then
-								sDefaultColor = "DDDDDD"; <!-- Replaceable Color: Secondary Foreground -->
-								sHightlightColor = "69B7FF"; <!-- Replaceable Color: Temporary HP -->
-							else
-								sDefaultColor = "DDDDDD"; <!-- Replaceable Color: Secondary Foreground -->
-								sHightlightColor = "69B7FF"; <!-- Replaceable Color: Temporary HP -->
-							end
+						if not AuthorManager and (not OptionsManager or OptionsManager.getOption("ADND_AUTHOR_DARKTHEME") == "") then
+							return;
+						end
+						local node = getDatabaseNode();
+						if node and node.getPath():match("^encounter%.") then
+							bAuthorActive = true;
+							updateColorsForTheme();
+							local nodeStory = node.getParent();
+							DB.addHandler(DB.getPath(nodeStory, "subchapter"), "onUpdate", onSubchapterChanged);
+							DB.addHandler("options.ADND_AUTHOR_DARKTHEME", "onUpdate", updateColorsForTheme);
 							onSubchapterChanged();
 						end
-						function onClose()
+					end
+					function updateColorsForTheme()
+						onSubchapterChanged();
+					end
+					function onClose()
+						if bAuthorActive then
 							local node = getDatabaseNode();
 							if node and node.getPath():match("^encounter%.") then
 								local nodeStory = node.getParent();
 								DB.removeHandler(DB.getPath(nodeStory, "subchapter"), "onUpdate", onSubchapterChanged);
 								DB.removeHandler("options.ADND_AUTHOR_DARKTHEME", "onUpdate", updateColorsForTheme);
 							end
-							if super and super.onClose then
-								super.onClose();
+						end
+						if super and super.onClose then
+							super.onClose();
+						end
+					end
+					function onSubchapterChanged()
+						local node = getDatabaseNode();
+						if node and node.getPath():match("^encounter%.") then
+							local nodeStory = node.getParent();
+							local bSubChapter = (DB.getValue(nodeStory, "subchapter", 0) == 1);
+							if bSubChapter then
+								setColor(sHightlightColor);
+							else
+								setColor(sDefaultColor);
 							end
 						end
-						function onSubchapterChanged()
-							local node = getDatabaseNode();
-							if node and node.getPath():match("^encounter%.") then
-								local nodeStory = node.getParent();
-								local bSubChapter = (DB.getValue(nodeStory,"subchapter",0) == 1);
-								if bSubChapter then -- change to purple
-									setColor(sHightlightColor);
-								else
-									setColor(sDefaultColor); -- otherwise set black
-								end
-							end
-						end
-
-								function onHover(bHover)
-									setUnderline(bHover, -1);
-								end
-
-								function onClickDown(button, x, y)
-									return true;
-								end
-
-								function onClickRelease(button, x, y)
-									window.link.activate();
-									return true;
-								end
-
-								function onDragStart(button, x, y, draginfo)
-									draginfo.setType("shortcut");
-									draginfo.setIcon("button_link");
-									local sClass, sRecord = window.link.getValue();
-									draginfo.setShortcutData(sClass, sRecord);
-								--Debug.console("masterindexitem_name.lua","onDragStart","sClass",sClass);  
-								if LibraryData.getRecordTypeFromPath(sClass) ~= "" then
-									draginfo.setDescription(StringManager.capitalize(LibraryData.getRecordTypeFromPath(sClass)) .. ": " .. getValue());
-								elseif LibraryData.getDisplayText(sClass) ~= "" then
-									draginfo.setDescription(LibraryData.getDisplayText(sClass) .. ": " .. getValue());
-								elseif getRecordTypeFromDisplayClass(sClass) ~= "" then
-									draginfo.setDescription(StringManager.capitalize(getRecordTypeFromDisplayClass(sClass)) .. ": " .. getValue());
-								elseif getRecordTypeFromDataMap(sClass) ~= "" then
-									draginfo.setDescription(StringManager.capitalize(getRecordTypeFromDataMap(sClass)) .. ": " .. getValue());
-								else
-									draginfo.setDescription(getValue());
-								end
-									return true;
-								end
-
-								-- various utility functions to get readable/useful tags for dragged links.
-								function getRecordTypeFromDisplayClass(sDisplayClass)
-								for kRecordType,vRecord in pairs(LibraryData.aRecords or {}) do
-									if vRecord.sRecordDisplayClass and vRecord.sRecordDisplayClass == sDisplayClass then
-									return kRecordType;
-									end
-								end
-								return "";
-								end
-								function getRecordTypeFromDataMap(sDataMap)
-									for kRecordType,vRecord in pairs(LibraryData.aRecords or {}) do
-										if vRecord.aDataMap then
-									for i=1,#vRecord.aDataMap do 
-										if vRecord.aDataMap[i] == sDataMap then
-										return kRecordType;
-										end
-									end
-										end
-									end
-									return "";
-								end
-						</script>
-					</masterindexitem_name>
-				</sheetdata>
-			</windowclass>
+					end
+				</script>
+			</string_listitem_center_noframe_static_linked>
+		</sheetdata>
+	</windowclass>
 	<icon name="button_bulk_add" file="graphics/extensions/celestian/author/button_statpointmode.png" />
     <icon name="button_bulk_add_down" file="graphics/extensions/celestian/author/button_statpointmode_down.png" />
 
@@ -1048,17 +993,6 @@
 	<icon name="theaterofmind_active" file="graphics/extensions/superteddy/tom/TotM_turn.png" />
 	<icon name="button_tracker" file="graphics/extensions/superteddy/tom/button_tracker.png" />
 	<icon name="button_tracker_down" file="graphics/extensions/superteddy/tom/button_tracker_down.png" />
-
-	<windowclass name="ct_theaterofmind_combat" merge="join">
-		<sheetdata>
-			<close>
-				<anchored>
-					<top offset="-20" />
-					<right offset="-8" />
-				</anchored>
-			</close>
-		</sheetdata>
-	</windowclass>
 
 	<!--Author: Scried Raven-->
 	<!--Ext: Floating Tabs-->

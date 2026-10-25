@@ -1,3 +1,15 @@
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.59 - Torchbearer[/B][/SIZE][/COLOR]
+
+[COLOR="#FF0000"][B]Changelog[/B][/COLOR]
+[LIST]
+[*] CoreRPG Combat Tracker: Fixed NPC Visibility (button_ct_entry_tokenvis) and NPC Identification (button_ct_entry_isidentified) toggle buttons being stuck greyed out and unclickable by adding explicit merge="resetandadd" and merge="add" attributes to their <state> definitions when inheriting from button_ct_entry_token_decorator_base.
+[*] CoreRPG Window Layout: Added <left> anchor offsets to windowmenubar_referencelist, windowmenubar_tokenbag, and windowmenubar_storybox to prevent left-side titlebar toolbar buttons from clipping off the left window edge, and restored <disabled /> on anchor_content_charsheethelper_top/bottom.
+[*] Old School Essentials & AD&D 2E: Removed white alternating row stripes from OSE (list_abilities, charsheet_classes) to match the uniform Hearth list styling across rulesets, and updated dnd2e_compilation.xml (cta_skills_host) <child> overrides to use merge="resetandadd" + merge="add".
+[*] D&D 5E: Added merge="merge" to npc_importantdeath_label in npc_combat_top_2014 so the control is only modified when the Death Indicator extension is loaded.
+[*] Extension Compatibility: Modernized the Author extension masterindexitem override to inherit from CoreRPG's string_listitem_center_noframe_static_linked without clobbering native link click/drag handlers, guarded its DB handlers so they only attach when Author is active, and removed the retired <close> template override from ct_theaterofmind_combat.
+[*] Build & CI Validation: Added an automated FGU XML static validator to build.py and GitHub Actions (lint.yml) checking derived template multi-tag merge attributes, <child> resetandadd/add pairing, 9-slice frame bounds against PNG headers, asset/script file existence, and duplicate definitions.
+[/LIST]
+
 [COLOR=#FF8C00][SIZE=4][B]Update to v2.9.58 - Torchbearer[/B][/SIZE][/COLOR]
 
 [COLOR="#FF0000"][B]Changelog[/B][/COLOR]

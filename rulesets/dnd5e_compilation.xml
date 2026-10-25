@@ -2,7 +2,7 @@
 <root>
 	<windowclass name="npc_combat_top_2014" merge="join">
 		<sheetdata>
-			<stringcontrol name="npc_importantdeath_label">
+			<stringcontrol name="npc_importantdeath_label" merge="merge">
 				<anchored to="actext" position="right" offset="-85,0" width="70" />
 				<font>sheetlabelminideathindicator</font>
 				<nodrag />

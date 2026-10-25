@@ -360,8 +360,8 @@
   <windowclass name="cta_skills_host" merge="join">
     <sheetdata>
       <windowlist name="skills">
-        <child></child>
-        <child>
+        <child merge="resetandadd"></child>
+        <child merge="add">
           <backcolor>1A322C27</backcolor>
         </child>
       </windowlist>
