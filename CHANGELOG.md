@@ -1,3 +1,12 @@
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.60 - Torchbearer[/B][/SIZE][/COLOR]
+
+[COLOR="#FF0000"][B]Changelog[/B][/COLOR]
+[LIST]
+[*] CoreRPG & 5E Action Roll Buttons (2026-10 Update): Added Hearth-styled dark button graphics for the new Save / Power Save action buttons (button_action_save, button_action_save_down, button_action_powersave, button_action_powersave_down) and mapped Cast action buttons (button_action_cast, button_action_cast_down) to Hearth's dark roll buttons so the new 5E Spell Actions tab and PC Actions tab match the rest of the action bar.
+[*] CoreRPG Effect Cycler Toggles (2026 Effects Rewrite): Added Hearth-themed dark-bordered pill icons for all 9 new CoreRPG effect cycler states across Application (button_toggle_round_once, button_toggle_round_twice, button_toggle_turn_once), Targeting (button_toggle_trgt_self, button_toggle_self_trgt), and Expiration (button_toggle_endnext, button_toggle_restshort, button_toggle_restlong, button_toggle_turn) modes.
+[*] CoreRPG Cleanup: Removed obsolete label_ct template override from corerpg_compilation.xml.
+[/LIST]
+
 [COLOR=#FF8C00][SIZE=4][B]Update to v2.9.59 - Torchbearer[/B][/SIZE][/COLOR]
 
 [COLOR="#FF0000"][B]Changelog[/B][/COLOR]

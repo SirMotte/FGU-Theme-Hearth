@@ -1,7 +1,7 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
-Current Version: 2.9.59 - Torchbearer  
-Release Date: October 25, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
+Current Version: 2.9.60 - Torchbearer  
+Release Date: October 29, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
 
 Original author: Sir Motte  
 Maintainer: Justin Freitas
@@ -100,6 +100,8 @@ Sir Motte
 - 2.9.56 - Torchbearer - CoreRPG chat share button offset typo fix, safe hotkey drop hook chaining, immediate MGT2 Combat Tracker layout alignment upon startup, and cross-platform Python build script.
 - 2.9.57 - Torchbearer - Modernize against latest FGU CoreRPG (v4.8+) and official rulesets; prune retired FGC base templates and radial menusettings; fix 2E ability score dark text, alternating row colors, Kit overlap, Attack Matrix contrast, and charsheet header clipping; OSE2 charsheet buffer; consolidate charsheet HP colors, fix LibraryData references, clean legacy assets, and fix frame slice bounds for FGU 5.1.14+ compatibility.
 - 2.9.58 - Torchbearer - Add dedicated ruleset support for Old School Essentials (official ruleset), Daggerheart, Swords & Wizardry, and XCore; scope Cyberpunk RED ThemeManager and ICRPG graphics to their respective rulesets; fix OSE2 class_detail level_label visibility and npc_spells_detail_ct spelllevel control tag; add MGT2 spacecraft font overrides and OSE/OSE2 Giant language font; recolor sidebar expand/collapse arrows to #FFF0CA, restore CoreRPG dynamic active/disabled CT token decorator colors, windowtitlebar properties, and native Rest radial menu icons; add nil-safety guards across extension and multi-ruleset scripts; fix ConvertColors.ps1 syntax; prune 181 unreferenced assets (~1.89 MB) and 3 empty ruleset stubs.
+- 2.9.59 - Torchbearer - Fix CoreRPG Combat Tracker NPC visibility and identification toggle buttons (merge="resetandadd"/"add" on <state> tags), add left-side toolbar anchor offsets on Reference List, Token Bag, and Story windows, remove white alternating row stripes in OSE, update 2E cta_skills_host <child> merge attributes, add merge="merge" to 5E npc_importantdeath_label, modernize Author extension masterindexitem override, and add static FGU XML validator to build.py and CI.
+- 2.9.60 - Torchbearer - Add Hearth-styled dark button graphics for 2026 CoreRPG/5E Cast, Save, and Power Save action roll buttons (button_action_cast, button_action_save, button_action_powersave) and all 9 new CoreRPG 2026 effect cycler toggle states (1/R, 2/R, 1/T, T->S, S->T, End Next, Short Rest, Long Rest, Turn); remove obsolete label_ct template override.
 
 ## Credits
 

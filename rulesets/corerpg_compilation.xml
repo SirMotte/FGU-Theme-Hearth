@@ -412,12 +412,6 @@
 	</windowclass>
 
 	<!-- Source: ct/template_ct.xml -->
-	<template name="label_ct">
-		<label>
-			<color>FFF0CA</color> <!-- Replaceable Color: Primary Foreground -->
-		</label>
-	</template>
-    
     <windowclass name="sub_ct_header_host" merge="join">
 		<margins control="34,0,0,0" />
 	</windowclass>

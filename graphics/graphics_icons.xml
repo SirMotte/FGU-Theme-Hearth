@@ -335,6 +335,8 @@
 	<icon name="d12picon" file="graphics/pngs/d12_picon.png" />
 	<icon name="d20picon" file="graphics/pngs/d20_picon.png" />
 
+	<icon name="button_action_cast" file="graphics/pngs/button_roll.png" />
+	<icon name="button_action_cast_down" file="graphics/pngs/button_roll_down.png" />
 	<icon name="button_action_damage" file="graphics/pngs/button_action_damage.png" />
 	<icon name="button_action_damage_down" file="graphics/pngs/button_action_damage_down.png" />
 	<icon name="button_action_effect" file="graphics/pngs/button_action_effect.png" />
@@ -343,6 +345,10 @@
 	<icon name="button_action_heal_down" file="graphics/pngs/button_action_heal_down.png" />
 	<icon name="button_action_modifier" file="graphics/pngs/button_action_modifier.png" />
 	<icon name="button_action_modifier_down" file="graphics/pngs/button_action_modifier_down.png" />
+	<icon name="button_action_powersave" file="graphics/pngs/button_action_save.png" />
+	<icon name="button_action_powersave_down" file="graphics/pngs/button_action_save_down.png" />
+	<icon name="button_action_save" file="graphics/pngs/button_action_save.png" />
+	<icon name="button_action_save_down" file="graphics/pngs/button_action_save_down.png" />
 	<icon name="action_roll" file="graphics/pngs/action_roll.png" />
 	<icon name="button_clear" file="graphics/pngs/button_clear.png" />
 	<icon name="button_clear_down" file="graphics/pngs/button_clear_down.png" />
@@ -432,8 +438,13 @@
 	<icon name="button_toggle_action" file="graphics/pngs/button_toggle_action.png" />
 	<icon name="button_toggle_roll" file="graphics/pngs/button_toggle_roll.png" />
 	<icon name="button_toggle_single" file="graphics/pngs/button_toggle_single.png" />
+	<icon name="button_toggle_round_once" file="graphics/pngs/button_toggle_round_once.png" />
+	<icon name="button_toggle_round_twice" file="graphics/pngs/button_toggle_round_twice.png" />
+	<icon name="button_toggle_turn_once" file="graphics/pngs/button_toggle_turn_once.png" />
 	<icon name="button_toggle_trgt" file="graphics/pngs/button_toggle_trgt.png" />
 	<icon name="button_toggle_self" file="graphics/pngs/button_toggle_self.png" />
+	<icon name="button_toggle_trgt_self" file="graphics/pngs/button_toggle_trgt_self.png" />
+	<icon name="button_toggle_self_trgt" file="graphics/pngs/button_toggle_self_trgt.png" />
 
 	<!-- Master index -->
 	<icon name="button_page_start" file="graphics/pngs/arrow_sm_first.png" />
@@ -632,6 +643,10 @@
 
 	<icon name="button_toggle_start" file="graphics/pngs/button_toggle_start.png" />
 	<icon name="button_toggle_end" file="graphics/pngs/button_toggle_end.png" />
+	<icon name="button_toggle_endnext" file="graphics/pngs/button_toggle_endnext.png" />
+	<icon name="button_toggle_restshort" file="graphics/pngs/button_toggle_restshort.png" />
+	<icon name="button_toggle_restlong" file="graphics/pngs/button_toggle_restlong.png" />
+	<icon name="button_toggle_turn" file="graphics/pngs/button_toggle_turn.png" />
 
 	<icon name="button_action_effect_applyall" file="graphics/pngs/button_action_effect_applyall.png" />
 	<icon name="button_action_effect_applyall_down" file="graphics/pngs/button_action_effect_applyall_down.png" />
