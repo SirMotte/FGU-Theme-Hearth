@@ -60,30 +60,81 @@ function onInit()
 	ColorManager.COLOR_MODIFIED_VALUE = "F3D876"; -- Replaceable Color: Modified VALUE
 
 	if ColorManager.setUIColor then
-		ColorManager.setUIColor("health_shield", ColorManager.COLOR_HEALTH_SHIELD);
-		ColorManager.setUIColor("token_health_shield", ColorManager.COLOR_TOKEN_HEALTH_SHIELD);
 		ColorManager.setUIColor("field_error", "FF6161");
+
+		ColorManager.setUIColor("usage_full", ColorManager.COLOR_FULL);
+		ColorManager.setUIColor("usage_3quarter", ColorManager.COLOR_THREE_QUARTER);
+		ColorManager.setUIColor("usage_half", ColorManager.COLOR_HALF);
+		ColorManager.setUIColor("usage_1quarter", ColorManager.COLOR_QUARTER);
+		ColorManager.setUIColor("usage_empty", ColorManager.COLOR_EMPTY);
+		ColorManager.setUIColor("usage_gradient_top", ColorManager.COLOR_GRADIENT_TOP);
+		ColorManager.setUIColor("usage_gradient_mid", ColorManager.COLOR_GRADIENT_MID);
+		ColorManager.setUIColor("usage_gradient_bottom", ColorManager.COLOR_GRADIENT_BOTTOM);
+
+		ColorManager.setUIColor("health_unwounded", ColorManager.COLOR_HEALTH_UNWOUNDED);
+		ColorManager.setUIColor("health_dyingordead", ColorManager.COLOR_HEALTH_DYING_OR_DEAD);
+		ColorManager.setUIColor("health_unconscious", ColorManager.COLOR_HEALTH_UNCONSCIOUS);
+		ColorManager.setUIColor("health_simple_wounded", ColorManager.COLOR_HEALTH_SIMPLE_WOUNDED);
+		ColorManager.setUIColor("health_simple_bloodied", ColorManager.COLOR_HEALTH_SIMPLE_BLOODIED);
+		ColorManager.setUIColor("health_wounds_light", ColorManager.COLOR_HEALTH_LT_WOUNDS);
+		ColorManager.setUIColor("health_wounds_moderate", ColorManager.COLOR_HEALTH_MOD_WOUNDS);
+		ColorManager.setUIColor("health_wounds_heavy", ColorManager.COLOR_HEALTH_HVY_WOUNDS);
+		ColorManager.setUIColor("health_wounds_critical", ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
+		ColorManager.setUIColor("health_gradient_top", ColorManager.COLOR_HEALTH_GRADIENT_TOP);
+		ColorManager.setUIColor("health_gradient_mid", ColorManager.COLOR_HEALTH_GRADIENT_MID);
+		ColorManager.setUIColor("health_gradient_bottom", ColorManager.COLOR_HEALTH_GRADIENT_BOTTOM);
+		ColorManager.setUIColor("health_shield", ColorManager.COLOR_HEALTH_SHIELD);
+
+		ColorManager.setUIColor("token_health_unwounded", ColorManager.COLOR_TOKEN_HEALTH_UNWOUNDED);
+		ColorManager.setUIColor("token_health_dyingordead", ColorManager.COLOR_TOKEN_HEALTH_DYING_OR_DEAD);
+		ColorManager.setUIColor("token_health_unconscious", ColorManager.COLOR_TOKEN_HEALTH_UNCONSCIOUS);
+		ColorManager.setUIColor("token_health_simple_wounded", ColorManager.COLOR_TOKEN_HEALTH_SIMPLE_WOUNDED);
+		ColorManager.setUIColor("token_health_simple_bloodied", ColorManager.COLOR_TOKEN_HEALTH_SIMPLE_BLOODIED);
+		ColorManager.setUIColor("token_health_wounds_light", ColorManager.COLOR_TOKEN_HEALTH_LT_WOUNDS);
+		ColorManager.setUIColor("token_health_wounds_moderate", ColorManager.COLOR_TOKEN_HEALTH_MOD_WOUNDS);
+		ColorManager.setUIColor("token_health_wounds_heavy", ColorManager.COLOR_TOKEN_HEALTH_HVY_WOUNDS);
+		ColorManager.setUIColor("token_health_wounds_critical", ColorManager.COLOR_TOKEN_HEALTH_CRIT_WOUNDS);
+		ColorManager.setUIColor("token_health_gradient_top", ColorManager.COLOR_TOKEN_HEALTH_GRADIENT_TOP);
+		ColorManager.setUIColor("token_health_gradient_mid", ColorManager.COLOR_TOKEN_HEALTH_GRADIENT_MID);
+		ColorManager.setUIColor("token_health_gradient_bottom", ColorManager.COLOR_TOKEN_HEALTH_GRADIENT_BOTTOM);
+		ColorManager.setUIColor("token_health_shield", ColorManager.COLOR_TOKEN_HEALTH_SHIELD);
+
+		ColorManager.setUIColor("calendar_month", ColorManager.COLOR_CALENDAR_MONTH);
+		ColorManager.setUIColor("calendar_day", ColorManager.COLOR_PRIMARY_FOREGROUND);
 	end
 
-    ColorManager.setWindowMenuIconColor(ColorManager.COLOR_SECONDARY_FOREGROUND); -- Set the icon color of window toolbars
+	if ActorHealthManager and ActorHealthManager.registerDefaultStatusHealthColors then
+		ActorHealthManager.registerDefaultStatusHealthColors();
+		if User.getRulesetName() == "Daggerheart" and ActorHealthManager.registerStatusHealthColor then
+			ActorHealthManager.registerStatusHealthColor(ActorHealthManager.STATUS_UNCONSCIOUS, ColorManager.getUIColor("health_dyingordead"));
+		end
+	end
+
+	ColorManager.setWindowMenuIconColor(ColorManager.COLOR_SECONDARY_FOREGROUND); -- Set the icon color of window toolbars
 	ColorManager.setButtonIconColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
 	ColorManager.setButtonTextColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
 
 	if not Bartender then
-		originalHotkeyDrop = Interface.onHotkeyDrop;
-		Interface.onHotkeyDrop = onHotkeyDrop;
+		if Interface.addKeyedEventHandler then
+			Interface.addKeyedEventHandler("onHotkeyDrop", "", onHotkeyDrop);
+		else
+			originalHotkeyDrop = Interface.onHotkeyDrop;
+			Interface.onHotkeyDrop = onHotkeyDrop;
+		end
 	end
 
 	if ColorManagerKw then
-		ColorManagerKw.COLOR_UNIT_SELECTION = "322C27" -- Replaceable Color: Unit Selection
+		ColorManagerKw.COLOR_UNIT_SELECTION = "322C27"; -- Replaceable Color: Unit Selection
 	end
 end
 
 function onHotkeyDrop(dragdata)
+	local bReturn;
 	if originalHotkeyDrop then
-		originalHotkeyDrop(dragdata);
+		bReturn = originalHotkeyDrop(dragdata);
 	end
 	if (dragdata.getDescription() or "") ~= "" then
 		dragdata.setIcon("empty");
 	end
+	return bReturn;
 end

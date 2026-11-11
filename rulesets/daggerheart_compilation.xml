@@ -22,14 +22,14 @@
 		<color value="#FFF0CA" />
 	</font>
 	<font name="windowtitle">
-		<ttf file="graphics/fonts/Roboto-BoldItalic.ttf" name="Roboto" size="16" />
+		<ttf file="graphics/fonts/Roboto-BoldItalic.ttf" name="Roboto Bold Italic" size="16" />
 		<color value="#FFF0CA" />
 	</font>
 
 	<!-- 2. Dark-interior Hearth shield frames for Trait Totals, Evasion, and Armor -->
 	<framedef name="attribute">
 		<bitmap file="graphics/pngs/dh_attribute.png" />
-		<topleft rect="0,0,80,59" />
+		<offset>12,12,12,12</offset>
 	</framedef>
 	<framedef name="evasion">
 		<bitmap file="graphics/pngs/dh_evasion.png" />

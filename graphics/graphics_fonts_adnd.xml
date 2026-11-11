@@ -37,15 +37,15 @@
 
   <font name="successfont">
     <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-    <color value="#418c12" />
+    <color value="#77CE77" />
   </font>
   <font name="failfont">
     <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-    <color value="#6106d1" />
+    <color value="#B388FF" />
   </font>
   <font name="hitfont">
     <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
-    <color value="#cc1d1d" />
+    <color value="#FF6B6B" />
   </font>
   <font name="missfont">
     <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
@@ -54,7 +54,7 @@
 
   <font name="warning">
     <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
-    <color value="#CB4335" />
+    <color value="#F27466" />
   </font>
 
   <font name="cta_hypertext">
@@ -165,5 +165,12 @@
   <font name="font-hpcurrent">
     <ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="18" />
     <color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
+    <shadow offset="0,1" color="000000" />
+  </font>
+
+  <font name="portrait_dice_text_black">
+    <ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+    <color value="#FFF0CA" /> <!-- Replaceable Color: Primary Foreground -->
+    <shadow offset="0,1" color="000000" />
   </font>
 </root>

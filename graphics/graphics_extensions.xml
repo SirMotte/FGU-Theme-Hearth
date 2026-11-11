@@ -15,10 +15,6 @@
 	<!--Icons-->
 	<icon name="Logo_Mccartysr" file="graphics/extensions/mccartysr/requested_rolls/logo_mccartysr.png" />
 
-	<icon name="button_prof" file="graphics/extensions/mccartysr/requested_rolls/button_prof.png" />
-	<icon name="button_prof_down" file="graphics/extensions/mccartysr/requested_rolls/button_prof_down.png" />
-	<icon name="button_prof_double" file="graphics/extensions/mccartysr/requested_rolls/button_prof_double.png" />
-
 	<icon name="RR_sidebar" file="graphics/extensions/mccartysr/requested_rolls/rr_sidebar.png" />
 	<icon name="RR_field_linked_mono" file="graphics/extensions/mccartysr/requested_rolls/rr_field_linked_mono.png" />
 
@@ -46,6 +42,7 @@
 	<icon name="hitmargintarget" file="graphics/extensions/bmos/hit_margins/hitmargins_logo.png" />
 	<!--Ext: Coin Weight-->
 	<icon name="bmoscoinsweight" file="graphics/extensions/bmos/coin_weight/bmos_coin_weight_logo.png" />
+	<icon name="scale_icon" file="graphics/extensions/bmos/coin_weight/bmos_coin_weight_logo.png" />
 	<!--Ext: Extraplanar Containers-->
 	<icon name="extraplanarcontainers" file="graphics/extensions/bmos/extraplanar_containers/extraplanar_containers_logo.png" />
 
@@ -139,9 +136,9 @@
 	<!-- Frame -->
 	<framedef name="moontracker_config">
 		<bitmap file="graphics/pngs/charsheet.png" />
-		<offset>-6,40,19,19</offset>
+		<offset>95,95,95,95</offset>
 		<insideoffset>0,0,0,0</insideoffset>
-	  </framedef>
+	</framedef>
 
 
 	<!--Author: Ryan Hagelstrom-->
@@ -230,6 +227,7 @@
 	<!--Ext: Polymorphism-->
 	<!--Icon-->
 	<icon name="polymorphism_Logo" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_logo.png" />
+	<icon name="Polymorphism" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_logo.png" />
 	<icon name="polymorphism_icon" file="graphics/extensions/silent_ruin/polymorphism/polymorphism_icon.png" />
 	<!--Ext: Map Parcel-->
 	<!--Icon-->
@@ -258,8 +256,8 @@
 	<icon name="icon_death_indicator" file="graphics/extensions/silent_ruin/death_indicator/death_indicator_logo.png" />
 	<icon name="icon_death_indicator_token" file="graphics/extensions/silent_ruin/death_indicator/death_indicator.png" />
 	<!--Define the link / shield icons for important NPCs in the combat tracker-->
-	<icon name="button_shield" file="graphics/extensions/silent_ruin/death_indicator/button_shield_SR.png" />
-	<icon name="button_shield_down" file="graphics/extensions/silent_ruin/death_indicator/button_shield_down_SR.png" />
+	<icon name="button_shield" ruleset="5E" file="graphics/extensions/silent_ruin/death_indicator/button_shield_SR.png" />
+	<icon name="button_shield_down" ruleset="5E" file="graphics/extensions/silent_ruin/death_indicator/button_shield_down_SR.png" />
 	<icon name="button_shield_empty" file="graphics/extensions/silent_ruin/death_indicator/button_shield_empty_SR.png" />
 	<!--Font-->
 	<font name="tokenbag_empty_font">
@@ -270,18 +268,6 @@
 		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="12" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
-	<!--Define the icons for the blood splat images
-	<icon name="blood_01" file="graphics/extensions/silent_ruin/death_indicator/blood_01.png" />
-	<icon name="blood_02" file="graphics/extensions/silent_ruin/death_indicator/blood_02.png" />
-	<icon name="blood_03" file="graphics/extensions/silent_ruin/death_indicator/blood_03.png" />
-	<icon name="blood_04" file="graphics/extensions/silent_ruin/death_indicator/blood_04.png" />
-	<icon name="blood_05" file="graphics/extensions/silent_ruin/death_indicator/blood_05.png" />
-	<icon name="blood_06" file="graphics/extensions/silent_ruin/death_indicator/blood_06.png" />
-	<icon name="blood_07" file="graphics/extensions/silent_ruin/death_indicator/blood_07.png" />
-	<icon name="blood_08" file="graphics/extensions/silent_ruin/death_indicator/blood_08.png" />
-	<icon name="blood_09" file="graphics/extensions/silent_ruin/death_indicator/blood_09.png" />
-	<icon name="blood_10" file="graphics/extensions/silent_ruin/death_indicator/blood_10.png" />
-	<icon name="stable_01" file="graphics/extensions/silent_ruin/death_indicator/stable_01.png" /> -->
 
 	<!--Ext: Advantages-->
 	<!--Icons-->
@@ -310,7 +296,6 @@
 		<bitmap file="graphics/extensions/daddy_ogreman/combat_highlighter/ctentrybox_highlight.png" />
 		<offset>37,16,14,17</offset>
 	</framedef>
-	-
 	<framedef name="ctentrybox_inactive">
 		<bitmap file="graphics/extensions/daddy_ogreman/combat_highlighter/ctentrybox_inactive.png" />
 		<offset>37,16,14,17</offset>
@@ -370,7 +355,7 @@
 		<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fielddarkborderless.png" />
 		<offset>10,10,10,10</offset>
 	</framedef>
-	<framedef name="fieldred">
+	<framedef name="fieldred" ruleset="5E">
 		<bitmap file="graphics/extensions/mad_nomad/character_sheet_compilation/fieldred.png" />
 		<offset>10,10,10,10</offset>
 	</framedef>
@@ -382,50 +367,16 @@
 	<icon name="MNMLogo32" file="graphics/extensions/mad_nomad/MNM Logo 32x32.png" />
 	<!--Ext: Combat Stats-->
 	<!--Frames-->
-	<template name="number_ps_stat_lower">
+	<template name="number_ps_stat_lower" merge="join">
 		<basicnumber>
 			<frame></frame>
-			<anchored to="portraitbase" width="50" height="20">
-				<top offset="20" />
-				<left parent="portraitbase" anchor="right" relation="relative" offset="5" />
-			</anchored>
-			<readonly />
-			<hideonvalue> 0 </hideonvalue>
 			<color>69B7FF</color> <!-- Replaceable Color: Temporary HP -->
-			<nodrag />
-			<nolinkwidget />
-			<script>
-				function onValueChanged()
-					if MNMStats and MNMStats.editStatFromPS then
-						local node = getDatabaseNode();
-						local stat = getName();
-						local value = getValue();
-						MNMStats.editStatFromPS(node, stat, value);
-					end
-				end
-			</script>
 		</basicnumber>
 	</template>
 
-	<template name="string_ps_stat_lower">
+	<template name="string_ps_stat_lower" merge="join">
 		<stringfield>
-			<anchored to="portraitbase" width="150" height="20">
-				<top offset="20" />
-				<left parent="portraitbase" anchor="right" relation="relative" offset="5" />
-			</anchored>
 			<color>69B7FF</color> <!-- Replaceable Color: Temporary HP -->
-			<readonly />
-			<nodrag />
-			<script>
-				function onValueChanged()
-					if MNMStats and MNMStats.editStatFromPS then
-						local node = getDatabaseNode();
-						local stat = getName();
-						local value = getValue();
-						MNMStats.editStatFromPS(node, stat, value);
-					end
-				end
-			</script>
 		</stringfield>
 	</template>
 
@@ -466,13 +417,13 @@
 	<!--Ext: Colorful Language-->
 	<!-- Source: strings/strings.xml -->
 	<string name="chatfontname">Light Grey</string>
-	<string name="chatgmfontname">Lavender, Italic</string>
-	<string name="chatnpcfontname">Blue</string>
-	<string name="emotefontname">Red</string>
-	<string name="msgfontname">Purple 1</string>
-	<string name="narratorfontname">Yellow</string>
+	<string name="chatgmfontname">Cream, Bold Italic</string>
+	<string name="chatnpcfontname">Periwinkle Blue</string>
+	<string name="emotefontname">Pink, Italic</string>
+	<string name="msgfontname">Peach, Bold Italic</string>
+	<string name="narratorfontname">Light Blue</string>
 	<string name="oocfontname">Green</string>
-	<string name="systemfontname">Purple 2</string>
+	<string name="systemfontname">Cream, Bold</string>
 	<string name="whisperfontname">Turquoise</string>
 	<!-- Source: desktop/chat_font_selection.xml -->
 	<windowclass name="chat_font_selection" merge="join">
@@ -482,7 +433,6 @@
 					<top anchor="bottom" relation="relative" offset="10" />
 				</anchored>
 			</windowlist>
-			<scrollbar_list />
 		</sheetdata>
 	</windowclass>
 	<windowclass name="font_selection" merge="join">
@@ -514,6 +464,7 @@
 	<icon name="FriendZone_icon" file="graphics/extensions/meandunique/friend_zone/FriendZone.png" />
 	<!-- Tabs -->
 	<icon name="tab_cohorts" file="graphics/extensions/meandunique/friend_zone/tab_cohorts.png" />
+	<icon name="tab_cohorts_icon" file="graphics/extensions/meandunique/friend_zone/tab_cohorts.png" />
 	<!-- Ext: Kit'N'Kaboodle -->
 	<!-- Icons -->
 	<icon name="KNK_icon" file="graphics/extensions/meandunique/kitnkaboodle/KitNKaboodle.png" />
@@ -606,7 +557,7 @@
 	<icon name="cond_harrowed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_harrowed.png" />
 	<icon name="cond_misled" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_misled.png" />
 	<icon name="cond_rallied" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_rallied.png" />
-	<icon name="cond_weakened" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_weakened.png" />
+	<icon name="cond_weakened" ruleset="5E" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_weakened.png" />
 	<icon name="cond_harrowpassed" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_harrowingpassed.png" />
 	<icon name="cond_broken" file="graphics/extensions/saagael/kingdoms_and_warfare/token_cond_broken.png" />
 	<icon name="state_activated" file="graphics/extensions/saagael/kingdoms_and_warfare/token_state_activated.png" />
@@ -686,13 +637,6 @@
 	</windowclass>
 	<windowclass name="battletracker_commander" merge="join">
 		<margins control="22,0,0,5" />
-		<sheetdata>
-			<battletracker_unitlist>
-				<anchored>
-					<left offset="2" />
-				</anchored>
-			</battletracker_unitlist>
-		</sheetdata>
 	</windowclass>
 	<!--Ext: Close Encounters-->
 	<!--Icon-->
@@ -832,6 +776,7 @@
 	<!--Ext: Linker-->
 	<icon name="linker_button_icon_down" file="graphics/extensions/mattekure/linker/linker_button_down.png" />
 	<icon name="linker_button_icon_up" file="graphics/extensions/mattekure/linker/linker_button_up.png" />
+	<icon name="linker_button" file="graphics/extensions/mattekure/linker/linker_button_up.png" />
 	<!--Ext: Who Speaks?-->
 	<icon name="icon_bubble" file="graphics/extensions/mattekure/who_speaks/icon-bubble.png" />
 	<icon name="icon-bubble-white" file="graphics/extensions/mattekure/who_speaks/icon-bubble-white.png" />
@@ -846,14 +791,12 @@
 	<!--Buttons-->
 	<icon name="link_audio" file="graphics/extensions/celestian/audio_overseer/link_audio.png" />
 	<icon name="link_audio_down" file="graphics/extensions/celestian/audio_overseer/link_audio_down.png" />
-	<!--<icon name="footer_blank" file="graphics/extensions/celestian/audio_overseer/footer_blank.png" />-->
-	<!--Ext: Ready Check-->
-	<!--Icons-->
-	<icon name="chat_success" file="graphics/extensions/celestian/ready_check/check_success.png" />
-	<icon name="chat_fail" file="graphics/extensions/celestian/ready_check/check_fail.png" />
+	<!--Ext: Ready Check (uses core chat_success and chat_fail from graphics_icons.xml)-->
 	<!--Ext: Advanced Effects-->
 	<!--Icons-->
 	<icon name="celestian" file="graphics/extensions/celestian/celestian.png" />
+	<icon name="AdvancedEffects" file="graphics/extensions/celestian/celestian.png" />
+	<icon name="header_ae" file="graphics/pngs/icon_effect.png" />
 	<!--Ext: Author-->
 	<windowclass name="masterindexitem" merge="join">
 		<sheetdata>
@@ -967,13 +910,6 @@
 		<bitmap file="graphics/extensions/superteddy/tom/imagepaneltom.png" />
 		<offset>16,16,16,16</offset>
 	</framedef>
-	<windowclass name="theaterofmindpanelwindow" merge="join">
-		<frame>imagepaneltom</frame>
-		<sheetdata>
-			<wallpapercontrol name="image" />
-		</sheetdata>
-	</windowclass>
-
 	<framedef name="theaterofmind_base">
 		<bitmap file="graphics/extensions/superteddy/tom/theaterofmind_base.png" />
 		<offset>5,5,5,5</offset>
@@ -991,8 +927,8 @@
 	<!--Icons-->
 	<icon name="theaterofmind_unseen" file="graphics/extensions/superteddy/tom/Unseen_icon24x24.png" />
 	<icon name="theaterofmind_active" file="graphics/extensions/superteddy/tom/TotM_turn.png" />
-	<icon name="button_tracker" file="graphics/extensions/superteddy/tom/button_tracker.png" />
-	<icon name="button_tracker_down" file="graphics/extensions/superteddy/tom/button_tracker_down.png" />
+	<icon name="button_tracker" ruleset="5E|3.5E|PFRPG|PFRPG2|SFRPG|2E" file="graphics/extensions/superteddy/tom/button_tracker.png" />
+	<icon name="button_tracker_down" ruleset="5E|3.5E|PFRPG|PFRPG2|SFRPG|2E" file="graphics/extensions/superteddy/tom/button_tracker_down.png" />
 
 	<!--Author: Scried Raven-->
 	<!--Ext: Floating Tabs-->
@@ -1052,42 +988,5 @@
 	<icon name="sidebar_icon_recordtype_kkm_window" file="graphics/extensions/dsaraujos/kingdom_manager/crown.png" />
 	<icon name="tab_leaders" file="graphics/extensions/dsaraujos/kingdom_manager/tab_leaders.png" />
 	<icon name="tab_armies" file="graphics/extensions/dsaraujos/kingdom_manager/tab_armies.png" />
-
-	<!-- Standardize toolbar buttons for Hearth theme circular style -->
-	<template name="toolbar_action" merge="join">
-		<toolbar_action_step>
-			<frame name="windowmenubar_button" offset="2,2,2,2" />
-			<stateframe>
-				<pressed name="windowmenubar_button_down" offset="2,2,2,2" nobaseframe="true" />
-			</stateframe>
-		</toolbar_action_step>
-	</template>
-
-	<!-- CT Global Effects Layout Fix (Safe Full-Width Method) -->
-	<template name="windowmenubar_ctbox">
-		<subwindow>
-			<anchored height="30">
-				<top parent="" offset="9" />
-				<left parent="" offset="15" />
-				<right parent="" offset="-11" />
-			</anchored>
-			<class>windowmenubar_ct</class>
-			<activate />
-		</subwindow>
-	</template>
-
-	<windowclass name="windowmenubar_ct">
-		<script>
-			function onInit()
-				if WindowMenuManager then
-					WindowMenuManager.populate(self);
-				end
-			end
-		</script>
-		<sheetdata>
-			<toolbar_anchor_left name="leftanchor" />
-			<toolbar_anchor_right name="rightanchor" />
-		</sheetdata>
-	</windowclass>
 
 </root>

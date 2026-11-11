@@ -3,9 +3,9 @@
 	<!-- Source: Call of Cthulhu 7E -->
 	<template name="tabs_npcsheet">
 		<buttongroup_tabs name="tabs">
-			<anchored width="25" height="92">
+			<anchored width="18" height="92">
 				<top offset="50" />
-				<right offset="9" />
+				<right offset="-1" />
 			</anchored>
 		</buttongroup_tabs>
 	</template>

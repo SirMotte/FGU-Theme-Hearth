@@ -89,42 +89,44 @@
 	
 	<framedef name="fieldSimpleDiceEdit">
 		<bitmap file="graphics/rulesets/cyberpunkred/boxDarkenFullDice.png" />
-		<top rect="0,0,50,1" />
-		<topleft rect="0,0,0,0" />
-		<topright rect="50,0,0,0" />
-		<left rect="0,0,1,50" />
+		<topleft rect="0,0,1,1" />
+		<top rect="1,0,48,1" />
+		<topright rect="49,0,1,1" />
+		<left rect="0,1,1,48" />
 		<middle rect="1,1,48,48" />
-		<right rect="49,0,1,50" />
-		<bottomleft rect="0,49,0,0" />
-		<bottom rect="0,49,50,1" />
-		<bottomright rect="49,49,0,0" />
+		<right rect="49,1,1,48" />
+		<bottomleft rect="0,49,1,1" />
+		<bottom rect="1,49,48,1" />
+		<bottomright rect="49,49,1,1" />
+		<decal rect="0,50,50,20" />
 	</framedef>
 
 	<framedef name="darkenFullDice">
 		<bitmap file="graphics/rulesets/cyberpunkred/boxDarkenFullDice.png" />
-		<top rect="0,0,50,1" />
-		<topleft rect="0,0,0,0" />
-		<topright rect="50,0,0,0" />
-		<left rect="0,0,1,50" />
+		<topleft rect="0,0,1,1" />
+		<top rect="1,0,48,1" />
+		<topright rect="49,0,1,1" />
+		<left rect="0,1,1,48" />
 		<middle rect="1,1,48,48" />
-		<right rect="49,0,1,50" />
-		<bottomleft rect="0,49,0,0" />
-		<bottom rect="0,49,50,1" />
-		<bottomright rect="49,49,0,0" />
+		<right rect="49,1,1,48" />
+		<bottomleft rect="0,49,1,1" />
+		<bottom rect="1,49,48,1" />
+		<bottomright rect="49,49,1,1" />
+		<decal rect="0,50,50,20" />
 	</framedef>
 
 	<framedef name="darkenFullDiceEdit">
 		<bitmap file="graphics/rulesets/cyberpunkred/boxDarkenFullDiceEdit.png" />
-		<top rect="0,0,50,1" />
-		<topleft rect="0,0,0,0" />
-		<topright rect="50,0,0,0" />
-		<left rect="0,0,1,50" />
+		<topleft rect="0,0,1,1" />
+		<top rect="1,0,48,1" />
+		<topright rect="49,0,1,1" />
+		<left rect="0,1,1,48" />
 		<middle rect="1,1,48,48" />
-		<right rect="49,0,1,50" />
-		<bottomleft rect="0,49,0,0" />
-		<bottom rect="0,49,50,1" />
-		<bottomright rect="49,49,0,0" />
-		<offset>5,0,5,0</offset>
+		<right rect="49,1,1,48" />
+		<bottomleft rect="0,49,1,1" />
+		<bottom rect="1,49,48,1" />
+		<bottomright rect="49,49,1,1" />
+		<decal rect="0,50,50,20" />
 	</framedef>
 
 	<framedef name="fieldFocusSimple">
@@ -246,7 +248,7 @@
 		<color value="#DDDDDD" />
 	</font>
 	<font name="noto-b-12">
-		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="12" />
 		<color value="#FFF0CA" />
 	</font>
 	<font name="noto-b-15">
@@ -256,6 +258,10 @@
 	<font name="noto-b-18">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="18" />
 		<color value="#DDDDDD" />
+	</font>
+	<font name="noto-b-24">
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="24" />
+		<color value="#FFF0CA" />
 	</font>
 	<font name="noto-b-48">
 		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="48" />
@@ -297,7 +303,7 @@
 			<font>sheetlabel</font>
       	</stringcontrol>
 		<number name="intCurrent" merge="join">
-			<font>sheetlabel</font>
+			<font>reference-b</font>
       	</number>
 
 		<stringcontrol name="refLabel" merge="join">
@@ -406,18 +412,14 @@
 	</windowclass>
 
   <windowclass name="ct_attachment_applied" merge="join">
-    <placement>
-      <size height="300" width="300" />
-    </placement>
     <script>
 		function onInit()
-			if super and super.onInit then 
+			if super and super.onInit then
 				super.onInit();
 			end
-			
+
 			self.setFrame("");
 		end
-
 	</script>
 	<sheetdata>
 		<stringfield name="name" merge="join">
@@ -425,6 +427,9 @@
 			<lineoffset>-2</lineoffset>
 			<script>
 				function onInit()
+					if super and super.onInit then
+						super.onInit();
+					end
 					self.setFrame("");
 					self.setLine(true, -2);
 				end
@@ -435,6 +440,9 @@
 			<lineoffset>-2</lineoffset>
 			<script>
 				function onInit()
+					if super and super.onInit then
+						super.onInit();
+					end
 					self.setFrame("");
 					self.setLine(true, -2);
 				end
@@ -444,15 +452,12 @@
   </windowclass>
 
   <windowclass name="ct_cyberdeck_program" merge="join">
-    <placement>
-      <size height="300" width="300" />
-    </placement>
     <script>
 		function onInit()
-			if super and super.onInit then 
+			if super and super.onInit then
 				super.onInit();
 			end
-			
+
 			self.setFrame("");
 		end
 	</script>
@@ -462,6 +467,9 @@
         <lineoffset>-2</lineoffset>
         <script>
 			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
 				self.setFrame("");
 				self.setLine(true, -2);
 			end
@@ -472,6 +480,9 @@
         <lineoffset>-2</lineoffset>
         <script>
 			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
 				self.setFrame("");
 				self.setLine(true, -2);
 			end
@@ -481,15 +492,12 @@
   </windowclass>
 
   <windowclass name="ct_npc_move" merge="join">
-    <placement>
-      <size height="300" width="300" />
-    </placement>
     <script>
 		function onInit()
-			if super and super.onInit then 
+			if super and super.onInit then
 				super.onInit();
 			end
-			
+
 			self.setFrame("");
 		end
 	</script>
@@ -499,6 +507,9 @@
         <lineoffset>-2</lineoffset>
         <script>
 			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
 				self.setFrame("");
 				self.setLine(true, -2);
 			end
@@ -508,15 +519,12 @@
   </windowclass>
 
   <windowclass name="ct_npc_weapon" merge="join">
-    <placement>
-      <size height="300" width="300" />
-    </placement>
     <script>
 		function onInit()
-			if super and super.onInit then 
+			if super and super.onInit then
 				super.onInit();
 			end
-			
+
 			self.setFrame("");
 		end
 	</script>
@@ -526,6 +534,9 @@
         <lineoffset>-2</lineoffset>
         <script>
 			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
 				self.setFrame("");
 				self.setLine(true, -2);
 			end
@@ -536,6 +547,9 @@
         <lineoffset>-2</lineoffset>
         <script>
 			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
 				self.setFrame("");
 				self.setLine(true, -2);
 			end
@@ -545,9 +559,6 @@
   </windowclass>
 
   <windowclass name="quest_component" merge="join">
-    <placement>
-      <size height="300" width="300" />
-    </placement>
     <sheetdata>
       <formattedtextfield name="text" merge="join">
         <frame>
@@ -555,6 +566,9 @@
         </frame>
         <script>
 			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
 				if Session.IsHost then
 					update(false);
 				else
@@ -563,6 +577,9 @@
 			end
 
 			function update(bReadOnly)
+				if super and super.update then
+					super.update(bReadOnly);
+				end
 				self.setReadOnly(bReadOnly);
 				if not bReadOnly then
 					self.setFrame("formattedTextFrameEdit", 6,8,0,0);
@@ -576,17 +593,14 @@
   </windowclass>
 
   <windowclass name="quest_screamsheet_details" merge="join">
-    <placement>
-      <size height="300" width="300" />
-    </placement>
     <sheetdata>
       <windowlist name="leftCol" merge="join">
         <script>
 			function update(bReadOnly)
 				if super and super.update then
-					super.update(bReadOnly)
+					super.update(bReadOnly);
 				end
-				
+
 				self.setFrame("");
 			end
 		</script>
@@ -595,9 +609,9 @@
         <script>
 			function update(bReadOnly)
 				if super and super.update then
-					super.update(bReadOnly)
+					super.update(bReadOnly);
 				end
-				
+
 				self.setFrame("");
 			end
 		</script>
@@ -605,14 +619,14 @@
     </sheetdata>
   </windowclass>
 
-  <windowclass name="ct_program_attack" merge="join"> 
-    <placement>
-      <size height="300" width="300" />
-    </placement>
+  <windowclass name="ct_program_attack" merge="join">
     <sheetdata>
     	<basicdice name="zapDmg" merge="join">
 			<script>
 				function onInit()
+					if super and super.onInit then
+						super.onInit();
+					end
 					self.setFrame("darkenFullDice", 5,0,5,0);
 				end
 			</script>
@@ -620,6 +634,9 @@
 		<basicdice name="dmg" merge="join">
 			<script>
 				function onInit()
+					if super and super.onInit then
+						super.onInit();
+					end
 					self.setFrame("darkenFullDice", 5,0,5,0);
 				end
 			</script>

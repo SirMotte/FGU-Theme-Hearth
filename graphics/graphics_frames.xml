@@ -64,10 +64,6 @@
 		<bitmap file="graphics/pngs/headerpoweratwill.png" />
 		<middle rect="0,0,128,128" />
 	</framedef>
-	<!-- <framedef name="headerpowerenc">
-		<bitmap file="graphics/pngs/headerpowerenc.png" />
-		<middle rect="0,0,128,128" />
-	</framedef> -->
 	<framedef name="headerpowerdaily">
 		<bitmap file="graphics/pngs/headerpowerdaily.png" />
 		<middle rect="0,0,128,128" />
@@ -359,7 +355,7 @@
 		<bitmap file="graphics/pngs/desktop.png" />
 		<topleft rect="0,0,15,15" />
 		<top rect="15,0,475,15" />
-		<left rect="0,15,15,480" />
+		<left rect="0,15,15,485" />
 		<middle rect="15,15,475,485" />
 		<bottomleft rect="0,500,15,15" />
 		<bottom rect="15,500,475,15" />
@@ -376,11 +372,11 @@
 	<!-- Dice Tower -->
 	<framedef name="dicetower_normal">
 		<bitmap file="graphics/pngs/dicetower_normal.png" />
-		<middle>0,0,100,100</middle>
+		<middle rect="0,0,90,86" />
 	</framedef>
 	<framedef name="dicetower_drop">
 		<bitmap file="graphics/pngs/dicetower_drop.png" />
-		<middle>0,0,100,100</middle>
+		<middle rect="0,0,90,86" />
 	</framedef>
 
 
@@ -436,13 +432,6 @@
 		<middle rect="0,0,128,128" />
 	</framedef>
 
-	<!-- TEMPLATES -->
-	<template name="toolbar_button_color_base">
-		<buttoncontrol>
-			<iconcolor>FFFFFF</iconcolor> <!-- Replaceable Color: Blend Color -->
-		</buttoncontrol>
-	</template>
-
 	<!-- Lists -->
 	<framedef name="rowshade">
 		<bitmap file="graphics/pngs/rowshade.png" />
@@ -450,13 +439,11 @@
 	</framedef>
 	<framedef name="search">
 		<bitmap file="graphics/pngs/search.png" />
-		<offset>17,5,1,5</offset>
-		<topleft rect="0,0,17,30" />
+		<offset>17,6,2,6</offset>
 	</framedef>
 	<framedef name="search_active">
 		<bitmap file="graphics/pngs/search_active.png" />
-		<offset>17,5,1,5</offset>
-		<topleft rect="0,0,17,30" />
+		<offset>17,6,2,6</offset>
 	</framedef>
 
 	<!-- Misc frames -->

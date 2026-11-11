@@ -67,8 +67,9 @@ foreach ($line in Get-Content $colorFile) {
     }
 }
 
+$utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 Push-Location $repoRoot
-$files = Get-ChildItem -Path .\*.xml -Recurse -Force
+$files = Get-ChildItem -Path .\*.xml -Recurse -Force | Where-Object { $_.FullName -notmatch '[\\/](out|\.git)[\\/]' }
 foreach ($file in $files) {
     $content = Get-Content $file
     $updated = $false
@@ -86,42 +87,51 @@ foreach ($file in $files) {
     }
 
     if ($updated) {
-        Set-Content -Path $file -Value $content
+        [System.IO.File]::WriteAllLines($file.FullName, $content, $utf8NoBom)
     }
 }
 
-$managerpath = ".\scripts\manager_color_2.lua"
-$content = Get-Content $managerpath
-$updated = $false
-for ($index = 0; $index -lt $content.Length; ++$index) {
-    $line = $content[$index]
-    if ($line -match "-- Replaceable Color: ([\w ]+)$") {
-        $colorName = $Matches.1
-        if ($null -eq $colormap[$colorName]) {
-            Write-Warning "Color '$colorName' not found in colormap (File: $managerpath, Line: $($index + 1))"
-        } else {
-            $content[$index] = $line -replace "[0-9A-F]{6}", $colormap[$colorName]
-            $updated = $true
+$luaPaths = @(
+    ".\scripts\manager_color_2.lua",
+    ".\scripts\manager_desktop2.lua"
+)
+foreach ($managerpath in $luaPaths) {
+    if (-not (Test-Path $managerpath -PathType Leaf)) {
+        continue
+    }
+    $fullLuaPath = (Resolve-Path -LiteralPath $managerpath).Path
+    $content = Get-Content $fullLuaPath
+    $updated = $false
+    for ($index = 0; $index -lt $content.Length; ++$index) {
+        $line = $content[$index]
+        if ($line -match "-- Replaceable Color: ([\w ]+)$") {
+            $colorName = $Matches.1
+            if ($null -eq $colormap[$colorName]) {
+                Write-Warning "Color '$colorName' not found in colormap (File: $managerpath, Line: $($index + 1))"
+            } else {
+                $content[$index] = $line -creplace '"[0-9A-Fa-f]{6}"', ('"' + $colormap[$colorName] + '"')
+                $updated = $true
+            }
+        }
+        elseif ($line -match "-- Replaceable Channels: ([\w ]+)$") {
+            $colorName = $Matches.1
+            if ($null -eq $colormap[$colorName]) {
+                Write-Warning "Color '$colorName' not found in colormap (File: $managerpath, Line: $($index + 1))"
+            } else {
+                $hex = $colormap[$colorName]
+                $red = [System.Convert]::ToInt32($hex.substring(0, 2), 16)
+                $green = [System.Convert]::ToInt32($hex.substring(2, 2), 16)
+                $blue = [System.Convert]::ToInt32($hex.substring(4, 2), 16)
+                $channels = "{ r = $($red), g = $($green), b = $($blue) }"
+                $content[$index] = $line -replace "\{ ?r ?= ?\d{1,3}, ?g ?= ?\d{1,3}, ?b ?= ?\d{1,3} ?\}", $channels
+                $updated = $true
+            }
         }
     }
-    elseif ($line -match "-- Replaceable Channels: ([\w ]+)$") {
-        $colorName = $Matches.1
-        if ($null -eq $colormap[$colorName]) {
-            Write-Warning "Color '$colorName' not found in colormap (File: $managerpath, Line: $($index + 1))"
-        } else {
-            $hex = $colormap[$colorName]
-            $red = [System.Convert]::ToInt32($hex.substring(0, 2), 16)
-            $green = [System.Convert]::ToInt32($hex.substring(2, 2), 16)
-            $blue = [System.Convert]::ToInt32($hex.substring(4, 2), 16)
-            $channels = "{ r = $($red), g = $($green), b = $($blue) }"
-            $content[$index] = $line -replace "\{ ?r ?= ?\d{1,3}, ?g ?= ?\d{1,3}, ?b ?= ?\d{1,3} ?\}", $channels
-            $updated = $true
-        }
-    }
-}
 
-if ($updated) {
-    Set-Content -Path $managerpath -Value $content
+    if ($updated) {
+        [System.IO.File]::WriteAllLines($fullLuaPath, $content, $utf8NoBom)
+    }
 }
 
 Pop-Location

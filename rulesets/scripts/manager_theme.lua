@@ -1,33 +1,56 @@
 -- Override ThemeManager script used by Cyberpunk RED ruleset
 isThemeLoaded = false;
 
+local ZERO_OFFSET = { 0, 0, 0, 0 };
+
+local function setControlFrame(control, sFrame, tOffset)
+	if not control then
+		return;
+	end
+	tOffset = tOffset or ZERO_OFFSET;
+	control.setFrame(sFrame, tOffset[1] or 0, tOffset[2] or 0, tOffset[3] or 0, tOffset[4] or 0);
+end
+
+local function setControlStateFrame(control, sState, sFrame, tOffset)
+	if not control then
+		return;
+	end
+	tOffset = tOffset or ZERO_OFFSET;
+	control.setStateFrame(sState, sFrame, tOffset[1] or 0, tOffset[2] or 0, tOffset[3] or 0, tOffset[4] or 0);
+end
+
 function onInit()
 	ColorManager.setSidebarCategoryIconColor("FFF0CA");
 	ColorManager.setSidebarRecordIconColor("DDDDDD");
 end
 
 function updateFont(control)
-	control.setColor("#DDDDDD");
+	if control then
+		control.setColor("#DDDDDD");
+	end
 end
 
 function updateFontTitle(control)
-	control.setColor("#FFF0CA");
+	if control then
+		control.setColor("#FFF0CA");
+	end
 end
 
 function updateRedLabel(control, readOnly)
-	ThemeManager.updateThemeFont["refBNotoWhite"](control);
-	control.setColor("#DDDDDD");
+	if control then
+		ThemeManager.updateThemeFont["refBNotoWhite"](control);
+		control.setColor("#DDDDDD");
+	end
 end
 
 
 function setDefaultTheme(control, sCPRFrame, bAllowFocus, noTheme, theme)
-	if noTheme == nil then noTheme = {0,0,0,0} end;
 	if bAllowFocus == nil then bAllowFocus = false; end
 
 	-- Additional, if fielddark, add fieldfocus
 	if bAllowFocus then
-		control.setStateFrame("keyedit", "fieldFocusSimple", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
-		control.setStateFrame("hover", "fieldFocusSimple", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+		setControlStateFrame(control, "keyedit", "fieldFocusSimple", noTheme);
+		setControlStateFrame(control, "hover", "fieldFocusSimple", noTheme);
 	end
 
 	return false;
@@ -58,10 +81,10 @@ iconToCore = {
 }
 
 function setDefaultIcon(control, sCPRIcon)
-	if sCPRIcon == "window_resize_red"
+	if control and (sCPRIcon == "window_resize_red"
 		or sCPRIcon == "window_resize"
-		or sCPRIcon == "window_resize_filled" then
-			control.setIcon("");
+		or sCPRIcon == "window_resize_filled") then
+		control.setIcon("");
 		return false;
 	end
 
@@ -77,7 +100,7 @@ function setDefaultButtonIcons(control, sCPRUpIcon, sCPRDownIcon)
 		local newUpIcon = iconToCore[sCPRUpIcon];
 		local newDownIcon = iconToCore[sCPRDownIcon];
 
-		if newUpIcon ~= nil and newDownIcon ~= nil then
+		if control and newUpIcon ~= nil and newDownIcon ~= nil then
 			control.setStateIcons(0, newUpIcon, newDownIcon);
 		end
 		return true;
@@ -100,6 +123,9 @@ end
 
 updateFrameTheme = {
 	["whiteFrameStandard"] = function(element, isReadOnly)
+		if not element then
+			return;
+		end
 		if isReadOnly then
 			if not isThemeLoaded then
 				element.setFrame("fieldSimple", 5, 0, 5, 0);
@@ -116,7 +142,7 @@ updateFrameTheme = {
 	end,
 
 	["fieldSimpleStatic"] = function(element, offset)
-		element.setFrame("fieldSimple", offset[1], offset[2], offset[3], offset[4]);
+		setControlFrame(element, "fieldSimple", offset);
 	end,
 	["fieldStaticBlk"] = function(element, noTheme, theme)
 		updateFontTitle(element);
@@ -126,89 +152,92 @@ updateFrameTheme = {
 	end,
 	["fieldFramePC_darkenLight"] = function(element, noTheme, theme)
 		if not isThemeLoaded then
-			element.setFrame("darkenField", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+			setControlFrame(element, "darkenField", noTheme);
 		else
-			element.setFrame("fieldlight", theme[1], theme[2], theme[3], theme[4]);
+			setControlFrame(element, "fieldlight", theme);
 		end
 	end,
 	["fieldFramePC_BG"] = function(element, noTheme, theme)
 		if not isThemeLoaded then
-			element.setFrame("fieldFrame", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+			setControlFrame(element, "fieldFrame", noTheme);
 		else
-			element.setFrame("fieldlight", theme[1], theme[2], theme[3], theme[4]);
+			setControlFrame(element, "fieldlight", theme);
 		end
 	end,
 	["fieldFramePC_DarkenEdit"] = function(element, noTheme, theme)
 		if not isThemeLoaded then
-			element.setFrame("darkenFieldEdit", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
-			element.setStateFrame("hover", "fieldFocusSimple", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
-			element.setStateFrame("keyedit", "fieldFocusSimple", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+			setControlFrame(element, "darkenFieldEdit", noTheme);
+			setControlStateFrame(element, "hover", "fieldFocusSimple", noTheme);
+			setControlStateFrame(element, "keyedit", "fieldFocusSimple", noTheme);
 		else
-			element.setFrame("fielddark", theme[1], theme[2], theme[3], theme[4]);
-			element.setStateFrame("hover", "fieldfocus", theme[1], theme[2], theme[3], theme[4]);
-			element.setStateFrame("keyedit", "fieldfocus", theme[1], theme[2], theme[3], theme[4]);
+			setControlFrame(element, "fielddark", theme);
+			setControlStateFrame(element, "hover", "fieldfocus", theme);
+			setControlStateFrame(element, "keyedit", "fieldfocus", theme);
 		end
 	end,
 	["fieldFramePC_Simple"] = function(element, noTheme, theme, bReadOnly)
 		if bReadOnly == nil then bReadOnly = true; end
 		if not isThemeLoaded then
-			element.setFrame("fieldSimple", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+			setControlFrame(element, "fieldSimple", noTheme);
 		else
 			if bReadOnly then
-				element.setFrame("fieldlight", theme[1], theme[2], theme[3], theme[4]);
+				setControlFrame(element, "fieldlight", theme);
 			else
-				element.setFrame("fielddark", theme[1], theme[2], theme[3], theme[4]);
+				setControlFrame(element, "fielddark", theme);
 			end
 		end
 		if not bReadOnly then
 			if not isThemeLoaded then
-				element.setStateFrame("hover", "fieldFocusSimple", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
-				element.setStateFrame("keyedit", "fieldFocusSimple", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+				setControlStateFrame(element, "hover", "fieldFocusSimple", noTheme);
+				setControlStateFrame(element, "keyedit", "fieldFocusSimple", noTheme);
 			else
-				element.setStateFrame("hover", "fieldfocus", theme[1], theme[2], theme[3], theme[4]);
-				element.setStateFrame("keyedit", "fieldfocus", theme[1], theme[2], theme[3], theme[4]);
+				setControlStateFrame(element, "hover", "fieldfocus", theme);
+				setControlStateFrame(element, "keyedit", "fieldfocus", theme);
 			end
-		else
+		elseif element then
 			element.setStateFrame("hover", nil, 0,0,0,0);
 			element.setStateFrame("keyedit", nil, 0,0,0,0);
 		end
 	end,
 	["fieldFramePC_ListSimple"] = function(element, noTheme, theme)
 		if not isThemeLoaded then
-			element.setFrame("fieldSimple", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+			setControlFrame(element, "fieldSimple", noTheme);
 		else
-			element.setFrame("combobox_list", theme[1], theme[2], theme[3], theme[4]);
+			setControlFrame(element, "combobox_list", theme);
 		end
 	end,
 	["fieldFramePC_ListRed"] = function(element, noTheme, theme)
 		if not isThemeLoaded then
-			element.setFrame("fieldSimpleRed", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+			setControlFrame(element, "fieldSimpleRed", noTheme);
 		else
-			element.setFrame("combobox_list", theme[1], theme[2], theme[3], theme[4]);
+			setControlFrame(element, "combobox_list", theme);
 		end
 	end,
 	["fieldFramePC_ListBlack"] = function(element, noTheme, theme)
 		if not isThemeLoaded then
-			element.setFrame("fieldSimpleBlk", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+			setControlFrame(element, "fieldSimpleBlk", noTheme);
 		else
-			element.setFrame("combobox_list", theme[1], theme[2], theme[3], theme[4]);
+			setControlFrame(element, "combobox_list", theme);
 		end
 	end,
 	["fieldFramePC_ListSimpleElem"] = function(element, noTheme, theme)
 		if not isThemeLoaded then
-			element.setFrame("fieldSimple", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+			setControlFrame(element, "fieldSimple", noTheme);
 		else
-			element.setFrame("mini_name", theme[1], theme[2], theme[3], theme[4]);
+			setControlFrame(element, "mini_name", theme);
 		end
 	end,
 	["fieldFramePC_ListSimpleLink"] = function(element, noTheme)
 		if not isThemeLoaded then
-			element.setFrame("fieldSimple", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
-		else
+			setControlFrame(element, "fieldSimple", noTheme);
+		elseif element then
 			element.setFrame(nil);
 		end
 	end,
 	["fieldFrameNPC"] = function(element, isReadOnly)
+		if not element then
+			return;
+		end
 		if isReadOnly then
 			if not isThemeLoaded then
 				element.setFrame("fieldFrame_NPC", 5, 8, 5, 3);
@@ -225,12 +254,15 @@ updateFrameTheme = {
 	end,
 	["frameSpecialStatic"] = function(element, sInNoTheme, sInTheme, noTheme, theme)
 		if not isThemeLoaded then
-			element.setFrame(sInNoTheme, noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+			setControlFrame(element, sInNoTheme, noTheme);
 		else
-			element.setFrame(sInTheme, theme[1], theme[2], theme[3], theme[4]);
+			setControlFrame(element, sInTheme, theme);
 		end
 	end,
 	["darkFrameNPCSkill"] = function(element, isReadOnly)
+		if not element then
+			return;
+		end
 		if isReadOnly then
 			if not isThemeLoaded then
 				element.setFrame("", 5, 0, 5, 0);
@@ -252,6 +284,9 @@ updateFrameTheme = {
 		end
 	end,
 	["darkFrameNPCSkillNum"] = function(element, isReadOnly)
+		if not element then
+			return;
+		end
 		if isReadOnly then
 			if not isThemeLoaded then
 				element.setFrame("", 5, 0, 5, 0);
@@ -273,6 +308,9 @@ updateFrameTheme = {
 		end
 	end,
 	["darkFrameStandard"] = function(element, isReadOnly)
+		if not element then
+			return;
+		end
 		if isThemeLoaded then
 			if isReadOnly then
 				element.setFrame("fieldlight", 7, 5, 7, 5);
@@ -290,19 +328,22 @@ updateFrameTheme = {
 	["darkFrameStandardOffset"] = function(element, isReadOnly, noTheme, theme)
 		if isThemeLoaded then
 			if isReadOnly then
-				element.setFrame("fieldlight", theme[1], theme[2], theme[3], theme[4]);
+				setControlFrame(element, "fieldlight", theme);
 			else
-				element.setFrame("fielddark",  theme[1], theme[2], theme[3], theme[4]);
+				setControlFrame(element, "fielddark", theme);
 			end
 		else
 			if isReadOnly then
-				element.setFrame("darkenField", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+				setControlFrame(element, "darkenField", noTheme);
 			else
-				element.setFrame("darkenFieldEdit", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+				setControlFrame(element, "darkenFieldEdit", noTheme);
 			end
 		end
 	end,
 	["darkFrameDice"] = function(element, isReadOnly, isEmpty)
+		if not element then
+			return;
+		end
 		if isReadOnly and isEmpty then
 			if not isThemeLoaded then
 				element.setFrame("darkenFullDice", 0, 0, 0, 0);
@@ -330,6 +371,9 @@ updateFrameTheme = {
 		end
 	end,
 	["simpleFrameDice"] = function(element, isReadOnly, isEmpty)
+		if not element then
+			return;
+		end
 		if isReadOnly and isEmpty then
 			if not isThemeLoaded then
 				element.setFrame("fieldSimpleDiceEdit", 0, 0, 0, 0);
@@ -357,6 +401,9 @@ updateFrameTheme = {
 		end
 	end,
 	["darkFrameNoOffset"] = function(element, isReadOnly)
+		if not element then
+			return;
+		end
 		if isThemeLoaded then
 			if isReadOnly then
 				element.setFrame("fieldlight", 7, 5, 7, 5);
@@ -372,6 +419,9 @@ updateFrameTheme = {
 		end
 	end,
 	["darkFrameLarge"] = function(element, isReadOnly)
+		if not element then
+			return;
+		end
 		if not isThemeLoaded and isReadOnly then
 			element.setFrame("darkenField", 8, 8, 8, 8);
 		elseif not isThemeLoaded then
@@ -384,19 +434,22 @@ updateFrameTheme = {
 	end,
 	["darkFrameEmptyStatic"] = function(element, noTheme, theme)
 		if not isThemeLoaded then
-			element.setFrame(nil, noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+			setControlFrame(element, nil, noTheme);
 		else
-			element.setFrame("darkenField", theme[1], theme[2], theme[3], theme[4]);
+			setControlFrame(element, "darkenField", theme);
 		end
 	end,
 	["roleFrame"] = function(element, noTheme, theme)
 		if not isThemeLoaded then
-			element.setFrame("roleFrame", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+			setControlFrame(element, "roleFrame", noTheme);
 		else
-			element.setFrame("combobox_list", theme[1], theme[2], theme[3], theme[4]);
+			setControlFrame(element, "combobox_list", theme);
 		end
 	end,
 	["clearFrame"] = function(element, isReadOnly)
+		if not element then
+			return;
+		end
 		if isReadOnly then
 			element.setFrame(nil, 0, 0, 0, 0);
 		else
@@ -404,7 +457,9 @@ updateFrameTheme = {
 		end
 	end,
 	["whiteFrameRedBGImgCheck"] = function(element, isReadOnly)
-
+		if not element then
+			return;
+		end
 		if not isThemeLoaded and isReadOnly then
 			element.setFrame("darkenField", 1, 1, 1, 1);
 		elseif not isThemeLoaded then
@@ -416,6 +471,9 @@ updateFrameTheme = {
 		end
 	end,
 	["formattedFrame"] = function(element, isReadOnly)
+		if not element then
+			return;
+		end
 		if not isThemeLoaded and isReadOnly then
 			element.setFrame("formattedTextFrame", 8, 8, 8, 8);
 		elseif not isThemeLoaded then
@@ -427,6 +485,9 @@ updateFrameTheme = {
 		end
 	end,
 	["formattedFrameRole"] = function(element)
+		if not element then
+			return;
+		end
 		if not isThemeLoaded then
 			element.setFrame("formattedTextFrame", 8, 8, 8, 8);
 		else
@@ -434,7 +495,7 @@ updateFrameTheme = {
 		end
 	end,
 	["border"] = function(element, isReadOnly)
-		if not isThemeLoaded then return; end
+		if not isThemeLoaded or not element then return; end
 		element.setFrame("fieldlight", 7, 5, 7, 5);
 		if not isReadOnly then
 			element.setFrame("fielddark", 7, 5, 7, 5);
@@ -445,95 +506,68 @@ updateFrameTheme = {
 		updateRedLabel(element);
 	end,
 	["redFrameStandardGray"] = function(element, isReadOnly)
+		if not element then
+			return;
+		end
 		ThemeManager.updateThemeFont["refBNotoWhite"](element);
 		if isThemeLoaded then
 			element.setFrame("headerblack", 5,0,5,0);
 		end
 	end,
 	["redFrameStandardList"] = function(element, isReadOnly)
-		if isThemeLoaded then
+		if isThemeLoaded and element then
 			element.setFrame("darkenField");
 		end
 	end,
 	["numFrame"] = function(element, noTheme, theme)
 		if not isThemeLoaded then
-			element.setFrame("numFrame", noTheme[1], noTheme[2], noTheme[3], noTheme[4]);
+			setControlFrame(element, "numFrame", noTheme);
 		else
-			element.setFrame("fieldlight", theme[1], theme[2], theme[3], theme[4]);
+			setControlFrame(element, "fieldlight", theme);
 		end
 	end
 }
 
+local function setControlFont(element, sFont)
+	if element then
+		element.setFont(sFont);
+	end
+end
+
 updateThemeFont = {
 	["PCBodyFrame"] = function(element)
-		if not isThemeLoaded then
-			element.setFont("noto-b-12");
-		else
-			element.setFont("sheetlabelmini");
-		end
+		setControlFont(element, not isThemeLoaded and "noto-b-12" or "sheetlabelmini");
 	end,
 	["refBNoto"] = function(element)
-		if not isThemeLoaded then
-			element.setFont("noto-b-15");
-		else
-			element.setFont("reference-b");
-		end
+		setControlFont(element, not isThemeLoaded and "noto-b-15" or "reference-b");
 	end,
 	["refBNotoWhite"] = function(element)
-		if not isThemeLoaded then
-			element.setFont("noto-b-15-white");
-		else
-			element.setFont("reference-b");
-		end
+		setControlFont(element, not isThemeLoaded and "noto-b-15-white" or "reference-b");
 	end,
 	["refHeadNoto48"] = function(element)
-		if not isThemeLoaded then
-			element.setFont("noto-48");
-		else
-			element.setFont("reference-page-header");
-		end
+		setControlFont(element, not isThemeLoaded and "noto-48" or "reference-page-header");
 	end,
 	["refHeadNoto24"] = function(element)
-		if not isThemeLoaded then
-			element.setFont("noto-b-24");
-		else
-			element.setFont("windowtitle");
-		end
+		setControlFont(element, not isThemeLoaded and "noto-b-24" or "windowtitle");
 	end,
 	["notoWindowTitle"] = function(element)
-		if not isThemeLoaded then
-			element.setFont("noto-b-18-white");
-		else
-			element.setFont("windowtitle");
-		end
+		setControlFont(element, not isThemeLoaded and "noto-b-18-white" or "windowtitle");
 	end,
 	["noto18"] = function(element)
-		if not isThemeLoaded then
-			element.setFont("noto-18");
-		else
-			element.setFont("windowtitle");
-		end
+		setControlFont(element, not isThemeLoaded and "noto-18" or "windowtitle");
 	end,
 	["noto18normal"] = function(element)
-		if not isThemeLoaded then
-			element.setFont("noto-18");
-		else
-			element.setFont("reference-b");
-		end
+		setControlFont(element, not isThemeLoaded and "noto-18" or "reference-b");
 	end,
 	["notoB18"] = function(element)
-		if not isThemeLoaded then
-			element.setFont("noto-b-18");
-		else
-			element.setFont("reference-b");
-		end
+		setControlFont(element, not isThemeLoaded and "noto-b-18" or "reference-b");
 	end,
 	["noto15"] = function(element)
-		if not isThemeLoaded then return; end
+		if not isThemeLoaded or not element then return; end
 		element.setFont("reference-r");
 	end,
 	["noto12"] = function(element)
-		if not isThemeLoaded then return; end
+		if not isThemeLoaded or not element then return; end
 		if element.setDisplayFont then
 			element.setDisplayFont("sheetlabelmini");
 		else

@@ -42,9 +42,15 @@
 			<hideonvalue>0</hideonvalue>
 			<script>
 				function onInit()
+					if super and super.onInit then
+						super.onInit();
+					end
 					onValueChanged();
 				end
 				function onValueChanged()
+					if super and super.onValueChanged then
+						super.onValueChanged();
+					end
 					window.updateAbil(window.getDatabaseNode());
 					if self.getValue() &lt;= 8 then
 						self.setColor("FF4F4F");

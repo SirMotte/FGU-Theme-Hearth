@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
 	<!-- Source: 4E -->
-	<windowclass name="charsheetmini_main" merge="join">
-		<script>
-			function onInit()
-				if super and super.onInit then
-					super.onInit();
-				end
-				if hptemp then
-					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
-				end
-			end
-		</script>
+	<windowclass name="charsheet" merge="join">
+		<sizelimits>
+			<minimum width="525" height="650" />
+			<dynamic />
+		</sizelimits>
 	</windowclass>
+
+	<windowclass name="npc_trap_countermeasurelistitem" merge="join">
+		<sheetdata>
+			<label_listitem_left name="diamond_label">
+				<color>#FFF0CA</color>
+			</label_listitem_left>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="npc_trap_skilldclistitem" merge="join">
+		<sheetdata>
+			<label_listitem_left name="diamond_label">
+				<color>#FFF0CA</color>
+			</label_listitem_left>
+		</sheetdata>
+	</windowclass>
+
 	<framedef name="acicon">
 		<bitmap file="graphics/pngs/acicon_pfrpg.png" />
 		<topleft rect="0,0,36,40" />

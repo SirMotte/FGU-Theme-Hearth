@@ -1,39 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-<!--PFRPG2=Speed-->
-<!--PFRPG1=Spellfailure-->
-<!--3.5€=Spellfailure-->
-<windowclass name="charsheet_inventory" merge="join">
-    <sheetdata>
-    <!-- Armor -->
-        <buttonfield name="usearmormaxstatbonus">
-					<!-- The following assumes that this only exists in 3.5E, PFRPG1 or PFRPG2.-->
-					<!-- This logic will likely need updating in the event that changes.-->
-            <script>
-                  function onValueChanged(...)
-                    if super and super.onValueChanged then super.onValueChanged(...); end
-                    local sColor = ColorManager.COLOR_HEALTH_DYING_OR_DEAD;
-                    if getValue() == 1 then
-                      sColor = ColorManager.COLOR_SECONDARY_FOREGROUND;
-                    end
-                    if window.armormaxstatbonus then window.armormaxstatbonus.setColor(sColor); end
-                    if window.armorcheckpenalty then window.armorcheckpenalty.setColor(sColor); end
-                    if User.getRulesetName() == "PFRPG2" or User.getRulesetName() == "PFRPG2-Legacy" then
-                        if window.speedpenalty then window.speedpenalty.setColor(sColor); end
-                    else
-                        if window.spellfailure then window.spellfailure.setColor(sColor); end
-                    end
-                    if super and super.encumbranceColors then super.encumbranceColors(); end -- bmos' encumbrance penalties
-                  	end
-                  function onInit()
-                    if super and super.onInit then super.onInit(); end
-                      onValueChanged();
-                    end
-            </script>
-        </buttonfield>
-    </sheetdata>
-</windowclass>
-
 	<framedef name="slottedmodifier">
 		<bitmap file="graphics/pngs/slottedmodifier.png" />
 		<topleft rect="0,0,37,12" />

@@ -281,11 +281,11 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="calendarday-b">
-		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto Regular" size="16" />
+		<ttf file="graphics/fonts/Roboto-Bold.ttf" name="Roboto Bold" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="calendarday-bi">
-		<ttf file="graphics/fonts/Roboto-Regular.ttf" name="Roboto" size="16" />
+		<ttf file="graphics/fonts/Roboto-BoldItalic.ttf" name="Roboto Bold Italic" size="16" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="calendarbold">
@@ -461,7 +461,7 @@
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="Edhiron">
-		<ttf file="graphics/fonts/Edhiron.ttf" name="Edhiron Asdh?riel v. 1.2" size="30" />
+		<ttf file="graphics/fonts/Edhiron.ttf" name="Edhiron Asdh&#250;riel v. 1.2" size="30" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 	<font name="Espruar">
@@ -561,113 +561,113 @@
 
 	<!--Golarion Languages and Fonts FGU by mattekure and callum-->
 	<font name="Aquan">
-		<ttf file="graphics/fonts/DS_Aqua-1.ttf" name="Aquan" size="27" />
+		<ttf file="graphics/fonts/Aqua.ttf" name="DS_Aqua-1" size="27" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Celestial">
-		<ttf file="graphics/fonts/Espruar.ttf" name="Celestial" size="18" />
+		<ttf file="graphics/fonts/Espruar.ttf" name="Espruar" size="18" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Draconic">
-		<ttf file="graphics/fonts/LswDrachenklaueRegular.ttf" name="Draconic" size="21" />
+		<ttf file="graphics/fonts/LswDrachenklaueRegular.ttf" name="LSW Drachenklaue" size="21" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Elven">
-		<ttf file="graphics/fonts/tngan.ttf" name="Elven" size="21" />
+		<ttf file="graphics/fonts/TengwarAnnatar.ttf" name="Tengwar Annatar" size="21" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Infernal">
-		<ttf file="graphics/fonts/DS_Sinenya.ttf" name="Infernal" size="24" />
+		<ttf file="graphics/fonts/Sinenya.ttf" name="DS_Sinenya" size="24" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Catfolk">
-		<ttf file="graphics/fonts/Edhiron.ttf" name="Catfolk" size="27" />
+		<ttf file="graphics/fonts/Edhiron.ttf" name="Edhiron Asdh&#250;riel v. 1.2" size="27" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Common">
-		<ttf file="graphics/fonts/Mexlar.ttf" name="Common" size="24" />
+		<ttf file="graphics/fonts/Mexlar.ttf" name="Mexlar" size="24" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Druidic">
-		<ttf file="graphics/fonts/Beth-Luis-Fearn.ttf" name="Druidic" size="15" />
+		<ttf file="graphics/fonts/Beth-Luis-Fearn.ttf" name="Beth-Luis-Fearn" size="15" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!--Other languages (Inner Sea World Guide, p.251)-->
 
 	<font name="Aklo">
-		<ttf file="graphics/fonts/CirnajaCalligraphy.ttf" name="Aklo" size="24" />
+		<ttf file="graphics/fonts/Cirnaja.ttf" name="Cirnaja Calligraphy" size="24" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!--Modern human languages (Inner Sea World Guide, p.251)-->
 
 	<font name="Hallit">
-		<ttf file="graphics/fonts/valmarel.ttf" name="Hallit" size="21" />
+		<ttf file="graphics/fonts/Valmaric.ttf" name="Valmaric Eldamar" size="21" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Kelish">
-		<ttf file="graphics/fonts/Siddiqua.ttf" name="Kelish" size="21" />
+		<ttf file="graphics/fonts/Siddiqua.ttf" name="Siddiqua" size="21" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Osiriani">
-		<ttf file="graphics/fonts/TheNileSong.ttf" name="Osiriani" size="18" />
+		<ttf file="graphics/fonts/TheNileSong.ttf" name="The Nile Song" size="18" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Polyglot">
-		<ttf file="graphics/fonts/Ancient Thorass.ttf" name="Polyglot" size="18" />
+		<ttf file="graphics/fonts/AncientThorass.ttf" name="Ancient Thorass" size="18" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Skald">
-		<ttf file="graphics/fonts/HyrrokkinRunic.ttf" name="Skald" size="24" />
+		<ttf file="graphics/fonts/HyrrokkinRunic.ttf" name="Hyrrokkin Runic" size="24" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Tien">
-		<ttf file="graphics/fonts/DS_Nasilnese.ttf" name="Tien" size="30" />
+		<ttf file="graphics/fonts/Nasilnese.ttf" name="DS_Nasilnese" size="30" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Varisian">
-		<ttf file="graphics/fonts/Hetarosia.ttf" name="Varisian" size="21" />
+		<ttf file="graphics/fonts/Hetarosia.ttf" name="hetarosia" size="21" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<!--Ancient languages (Inner Sea World Guide, p.251)-->
 
 	<font name="Azlanti">
-		<ttf file="graphics/fonts/Sequoyah.ttf" name="Azlanti" size="21" />
+		<ttf file="graphics/fonts/Sequoyah.ttf" name="Sequoyah" size="21" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Cyclops">
-		<ttf file="graphics/fonts/Dethek.ttf" name="Cyclops" size="21" />
+		<ttf file="graphics/fonts/Dethek.ttf" name="Dethek" size="21" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Jistka">
-		<ttf file="graphics/fonts/AjayNormal.ttf" name="Jistka" size="24" />
+		<ttf file="graphics/fonts/AjayNormal.ttf" name="Ajay Normal" size="24" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Tekritanin">
-		<ttf file="graphics/fonts/NYMAYA__.TTF" name="Tekritanin" size="18" />
+		<ttf file="graphics/fonts/NYMAYA__.TTF" name="Ny Maya" size="18" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 
 	<font name="Thassilonian">
-		<ttf file="graphics/fonts/Thassilonian_Runes_New.ttf" name="Thassilonian" size="24" />
+		<ttf file="graphics/fonts/Thassilonian_Runes_New.ttf" name="Thassilonian_Runes_New" size="24" />
 		<color value="#DDDDDD" /> <!-- Replaceable Color: Secondary Foreground -->
 	</font>
 

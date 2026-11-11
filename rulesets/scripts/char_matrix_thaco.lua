@@ -4,132 +4,37 @@
 --
 
 function onInit()
-    local node = getDatabaseNode();
-    if not node then
-        return;
-    end
-    if DataCommonADND.coreVersion == "1e" then
-        DB.addHandler(DB.getPath(node, "combat.matrix.*"), "onUpdate", update);
-    else
-        if ActorManager.isPC(node) then
-            DB.addHandler(DB.getPath(node, "combat.thaco.score"), "onUpdate", update);
-        else
-            DB.addHandler(DB.getPath(node, "thaco"), "onUpdate", update);
-        end
-    end
-    createTHACOMatrix();
-end
+	if not getDatabaseNode() then
+		return;
+	end
+	if super and super.onInit then
+		super.onInit();
+	end
 
-function onClose()
-    local node = getDatabaseNode();
-    if not node then
-        return;
-    end
-    if DataCommonADND.coreVersion == "1e" then
-        DB.removeHandler(DB.getPath(node, "combat.matrix.*"), "onUpdate", update);
-    else
-        if ActorManager.isPC(node) then
-            DB.removeHandler(DB.getPath(node, "combat.thaco.score"), "onUpdate", update);
-        else
-            DB.removeHandler(DB.getPath(node, "thaco"), "onUpdate", update);
-        end
-    end
-end
+	-- Hearth Theme Palette Colors for Attack Matrix
+	local sHighlightColor = "342C26"; -- Dark warm brown highlight
+	local sAltColor = "231E1B";       -- Alternating darker tile
+	local sZeroColor = "5C2B16";      -- Warm Hearth ember for AC 0
+	local bHighlight = true;
 
-function createTHACOMatrix()
-    local node = getDatabaseNode();
-    if not node then
-        return;
-    end
-    local bisPC = (ActorManager.isPC(node));
-    local bUseMatrix = (DataCommonADND.coreVersion == "1e");
-    local nTHACO = DB.getValue(node, "combat.thaco.score", 20);
-    if (not bisPC) then
-        nTHACO = DB.getValue(node, "thaco", 20);
-    end
+	for i = -10, 10, 1 do
+		local cntNum = self["thac" .. i];
+		local cntAC = self["thaco_matrix_ac_" .. i];
+		local sBackColor = (i == 0) and sZeroColor or (bHighlight and sHighlightColor or sAltColor);
 
-    local aMatrixRolls = {};
-    if bUseMatrix and not bisPC then
-        local sHitDice = CombatManagerADND.getNPCHitDice(node);
-        if DataCommonADND.aMatrix[sHitDice] then
-            aMatrixRolls = DataCommonADND.aMatrix[sHitDice];
-        end
-    end
+		if cntNum then
+			cntNum.setBackColor(sBackColor);
+			if i == 0 then
+				cntNum.setColor("FFF0CA");
+			end
+		end
+		if cntAC then
+			cntAC.setBackColor(sBackColor);
+			if i == 0 then
+				cntAC.setColor("FFF0CA");
+			end
+		end
 
-    -- Hearth Theme Palette Colors for Attack Matrix
-    local sHighlightColor = "342C26"; -- Dark warm brown highlight
-    local sAltColor = "231E1B";       -- Alternating darker tile
-    local sZeroColor = "5C2B16";      -- Warm Hearth ember for AC 0
-    local bHighlight = true;
-
-    for i = -10, 10, 1 do
-        local nTHAC = nTHACO - i;
-        if bUseMatrix then
-            nTHAC = DB.getValue(node, "combat.matrix.thac" .. i, 20);
-            if not bisPC and #aMatrixRolls > 0 then
-                nTHAC = aMatrixRolls[math.abs(i - 11)];
-            end
-        end
-
-        local sMatrixACName = "thaco_matrix_ac_" .. i;
-        local sMatrixACValue = i;
-        local sMatrixNumberName = "thac" .. i;
-        local cntNum;
-        if bUseMatrix then
-            cntNum = createControl("number_thaco_matrix", sMatrixNumberName, "combat.matrix." .. sMatrixNumberName);
-        else
-            cntNum = createControl("number_thaco_matrix", sMatrixNumberName);
-        end
-
-        cntNum.setFrame(nil);
-        cntNum.setValue(nTHAC);
-
-        local cntAC = createControl("label_fieldtop_thaco_matrix", sMatrixACName);
-        cntAC.setReadOnly(true);
-        cntAC.setValue(sMatrixACValue);
-
-        if (i == 0) then
-            cntNum.setBackColor(sZeroColor);
-            cntAC.setBackColor(sZeroColor);
-            cntNum.setColor("FFF0CA");
-            cntAC.setColor("FFF0CA");
-        elseif bHighlight then
-            cntNum.setBackColor(sHighlightColor);
-            cntAC.setBackColor(sHighlightColor);
-        else
-            cntNum.setBackColor(sAltColor);
-            cntAC.setBackColor(sAltColor);
-        end
-        cntAC.setAnchor("left", sMatrixNumberName, "left", "absolute", 0);
-
-        bHighlight = not bHighlight;
-    end
-end
-
-function update()
-    local node = getDatabaseNode();
-    if not node then
-        return;
-    end
-    local bUseMatrix = (DataCommonADND.coreVersion == "1e");
-
-    local nTHACO;
-    if ActorManager.isPC(node) then
-        nTHACO = DB.getValue(node, "combat.thaco.score", 20);
-    else
-        nTHACO = DB.getValue(node, "thaco", 20);
-    end
-
-    for i = -10, 10, 1 do
-        local nTHAC = nTHACO - i;
-        if bUseMatrix then
-            nTHAC = DB.getValue(node, "combat.matrix.thac" .. i, 20);
-        end
-
-        local sMatrixNumberName = "thac" .. i;
-        local cnt = self[sMatrixNumberName];
-        if cnt then
-            cnt.setValue(nTHAC);
-        end
-    end
+		bHighlight = not bHighlight;
+	end
 end

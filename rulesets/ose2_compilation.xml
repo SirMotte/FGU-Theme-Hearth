@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-	<string name="skills_description_text_Tooltip">Skill Details</string>
 	<string name="spells_main_spelldescription_text_Tooltip">Spell Details</string>
 	<string name="sub_main_description_Tooltip">Details</string>
 
 	<icon name="powers" file="graphics/pngs/tab_powers.png" />
-	<icon name="spells" file="graphics/pngs/tab_spells.png" />
 	<icon name="weapons" file="graphics/pngs/tab_weapons.png" />
 	<icon name="labelframe" file="graphics/icons_ose2/charmainplate.png" />
 	<icon name="main" file="graphics/pngs/tab_main.png" />
@@ -13,7 +11,6 @@
 	<icon name="rangedindicator" file="graphics/icons_ose2/indicator_ranged.png" />
 	<icon name="class" file="graphics/tabs_ose2/tab_class.png" />
 	<icon name="data" file="graphics/tabs_ose2/tab_data.png" />
-	<icon name="tab_rolls" file="graphics/tabs_ose2/tab_rolls.png" />
 
 	<font name="OSEsmall" merge="join">
 		<color value="#FFF0CA" />
@@ -37,7 +34,7 @@
 	</framedef>
 	<framedef name="attoselong">
 		<bitmap file="graphics/frames_ose2/attboxoselong.png" />
-		<offset>0,0,0,0</offset>
+		<offset>2,2,2,2</offset>
 	</framedef>
 	<framedef name="osebox_frame">
 		<bitmap file="graphics/frames_ose2/osebox1.png" />
@@ -55,28 +52,20 @@
 		<bitmap file="graphics/frames_ose2/turndead.png" />
 		<offset>0,0,0,0</offset>
 	</framedef>
-		<framedef name="charsheetframe">
+	<framedef name="charsheetframe">
 		<bitmap file="graphics/frames_ose2/groupbox.png" />
 		<offset>15,15,15,15</offset>
-	</framedef>
-	<framedef name="chatbox">
-		<bitmap file="graphics/pngs/chatbox.png" />
-		<offset>50,50,50,50</offset>
-	</framedef>
-	<framedef name="groupbox">
-		<bitmap file="graphics/pngs/groupbox.png" />
-		<offset>20,20,10,10</offset>
 	</framedef>
 	<framedef name="groupboxextra">
 		<bitmap file="graphics/frames_ose2/groupbox.png" />
 		<offset>20,20,10,10</offset>
 	</framedef>
-    <framedef name="ct_subgroupbox">
-        <bitmap file="graphics/pngs/ct_subgroupbox.png" />
-        <offset>12,12,12,12</offset>
-    </framedef>
+	<framedef name="ct_subgroupbox">
+		<bitmap file="graphics/pngs/ct_subgroupbox.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
 
-    <windowclass name="ClassData_detail" merge="join">
+	<windowclass name="ClassData_detail" merge="join">
 		<sheetdata>
 			<basicnumber name="thaco_class">
 				<backcolor>#322C27</backcolor>
@@ -98,6 +87,7 @@
 			</basicnumber>
 		</sheetdata>
 	</windowclass>
+
 	<windowclass name="npc_spells_detail_ct" merge="join">
 		<sheetdata>
 			<buttoncontrol name="Tarsv_button">
@@ -109,18 +99,9 @@
 			<buttoncontrol name="spellheal_button">
 				<backcolor>#322C27</backcolor>
 			</buttoncontrol>
-			<number name="spelllevel">
-				<backcolor>#322C27</backcolor>
-			</number>
 		</sheetdata>
 	</windowclass>
-	<windowclass name="charsheet_main" merge="join">
-		<sheetdata>
-			<hn name="Level_new">
-				<invisible merge="delete" />
-			</hn>
-		</sheetdata>
-	</windowclass>
+
 	<windowclass name="class_detail" merge="join">
 		<sheetdata>
 			<stringcontrol name="level_label">
@@ -128,6 +109,34 @@
 			</stringcontrol>
 		</sheetdata>
 	</windowclass>
+
+	<windowclass name="char_spell_editor_main" merge="join">
+		<sheetdata>
+			<number name="numbertoroll">
+				<backcolor>#322C27</backcolor>
+			</number>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="sub_main" merge="join">
+		<sheetdata>
+			<number_columnh name="acbase">
+				<backcolor>#322C27</backcolor>
+			</number_columnh>
+			<number_columnh name="bonus">
+				<backcolor>#322C27</backcolor>
+			</number_columnh>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="sub_weapon" merge="join">
+		<sheetdata>
+			<number name="atk_roll">
+				<backcolor>#322C27</backcolor>
+			</number>
+		</sheetdata>
+	</windowclass>
+
 	<windowclass name="spells_main" merge="join">
 		<sheetdata>
 			<stringcontrol name="dierollmult_label">
@@ -160,18 +169,16 @@
 				</anchored>
 				<center />
 				<gmeditonly />
-				<font merge="delete" />
 			</stringfield>
 			<number name="numbertoroll">
-                <frame>
-                    <name>ct_subgroupbox</name>
-                </frame>
+				<frame>
+					<name>ct_subgroupbox</name>
+				</frame>
 				<anchored>
 					<top offset="71" anchor="bottom" parent="properties" relation="current" />
 				</anchored>
 				<backcolor merge="delete" />
-				<font merge="delete" />
-            </number>
+			</number>
 			<button_stringcycler name="level_field">
 				<anchored>
 					<top offset="71" anchor="bottom" parent="properties" relation="current" />
@@ -184,7 +191,8 @@
 			</number>
 		</sheetdata>
 	</windowclass>
-	<!-- Source: ct/ct_host.xml -->
+
+	<!-- Source: ct/ct_host.xml & ct/ct_template.xml -->
 	<windowclass name="combattracker_host" merge="join">
 		<margins control="0,0,5,4" />
 		<sizelimits>
@@ -193,22 +201,18 @@
 		</sizelimits>
 	</windowclass>
 
-	<windowclass name="combattracker_client" merge="join">
-		<margins control="0,0,5,4" />
-		<sizelimits>
-			<dynamic />
-		</sizelimits>
-	</windowclass>
+	<template name="number_clientct_hptemp" merge="join">
+		<number_ct_static>
+			<color>#69B7FF</color>
+		</number_ct_static>
+	</template>
 
 	<!-- OSE2 Character Sheet: Add right side buffer and clean header spacing -->
-	<template name="anchor_content_charsheet_tabbed_top">
-		<genericcontrol name="contentanchor">
-			<anchored height="0">
+	<template name="anchor_content_charsheet_tabbed_top" merge="join">
+		<genericcontrol>
+			<anchored>
 				<top offset="42" />
-				<left offset="15" />
-				<right offset="-20" />
 			</anchored>
-			<disabled />
 		</genericcontrol>
 	</template>
 	<windowclass name="charsheet" merge="join">
@@ -220,5 +224,4 @@
 			<dynamic />
 		</sizelimits>
 	</windowclass>
-
 </root>

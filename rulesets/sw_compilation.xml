@@ -26,6 +26,22 @@
 	<icon name="Init" file="graphics/pngs/sw_init.png" />
 	<icon name="turnundead" file="graphics/pngs/sw_turn.png" />
 
+	<!-- Character Sheet Header Spacing & Sizing -->
+	<template name="anchor_content_charsheet_tabbed_top" merge="join">
+		<genericcontrol>
+			<anchored>
+				<top offset="42" />
+			</anchored>
+		</genericcontrol>
+	</template>
+
+	<windowclass name="charsheet" merge="join">
+		<sizelimits>
+			<minimum width="655" height="650" />
+			<dynamic />
+		</sizelimits>
+	</windowclass>
+
 	<!-- Swords and Wizardry Record & CT Color Fixes -->
 	<windowclass name="ClassData_detail" merge="join">
 		<sheetdata>
@@ -49,9 +65,6 @@
 			<buttoncontrol name="spellheal_button">
 				<backcolor>#322C27</backcolor>
 			</buttoncontrol>
-			<number name="spelllevel">
-				<backcolor>#322C27</backcolor>
-			</number>
 		</sheetdata>
 	</windowclass>
 

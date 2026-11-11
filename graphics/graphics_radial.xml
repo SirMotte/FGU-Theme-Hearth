@@ -11,7 +11,6 @@
 	<icon name="edit" file="graphics/pngs/icon_edit_on.png" />
 	<icon name="stopedit" file="graphics/pngs/icon_edit_off.png" />
 	<icon name="delete" file="graphics/pngs/icon_category_delete.png" />
-	<!--<icon name="delete" file="graphics/pngs/icon_delete.png" /> -->
 	<icon name="erase" file="graphics/pngs/icon_erase.png" />
 	<icon name="unshare" file="graphics/pngs/icon_unshare.png" />
 	<icon name="portrait" file="graphics/pngs/icon_portrait.png" />
@@ -135,8 +134,6 @@
 	<icon name="dieclear" file="graphics/pngs/icon_die_clear.png" />
 
 	<!-- Formatted Text Control - REQUIRED -->
-	<!-- <icon name="textedit" file="graphics/pngs/icon_edit.png" /> -->
-	<!-- <icon name="textstopedit" file="graphics/pngs/icon_stopedit.png" /> -->
 	<icon name="textparagraphtypes" file="graphics/pngs/icon_text_paragraph_types.png" />
 	<icon name="textbody" file="graphics/pngs/icon_text_body.png" />
 	<icon name="texttitle" file="graphics/pngs/icon_text_header.png" />
@@ -230,6 +227,12 @@
 	<icon name="radial_damage" file="graphics/pngs/icon_damage.png" />
 	<icon name="radial_heal" file="graphics/pngs/icon_plus.png" />
 	<icon name="radial_effect" file="graphics/pngs/icon_effect.png" />
+	<icon name="radial_power_action_attack" file="graphics/pngs/icon_sword.png" />
+	<icon name="radial_power_action_cast" file="graphics/pngs/icon_sword.png" />
+	<icon name="radial_power_action_damage" file="graphics/pngs/icon_damage.png" />
+	<icon name="radial_power_action_heal" file="graphics/pngs/icon_plus.png" />
+	<icon name="radial_power_action_effect" file="graphics/pngs/icon_effect.png" />
+	<icon name="radial_power_action_powersave" file="graphics/pngs/icon_sword.png" />
 
 	<!-- 5e Rest menu -->
 	<icon name="restmenu" file="graphics/pngs/icon_rest_group.png" />

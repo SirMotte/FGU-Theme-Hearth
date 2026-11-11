@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
+	<windowclass name="charsheet" merge="join">
+		<sizelimits>
+			<minimum width="450" height="580" />
+			<dynamic />
+		</sizelimits>
+	</windowclass>
+
 	<windowclass name="npc_combat_top_2014" merge="join">
-		<sheetdata>
-			<stringcontrol name="npc_importantdeath_label" merge="merge">
-				<anchored to="actext" position="right" offset="-85,0" width="70" />
-				<font>sheetlabelminideathindicator</font>
-				<nodrag />
-				<static textres="str_importantdeath_npc" />
-			</stringcontrol>
-		</sheetdata>
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if self.npc_importantdeath_label then
+					self.npc_importantdeath_label.setColor("#FFF0CA");
+				end
+			end
+		</script>
+	</windowclass>
+
+	<windowclass name="npc_combat_top_2024" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if self.npc_importantdeath_label then
+					self.npc_importantdeath_label.setColor("#FFF0CA");
+				end
+			end
+		</script>
 	</windowclass>
 
 	<windowclass name="combattracker_host" merge="join">
@@ -156,28 +178,6 @@
 		</sheetdata>
 	</windowclass>
 
-	<!-- Source: campaign/record_char_main.xml
-	<windowclass name="charsheet_classes" merge="join">
-		<sheetdata>
-			<basicnumber name="expneeded">
-				<script>
-					function onHover(oncontrol)
-						if oncontrol then
-							local draginfo = Input.getDragData();
-							if draginfo and draginfo.isType("number") and draginfo.getNumberData() &lt; getValue() then
-								setColor("FF6161");
-							end
-						else
-							setColor(nil);
-						end
-					end
-				</script>
-			</basicnumber>
-			<list_text name="classes">
-				<child><backcolor>1A40301E</backcolor></child>
-			</list_text>
-		</sheetdata>
-	</windowclass>-->
 	<windowclass name="charsheet_hd" merge="join">
 		<sheetdata>
 			<numbercontrol name="hdcurrent">
@@ -186,8 +186,6 @@
 		</sheetdata>
 	</windowclass>
 
-
-
 	<template name="string_charinv_attunecalc" merge="join">
 		<stringcontrol>
 			<font>subwindowsmalltitle</font>
@@ -195,9 +193,8 @@
 		</stringcontrol>
 	</template>
 
-    <framedef name="ct_subgroupbox">
-        <bitmap file="graphics/pngs/ct_subgroupbox.png" />
-        <offset>12,12,12,12</offset>
-    </framedef>
-
+	<framedef name="ct_subgroupbox">
+		<bitmap file="graphics/pngs/ct_subgroupbox.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
 </root>

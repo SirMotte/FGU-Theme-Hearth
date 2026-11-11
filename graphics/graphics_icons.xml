@@ -52,7 +52,6 @@
 	<icon name="sidebar_icon_recordtype_boon" file="graphics/pngs/sidebar_icon_fire.png" />
 	<icon name="sidebar_icon_recordtype_charstarshipsheet" file="graphics/pngs/sidebar_icon_spaceship_3.png" />
 	<icon name="sidebar_icon_recordtype_companionsheet" file="graphics/pngs/sidebar_icon_default.png" />
-	<icon name="sidebar_icon_recordtype_race" ruleset="SFRPG" file="graphics/pngs/sidebar_icon_race_2.png" />
 	<icon name="sidebar_icon_recordtype_starship" file="graphics/pngs/sidebar_icon_spaceship_2.png" />
 	<icon name="sidebar_icon_recordtype_starshipitem" file="graphics/pngs/sidebar_icon_item_2.png" />
 	<icon name="sidebar_icon_recordtype_theme" file="graphics/pngs/sidebar_icon_background.png" />
@@ -73,6 +72,7 @@
 	<icon name="sidebar_icon_recordtype_class" file="graphics/pngs/sidebar_icon_class.png" />
 	<icon name="sidebar_icon_recordtype_feat" file="graphics/pngs/sidebar_icon_feat.png" />
 	<icon name="sidebar_icon_recordtype_race" file="graphics/pngs/sidebar_icon_race.png" />
+	<icon name="sidebar_icon_recordtype_race" ruleset="SFRPG" file="graphics/pngs/sidebar_icon_race_2.png" />
 	<icon name="sidebar_icon_recordtype_skill" file="graphics/pngs/sidebar_icon_skill.png" />
 	<icon name="sidebar_icon_recordtype_power" file="graphics/pngs/sidebar_icon_fire.png" />
 	<icon name="sidebar_icon_recordtype_specialability" file="graphics/pngs/sidebar_icon_fire.png" />
@@ -562,12 +562,9 @@
 	<icon name="arrowleft" file="graphics/pngs/arrow_left.png" />
 	<icon name="arrowright" file="graphics/pngs/arrow_right.png" />
 	<icon name="error" file="graphics/pngs/error.png" />
-	<icon name="search" file="graphics/pngs/search.png" />
+	<icon name="search" file="graphics/pngs/icon_search.png" />
 	<icon name="arrow_sm_left" file="graphics/pngs/arrow_sm_left.png" />
 	<icon name="arrow_sm_right" file="graphics/pngs/arrow_sm_right.png" />
-	<!--
-		<icon name="arrow_sm_down" file="graphics/pngs/arrow_sm_down.png" />
-	-->
 	<icon name="arrow_sm_up" file="graphics/pngs/arrow_sm_up.png" />
 	<icon name="visibilityon" file="graphics/pngs/visibilityon.png" />
 	<icon name="visibilityoff" file="graphics/pngs/visibilityoff.png" />

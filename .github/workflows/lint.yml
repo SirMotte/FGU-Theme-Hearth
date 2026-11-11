@@ -25,7 +25,9 @@ jobs:
           sudo apt-get install -y lua-check
 
       - name: Run Luacheck Linter
-        run: luacheck --config .luacheckrc scripts rulesets/scripts
+        run: |
+          python3 build.py --extract-inline-lua /tmp/inline_lua
+          luacheck --config .luacheckrc . /tmp/inline_lua
 
       - name: Run FGU XML Static Validator
         run: python3 build.py --validate-only

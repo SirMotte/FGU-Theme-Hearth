@@ -1,69 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-		<framedef name="ct_effectdc">
-            <bitmap file="graphics/pngs/ct_effectdc.png" />
-            <topleft rect="0,0,12,12" />
-            <top rect="12,0,200,12" />
-            <topright rect="212,0,12,12" />
-            <left rect="0,12,12,187" />
-            <middle rect="12,12,200,187" />
-            <right rect="212,12,12,187" />
-            <bottomleft rect="0,199,12,12" />
-            <bottom rect="12,199,200,12" />
-            <bottomright rect="212,199,12,12" />
-		</framedef>
+	<windowclass name="char_actions_quickref" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if temphp then
+					temphp.setColor(ColorManager.COLOR_TEMP_HP);
+				elseif hptemp then
+					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
+				end
+				if wounded then
+					wounded.setColor(ColorManager.COLOR_HEALTH_HVY_WOUNDS);
+				end
+				if dying then
+					dying.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
+				end
+			end
+		</script>
+	</windowclass>
 
-		<windowclass name="char_actions_quickref" merge="join">
-			<script>
-				function onInit()
-					if super and super.onInit then
-						super.onInit();
-					end
-					if temphp then
-						temphp.setColor(ColorManager.COLOR_TEMP_HP);
-					elseif hptemp then
-						hptemp.setColor(ColorManager.COLOR_TEMP_HP);
-					end
-					if wounded then
-						wounded.setColor(ColorManager.COLOR_HEALTH_HVY_WOUNDS);
-					end
-					if dying then
-						dying.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
+	<windowclass name="npc_actions_quickref" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				if temphp then
+					temphp.setColor(ColorManager.COLOR_TEMP_HP);
+				elseif hptemp then
+					hptemp.setColor(ColorManager.COLOR_TEMP_HP);
+				end
+				if wounded then
+					wounded.setColor(ColorManager.COLOR_HEALTH_HVY_WOUNDS);
+				end
+				if dying then
+					dying.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
+				end
+			end
+		</script>
+	</windowclass>
+
+	<windowclass name="special_tactics_class" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				recolorSectionLabel();
+			end
+			function updatePreparedTactics()
+				if super and super.updatePreparedTactics then
+					super.updatePreparedTactics();
+				end
+				recolorSectionLabel();
+			end
+			function recolorSectionLabel()
+				if not activitysections then
+					return;
+				end
+				local tSections = activitysections.getWindows();
+				if tSections and tSections[1] and tSections[1].label then
+					local sVal = tSections[1].label.getValue() or "";
+					if sVal:find("Too Many", 1, true) then
+						tSections[1].label.setColor("#FF6161");
+					else
+						tSections[1].label.setColor("#FFF0CA");
 					end
 				end
-			</script>
-		</windowclass>
+			end
+		</script>
+	</windowclass>
 
-		<!-- Source: campaign/record_char.xml -->
-		<windowclass name="charsheet" merge="join">
-			<sizelimits>
-				<minimum width="570" height="625" />
-				<dynamic />
-			</sizelimits>
-		</windowclass>
+	<windowclass name="special_runic_class" merge="join">
+		<script>
+			function onInit()
+				if super and super.onInit then
+					super.onInit();
+				end
+				recolorSectionLabel();
+			end
+			function updatePreparedRunes()
+				if super and super.updatePreparedRunes then
+					super.updatePreparedRunes();
+				end
+				recolorSectionLabel();
+			end
+			function recolorSectionLabel()
+				if not activitysections then
+					return;
+				end
+				local tSections = activitysections.getWindows();
+				if tSections and tSections[1] and tSections[1].label then
+					local sVal = tSections[1].label.getValue() or "";
+					if sVal:find("Too Many", 1, true) then
+						tSections[1].label.setColor("#FF6161");
+					else
+						tSections[1].label.setColor("#FFF0CA");
+					end
+				end
+			end
+		</script>
+	</windowclass>
 
-		<!-- script in windowclass messes with color application, need a fix.
-
-		<windowclass name="spelldesc_header" merge="join">
-			<sheetdata>
-				<stringfield name="spelltype_header_label">
-					<color>FFFFFF</color>
-					<backcolor >800000</backcolor>	
-				</stringfield>
-			</sheetdata>
-		</windowclass>
-
-		<windowclass name="masterindexitem_spell" merge="join">
-			<sheetdata>
-				<stringfield name="level">
-					<color >DDDDDD</color>
-					<backcolor >501515</backcolor>
-				</stringfield>
-			</sheetdata>
-		</windowclass>
-	-->
-
-    <!-- Character Sheet -->
-    <icon name="tab_activities" file="graphics/pngs/tab_activities.png" />
-
+	<!-- Source: campaign/record_char.xml -->
+	<windowclass name="charsheet" merge="join">
+		<sizelimits>
+			<minimum width="570" height="660" />
+			<dynamic />
+		</sizelimits>
+	</windowclass>
 </root>

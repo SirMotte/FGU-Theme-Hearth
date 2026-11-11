@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- Source: common/template_records.xml -->
-    <template name="icon_record_header_nonid">
-		<icon_record_header_base name="nonid_icon">
-			<anchored>
-				<top offset="0" />
-			</anchored>
+	<!-- Source: common/template_records_header.xml -->
+	<template name="icon_record_header_nonid" merge="join">
+		<icon_record_header_base>
 			<icon>button_toolbar_id</icon>
-			<tooltip textres="library_recordtype_empty_nonid" />
-			<script>
-				function onInit()
-					setColor(UtilityManager.getControlFontColor(window, "name"));
-				end
-			</script>
 		</icon_record_header_base>
 	</template>
 	<!--Image Window Background foreground-->
@@ -249,6 +240,13 @@
 			<anchored offset="0,2" />
 		</windowtitlebar>
 	</template>
+	<template name="windowmenubar_ctbox">
+		<windowmenubar>
+			<anchored offset="-11,9">
+				<left offset="15" />
+			</anchored>
+		</windowmenubar>
+	</template>
 
 	<template name="anchor_content_ctbox_bottom">
 		<genericcontrol name="bottomanchor">
@@ -380,7 +378,7 @@
 	</template>
 	<template name="anchor_content_charsheethelper_top">
 		<genericcontrol name="contentanchor">
-			<anchored height="0" merge="replace">
+			<anchored height="0">
 				<top offset="30" />
 				<left offset="8" />
 				<right offset="-13" />
@@ -390,7 +388,7 @@
 	</template>
 	<template name="anchor_content_charsheethelper_bottom">
 		<genericcontrol name="bottomanchor">
-			<anchored to="contentanchor" height="10" merge="replace">
+			<anchored to="contentanchor" height="10">
 				<bottom parent="" offset="-7" />
 				<left />
 				<right />
@@ -420,8 +418,6 @@
 		<margins control="15,0,0,0" />
 	</windowclass>
 
-
-
 	<windowclass name="combattracker_client" merge="join">
 		<margins control="0,0,5,4" />
 		<sizelimits>
@@ -436,33 +432,20 @@
 		</sizelimits>
 	</windowclass>
 
-	<!-- Source: desktop/desktop_panels.xml -->
-	<panel name="dicetower" modes="host,client" merge="join">
-		<anchored height="100" width="100" />
-	</panel>
-	
-	<!-- Source: desktop/template_desktop.xml -->
-    <template name="button_refresh">
+	<!-- Source: common/template_buttons.xml -->
+	<template name="button_refresh" merge="join">
 		<button_icon>
 			<icon normal="refresh" />
 		</button_icon>
 	</template>
-	<template name="button_expand">
+	<template name="button_expand_base" merge="join">
 		<button_icon>
 			<icon normal="button_expand_w" />
-			<tooltip textres="tooltip_expand" />
-			<target>grouplist,list</target>
-			<expand />
-			<script file="common/scripts/button_expand_collapse.lua" />
 		</button_icon>
 	</template>
-	<template name="button_collapse">
+	<template name="button_collapse_base" merge="join">
 		<button_icon>
 			<icon normal="button_collapse_w" />
-			<tooltip textres="tooltip_collapse" />
-			<target>grouplist,list</target>
-			<collapse />
-			<script file="common/scripts/button_expand_collapse.lua" />
 		</button_icon>
 	</template>
 
@@ -483,38 +466,6 @@
 						label_day.setColor(ColorManager.COLOR_CALENDAR_HOLIDAY);
 					else
 						label_day.setColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
-					end
-				end
-			end
-		</script>
-	</windowclass>
-	<windowclass name="calendar_main" merge="join">
-		<script>
-			local fUpdateDisplay;
-			function onInit()
-				fUpdateDisplay = super.updateDisplay;
-				super.updateDisplay = updateDisplay2;
-				
-				if super.onInit then
-					super.onInit();
-				end
-			end
-			function onClose()
-				super.updateDisplay = fUpdateDisplay
-			end
-
-			function updateDisplay2()
-				fUpdateDisplay();
-
-				local nCampaignMonth = DB.getValue("calendar.current.month", 0);
-				for _,v in pairs(list.getWindows()) do
-					local nMonth = v.month.getValue();
-					local bCampaignMonth = nMonth == nCampaignMonth;
-
-					if bCampaignMonth then
-						v.label_period.setColor(ColorManager.COLOR_CALENDAR_MONTH);
-					else
-						v.label_period.setColor(ColorManager.COLOR_PRIMARY_FOREGROUND);
 					end
 				end
 			end
@@ -545,22 +496,8 @@
 	
 	<!-- Source: Campaign/record_image.xml -->
 	<!-- Modify the radial menu to add a distinction between the share group and shared icon -->
-	<!-- This whole thing is super cludgy, since I can't find any place in CoreRPG that defines menu option 7,5 on images, which is the unshare options -->
-	<!-- Yet it's still there and works. Probably hardcoded and buried. -->
 	<string name="imagesizefill">Zoom To Fill</string>
 	<string name="imagesizefit">Zoom To Fit</string>
-	<string name="image_grid_hexrow">Hex Row Grid</string>
-	<string name="image_grid_hexcolumn">Hex Column Grid</string>
-	<string name="image_grid_square">Square Grid</string>
-	<string name="image_grid_isometric">Isometric Grid</string>
-
-	<!-- Source: campaign/record_char.xml -->
-	<windowclass name="charsheet" merge="join">
-        <sizelimits>
-			<minimum width="525" height="625" />
-			<dynamic />
-		</sizelimits>
-	</windowclass>
 
 	<!-- Source: campaign/campaign_chars.xml -->
 	<windowclass name="charselect_host_entry" merge="join">
@@ -583,7 +520,7 @@
 	<!-- Re-color is moved to script instead of xml to support rulesets that don't use the temphp box -->
 	<windowclass name="ct_entry" merge="join">
 		<sizelimits>
-			<minimum height="25" />
+			<minimum height="45" />
 		</sizelimits>
 		<script file="rulesets/scripts/ct_entry_colors.lua" />
 	</windowclass>
@@ -738,13 +675,5 @@
 			<disabled />
 		</genericcontrol>
 	</template>
-
-    <windowclass name="treasureparcel" merge="join">
-		<sheetdata>
-			<windowmenubar_recordsheet name="menubar">
-			    <anchored offset="-11,9" />
-            </windowmenubar_recordsheet>
-		</sheetdata>
-	</windowclass>
 
 </root>

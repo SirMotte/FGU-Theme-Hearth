@@ -8,10 +8,13 @@ function onInit()
 		super.onInit();
 	end
 
+	local sTempColor = ColorManager.COLOR_TEMP_HP;
 	if temphp then
-		temphp.setColor(ColorManager.COLOR_TEMP_HP);
+		temphp.setColor(sTempColor);
 	elseif hptemp then
-		hptemp.setColor(ColorManager.COLOR_TEMP_HP);
+		hptemp.setColor(sTempColor);
+	elseif temp_hp then
+		temp_hp.setColor(sTempColor);
 	end
 
 	if nonlethal then
