@@ -644,6 +644,7 @@
 	<icon name="button_toggle_restshort" file="graphics/pngs/button_toggle_restshort.png" />
 	<icon name="button_toggle_restlong" file="graphics/pngs/button_toggle_restlong.png" />
 	<icon name="button_toggle_turn" file="graphics/pngs/button_toggle_turn.png" />
+	<icon name="button_toggle_source" file="graphics/pngs/button_toggle_source.png" />
 
 	<icon name="button_action_effect_applyall" file="graphics/pngs/button_action_effect_applyall.png" />
 	<icon name="button_action_effect_applyall_down" file="graphics/pngs/button_action_effect_applyall_down.png" />
