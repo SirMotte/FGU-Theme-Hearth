@@ -1,3 +1,11 @@
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.62 - Torchbearer[/B][/SIZE][/COLOR]
+
+[COLOR="#FF0000"][B]Changelog[/B][/COLOR]
+[LIST]
+[*] CoreRPG Combat Tracker Effect Toggle Pills (Nov 22, 2026 CoreRPG Update): Completely overhauled all 8 Combat Tracker effect toggle pill icons (24x10 RGBA) for maximum legibility on dark backgrounds; added distinct 1px metallic/gold perimeter bezels (#A38E5B / #7A6A40), crisp unblurred 100% white pixel typography (5px height), and vibrant semantic color coding across Expiration and Initiative-Source modes (rich mahogany END, warm amber TURN, deep cobalt STRT, royal plum ENDN, olive-moss RSTS, deep forest RSTL, and forest emerald SELF).
+[*] CoreRPG Initiative Source Cycler: Added themed dark-mode asset for CoreRPG's new effect initiative-source button (button_toggle_source.png / SRC in crisp slate-steel #2B4354) and registered the icon in graphics_icons.xml.
+[/LIST]
+
 [COLOR=#FF8C00][SIZE=4][B]Update to v2.9.61 - Torchbearer[/B][/SIZE][/COLOR]
 
 [COLOR="#FF0000"][B]Changelog[/B][/COLOR]

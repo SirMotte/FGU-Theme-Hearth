@@ -1,7 +1,7 @@
 # Sir Motte's Magnificent Darkness - Hearth Edition
 
-Current Version: 2.9.61 - Torchbearer  
-Release Date: November 10, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
+Current Version: 2.9.62 - Torchbearer  
+Release Date: November 22, 2026 - [Latest Changelog](https://www.fantasygrounds.com/forums/showthread.php?58034-Theme-SirMottes-Magnificent-Darkness&p=705296#post705296)
 
 Original author: Sir Motte  
 Maintainer: Justin Freitas
