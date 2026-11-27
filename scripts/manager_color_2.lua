@@ -2,7 +2,6 @@
 -- Please see the license.html file included with this distribution for
 -- attribution and copyright information.
 --
-local originalHotkeyDrop;
 
 function onInit()
 	ColorManager.COLOR_FULL = "DDDDDD"; -- Replaceable Color: Usage Full
@@ -114,13 +113,8 @@ function onInit()
 	ColorManager.setButtonIconColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
 	ColorManager.setButtonTextColor(ColorManager.COLOR_SECONDARY_FOREGROUND);
 
-	if not Bartender then
-		if Interface.addKeyedEventHandler then
-			Interface.addKeyedEventHandler("onHotkeyDrop", "", onHotkeyDrop);
-		else
-			originalHotkeyDrop = Interface.onHotkeyDrop;
-			Interface.onHotkeyDrop = onHotkeyDrop;
-		end
+	if not Bartender and Interface.addKeyedEventHandler then
+		Interface.addKeyedEventHandler("onHotkeyDrop", "", onHotkeyDrop);
 	end
 
 	if ColorManagerKw then
@@ -129,12 +123,7 @@ function onInit()
 end
 
 function onHotkeyDrop(dragdata)
-	local bReturn;
-	if originalHotkeyDrop then
-		bReturn = originalHotkeyDrop(dragdata);
-	end
 	if (dragdata.getDescription() or "") ~= "" then
 		dragdata.setIcon("empty");
 	end
-	return bReturn;
 end

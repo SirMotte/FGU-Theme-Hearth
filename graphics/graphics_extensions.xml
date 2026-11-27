@@ -813,11 +813,13 @@
 							return;
 						end
 						local node = getDatabaseNode();
-						if node and node.getPath():match("^encounter%.") then
+						if node and DB.getPath(node):match("^encounter%.") then
 							bAuthorActive = true;
 							updateColorsForTheme();
-							local nodeStory = node.getParent();
-							DB.addHandler(DB.getPath(nodeStory, "subchapter"), "onUpdate", onSubchapterChanged);
+							local nodeStory = DB.getParent(node);
+							if nodeStory then
+								DB.addHandler(DB.getPath(nodeStory, "subchapter"), "onUpdate", onSubchapterChanged);
+							end
 							DB.addHandler("options.ADND_AUTHOR_DARKTHEME", "onUpdate", updateColorsForTheme);
 							onSubchapterChanged();
 						end
@@ -828,9 +830,11 @@
 					function onClose()
 						if bAuthorActive then
 							local node = getDatabaseNode();
-							if node and node.getPath():match("^encounter%.") then
-								local nodeStory = node.getParent();
-								DB.removeHandler(DB.getPath(nodeStory, "subchapter"), "onUpdate", onSubchapterChanged);
+							if node and DB.getPath(node):match("^encounter%.") then
+								local nodeStory = DB.getParent(node);
+								if nodeStory then
+									DB.removeHandler(DB.getPath(nodeStory, "subchapter"), "onUpdate", onSubchapterChanged);
+								end
 								DB.removeHandler("options.ADND_AUTHOR_DARKTHEME", "onUpdate", updateColorsForTheme);
 							end
 						end
@@ -840,9 +844,9 @@
 					end
 					function onSubchapterChanged()
 						local node = getDatabaseNode();
-						if node and node.getPath():match("^encounter%.") then
-							local nodeStory = node.getParent();
-							local bSubChapter = (DB.getValue(nodeStory, "subchapter", 0) == 1);
+						if node and DB.getPath(node):match("^encounter%.") then
+							local nodeStory = DB.getParent(node);
+							local bSubChapter = nodeStory and (DB.getValue(nodeStory, "subchapter", 0) == 1);
 							if bSubChapter then
 								setColor(sHightlightColor);
 							else
