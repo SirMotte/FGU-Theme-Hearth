@@ -192,9 +192,4 @@
 			<warning>FF6161</warning> <!-- Replaceable Color: Warning Text -->
 		</stringcontrol>
 	</template>
-
-	<framedef name="ct_subgroupbox">
-		<bitmap file="graphics/pngs/ct_subgroupbox.png" />
-		<offset>12,12,12,12</offset>
-	</framedef>
 </root>

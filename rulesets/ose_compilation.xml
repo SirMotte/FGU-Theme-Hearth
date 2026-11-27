@@ -10,11 +10,6 @@
 		<color value="#FFF0CA" />
 	</font>
 
-	<framedef name="ct_subgroupbox">
-		<bitmap file="graphics/pngs/ct_subgroupbox.png" />
-		<offset>12,12,12,12</offset>
-	</framedef>
-
 	<!-- 2. Character Sheet Header Spacing & Sizing (preserve OSE's 700px height) -->
 	<template name="anchor_content_charsheet_tabbed_top">
 		<genericcontrol name="contentanchor">

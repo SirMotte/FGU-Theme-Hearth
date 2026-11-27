@@ -60,4 +60,30 @@
 	<icon name="sidebar_icon_recordtype_feature" file="graphics/pngs/sidebar_icon_feat.png" />
 	<icon name="sidebar_icon_recordtype_transformation" file="graphics/pngs/sidebar_icon_transformations.png" />
 	<icon name="sidebar_icon_link_ltc" file="graphics/pngs/sidebar_icon_link_ltc.png" />
+
+	<!-- 5. Daggerheart action roll buttons (21x21 Hearth dark-interior style) -->
+	<icon name="button_action_countdown" file="graphics/pngs/dh_button_action_countdown.png" />
+	<icon name="button_action_countdown_down" file="graphics/pngs/dh_button_action_countdown_down.png" />
+	<icon name="button_action_dicetracker" file="graphics/pngs/dh_button_action_dicetracker.png" />
+	<icon name="button_action_dicetracker_down" file="graphics/pngs/dh_button_action_dicetracker_down.png" />
+	<icon name="button_action_damage_armor" file="graphics/pngs/dh_button_action_damage_armor.png" />
+	<icon name="button_action_damage_armor_down" file="graphics/pngs/dh_button_action_damage_armor_down.png" />
+	<icon name="button_action_damage_fear" file="graphics/pngs/dh_button_action_damage_fear.png" />
+	<icon name="button_action_damage_fear_down" file="graphics/pngs/dh_button_action_damage_fear_down.png" />
+	<icon name="button_action_damage_hope" file="graphics/pngs/dh_button_action_damage_hope.png" />
+	<icon name="button_action_damage_hope_down" file="graphics/pngs/dh_button_action_damage_hope_down.png" />
+	<icon name="button_action_damage_hp" file="graphics/pngs/dh_button_action_damage_hp.png" />
+	<icon name="button_action_damage_hp_down" file="graphics/pngs/dh_button_action_damage_hp_down.png" />
+	<icon name="button_action_damage_stress" file="graphics/pngs/dh_button_action_damage_stress.png" />
+	<icon name="button_action_damage_stress_down" file="graphics/pngs/dh_button_action_damage_stress_down.png" />
+	<icon name="button_action_heal_armor" file="graphics/pngs/dh_button_action_heal_armor.png" />
+	<icon name="button_action_heal_armor_down" file="graphics/pngs/dh_button_action_heal_armor_down.png" />
+	<icon name="button_action_heal_fear" file="graphics/pngs/dh_button_action_heal_fear.png" />
+	<icon name="button_action_heal_fear_down" file="graphics/pngs/dh_button_action_heal_fear_down.png" />
+	<icon name="button_action_heal_hope" file="graphics/pngs/dh_button_action_heal_hope.png" />
+	<icon name="button_action_heal_hope_down" file="graphics/pngs/dh_button_action_heal_hope_down.png" />
+	<icon name="button_action_heal_hp" file="graphics/pngs/dh_button_action_heal_hp.png" />
+	<icon name="button_action_heal_hp_down" file="graphics/pngs/dh_button_action_heal_hp_down.png" />
+	<icon name="button_action_heal_stress" file="graphics/pngs/dh_button_action_heal_stress.png" />
+	<icon name="button_action_heal_stress_down" file="graphics/pngs/dh_button_action_heal_stress_down.png" />
 </root>

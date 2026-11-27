@@ -1,3 +1,12 @@
+[COLOR=#FF8C00][SIZE=4][B]Update to v2.9.63 - Torchbearer[/B][/SIZE][/COLOR]
+
+[COLOR="#FF0000"][B]Changelog[/B][/COLOR]
+[LIST]
+[*] CoreRPG Manual Rolls Faux Roll Button: Added Hearth-styled dark-mode button_dialog_fauxroll.png and button_dialog_fauxroll_down.png (36x36) and registered both in graphics_icons.xml.
+[*] Global ct_subgroupbox Frame Promotion & Cleanup: Promoted ct_subgroupbox to graphics_frames.xml for all rulesets (including Savage Worlds Mass Battles) and removed the 4 duplicate definitions from 2E, 5E, OSE, and OSE2; pruned orphaned manualroll_entry frame and PNG.
+[*] Daggerheart Action Roll Buttons: Added 24 Hearth-styled dark-interior 21x21 icon pairs (dh_button_action_*) for Daggerheart's countdown, dicetracker, damage_armor/fear/hope/hp/stress, and heal_armor/fear/hope/hp/stress buttons in rulesets/daggerheart_compilation.xml.
+[/LIST]
+
 [COLOR=#FF8C00][SIZE=4][B]Update to v2.9.62 - Torchbearer[/B][/SIZE][/COLOR]
 
 [COLOR="#FF0000"][B]Changelog[/B][/COLOR]

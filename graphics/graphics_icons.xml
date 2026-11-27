@@ -138,6 +138,8 @@
 	<icon name="button_dialog_ok_down" file="graphics/pngs/button_dialog_ok_down.png" />
 	<icon name="button_dialog_roll" file="graphics/pngs/button_dialog_roll.png" />
 	<icon name="button_dialog_roll_down" file="graphics/pngs/button_dialog_roll_down.png" />
+	<icon name="button_dialog_fauxroll" file="graphics/pngs/button_dialog_fauxroll.png" />
+	<icon name="button_dialog_fauxroll_down" file="graphics/pngs/button_dialog_fauxroll_down.png" />
 
 	<!-- Character wizard -->
 	<icon name="button_alert" file="graphics/pngs/button_window_alert.png" />

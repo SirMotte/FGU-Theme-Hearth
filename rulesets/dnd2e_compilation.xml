@@ -286,11 +286,6 @@
     <offset>17,16,14,17</offset>
   </framedef>
 
-  <framedef name="ct_subgroupbox">
-    <bitmap file="graphics/pngs/ct_subgroupbox.png" />
-    <offset>12,12,12,12</offset>
-  </framedef>
-
 <!-- Control Frames -->
   <framedef name="field-blue">
     <bitmap file="graphics/pngs/field-blue.png" />

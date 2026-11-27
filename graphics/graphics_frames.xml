@@ -115,12 +115,6 @@
 		<middle rect="0,0,128,128" />
 	</framedef>
 
-	<!-- Manual Roll -->
-	<framedef name="manualroll_entry">
-		<bitmap file="graphics/pngs/manualroll_entry.png" />
-		<offset>95,95,95,95</offset>
-	</framedef>
-
 	<!-- Characters -->
 	<framedef name="acicon">
 		<bitmap file="graphics/pngs/acicon.png" />
@@ -306,6 +300,10 @@
 	<framedef name="ct_groupbox">
 		<bitmap file="graphics/pngs/groupbox.png" />
 		<offset>18,18,17,17</offset>
+	</framedef>
+	<framedef name="ct_subgroupbox">
+		<bitmap file="graphics/pngs/ct_subgroupbox.png" />
+		<offset>12,12,12,12</offset>
 	</framedef>
 	<framedef name="cteffect">
 		<bitmap file="graphics/pngs/cteffect.png" />
